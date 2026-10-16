@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phòng Thí Nghiệm Ảo KHTN | Trường Đại học Sư phạm TP. Hồ Chí Minh (HCMUE)</title>
+  <meta name="description" content="Phòng thí nghiệm ảo Khoa học Tự nhiên (Hóa học, Vật lý, Sinh học) - Thực hành thí nghiệm tương tác trực tiếp trên trình duyệt. Trường Đại học Sư phạm TP. Hồ Chí Minh (HCMUE).">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo-hcmue.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/lab.css">
+  <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
+  <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
+  <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
+
+  <style>
+    /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
+    .header-lab-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.45rem 1rem;
+      border-radius: 9999px;
+      background: var(--bg-surface-soft);
+      border: 1px solid var(--border-color);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 0.88rem;
+      letter-spacing: -0.01em;
+      transition: var(--transition);
+    }
+    [data-theme="dark"] .header-lab-badge {
+      color: #93c5fd;
+      background: rgba(30, 45, 74, 0.65);
+      border-color: #243454;
+    }
+    @media (max-width: 640px) {
+      .header-lab-badge {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== SITE HEADER & NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <!-- Brand & School Logo -->
+      <a href="index.html" class="nav-brand" title="Trường Đại học Sư phạm TP. Hồ Chí Minh (HCMUE)">
+        <img src="assets/images/logo-hcmue.png" alt="Logo Trường Đại học Sư phạm TP.HCM" class="brand-logo-img">
+        <div class="brand-text">
+          <div class="brand-title-vn">
+            <span>TRƯỜNG ĐẠI HỌC SƯ PHẠM</span>
+            <span>THÀNH PHỐ HỒ CHÍ MINH</span>
+          </div>
+          <div class="brand-divider"></div>
+          <span class="brand-sub-en">Ho Chi Minh City University of Education</span>
+        </div>
+      </a>
+
+      <!-- Actions: Lab Badge & Light/Dark Mode Toggle -->
+      <div class="nav-actions">
+        <div class="header-lab-badge">
+          <span>🧪</span>
+          <span>Phòng Thí Nghiệm Ảo KHTN</span>
+        </div>
+
+        <button class="theme-toggle-btn" id="themeToggle" title="Chuyển đổi chế độ Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== LAB HERO BANNER ==================== -->
+  <section class="lab-hero">
+    <div class="container lab-hero-content">
+      <div class="lab-hero-badge">🧪 Phòng Thí Nghiệm Ảo — HCMUE</div>
+      <h1>Thí Nghiệm Tương Tác</h1>
+      <p>Khám phá và thực hành các thí nghiệm Hóa học, Vật Lý và Sinh học trực tiếp trên trình duyệt. Được thiết kế dành cho giảng dạy và học tập — Trường Đại học Sư phạm TP. Hồ Chí Minh.</p>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIMENT TABS ==================== -->
+  <section class="section">
+    <div class="container">
+      <!-- Tab Navigation -->
+      <div class="lab-tabs">
+        <button class="lab-tab-btn active" data-tab="acid-base" onclick="switchTab('acid-base')">
+          <span class="tab-icon">🧪</span> Acid - Base & pH
+        </button>
+        <button class="lab-tab-btn" data-tab="balance" onclick="switchTab('balance')">
+          <span class="tab-icon">⚖️</span> Cân Bằng PTHH
+        </button>
+        <button class="lab-tab-btn" data-tab="molecule" onclick="switchTab('molecule')">
+          <span class="tab-icon">🔬</span> Phân Tử 3D
+        </button>
+        <button class="lab-tab-btn" data-tab="galvanic" onclick="switchTab('galvanic')">
+          <span class="tab-icon">🔋</span> Pin & Dãy Điện Hóa
+        </button>
+        <button class="lab-tab-btn" data-tab="electrolysis" onclick="switchTab('electrolysis')">
+          <span class="tab-icon">⚡</span> Điện Phân (DC)
+        </button>
+        <button class="lab-tab-btn" data-tab="circuit" onclick="switchTab('circuit')">
+          <span class="tab-icon">🔌</span> Vật Lý (Mạch Điện & Sự Nổi)
+        </button>
+        <button class="lab-tab-btn" data-tab="biology" onclick="switchTab('biology')">
+          <span class="tab-icon">🧬</span> Hệ Cơ Quan
+        </button>
+        <button class="lab-tab-btn" data-tab="oxygen" onclick="switchTab('oxygen')">
+          <span class="tab-icon">🔥</span> Thành Phần Không Khí (O₂)
+        </button>
+      </div>
+
+      <!-- Experiment 1: Acid-Base & pH -->
+      <div class="experiment-panel active" id="panel-acid-base">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>🧪 Thí Nghiệm Pha Trộn Acid - Base & Đo pH</h2>
+            <p>Chọn dung dịch acid và base, điều chỉnh nồng độ & thể tích, sau đó nhấn "Pha trộn" để xem kết quả phản ứng.</p>
+          </div>
+          <div id="experiment-acid-base">
+            <!-- Nội dung sẽ được tạo bởi lab-acid-base.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 2: Equation Balancing -->
+      <div class="experiment-panel" id="panel-balance">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>⚖️ Game: Cân Bằng Phương Trình Hóa Học</h2>
+            <p>Điền hệ số phù hợp để cân bằng phương trình. Có 3 cấp độ từ dễ đến khó — bạn sẵn sàng chưa?</p>
+          </div>
+          <div id="experiment-balance">
+            <!-- Nội dung sẽ được tạo bởi lab-balance.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 3: 3D Molecule Viewer -->
+      <div class="experiment-panel" id="panel-molecule">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>🔬 Mô Hình Cấu Trúc Phân Tử 3D</h2>
+            <p>Chọn phân tử để xem cấu trúc 3D. Kéo chuột để xoay, cuộn để phóng to/thu nhỏ mô hình.</p>
+          </div>
+          <div id="experiment-molecule">
+            <!-- Nội dung sẽ được tạo bởi lab-molecule.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 4: Galvanic Cell & Electrochemical Series -->
+      <div class="experiment-panel" id="panel-galvanic">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>🔋 Mô Phỏng Pin Điện Hóa & Dãy Điện Hóa Kim Loại (Hóa Học 12)</h2>
+            <p>Khám phá thế điện cực chuẩn (E°), bản chất phản ứng oxi hóa - khử tự diễn biến tạo dòng điện, vai trò của cầu muối KNO₃ và quy tắc alpha (α).</p>
+          </div>
+          <div id="experiment-galvanic">
+            <!-- Nội dung sẽ được tạo bởi lab-galvanic.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 5: Electrolysis (Điện Phân Dung Dịch & Nóng Chảy) -->
+      <div class="experiment-panel" id="panel-electrolysis">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>⚡ Mô Phỏng Thí Nghiệm Điện Phân & Định Luật Faraday (Hóa Học 12)</h2>
+            <p>Khám phá bản chất quá trình oxi hóa - khử cưỡng bức dưới tác dụng của dòng điện một chiều (DC), sự khử ở Catot (−), sự oxi hóa ở Anot (+), bọt khí, mạ điện và tính toán định luật Faraday.</p>
+          </div>
+          <div id="experiment-electrolysis">
+            <!-- Nội dung sẽ được tạo bởi lab-electrolysis.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 6: Physics (Circuit & Buoyancy) -->
+      <div class="experiment-panel" id="panel-circuit">
+        <div class="experiment-container">
+          <!-- Physics Sub-Navigation Switcher -->
+          <div class="physics-subtabs-nav">
+            <button class="physics-subtab-btn active" id="btn-sub-circuit" onclick="switchPhysicsSubtab('circuit')">
+              <span class="subtab-icon">⚡</span> Mạch Điện Tương Tác (PhET DC Kit)
+            </button>
+            <button class="physics-subtab-btn" id="btn-sub-buoyancy" onclick="switchPhysicsSubtab('buoyancy')">
+              <span class="subtab-icon">🍊</span> Sự Chìm Nổi & Bí Ẩn Quả Cam (Lực Đẩy Archimedes)
+              <span class="subtab-badge">Mới</span>
+            </button>
+          </div>
+
+          <!-- Sub-panel 1: DC Circuit Kit -->
+          <div id="subpanel-circuit" class="physics-subpanel active">
+            <div class="experiment-header">
+              <h2>⚡ Phòng Thí Nghiệm Mạch Điện Tương Tác (PhET DC Circuit Kit)</h2>
+              <p>Mô phỏng mạch điện trực quan theo phong cách PhET (Colorado): Kéo thả que đo Vôn kế, quan sát dòng electron trôi, gạt công tắc và khám phá định luật Ohm.</p>
+            </div>
+            <div id="experiment-circuit">
+              <!-- Nội dung sẽ được tạo bởi lab-circuit.js -->
+            </div>
+          </div>
+
+          <!-- Sub-panel 2: Buoyancy & Archimedes (Orange Misconception Lesson) -->
+          <div id="subpanel-buoyancy" class="physics-subpanel" style="display: none;">
+            
+            <!-- Thanh điều hướng học tập -->
+            <div class="buoyancy-section-nav">
+              <button class="b-nav-btn active" id="btn-nav-context" onclick="scrollToBuoyancyPart('buoyancy-context-sec')">
+                📖 1. Hiện Tượng Thực Tế & Đặt Vấn Đề
+              </button>
+              <button class="b-nav-btn" id="btn-nav-exp" onclick="scrollToBuoyancyPart('buoyancy-exp-sec')">
+                🧪 2. Thí Nghiệm Tương Tác 4 Bước (POE)
+              </button>
+            </div>
+
+            <!-- PHẦN 1: BỐI CẢNH DẠY HỌC & TÌNH HUỐNG XUẤT PHÁT -->
+            <div id="buoyancy-context-sec" class="buoyancy-context-container">
+              <div class="context-section-title">
+                <span>📖</span> HIỆN TƯỢNG THỰC TẾ & TÌNH HUỐNG KHÁM PHÁ
+              </div>
+              <div class="context-subtitle">
+                Cùng quan sát những nghịch lý thú vị từ thế giới tự nhiên và đời sống thường nhật để bắt đầu hành trình khám phá!
+              </div>
+
+              <!-- 3 Thẻ Bối Cảnh Đời Sống Thực Tiễn -->
+              <div class="buoyancy-story-grid">
+                <div class="story-card">
+                  <span class="story-icon">🚢</span>
+                  <h4>Nghịch Lý Tàu Thép & Viên Sỏi</h4>
+                  <p>Một con tàu chở hàng bằng thép siêu trọng tải nặng hàng chục vạn tấn vẫn kiêu hãnh rẽ sóng trên đại dương, nhưng một viên sỏi hay chiếc kim sắt chỉ nặng vài gam rơi xuống nước lại chìm ngay lập tức!</p>
+                </div>
+
+                <div class="story-card">
+                  <span class="story-icon">🏊</span>
+                  <h4>Cảm Giác Nhẹ Nhõm Dưới Nước</h4>
+                  <p>Khi bước xuống hồ bơi hay ngâm mình trong bồn tắm, ta cảm thấy cơ thể nhẹ bẫng đi lạ kỳ. Một bạn nhỏ có thể dễ dàng nhấc bổng người bạn nặng 50kg trong nước mà trên cạn không thể làm được.</p>
+                </div>
+
+                <div class="story-card">
+                  <span class="story-icon">🍊</span>
+                  <h4>Thử Thách Gian Bếp: Hai Quả Cam</h4>
+                  <p>Có 2 quả cam cùng một cây: 1 quả để nguyên vỏ và 1 quả bóc sạch vỏ. Đặt lên cân điện tử: Quả nguyên vỏ nặng hơn (260g) so với quả bóc vỏ (210g). Nếu thả cả hai vào nước, quả nào sẽ chìm, quả nào sẽ nổi?</p>
+                </div>
+              </div>
+
+              <!-- Thanh Kêu Gọi Hành Động (Call to Action) -->
+              <div class="context-cta-bar">
+                <div>
+                  <strong>💡 Thử thách dành cho em:</strong> Dự đoán quả cam nào chìm, quả nào nổi và kiểm chứng trực tiếp qua thí nghiệm ảo!
+                </div>
+                <button class="context-cta-btn" onclick="scrollToBuoyancyPart('buoyancy-exp-sec')">
+                  🧪 Tiến Hành Thí Nghiệm Kiểm Chứng Ngay ➔
+                </button>
+              </div>
+            </div>
+
+            <!-- PHẦN 2: THÍ NGHIỆM ẢO MÔ PHỎNG TƯƠNG TÁC (QUY TRÌNH 4 BƯỚC POE) -->
+            <div id="buoyancy-exp-sec">
+              <div class="experiment-header">
+                <h2>🍊 Thí Nghiệm Ảo: Sự Chìm Nổi & Bí Ẩn Quả Cam (Tiến Trình POE)</h2>
+                <p>Quy trình thực nghiệm 4 bước: <strong>(1) Cân dữ kiện ➔ (2) Dự đoán Plickers ➔ (3) Thả nước & Quan sát ➔ (4) Kính lúp & Bản chất Archimedes</strong>.</p>
+              </div>
+              <div id="experiment-buoyancy">
+                <!-- Nội dung thí nghiệm động và Canvas sẽ được tạo bởi lab-buoyancy.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 7: Biology Organ Systems -->
+      <div class="experiment-panel" id="panel-biology">
+        <div class="experiment-container">
+          <div class="experiment-header">
+            <h2>🧬 Sinh Học — Giải Phẫu 3D Các Hệ Cơ Quan (Phong Cách FA Quiz)</h2>
+            <p>Mô hình 3D giải phẫu y khoa tương tác chuẩn FA Course: Quan sát hệ hô hấp với quả tim đang đập theo chu kỳ sinh học, bóc tách cấu tạo và thử tài trắc nghiệm.</p>
+          </div>
+          <div id="experiment-biology">
+            <!-- Nội dung sẽ được tạo bởi lab-biology.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiment 8: Oxygen & Air Composition -->
+      <div class="experiment-panel" id="panel-oxygen">
+        <div class="experiment-container">
+          <div id="experiment-oxygen">
+            <!-- Nội dung sẽ được tạo bởi lab-oxygen.js -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="assets/images/logo-hcmue.png" alt="Logo HCMUE" class="footer-logo-img">
+            <div>
+              <div class="footer-brand-name">Trường Đại Học Sư Phạm TP.HCM</div>
+              <div class="footer-brand-sub">Phòng Thí Nghiệm Ảo Khoa Học Tự Nhiên</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Phòng Thí Nghiệm Ảo — nơi thực hành và khám phá thế giới Hóa học, Vật lý và Sinh học qua các mô hình tương tác trực quan.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Danh mục thí nghiệm</h4>
+          <ul class="footer-links">
+            <li><a href="#acid-base" onclick="switchTab('acid-base')" class="footer-link">🧪 Acid - Base & Đo pH</a></li>
+            <li><a href="#balance" onclick="switchTab('balance')" class="footer-link">⚖️ Cân Bằng PTHH & Phân Tử 3D</a></li>
+            <li><a href="#galvanic" onclick="switchTab('galvanic')" class="footer-link">🔋 Pin Điện Hóa & Điện Phân</a></li>
+            <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
+            <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Thông tin trường</h4>
+          <ul class="footer-links">
+            <li><a href="https://hcmue.edu.vn" target="_blank" rel="noopener noreferrer" class="footer-link">Trang Chủ HCMUE</a></li>
+            <li><span class="footer-link" style="color: var(--text-light);">280 An Dương Vương, Phường Chợ Quán, TP.HCM</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Phòng Thí Nghiệm Ảo Khoa Học Tự Nhiên.</div>
+        <div>Trường Đại Học Sư Phạm Thành Phố Hồ Chí Minh (HCMUE)</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lab-acid-base.js"></script>
+  <script src="assets/js/lab-balance.js"></script>
+  <script src="assets/js/lab-molecule.js"></script>
+  <script src="assets/js/lab-galvanic.js?v=20261016"></script>
+  <script src="assets/js/lab-electrolysis.js?v=20261016"></script>
+  <script src="assets/js/lab-circuit.js"></script>
+  <script src="assets/js/lab-buoyancy.js?v=20261016"></script>
+  <script src="assets/js/lab-biology.js?v=20261016"></script>
+  <script src="assets/js/lab-oxygen.js?v=20261016"></script>
+  
+  <script>
+    (function() {
+      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=electrolysis hoặc #electrolysis)
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialTab = urlParams.get('tab') || window.location.hash.replace('#', '');
+      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen'].includes(initialTab)) {
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', () => switchTab(initialTab));
+        } else {
+          switchTab(initialTab);
+        }
+      }
+    })();
+
+    // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học)
+    function switchTab(tabName) {
+      // Deactivate all tabs and panels
+      document.querySelectorAll('.lab-tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.experiment-panel').forEach(panel => panel.classList.remove('active'));
+      
+      // Activate selected
+      const targetBtn = document.querySelector(`[data-tab="${tabName}"]`);
+      if (targetBtn) targetBtn.classList.add('active');
+      const targetPanel = document.getElementById(`panel-${tabName}`);
+      if (targetPanel) targetPanel.classList.add('active');
+
+      // Kích hoạt tính toán lại kích thước canvas mô hình
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    // Subtab switching cho phân môn Vật Lý (Mạch điện DC vs Sự chìm nổi)
+    function switchPhysicsSubtab(subName) {
+      document.querySelectorAll('.physics-subtab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.physics-subpanel').forEach(panel => {
+        panel.classList.remove('active');
+        panel.style.display = 'none';
+      });
+
+      const targetBtn = document.getElementById(`btn-sub-${subName}`);
+      const targetPanel = document.getElementById(`subpanel-${subName}`);
+      if (targetBtn) targetBtn.classList.add('active');
+      if (targetPanel) {
+        targetPanel.classList.add('active');
+        targetPanel.style.display = 'block';
+      }
+
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    // Điều hướng giữa Hiện tượng thực tế và Thí nghiệm POE
+    function scrollToBuoyancyPart(partId) {
+      document.querySelectorAll('.b-nav-btn').forEach(b => b.classList.remove('active'));
+      if (partId === 'buoyancy-context-sec') {
+        const btn = document.getElementById('btn-nav-context');
+        if (btn) btn.classList.add('active');
+      } else if (partId === 'buoyancy-exp-sec') {
+        const btn = document.getElementById('btn-nav-exp');
+        if (btn) btn.classList.add('active');
+      }
+
+      const targetEl = document.getElementById(partId);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  </script>
+
+</body>
+</html>
