@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
+  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261016">
 
   <style>
     /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
@@ -67,12 +68,19 @@
         </div>
       </a>
 
-      <!-- Actions: Lab Badge & Light/Dark Mode Toggle -->
+      <!-- Actions: Header Menu (Phòng Thí Nghiệm Ảo / Bài tập) & Light/Dark Mode Toggle -->
       <div class="nav-actions">
-        <div class="header-lab-badge">
-          <span>🧪</span>
-          <span>Phòng Thí Nghiệm Ảo KHTN</span>
-        </div>
+        <nav class="header-nav-pills" aria-label="Menu chính">
+          <button type="button" class="header-nav-pill active" id="headerBtnLab" onclick="switchTab(window.lastLabTab || 'acid-base')">
+            <span>🧪</span>
+            <span class="pill-text-long">Phòng Thí Nghiệm Ảo KHTN</span>
+          </button>
+          <button type="button" class="header-nav-pill" id="headerBtnQuiz" onclick="switchTab('quiz')">
+            <span>📝</span>
+            <span>Bài tập</span>
+            <span class="pill-badge">70 câu</span>
+          </button>
+        </nav>
 
         <button class="theme-toggle-btn" id="themeToggle" title="Chuyển đổi chế độ Sáng / Tối" aria-label="Đổi giao diện Sáng / Tối">
           <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -131,6 +139,9 @@
         </button>
         <button class="lab-tab-btn" data-tab="oxygen" onclick="switchTab('oxygen')">
           <span class="tab-icon">🔥</span> Thành Phần Không Khí (O₂)
+        </button>
+        <button class="lab-tab-btn" data-tab="quiz" onclick="switchTab('quiz')">
+          <span class="tab-icon">📝</span> Bài tập
         </button>
       </div>
 
@@ -314,6 +325,15 @@
         </div>
       </div>
 
+      <!-- Experiment 9: Bài Tập Trắc Nghiệm (70 Câu Vật Lí Nhiệt 12) -->
+      <div class="experiment-panel" id="panel-quiz">
+        <div class="experiment-container">
+          <div id="experiment-quiz">
+            <!-- Nội dung sẽ được tạo bởi lab-quiz.js -->
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -342,6 +362,7 @@
             <li><a href="#galvanic" onclick="switchTab('galvanic')" class="footer-link">🔋 Pin Điện Hóa & Điện Phân</a></li>
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
+            <li><a href="#quiz" onclick="switchTab('quiz')" class="footer-link">📝 Bài tập (70 câu Vật Lí Nhiệt 12)</a></li>
           </ul>
         </div>
 
@@ -372,13 +393,16 @@
   <script src="assets/js/lab-buoyancy.js?v=20261016"></script>
   <script src="assets/js/lab-biology.js?v=20261016"></script>
   <script src="assets/js/lab-oxygen.js?v=20261016"></script>
+  <script src="assets/js/lab-quiz.js?v=20261016"></script>
   
   <script>
+    window.lastLabTab = 'acid-base';
+
     (function() {
-      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=electrolysis hoặc #electrolysis)
+      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=quiz hoặc #quiz)
       const urlParams = new URLSearchParams(window.location.search);
       const initialTab = urlParams.get('tab') || window.location.hash.replace('#', '');
-      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen'].includes(initialTab)) {
+      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen', 'quiz'].includes(initialTab)) {
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', () => switchTab(initialTab));
         } else {
@@ -387,8 +411,12 @@
       }
     })();
 
-    // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học)
+    // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học) và Bài tập
     function switchTab(tabName) {
+      if (tabName !== 'quiz') {
+        window.lastLabTab = tabName;
+      }
+
       // Deactivate all tabs and panels
       document.querySelectorAll('.lab-tab-btn').forEach(btn => btn.classList.remove('active'));
       document.querySelectorAll('.experiment-panel').forEach(panel => panel.classList.remove('active'));
@@ -398,6 +426,19 @@
       if (targetBtn) targetBtn.classList.add('active');
       const targetPanel = document.getElementById(`panel-${tabName}`);
       if (targetPanel) targetPanel.classList.add('active');
+
+      // Đồng bộ trạng thái nút trên thanh menu Header
+      const headerBtnLab = document.getElementById('headerBtnLab');
+      const headerBtnQuiz = document.getElementById('headerBtnQuiz');
+      if (headerBtnLab && headerBtnQuiz) {
+        if (tabName === 'quiz') {
+          headerBtnLab.classList.remove('active');
+          headerBtnQuiz.classList.add('active');
+        } else {
+          headerBtnQuiz.classList.remove('active');
+          headerBtnLab.classList.add('active');
+        }
+      }
 
       // Kích hoạt tính toán lại kích thước canvas mô hình
       window.dispatchEvent(new Event('resize'));
