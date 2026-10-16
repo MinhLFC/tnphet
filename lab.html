@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
-  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261016">
+  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261016b">
 
   <style>
     /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
@@ -75,10 +75,10 @@
             <span>🧪</span>
             <span class="pill-text-long">Phòng Thí Nghiệm Ảo KHTN</span>
           </button>
-          <button type="button" class="header-nav-pill" id="headerBtnQuiz" onclick="switchTab('quiz')">
+          <button type="button" class="header-nav-pill" id="headerBtnQuiz" onclick="switchTab('baitap')">
             <span>📝</span>
             <span>Bài tập</span>
-            <span class="pill-badge">70 câu</span>
+            <span class="pill-badge">300 câu</span>
           </button>
         </nav>
 
@@ -139,9 +139,6 @@
         </button>
         <button class="lab-tab-btn" data-tab="oxygen" onclick="switchTab('oxygen')">
           <span class="tab-icon">🔥</span> Thành Phần Không Khí (O₂)
-        </button>
-        <button class="lab-tab-btn" data-tab="quiz" onclick="switchTab('quiz')">
-          <span class="tab-icon">📝</span> Bài tập
         </button>
       </div>
 
@@ -325,10 +322,10 @@
         </div>
       </div>
 
-      <!-- Experiment 9: Bài Tập Trắc Nghiệm (70 Câu Vật Lí Nhiệt 12) -->
-      <div class="experiment-panel" id="panel-quiz">
+      <!-- Experiment 9: Bài Tập Trắc Nghiệm (300 Câu Vật Lí Nhiệt 12) -->
+      <div class="experiment-panel" id="panel-baitap">
         <div class="experiment-container">
-          <div id="experiment-quiz">
+          <div id="experiment-baitap">
             <!-- Nội dung sẽ được tạo bởi lab-quiz.js -->
           </div>
         </div>
@@ -362,7 +359,7 @@
             <li><a href="#galvanic" onclick="switchTab('galvanic')" class="footer-link">🔋 Pin Điện Hóa & Điện Phân</a></li>
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
-            <li><a href="#quiz" onclick="switchTab('quiz')" class="footer-link">📝 Bài tập (70 câu Vật Lí Nhiệt 12)</a></li>
+            <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (300 câu Vật Lí Nhiệt 12)</a></li>
           </ul>
         </div>
 
@@ -393,16 +390,16 @@
   <script src="assets/js/lab-buoyancy.js?v=20261016"></script>
   <script src="assets/js/lab-biology.js?v=20261016"></script>
   <script src="assets/js/lab-oxygen.js?v=20261016"></script>
-  <script src="assets/js/lab-quiz.js?v=20261016"></script>
+  <script src="assets/js/lab-quiz.js?v=20261016d"></script>
   
   <script>
     window.lastLabTab = 'acid-base';
 
     (function() {
-      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=quiz hoặc #quiz)
+      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=baitap hoặc #baitap)
       const urlParams = new URLSearchParams(window.location.search);
       const initialTab = urlParams.get('tab') || window.location.hash.replace('#', '');
-      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen', 'quiz'].includes(initialTab)) {
+      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen', 'baitap', 'quiz'].includes(initialTab)) {
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', () => switchTab(initialTab));
         } else {
@@ -413,7 +410,8 @@
 
     // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học) và Bài tập
     function switchTab(tabName) {
-      if (tabName !== 'quiz') {
+      if (tabName === 'quiz') tabName = 'baitap';
+      if (tabName !== 'baitap') {
         window.lastLabTab = tabName;
       }
 
@@ -422,16 +420,16 @@
       document.querySelectorAll('.experiment-panel').forEach(panel => panel.classList.remove('active'));
       
       // Activate selected
-      const targetBtn = document.querySelector(`[data-tab="${tabName}"]`);
+      const targetBtn = document.querySelector(`.lab-tab-btn[data-tab="${tabName}"]`);
       if (targetBtn) targetBtn.classList.add('active');
-      const targetPanel = document.getElementById(`panel-${tabName}`);
+      const targetPanel = document.querySelector(`.experiment-panel#panel-${tabName}`) || document.getElementById(`panel-${tabName}`);
       if (targetPanel) targetPanel.classList.add('active');
 
       // Đồng bộ trạng thái nút trên thanh menu Header
       const headerBtnLab = document.getElementById('headerBtnLab');
       const headerBtnQuiz = document.getElementById('headerBtnQuiz');
       if (headerBtnLab && headerBtnQuiz) {
-        if (tabName === 'quiz') {
+        if (tabName === 'baitap') {
           headerBtnLab.classList.remove('active');
           headerBtnQuiz.classList.add('active');
         } else {
