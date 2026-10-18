@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
-  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261016b">
+  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261018">
 
   <style>
     /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
@@ -68,7 +68,7 @@
         </div>
       </a>
 
-      <!-- Actions: Header Menu (Phòng Thí Nghiệm Ảo / Bài tập) & Light/Dark Mode Toggle -->
+      <!-- Actions: Header Menu (Phòng Thí Nghiệm Ảo / Bài tập / Đề Toán 12) & Light/Dark Mode Toggle -->
       <div class="nav-actions">
         <nav class="header-nav-pills" aria-label="Menu chính">
           <button type="button" class="header-nav-pill active" id="headerBtnLab" onclick="switchTab(window.lastLabTab || 'acid-base')">
@@ -79,6 +79,11 @@
             <span>📝</span>
             <span>Bài tập</span>
             <span class="pill-badge">300 câu</span>
+          </button>
+          <button type="button" class="header-nav-pill" id="headerBtnMath" onclick="switchTab('toan12')">
+            <span>📐</span>
+            <span>Đề Toán 12</span>
+            <span class="pill-badge">3 đề</span>
           </button>
         </nav>
 
@@ -331,6 +336,15 @@
         </div>
       </div>
 
+      <!-- Experiment 10: Bộ 3 Đề Ôn Định Kì Toán 12 (Đề số 2, Đề số 3, Đề số 4) -->
+      <div class="experiment-panel" id="panel-toan12">
+        <div class="experiment-container">
+          <div id="experiment-toan12">
+            <!-- Nội dung sẽ được tạo bởi lab-math.js -->
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -360,6 +374,7 @@
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
             <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (300 câu Vật Lí Nhiệt 12)</a></li>
+            <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (3 Đề Ôn HK1)</a></li>
           </ul>
         </div>
 
@@ -391,15 +406,16 @@
   <script src="assets/js/lab-biology.js?v=20261016"></script>
   <script src="assets/js/lab-oxygen.js?v=20261016"></script>
   <script src="assets/js/lab-quiz.js?v=20261016d"></script>
+  <script src="assets/js/lab-math.js?v=20261018c"></script>
   
   <script>
     window.lastLabTab = 'acid-base';
 
     (function() {
-      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=baitap hoặc #baitap)
+      // Hỗ trợ mở trực tiếp tab từ URL param hoặc hash (ví dụ: index.html?tab=baitap hoặc #toan12)
       const urlParams = new URLSearchParams(window.location.search);
       const initialTab = urlParams.get('tab') || window.location.hash.replace('#', '');
-      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen', 'baitap', 'quiz'].includes(initialTab)) {
+      if (initialTab && ['acid-base', 'balance', 'molecule', 'galvanic', 'electrolysis', 'circuit', 'biology', 'oxygen', 'baitap', 'quiz', 'toan12', 'math'].includes(initialTab)) {
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', () => switchTab(initialTab));
         } else {
@@ -408,10 +424,11 @@
       }
     })();
 
-    // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học) và Bài tập
+    // Tab switching logic cho các thí nghiệm (Hóa học, Vật Lý, Sinh học), Bài tập và Đề Toán 12
     function switchTab(tabName) {
       if (tabName === 'quiz') tabName = 'baitap';
-      if (tabName !== 'baitap') {
+      if (tabName === 'math') tabName = 'toan12';
+      if (tabName !== 'baitap' && tabName !== 'toan12') {
         window.lastLabTab = tabName;
       }
 
@@ -428,15 +445,10 @@
       // Đồng bộ trạng thái nút trên thanh menu Header
       const headerBtnLab = document.getElementById('headerBtnLab');
       const headerBtnQuiz = document.getElementById('headerBtnQuiz');
-      if (headerBtnLab && headerBtnQuiz) {
-        if (tabName === 'baitap') {
-          headerBtnLab.classList.remove('active');
-          headerBtnQuiz.classList.add('active');
-        } else {
-          headerBtnQuiz.classList.remove('active');
-          headerBtnLab.classList.add('active');
-        }
-      }
+      const headerBtnMath = document.getElementById('headerBtnMath');
+      if (headerBtnLab) headerBtnLab.classList.toggle('active', tabName !== 'baitap' && tabName !== 'toan12');
+      if (headerBtnQuiz) headerBtnQuiz.classList.toggle('active', tabName === 'baitap');
+      if (headerBtnMath) headerBtnMath.classList.toggle('active', tabName === 'toan12');
 
       // Kích hoạt tính toán lại kích thước canvas mô hình
       window.dispatchEvent(new Event('resize'));
