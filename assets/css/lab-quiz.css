@@ -1578,3 +1578,148 @@
 [data-theme="dark"] .math-kq-cells.revealed .math-kq-cell {
   color: #4ade80;
 }
+
+/* ==========================================================================
+   GIAO DIỆN BỘ 40 ĐỀ TOÁN 12 (20 ĐỀ GIỮA KÌ 1 + 20 ĐỀ CUỐI KÌ 1)
+   ========================================================================== */
+
+.math-exam-selector-bar.selector-40-exams {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+.math-exam-top-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.math-exam-grid-20 {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 0.4rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+@media (max-width: 960px) {
+  .math-exam-grid-20 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .math-exam-grid-20 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.math-exam-num-btn {
+  position: relative;
+  padding: 0.42rem 0.35rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-color);
+  background: var(--bg-surface-soft);
+  color: var(--text-main);
+  font-size: 0.82rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.math-exam-num-btn:hover {
+  border-color: var(--primary-color);
+  background: rgba(0, 60, 113, 0.08);
+  transform: translateY(-1px);
+}
+
+.math-exam-num-btn.active {
+  background: var(--primary-gradient);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 3px 10px rgba(0, 60, 113, 0.25);
+}
+
+.math-exam-num-btn.has-progress::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+/* Thẻ hiển thị đề gốc LaTeX sắc nét */
+.slide-q-body.has-q-img {
+  display: block;
+}
+
+.slide-q-latex-card {
+  background: #ffffff;
+  border: 1.5px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem 1.25rem 0.7rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  cursor: zoom-in;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.slide-q-latex-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 16px rgba(0, 60, 113, 0.14);
+}
+
+.slide-q-latex-img {
+  width: 100%;
+  max-width: calc(820px * var(--quiz-scale));
+  max-height: calc(440px * var(--quiz-scale));
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+/* Lưới 4 nút chọn nhanh A, B, C, D khi đề đã hiển thị trong ảnh LaTeX */
+.slide-options-grid.four-col-compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .slide-options-grid.four-col-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.slide-options-grid.four-col-compact .quiz-option-btn {
+  padding: 0.65rem 0.85rem;
+  align-items: center;
+}
+
+.slide-options-grid.four-col-compact .option-content {
+  font-size: calc(0.95rem * var(--quiz-scale));
+  font-weight: 700;
+}
+
+/* Lưới 2x2 cho 4 ý a, b, c, d khi đề Đúng/Sai đã hiển thị trong ảnh LaTeX */
+.math-tf-container.tf-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+@media (max-width: 768px) {
+  .math-tf-container.tf-grid-compact {
+    grid-template-columns: 1fr;
+  }
+}
+

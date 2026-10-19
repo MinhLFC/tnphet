@@ -2088,9 +2088,27 @@
     }
   };
 
+  // Tích hợp toàn bộ 40 đề từ window.MATH_ALL_EXAMS_DATA (20 đề Giữa kì 1 + 20 đề Cuối kì 1)
+  if (window.MATH_ALL_EXAMS_DATA) {
+    const legacyMap = { gk1_de2: MATH_EXAMS.de2, gk1_de3: MATH_EXAMS.de3, gk1_de4: MATH_EXAMS.de4 };
+    for (const [code, examData] of Object.entries(window.MATH_ALL_EXAMS_DATA)) {
+      const legacy = legacyMap[code];
+      if (legacy && legacy.questions) {
+        examData.questions.forEach((q, idx) => {
+          const lq = legacy.questions[idx];
+          if (lq && lq.explanation) {
+            q.explanation = lq.explanation;
+          }
+        });
+      }
+      MATH_EXAMS[code] = examData;
+    }
+  }
+
   // Trạng thái ứng dụng Đề Toán 12
   const state = {
-    examCode: 'de2', // 'de2' | 'de3' | 'de4'
+    examGroup: 'gk1', // 'gk1' (20 Đề Ôn Giữa Kì 1) | 'ck1' (20 Đề Ôn Cuối Kì 1)
+    examCode: window.MATH_ALL_EXAMS_DATA ? 'gk1_de1' : 'de2',
     mode: 'slide', // 'slide' | 'list'
     partFilter: 'ALL', // 'ALL' | 1 | 2 | 3
     statusFilter: 'ALL',
@@ -2100,15 +2118,24 @@
     sidebarOpen: true,
     isFullscreen: false,
     // Lưu kết quả tương tác theo từng đề: key = `${examCode}_${q.id}`
-    mcqAnswers: {}, // { 'de2_1': 'D' }
-    tfAnswers: {}, // { 'de2_13': { a: true, b: false } }
-    shortAnswers: {}, // { 'de2_17': '-3' }
-    revealedQuestions: {}, // { 'de2_1': true }
-    starredQuestions: {} // { 'de2_1': true }
+    mcqAnswers: {},
+    tfAnswers: {},
+    shortAnswers: {},
+    revealedQuestions: {},
+    starredQuestions: {}
   };
 
   function getQKey(qId) {
     return `${state.examCode}_${qId}`;
+  }
+
+  function hasExamProgress(code) {
+    const ex = MATH_EXAMS[code];
+    if (!ex) return false;
+    return ex.questions.some((q) => {
+      const k = `${code}_${q.id}`;
+      return !!(state.mcqAnswers[k] || state.tfAnswers[k] || state.shortAnswers[k]);
+    });
   }
 
   function normalizeNumberStr(str) {
@@ -2143,7 +2170,7 @@
   }
 
   function getCurrentExam() {
-    return MATH_EXAMS[state.examCode];
+    return MATH_EXAMS[state.examCode] || MATH_EXAMS.de2;
   }
 
   function getFilteredQuestions() {
@@ -2164,8 +2191,10 @@
 
       if (state.searchQuery.trim() !== '') {
         const kw = state.searchQuery.trim().toLowerCase();
-        const inLabel = q.label.toLowerCase().includes(kw) || `${q.id}` === kw;
-        const inText = q.question.toLowerCase().includes(kw) || q.topic.toLowerCase().includes(kw);
+        const inLabel = (q.label || '').toLowerCase().includes(kw) || `${q.id}` === kw;
+        const inText = (q.question || '').toLowerCase().includes(kw)
+          || (q.searchText || '').toLowerCase().includes(kw)
+          || (q.topic || '').toLowerCase().includes(kw);
         if (!inLabel && !inText) return false;
       }
       return true;
@@ -2210,8 +2239,8 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">📐</div>
             <div class="quiz-title-text">
-              <h3>Bộ 3 Đề Ôn Định Kì Toán 12 — Học Kì 1 (${exam.title})</h3>
-              <p>Trình chiếu sửa bài tương tác 3 phần: Trắc nghiệm ABCD • Đúng/Sai (a,b,c,d) • Trả lời ngắn (KQ)</p>
+              <h3>Bộ 20 Đề Ôn Định Kì Toán 12 — Học Kì 1 (${exam.title})</h3>
+              <p>Trọn bộ 20 Đề Ôn Tập Toán 12 (440 câu: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ) kèm lời giải chi tiết</p>
             </div>
           </div>
 
@@ -2235,7 +2264,7 @@
 
             <!-- Nút mở Bảng đáp án của đề đang chọn -->
             <button class="quiz-tool-btn" onclick="window.MathQuizApp.openAnswerKeyModal()">
-              🔑 Bảng đáp án ${exam.title}
+              🔑 Bảng đáp án ${exam.shortTitle || exam.title}
             </button>
 
             ${state.mode === 'slide' ? `
@@ -2258,33 +2287,46 @@
           </div>
         </div>
 
-        <!-- Thanh chọn 3 Đề (Đề số 2 / Đề số 3 / Đề số 4) & Lọc theo Phần 1, 2, 3 -->
-        <div class="math-exam-selector-bar">
-          <div class="math-exam-tabs">
-            <button class="math-exam-tab-btn ${state.examCode === 'de2' ? 'active' : ''}" onclick="window.MathQuizApp.selectExam('de2')">
-              📘 2. ĐỀ SỐ 2 (22 câu)
-            </button>
-            <button class="math-exam-tab-btn ${state.examCode === 'de3' ? 'active' : ''}" onclick="window.MathQuizApp.selectExam('de3')">
-              📗 3. ĐỀ SỐ 3 (22 câu)
-            </button>
-            <button class="math-exam-tab-btn ${state.examCode === 'de4' ? 'active' : ''}" onclick="window.MathQuizApp.selectExam('de4')">
-              📙 4. ĐỀ SỐ 4 (22 câu)
-            </button>
+        <!-- Thanh chọn Bộ 20 Đề Ôn Tập Toán 12 & Lọc theo Phần 1, 2, 3 -->
+        <div class="math-exam-selector-bar selector-40-exams">
+          <div class="math-exam-top-row">
+            <div style="font-weight: 700; font-size: 0.9rem; color: var(--primary-color); display: inline-flex; align-items: center; gap: 0.45rem;">
+              <span>📘 Chọn đề ôn tập (Đề 1 → Đề 20):</span>
+            </div>
+
+            <div class="math-part-pills">
+              <button class="math-part-pill ${state.partFilter === 'ALL' ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter('ALL')">
+                Tất cả (22 câu)
+              </button>
+              <button class="math-part-pill ${state.partFilter === 1 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(1)">
+                Phần 1: ABCD (12)
+              </button>
+              <button class="math-part-pill ${state.partFilter === 2 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(2)">
+                Phần 2: Đúng - Sai (4)
+              </button>
+              <button class="math-part-pill ${state.partFilter === 3 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(3)">
+                Phần 3: Trả lời ngắn (6)
+              </button>
+            </div>
           </div>
 
-          <div class="math-part-pills">
-            <button class="math-part-pill ${state.partFilter === 'ALL' ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter('ALL')">
-              Tất cả (22 câu)
-            </button>
-            <button class="math-part-pill ${state.partFilter === 1 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(1)">
-              Phần 1: Trắc nghiệm ABCD (12)
-            </button>
-            <button class="math-part-pill ${state.partFilter === 2 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(2)">
-              Phần 2: Đúng - Sai (4)
-            </button>
-            <button class="math-part-pill ${state.partFilter === 3 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(3)">
-              Phần 3: Trả lời ngắn (6)
-            </button>
+          <div class="math-exam-grid-20">
+            ${Array.from({ length: 20 }, (_, i) => {
+              const num = i + 1;
+              const code = `gk1_de${num}`;
+              const isAct = state.examCode === code;
+              const hasProg = hasExamProgress(code);
+              return `
+                <button
+                  type="button"
+                  class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                  onclick="window.MathQuizApp.selectExam('${code}')"
+                  title="Chuyển sang Đề số ${num}"
+                >
+                  Đề ${num}
+                </button>
+              `;
+            }).join('')}
           </div>
         </div>
 
@@ -2398,11 +2440,12 @@
     // 1. PHẦN 1: Trắc nghiệm 4 lựa chọn A, B, C, D
     if (q.type === 'mcq') {
       const userAns = state.mcqAnswers[key];
-      const maxOptLen = Math.max(...Object.values(q.options).map(s => s.length));
-      const useSingleCol = maxOptLen > 56;
+      const maxOptLen = Math.max(...Object.values(q.options || {}).map(s => (s || '').length));
+      const useSingleCol = !q.qImg && maxOptLen > 56;
+      const gridClass = q.qImg ? 'four-col-compact' : (useSingleCol ? 'single-col' : '');
 
       return `
-        <div class="slide-options-grid ${useSingleCol ? 'single-col' : ''}">
+        <div class="slide-options-grid ${gridClass}">
           ${['A', 'B', 'C', 'D'].map((letter) => {
             let stateClass = '';
             let statusIcon = '';
@@ -2449,7 +2492,7 @@
     if (q.type === 'tf') {
       const tfUser = state.tfAnswers[key] || {};
       return `
-        <div class="math-tf-container">
+        <div class="math-tf-container ${q.qImg ? 'tf-grid-compact' : ''}">
           ${['a', 'b', 'c', 'd'].map((subKey) => {
             const correctBool = q.answers[subKey];
             const userBool = tfUser[subKey];
@@ -2593,15 +2636,26 @@
         </div>
       </div>
 
-      <div class="slide-q-body ${fig ? 'has-figure' : ''}">
-        <div class="slide-q-text ${textSizeClass}">${q.question}</div>
-        ${fig ? `
-          <div class="slide-q-figure" onclick="window.MathQuizApp.zoomFigure('${q.figure}')" title="Nhấn vào hình để phóng to toàn màn hình">
-            ${fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="slide-q-figure-img" />` : fig.svg}
-            <div class="slide-q-figure-caption">${fig.caption || ''} <span class="zoom-hint-badge">🔍 Phóng to</span></div>
+      ${q.qImg ? `
+        <div class="slide-q-body has-q-img">
+          <div class="slide-q-latex-card" onclick="window.MathQuizApp.zoomImage('${q.qImg}', '${exam.title} • ${q.label}')" title="Nhấn vào đề bài / hình vẽ để phóng to toàn màn hình">
+            <img src="${q.qImg}" alt="${exam.title} - ${q.label}" class="slide-q-latex-img" />
+            <div class="slide-q-figure-caption">
+              📄 Nội dung đề gốc chuẩn LaTeX (${exam.title} • ${q.label}) <span class="zoom-hint-badge">🔍 Phóng to</span>
+            </div>
           </div>
-        ` : ''}
-      </div>
+        </div>
+      ` : `
+        <div class="slide-q-body ${fig ? 'has-figure' : ''}">
+          <div class="slide-q-text ${textSizeClass}">${q.question}</div>
+          ${fig ? `
+            <div class="slide-q-figure" onclick="window.MathQuizApp.zoomFigure('${q.figure}')" title="Nhấn vào hình để phóng to toàn màn hình">
+              ${fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="slide-q-figure-img" />` : fig.svg}
+              <div class="slide-q-figure-caption">${fig.caption || ''} <span class="zoom-hint-badge">🔍 Phóng to</span></div>
+            </div>
+          ` : ''}
+        </div>
+      `}
 
       ${renderPartInteraction(q, key, isRevealed)}
 
@@ -2728,9 +2782,20 @@
   }
 
   window.MathQuizApp = {
+    selectGroup(group) {
+      if (group !== 'gk1' && group !== 'ck1') return;
+      state.examGroup = group;
+      if (!state.examCode.startsWith(group + '_')) {
+        state.examCode = `${group}_de1`;
+      }
+      state.currentIndex = 0;
+      renderMathApp();
+    },
     selectExam(examCode) {
       if (!MATH_EXAMS[examCode]) return;
       state.examCode = examCode;
+      if (examCode.startsWith('gk1_')) state.examGroup = 'gk1';
+      else if (examCode.startsWith('ck1_')) state.examGroup = 'ck1';
       state.currentIndex = 0;
       renderMathApp();
     },
@@ -2879,6 +2944,16 @@
     closeAnswerKeyModal() {
       const modal = document.getElementById('mathAnswerKeyModal');
       if (modal) modal.classList.remove('open');
+    },
+    zoomImage(imgSrc, captionText) {
+      const modal = document.getElementById('mathFigureZoomModal');
+      const body = document.getElementById('mathFigureZoomBody');
+      const title = document.getElementById('mathFigureZoomTitle');
+      if (modal && body) {
+        if (title) title.textContent = `🔍 ${captionText || 'Phóng to đề bài'}`;
+        body.innerHTML = `<img src="${imgSrc}" alt="${captionText || ''}" class="quiz-zoom-img" />`;
+        modal.classList.add('open');
+      }
     },
     zoomFigure(figKey) {
       const fig = MATH_FIGURES[figKey];

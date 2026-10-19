@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
-  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261019b">
+  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261019c">
 
   <style>
     /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
@@ -336,7 +336,7 @@
         </div>
       </div>
 
-      <!-- Experiment 10: Bộ 3 Đề Ôn Định Kì Toán 12 (Đề số 2, Đề số 3, Đề số 4) -->
+      <!-- Experiment 10: Bộ 20 Đề Ôn Định Kì Toán 12 (Đề 1 -> Đề 20) -->
       <div class="experiment-panel" id="panel-toan12">
         <div class="experiment-container">
           <div id="experiment-toan12">
@@ -374,7 +374,7 @@
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
             <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (400 câu Vật Lí Nhiệt 12)</a></li>
-            <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (3 Đề Ôn HK1)</a></li>
+            <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (20 Đề Ôn HK1)</a></li>
           </ul>
         </div>
 
@@ -405,9 +405,10 @@
   <script src="assets/js/lab-buoyancy.js?v=20261016"></script>
   <script src="assets/js/lab-biology.js?v=20261016"></script>
   <script src="assets/js/lab-oxygen.js?v=20261016"></script>
-  <script src="assets/js/lab-quiz-tf.js?v=20261019b"></script>
-  <script src="assets/js/lab-quiz.js?v=20261019b"></script>
-  <script src="assets/js/lab-math.js?v=20261019b"></script>
+  <script src="assets/js/lab-quiz-tf.js?v=20261019d"></script>
+  <script src="assets/js/lab-quiz.js?v=20261019d"></script>
+  <script src="assets/js/lab-math-data.js?v=20261019d"></script>
+  <script src="assets/js/lab-math.js?v=20261019d"></script>
   
   <script>
     window.lastLabTab = 'acid-base';
@@ -471,7 +472,7 @@
         toan12: {
           badge: '📐 Đề Toán 12 — HCMUE',
           title: 'Đề Ôn Tập Toán 12',
-          desc: 'Bộ 3 đề ôn định kì Học kì 1 — Trắc nghiệm ABCD, Đúng/Sai và Trả lời ngắn, trình chiếu sửa bài trực tiếp trên lớp.'
+          desc: 'Trọn bộ 20 đề ôn định kì Học kì 1 (440 câu hỏi) — Trắc nghiệm ABCD, Đúng/Sai và Trả lời ngắn kèm lời giải chi tiết, trình chiếu sửa bài trực tiếp trên lớp.'
         }
       };
       const hero = heroContent[isQuizPage ? tabName : 'lab'];
