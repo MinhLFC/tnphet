@@ -1100,6 +1100,152 @@
   font-size: 0.94rem;
 }
 
+/* Range tabs chọn nhanh dải câu trên Bảng Đáp Án */
+.ak-range-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ak-range-tabs-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 0.2rem;
+}
+
+.ak-tab-btn {
+  padding: 0.28rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface-soft);
+  color: var(--text-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.ak-tab-btn:hover {
+  border-color: var(--primary-color);
+  background: rgba(0, 60, 113, 0.08);
+  transform: translateY(-1px);
+}
+
+.ak-tab-btn.active {
+  background: var(--primary-gradient);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 2px 6px rgba(0, 60, 113, 0.25);
+}
+
+/* Lưới thẻ Đúng / Sai tinh gọn 4 cột */
+.ak-grid-tf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.45rem;
+}
+
+@media (max-width: 1100px) {
+  .ak-grid-tf {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 780px) {
+  .ak-grid-tf {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .ak-grid-tf {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Thẻ câu Đúng / Sai tinh gọn dạng ngang */
+.ak-cell-tf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.34rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface-soft);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  gap: 0.35rem;
+}
+
+.ak-cell-tf:hover {
+  border-color: var(--primary-color);
+  background: rgba(0, 60, 113, 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ak-cell-qnum {
+  font-weight: 800;
+  font-size: 0.82rem;
+  color: var(--text-color);
+  white-space: nowrap;
+}
+
+.ak-tf-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.22rem;
+}
+
+.ak-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.12rem 0.32rem;
+  border-radius: 4px;
+  line-height: 1.15;
+}
+
+.ak-badge.is-true {
+  background: rgba(22, 163, 74, 0.12);
+  color: #15803d;
+  border: 1px solid rgba(22, 163, 74, 0.3);
+}
+
+.ak-badge.is-false {
+  background: rgba(239, 68, 68, 0.12);
+  color: #b91c1c;
+  border: 1px solid rgba(239, 68, 68, 0.28);
+}
+
+[data-theme="dark"] .ak-badge.is-true {
+  background: rgba(34, 197, 94, 0.22);
+  color: #4ade80;
+  border-color: rgba(74, 222, 128, 0.35);
+}
+
+[data-theme="dark"] .ak-badge.is-false {
+  background: rgba(239, 68, 68, 0.22);
+  color: #f87171;
+  border-color: rgba(248, 113, 113, 0.35);
+}
+
+.quiz-modal-box.modal-box-wide {
+  max-width: 1040px;
+  width: 95vw;
+}
+
+
 /* ==========================================================================
    PHẦN MỞ RỘNG CHO BỘ 3 ĐỀ TOÁN 12 (ĐỀ SỐ 2, ĐỀ SỐ 3, ĐỀ SỐ 4)
    Hỗ trợ Phần 1 (ABCD), Phần 2 (Đúng/Sai a-b-c-d), Phần 3 (Trả lời ngắn KQ)

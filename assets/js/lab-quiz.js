@@ -4279,8 +4279,28 @@
     // Trạng thái Phần II (100 câu Đúng/Sai)
     tfAnswers: {}, // { [id]: { a: true|false, b: true|false, c: true|false, d: true|false } }
     tfRevealed: {}, // { [id]: true }
-    tfStarred: {} // { [id]: true }
+    tfStarred: {}, // { [id]: true }
+    akRangeFilter: 'ALL' // 'ALL' | '1-25' | '26-50' | '51-75' | '76-100'
   };
+
+  function renderAkTFGridContent() {
+    let list = TF_QUESTIONS;
+    if (state.akRangeFilter === '1-25') list = TF_QUESTIONS.filter(q => q.id >= 1 && q.id <= 25);
+    else if (state.akRangeFilter === '26-50') list = TF_QUESTIONS.filter(q => q.id >= 26 && q.id <= 50);
+    else if (state.akRangeFilter === '51-75') list = TF_QUESTIONS.filter(q => q.id >= 51 && q.id <= 75);
+    else if (state.akRangeFilter === '76-100') list = TF_QUESTIONS.filter(q => q.id >= 76 && q.id <= 100);
+
+    return list.map(q => `
+      <div class="ak-cell-tf" onclick="window.QuizApp.jumpToQuestionId(${q.id}); window.QuizApp.closeAnswerKeyModal();" title="Chuyển đến Câu ${q.id} (Phần II: Đúng / Sai)">
+        <span class="ak-cell-qnum">Câu ${q.id}</span>
+        <div class="ak-tf-badges">
+          ${['a', 'b', 'c', 'd'].map(k => `
+            <span class="ak-badge ${q.answers[k] ? 'is-true' : 'is-false'}">${k}: <b>${q.answers[k] ? 'Đ' : 'S'}</b></span>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
 
   function getActiveQuestionPool() {
     return state.section === 'tf' ? TF_QUESTIONS : QUIZ_QUESTIONS;
@@ -4528,26 +4548,26 @@
 
       <!-- Modal Bảng Đáp Án Tổng Hợp -->
       <div class="quiz-modal-backdrop" id="answerKeyModal" onclick="if(event.target===this) window.QuizApp.closeAnswerKeyModal()">
-        <div class="quiz-modal-box">
+        <div class="quiz-modal-box ${isTF ? 'modal-box-wide' : ''}">
           <div class="quiz-modal-header">
             <h3>📋 BẢNG ĐÁP ÁN CHUẨN — ${isTF ? `PHẦN II: 100 CÂU ĐÚNG / SAI (VẬT LÍ NHIỆT 12)` : `PHẦN I: 300 CÂU TRẮC NGHIỆM (VẬT LÍ NHIỆT 12)`}</h3>
             <button class="quiz-modal-close" onclick="window.QuizApp.closeAnswerKeyModal()">✕</button>
           </div>
           <div class="quiz-modal-body">
-            <p style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 0.9rem;">
+            <p style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 0.75rem;">
               💡 Nhấn vào bất kỳ câu nào trong bảng dưới đây để chuyển thẳng tới trình chiếu và xem lời giải chi tiết của câu đó:
             </p>
             ${isTF ? `
-              <div class="answer-key-table-grid" style="grid-template-columns: repeat(2, 1fr);">
-                ${TF_QUESTIONS.map(q => {
-                  const summary = ['a', 'b', 'c', 'd'].map(k => `${k}) <b>${q.answers[k] ? 'Đ' : 'S'}</b>`).join(' &nbsp;|&nbsp; ');
-                  return `
-                    <div class="ak-cell" onclick="window.QuizApp.jumpToQuestionId(${q.id}); window.QuizApp.closeAnswerKeyModal();">
-                      <span>Câu ${q.id}:</span>
-                      <span style="font-size: 0.84rem; color: #15803d;">${summary}</span>
-                    </div>
-                  `;
-                }).join('')}
+              <div class="ak-range-tabs">
+                <span class="ak-range-tabs-label">⚡ Dải câu:</span>
+                <button type="button" class="ak-tab-btn ${state.akRangeFilter === 'ALL' ? 'active' : ''}" data-range="ALL" onclick="window.QuizApp.setAkRange('ALL')">Tất cả (1 - 100)</button>
+                <button type="button" class="ak-tab-btn ${state.akRangeFilter === '1-25' ? 'active' : ''}" data-range="1-25" onclick="window.QuizApp.setAkRange('1-25')">Câu 1 - 25</button>
+                <button type="button" class="ak-tab-btn ${state.akRangeFilter === '26-50' ? 'active' : ''}" data-range="26-50" onclick="window.QuizApp.setAkRange('26-50')">Câu 26 - 50</button>
+                <button type="button" class="ak-tab-btn ${state.akRangeFilter === '51-75' ? 'active' : ''}" data-range="51-75" onclick="window.QuizApp.setAkRange('51-75')">Câu 51 - 75</button>
+                <button type="button" class="ak-tab-btn ${state.akRangeFilter === '76-100' ? 'active' : ''}" data-range="76-100" onclick="window.QuizApp.setAkRange('76-100')">Câu 76 - 100</button>
+              </div>
+              <div class="ak-grid-tf" id="akGridContainer">
+                ${renderAkTFGridContent()}
               </div>
             ` : `
               <div class="answer-key-table-grid">
@@ -5076,6 +5096,16 @@
     closeAnswerKeyModal() {
       const modal = document.getElementById('answerKeyModal');
       if (modal) modal.classList.remove('open');
+    },
+    setAkRange(range) {
+      state.akRangeFilter = range;
+      const container = document.getElementById('akGridContainer');
+      if (container) {
+        container.innerHTML = renderAkTFGridContent();
+      }
+      document.querySelectorAll('#answerKeyModal .ak-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.range === range);
+      });
     },
     zoomFigure(figKey) {
       const fig = TF_FIGURES[figKey] || QUIZ_FIGURES[figKey];

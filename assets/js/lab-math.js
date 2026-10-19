@@ -2331,7 +2331,7 @@
 
       <!-- Modal Bảng Đáp Án Chuẩn Của Đề Đang Chọn -->
       <div class="quiz-modal-backdrop" id="mathAnswerKeyModal" onclick="if(event.target===this) window.MathQuizApp.closeAnswerKeyModal()">
-        <div class="quiz-modal-box">
+        <div class="quiz-modal-box modal-box-wide">
           <div class="quiz-modal-header">
             <h3>📋 BẢNG ĐÁP ÁN CHUẨN — ${exam.title} (TOÁN 12)</h3>
             <button class="quiz-modal-close" onclick="window.MathQuizApp.closeAnswerKeyModal()">✕</button>
@@ -2351,14 +2351,18 @@
               `).join('')}
             </div>
 
-            <h4 style="margin: 0.5rem 0; color: var(--primary-color);">PHẦN II. Câu trắc nghiệm đúng sai (4 câu)</h4>
-            <div class="answer-key-table-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 1.15rem;">
+            <h4 style="margin: 0.85rem 0 0.45rem; color: var(--primary-color);">PHẦN II. Câu trắc nghiệm đúng sai (4 câu)</h4>
+            <div class="ak-grid-tf" style="margin-bottom: 1.15rem;">
               ${exam.questions.filter(q => q.part === 2).map(q => {
-                const summary = ['a', 'b', 'c', 'd'].map(k => `${k}) <b>${q.answers[k] ? 'Đ' : 'S'}</b>`).join(' &nbsp;|&nbsp; ');
+                const qNum = q.label.replace('Phần 2 - ', '');
                 return `
-                  <div class="ak-cell" onclick="window.MathQuizApp.jumpToQuestionId(${q.id}); window.MathQuizApp.closeAnswerKeyModal();">
-                    <span>${q.label.replace('Phần 2 - ', '')}:</span>
-                    <span style="font-size: 0.84rem; color: #15803d;">${summary}</span>
+                  <div class="ak-cell-tf" onclick="window.MathQuizApp.jumpToQuestionId(${q.id}); window.MathQuizApp.closeAnswerKeyModal();" title="Chuyển đến ${q.label}">
+                    <span class="ak-cell-qnum">${qNum}</span>
+                    <div class="ak-tf-badges">
+                      ${['a', 'b', 'c', 'd'].map(k => `
+                        <span class="ak-badge ${q.answers[k] ? 'is-true' : 'is-false'}">${k}: <b>${q.answers[k] ? 'Đ' : 'S'}</b></span>
+                      `).join('')}
+                    </div>
                   </div>
                 `;
               }).join('')}
