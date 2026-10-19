@@ -443,52 +443,188 @@
 .slide-q-body {
   display: flex;
   flex-direction: column;
-  gap: 1.15rem;
+  gap: 1.1rem;
 }
 
 .slide-q-body.has-figure {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.9fr);
-  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(380px, 1.15fr);
+  gap: 1.35rem;
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .slide-q-body.has-figure {
     grid-template-columns: 1fr;
   }
 }
 
 .slide-q-text {
-  font-size: calc(1.26rem * var(--quiz-scale));
-  font-weight: 700;
+  font-size: calc(1.12rem * var(--quiz-scale));
+  font-weight: 600;
   color: var(--text-main);
-  line-height: 1.55;
+  line-height: 1.56;
+}
+
+/* Tự động điều chỉnh cỡ chữ vừa vặn khi đề bài dài hoặc có nhiều bước thí nghiệm */
+.slide-q-text.q-text-medium {
+  font-size: calc(1.02rem * var(--quiz-scale));
+  font-weight: 600;
+  line-height: 1.54;
+}
+
+.slide-q-text.q-text-long {
+  font-size: calc(0.96rem * var(--quiz-scale));
+  font-weight: 500;
+  line-height: 1.52;
 }
 
 .slide-q-figure {
+  width: 100%;
   background: var(--bg-surface-soft);
-  border: 1px solid var(--border-color);
+  border: 1.5px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 1rem;
+  padding: 1.1rem 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: zoom-in;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.slide-q-figure:hover {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-sm);
 }
 
 .slide-q-figure svg {
+  width: 100% !important;
   max-width: 100%;
+  height: auto !important;
+  max-height: 360px;
+  display: block;
+}
+
+.slide-q-figure img,
+.slide-q-figure-img {
+  max-width: 100%;
+  max-height: 360px;
+  width: auto;
   height: auto;
-  max-height: 240px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .slide-q-figure-caption {
-  margin-top: 0.45rem;
-  font-size: 0.78rem;
+  margin-top: 0.55rem;
+  font-size: calc(0.84rem * var(--quiz-scale));
   color: var(--text-muted);
   font-weight: 600;
+}
+
+.zoom-hint-badge {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(0, 60, 113, 0.08);
+  color: var(--primary-color);
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+/* Modal phóng to hình vẽ khi trình chiếu */
+.quiz-figure-zoom-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10080;
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(5px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  cursor: zoom-out;
+}
+
+.quiz-figure-zoom-backdrop.open {
+  display: flex;
+}
+
+.quiz-figure-zoom-box {
+  background: var(--bg-surface);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  max-width: 980px;
+  width: 92vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: var(--shadow-lg);
+  cursor: default;
+}
+
+.quiz-figure-zoom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.quiz-figure-zoom-header h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.quiz-figure-zoom-header .quiz-modal-close {
+  width: auto;
+  height: auto;
+  padding: 0.4rem 0.85rem;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.quiz-figure-zoom-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.quiz-figure-zoom-box svg {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 75vh;
+  display: block;
+}
+
+.quiz-figure-zoom-box img,
+.quiz-zoom-img {
+  max-width: 100%;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 /* Lưới 4 đáp án A, B, C, D */

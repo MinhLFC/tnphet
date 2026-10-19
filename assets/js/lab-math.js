@@ -959,6 +959,13 @@
     }
   };
 
+  // Gắn đường dẫn ảnh chụp trực tiếp từ đề gốc PDF cho toàn bộ hình vẽ Toán
+  for (const [figKey, figObj] of Object.entries(MATH_FIGURES)) {
+    if (figObj) {
+      figObj.img = `assets/images/quiz/math/${figKey}.png`;
+    }
+  }
+
   // =========================================================================
   // DỮ LIỆU 3 ĐỀ TOÁN 12 (ĐỀ SỐ 2, ĐỀ SỐ 3, ĐỀ SỐ 4)
   // Khớp chính xác 100% với BẢNG ĐÁP ÁN chuẩn của giáo viên
@@ -2369,6 +2376,17 @@
           </div>
         </div>
       </div>
+
+      <!-- Modal Phóng To Hình Vẽ / Bảng Số Liệu Khi Trình Chiếu -->
+      <div class="quiz-figure-zoom-backdrop" id="mathFigureZoomModal" onclick="if(event.target===this) window.MathQuizApp.closeZoomFigure()">
+        <div class="quiz-figure-zoom-box">
+          <div class="quiz-figure-zoom-header">
+            <h4 id="mathFigureZoomTitle">🔍 Phóng to hình vẽ minh họa</h4>
+            <button class="quiz-modal-close" onclick="window.MathQuizApp.closeZoomFigure()">✕ Đóng (ESC)</button>
+          </div>
+          <div class="quiz-figure-zoom-body" id="mathFigureZoomBody"></div>
+        </div>
+      </div>
     `;
   }
 
@@ -2537,6 +2555,13 @@
     return '';
   }
 
+  function getQuestionTextSizeClass(q, hasFigure) {
+    const plainLen = (q.question || '').replace(/<[^>]+>/g, '').length;
+    if (plainLen > 320 || (hasFigure && plainLen > 210)) return 'q-text-long';
+    if (plainLen > 180 || (hasFigure && plainLen > 120)) return 'q-text-medium';
+    return '';
+  }
+
   function renderQuestionCardContent(q, isSlideMode) {
     const exam = getCurrentExam();
     const key = getQKey(q.id);
@@ -2544,6 +2569,7 @@
     const isStarred = !!state.starredQuestions[key];
     const fig = q.figure ? MATH_FIGURES[q.figure] : null;
     const status = evaluateQuestionStatus(q);
+    const textSizeClass = getQuestionTextSizeClass(q, !!fig);
 
     return `
       <div class="slide-card-header">
@@ -2564,11 +2590,11 @@
       </div>
 
       <div class="slide-q-body ${fig ? 'has-figure' : ''}">
-        <div class="slide-q-text">${q.question}</div>
+        <div class="slide-q-text ${textSizeClass}">${q.question}</div>
         ${fig ? `
-          <div class="slide-q-figure">
-            ${fig.svg}
-            <div class="slide-q-figure-caption">${fig.caption}</div>
+          <div class="slide-q-figure" onclick="window.MathQuizApp.zoomFigure('${q.figure}')" title="Nhấn vào hình để phóng to toàn màn hình">
+            ${fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="slide-q-figure-img" />` : fig.svg}
+            <div class="slide-q-figure-caption">${fig.caption || ''} <span class="zoom-hint-badge">🔍 Phóng to</span></div>
           </div>
         ` : ''}
       </div>
@@ -2849,6 +2875,22 @@
     closeAnswerKeyModal() {
       const modal = document.getElementById('mathAnswerKeyModal');
       if (modal) modal.classList.remove('open');
+    },
+    zoomFigure(figKey) {
+      const fig = MATH_FIGURES[figKey];
+      if (!fig) return;
+      const modal = document.getElementById('mathFigureZoomModal');
+      const body = document.getElementById('mathFigureZoomBody');
+      const title = document.getElementById('mathFigureZoomTitle');
+      if (modal && body) {
+        if (title) title.textContent = `🔍 ${fig.caption || 'Phóng to hình vẽ minh họa'}`;
+        body.innerHTML = fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="quiz-zoom-img" />` : fig.svg;
+        modal.classList.add('open');
+      }
+    },
+    closeZoomFigure() {
+      const modal = document.getElementById('mathFigureZoomModal');
+      if (modal) modal.classList.remove('open');
     }
   };
 
@@ -2860,10 +2902,17 @@
     const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
     if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') return;
 
-    if (e.key === 'Escape' && state.isFullscreen) {
-      state.isFullscreen = false;
-      renderMathApp();
-      return;
+    if (e.key === 'Escape') {
+      const zoomModal = document.getElementById('mathFigureZoomModal');
+      if (zoomModal && zoomModal.classList.contains('open')) {
+        window.MathQuizApp.closeZoomFigure();
+        return;
+      }
+      if (state.isFullscreen) {
+        state.isFullscreen = false;
+        renderMathApp();
+        return;
+      }
     }
 
     if (state.mode !== 'slide') return;

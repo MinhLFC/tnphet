@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/lab-galvanic.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-electrolysis.css?v=20261016">
   <link rel="stylesheet" href="assets/css/lab-oxygen.css?v=20261016">
-  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261018">
+  <link rel="stylesheet" href="assets/css/lab-quiz.css?v=20261019">
 
   <style>
     /* Bổ sung giao diện cho nhãn Phòng Thí Nghiệm Ảo trên Header */
@@ -78,7 +78,7 @@
           <button type="button" class="header-nav-pill" id="headerBtnQuiz" onclick="switchTab('baitap')">
             <span>📝</span>
             <span>Bài tập</span>
-            <span class="pill-badge">300 câu</span>
+            <span class="pill-badge">400 câu</span>
           </button>
           <button type="button" class="header-nav-pill" id="headerBtnMath" onclick="switchTab('toan12')">
             <span>📐</span>
@@ -110,17 +110,17 @@
   <!-- ==================== LAB HERO BANNER ==================== -->
   <section class="lab-hero">
     <div class="container lab-hero-content">
-      <div class="lab-hero-badge">🧪 Phòng Thí Nghiệm Ảo — HCMUE</div>
-      <h1>Thí Nghiệm Tương Tác</h1>
-      <p>Khám phá và thực hành các thí nghiệm Hóa học, Vật Lý và Sinh học trực tiếp trên trình duyệt. Được thiết kế dành cho giảng dạy và học tập — Trường Đại học Sư phạm TP. Hồ Chí Minh.</p>
+      <div class="lab-hero-badge" id="labHeroBadge">🧪 Phòng Thí Nghiệm Ảo — HCMUE</div>
+      <h1 id="labHeroTitle">Thí Nghiệm Tương Tác</h1>
+      <p id="labHeroDesc">Khám phá và thực hành các thí nghiệm Hóa học, Vật Lý và Sinh học trực tiếp trên trình duyệt. Được thiết kế dành cho giảng dạy và học tập — Trường Đại học Sư phạm TP. Hồ Chí Minh.</p>
     </div>
   </section>
 
   <!-- ==================== EXPERIMENT TABS ==================== -->
   <section class="section">
     <div class="container">
-      <!-- Tab Navigation -->
-      <div class="lab-tabs">
+      <!-- Tab Navigation (ẩn khi đang ở trang Bài tập / Đề Toán 12) -->
+      <div class="lab-tabs" id="labExperimentTabs">
         <button class="lab-tab-btn active" data-tab="acid-base" onclick="switchTab('acid-base')">
           <span class="tab-icon">🧪</span> Acid - Base & pH
         </button>
@@ -373,7 +373,7 @@
             <li><a href="#galvanic" onclick="switchTab('galvanic')" class="footer-link">🔋 Pin Điện Hóa & Điện Phân</a></li>
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
-            <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (300 câu Vật Lí Nhiệt 12)</a></li>
+            <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (400 câu Vật Lí Nhiệt 12)</a></li>
             <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (3 Đề Ôn HK1)</a></li>
           </ul>
         </div>
@@ -405,8 +405,9 @@
   <script src="assets/js/lab-buoyancy.js?v=20261016"></script>
   <script src="assets/js/lab-biology.js?v=20261016"></script>
   <script src="assets/js/lab-oxygen.js?v=20261016"></script>
-  <script src="assets/js/lab-quiz.js?v=20261016d"></script>
-  <script src="assets/js/lab-math.js?v=20261018c"></script>
+  <script src="assets/js/lab-quiz-tf.js?v=20261019"></script>
+  <script src="assets/js/lab-quiz.js?v=20261019"></script>
+  <script src="assets/js/lab-math.js?v=20261019"></script>
   
   <script>
     window.lastLabTab = 'acid-base';
@@ -449,6 +450,37 @@
       if (headerBtnLab) headerBtnLab.classList.toggle('active', tabName !== 'baitap' && tabName !== 'toan12');
       if (headerBtnQuiz) headerBtnQuiz.classList.toggle('active', tabName === 'baitap');
       if (headerBtnMath) headerBtnMath.classList.toggle('active', tabName === 'toan12');
+
+      // Ẩn thanh nút thí nghiệm khi ở trang Bài tập / Đề Toán 12
+      const isQuizPage = tabName === 'baitap' || tabName === 'toan12';
+      const labTabsBar = document.getElementById('labExperimentTabs');
+      if (labTabsBar) labTabsBar.style.display = isQuizPage ? 'none' : '';
+
+      // Đổi nội dung banner xanh theo từng trang
+      const heroContent = {
+        lab: {
+          badge: '🧪 Phòng Thí Nghiệm Ảo — HCMUE',
+          title: 'Thí Nghiệm Tương Tác',
+          desc: 'Khám phá và thực hành các thí nghiệm Hóa học, Vật Lý và Sinh học trực tiếp trên trình duyệt. Được thiết kế dành cho giảng dạy và học tập — Trường Đại học Sư phạm TP. Hồ Chí Minh.'
+        },
+        baitap: {
+          badge: '📝 Bài Tập Vật Lí 12 — HCMUE',
+          title: 'Bài Tập Vật Lí 12',
+          desc: 'Chương 1: Vật lí nhiệt — 300 câu trắc nghiệm nhiều lựa chọn & 100 câu Đúng/Sai, trình chiếu sửa bài trực tiếp trên lớp.'
+        },
+        toan12: {
+          badge: '📐 Đề Toán 12 — HCMUE',
+          title: 'Đề Ôn Tập Toán 12',
+          desc: 'Bộ 3 đề ôn định kì Học kì 1 — Trắc nghiệm ABCD, Đúng/Sai và Trả lời ngắn, trình chiếu sửa bài trực tiếp trên lớp.'
+        }
+      };
+      const hero = heroContent[isQuizPage ? tabName : 'lab'];
+      const heroBadge = document.getElementById('labHeroBadge');
+      const heroTitle = document.getElementById('labHeroTitle');
+      const heroDesc = document.getElementById('labHeroDesc');
+      if (heroBadge) heroBadge.textContent = hero.badge;
+      if (heroTitle) heroTitle.textContent = hero.title;
+      if (heroDesc) heroDesc.textContent = hero.desc;
 
       // Kích hoạt tính toán lại kích thước canvas mô hình
       window.dispatchEvent(new Event('resize'));
