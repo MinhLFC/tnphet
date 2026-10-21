@@ -964,7 +964,26 @@
     pbc_p1_q4: { caption: 'Đồ thị hàm số bậc bốn y = f(x) và đường thẳng y = −1/2' },
     pbc_p1_q6: { caption: 'Bảng biến thiên của hàm số y = f(x)' },
     pbc_p1_q10: { caption: 'Bảng biến thiên xác định cực trị của y = f(x)' },
-    pbc_p1_q11: { caption: 'Đồ thị hàm số bậc ba y = ax³ + bx² + cx + d' },
+    pbc_p1_q11: {
+      caption: 'Đồ thị hàm số bậc ba y = ax³ + bx² + cx + d',
+      svg: `
+        <svg viewBox="0 0 260 220" width="100%" height="200" style="max-height:220px; display:block; margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+          <line x1="20" y1="120" x2="240" y2="120" stroke="currentColor" stroke-width="1.6" />
+          <polygon points="240,116 248,120 240,124" fill="currentColor" />
+          <text x="242" y="112" font-size="12" font-weight="700" fill="currentColor">x</text>
+
+          <line x1="90" y1="200" x2="90" y2="20" stroke="currentColor" stroke-width="1.6" />
+          <polygon points="86,20 90,12 94,20" fill="currentColor" />
+          <text x="96" y="22" font-size="12" font-weight="700" fill="currentColor">y</text>
+          <text x="76" y="134" font-size="12" font-weight="700" fill="currentColor">O</text>
+
+          <path d="M 32 30 C 50 170, 70 160, 90 138 C 120 100, 150 40, 180 60 C 200 75, 215 150, 228 200" fill="none" stroke="#2563eb" stroke-width="2.6" />
+
+          <circle cx="90" cy="138" r="3.5" fill="#dc2626" />
+          <text x="98" y="143" font-size="11" font-weight="700" fill="#dc2626">d < 0</text>
+        </svg>
+      `
+    },
     pbc_p1_q12: { caption: 'Đồ thị 4 hàm số phân thức tương ứng 4 phương án A, B, C, D' },
     pbc_p2_q2: { caption: 'Mô hình khung cửa sổ bán nguyệt ghép hình chữ nhật' },
     pbc_p2_q3: { caption: 'Mô hình bình hộp chữ nhật chứa quả cầu sắt ngập nước' },
@@ -985,7 +1004,7 @@
   // Gắn đường dẫn ảnh chụp trực tiếp từ đề gốc PDF cho toàn bộ hình vẽ Toán
   for (const [figKey, figObj] of Object.entries(MATH_FIGURES)) {
     if (figObj) {
-      figObj.img = `assets/images/quiz/math/${figKey}.png`;
+      figObj.img = `assets/images/quiz/math/${figKey}.png?v=20261021_pbc11`;
     }
   }
 
@@ -2716,7 +2735,19 @@
           <div class="slide-q-text ${textSizeClass}">${q.question}</div>
           ${fig ? `
             <div class="slide-q-figure" onclick="window.MathQuizApp.zoomFigure('${q.figure}')" title="Nhấn vào hình để phóng to toàn màn hình">
-              ${fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="slide-q-figure-img" />` : fig.svg}
+              ${fig.img ? `
+                <img
+                  src="${fig.img}"
+                  alt="${fig.caption || ''}"
+                  class="slide-q-figure-img"
+                  onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';"
+                />
+              ` : ''}
+              ${fig.svg ? `
+                <div class="slide-q-figure-svg" style="${fig.img ? 'display:none;' : ''}">
+                  ${fig.svg}
+                </div>
+              ` : ''}
               <div class="slide-q-figure-caption">${fig.caption || ''} <span class="zoom-hint-badge">🔍 Phóng to</span></div>
             </div>
           ` : ''}
@@ -3038,7 +3069,15 @@
       const title = document.getElementById('mathFigureZoomTitle');
       if (modal && body) {
         if (title) title.textContent = `🔍 ${fig.caption || 'Phóng to hình vẽ minh họa'}`;
-        body.innerHTML = fig.img ? `<img src="${fig.img}" alt="${fig.caption || ''}" class="quiz-zoom-img" />` : fig.svg;
+        body.innerHTML = fig.img ? `
+          <img
+            src="${fig.img}"
+            alt="${fig.caption || ''}"
+            class="quiz-zoom-img"
+            onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='block';"
+          />
+          ${fig.svg ? `<div style="display:none; max-width:550px; margin:0 auto;">${fig.svg}</div>` : ''}
+        ` : fig.svg;
         modal.classList.add('open');
       }
     },
