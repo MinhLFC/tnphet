@@ -956,7 +956,30 @@
         <text x="72" y="86" font-size="10.5" font-weight="700" fill="currentColor">3 km</text>
         <text x="106" y="168" font-size="10.5" font-weight="700" fill="currentColor">4 km</text>
       </svg>`
-    }
+    },
+
+    // ================= ĐỀ THPT PHAN BỘI CHÂU (MÃ 1108) =================
+    pbc_p1_q1: { caption: 'Đồ thị hàm phân thức y = (x² − 3x + 6)/(x − 1)' },
+    pbc_p1_q3: { caption: 'Bảng biến thiên của hàm số y = f(x) trên [−5; 7)' },
+    pbc_p1_q4: { caption: 'Đồ thị hàm số bậc bốn y = f(x) và đường thẳng y = −1/2' },
+    pbc_p1_q6: { caption: 'Bảng biến thiên của hàm số y = f(x)' },
+    pbc_p1_q10: { caption: 'Bảng biến thiên xác định cực trị của y = f(x)' },
+    pbc_p1_q11: { caption: 'Đồ thị hàm số bậc ba y = ax³ + bx² + cx + d' },
+    pbc_p1_q12: { caption: 'Đồ thị 4 hàm số phân thức tương ứng 4 phương án A, B, C, D' },
+    pbc_p2_q2: { caption: 'Mô hình khung cửa sổ bán nguyệt ghép hình chữ nhật' },
+    pbc_p2_q3: { caption: 'Mô hình bình hộp chữ nhật chứa quả cầu sắt ngập nước' },
+    pbc_p3_q1: { caption: 'Hình lập phương chứa 8 phần hình cầu đỉnh và 1 hình cầu tâm' },
+    pbc_p3_q3: { caption: 'Hình chữ nhật ABCD, đường tròn (C) tâm I và dải LED' },
+    pbc_p3_q6: { caption: 'Tấm bìa hình vuông 6 dm cắt 4 góc gấp thành khối chóp tứ giác đều' },
+
+    // ================= ĐỀ THPT VIỆT ĐỨC (MÃ 0103) =================
+    vd_p1_q3: { caption: 'Đồ thị hàm số bậc ba y = f(x)' },
+    vd_p1_q5: { caption: 'Đồ thị hàm số bậc ba y = f(x) đi qua cực đại (−1; 5) và cực tiểu (1; 1)' },
+    vd_p1_q6: { caption: 'Đồ thị 4 hàm số phân thức tương ứng 4 phương án A, B, C, D' },
+    vd_p1_q8: { caption: 'Bảng biến thiên của hàm số y = f(x)' },
+    vd_p1_q12: { caption: 'Đồ thị hàm số y = f(x) trên đoạn [0; 4]' },
+    vd_p3_q3: { caption: 'Tấm bìa hình chữ nhật 30 cm × 20 cm cắt 4 góc gấp thành hộp' },
+    vd_p3_q5: { caption: 'Đồ thị hàm phân thức y = (3x + b)/(cx + d)' }
   };
 
   // Gắn đường dẫn ảnh chụp trực tiếp từ đề gốc PDF cho toàn bộ hình vẽ Toán
@@ -2107,6 +2130,7 @@
 
   // Trạng thái ứng dụng Đề Toán 12
   const state = {
+    category: 'dinhki', // 'dinhki' (20 Đề Ôn Định Kì) | 'thpt' (Đề Thi Trường THPT)
     examGroup: 'gk1', // 'gk1' (20 Đề Ôn Giữa Kì 1) | 'ck1' (20 Đề Ôn Cuối Kì 1)
     examCode: window.MATH_ALL_EXAMS_DATA ? 'gk1_de1' : 'de2',
     mode: 'slide', // 'slide' | 'list'
@@ -2239,8 +2263,8 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">📐</div>
             <div class="quiz-title-text">
-              <h3>Bộ 20 Đề Ôn Định Kì Toán 12 — Học Kì 1 (${exam.title})</h3>
-              <p>Trọn bộ 20 Đề Ôn Tập Toán 12 (440 câu: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ) kèm lời giải chi tiết</p>
+              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : 'Bộ 20 Đề Ôn Định Kì Toán 12'} (${exam.shortTitle || exam.title})</h3>
+              <p>${exam.subtitle || 'Trọn bộ đề Toán 12 chuẩn cấu trúc mới: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ kèm lời giải chi tiết'}</p>
             </div>
           </div>
 
@@ -2287,11 +2311,24 @@
           </div>
         </div>
 
-        <!-- Thanh chọn Bộ 20 Đề Ôn Tập Toán 12 & Lọc theo Phần 1, 2, 3 -->
+        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
-            <div style="font-weight: 700; font-size: 0.9rem; color: var(--primary-color); display: inline-flex; align-items: center; gap: 0.45rem;">
-              <span>📘 Chọn đề ôn tập (Đề 1 → Đề 20):</span>
+            <div class="math-category-tabs">
+              <button
+                type="button"
+                class="math-category-tab-btn ${state.category === 'dinhki' ? 'active' : ''}"
+                onclick="window.MathQuizApp.selectCategory('dinhki')"
+              >
+                📘 20 Đề Ôn Định Kì (Đề 1 → 20)
+              </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${state.category === 'thpt' ? 'active' : ''}"
+                onclick="window.MathQuizApp.selectCategory('thpt')"
+              >
+                🏫 Đề Thi Trường THPT (2 Đề)
+              </button>
             </div>
 
             <div class="math-part-pills">
@@ -2310,24 +2347,53 @@
             </div>
           </div>
 
-          <div class="math-exam-grid-20">
-            ${Array.from({ length: 20 }, (_, i) => {
-              const num = i + 1;
-              const code = `gk1_de${num}`;
-              const isAct = state.examCode === code;
-              const hasProg = hasExamProgress(code);
-              return `
-                <button
-                  type="button"
-                  class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
-                  onclick="window.MathQuizApp.selectExam('${code}')"
-                  title="Chuyển sang Đề số ${num}"
-                >
-                  Đề ${num}
-                </button>
-              `;
-            }).join('')}
-          </div>
+          ${state.category === 'dinhki' ? `
+            <div class="math-exam-grid-20">
+              ${Array.from({ length: 20 }, (_, i) => {
+                const num = i + 1;
+                const code = `gk1_de${num}`;
+                const isAct = state.examCode === code;
+                const hasProg = hasExamProgress(code);
+                return `
+                  <button
+                    type="button"
+                    class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                    onclick="window.MathQuizApp.selectExam('${code}')"
+                    title="Chuyển sang Đề số ${num}"
+                  >
+                    Đề ${num}
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          ` : `
+            <div class="math-thpt-grid">
+              <button
+                type="button"
+                class="math-thpt-btn ${state.examCode === 'thpt_pbc' ? 'active' : ''} ${hasExamProgress('thpt_pbc') ? 'has-progress' : ''}"
+                onclick="window.MathQuizApp.selectExam('thpt_pbc')"
+              >
+                <div class="thpt-btn-top">
+                  <span class="thpt-btn-badge">MÃ ĐỀ 1108</span>
+                  <span class="thpt-btn-year">NĂM HỌC 2026-2027</span>
+                </div>
+                <div class="thpt-btn-title">🏫 THPT Phan Bội Châu (Hà Nội)</div>
+                <div class="thpt-btn-desc">Đề thi học giữa học kỳ I — 22 câu chuẩn cấu trúc mới (Có lời giải chi tiết)</div>
+              </button>
+              <button
+                type="button"
+                class="math-thpt-btn ${state.examCode === 'thpt_vietduc' ? 'active' : ''} ${hasExamProgress('thpt_vietduc') ? 'has-progress' : ''}"
+                onclick="window.MathQuizApp.selectExam('thpt_vietduc')"
+              >
+                <div class="thpt-btn-top">
+                  <span class="thpt-btn-badge">MÃ ĐỀ 0103</span>
+                  <span class="thpt-btn-year">NĂM HỌC 2026-2027</span>
+                </div>
+                <div class="thpt-btn-title">🏫 THPT Việt Đức (Hà Nội)</div>
+                <div class="thpt-btn-desc">Đề kiểm tra giữa học kỳ I — 22 câu chuẩn cấu trúc mới (Có lời giải chi tiết)</div>
+              </button>
+            </div>
+          `}
         </div>
 
         <!-- Thanh lọc trạng thái & Thống kê kết quả -->
@@ -2782,11 +2848,17 @@
   }
 
   window.MathQuizApp = {
-    selectGroup(group) {
-      if (group !== 'gk1' && group !== 'ck1') return;
-      state.examGroup = group;
-      if (!state.examCode.startsWith(group + '_')) {
-        state.examCode = `${group}_de1`;
+    selectCategory(cat) {
+      if (cat !== 'dinhki' && cat !== 'thpt') return;
+      state.category = cat;
+      if (cat === 'dinhki') {
+        if (!state.examCode.startsWith('gk1_')) {
+          state.examCode = 'gk1_de1';
+        }
+      } else if (cat === 'thpt') {
+        if (state.examCode !== 'thpt_pbc' && state.examCode !== 'thpt_vietduc') {
+          state.examCode = 'thpt_pbc';
+        }
       }
       state.currentIndex = 0;
       renderMathApp();
@@ -2794,8 +2866,11 @@
     selectExam(examCode) {
       if (!MATH_EXAMS[examCode]) return;
       state.examCode = examCode;
-      if (examCode.startsWith('gk1_')) state.examGroup = 'gk1';
-      else if (examCode.startsWith('ck1_')) state.examGroup = 'ck1';
+      if (examCode === 'thpt_pbc' || examCode === 'thpt_vietduc') {
+        state.category = 'thpt';
+      } else {
+        state.category = 'dinhki';
+      }
       state.currentIndex = 0;
       renderMathApp();
     },
