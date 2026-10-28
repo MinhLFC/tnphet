@@ -1,10 +1,3 @@
-/**
- * BỘ ĐỀ ÔN TẬP GIỮA KÌ I — TOÁN 12 (THẦY LÊ MINH KHA)
- * Gồm 25 đề chuẩn cấu trúc đề minh họa 2025: 12 Trắc nghiệm nhiều lựa chọn + 4 Đúng/Sai + 6 Trả lời ngắn (550 câu).
- * Công thức hiển thị sắc nét bằng chuẩn HTML/CSS (.m-frac, .m-vec, .m-lim, .m-root) kết hợp 223 hình vẽ crop chất lượng cao (220 DPI).
- * Toàn bộ câu hỏi và đáp án đã được kiểm toán và hiệu chỉnh chính xác theo toán học THPT 2025-2026.
- */
-
 window.MATH_KHA_EXAMS_DATA = {
   "kha_de1": {
     "code": "kha_de1",
@@ -58,7 +51,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "đồ thị ta thấy hàm số đã cho đạt cực đại tại x = 0 với giá trị cực đại là y = −1. Câu 3. Cho ba vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>, <span class=\"m-vec\">c</span> không đồng phẳng. Xét các vectơ <span class=\"m-vec\">x</span> = 2<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> và <span class=\"m-vec\">y</span> = <span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> − <span class=\"m-vec\">c</span> và <span class=\"m-vec\">z</span> = −3 <span class=\"m-vec\">b</span> − 2 <span class=\"m-vec\">c</span>. Khẳng định nào dưới đây là đúng?",
+        "question": "Cho ba vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>, <span class=\"m-vec\">c</span> không đồng phẳng. Xét các vectơ <span class=\"m-vec\">x</span> = 2<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> và <span class=\"m-vec\">y</span> = <span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> − <span class=\"m-vec\">c</span> và <span class=\"m-vec\">z</span> = −3 <span class=\"m-vec\">b</span> − 2 <span class=\"m-vec\">c</span>. Khẳng định nào dưới đây là đúng?",
         "options": {
           "A": "<span class=\"m-vec\">x</span>, <span class=\"m-vec\">y</span>, <span class=\"m-vec\">z</span> đồng phẳng.",
           "B": "<span class=\"m-vec\">x</span>, <span class=\"m-vec\">a</span> cùng phương.",
@@ -112,7 +105,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "(−∞;−1) Câu 6. Cho tứ diện ABCD. Đặt <span class=\"m-vec\">AB</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">AC</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">c</span>. Gọi G là trọng tâm tam giác BCD. Đẳng thức nào sau đây đúng?",
+        "question": "Cho tứ diện ABCD. Đặt <span class=\"m-vec\">AB</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">AC</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">c</span>. Gọi G là trọng tâm tam giác BCD. Đẳng thức nào sau đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">AG</span> = <span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>",
           "B": "<span class=\"m-vec\">AG</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>)",
@@ -137,7 +130,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(0; −1; 3)",
           "D": "(−2; −1; 0)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tọa độ hình chiếu của điểm A(−2; −1; 3) trên mặt phẳng Oyz là (0; −1; 3)."
       },
       {
@@ -173,7 +166,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "0"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có f′(x) = 0 ⇔ [x = 0 hoặc x = −1 Trong đó: hoặc x = 2]<br>- x = 0 là nghiệm đơn (bội lẻ).<br>- x = −1 là nghiệm bội chẵn.<br>- x = 2 là nghiệm bội lẻ.<br>Vì đạo hàm chỉ đổi dấu khi đi qua các nghiệm bội lẻ, nên hàm số có 2 điểm cực trị là x = 0 và<br>x = 2."
       },
       {
@@ -191,7 +184,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "216 m/s",
           "D": "54 m/s"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Vận tốc của vật là v(t) = s′(t) = −<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>t² + 18t. Xét hàm số v(t) trên đoạn<br>[0; 10]:<br>Ta có v′(t) = −3t + 18; v′(t) = 0 ⇔ t = 6. Lập bảng biến thiên, ta có:<br>Dựa vào bảng biến thiên, vận tốc lớn nhất của vật trong 10 giây đầu là v(6) = 54 m/s."
       },
       {
@@ -209,7 +202,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">x − 2</span><span class=\"den\">x + 1</span></span>",
           "D": "y = x<sup>4</sup> + 2x² − 1"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Xét hàm số y = x³ − x² + 6x − 1, ta có y′ = 3x² − 2x + 6.<br>Vì ∆′ = 1 − 18 = −17 < 0 và hệ số a = 3 > 0 nên y′ > 0 với mọi x ∈ ℝ.<br>Vậy hàm số y = x³ − x² + 6x − 1 đồng biến trên ℝ."
       },
       {
@@ -415,7 +408,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": "assets/images/quiz/math_kha/kha_de1_p3_q5.png",
-        "question": "treo đèn là I(3; 4; 3) ⇒ x + y + z = 3 + 4 + 3 = 10. Bài 5. Cho tứ diện đều ABCD có cạnh bằng 1. Tính tích vô hướng <span class=\"m-vec\">AB</span> · (2024<span class=\"m-vec\">BC</span> − 2025<span class=\"m-vec\">CD</span>).",
+        "question": "Cho tứ diện đều ABCD có cạnh bằng 1. Tính tích vô hướng <span class=\"m-vec\">AB</span> · (2024<span class=\"m-vec\">BC</span> − 2025<span class=\"m-vec\">CD</span>).",
         "answer": "-1012",
         "kqCells": [
           "-",
@@ -474,7 +467,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "−3",
           "D": "2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị hàm số trên đoạn [−2; 3], ta thấy điểm cao nhất của đồ thị<br>là điểm có tọa độ (3; 2).<br>Vậy giá trị lớn nhất của hàm số trên đoạn [−2; 3] là max<sub>[</sub>−<sub>2;3]</sub> f(x) = 2."
       },
       {
@@ -492,7 +485,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(3; +∞)",
           "D": "(−1; 2)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào bảng biến thiên, ta thấy y′ < 0 trên khoảng (−1; 3), do đó hàm số<br>nghịch biến trên khoảng (−1; 3).<br>Vì (−1; 2) ⊂ (−1; 3) nên hàm số cũng nghịch biến trên khoảng (−1; 2)."
       },
       {
@@ -521,14 +514,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "Giá trị lớn nhất - Giá trị nhỏ nhất của hàm số",
         "figure": null,
-        "question": "3 3 Câu 4. Giá trị nhỏ nhất của hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">x² + 3</span><span class=\"den\">x − 1</span></span> trên đoạn [2; 4] là",
+        "question": "Giá trị nhỏ nhất của hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">x² + 3</span><span class=\"den\">x − 1</span></span> trên đoạn [2; 4] là",
         "options": {
           "A": "7",
           "B": "6",
           "C": "<span class=\"m-frac\"><span class=\"num\">19</span><span class=\"den\">3</span></span>",
           "D": "<span class=\"m-frac\"><span class=\"num\">13</span><span class=\"den\">3</span></span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Hàm số xác định và liên tục trên [2; 4].<br>Ta có f′(x) = <span class=\"m-frac\"><span class=\"num\">x² − 2x − 3</span><span class=\"den\">(x − 1)²</span></span>.<br>f′(x) = 0 ⇔ x² − 2x − 3 = 0 ⇔ [x = −1 ∈/ [2; 4] hoặc x = 3 ∈ [2; 4]].<br>Tính các giá trị: f(2) = 7; f(3) = 6; f(4) = <span class=\"m-frac\"><span class=\"num\">19</span><span class=\"den\">3</span></span>.<br>So sánh các giá trị trên, ta thấy giá trị nhỏ nhất của hàm số trên đoạn [2; 4] là 6."
       },
       {
@@ -539,14 +532,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "các giá trị trên, ta thấy giá trị nhỏ nhất của hàm số trên đoạn [2; 4] là 6. Câu 5. Cho hình lăng trụ ABC.A′B′C′. Đặt <span class=\"m-vec\">AA′</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">AB</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">AC</span> = <span class=\"m-vec\">c</span>. Gọi G′ là trọng tâm của tam giác A′B′C′. Vectơ <span class=\"m-vec\">AG′</span> bằng?",
+        "question": "Cho hình lăng trụ ABC.A′B′C′. Đặt <span class=\"m-vec\">AA′</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">AB</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">AC</span> = <span class=\"m-vec\">c</span>. Gọi G′ là trọng tâm của tam giác A′B′C′. Vectơ <span class=\"m-vec\">AG′</span> bằng?",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>)",
           "B": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(3<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>)",
           "C": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + 3 <span class=\"m-vec\">c</span>)",
           "D": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "<br>Gọi I là trung điểm B′C′. Vì G′ là trọng tâm tam giác A′B′C′ ⇒ <span class=\"m-vec\">A</span> G′′ = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span><span class=\"m-vec\">A</span> I′.<br>Mặt khác <span class=\"m-vec\">AG′</span> = <span class=\"m-vec\">AA′</span> + <span class=\"m-vec\">A</span> G′′ = <span class=\"m-vec\">AA′</span> + <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span><span class=\"m-vec\">A</span> I′ = <span class=\"m-vec\">AA′</span> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span> (<span class=\"m-vec\">A</span> B′′ + <span class=\"m-vec\">A</span> C′′)<br>= <span class=\"m-vec\">AA′</span> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span> (<span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AC</span>) = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span> (3<span class=\"m-vec\">AA′</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AC</span>) = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(3<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>)."
       },
       {
@@ -557,7 +550,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "3 3 Câu 6. Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span>, <span class=\"m-vec\">b</span> = 4 <span class=\"m-vec\">i</span> + <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Tính độ dài của <span class=\"m-vec\">v</span> = 2<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span>",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span>, <span class=\"m-vec\">b</span> = 4 <span class=\"m-vec\">i</span> + <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Tính độ dài của <span class=\"m-vec\">v</span> = 2<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span>",
         "options": {
           "A": "<span class=\"m-root\">√<span class=\"m-rad\">74.</span></span>",
           "B": "3<span class=\"m-root\">√<span class=\"m-rad\">6.</span></span>",
@@ -582,7 +575,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">−2x + 1</span><span class=\"den\">2x + 1</span></span>",
           "D": "y = <span class=\"m-frac\"><span class=\"num\">−x + 2</span><span class=\"den\">x + 1</span></span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị, ta thấy đồ thị hàm số đi qua điểm (1; 0); có đồ thị hàm số<br>y = <span class=\"m-frac\"><span class=\"num\">−x + 1</span><span class=\"den\">x + 1</span></span> đi qua điểm (1; 0)."
       },
       {
@@ -600,7 +593,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "130 (km/h)",
           "D": "70 (km/h)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào đồ thị hàm số, ta quan sát trục tung (y) để tìm giá trị thấp nhất<br>của đường biểu diễn tốc độ.<br>Điểm thấp nhất của đồ thị tương ứng với giá trị y = 70 (km/h)."
       },
       {
@@ -618,7 +611,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "G(0; −1; −1)",
           "D": "G(6; −3; −3)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có: <span class=\"m-vec\">GA</span> + <span class=\"m-vec\">GB</span> + <span class=\"m-vec\">GC</span> + <span class=\"m-vec\">GD</span> = <span class=\"m-vec\">0</span> ⇔ 4<span class=\"m-vec\">OG</span> = <span class=\"m-vec\">OA</span> + <span class=\"m-vec\">OB</span> + <span class=\"m-vec\">OC</span> + <span class=\"m-vec\">OD</span> ⇔<br><span class=\"m-vec\">OG</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">4</span></span>(<span class=\"m-vec\">OA</span> + <span class=\"m-vec\">OB</span> + <span class=\"m-vec\">OC</span> + <span class=\"m-vec\">OD</span>)<br><span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">14</span></span>(1 + 2 + 3 + 2) = 2<br>⇒ {x<sub>G</sub> =; y<sub>G</sub> =; z<sub>G</sub> =} (−4 + 1 + 0 − 5) = −2 ⇒ G(2; −2; −1).<br>4<br><span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">4</span></span>(2 − 3 − 2 − 1) = −1"
       },
       {
@@ -636,7 +629,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(1; 0; −6)",
           "D": "(1; 2; −6)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có: <span class=\"m-vec\">AB</span> = (2 − 1; 1 − (−1); −4 − 2) = (1; 2; −6)."
       },
       {
@@ -654,7 +647,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "min<sub>[−√3;√5]</sub> y = 1",
           "D": "max<sub>[−√3;√5]</sub> y = 2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào bảng biến thiên của hàm số y = f(x) trên đoạn [−<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> <span class=\"m-root\">√<span class=\"m-rad\">5]</span></span>, ta quan<br>sát các giá trị của hàm số:<br>Tại x = −<span class=\"m-root\">√<span class=\"m-rad\">3,</span></span> f(x) = 0.<br>Tại x = −1, f(x) = 2 (giá trị cực đại).<br>Tại x = 1, f(x) = −2 (giá trị cực tiểu).<br>Tại x = <span class=\"m-root\">√<span class=\"m-rad\">5,</span></span> f(x) = 2<span class=\"m-root\">√<span class=\"m-rad\">5.</span></span><br>So sánh các giá trị, ta thấy giá trị lớn nhất là 2<span class=\"m-root\">√<span class=\"m-rad\">5</span></span> và giá trị nhỏ nhất là −2. Vậy khẳng định đúng<br>là max<sub>[−√3;√5]</sub> y = 2<span class=\"m-root\">√<span class=\"m-rad\">5.</span></span>"
       },
       {
@@ -672,7 +665,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(1; +∞)",
           "D": "(−∞; −1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Hàm số đồng biến khi f′(x) > 0. Dựa vào đồ thị f′(x), ta thấy f′(x) > 0 trên<br>các khoảng (−1; 1) và (4; +∞)."
       },
       {
@@ -752,7 +745,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "Cực trị của hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de2_p2_q4.png",
-        "question": "trục hoành nếu không biết giá trị cụ thể của các cực trị. Bài 4. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − x + 1</span><span class=\"den\">−x + 1</span></span>.",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − x + 1</span><span class=\"den\">−x + 1</span></span>.",
         "statements": {
           "a": "Tiệm cận đứng của đồ thị hàm số là x = 1.",
           "b": "Hàm số nghịch biến trên khoảng (0; 2).",
@@ -796,7 +789,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": null,
-        "question": "2 2 Bài 2. Cho đồ thị hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">5x² − 6x + 9</span><span class=\"den\">x − 1</span></span> có tâm đối xứng là I(a; b). Giá trị của biểu thức C = a + 3b là bao nhiêu?",
+        "question": "Cho đồ thị hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">5x² − 6x + 9</span><span class=\"den\">x − 1</span></span> có tâm đối xứng là I(a; b). Giá trị của biểu thức C = a + 3b là bao nhiêu?",
         "answer": "13",
         "kqCells": [
           "1",
@@ -817,7 +810,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "y = 5(1) − 1 = 4. Suy ra a = 1, b = 4 ⇒ C = 1 + 3 · 4 = 13. Bài 3. Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> sao cho |<span class=\"m-vec\">a</span> | = <span class=\"m-root\">√<span class=\"m-rad\">2,</span></span> | <span class=\"m-vec\">b</span> | = 2 và hai vectơ <span class=\"m-vec\">x</span> = <span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span>, <span class=\"m-vec\">y</span> = 2<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> vuông góc với nhau. Tính góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> (đơn vị độ).",
+        "question": "Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> sao cho |<span class=\"m-vec\">a</span> | = <span class=\"m-root\">√<span class=\"m-rad\">2,</span></span> | <span class=\"m-vec\">b</span> | = 2 và hai vectơ <span class=\"m-vec\">x</span> = <span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span>, <span class=\"m-vec\">y</span> = 2<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> vuông góc với nhau. Tính góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> (đơn vị độ).",
         "answer": "90",
         "kqCells": [
           "9",
@@ -867,9 +860,12 @@ window.MATH_KHA_EXAMS_DATA = {
           "",
           ""
         ],
-        "explanation": "Không gian mẫu: Số phần tử của tập S là các số {−28; −27; −26;..., 26; 27; 28} gồm 57 số.<br>Lấy lần lượt hai số phân biệt a, b từ tập S có 57 · 56 cách.<br>(C<sub>1</sub>): f(x) = x<sup>4</sup> + 2ax² + 4b<br>f′(x) = 4x³ + 4ax = 4x(x² + a)<br>Để đồ thị (C<sub>1</sub>) có 3 điểm cực trị thì f′(x) cần có 3 nghiệm phân biệt:<br>= 0<br>⇒ f′(x) = 0 ⇔ ⇔ (a < 0)<br>±<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span><br>(C<sub>2</sub>): g(x) = −<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> a<br>[4x = 0 hoặc x² + a = 0 hoặc x<sup>4</sup> + bx² − hoặc bx = −2x(x hoặc 3 điểm hoặc − 2x = 0] [x hoặc x = hoặc b) hoặc x]<br>g′(x) = −2x³ + 2 ² −<br>Để đồ thị (C<sub>2</sub>) có cực trị thì g′(x) cần có 3 nghiệm phân biệt:<br>= 0<br>⇒ g′(x) = 0 ⇔ ⇔ (b > 0)<br>x² − b = 0 x = ±<span class=\"m-root\">√<span class=\"m-rad\">b</span></span><br>Để hai đồ thị hàm số (C<sub>1</sub>) và (C<sub>2</sub>) có đồng thời điểm cực trị chung thì thỏa mãn điều kiện:<br>{x<sub>1</sub> = x<sub>2</sub>; f(x<sub>1</sub>) = g(x<sub>2</sub>)}<br>Trường hợp 1: Dễ thấy f(x) và g(x) đều tồn tại điểm cực trị tại x = 0.<br>Để có điểm cực trị chung thì {f(0) = g(0); ⇔ 4b = −a}<br>Vì a < 0, b > 0 và |a| ≤ 28, |b| ≤ 28, ta có:<br>0 < | − a| ≤ 28 ⇒ 0 < |4b| ≤ 28 ⇒ 0 < |b| ≤ 7<br>⇒ b ∈ {1; 2; 3; 4; 5; 6; 7} ⇒ có 7 cặp số (a, b) thỏa mãn.<br>Trường hợp 2: {<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">b</span></span>; f(<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span>) = g(} ⇔ {−a = b; (<span class=\"m-root\">√<span class=\"m-rad\">−a)</span></span> <sup>4</sup> + 2a(<span class=\"m-root\">√<span class=\"m-rad\">−a)</span></span> ² + 4b = −<span class=\"m-frac\"><span class=\"num\">(<span class=\"m-root\">√<span class=\"m-rad\">b)</span></span> <sup>4</sup></span><span class=\"den\">2</span></span> + b(<span class=\"m-root\">√<span class=\"m-rad\">b)</span></span> ² − a}<br><span class=\"m-root\">√<span class=\"m-rad\">b)</span></span><br>⇔ (−a)² + 2a(−a) + 4b = −<span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> + b² − a<br>⇔ a² − 2a² + 4b = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − a ⇔ 4b − a² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − a<br>Thay a = −b vào phương trình:<br>⇔ 4b − (−b)² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − (−b) ⇔ 4b − b² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> + b ⇔ <span class=\"m-frac\"><span class=\"num\">3b²</span><span class=\"den\">2</span></span> − 3b = 0<br>(loại)<br>⇔ 3b(<span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span> − 1) = 0 ⇔ [b = 0 hoặc b = 2] ⇒ có 1 cặp số (a, b) thỏa mãn.<br>⇒ a = −2<br>Vậy có tổng 7 + 1 = 8 cặp số thỏa mãn ⇒ xác suất thỏa mãn ycbt là: <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">57 · 56</span></span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">399</span></span>.",
+        "explanation": "Không gian mẫu: Số phần tử của tập S là các số {−28; −27; −26;..., 26; 27; 28} gồm 57 số.<br>Lấy lần lượt hai số phân biệt a, b từ tập S có 57 · 56 cách.<br>(C<sub>1</sub>): f(x) = x<sup>4</sup> + 2ax² + 4b<br>f′(x) = 4x³ + 4ax = 4x(x² + a)<br>Để đồ thị (C<sub>1</sub>) có 3 điểm cực trị thì f′(x) cần có 3 nghiệm phân biệt:<br>= 0<br>⇒ f′(x) = 0 ⇔ ⇔ (a < 0)<br>±<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span><br>(C<sub>2</sub>): g(x) = −<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> a<br>g′(x) = −2x³ + 2bx = −2x(x² − b).<br>Để đồ thị (C₂) có 3 điểm cực trị thì g′(x) = 0 cần có 3 nghiệm phân biệt ⇔ b > 0 và x = 0 hoặc x = ±<span class=\"m-root\">√<span class=\"m-rad\">b</span></span>.<br>Để hai đồ thị hàm số (C<sub>1</sub>) và (C<sub>2</sub>) có đồng thời điểm cực trị chung thì thỏa mãn điều kiện:<br>{x<sub>1</sub> = x<sub>2</sub>; f(x<sub>1</sub>) = g(x<sub>2</sub>)}<br>Trường hợp 1: Dễ thấy f(x) và g(x) đều tồn tại điểm cực trị tại x = 0.<br>Để có điểm cực trị chung thì {f(0) = g(0); ⇔ 4b = −a}<br>Vì a < 0, b > 0 và |a| ≤ 28, |b| ≤ 28, ta có:<br>0 < | − a| ≤ 28 ⇒ 0 < |4b| ≤ 28 ⇒ 0 < |b| ≤ 7<br>⇒ b ∈ {1; 2; 3; 4; 5; 6; 7} ⇒ có 7 cặp số (a, b) thỏa mãn.<br>Trường hợp 2: {<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">b</span></span>; f(<span class=\"m-root\">√<span class=\"m-rad\">−a</span></span>) = g(} ⇔ {−a = b; (<span class=\"m-root\">√<span class=\"m-rad\">−a)</span></span> <sup>4</sup> + 2a(<span class=\"m-root\">√<span class=\"m-rad\">−a)</span></span> ² + 4b = −<span class=\"m-frac\"><span class=\"num\">(<span class=\"m-root\">√<span class=\"m-rad\">b)</span></span> <sup>4</sup></span><span class=\"den\">2</span></span> + b(<span class=\"m-root\">√<span class=\"m-rad\">b)</span></span> ² − a}<br><span class=\"m-root\">√<span class=\"m-rad\">b)</span></span><br>⇔ (−a)² + 2a(−a) + 4b = −<span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> + b² − a<br>⇔ a² − 2a² + 4b = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − a ⇔ 4b − a² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − a<br>Thay a = −b vào phương trình:<br>⇔ 4b − (−b)² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> − (−b) ⇔ 4b − b² = <span class=\"m-frac\"><span class=\"num\">b²</span><span class=\"den\">2</span></span> + b ⇔ <span class=\"m-frac\"><span class=\"num\">3b²</span><span class=\"den\">2</span></span> − 3b = 0<br>(loại)<br>⇔ 3b(<span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span> − 1) = 0 ⇔ [b = 0 hoặc b = 2] ⇒ có 1 cặp số (a, b) thỏa mãn.<br>⇒ a = −2<br>Vậy có tổng 7 + 1 = 8 cặp số thỏa mãn ⇒ xác suất thỏa mãn ycbt là: <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">57 · 56</span></span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">399</span></span>.",
         "acceptedAnswers": [
-          "1"
+          "1",
+          "1/399",
+          "8",
+          "0,003"
         ]
       },
       {
@@ -965,7 +961,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "−1) = 3. Chọn D. Câu 4. Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">a</span> thỏa mãn <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">i</span> −3 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Tọa độ của <span class=\"m-vec\">a</span> là",
+        "question": "Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">a</span> thỏa mãn <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">i</span> −3 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Tọa độ của <span class=\"m-vec\">a</span> là",
         "options": {
           "A": "(2; 1; −3)",
           "B": "(2; −3; 1)",
@@ -1026,7 +1022,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Đạo hàm đổi dấu từ − sang + tại x = −3 và x = 3. Vậy hàm số có 2 điểm<br>cực tiểu."
       },
       {
@@ -1044,7 +1040,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−2; 1)",
           "D": "(1; 4)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tập xác định: [−2; 4]. y′ = <span class=\"m-frac\"><span class=\"num\">1 − x</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">8 + 2x − x²</span></span></span></span>.<br>Hàm số đồng biến trên (−2; 1) vì y′ > 0 với mọi x ∈ (−2; 1)."
       },
       {
@@ -1062,7 +1058,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Hàm số nghịch biến trên khoảng (0; 3).",
           "D": "Hàm số đồng biến trên khoảng (4; +∞)."
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào đồ thị của hàm số y = f′(x) ta lập bảng biến thiên của hàm số<br>y = f(x):<br>Hàm số đồng biến trên các khoảng (−1; 1) và (4; +∞), nghịch biến trên các khoảng (−∞; −1) và<br>(1; 4).<br>Trên khoảng (0; 3), hàm số vừa đồng biến (trên (0; 1)) vừa nghịch biến (trên (1; 3)). Do đó,<br>khẳng định C sai."
       },
       {
@@ -1091,14 +1087,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "số có ba tiệm cận (một đứng và hai ngang). Câu 11. Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (−2; 2; 0), <span class=\"m-vec\">b</span> = (2; 2; 0), <span class=\"m-vec\">c</span> = (2; 2; 2). Giá trị của |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> | bằng",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (−2; 2; 0), <span class=\"m-vec\">b</span> = (2; 2; 0), <span class=\"m-vec\">c</span> = (2; 2; 2). Giá trị của |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> | bằng",
         "options": {
           "A": "6",
           "B": "11",
           "C": "2<span class=\"m-root\">√<span class=\"m-rad\">11.</span></span>",
           "D": "2<span class=\"m-root\">√<span class=\"m-rad\">6.</span></span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có <span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> = (−2 + 2 + 2; 2 + 2 + 2; 0 + 0 + 2) = (2; 6; 2).<br>|<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> | = <span class=\"m-root\">√<span class=\"m-rad\">2² + 6² + 2²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">4 + 36 + 4 =</span></span> √44 = 2<span class=\"m-root\">√<span class=\"m-rad\">11.</span></span>"
       },
       {
@@ -1109,14 +1105,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "| = 2 + 6 + 2 = 4 + 36 + 4 = 44 = 2 11. Câu 12. Trong không gian Oxyz, cho các vectơ <span class=\"m-vec\">u</span> = 2 <span class=\"m-vec\">i</span> − 2 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>, <span class=\"m-vec\">v</span> = (m; 2; m + 1) với m là tham số thực. Có bao nhiêu giá trị của m để |<span class=\"m-vec\">u</span>| = |<span class=\"m-vec\">v</span> |.",
+        "question": "Trong không gian Oxyz, cho các vectơ <span class=\"m-vec\">u</span> = 2 <span class=\"m-vec\">i</span> − 2 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>, <span class=\"m-vec\">v</span> = (m; 2; m + 1) với m là tham số thực. Có bao nhiêu giá trị của m để |<span class=\"m-vec\">u</span>| = |<span class=\"m-vec\">v</span> |.",
         "options": {
           "A": "0",
           "B": "1",
           "C": "2",
           "D": "3"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có |<span class=\"m-vec\">u</span>| = <span class=\"m-root\">√<span class=\"m-rad\">2² + (−2)² + 1²</span></span> = 3.<br>|<span class=\"m-vec\">v</span> | = <span class=\"m-root\">√<span class=\"m-rad\">m² + 2² + (m + 1)²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">2m² + 2m + 5.</span></span><br>|<span class=\"m-vec\">u</span>| = |<span class=\"m-vec\">v</span> | ⇔ 3 = <span class=\"m-root\">√<span class=\"m-rad\">2m² + 2m + 5</span></span> ⇔ 9 = 2m² + 2m + 5 ⇔ 2m² + 2m − 4 = 0.<br>Phương trình có 2 nghiệm phân biệt (m = 1 hoặc m = −2). Vậy có 2 giá trị m."
       },
       {
@@ -1150,7 +1146,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "2 2 5 Bài 2. Cho hình lập phương ABCD.A′B′C′D′ cạnh a. Gọi M là giao điểm của CD′ và C′D.",
+        "question": "Cho hình lập phương ABCD.A′B′C′D′ cạnh a. Gọi M là giao điểm của CD′ và C′D.",
         "statements": {
           "a": "<span class=\"m-vec\">DC′</span> = <span class=\"m-vec\">DC</span> + <span class=\"m-vec\">DD′</span>.",
           "b": "<span class=\"m-vec\">AD′</span> · <span class=\"m-vec\">CC′</span> = a².",
@@ -1383,7 +1379,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 1",
           "D": "x = 2"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "y′ = −3x² + 3 = 0 ⇔ x = ±1. Trên [0; 3], ta tính các giá trị: y(0) = 0,<br>y(1) = 2, y(3) = −18. Giá trị lớn nhất đạt được tại x = 1"
       },
       {
@@ -1437,7 +1433,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "4"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Đạo hàm f′(x) đổi dấu 4 lần khi qua các giá trị x = −2, −1, 1, 4. Vậy hàm số<br>có 4 điểm cực trị"
       },
       {
@@ -1455,7 +1451,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = x³ + 3x",
           "D": "y = x³ + 3x²"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Đồ thị hàm số bậc ba có hệ số a > 0 và đi qua các điểm (0; 0), (2; −4), (3; 0).<br>Thay vào các phương án, chỉ có hàm số y = x³ − 3x² thỏa mãn"
       },
       {
@@ -1466,7 +1462,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "án, chỉ có hàm số y = x − 3x thỏa mãn Câu 7. Cho <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> là hai vectơ cùng hướng và đều khác vectơ <span class=\"m-vec\">0</span>. Mệnh đề nào sau đây đúng?",
+        "question": "Cho <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> là hai vectơ cùng hướng và đều khác vectơ <span class=\"m-vec\">0</span>. Mệnh đề nào sau đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> = |<span class=\"m-vec\">a</span> | · | <span class=\"m-vec\">b</span> |",
           "B": "<span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> = 0",
@@ -1484,7 +1480,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "tích vô hướng: a · b = |a | · | b | · cos(a, b) = |a | · | b |. Câu 8. Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Đặt <span class=\"m-vec\">SA</span> = <span class=\"m-vec\">a</span>,<span class=\"m-vec\">SB</span> = <span class=\"m-vec\">b</span>,<span class=\"m-vec\">SC</span> = <span class=\"m-vec\">c</span>,<span class=\"m-vec\">SD</span> = <span class=\"m-vec\">d</span>. Khẳng định nào dưới đây đúng?",
+        "question": "Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Đặt <span class=\"m-vec\">SA</span> = <span class=\"m-vec\">a</span>,<span class=\"m-vec\">SB</span> = <span class=\"m-vec\">b</span>,<span class=\"m-vec\">SC</span> = <span class=\"m-vec\">c</span>,<span class=\"m-vec\">SD</span> = <span class=\"m-vec\">d</span>. Khẳng định nào dưới đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">c</span> = <span class=\"m-vec\">b</span> + <span class=\"m-vec\">d</span>",
           "B": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">0</span>",
@@ -1502,7 +1498,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "SA + SC = SB + SD ⇔ a + c = b + d. Câu 9. Trong không gian Oxyz, cho điểm N thỏa mãn <span class=\"m-vec\">ON</span> = −2 <span class=\"m-vec\">i</span> + 3<span class=\"m-vec\">k</span>. Tìm tọa độ điểm K là hình chiếu của điểm N trên trục Ox.",
+        "question": "Trong không gian Oxyz, cho điểm N thỏa mãn <span class=\"m-vec\">ON</span> = −2 <span class=\"m-vec\">i</span> + 3<span class=\"m-vec\">k</span>. Tìm tọa độ điểm K là hình chiếu của điểm N trên trục Ox.",
         "options": {
           "A": "K(−2; 0; 0)",
           "B": "K(2; 0; 0)",
@@ -1527,7 +1523,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x + 1</span></span>",
           "D": "y = x − 2 + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x + 1</span></span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Tiệm cận đứng của hàm số ở phương án B là nghiệm của mẫu số 2−x = 0 ⇔<br>x = 2"
       },
       {
@@ -1687,7 +1683,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "+ z = 1080 + 600 + 9 = 1689. Bài 2. Biết đồ thị (C) của hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 4x + 5</span><span class=\"den\">x − 1</span></span> có hai điểm cực trị. Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số (C) tạo với hai trục tọa độ một tam giác có diện tích S bằng bao nhiêu?",
+        "question": "Biết đồ thị (C) của hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 4x + 5</span><span class=\"den\">x − 1</span></span> có hai điểm cực trị. Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số (C) tạo với hai trục tọa độ một tam giác có diện tích S bằng bao nhiêu?",
         "answer": "4",
         "kqCells": [
           "4",
@@ -1708,7 +1704,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Ứng dụng đạo hàm giải quyết bài toán thực tiễn",
         "figure": null,
-        "question": "2 2 Bài 3. Cho hàm số y = x<span class=\"m-root\">√<span class=\"m-rad\">3 − x.</span></span> Khoảng nghịch biến của hàm số có độ dài lớn nhất bằng bao nhiêu?",
+        "question": "Cho hàm số y = x<span class=\"m-root\">√<span class=\"m-rad\">3 − x.</span></span> Khoảng nghịch biến của hàm số có độ dài lớn nhất bằng bao nhiêu?",
         "answer": "1",
         "kqCells": [
           "1",
@@ -1750,7 +1746,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "1 2 Bài 5. Trong không gian Oxyz, cho hình lăng trụ tam giác đều ABC.A′B′C′ có A′(<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> −1; 1), hai đỉnh B, C thuộc trục Oz và AA′ = 1 (C không trùng với O). Biết vectơ <span class=\"m-vec\">u</span> = (a; b; 2) (với a, b ∈ ℝ) cùng phương với <span class=\"m-vec\">A</span> C′. Tính T = a² + b².",
+        "question": "Trong không gian Oxyz, cho hình lăng trụ tam giác đều ABC.A′B′C′ có A′(<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> −1; 1), hai đỉnh B, C thuộc trục Oz và AA′ = 1 (C không trùng với O). Biết vectơ <span class=\"m-vec\">u</span> = (a; b; 2) (với a, b ∈ ℝ) cùng phương với <span class=\"m-vec\">A</span> C′. Tính T = a² + b².",
         "answer": "16",
         "kqCells": [
           "1",
@@ -1809,7 +1805,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−2; 1)",
           "D": "(4; 8)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên, ta thấy trên khoảng (−2; 1) đạo hàm y′ < 0 nên<br>hàm số nghịch biến trên khoảng (−2; 1)."
       },
       {
@@ -1827,7 +1823,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "−3"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có y′ = 3x² + 6x. Cho y′ = 0 ⇔ 3x(x + 2) = 0 ⇔ [x = 0 ∈ [−1; 2] hoặc x = −2 ∈/ [−1; 2]] Tính<br>các giá trị: y(−1) = 1, y(0) = −1, y(2) = 19. Vậy giá trị nhỏ nhất của hàm số trên đoạn [−1; 2] là<br>min[−1;2] y = −1."
       },
       {
@@ -1845,7 +1841,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 3",
           "D": "x = −1"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào đồ thị, ta thấy điểm cực đại của đồ thị hàm số là (−1; 3). Vậy hàm<br>số đạt cực đại tại điểm x = −1."
       },
       {
@@ -1863,7 +1859,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "0"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→−∞</span></span> f(x) = 2 nên đường thẳng y = 2 là tiệm cận ngang.<br><span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> f(x) = +∞ nên đồ thị không có tiệm cận ngang khi x → +∞.<br>Vậy đồ thị hàm số có 1 đường tiệm cận ngang."
       },
       {
@@ -1899,7 +1895,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>; 1)",
           "D": "(1; <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Đồ thị hàm số nhất biến có tâm đối xứng là giao điểm của hai đường tiệm<br>cận.<br>Dựa vào hình vẽ, tiệm cận đứng là x = 1, tiệm cận ngang là y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>. Vậy tâm đối xứng có tọa<br>độ (1; <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>)."
       },
       {
@@ -1917,7 +1913,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = x − 2x + 1",
           "D": "y = −x + x + 1"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Xét hàm số y = <span class=\"m-frac\"><span class=\"num\">2x − 2</span><span class=\"den\">x + 1</span></span>, ta có đạo hàm y′ = <span class=\"m-frac\"><span class=\"num\">2(1) − (−2)(1)</span><span class=\"den\">(x + 1)²</span></span> = <span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">(x + 1)²</span></span> ><br>0, ∀x≠ −1.<br>Vì đạo hàm không đổi dấu trên các khoảng xác định nên hàm số không có cực trị."
       },
       {
@@ -1964,7 +1960,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "D. D Câu 10. Trong không gian Oxyz, cho hai điểm A(1; 2; −1), <span class=\"m-vec\">AB</span> = (1; 3; 1) thì tọa độ của điểm B là:",
+        "question": "Trong không gian Oxyz, cho hai điểm A(1; 2; −1), <span class=\"m-vec\">AB</span> = (1; 3; 1) thì tọa độ của điểm B là:",
         "options": {
           "A": "B(2; 5; 0)",
           "B": "B(0; −1; −2)",
@@ -2007,7 +2003,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Giá trị cực tiểu y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">7</span></span>",
           "D": "Hàm số đạt cực đại tại x = −1."
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có y′ = 21x² + 18x − 3; y′ = 0 ⇔ [x = −1 hoặc x = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">7</span></span>]. Bảng biến thiên cho thấy hàm<br>số đạt cực đại tại x = −1 với y(−1) = 1 và đạt cực tiểu tại x = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">7</span></span> với y (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">7</span></span>) = −<span class=\"m-frac\"><span class=\"num\">207</span><span class=\"den\">49</span></span>. Vậy khẳng<br>định C là sai"
       },
       {
@@ -2152,7 +2148,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "b = 7. Bài 3. Cho hình lăng trụ ABC.A′B′C′, P là trung điểm của BB′. Biết <span class=\"m-vec\">AP</span> = a · <span class=\"m-vec\">AC</span> + b · <span class=\"m-vec\">CB</span> + c · <span class=\"m-vec\">AA′</span>. Tính giá trị biểu thức T = a − 5b + 2c.",
+        "question": "Cho hình lăng trụ ABC.A′B′C′, P là trung điểm của BB′. Biết <span class=\"m-vec\">AP</span> = a · <span class=\"m-vec\">AC</span> + b · <span class=\"m-vec\">CB</span> + c · <span class=\"m-vec\">AA′</span>. Tính giá trị biểu thức T = a − 5b + 2c.",
         "answer": "-3",
         "kqCells": [
           "-",
@@ -2272,7 +2268,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2015",
           "D": "2019"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Quan sát biểu đồ trong đoạn từ năm 2016 đến 2019:<br>Năm 2016: 239,0 mm.<br>Năm 2017: 239,0 mm.<br>Năm 2018: 242,0 mm.<br>Năm 2019: 240,5 mm.<br>Vậy năm có mực nước biển cao nhất trong khoảng này là năm 2018."
       },
       {
@@ -2290,7 +2286,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "4",
           "D": "−4"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Xét f(x) = x − 5 + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x</span></span> trên (0; +∞).<br>Ta có f′(x) = 1 − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x²</span></span> = <span class=\"m-frac\"><span class=\"num\">x² − 1</span><span class=\"den\">x²</span></span>.<br>f′(x) = 0 ⇔ x² = 1 ⇔ x = 1 (do x > 0).<br>Bảng biến thiên: Hàm số nghịch biến trên (0; 1) và đồng biến trên (1; +∞).<br>Vậy giá trị nhỏ nhất là f(1) = 1 − 5 + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">1</span></span> = −3."
       },
       {
@@ -2326,7 +2322,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>",
           "D": "x = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Tiệm cận đứng của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">ax + b</span><span class=\"den\">cx + d</span></span> là đường thẳng x = −<span class=\"m-frac\"><span class=\"num\">d</span><span class=\"den\">c</span></span>.<br>Với hàm số y = <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2x − 1</span></span>, mẫu số 2x − 1 = 0 ⇔ x = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>.<br>Vậy tiệm cận đứng là x = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>."
       },
       {
@@ -2337,14 +2333,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "2 Câu 6. Trong không gian Oxyz, cho hình hộp chữ nhật ABCD.A′B′C′D′ có đỉnh A trùng với gốc tọa độ O, các vectơ <span class=\"m-vec\">AB</span>,<span class=\"m-vec\">AD</span>,<span class=\"m-vec\">AA′</span> theo thứ tự cùng hướng với các vectơ <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>, <span class=\"m-vec\">k</span> và có AB = 4, AD = 3, AA′ = 6. Khi đó vectơ <span class=\"m-vec\">AC′</span> có tọa độ là",
+        "question": "Trong không gian Oxyz, cho hình hộp chữ nhật ABCD.A′B′C′D′ có đỉnh A trùng với gốc tọa độ O, các vectơ <span class=\"m-vec\">AB</span>,<span class=\"m-vec\">AD</span>,<span class=\"m-vec\">AA′</span> theo thứ tự cùng hướng với các vectơ <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>, <span class=\"m-vec\">k</span> và có AB = 4, AD = 3, AA′ = 6. Khi đó vectơ <span class=\"m-vec\">AC′</span> có tọa độ là",
         "options": {
           "A": "(6; 3; 4)",
           "B": "(4; 3; 6)",
           "C": "(3; 6; 4)",
           "D": "(3; 4; 6)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Vì <span class=\"m-vec\">AB</span>,<span class=\"m-vec\">AD</span>,<span class=\"m-vec\">AA′</span> cùng hướng với <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>, <span class=\"m-vec\">k</span> và có độ dài lần lượt là 4, 3, 6 nên:<br><span class=\"m-vec\">AB</span> = 4 <span class=\"m-vec\">i</span>,<span class=\"m-vec\">AD</span> = 3 <span class=\"m-vec\">j</span>,<span class=\"m-vec\">AA′</span> = 6<span class=\"m-vec\">k</span>.<br>Theo quy tắc hình hộp: <span class=\"m-vec\">AC′</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">AA′</span> = 4 <span class=\"m-vec\">i</span> + 3 <span class=\"m-vec\">j</span> + 6<span class=\"m-vec\">k</span>.<br>Vậy tọa độ của vectơ <span class=\"m-vec\">AC′</span> là (4; 3; 6)."
       },
       {
@@ -2362,7 +2358,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "6",
           "D": "−10"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có <span class=\"m-vec\">AB</span> = (3 − (−2); 1 − 0; −1 − 3) = (5; 1; −4).<br><span class=\"m-vec\">BC</span> = (4 − 3; −2 − 1; 2 − (−1)) = (1; −3; 3).<br>Tích vô hướng: <span class=\"m-vec\">AB</span> · <span class=\"m-vec\">BC</span> = 5 · 1 + 1 · (−3) + (−4) · 3 = 5 − 3 − 12 = −10."
       },
       {
@@ -2373,14 +2369,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "AB · BC = 5 · 1 + 1 · (−3) + (−4) · 3 = 5 − 3 − 12 = −10. Câu 8. Trong không gian Oxyz, cho điểm M thỏa mãn <span class=\"m-vec\">OM</span> = 3 <span class=\"m-vec\">i</span> + 5 <span class=\"m-vec\">j</span> − 7<span class=\"m-vec\">k</span>. Tìm tọa độ điểm M′ đối xứng với điểm M qua mặt phẳng (Oxz).",
+        "question": "Trong không gian Oxyz, cho điểm M thỏa mãn <span class=\"m-vec\">OM</span> = 3 <span class=\"m-vec\">i</span> + 5 <span class=\"m-vec\">j</span> − 7<span class=\"m-vec\">k</span>. Tìm tọa độ điểm M′ đối xứng với điểm M qua mặt phẳng (Oxz).",
         "options": {
           "A": "M′(−3; −5; 7)",
           "B": "M′(3; −5; −7)",
           "C": "M′(−3; 5; 7)",
           "D": "M′(3; 5; −7)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Từ <span class=\"m-vec\">OM</span> = 3 <span class=\"m-vec\">i</span> + 5 <span class=\"m-vec\">j</span> − 7<span class=\"m-vec\">k</span> ⇒ M(3; 5; −7).<br>Tọa độ điểm M′ đối xứng với M(x; y; z) qua mặt phẳng (Oxz) là M′(x; −y; z).<br>Vậy M′(3; −5; −7)."
       },
       {
@@ -2391,14 +2387,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "5; −7). Câu 9. Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (3; −4; 7), <span class=\"m-vec\">b</span> = (5; 3; −2). Khi đó 4<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> bằng",
+        "question": "Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (3; −4; 7), <span class=\"m-vec\">b</span> = (5; 3; −2). Khi đó 4<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> bằng",
         "options": {
           "A": "(15; −9; 17)",
           "B": "(−23; 9; 12)",
           "C": "(7; 15; −3)",
           "D": "(27; −7; 22)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "4<span class=\"m-vec\">a</span> = (12; −16; 28).<br>3 <span class=\"m-vec\">b</span> = (15; 9; −6).<br>4<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> = (12 + 15; −16 + 9; 28 − 6) = (27; −7; 22)."
       },
       {
@@ -2409,7 +2405,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "−16 + 9; 28 − 6) = (27; −7; 22). Câu 10. Trong không gian với hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = (0; 1; 1) và <span class=\"m-vec\">b</span> = (−1; 1; 0). Góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> bằng",
+        "question": "Trong không gian với hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = (0; 1; 1) và <span class=\"m-vec\">b</span> = (−1; 1; 0). Góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> bằng",
         "options": {
           "A": "60°",
           "B": "30°",
@@ -2434,7 +2430,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Hai vectơ <span class=\"m-vec\">b</span> và <span class=\"m-vec\">d</span> cùng phương.",
           "D": "Hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">c</span> cùng hướng"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào hình vẽ la bàn và các vectơ được biểu diễn:<br>Vectơ <span class=\"m-vec\">a</span> chỉ hướng Bắc (N), vectơ <span class=\"m-vec\">c</span> chỉ hướng Nam (S). Hai vectơ này cùng nằm trên một<br>đường thẳng nên chúng cùng phương và vì chúng chỉ hai hướng đối nhau nên chúng ngược<br>hướng. Vậy A và B đúng.<br>Vectơ <span class=\"m-vec\">b</span> chỉ hướng Đông (E), vectơ <span class=\"m-vec\">d</span> chỉ hướng Tây (W). Chúng cùng nằm trên một đường<br>thẳng nên cùng phương. Vậy C đúng.<br>Vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">c</span> ngược hướng nhau, do đó mệnh đề \"cùng hướng\" là sai."
       },
       {
@@ -2577,7 +2573,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "quả đến hàng phần chục ta được 14,6. Bài 2. Đường tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² + 2x − 11</span><span class=\"den\">x − 2</span></span> cắt hai trục tọa độ Ox, Oy lần lượt tại hai điểm A, B. Tính diện tích tam giác OAB.",
+        "question": "Đường tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² + 2x − 11</span><span class=\"den\">x − 2</span></span> cắt hai trục tọa độ Ox, Oy lần lượt tại hai điểm A, B. Tính diện tích tam giác OAB.",
         "answer": "9",
         "kqCells": [
           "9",
@@ -2619,7 +2615,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "trị của biểu thức T là: T = 2a + b = 2 · 2 + 6 = 10. Bài 4. Trong không gian, cho hai vec-tơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span>. Biết |<span class=\"m-vec\">a</span> | = 1, | <span class=\"m-vec\">b</span> | = 2 và góc giữa hai vec-tơ đó bằng 60°. Tính (3<span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span>)².",
+        "question": "Trong không gian, cho hai vec-tơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span>. Biết |<span class=\"m-vec\">a</span> | = 1, | <span class=\"m-vec\">b</span> | = 2 và góc giữa hai vec-tơ đó bằng 60°. Tính (3<span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span>)².",
         "answer": "37",
         "kqCells": [
           "3",
@@ -2717,7 +2713,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Giá trị lớn nhất của hàm số trên đồ thị là y = 3, đạt được tại x = 4."
       },
       {
@@ -2753,7 +2749,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−2; −1)",
           "D": "(−1; −2)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị hàm số, ta thấy:<br>Đường tiệm cận đứng là đường thẳng đi qua điểm x = 2 trên trục hoành, nên có phương<br>trình x = 2.<br>Đường tiệm cận ngang là đường thẳng đi qua điểm y = 1 trên trục tung, nên có phương trình<br>y = 1.<br>Tâm đối xứng của đồ thị hàm số phân thức bậc nhất trên bậc nhất là giao điểm của hai<br>đường tiệm cận.<br>Vậy tọa độ tâm đối xứng là (2; 1)."
       },
       {
@@ -2807,7 +2803,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span> = |<span class=\"m-vec\">u</span>| · |<span class=\"m-vec\">v</span> | · cos(<span class=\"m-vec\">u</span>, <span class=\"m-vec\">v</span>)",
           "D": "<span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span> = <span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span> · cos(<span class=\"m-vec\">u</span>, <span class=\"m-vec\">v</span>)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Theo định nghĩa tích vô hướng của hai vectơ trong không gian: Tích vô hướng<br>của hai vectơ <span class=\"m-vec\">u</span> và <span class=\"m-vec\">v</span> bằng tích độ dài của chúng nhân với côsin của góc giữa hai vectơ đó. Công<br>thức là: <span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span> = |<span class=\"m-vec\">u</span>| · |<span class=\"m-vec\">v</span> | · cos(<span class=\"m-vec\">u</span>, <span class=\"m-vec\">v</span>)."
       },
       {
@@ -2818,7 +2814,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "|u| · |v | · cos(u, v). Câu 8. Cho hình chóp S.ABCD có ABCD là hình bình hành. Nếu <span class=\"m-vec\">SC</span> = a<span class=\"m-vec\">AB</span> + b<span class=\"m-vec\">AD</span> + c<span class=\"m-vec\">AS</span> thì a + b − c bằng",
+        "question": "Cho hình chóp S.ABCD có ABCD là hình bình hành. Nếu <span class=\"m-vec\">SC</span> = a<span class=\"m-vec\">AB</span> + b<span class=\"m-vec\">AD</span> + c<span class=\"m-vec\">AS</span> thì a + b − c bằng",
         "options": {
           "A": "1",
           "B": "−2",
@@ -2861,7 +2857,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "10",
           "D": "5"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Gọi T(x) (đơn vị USD) là tổng số tiền bao gồm cả chi phí ban đầu mà công<br>ty phải trả khi sản xuất x đồ chơi A thì T(x) = 50000 + 5x.<br>Ta có: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">T(x)</span><span class=\"den\">x</span></span> = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> (<span class=\"m-frac\"><span class=\"num\">50000</span><span class=\"den\">x</span></span> + 5) = 5 ⇒ Chọn"
       },
       {
@@ -2879,7 +2875,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "D(−3; −6; 1)",
           "D": "D(−3; −6; −1)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Để tứ giác ABCD là hình bình hành thì <span class=\"m-vec\">AB</span> = <span class=\"m-vec\">DC</span>.<br>Ta có <span class=\"m-vec\">AB</span> = (3 − 1; 3 − (−1); 3 − 2) = (2; 4; 1).<br>Gọi D(x<sub>D</sub>; y<sub>D</sub>; z<sub>D</sub>). Khi đó <span class=\"m-vec\">DC</span> = (−1 − x<sub>D</sub>; −2 − y<sub>D</sub>; 2 − z<sub>D</sub>).<br><span class=\"m-vec\">AB</span> = <span class=\"m-vec\">DC</span> ⇔ {−1 − x<sub>D</sub> = 2; −2 − y<sub>D</sub> = 4; 2 − z<sub>D</sub> = 1} ⇔ {x<sub>D</sub> = −3; y<sub>D</sub> = −6.; z<sub>D</sub> = 1}<br>Vậy tọa độ điểm D là (−3; −6; 1)."
       },
       {
@@ -2954,7 +2950,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de7_p2_q3.png",
-        "question": "[3;4] Bài 3. Trong không gian Oxyz, cho hình hộp chữ nhật ABCD.A′B′C′D′ biết điểm A trùng gốc O, B(7; 0; 0), D(0; 10; 0), A′(0; 0; 7). (hình vẽ minh họa)",
+        "question": "Trong không gian Oxyz, cho hình hộp chữ nhật ABCD.A′B′C′D′ biết điểm A trùng gốc O, B(7; 0; 0), D(0; 10; 0), A′(0; 0; 7). (hình vẽ minh họa)",
         "statements": {
           "a": "Điểm M (<span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">2</span></span>; 5; 7) cách đều A, B, C và D.",
           "b": "Tọa độ của vectơ <span class=\"m-vec\">AC′</span> = (7; 10; 7).",
@@ -3144,7 +3140,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "b < a < 0",
           "D": "0 < a < b"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tập xác định D = ℝ \\ {1}.<br>Ta có y = <span class=\"m-frac\"><span class=\"num\">ax − b</span><span class=\"den\">x − 1</span></span> ⇒ y′ = <span class=\"m-frac\"><span class=\"num\">−a + b</span><span class=\"den\">(x − 1)²</span></span>.<br>Từ đồ thị suy ra hàm số nghịch biến trên mỗi khoảng xác định nên y′ < 0 ∀x≠ 1<br>⇒ −a + b < 0 ⇔ a > b.<br>Mặt khác, đồ thị có tiệm cận ngang y = −1 nên a = −1 ⇒ a < 0.<br>Vậy b < a < 0."
       },
       {
@@ -3162,7 +3158,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Hàm số nghịch biến trên khoảng (1; 2).",
           "D": "Hàm số nghịch biến trên khoảng (−5; 4)."
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên, trên khoảng (1; 2) đạo hàm f′(x) < 0 nên hàm số<br>nghịch biến."
       },
       {
@@ -3227,14 +3223,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
-        "question": "trình đã cho có tổng cộng 3 nghiệm thực phân biệt. Câu 6. Tìm số đường tiệm cận đứng của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x − 4</span><span class=\"den\">x² − 16</span></span>.",
+        "question": "Tìm số đường tiệm cận đứng của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x − 4</span><span class=\"den\">x² − 16</span></span>.",
         "options": {
           "A": "0",
           "B": "3",
           "C": "2",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "T a có hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x − 4</span><span class=\"den\">x² − 16</span></span> = <span class=\"m-frac\"><span class=\"num\">(x − 4)(x + 1)</span><span class=\"den\">(x − 4)(x + 4)</span></span>.<br>Tập xác định: D = ℝ \\ {−4; 4}.<br>Rút gọn hàm số với x≠ 4: y = <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">x + 4</span></span>.<br>- Xét tại x = 4: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→4</span></span> y = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→4</span></span> <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">x + 4</span></span> = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">8</span></span> (hữu hạn) nên x = 4 không là tiệm cận đứng.<br>- Xét tại x = −4: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→−4<sup>+</sup></span></span> y = −∞ và <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→−4<sup>−</sup></span></span> y = +∞ nên đường thẳng x = −4 là tiệm cận đứng.<br>Vậy đồ thị hàm số có đúng 1 đường tiệm cận đứng."
       },
       {
@@ -3245,7 +3241,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": "assets/images/quiz/math_kha/kha_de8_p1_q7.png",
-        "question": "số có đúng 1 đường tiệm cận đứng. Câu 7. Cho hình lập phương ABCD.EFGH. Tính góc giữa cặp vectơ <span class=\"m-vec\">AB</span> và <span class=\"m-vec\">EG</span>.",
+        "question": "Cho hình lập phương ABCD.EFGH. Tính góc giữa cặp vectơ <span class=\"m-vec\">AB</span> và <span class=\"m-vec\">EG</span>.",
         "options": {
           "A": "90°",
           "B": "60°",
@@ -3281,7 +3277,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "chỉ đổi dấu khi đi qua điểm x = 3 nên hàm số có 1 điểm cực trị. Câu 9. Trong không gian Oxyz, cho <span class=\"m-vec\">OM</span> = (1; 5; 2), <span class=\"m-vec\">ON</span> = (3; 7; −4), K(−1; 3; 1). Gọi P là điểm đối xứng với M qua N. Tìm tọa độ vecto <span class=\"m-vec\">KP</span>.",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">OM</span> = (1; 5; 2), <span class=\"m-vec\">ON</span> = (3; 7; −4), K(−1; 3; 1). Gọi P là điểm đối xứng với M qua N. Tìm tọa độ vecto <span class=\"m-vec\">KP</span>.",
         "options": {
           "A": "<span class=\"m-vec\">KP</span> = (6; 6; −11)",
           "B": "<span class=\"m-vec\">KP</span> = (8; 6; −11)",
@@ -3445,7 +3441,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "Ứng dụng đạo hàm giải quyết bài toán thực tiễn",
         "figure": null,
-        "question": "trả lời ngắn Thí sinh trả lời từ câu 1 đến câu 6 Bài 1. Biết rằng khoảng nghịch biến lớn nhất của hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + 2x + 2</span><span class=\"den\">x + 1</span></span> là hai khoảng (a; b), (b; c) với a < b < c. Tính T = a + b + c.",
+        "question": "Biết rằng khoảng nghịch biến lớn nhất của hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + 2x + 2</span><span class=\"den\">x + 1</span></span> là hai khoảng (a; b), (b; c) với a < b < c. Tính T = a + b + c.",
         "answer": "-3",
         "kqCells": [
           "-",
@@ -3467,16 +3463,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
         "question": "Một mảnh đất hình thang vuông có đáy lớn gấp đôi đáy nhỏ, có diện tích là S = 24 (m²). Gọi x (m) là độ dài đáy nhỏ và P(x) là chu vi mảnh đất đó. Tìm số tiệm cận của P(x).",
-        "answer": "0",
+        "answer": "2",
         "kqCells": [
-          "0",
+          "2",
           "",
           "",
           ""
         ],
         "explanation": "Giả sử đáy nhỏ có độ dài là x > 0, đáy lớn là 2x. Gọi h là chiều cao của hình<br>thang vuông.<br>Diện tích hình thang: S = <span class=\"m-frac\"><span class=\"num\">(x + 2x)h</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3xh</span><span class=\"den\">2</span></span> = 24 ⇒ h = <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x</span></span>.<br><span class=\"m-root\">√<span class=\"m-rad\">(<span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x</span></span>)² + x²</span></span><br>Độ dài cạnh bên không vuông góc (cạnh xiên) là: l = <span class=\"m-root\">√<span class=\"m-rad\">h² + (2x − x)²</span></span> = =<br><span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">256 + x<sup>4</sup></span></span></span><span class=\"den\">x</span></span>.<br>Chu vi của mảnh đất là: P(x) = x+2x+h+l = 3x+ <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x</span></span> + <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">x<sup>4</sup> + 256</span></span></span><span class=\"den\">x</span></span> = <span class=\"m-frac\"><span class=\"num\">3x² + 16 + <span class=\"m-root\">√<span class=\"m-rad\">x<sup>4</sup> + 256</span></span></span><span class=\"den\">x</span></span><br>(với x > 0).<br>- Tiệm cận đứng: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→0<sup>+</sup></span></span> P(x) = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→0<sup>+</sup></span></span> <span class=\"m-frac\"><span class=\"num\">3x² + 16 + <span class=\"m-root\">√<span class=\"m-rad\">x<sup>4</sup> + 256</span></span></span><span class=\"den\">x</span></span> = +∞, nên đường thẳng x = 0 là<br>tiệm cận đứng.<br>- Tiệm cận xiên: Ta có P(x) = 3x + <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x</span></span> + <span class=\"m-root\">√<span class=\"m-rad\">x² + <span class=\"m-frac\"><span class=\"num\">256</span><span class=\"den\">x²</span></span>.</span></span><br>a = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">P(x)</span><span class=\"den\">x</span></span> = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> 3 + <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x²</span></span> + <span class=\"m-root\">√<span class=\"m-rad\">1 + <span class=\"m-frac\"><span class=\"num\">256</span><span class=\"den\">x<sup>4</sup></span></span></span></span>[= 3 + 0 + 1 = 4.<br>b = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> (P(x) − 4x) = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">x</span></span> + <span class=\"m-root\">√<span class=\"m-rad\">x² + <span class=\"m-frac\"><span class=\"num\">256</span><span class=\"den\">x²</span></span></span></span> − x[= 0 + <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">256/x²</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">x² + 256/x²</span></span> + x</span></span> = 0.<br>Suy ra đường thẳng y = 4x là tiệm cận xiên.<br>Vậy hàm số P(x) có tất cả 2 đường tiệm cận.",
         "acceptedAnswers": [
-          "0"
+          "2"
         ]
       },
       {
@@ -3607,7 +3603,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "1",
           "D": "−1"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị hàm số, ta thấy điểm cực đại của đồ thị hàm số là (1; 3).<br>Do đó, giá trị cực đại của hàm số đã cho bằng 3."
       },
       {
@@ -3625,7 +3621,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−∞; +∞)",
           "D": "(0; 2)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Tập xác định: D = ℝ.<br>Ta có y′ = 3x² − 6x. Cho y′ = 0 ⇔ 3x(x − 2) = 0 ⇔ [x = 0 hoặc x = 2]<br>Bảng xét dấu đạo hàm: y′ mang dấu âm trên khoảng (0; 2).<br>Vậy hàm số nghịch biến trên khoảng (0; 2)."
       },
       {
@@ -3643,7 +3639,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Hàm số y = f(x) đạt cực tiểu tại x = 3.",
           "D": "Hàm số y = f(x) đạt cực đại tại x = 4."
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào đồ thị của hàm số y = f′(x):<br>- Trên khoảng (2; 4), đồ thị nằm phía dưới trục hoành nên f′(x) < 0. Do đó hàm số y = f(x)<br>nghịch biến trên (2; 4). Khẳng định B đúng.<br>- Trên khoảng (−∞; 0), f′(x) < 0 nên hàm số nghịch biến. Khẳng định A sai.<br>- Tại x = 4, f′(x) đổi dấu từ âm sang dương nên hàm số đạt cực tiểu tại x = 4. Khẳng định D<br>sai.<br>- Tại x = 3, f′(x) không đổi dấu qua 0 nên không phải điểm cực trị của f(x). Khẳng định C<br>sai."
       },
       {
@@ -3661,7 +3657,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(3; −3; 6)",
           "D": "(3; 2; 1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Gọi M là trung điểm BC, ta có <span class=\"m-vec\">u</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AC</span> = 2<span class=\"m-vec\">AM</span>.<br>Mặt khác <span class=\"m-vec\">AG</span> = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span><span class=\"m-vec\">AM</span> ⇒ 2<span class=\"m-vec\">AM</span> = 3<span class=\"m-vec\">AG</span>.<br><span class=\"m-vec\">AG</span> = (2 − 1; 1 − (−1); −3 − (−2)) = (1; 2; −1).<br>Vậy <span class=\"m-vec\">u</span> = 3(1; 2; −1) = (3; 6; −3)."
       },
       {
@@ -3679,7 +3675,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "G(0; −1; −1)",
           "D": "G(6; −3; −3)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "G là trọng tâm tứ diện ABCD ⇒ G = <span class=\"m-frac\"><span class=\"num\">A + B + C + D</span><span class=\"den\">4</span></span>.<br>G = (<span class=\"m-frac\"><span class=\"num\">1 + 2 + 3 + 2</span><span class=\"den\">4</span></span>; <span class=\"m-frac\"><span class=\"num\">−4 + 1 + 0 − 5</span><span class=\"den\">4</span></span>; <span class=\"m-frac\"><span class=\"num\">2 − 3 − 2 − 1</span><span class=\"den\">4</span></span>) = (2; −2; −1)."
       },
       {
@@ -3769,7 +3765,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "−<span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2<span class=\"m-root\">√<span class=\"m-rad\">35</span></span></span></span>",
           "D": "<span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2<span class=\"m-root\">√<span class=\"m-rad\">35</span></span></span></span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "<span class=\"m-vec\">AB</span> = (1; 5; −2), <span class=\"m-vec\">AC</span> = (5; 4; −1).<br>cosBAC[= <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">AB</span> · <span class=\"m-vec\">AC</span></span><span class=\"den\">|<span class=\"m-vec\">AB</span>| · |<span class=\"m-vec\">AC</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">1(5) + 5(4) + (−2)(−1)</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1² + 5² + (−2)²</span></span> · <span class=\"m-root\">√<span class=\"m-rad\">5² + 4² + (−1)²</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">27</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">30</span></span> · <span class=\"m-root\">√<span class=\"m-rad\">42</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">27</span><span class=\"den\">6<span class=\"m-root\">√<span class=\"m-rad\">35</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2<span class=\"m-root\">√<span class=\"m-rad\">35</span></span></span></span>."
       },
       {
@@ -3798,7 +3794,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "hoặc sai Bài 1. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x − 1</span><span class=\"den\">x − 1</span></span>",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x − 1</span><span class=\"den\">x − 1</span></span>",
         "statements": {
           "a": "Tập xác định của hàm số là D = ℝ \\ {1}.",
           "b": "Hàm số đã cho có hai điểm cực trị.",
@@ -3912,7 +3908,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": null,
-        "question": "8 Bài 2. Cho hàm số y = x³ − 3x + 2 có đồ thị (C) và y = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> có đồ thị (T). Số giao điểm của (C) với (T) là?",
+        "question": "Cho hàm số y = x³ − 3x + 2 có đồ thị (C) và y = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> có đồ thị (T). Số giao điểm của (C) với (T) là?",
         "answer": "2",
         "kqCells": [
           "2",
@@ -3920,7 +3916,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "",
           ""
         ],
-        "explanation": "Xét phương trình hoành độ giao điểm: (ĐK x≠ 1)<br>x³ − 3x + 2 = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> ⇔ (x + 2)(x − 1)² = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> ⇔ (x + 2)(x − 1)² − <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> = 0<br>+ 2 = 0<br>⇔ (x + 2) · ((x − 1)² − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x − 1</span></span>) = 0 ⇒ [x hoặc (x − 1)] ⇔ [x = −2(TM) hoặc x = 2(TM)]<br>³ = 1<br>Vậy số giao điểm của (C) với (T) là 2.",
+        "explanation": "Xét phương trình hoành độ giao điểm: (ĐK x≠ 1)<br>x³ − 3x + 2 = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> ⇔ (x + 2)(x − 1)² = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> ⇔ (x + 2)(x − 1)² − <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span> = 0<br>⇔ (x + 2) · ((x − 1)² − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x − 1</span></span>) = 0 ⇔ [x + 2 = 0 hoặc (x − 1)³ = 1] ⇔ [x = −2 (TM) hoặc x = 2 (TM)].<br>Vậy số giao điểm của (C) với (T) là 2.",
         "acceptedAnswers": [
           "2"
         ]
@@ -4028,7 +4024,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "Tính đơn điệu và biến thiên của hàm số",
         "figure": null,
-        "question": "hỏi học sinh chỉ chọn một phương án. Câu 1. Hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x + 5</span><span class=\"den\">x + 1</span></span> nghịch biến trên các khoảng nào?",
+        "question": "Hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x + 5</span><span class=\"den\">x + 1</span></span> nghịch biến trên các khoảng nào?",
         "options": {
           "A": "(−4; 2)",
           "B": "(−∞; −2)",
@@ -4046,7 +4042,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "biến trên các khoảng (−4; −1) và (−1; 2). Đối chiếu các phương án, ta chọn D. Câu 2. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 2x − 7</span><span class=\"den\">x − 4</span></span>. Phát biểu nào sau đây là đúng?",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 2x − 7</span><span class=\"den\">x − 4</span></span>. Phát biểu nào sau đây là đúng?",
         "options": {
           "A": "x<sub>CT</sub> = 3, x<sub>CD</sub> = 5",
           "B": "x<sub>CT</sub> = −3, x<sub>CD</sub> = 5",
@@ -4064,14 +4060,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Cực trị của hàm số",
         "figure": null,
-        "question": "biến thiên, hàm số đạt cực đại tại x<sub>CD</sub> = 3 và đạt cực tiểu tại x<sub>CT</sub> = 5. Câu 3. Điểm cực tiểu của hàm số y = <span class=\"m-frac\"><span class=\"num\">−x² + 2x − 1</span><span class=\"den\">x + 2</span></span> là",
+        "question": "Điểm cực tiểu của hàm số y = <span class=\"m-frac\"><span class=\"num\">−x² + 2x − 1</span><span class=\"den\">x + 2</span></span> là",
         "options": {
           "A": "x = 1",
           "B": "x = −5",
           "C": "x = 2",
           "D": "x = 5"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Tập xác định: D = ℝ \\ {−2}.<br>Ta có y′ = <span class=\"m-frac\"><span class=\"num\">(−2x + 2)(x + 2) − (−x² + 2x − 1)</span><span class=\"den\">(x + 2)²</span></span> = <span class=\"m-frac\"><span class=\"num\">−2x² − 4x + 2x + 4 + x² − 2x + 1</span><span class=\"den\">(x + 2)²</span></span> = <span class=\"m-frac\"><span class=\"num\">−x² − 4x + 5</span><span class=\"den\">(x + 2)²</span></span>.<br>y′ = 0 ⇔ −x² − 4x + 5 = 0 ⇔ [x = 1 hoặc x = −5]<br>Xét dấu y′:<br>Hàm số đạt cực tiểu tại x = −5."
       },
       {
@@ -4089,7 +4085,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Nếu f′(x) = 0, ∀x ∈ ℝ thì hàm số f(x) đồng biến trên ℝ.",
           "D": "Nếu f′(x) < 0, ∀x ∈ ℝ thì hàm số f(x) đồng biến trên ℝ."
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Theo định lý về tính đơn điệu của hàm số: Nếu hàm số y = f(x) có đạo hàm<br>trên khoảng K và f′(x) > 0, ∀x ∈ K thì hàm số đồng biến trên K. Ở đây K = ℝ. Do đó khẳng<br>định B là đúng."
       },
       {
@@ -4136,7 +4132,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": ". D Câu 7. Cho |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 5, góc giữa <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> bằng 120°. Khẳng định nào sai trong các khẳng định sau?",
+        "question": "Cho |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 5, góc giữa <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> bằng 120°. Khẳng định nào sai trong các khẳng định sau?",
         "options": {
           "A": "|<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> | = 7",
           "B": "|<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = <span class=\"m-root\">√<span class=\"m-rad\">19.</span></span>",
@@ -4190,14 +4186,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
-        "question": "thẳng y = 2 là tiệm cận ngang của đồ thị hàm số đã cho. A Câu 10. Đường tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² + x − 2</span><span class=\"den\">x + 1</span></span> là",
+        "question": "Đường tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² + x − 2</span><span class=\"den\">x + 1</span></span> là",
         "options": {
           "A": "y = −1",
           "B": "y = 2",
           "C": "y = 2x − 1",
           "D": "y = 2x + 1"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có y = <span class=\"m-frac\"><span class=\"num\">2x² + x − 2</span><span class=\"den\">x + 1</span></span> = 2x − 1 − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x + 1</span></span> nên đường tiệm cận xiên có phương<br>trình y = 2x − 1."
       },
       {
@@ -4208,7 +4204,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "− 1. Câu 11. Trong không gian Oxyz, cho điểm M thỏa mãn <span class=\"m-vec\">OM</span> = 2 <span class=\"m-vec\">i</span> + 3 <span class=\"m-vec\">j</span> − 4<span class=\"m-vec\">k</span>. Tìm tọa độ điểm H là hình chiếu của điểm M lên mặt phẳng (Oxz).",
+        "question": "Trong không gian Oxyz, cho điểm M thỏa mãn <span class=\"m-vec\">OM</span> = 2 <span class=\"m-vec\">i</span> + 3 <span class=\"m-vec\">j</span> − 4<span class=\"m-vec\">k</span>. Tìm tọa độ điểm H là hình chiếu của điểm M lên mặt phẳng (Oxz).",
         "options": {
           "A": "H(0; 3; −4)",
           "B": "H(−2; −3; 4)",
@@ -4233,7 +4229,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Đạo hàm đổi dấu từ − sang + tại x = −3 và x = 3. Vậy hàm số có 2 điểm<br>cực tiểu."
       },
       {
@@ -4337,16 +4333,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Cực trị của hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de10_p3_q1.png",
         "question": "Cho hàm số f(x) liên tục trên ℝ và có bảng xét dấu f′(x) như sau. Hàm số có bao nhiêu điểm cực trị?",
-        "answer": "2",
+        "answer": "3",
         "kqCells": [
-          "2",
+          "3",
           "",
           "",
           ""
         ],
         "explanation": "Ta thấy vì hàm số liên tục trên ℝ và có đạo hàm qua 3 nghiệm x = −2, x =<br>1, x = 2 đổi dấu nên hàm số có 3 điểm cực trị.",
         "acceptedAnswers": [
-          "2"
+          "3"
         ]
       },
       {
@@ -4358,16 +4354,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Tính đơn điệu và biến thiên của hàm số",
         "figure": null,
         "question": "Cho hàm số y = ax³ + bx² + cx + d đạt cực trị tại các điểm x<sub>1</sub>, x<sub>2</sub> thỏa mãn x<sub>1</sub> ∈ (−1; 0), x<sub>2</sub> ∈ (1; 2). Biết hàm số đồng biến trên khoảng (x<sub>1</sub>; x<sub>2</sub>). Đồ thị hàm số cắt trục tung tại điểm có tung độ âm. Trong các số a, b và c có bao nhiêu số âm?",
-        "answer": "0",
+        "answer": "1",
         "kqCells": [
-          "0",
+          "1",
           "",
           "",
           ""
         ],
         "explanation": "Hàm số đa thức bậc 3: y = ax³ + bx² + cx + d đạt cực trị tại các điểm x1, x2<br>nên a≠ 0.<br>Suy ra: x<sub>1</sub>, x<sub>2</sub> là hai nghiệm của phương trình y′ = 3ax² + 2bx + c = 0.<br>Theo định lý Vi-et ta có: {x1 + x2 = <span class=\"m-frac\"><span class=\"num\">−2b</span><span class=\"den\">3a</span></span>; x1 · x2 = <span class=\"m-frac\"><span class=\"num\">c</span><span class=\"den\">3a</span></span>}<br>Áp dụng định lý dấu tam thức bậc 2, ta có hàm số đồng biến trên khoảng (x<sub>1</sub>; x<sub>2</sub>) ⇒ a < 0.<br>Vì x<sub>1</sub> ∈ (−1; 0), x<sub>2</sub> ∈ (1; 2) nên {x1 + x2 > 0; x1 · x2 < 0} ⇔ {<span class=\"m-frac\"><span class=\"num\">−2b</span><span class=\"den\">3a</span></span> > 0; <span class=\"m-frac\"><span class=\"num\">c</span><span class=\"den\">3a</span></span> < 0} do a < 0 ⇒ {b > 0; c > 0}<br>Vậy trong các số a, b và c có 1 số âm là a.",
         "acceptedAnswers": [
-          "0"
+          "1"
         ]
       },
       {
@@ -4399,7 +4395,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "c − 5 = 24 ⇔ c = 29. Bài 4. Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 6. Tính |<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> |. (Làm tròn kết quả đến hàng phần trăm).",
+        "question": "Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 6. Tính |<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> |. (Làm tròn kết quả đến hàng phần trăm).",
         "answer": "3,74",
         "kqCells": [
           "3",
@@ -4498,7 +4494,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "60°",
           "D": "150°"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Gọi θ là góc giữa hai vectơ. Ta có:<br>cos θ = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">a</span> · <span class=\"m-vec\">u</span></span><span class=\"den\">|<span class=\"m-vec\">a</span> | · |<span class=\"m-vec\">u</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">1 · (−√3) + 0 · 0 + 0 · 1</span><span class=\"den\">1 · <span class=\"m-root\">√<span class=\"m-rad\">(−<span class=\"m-root\">√<span class=\"m-rad\">3)</span></span> ² + 0² + 1²</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">−<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>.<br>Suy ra θ = 150°."
       },
       {
@@ -4516,7 +4512,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "I (<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>)",
           "D": "I (<span class=\"m-frac\"><span class=\"num\">−7</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">−3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">−1</span><span class=\"den\">2</span></span>)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tọa độ trung điểm I của đoạn thẳng AB là:<br>x<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">−2 + 5</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">3 + 6</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; z<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">1 + 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>.<br>Vậy I (<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>)."
       },
       {
@@ -4570,7 +4566,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "7",
           "D": "21"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Đẳng thức <span class=\"m-vec\">MA</span> + <span class=\"m-vec\">MB</span> + <span class=\"m-vec\">MC</span> = <span class=\"m-vec\">0</span> chứng tỏ M là trọng tâm của tam giác<br>ABC.<br>Tọa độ của M là: a = <span class=\"m-frac\"><span class=\"num\">1 + 2 + 3</span><span class=\"den\">3</span></span> = 2; b = <span class=\"m-frac\"><span class=\"num\">1 + 3 − 1</span><span class=\"den\">3</span></span> = 1; c = <span class=\"m-frac\"><span class=\"num\">−2 + 2 + 6</span><span class=\"den\">3</span></span> = 2.<br>Vậy M(2; 1; 2) ⇒ T = a + b + c = 2 + 1 + 2 = 5."
       },
       {
@@ -4599,14 +4595,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de11_p1_q8.png",
-        "question": "5 5 5 Câu 8. Trong không gian, cho hình lập phương ABCD.A′B′C′D′ có độ dài các cạnh bằng 1, điểm A trùng với gốc tọa độ (như hình vẽ bên dưới). Tọa độ của vectơ <span class=\"m-vec\">B</span> C′ là",
+        "question": "Trong không gian, cho hình lập phương ABCD.A′B′C′D′ có độ dài các cạnh bằng 1, điểm A trùng với gốc tọa độ (như hình vẽ bên dưới). Tọa độ của vectơ <span class=\"m-vec\">B</span> C′ là",
         "options": {
           "A": "(0; 1; 1)",
           "B": "(0; 1; −1)",
           "C": "(1; 1; 1)",
           "D": "(1; 0; 1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào hình vẽ và giả thiết cạnh bằng 1, ta có tọa độ các điểm:<br>A(0; 0; 0), B(1; 0; 0), D(0; 1; 0), C(1; 1; 0), A′(0; 0, 1), B′(1; 0, 1), C′(1; 1, 1), D′(0, 1, 1).<br>Khi đó <span class=\"m-vec\">B</span> C′ = (1 − 1; 1 − 0; 0 − 1) = (0; 1; −1)."
       },
       {
@@ -4660,7 +4656,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 3",
           "D": "y = 2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "<br>Tiệm cận đứng của đồ thị hàm số là đường thẳng x = −<span class=\"m-frac\"><span class=\"num\">d</span><span class=\"den\">c</span></span> ⇔ x = 2."
       },
       {
@@ -4823,7 +4819,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "thanh nhỏ nhất tại thời điểm t = 8 giờ. Bài 3. Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (2; 3; 1), <span class=\"m-vec\">b</span> = (−1; 5; 2), <span class=\"m-vec\">c</span> = (4; −1; 3) và <span class=\"m-vec\">x</span> = (−3; 22; 5). Biết <span class=\"m-vec\">x</span> = m<span class=\"m-vec\">a</span> + n <span class=\"m-vec\">b</span> + p <span class=\"m-vec\">c</span>, tính m − n − p.",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (2; 3; 1), <span class=\"m-vec\">b</span> = (−1; 5; 2), <span class=\"m-vec\">c</span> = (4; −1; 3) và <span class=\"m-vec\">x</span> = (−3; 22; 5). Biết <span class=\"m-vec\">x</span> = m<span class=\"m-vec\">a</span> + n <span class=\"m-vec\">b</span> + p <span class=\"m-vec\">c</span>, tính m − n − p.",
         "answer": "0",
         "kqCells": [
           "0",
@@ -4926,7 +4922,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "-5",
           "D": "-3"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào đồ thị, hàm số đạt cực đại tại điểm (−3; −5). Do đó, giá trị cực đại<br>của hàm số là y<sub>CĐ</sub> = −5."
       },
       {
@@ -4944,7 +4940,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(0; 2)",
           "D": "(3; −5)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Từ bảng biến thiên, hàm số đổi dấu từ dương sang âm khi qua x = 0, nên<br>hàm số đạt cực đại tại x = 0 và giá trị cực đại y = 2.<br>Vậy điểm cực đại của đồ thị hàm số là (0; 2)."
       },
       {
@@ -4962,7 +4958,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "{a < 0; b² − 3ac < 0}",
           "D": "{a > 0; b² − 3ac ≥ 0}"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Hàm số y = ax³ + bx² + cx + d nghịch biến trên ℝ khi và chỉ khi y′ =<br>3ax² + 2bx + c ≤ 0, ∀x ∈ ℝ.<br>a < 0<br>Điều này tương đương với:.<br>∆′<sub>y</sub>′ = b² − 3ac ≤ 0"
       },
       {
@@ -4973,14 +4969,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "Cực trị của hàm số",
         "figure": null,
-        "question": "y Câu 4. Cho hàm số y = f(x) có đạo hàm f′(x) = 2026x² − 2027x với mọi x ∈ ℝ. Hàm số y = f(x) đạt cực tiểu tại",
+        "question": "Cho hàm số y = f(x) có đạo hàm f′(x) = 2026x² − 2027x với mọi x ∈ ℝ. Hàm số y = f(x) đạt cực tiểu tại",
         "options": {
           "A": "x = 0",
           "B": "x = <span class=\"m-frac\"><span class=\"num\">2027</span><span class=\"den\">2026</span></span>",
           "C": "x = −<span class=\"m-frac\"><span class=\"num\">2026</span><span class=\"den\">2027</span></span>",
           "D": "x = <span class=\"m-frac\"><span class=\"num\">2026</span><span class=\"den\">2027</span></span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có f′(x) = x(2026x − 2027). f′(x) = 0 ⇔ [x = 0 hoặc x = <span class=\"m-frac\"><span class=\"num\">2027</span><span class=\"den\">2026</span></span>].<br>Hệ số của x² là 2026 > 0, nên bảng xét dấu đạo hàm cho thấy f′(x) đổi dấu từ âm sang dương<br>khi qua x = <span class=\"m-frac\"><span class=\"num\">2027</span><span class=\"den\">2026</span></span>.<br>Do đó hàm số đạt cực tiểu tại x = <span class=\"m-frac\"><span class=\"num\">2027</span><span class=\"den\">2026</span></span>."
       },
       {
@@ -4991,7 +4987,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": "assets/images/quiz/math_kha/kha_de12_p1_q5.png",
-        "question": "2026 Câu 5. Cho tứ diện ABCD. Có bao nhiêu vectơ khác <span class=\"m-vec\">0</span>, có điểm đầu là A và điểm cuối là một trong các đỉnh còn lại của tứ diện?",
+        "question": "Cho tứ diện ABCD. Có bao nhiêu vectơ khác <span class=\"m-vec\">0</span>, có điểm đầu là A và điểm cuối là một trong các đỉnh còn lại của tứ diện?",
         "options": {
           "A": "1",
           "B": "2",
@@ -5124,7 +5120,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "160 cm²",
           "D": "200 cm²"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "<br>Gọi x (cm) là độ dài cạnh hình chữ nhật vuông góc với đường kính (0 < x < 10).<br>Độ dài cạnh nằm dọc trên đường kính là 2<span class=\"m-root\">√<span class=\"m-rad\">10² − x².</span></span><br>Diện tích hình chữ nhật: S = 2x<span class=\"m-root\">√<span class=\"m-rad\">100 − x²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">4x²(100 − x²).</span></span><br>2<br>Theo BĐT AM-GM: 4x²(100 − x²) ≤ (<span class=\"m-frac\"><span class=\"num\">4x² + 4(100 − x²)</span><span class=\"den\">2</span></span>) không tối ưu trực tiếp.<br>Xét S′ = 2<span class=\"m-root\">√<span class=\"m-rad\">100 − x²</span></span> − <span class=\"m-frac\"><span class=\"num\">2x²</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">100 − x²</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">200 − 4x²</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">100 − x²</span></span></span></span>.<br>S′ = 0 ⇔ x² = 50 ⇔ x = 5<span class=\"m-root\">√<span class=\"m-rad\">2.</span></span><br>Diện tích lớn nhất: S = 2(5<span class=\"m-root\">√<span class=\"m-rad\">2)</span></span> <span class=\"m-root\">√<span class=\"m-rad\">100 −</span></span>50 = 10<span class=\"m-root\">√<span class=\"m-rad\">2</span></span> · 5√2 = 100 cm²."
       },
       {
@@ -5204,7 +5200,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "AC ⇒ C (1; 3; 3). Bài 4. Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (−2; 1; −3), <span class=\"m-vec\">b</span> = (−1; −3; 2) và điểm A(4; 6; −3).",
+        "question": "Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (−2; 1; −3), <span class=\"m-vec\">b</span> = (−1; −3; 2) và điểm A(4; 6; −3).",
         "statements": {
           "a": "Tọa độ vectơ <span class=\"m-vec\">a</span> − 2 <span class=\"m-vec\">b</span> = (0; 1; −1).",
           "b": "Tọa độ điểm B(2; 7; −6) thì <span class=\"m-vec\">a</span> = <span class=\"m-vec\">AB</span>.",
@@ -5269,7 +5265,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "y<sub>0</sub> = 2 · 2 + 3 = 7. Bài 3. Cho 2 vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 4, | <span class=\"m-vec\">b</span> | = 3 và |<span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span> | = 2<span class=\"m-root\">√<span class=\"m-rad\">7.</span></span> Tính (<span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>).",
+        "question": "Cho 2 vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 4, | <span class=\"m-vec\">b</span> | = 3 và |<span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span> | = 2<span class=\"m-root\">√<span class=\"m-rad\">7.</span></span> Tính (<span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>).",
         "answer": "120",
         "kqCells": [
           "1",
@@ -5290,7 +5286,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de12_p3_q4.png",
-        "question": "2 Bài 4. Cho lăng trụ đứng ABCD.A′B′C′D′ có đáy ABCD là hình thoi tâm O có cạnh bằng 1 và AA′ = 1, ABC[= 60°. Gọi M là trung điểm của cạnh AA′. Thiết lập hệ trục tọa độ Oxyz (đơn vị đo được lấy 1 đơn vị) có C, D lần lượt thuộc các tia Ox, Oy và trục Oz song song AA′ như hình vẽ. Biết <span class=\"m-vec\">MC′</span> = (a; b; c), khi đó giá trị biểu thức 2026a − 2027b + 2c bằng bao nhiêu?",
+        "question": "Cho lăng trụ đứng ABCD.A′B′C′D′ có đáy ABCD là hình thoi tâm O có cạnh bằng 1 và AA′ = 1, ABC[= 60°. Gọi M là trung điểm của cạnh AA′. Thiết lập hệ trục tọa độ Oxyz (đơn vị đo được lấy 1 đơn vị) có C, D lần lượt thuộc các tia Ox, Oy và trục Oz song song AA′ như hình vẽ. Biết <span class=\"m-vec\">MC′</span> = (a; b; c), khi đó giá trị biểu thức 2026a − 2027b + 2c bằng bao nhiêu?",
         "answer": "2027",
         "kqCells": [
           "2",
@@ -5371,7 +5367,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 1",
           "D": "x = −1"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào bảng biến thiên, đạo hàm đổi dấu từ dương sang âm khi đi qua điểm<br>x = −1. Do đó, hàm số đạt cực đại tại x = −1."
       },
       {
@@ -5389,8 +5385,8 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "−36",
           "D": "−4"
         },
-        "answer": "A",
-        "explanation": "Xét hàm số f(x) = x<sup>4</sup> − 12x² − 4 trên [0; 9].<br>Đạo hàm: f′(x) = 4x³ − 24x = 4x(x² − 6).<br>= 0 ∈ [0; 9]<br>f′(x) = 0 ⇔ [x hoặc x = hoặc x =] <span class=\"m-root\">√<span class=\"m-rad\">6</span></span> ∈ [0; 9].<br>−<span class=\"m-root\">√<span class=\"m-rad\">6</span></span> ∈/ [0; 9]<br>Ta tính các giá trị: f(0) = −4; f(<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> = (<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> <sup>4</sup> − 12(<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> ² − 4 = 36 − 72 − 4 = −40; f(9) =<br>9<sup>4</sup> − 12 · 9² − 4 = 5585.<br>Vậy giá trị nhỏ nhất của hàm số trên đoạn [0; 9] là −40 đạt được tại x = <span class=\"m-root\">√<span class=\"m-rad\">6.</span></span>"
+        "answer": "B",
+        "explanation": "Xét hàm số f(x) = x<sup>4</sup> − 12x² − 4 trên [0; 9].<br>Đạo hàm: f′(x) = 4x³ − 24x = 4x(x² − 6).<br>f′(x) = 0 ⇔ [x = 0 ∈ [0; 9] hoặc x = <span class=\"m-root\">√<span class=\"m-rad\">6</span></span> ∈ [0; 9] (loại x = −<span class=\"m-root\">√<span class=\"m-rad\">6</span></span> ∉ [0; 9])].<br>Ta tính các giá trị: f(0) = −4; f(<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> = (<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> <sup>4</sup> − 12(<span class=\"m-root\">√<span class=\"m-rad\">6)</span></span> ² − 4 = 36 − 72 − 4 = −40; f(9) =<br>9<sup>4</sup> − 12 · 9² − 4 = 5585.<br>Vậy giá trị nhỏ nhất của hàm số trên đoạn [0; 9] là −40 đạt được tại x = <span class=\"m-root\">√<span class=\"m-rad\">6.</span></span>"
       },
       {
         "id": 3,
@@ -5400,14 +5396,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
-        "question": "của hàm số trên đoạn [0; 9] là −40 đạt được tại x = 6. Câu 3. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">−4x² − 2x − 5</span><span class=\"den\">−x + 2</span></span>. Đường tiệm cận xiên của hàm số là",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">−4x² − 2x − 5</span><span class=\"den\">−x + 2</span></span>. Đường tiệm cận xiên của hàm số là",
         "options": {
           "A": "y = 2x + 10",
           "B": "y = 4x − 10",
           "C": "y = 5x + 10",
           "D": "y = 4x + 10"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có y = <span class=\"m-frac\"><span class=\"num\">4x² + 2x + 5</span><span class=\"den\">x − 2</span></span> = <span class=\"m-frac\"><span class=\"num\">4x(x − 2) + 10x + 5</span><span class=\"den\">x − 2</span></span> = 4x + <span class=\"m-frac\"><span class=\"num\">10(x − 2) + 25</span><span class=\"den\">x − 2</span></span> =<br>4x + 10 + <span class=\"m-frac\"><span class=\"num\">25</span><span class=\"den\">x − 2</span></span>.<br>Vì lim<sub>x</sub><sub>→∞</sub> [y − (4x + 10)] = lim<sub>x</sub><sub>→∞</sub> <span class=\"m-frac\"><span class=\"num\">25</span><span class=\"den\">x − 2</span></span> = 0, nên đường thẳng y = 4x + 10 là tiệm cận xiên của<br>đồ thị hàm số."
       },
       {
@@ -5425,7 +5421,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">0</span>",
           "D": "<span class=\"m-vec\">b</span> − <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">0</span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Trong tam giác ABC, theo quy tắc cộng vectơ ta có: <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BC</span> = <span class=\"m-vec\">AC</span> ⇒<br><span class=\"m-vec\">b</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">c</span> ⇒ <span class=\"m-vec\">b</span> − <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">0</span>."
       },
       {
@@ -5443,7 +5439,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">−x + 1</span><span class=\"den\">x + 1</span></span>",
           "D": "y = <span class=\"m-frac\"><span class=\"num\">x − 1</span><span class=\"den\">x + 1</span></span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị, ta thấy: - Tiệm cận đứng x = 1, tiệm cận ngang y = −1. Loại<br>C, D. - Đồ thị đi qua điểm (−1; 0) và (0; 1). - Xét phương án B: y = <span class=\"m-frac\"><span class=\"num\">−x − 1</span><span class=\"den\">x − 1</span></span>. Tại x = 0 ⇒ y = 1;<br>tại y = 0 ⇒ x = −1. Thỏa mãn."
       },
       {
@@ -5497,7 +5493,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "75",
           "D": "150"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Xét hàm số f(x) = −x³ + 150x² trên đoạn [0; 200].<br>f′(x) = −3x² + 300x = −3x(x − 100).<br>f′(x) = 0 ⇔ x = 0 hoặc x = 100.<br>Ta có f(0) = 0, f(100) = 500000, f(200) = −2000000.<br>Vậy lợi nhuận cao nhất đạt được khi sản xuất 100 sản phẩm."
       },
       {
@@ -5533,7 +5529,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">A</span> C′ = (10; −16; −8)",
           "D": "<span class=\"m-vec\">A</span> C′ = (10; 16; −8)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Theo giả thiết: A(0; 0; 0), B(10; 0; 0), D(0; 16; 0), A′(0; 0; 8).<br>Vì C thuộc mặt phẳng (Oxy) và ABCD là hình chữ nhật nên C(10; 16; 0).<br>Ta có <span class=\"m-vec\">A</span> C′ = (10 − 0; 16 − 0; 0 − 8) = (10; 16; −8)."
       },
       {
@@ -5544,14 +5540,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "− 0; 16 − 0; 0 − 8) = (10; 16; −8). Câu 11. Trong không gian với trục hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">j</span> − <span class=\"m-vec\">i</span> − 3<span class=\"m-vec\">k</span>. Tọa độ của vectơ <span class=\"m-vec\">a</span> là:",
+        "question": "Trong không gian với trục hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">j</span> − <span class=\"m-vec\">i</span> − 3<span class=\"m-vec\">k</span>. Tọa độ của vectơ <span class=\"m-vec\">a</span> là:",
         "options": {
           "A": "<span class=\"m-vec\">a</span> (2; −3; −1)",
           "B": "<span class=\"m-vec\">a</span> (−3; 2; −1)",
           "C": "<span class=\"m-vec\">a</span> (2; −1; −3)",
           "D": "<span class=\"m-vec\">a</span> (−1; 2; −3)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Vectơ <span class=\"m-vec\">a</span> = x <span class=\"m-vec\">i</span> + y <span class=\"m-vec\">j</span> + z <span class=\"m-vec\">k</span> có tọa độ (x; y; z).<br>Ở đây <span class=\"m-vec\">a</span> = −1 <span class=\"m-vec\">i</span> + 2 <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span>, suy ra tọa độ của <span class=\"m-vec\">a</span> là (−1; 2; −3).<br>1"
       },
       {
@@ -5569,7 +5565,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(1; 0)",
           "D": "(−1; 2)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Hàm số y = <span class=\"m-frac\"><span class=\"num\">2(x − 1) − 1</span><span class=\"den\">x − 1</span></span> = <span class=\"m-frac\"><span class=\"num\">2x − 3</span><span class=\"den\">x − 1</span></span>.<br>Đây là hàm phân thức hữu tỉ bậc nhất trên bậc nhất, tâm đối xứng là giao điểm của hai đường<br>tiệm cận x = 1 và y = 2. Vậy tâm đối xứng là I(1; 2)."
       },
       {
@@ -5756,7 +5752,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "dạng a b thì a = 3, b = 2. Khi đó T = 2a + b = 2(3) + 2 = 8. Bài 5. Một lực <span class=\"m-vec\">F</span> có cường độ 100 N, góc giữa <span class=\"m-vec\">F</span> và hình chiếu của nó trên mặt phẳng (Oxy) là 60°, hình chiếu này hợp với trục Ox góc 45°. Tìm tọa độ <span class=\"m-vec\">F</span> = (x; y; z) và tính x + y + z<span class=\"m-root\">√<span class=\"m-rad\">3.</span></span>",
+        "question": "Một lực <span class=\"m-vec\">F</span> có cường độ 100 N, góc giữa <span class=\"m-vec\">F</span> và hình chiếu của nó trên mặt phẳng (Oxy) là 60°, hình chiếu này hợp với trục Ox góc 45°. Tìm tọa độ <span class=\"m-vec\">F</span> = (x; y; z) và tính x + y + z<span class=\"m-root\">√<span class=\"m-rad\">3.</span></span>",
         "answer": "150",
         "kqCells": [
           "1",
@@ -5815,7 +5811,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(3; 8)",
           "D": "(3; 4)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào bảng biến thiên, ta thấy f′(x) > 0 trên các khoảng (−∞; 3) và<br>(8; +∞). Do đó hàm số đồng biến trên các khoảng (−∞; 3) và (8; +∞)."
       },
       {
@@ -5833,7 +5829,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−1; 2)",
           "D": "(−2; 2)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị, hàm số nghịch biến trên khoảng mà đồ thị đi xuống từ trái<br>sang phải. Ta thấy đồ thị đi xuống trên khoảng (−∞; 0) và (2; +∞). Trong các phương án, chỉ có<br>khoảng (2; 3) nằm trong khoảng nghịch biến của hàm số."
       },
       {
@@ -5851,7 +5847,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = −2",
           "D": "x = −2"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có y′ = 3x² + 6x = 3x(x + 2).<br>y′ = 0 ⇔ [x = 0 hoặc x = −2]<br>Bảng xét dấu y′ cho thấy y′ đổi dấu từ dương sang âm khi đi qua x = −2. Vậy điểm cực đại của<br>hàm số là x = −2."
       },
       {
@@ -5869,7 +5865,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "0",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào đồ thị, ta thấy hàm số có một điểm cực tiểu duy nhất tại x = −1."
       },
       {
@@ -5887,7 +5883,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên, hàm số đạt cực đại tại x = −2 và x = 2 với cùng<br>giá trị cực đại là y = 1."
       },
       {
@@ -5959,7 +5955,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = x + 3x + 2",
           "D": "y = −x³ + 3x − 2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Đồ thị hàm số bậc ba đi qua các điểm (−2; 0), (−1; 4), (0; 2), (1; 0).<br>Xét y = x³ − 3x + 2:<br>Tại x = −2, y = −8 + 6 + 2 = 0 (đúng).<br>Tại x = −1, y = −1 + 3 + 2 = 4 (đúng).<br>Tại x = 1, y = 1 − 3 + 2 = 0 (đúng).<br>Hàm số này có các điểm cực trị tại x = ±1, phù hợp với hình vẽ."
       },
       {
@@ -5977,7 +5973,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 3; y = 1",
           "D": "x = 1; y = 3"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Đường tiệm cận đứng là nghiệm của mẫu số: 1 − x = 0 ⇔ x = 1.<br>Đường tiệm cận ngang là giới hạn tại vô cực: y = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→∞</span></span> <span class=\"m-frac\"><span class=\"num\">3x + 2</span><span class=\"den\">−x + 1</span></span> = −3."
       },
       {
@@ -5988,7 +5984,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "x→∞ −x + 1 Câu 11. Cho hình lập phương ABCD.A′B′C′D′ có cạnh là a. Hai vectơ nào sau đây có cùng độ dài?",
+        "question": "Cho hình lập phương ABCD.A′B′C′D′ có cạnh là a. Hai vectơ nào sau đây có cùng độ dài?",
         "options": {
           "A": "<span class=\"m-vec\">DD′</span>,<span class=\"m-vec\">AC</span>",
           "B": "<span class=\"m-vec\">AD′</span>,<span class=\"m-vec\">AD</span>",
@@ -6070,7 +6066,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": ". (Đúng) Bài 3. Trong không gian, cho hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> cùng có độ dài bằng 1. Biết rằng góc giữa hai vectơ đó là 45°.",
+        "question": "Trong không gian, cho hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> cùng có độ dài bằng 1. Biết rằng góc giữa hai vectơ đó là 45°.",
         "statements": {
           "a": "<span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"den\">2</span></span>.",
           "b": "(<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span>) · (<span class=\"m-vec\">a</span> − 2 <span class=\"m-vec\">b</span>) = −5 + <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"den\">2</span></span>.",
@@ -6117,17 +6113,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Cực trị của hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de14_p3_q1.png",
         "question": "Cho hàm số y = f(x) có đạo hàm liên tục trên ℝ và đồ thị hàm số y = f′(x) như hình vẽ. Hỏi hàm số y = f(x) có bao nhiêu điểm cực đại?",
-        "answer": "1,3",
+        "answer": "2",
         "kqCells": [
-          "1",
-          ",",
-          "3",
+          "2",
+          "",
+          "",
           ""
         ],
         "explanation": "Hàm số y = f(x) đạt cực đại tại các điểm mà tại đó đạo hàm f′(x) đổi dấu<br>từ dương sang âm.<br>Dựa vào đồ thị của hàm số y = f′(x), ta thấy đồ thị cắt trục hoành tại 3 điểm phân biệt.<br>- Đạo hàm f′(x) đổi dấu từ dương sang âm tại hai điểm (điểm cắt phía bên trái x ≈ −0,6 và điểm<br>cắt phía bên phải x ≈ 3,3).<br>- Đạo hàm f′(x) đổi dấu từ âm sang dương tại một điểm (điểm cắt ở giữa x ≈ 1,3).<br>Vậy hàm số y = f(x) có 2 điểm cực đại.",
         "acceptedAnswers": [
-          "1,3",
-          "1.3"
+          "2"
         ]
       },
       {
@@ -6260,7 +6255,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(0; +∞)",
           "D": "(2; +∞)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên, ta thấy f′(x) > 0 khi x ∈ (−∞; −2) hoặc x ∈<br>(0; +∞).<br>Trong các phương án đưa ra, khoảng (0; +∞) là khoảng mà hàm số đồng biến."
       },
       {
@@ -6332,7 +6327,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−2; 1)",
           "D": "(1; +∞)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Hàm số nghịch biến khi f′(x) < 0 ⇔ (x − 1)(x + 2) < 0 ⇔ −2 < x < 1.<br>Vậy hàm số nghịch biến trên khoảng (−2; 1)."
       },
       {
@@ -6350,7 +6345,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−2; 1)",
           "D": "(1; +∞)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Hàm số nghịch biến khi f′(x) < 0 ⇔ (x − 1)(x + 2) < 0 ⇔ −2 < x < 1. Vậy<br>hàm số nghịch biến trên khoảng (−2; 1)."
       },
       {
@@ -6361,14 +6356,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "biến trên khoảng (−2; 1). Câu 7. Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">OA</span> = 2 <span class=\"m-vec\">i</span> + 3 <span class=\"m-vec\">j</span> − 5<span class=\"m-vec\">k</span>. Tọa độ điểm A là",
+        "question": "Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">OA</span> = 2 <span class=\"m-vec\">i</span> + 3 <span class=\"m-vec\">j</span> − 5<span class=\"m-vec\">k</span>. Tọa độ điểm A là",
         "options": {
           "A": "A(−2; −3; 5)",
           "B": "A(2; 3; 5)",
           "C": "A(2; 3; −5)",
           "D": "A(−2; 3; −5)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tọa độ của điểm A chính là tọa độ của vectơ vị trí <span class=\"m-vec\">OA</span>. Theo công thức<br><span class=\"m-vec\">u</span> = x <span class=\"m-vec\">i</span> + y <span class=\"m-vec\">j</span> + z <span class=\"m-vec\">k</span> ⇒ <span class=\"m-vec\">u</span> = (x; y; z), ta có <span class=\"m-vec\">OA</span> = (2; 3; −5), do đó A(2; 3; −5)."
       },
       {
@@ -6386,7 +6381,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "120°",
           "D": "30°"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có công thức tính cosin của góc giữa hai vectơ: cos(<span class=\"m-vec\">x</span>, <span class=\"m-vec\">y</span>) = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">x</span> · <span class=\"m-vec\">y</span></span><span class=\"den\">|<span class=\"m-vec\">x</span>| · |<span class=\"m-vec\">y</span> |</span></span> =<br>6<br>= <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>. Suy ra góc (<span class=\"m-vec\">x</span>, <span class=\"m-vec\">y</span>) = 60°.<br>3 · 4"
       },
       {
@@ -6404,7 +6399,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "60°",
           "D": "30°"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Vì A′C′//AC và A′C′ = AC nên <span class=\"m-vec\">A</span> C′′ = <span class=\"m-vec\">AC</span>. Góc giữa <span class=\"m-vec\">BC</span> và <span class=\"m-vec\">A</span> C′′ bằng<br>góc giữa <span class=\"m-vec\">BC</span> và <span class=\"m-vec\">AC</span>. Trong tam giác đều ABC, góc giữa hai vectơ <span class=\"m-vec\">CB</span> và <span class=\"m-vec\">CA</span> là 60°, do đó góc<br>giữa <span class=\"m-vec\">BC</span> và <span class=\"m-vec\">AC</span> cũng bằng 60°."
       },
       {
@@ -6422,7 +6417,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "2"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có g′(x) = f′(x) + 1. Số điểm cực trị của hàm số g(x) bằng số lần đổi dấu<br>của g′(x), tức là số giao điểm xuyên qua của đồ thị y = f′(x) và đường thẳng y = −1. Quan sát<br>đồ thị y = f′(x), đường thẳng y = −1 cắt đồ thị tại 3 điểm phân biệt và đổi dấu qua mỗi điểm<br>đó. Vậy hàm số g(x) có 3 điểm cực trị."
       },
       {
@@ -6440,7 +6435,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "b < 0 < a",
           "D": "a < b < 0"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Hàm số có dạng y = <span class=\"m-frac\"><span class=\"num\">ax − b</span><span class=\"den\">x − 1</span></span>.<br>Tiệm cận ngang y = 1 ⇒ a = 1.<br>Đồ thị đi qua (−2; 0) ⇒ −2a − b = 0 ⇒ b = −2a = −2.<br>Suy ra b < 0 < a."
       },
       {
@@ -6451,7 +6446,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "< a. Câu 12. Đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + 2x − 6</span><span class=\"den\">x − 1</span></span> đi qua điểm nào trong các điểm cho dưới đây?",
+        "question": "Đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + 2x − 6</span><span class=\"den\">x − 1</span></span> đi qua điểm nào trong các điểm cho dưới đây?",
         "options": {
           "A": "M(2; 2)",
           "B": "N(2; −2)",
@@ -6671,15 +6666,17 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de15_p3_q6.png",
         "question": "Khuôn viên của một công viên có dạng hình chữ nhật ABCD với AB = 100 m; AD = 80 m. Người ta muốn chia công viên thành hai khu, một khu dành cho trẻ em, một khu dành cho người lớn. Để tạo thiết kế độc đáo và lạ mắt, người ta dùng một đường cong chia khuôn viên thành hai phần H<sub>1</sub> (tô màu xanh) dành cho người lớn và H<sub>3</sub> (tô màu hồng) dành cho trẻ em như hình vẽ bên với AH = 40 m; AE = 60 m; AP = 20 m và EF//AB; PQ//AD. Biết rằng khi xét trong một hệ tọa độ Oxy, đường cong trong hình là một phần của đồ thị hàm số bậc ba. Phần chính giữa công viên người ta muốn mắc dây đèn trang trí dọc đoạn thẳng MN như hình. Biết giá tiền mỗi mét dây trang trí của phần dành cho trẻ em là 140 nghìn đồng và phần dành cho người lớn là 180 nghìn đồng. Tổng số tiền mắc dây đèn trang trí trên đoạn MN là bao nhiêu triệu đồng?",
-        "answer": "11700",
+        "answer": "11,7",
         "kqCells": [
           "1",
           "1",
-          "7",
-          "0"
+          ",",
+          "7"
         ],
         "explanation": "y<br>N<br>O 1 P x<br>Xét hệ trục tọa độ Oxy, với gốc tọa độ là điểm A (A trùng O). Tia Ox trùng với tia AB,<br>tia Oy trùng với tia AD thì đường cong ranh giới giữa hai khu vực là đồ thị hàm số bậc ba<br>y = ax³ + bx² + cx + d.<br>Theo giả thiết đồ thị hàm số này đi qua các điểm H(0; 40), Q(20; 60), F(100; 60) và có điểm<br>cực trị là Q(20; 60) nên ta có hệ phương trình:<br>{d = 40; a · 20³ + b · 20² + c · 20 + d = 60; a · 100³ + b · 100² + c · 100 + d = 60; 3a · 100² + 2b · 100 + c = 0} ⇔ {d = 40; 8000a + 400b + 20c + d = 60; 1000000a + 10000b + 100c + d = 60; 30000a + 200b + c = 0}<br>Giải hệ trên ta được a = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">10000</span></span>; b = <span class=\"m-frac\"><span class=\"num\">−11</span><span class=\"den\">500</span></span>; c = <span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">5</span></span>; d = 40.<br>Do M là trung điểm của AB nên x<sub>M</sub> = 50. Thay vào hàm số ta tìm được tung độ điểm I:<br>y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">10000</span></span> · 50³ − <span class=\"m-frac\"><span class=\"num\">11</span><span class=\"den\">500</span></span> · 50² + <span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">5</span></span> · 50 + 40 = 67,5.<br>Vậy tọa độ điểm I là (50; 67,5).<br>Theo đề bài, H<sub>3</sub> là phần bên dưới (trẻ em), H<sub>1</sub> là phần bên trên (người lớn):<br>Chiều dài đoạn dây thuộc phần trẻ em (MI): 67,5 m.<br>Chiều dài đoạn dây thuộc phần người lớn (IN): 80 − 67,5 = 12,5 m.<br>Tổng số tiền mắc dây đèn là:<br>T = (67,5 · 140) + (12,5 · 180) = 9450 + 2250 = 11700 (nghìn đồng).<br>Đổi ra đơn vị triệu đồng: 11,7 triệu đồng.",
         "acceptedAnswers": [
+          "11,7",
+          "11.7",
           "11700"
         ]
       }
@@ -6708,7 +6705,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "8",
           "D": "4"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào bảng biến thiên, ta thấy hàm số đạt cực tiểu tại điểm x = 8 và giá<br>trị cực tiểu tương ứng là f(8) = −4.<br>x²"
       },
       {
@@ -6726,7 +6723,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "min<sub>(2;6]</sub>y = 8",
           "D": "min<sub>(2;6]</sub>y = 4"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Xét f(x) = <span class=\"m-frac\"><span class=\"num\">x²</span><span class=\"den\">x − 2</span></span> trên (2; 6]. Đạo hàm f′(x) = <span class=\"m-frac\"><span class=\"num\">x² − 4x</span><span class=\"den\">(x − 2)²</span></span>.<br>f′(x) = 0 ⇐⇒ x = 4 (vì x ∈ (2; 6]).<br>Ta có bảng biến thiên cho thấy giá trị nhỏ nhất đạt tại x = 4: f(4) = <span class=\"m-frac\"><span class=\"num\">4²</span><span class=\"den\">4 − 2</span></span> = 8."
       },
       {
@@ -6737,7 +6734,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de16_p1_q3.png",
-        "question": "4 − 2 Câu 3. Cho hàm số y = ax³ + bx² + cx + d có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?",
+        "question": "Cho hàm số y = ax³ + bx² + cx + d có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?",
         "options": {
           "A": "a < 0, b > 0, c > 0, d < 0",
           "B": "a < 0, b > 0, c < 0, d < 0",
@@ -6762,7 +6759,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = 2",
           "D": "y = −1"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào hình vẽ, đường tiệm cận ngang là đường thẳng song song với trục<br>hoành đi qua điểm (0; 2), có phương trình y = 2."
       },
       {
@@ -6791,7 +6788,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "GC + GE) · GE = GC · GE + GE = 0 + 2 = 4. Câu 6. Cho hình hộp ABCD.A′B′C′D′. Tìm vectơ <span class=\"m-vec\">BA</span> + <span class=\"m-vec\">AD</span> − <span class=\"m-vec\">C</span> C′.",
+        "question": "Cho hình hộp ABCD.A′B′C′D′. Tìm vectơ <span class=\"m-vec\">BA</span> + <span class=\"m-vec\">AD</span> − <span class=\"m-vec\">C</span> C′.",
         "options": {
           "A": "<span class=\"m-vec\">BD′</span>",
           "B": "<span class=\"m-vec\">BA′</span>",
@@ -6888,7 +6885,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "520 (nghìn đồng)",
           "D": "300 (nghìn đồng)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Chi phí biên tại mức sản xuất x sản phẩm là C′(x).<br>Ta có C′(x) = 20 − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>x + 0, 003x².<br>Chi phí biên để sản xuất chiếc bánh thứ 501 xấp xỉ C′(500):<br>C′(500) = 20 − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> · 500 + 0, 003 · 500² = 20 − 250 + 750 = 520 (trăm nghìn đồng).<br>Đổi đơn vị: 5, 2 trăm nghìn đồng tương ứng với 520 nghìn đồng."
       },
       {
@@ -7009,7 +7006,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
-        "question": "Câu trả lời ngắn Thí sinh trả lời từ câu 1 đến câu 6 Bài 1. Cho đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">−2x² + 7x − 3</span><span class=\"den\">x − 1</span></span> có đường tiệm cận xiên là y = ax + b. Giá trị của 5b − a bằng bao nhiêu?",
+        "question": "Cho đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">−2x² + 7x − 3</span><span class=\"den\">x − 1</span></span> có đường tiệm cận xiên là y = ax + b. Giá trị của 5b − a bằng bao nhiêu?",
         "answer": "27",
         "kqCells": [
           "2",
@@ -7074,16 +7071,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de16_p3_q4.png",
         "question": "Cho hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">ax + 1</span><span class=\"den\">bx + c</span></span> (a, b, c ∈ ℝ) có bảng biến thiên như sau: Trong các số a, b, c có bao nhiêu số dương?",
-        "answer": "3",
+        "answer": "1",
         "kqCells": [
-          "3",
+          "1",
           "",
           "",
           ""
         ],
         "explanation": "Tập xác định: D = ℝ \\ {3}.<br>Từ bảng biến thiên ta có:<br>Đồ thị hàm số có tiệm cận ngang y = −2. Theo công thức y = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span>, suy ra <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> = −2 ⇒ a = −2b.<br>Đồ thị hàm số có tiệm cận đứng x = 3. Theo công thức x = −<span class=\"m-frac\"><span class=\"num\">c</span><span class=\"den\">b</span></span>, suy ra −<span class=\"m-frac\"><span class=\"num\">c</span><span class=\"den\">b</span></span> = 3 ⇒ c = −3b.<br>Hàm số nghịch biến trên các khoảng xác định nên f′(x) < 0.<br>Ta có f(x) = <span class=\"m-frac\"><span class=\"num\">ax + 1</span><span class=\"den\">bx + c</span></span> ⇒ f′(x) = <span class=\"m-frac\"><span class=\"num\">ac − b</span><span class=\"den\">(bx + c)²</span></span>.<br>Điều kiện f′(x) < 0 ⇔ ac − b < 0.<br>Thay a = −2b và c = −3b vào, ta được:<br>(−2b)(−3b) − b < 0 ⇔ 6b² − b < 0 ⇔ b(6b − 1) < 0 ⇔ 0 < b < <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">6</span></span>.<br>Vì 0 < b < <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">6</span></span> nên:<br>b > 0.<br>a = −2b < 0.<br>c = −3b < 0.<br>Vậy trong các số a, b, c chỉ có duy nhất 1 số dương (là số b).",
         "acceptedAnswers": [
-          "3"
+          "1"
         ]
       },
       {
@@ -7219,7 +7216,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "Đường tiệm cận của đồ thị hàm số",
         "figure": null,
-        "question": "số có 3 điểm cực trị. Chọn D. Câu 5. Tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² − x + 1</span><span class=\"den\">x − 1</span></span> là đường thẳng có phương trình",
+        "question": "Tiệm cận xiên của đồ thị hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² − x + 1</span><span class=\"den\">x − 1</span></span> là đường thẳng có phương trình",
         "options": {
           "A": "y = 2x",
           "B": "y = 2x + 1",
@@ -7291,14 +7288,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "1 Câu 9. Cho hình bình hành OADB có <span class=\"m-vec\">OA</span> = (−1; 1; 0), <span class=\"m-vec\">OB</span> = (1; 1; 0) (O là gốc tọa độ). Tọa độ giao điểm hai đường chéo của hình bình hành OADB là",
+        "question": "Cho hình bình hành OADB có <span class=\"m-vec\">OA</span> = (−1; 1; 0), <span class=\"m-vec\">OB</span> = (1; 1; 0) (O là gốc tọa độ). Tọa độ giao điểm hai đường chéo của hình bình hành OADB là",
         "options": {
           "A": "(1; 1; 0)",
           "B": "(1; 0; 1)",
           "C": "(1; 0; 0)",
           "D": "(0; 1; 0)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Giao điểm hai đường chéo của hình bình hành OADB là trung điểm của<br>đoạn thẳng AB.<br>Vì O là gốc tọa độ nên tọa độ các điểm là A(−1; 1; 0) và B(1; 1; 0).<br>Tọa độ trung điểm I của AB: x<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">−1 + 1</span><span class=\"den\">2</span></span> = 0, y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">1 + 1</span><span class=\"den\">2</span></span> = 1, z<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">0 + 0</span><span class=\"den\">2</span></span> = 0.<br>Vậy tọa độ giao điểm là (0; 1; 0)."
       },
       {
@@ -7327,14 +7324,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "⇒ |OG| = 3 + 3 + 1 = 19. Câu 11. Trong không gian với hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = (2; −3; 3), <span class=\"m-vec\">b</span> = (0; 2; −1), <span class=\"m-vec\">c</span> = (3; −1; 5). Tìm tọa độ của vectơ <span class=\"m-vec\">u</span> = 2<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> − 2 <span class=\"m-vec\">c</span>.",
+        "question": "Trong không gian với hệ tọa độ Oxyz, cho <span class=\"m-vec\">a</span> = (2; −3; 3), <span class=\"m-vec\">b</span> = (0; 2; −1), <span class=\"m-vec\">c</span> = (3; −1; 5). Tìm tọa độ của vectơ <span class=\"m-vec\">u</span> = 2<span class=\"m-vec\">a</span> + 3 <span class=\"m-vec\">b</span> − 2 <span class=\"m-vec\">c</span>.",
         "options": {
           "A": "(−2; 2; 7)",
           "B": "(−2; 2; −7)",
           "C": "(10; −2; 13)",
           "D": "(−2; −2; 7)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "2<span class=\"m-vec\">a</span> = (4; −6; 6)<br>3 <span class=\"m-vec\">b</span> = (0; 6; −3)<br>−2 <span class=\"m-vec\">c</span> = (−6; 2; −10)<br><span class=\"m-vec\">u</span> = (4 + 0 − 6; −6 + 6 + 2; 6 − 3 − 10) = (−2; 2; −7)."
       },
       {
@@ -7352,7 +7349,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> − <span class=\"m-vec\">BM</span>",
           "D": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BB′</span> + <span class=\"m-vec\">B</span> M′"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào quy tắc cộng vectơ (quy tắc nối đuôi), ta có:<br><span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BB′</span> + <span class=\"m-vec\">B</span> M′.<br>Đây là một đẳng thức vectơ luôn đúng."
       },
       {
@@ -7363,7 +7360,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": null,
-        "question": "hoặc sai Bài 1. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² − 3x + 2</span><span class=\"den\">x − 1</span></span> có đồ thị (C).",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">2x² − 3x + 2</span><span class=\"den\">x − 1</span></span> có đồ thị (C).",
         "statements": {
           "a": "Đồ thị hàm số (C) có tiệm cận xiên là đường thẳng y = 2x − 1.",
           "b": "Hàm số có đúng hai điểm cực trị.",
@@ -7409,7 +7406,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "Ứng dụng đạo hàm giải quyết bài toán thực tiễn",
         "figure": null,
-        "question": "m = 50 + (−4) = 46. Khẳng định này Đúng. Bài 3. GigaCloud dịch vụ lưu trữ. Giá cước x (triệu đồng), khách hàng S(x) = <span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> (nghìn). Chi phí cố định 10 tỷ đồng, chi phí biến đổi C<sub>v</sub> = 3S² tỷ đồng.",
+        "question": "GigaCloud dịch vụ lưu trữ. Giá cước x (triệu đồng), khách hàng S(x) = <span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> (nghìn). Chi phí cố định 10 tỷ đồng, chi phí biến đổi C<sub>v</sub> = 3S² tỷ đồng.",
         "statements": {
           "a": "Giá cước 36 triệu đồng/tháng thì công ty GigaCloud đạt lợi nhuận ròng hằng tháng cao nhất.",
           "b": "Doanh thu của công ty GigaCloud là R(x) = xS(x) = x<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> tỷ đồng.",
@@ -7476,7 +7473,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Cực trị của hàm số",
         "figure": null,
-        "question": "a + b = 1 + (−2) = 5. Bài 2. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x − 1</span><span class=\"den\">x − 1</span></span> có hai điểm cực trị x<sub>1</sub>, x<sub>2</sub>. Khi đó x<sub>1</sub> + x<sub>2</sub> bằng bao nhiêu?",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x − 1</span><span class=\"den\">x − 1</span></span> có hai điểm cực trị x<sub>1</sub>, x<sub>2</sub>. Khi đó x<sub>1</sub> + x<sub>2</sub> bằng bao nhiêu?",
         "answer": "2",
         "kqCells": [
           "2",
@@ -7497,7 +7494,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de17_p3_q3.png",
-        "question": "2 Bài 3. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x − a</span><span class=\"den\">bx + c</span></span> có đồ thị như hình vẽ bên dưới. Tính giá trị của biểu thức P = 2a − b + c.",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x − a</span><span class=\"den\">bx + c</span></span> có đồ thị như hình vẽ bên dưới. Tính giá trị của biểu thức P = 2a − b + c.",
         "answer": "6",
         "kqCells": [
           "6",
@@ -7700,7 +7697,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "án C. Câu 7. Trong không gian Oxyz, cho <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>, <span class=\"m-vec\">k</span> là các vectơ đơn vị. Tích vô hướng của <span class=\"m-vec\">u</span> = (1; 2; 3) và <span class=\"m-vec\">k</span> bằng",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>, <span class=\"m-vec\">k</span> là các vectơ đơn vị. Tích vô hướng của <span class=\"m-vec\">u</span> = (1; 2; 3) và <span class=\"m-vec\">k</span> bằng",
         "options": {
           "A": "1",
           "B": "3",
@@ -7725,7 +7722,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "7",
           "D": "21"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Đẳng thức <span class=\"m-vec\">MA</span> + <span class=\"m-vec\">MB</span> + <span class=\"m-vec\">MC</span> = <span class=\"m-vec\">0</span> chứng tỏ M là trọng tâm của tam giác<br>ABC.<br>Tọa độ của M là: a = <span class=\"m-frac\"><span class=\"num\">1 + 2 + 3</span><span class=\"den\">3</span></span> = 2; b = <span class=\"m-frac\"><span class=\"num\">1 + 3 − 1</span><span class=\"den\">3</span></span> = 1; c = <span class=\"m-frac\"><span class=\"num\">−2 + 2 + 6</span><span class=\"den\">3</span></span> = 2.<br>Vậy M(2; 1; 2) ⇒ T = a + b + c = 2 + 1 + 2 = 5."
       },
       {
@@ -7743,7 +7740,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "60°",
           "D": "150°"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Gọi θ là góc giữa hai vectơ. Ta có:<br>cos θ = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">a</span> · <span class=\"m-vec\">u</span></span><span class=\"den\">|<span class=\"m-vec\">a</span> | · |<span class=\"m-vec\">u</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">1 · (−√3) + 0 · 0 + 0 · 1</span><span class=\"den\">1 · <span class=\"m-root\">√<span class=\"m-rad\">(−<span class=\"m-root\">√<span class=\"m-rad\">3)</span></span> ² + 0² + 1²</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">−<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>.<br>Suy ra θ = 150°."
       },
       {
@@ -7761,7 +7758,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "I (<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>)",
           "D": "I (<span class=\"m-frac\"><span class=\"num\">−7</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">−3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">−1</span><span class=\"den\">2</span></span>)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tọa độ trung điểm I của đoạn thẳng AB là:<br>x<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">−2 + 5</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">3 + 6</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; z<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">1 + 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>.<br>Vậy I (<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>)."
       },
       {
@@ -7779,7 +7776,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(1; 1; 1)",
           "D": "(1; 0; 1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào hình vẽ và giả thiết cạnh bằng 1, ta có tọa độ các điểm:<br>A(0; 0; 0), B(1; 0; 0), D(0; 1; 0), C(1; 1; 0), A′(0; 0, 1), B′(1; 0, 1), C′(1; 1, 1), D′(0, 1, 1).<br>Khi đó <span class=\"m-vec\">B</span> C′ = (1 − 1; 1 − 0; 0 − 1) = (0; 1; −1)."
       },
       {
@@ -7790,14 +7787,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "− 1; 1 − 0; 0 − 1) = (0; 1; −1). Câu 12. Cho ba vectơ <span class=\"m-vec\">a</span> = (−1; 1; 0), <span class=\"m-vec\">b</span> = (1; 1; 0) và <span class=\"m-vec\">c</span> = (1; 1; 1). Trong các khẳng định sau, khẳng định nào sai?",
+        "question": "Cho ba vectơ <span class=\"m-vec\">a</span> = (−1; 1; 0), <span class=\"m-vec\">b</span> = (1; 1; 0) và <span class=\"m-vec\">c</span> = (1; 1; 1). Trong các khẳng định sau, khẳng định nào sai?",
         "options": {
           "A": "| <span class=\"m-vec\">c</span> | = <span class=\"m-root\">√<span class=\"m-rad\">3.</span></span>",
           "B": "<span class=\"m-vec\">a</span> ⊥ <span class=\"m-vec\">b</span>",
           "C": "<span class=\"m-vec\">c</span> ⊥ <span class=\"m-vec\">b</span>",
           "D": "|<span class=\"m-vec\">a</span> | = <span class=\"m-root\">√<span class=\"m-rad\">2.</span></span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Kiểm tra các phương án:<br>A. | <span class=\"m-vec\">c</span> | = <span class=\"m-root\">√<span class=\"m-rad\">1² + 1² + 1²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">3</span></span> (Đúng).<br>B. <span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> = (−1) · 1 + 1 · 1 + 0 · 0 = 0 ⇒ <span class=\"m-vec\">a</span> ⊥ <span class=\"m-vec\">b</span> (Đúng).<br>C. <span class=\"m-vec\">c</span> · <span class=\"m-vec\">b</span> = 1 · 1 + 1 · 1 + 1 · 0 = 2≠ 0. Vậy khẳng định <span class=\"m-vec\">c</span> ⊥ <span class=\"m-vec\">b</span> là sai.<br>D. |<span class=\"m-vec\">a</span> | = <span class=\"m-root\">√<span class=\"m-rad\">(−1)² + 1² + 0²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> (Đúng)."
       },
       {
@@ -7831,7 +7828,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de18_p2_q2.png",
-        "question": "định d) là Sai. Bài 2. Cho hàm số y = f(x) = <span class=\"m-frac\"><span class=\"num\">ax² + bx + c</span><span class=\"den\">dx + e</span></span> (a, d≠ 0) có đồ thị như hình vẽ dưới đây. y",
+        "question": "Cho hàm số y = f(x) = <span class=\"m-frac\"><span class=\"num\">ax² + bx + c</span><span class=\"den\">dx + e</span></span> (a, d≠ 0) có đồ thị như hình vẽ dưới đây. y",
         "statements": {
           "a": "Giao điểm của hai đường tiệm cận của đồ thị hàm số có toạ độ là (1; 2).",
           "b": "Hàm số đạt cực đại tại điểm x = 1.",
@@ -7921,7 +7918,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "= (−2) · 2 + 5 · 5 + 1 · 1 = −4 + 25 + 1 = 22. Bài 2. Trong không gian, cho |<span class=\"m-vec\">a</span> | = 5, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 8. Giá trị tích vô hướng <span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> là bao nhiêu?",
+        "question": "Trong không gian, cho |<span class=\"m-vec\">a</span> | = 5, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 8. Giá trị tích vô hướng <span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span> là bao nhiêu?",
         "answer": "11,5",
         "kqCells": [
           "1",
@@ -7943,7 +7940,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "Ứng dụng đạo hàm giải quyết bài toán thực tiễn",
         "figure": null,
-        "question": "vô hướng là 11,5. Bài 3. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − x + 4</span><span class=\"den\">x − 1</span></span>. Hàm số đã cho có giá trị lớn nhất trên đoạn [2; 9] là bao nhiêu?",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − x + 4</span><span class=\"den\">x − 1</span></span>. Hàm số đã cho có giá trị lớn nhất trên đoạn [2; 9] là bao nhiêu?",
         "answer": "9,5",
         "kqCells": [
           "9",
@@ -8039,14 +8036,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "hỏi học sinh chỉ chọn một phương án. Câu 1. Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">i</span> − 3 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Toạ độ của vectơ <span class=\"m-vec\">a</span> là",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">i</span> − 3 <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Toạ độ của vectơ <span class=\"m-vec\">a</span> là",
         "options": {
           "A": "(−2; 3; −1)",
           "B": "(1; 2; −3)",
           "C": "(2; −3; 1)",
           "D": "(−3; 2; 1)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có <span class=\"m-vec\">a</span> = 2 <span class=\"m-vec\">i</span> − 3 <span class=\"m-vec\">j</span> + 1<span class=\"m-vec\">k</span> ⇒ <span class=\"m-vec\">a</span> = (2; −3; 1)."
       },
       {
@@ -8075,14 +8072,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "dấu khi đi qua x = 1 nên hàm số có đúng 1 điểm cực trị. Câu 3. Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Đặt <span class=\"m-vec\">SA</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">SB</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">SC</span> = <span class=\"m-vec\">c</span>, <span class=\"m-vec\">SD</span> = <span class=\"m-vec\">d</span>. Khẳng định nào dưới đây là đúng?",
+        "question": "Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Đặt <span class=\"m-vec\">SA</span> = <span class=\"m-vec\">a</span>, <span class=\"m-vec\">SB</span> = <span class=\"m-vec\">b</span>, <span class=\"m-vec\">SC</span> = <span class=\"m-vec\">c</span>, <span class=\"m-vec\">SD</span> = <span class=\"m-vec\">d</span>. Khẳng định nào dưới đây là đúng?",
         "options": {
           "A": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> = <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span>",
           "B": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">c</span> = <span class=\"m-vec\">b</span> + <span class=\"m-vec\">d</span>",
           "C": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span>",
           "D": "<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> + <span class=\"m-vec\">d</span> = <span class=\"m-vec\">0</span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Gọi O là tâm hình bình hành ABCD. Ta có <span class=\"m-vec\">SA</span>+<span class=\"m-vec\">SC</span> = 2<span class=\"m-vec\">SO</span> và <span class=\"m-vec\">SB</span> +<span class=\"m-vec\">SD</span> =<br>2<span class=\"m-vec\">SO</span>.<br>Suy ra <span class=\"m-vec\">a</span> + <span class=\"m-vec\">c</span> = <span class=\"m-vec\">b</span> + <span class=\"m-vec\">d</span>."
       },
       {
@@ -8093,14 +8090,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "+ c = b + d. Câu 4. Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (2; 0; −1), <span class=\"m-vec\">b</span> = (3; −2; 1). Toạ độ của vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span> là",
+        "question": "Trong không gian Oxyz, cho <span class=\"m-vec\">a</span> = (2; 0; −1), <span class=\"m-vec\">b</span> = (3; −2; 1). Toạ độ của vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">a</span> + 2 <span class=\"m-vec\">b</span> là",
         "options": {
           "A": "<span class=\"m-vec\">u</span> = (8; 4; 1)",
           "B": "<span class=\"m-vec\">u</span> = (5; 2; 0)",
           "C": "<span class=\"m-vec\">u</span> = (5; −2; 0)",
           "D": "<span class=\"m-vec\">u</span> = (8; −4; 1)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "<span class=\"m-vec\">u</span> = (2; 0; −1) + 2(3; −2; 1) = (2 + 6; 0 − 4; −1 + 2) = (8; −4; 1)."
       },
       {
@@ -8118,7 +8115,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−1; 0)",
           "D": "(0; +∞)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên, f′(x) > 0 trên các khoảng (−1; 0) và (1; +∞)."
       },
       {
@@ -8136,7 +8133,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−∞; 0)",
           "D": "(0; 2)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có y′ = −3x² + 6x.<br>y′ = 0 ⇔ −3x(x − 2) = 0 ⇔ [x = 0 hoặc x = 2]<br>Bảng xét dấu y′: y′ > 0 trên khoảng (0; 2).<br>Vậy hàm số đồng biến trên khoảng (0; 2)."
       },
       {
@@ -8154,7 +8151,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "Hàm số f(x) đạt cực đại tại x = 2",
           "D": "Hàm số f(x) đạt cực đại tại x = 4"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Hàm số f(x) đạt cực đại tại điểm x0 nếu đạo hàm f′(x) đổi dấu từ dương<br>sang âm khi đi qua x<sub>0</sub>.<br>Dựa vào đồ thị y = f′(x):<br>Tại x = 2, f′(x) đổi dấu từ âm sang dương ⇒ điểm cực tiểu.<br>Tại x = 4, f′(x) đổi dấu từ dương sang âm ⇒ điểm cực đại.<br>Tại x = 6, f′(x) đổi dấu từ âm sang dương ⇒ điểm cực tiểu.<br>Vậy hàm số đạt cực đại tại x = 4."
       },
       {
@@ -8172,7 +8169,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(2; −2; 0)",
           "D": "(0; −2; 1)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Hình chiếu vuông góc của điểm M(x; y; z) trên mặt phẳng (Oxy) là điểm<br>M′(x; y; 0).<br>Với M(2; −2; 1), hình chiếu trên (Oxy) là (2; −2; 0)."
       },
       {
@@ -8183,14 +8180,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": ", hình chiếu trên (Oxy) là (2; −2; 0). Câu 9. Trong không gian Oxyz, cho hai điểm A(1; 1; −2) và B(2; 2; 1). Vectơ <span class=\"m-vec\">AB</span> có tọa độ là",
+        "question": "Trong không gian Oxyz, cho hai điểm A(1; 1; −2) và B(2; 2; 1). Vectơ <span class=\"m-vec\">AB</span> có tọa độ là",
         "options": {
           "A": "(3; 3; −1)",
           "B": "(−1; −1; −3)",
           "C": "(1; 1; 3)",
           "D": "(3; 1; 1)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có <span class=\"m-vec\">AB</span> = (xB −xA; yB −yA; zB −zA) = (2−1; 2−1; 1−(−2)) = (1; 1; 3)."
       },
       {
@@ -8208,7 +8205,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> − <span class=\"m-vec\">BM</span>",
           "D": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BB′</span> + <span class=\"m-vec\">B</span> M′"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào quy tắc cộng vectơ, ta có:<br><span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BB′</span> + <span class=\"m-vec\">B</span> M′.<br>Đây là một đẳng thức vectơ luôn đúng."
       },
       {
@@ -8219,14 +8216,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "đẳng thức vectơ luôn đúng. Câu 11. Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">a</span> = (2; −1; 3) và điểm M thỏa mãn <span class=\"m-vec\">OM</span> = <span class=\"m-vec\">a</span>. Khi đó điểm M có tọa độ là",
+        "question": "Trong không gian Oxyz, cho vectơ <span class=\"m-vec\">a</span> = (2; −1; 3) và điểm M thỏa mãn <span class=\"m-vec\">OM</span> = <span class=\"m-vec\">a</span>. Khi đó điểm M có tọa độ là",
         "options": {
           "A": "(2; −1; 0)",
           "B": "(2; −1; 3)",
           "C": "(2; 0; 3)",
           "D": "(2; 1; 3)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Trong hệ tọa độ Oxyz, tọa độ của điểm M chính là tọa độ của vectơ <span class=\"m-vec\">OM</span>.<br>Vì <span class=\"m-vec\">OM</span> = <span class=\"m-vec\">a</span> = (2; −1; 3) nên M(2; −1; 3)."
       },
       {
@@ -8244,7 +8241,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2 + <span class=\"m-root\">√<span class=\"m-rad\">5.</span></span>",
           "D": "<span class=\"m-root\">√<span class=\"m-rad\">10.</span></span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "y = −2 + <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">2x − 1</span></span>. TCĐ x = 0, 5, TCN y = −2.<br>D = |x − 0, 5| + |y + 2| = |x − 0, 5| + <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">|2x − 1|</span></span> = |x − 0, 5| + <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">2|x − 0, 5|</span></span>.<br>AM-GM: D ≥ 2<span class=\"m-root\">√<span class=\"m-rad\">2, 5 =</span></span> <span class=\"m-root\">√<span class=\"m-rad\">10.</span></span>"
       },
       {
@@ -8278,7 +8275,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Giá trị lớn nhất - Giá trị nhỏ nhất của hàm số",
         "figure": null,
-        "question": "biến thiên suy ra thể tích lớn nhất của chậu là xấp xỉ 4, 54 (lít). Bài 2. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x + 6</span><span class=\"den\">x − 1</span></span>.",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 3x + 6</span><span class=\"den\">x − 1</span></span>.",
         "statements": {
           "a": "Đường tiệm cận xiên của đồ thị hàm số là đường thẳng y = ax + b. Khi đó a − 2b = 5.",
           "b": "Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số có phương trình là y = 2x − 3.",
@@ -8510,7 +8507,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">IJ</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>(<span class=\"m-vec\">DC</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">BD</span>)",
           "D": "<span class=\"m-vec\">IJ</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>(<span class=\"m-vec\">AC</span> + <span class=\"m-vec\">BD</span>)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Theo tính chất trung điểm, ta có:<br><span class=\"m-vec\">IJ</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>(<span class=\"m-vec\">AC</span> + <span class=\"m-vec\">BD</span>) (đúng).<br><span class=\"m-vec\">IJ</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>(<span class=\"m-vec\">AD</span> + <span class=\"m-vec\">BC</span>) (đúng).<br>Ta có <span class=\"m-vec\">DC</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">BD</span> = <span class=\"m-vec\">DC</span> + (<span class=\"m-vec\">AJ</span> + <span class=\"m-vec\">JD</span>) + (<span class=\"m-vec\">BJ</span> + <span class=\"m-vec\">JD</span>) = <span class=\"m-vec\">DC</span> + <span class=\"m-vec\">AJ</span> + <span class=\"m-vec\">BJ</span> + 2<span class=\"m-vec\">JD</span> =<br><span class=\"m-vec\">DC</span> + 2<span class=\"m-vec\">IJ</span> + <span class=\"m-vec\">CD</span> = 2<span class=\"m-vec\">IJ</span>. Suy ra <span class=\"m-vec\">IJ</span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>(<span class=\"m-vec\">DC</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">BD</span>) (đúng).<br>Vậy đẳng thức sai là phương án"
       },
       {
@@ -8600,7 +8597,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "33"
         },
-        "answer": "D",
+        "answer": "B",
         "explanation": "Xét f(x) = −x<sup>4</sup> + 12x² + 1 trên [−1; 2].<br>Ta có f′(x) = −4x³ + 24x = −4x(x² − 6); f′(x) = 0 ⇔ x = 0 (vì x ∈ [−1; 2]).<br>Tính các giá trị:<br>f(−1) = 12; f(0) = 1; f(2) = −16 + 48 + 1 = 33.<br>Vậy giá trị lớn nhất của hàm số trên đoạn [−1; 2] là 33. Chọn phương án"
       },
       {
@@ -8654,7 +8651,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "40. 2",
           "D": "45"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Tổng số tiền thu được là f(x) = x · 20(3 − <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">40</span></span>) = 20x(9 − <span class=\"m-frac\"><span class=\"num\">3x</span><span class=\"den\">20</span></span> + <span class=\"m-frac\"><span class=\"num\">x²</span><span class=\"den\">1600</span></span>) =<br>x³<br>− 3x² + 180x với 0 ≤ x ≤ 50.<br>80<br>Ta có f′(x) = <span class=\"m-frac\"><span class=\"num\">3x²</span><span class=\"den\">80</span></span> − 6x + 180.<br>f′(x) = 0 ⇔ <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">80</span></span>(x² − 160x + 4800) = 0 ⇔ x = 40 hoặc x = 120 (loại).<br>Xét trên đoạn [0; 50], hàm số đạt giá trị lớn nhất tại x = 40.<br>Vậy cần chở 40 khách. Chọn phương án"
       },
       {
@@ -8747,7 +8744,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "<sup>M</sup> 3 Bài 3. Cho hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">x² − 2x + 5</span><span class=\"den\">x − 1</span></span>. Khi đó:",
+        "question": "Cho hàm số f(x) = <span class=\"m-frac\"><span class=\"num\">x² − 2x + 5</span><span class=\"den\">x − 1</span></span>. Khi đó:",
         "statements": {
           "a": "Hàm số có đạo hàm là f′(x) = <span class=\"m-frac\"><span class=\"num\">x² + 2x − 3</span><span class=\"den\">(x − 1)²</span></span>.",
           "b": "Hàm số đồng biến trên các khoảng (−∞; −1) và (4; +∞).",
@@ -8793,7 +8790,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "Cực trị của hàm số",
         "figure": null,
-        "question": "trả lời ngắn Thí sinh trả lời từ câu 1 đến câu 6 Bài 1. Cho đồ thị hàm số (C): y = <span class=\"m-frac\"><span class=\"num\">−x² + 4x + 1</span><span class=\"den\">x + 1</span></span>, biết đường thẳng đi qua hai điểm cực trị của (C) có dạng d: y = ax + b. Tìm ab.",
+        "question": "Cho đồ thị hàm số (C): y = <span class=\"m-frac\"><span class=\"num\">−x² + 4x + 1</span><span class=\"den\">x + 1</span></span>, biết đường thẳng đi qua hai điểm cực trị của (C) có dạng d: y = ax + b. Tìm ab.",
         "answer": "-8",
         "kqCells": [
           "-",
@@ -8814,7 +8811,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": ", b = 4 suy ra ab = −8. Bài 2. Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 6. Tính |<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> |. (Làm tròn kết quả đến hàng phần trăm).",
+        "question": "Cho hai vectơ <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> thỏa mãn |<span class=\"m-vec\">a</span> | = 3, | <span class=\"m-vec\">b</span> | = 4, |<span class=\"m-vec\">a</span> + <span class=\"m-vec\">b</span> | = 6. Tính |<span class=\"m-vec\">a</span> − <span class=\"m-vec\">b</span> |. (Làm tròn kết quả đến hàng phần trăm).",
         "answer": "3,74",
         "kqCells": [
           "3",
@@ -8859,16 +8856,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Ứng dụng đạo hàm giải quyết bài toán thực tiễn",
         "figure": null,
         "question": "Một doanh nghiệp sản xuất thiết bị điện tử thông minh có quy trình vận hành và chính sách thuế như sau: Trong mỗi tháng, doanh nghiệp phải chi trả một khoản chi phí cố định 200 triệu đồng, khoản chi phí này không phụ thuộc vào số lượng sản phẩm sản xuất. Ngoài ra, để hoàn thiện mỗi sản phẩm, doanh nghiệp phải chịu chi phí biến đổi 1 triệu đồng cho mỗi sản phẩm. Mỗi sản phẩm được bán ra thị trường với giá 3 triệu đồng một sản phẩm. Nhằm khuyến khích gia tăng quy mô sản xuất, cơ quan quản lý áp dụng chính sách thuế tính theo tổng doanh thu trong tháng, với mức thuế suất giảm dần theo sản lượng. Nếu doanh nghiệp bán dưới 100 sản phẩm trong tháng, thuế suất là 10% tổng doanh thu. Nếu bán từ 100 đến dưới 300 sản phẩm, thuế suất là 8% tổng doanh thu. Nếu bán từ 300 sản phẩm trở lên, thuế suất là 5% tổng doanh thu. Gọi x là số lượng sản phẩm doanh nghiệp sản xuất và bán ra trong một tháng (x ∈ ℕ<sup>∗</sup>). Giả sử số sản phẩm doanh nghiệp sản xuất trong tháng được bán hết. Hỏi doanh nghiệp cần sản xuất tối thiểu bao nhiêu sản phẩm để bắt đầu có lãi?",
-        "answer": "300",
+        "answer": "114",
         "kqCells": [
-          "3",
-          "0",
-          "0",
+          "1",
+          "1",
+          "4",
           ""
         ],
         "explanation": "Tổng chi phí là C(x) = 200 + x (triệu đồng).<br>Tổng doanh thu là R(x) = 3x (triệu đồng).<br>Lợi nhuận là L(x) = R(x) − C(x) − Thuế. Doanh nghiệp có lãi khi L(x) > 0.<br>Trường hợp 1. x < 100. Thuế = 0,1 · 3x = 0,3x.<br>Khi đó L(x) = 3x − (200 + x) − 0,3x = 1,7x − 200.<br>Ta có L(x) > 0 ⇔ x > 117,6 (loại vì đang xét x < 100).<br>Trường hợp 2. 100 ≤ x < 300. Thuế = 0,08 · 3x = 0,24x.<br>Khi đó L(x) = 3x − (200 + x) − 0,24x = 1,76x − 200.<br>Ta có L > 0 ⇔ x > 113,63.<br>Vì x ∈ ℕ<sup>∗</sup>, giá trị tối thiểu là x = 114.<br>Trường hợp 3. x ≥ 300. Thuế = 0,05 · 3x = 0,15x.<br>Khi đó L(x) = 3x − (200 + x) − 0,15x = 1,85x − 200.<br>Ta có L(x) > 0, ∀x ≥ 3 nên giá trị tối thiểu là x = 300.<br>Vậy doanh nghiệp cần bán tối thiểu 114 sản phẩm để bắt đầu có lãi.",
         "acceptedAnswers": [
-          "300"
+          "114"
         ]
       },
       {
@@ -8880,15 +8877,17 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
         "question": "Một bể ban đầu chứa 10 gallon dung dịch muối với 2 lb (pound) muối. Dung dịch vào có nồng độ 1,5 lb/gallon chảy vào với tốc độ 3 gallon/phút, và hỗn hợp trong bể chảy ra với tốc độ 4 gallon/phút. Người ta cho biết lượng muối trong bể sau t phút là m (pound), với: m = f(t) = 1,5(10 − t) − 0,0013(10 − t)<sup>4</sup>, 0 ≤ t ≤ 10. Hỏi lượng muối tối đa có thể có trong bể tại một thời điểm nào đó là bao nhiêu? (làm tròn kết quả đến hàng phần trăm)",
-        "answer": "3,38",
+        "answer": "7,43",
         "kqCells": [
-          "3",
+          "7",
           ",",
-          "3",
-          "8"
+          "4",
+          "3"
         ],
         "explanation": "Ta có công thức lượng muối m (pound) trong bể sau t phút:<br>m = f(t) = 1,5(10 − t) − 0,0013(10 − t)<sup>4</sup>; 0 ≤ t ≤ 10<br>Đặt u = 10 − t. Khi t chạy từ 0 đến 10 thì u chạy từ 10 xuống 0.<br>Khi đó m(u) = 1,5u − 0,0013u<sup>4</sup>; 0 ≤ u ≤ 10<br>Tính đạo hàm theo u ta được: m′ = 1,5 − 0,0013 · 4u³ = 1,5 − 0,0052u³<br>Xét 1,5 − 0,0052u³ = 0 ⇒ u³ = <span class=\"m-frac\"><span class=\"num\">1,5</span><span class=\"den\">0,0052</span></span> ≈ 288,46 ⇒ u ≈ <span class=\"m-root\">√<span class=\"m-rad\">288,46</span></span>³ ≈ 6,62<br>Dễ dàng bảng xét dấu suy ra tại u ≈ 6,62: m<sub>C</sub><sub>Œ</sub> = 1,5·6,62−0,0013·(6,62)<sup>4</sup> ≈ 9,93−2,50 ≈<br>7,43 lb.<br>Lượng muối trong bể đạt tối đa khoảng 7,43 lb tại thời điểm t = 10 − u ≈ 10 − 6,62 = 3,38<br>phút.",
         "acceptedAnswers": [
+          "7,43",
+          "7.43",
           "3,38",
           "3.38"
         ]
@@ -9059,14 +9058,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": "assets/images/quiz/math_kha/kha_de21_p1_q8.png",
-        "question": "A. Câu 8. Cho hình hộp ABCD.MNPQ. Khi đó <span class=\"m-vec\">AM</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> bằng",
+        "question": "Cho hình hộp ABCD.MNPQ. Khi đó <span class=\"m-vec\">AM</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> bằng",
         "options": {
           "A": "<span class=\"m-vec\">PA</span>",
           "B": "<span class=\"m-vec\">AP</span>",
           "C": "<span class=\"m-vec\">AC</span>",
           "D": "<span class=\"m-vec\">CA</span>"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Theo quy tắc hình hộp: <span class=\"m-vec\">AM</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">AP</span>.<br>Chọn phương án"
       },
       {
@@ -9077,7 +9076,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "B. Câu 9. Trong không gian Oxyz, giả sử <span class=\"m-vec\">p</span> = 4<span class=\"m-vec\">k</span> + 2 <span class=\"m-vec\">j</span> − 20 <span class=\"m-vec\">i</span>. Khi đó <span class=\"m-vec\">p</span> có tọa độ là",
+        "question": "Trong không gian Oxyz, giả sử <span class=\"m-vec\">p</span> = 4<span class=\"m-vec\">k</span> + 2 <span class=\"m-vec\">j</span> − 20 <span class=\"m-vec\">i</span>. Khi đó <span class=\"m-vec\">p</span> có tọa độ là",
         "options": {
           "A": "(−20; 2; 4)",
           "B": "(4; 2; −20)",
@@ -9149,7 +9148,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "hoặc sai x² − 2x + 3 Bài 1. Cho hàm số y =. x − 1",
+        "question": "Cho hàm số y =. x − 1",
         "statements": {
           "a": "Đồ thị hàm số có tiệm cận đứng x = 1.",
           "b": "Đồ thị hàm số có tiệm cận ngang y = 1.",
@@ -9172,7 +9171,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Khảo sát và nhận diện đồ thị hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de21_p2_q2.png",
-        "question": "2 Bài 2. Cho hàm số y = f(x) xác định và liên tục trên ℝ, có đồ thị như hình vẽ bên:",
+        "question": "Cho hàm số y = f(x) xác định và liên tục trên ℝ, có đồ thị như hình vẽ bên:",
         "statements": {
           "a": "Hàm số đồng biến trên (0; 1).",
           "b": "Hàm số đạt cực tiểu tại x = −5.",
@@ -9218,7 +9217,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "AB · BC = (AB + BB) · BC = AB · BC + 0 = a · a · cos(120) = − <sub>2</sub>. Bài 4. Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (−2; 1; −3), <span class=\"m-vec\">b</span> = (−1; −3; 2) và điểm A(4; 6; −3).",
+        "question": "Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (−2; 1; −3), <span class=\"m-vec\">b</span> = (−1; −3; 2) và điểm A(4; 6; −3).",
         "statements": {
           "a": "<span class=\"m-vec\">a</span> = −2 <span class=\"m-vec\">i</span> + <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span>.",
           "b": "Tọa độ điểm B(2; 7; −6) thì <span class=\"m-vec\">a</span> = <span class=\"m-vec\">AB</span>.",
@@ -9326,7 +9325,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "hai điểm cực trị: AB = √(3 − 2) + (28 − 29) = 2 ≈ 1,41. Bài 5. Ba lực <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span>; <span class=\"m-vec\">F<sub>3</sub></span> cùng tác động vào một vật, và vật đứng yên. Biết <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span> tạo với nhau một góc bằng 60°, các lực <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span> có độ lớn lần lượt là 30N và 40N. Tính độ lớn của lực <span class=\"m-vec\">F<sub>3</sub></span>. (Kết quả làm tròn đến hàng phần chục)",
+        "question": "Ba lực <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span>; <span class=\"m-vec\">F<sub>3</sub></span> cùng tác động vào một vật, và vật đứng yên. Biết <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span> tạo với nhau một góc bằng 60°, các lực <span class=\"m-vec\">F<sub>1</sub></span>; <span class=\"m-vec\">F<sub>2</sub></span> có độ lớn lần lượt là 30N và 40N. Tính độ lớn của lực <span class=\"m-vec\">F<sub>3</sub></span>. (Kết quả làm tròn đến hàng phần chục)",
         "answer": "60,8",
         "kqCells": [
           "6",
@@ -9404,7 +9403,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = 1",
           "D": "x = 2"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→∞</span></span> <span class=\"m-frac\"><span class=\"num\">x − 2</span><span class=\"den\">x + 1</span></span> = 1. Vậy tiệm cận ngang là đường thẳng y = 1."
       },
       {
@@ -9422,7 +9421,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">x + 3</span></span>",
           "D": "y = x³ + x"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Xét y = x³ + x có y′ = 3x² + 1 > 0 với mọi x ∈ ℝ. Do đó hàm số đồng biến<br>trên ℝ."
       },
       {
@@ -9440,7 +9439,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "4",
           "D": "1"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Đạo hàm đổi dấu từ âm sang dương khi đi qua x = −2 và x = 2. Do đó hàm<br>số có 2 điểm cực tiểu."
       },
       {
@@ -9451,14 +9450,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de22_p1_q5.png",
-        "question": "tiểu. Câu 5. Nếu một vật có khối lượng m (kg) thì lực hấp dẫn <span class=\"m-vec\">P</span> của Trái Đất tác dụng lên vật được xác định theo công thức <span class=\"m-vec\">P</span> = m<span class=\"m-vec\">g</span>, trong đó <span class=\"m-vec\">g</span> là gia tốc rơi tự do có độ lớn g = 9,8 m/s². Tính độ lớn của lực hấp dẫn của Trái Đất tác dụng lên một quả táo có khối lượng 102 gam. <span class=\"m-vec\">g</span> <span class=\"m-vec\">P</span>",
+        "question": "Nếu một vật có khối lượng m (kg) thì lực hấp dẫn <span class=\"m-vec\">P</span> của Trái Đất tác dụng lên vật được xác định theo công thức <span class=\"m-vec\">P</span> = m<span class=\"m-vec\">g</span>, trong đó <span class=\"m-vec\">g</span> là gia tốc rơi tự do có độ lớn g = 9,8 m/s². Tính độ lớn của lực hấp dẫn của Trái Đất tác dụng lên một quả táo có khối lượng 102 gam. <span class=\"m-vec\">g</span> <span class=\"m-vec\">P</span>",
         "options": {
           "A": "0,8996 N",
           "B": "0,5996 N",
           "C": "0,9996 N",
           "D": "0,9196 N"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Đổi m = 102 g = 0,102 kg.<br>Độ lớn lực hấp dẫn: P = m · g = 0,102 · 9,8 = 0,9996 N."
       },
       {
@@ -9469,14 +9468,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "dẫn: P = m · g = 0,102 · 9,8 = 0,9996 N. Câu 6. Cho tứ diện ABCD. Hỏi có bao nhiêu vectơ khác vectơ <span class=\"m-vec\">0</span> mà mỗi vectơ có điểm đầu, điểm cuối là hai đỉnh của tứ diện ABCD?",
+        "question": "Cho tứ diện ABCD. Hỏi có bao nhiêu vectơ khác vectơ <span class=\"m-vec\">0</span> mà mỗi vectơ có điểm đầu, điểm cuối là hai đỉnh của tứ diện ABCD?",
         "options": {
           "A": "4",
           "B": "8",
           "C": "12",
           "D": "10"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Tứ diện có 4 đỉnh. Số vectơ khác <span class=\"m-vec\">0</span> được tạo ra là A²<sub>4</sub> = 4 × 3 = 12."
       },
       {
@@ -9494,7 +9493,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(−1; 2)",
           "D": "(0; 2)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị, hàm số đồng biến trên khoảng (−∞; xCD) và (2; +∞).<br>Với phương án B là (2; +∞), hàm số luôn đồng biến."
       },
       {
@@ -9512,7 +9511,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">DB′</span> = <span class=\"m-vec\">DA</span> + <span class=\"m-vec\">DD′</span> + <span class=\"m-vec\">DC</span>",
           "D": "<span class=\"m-vec\">AC′</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AB′</span> + <span class=\"m-vec\">AD</span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Theo quy tắc hình hộp <span class=\"m-vec\">DB′</span> = <span class=\"m-vec\">DA</span> + <span class=\"m-vec\">DC</span> + <span class=\"m-vec\">DD′</span>."
       },
       {
@@ -9566,7 +9565,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">x − 1</span></span>",
           "D": "y = <span class=\"m-frac\"><span class=\"num\">x − 2</span><span class=\"den\">x − 1</span></span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Đồ thị có tiệm cận đứng x = 1 và tiệm cận ngang y = 1. Đồ thị đi qua điểm<br>(0, 2) và (2, 0).<br>Thay vào hàm số y = <span class=\"m-frac\"><span class=\"num\">x − 2</span><span class=\"den\">x − 1</span></span> thỏa mãn các điều kiện trên."
       },
       {
@@ -9618,7 +9617,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "3 Bài 2. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 2x + 2</span><span class=\"den\">x + 2</span></span>. Các mệnh đề sau đúng hay sai?",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² − 2x + 2</span><span class=\"den\">x + 2</span></span>. Các mệnh đề sau đúng hay sai?",
         "statements": {
           "a": "Khoảng cách từ O đến tiệm cận xiên bằng 4<span class=\"m-root\">√<span class=\"m-rad\">2.</span></span>",
           "b": "Giá trị lớn nhất của hàm số trên đoạn [−3; 1] là −17.",
@@ -9688,16 +9687,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Cực trị của hàm số",
         "figure": null,
         "question": "Cho hàm số f′(x) = x(x² − 1)(x + 1)³. Hàm số y = f(x) có bao nhiêu điểm cực trị?",
-        "answer": "1",
+        "answer": "2",
         "kqCells": [
-          "1",
+          "2",
           "",
           "",
           ""
         ],
         "explanation": "Ta có:<br>f′(x) = x(x − 1)(x + 1)(x + 1)³ = x(x − 1)(x + 1)<sup>4</sup>.<br>Xét phương trình f′(x) = 0 ⇔ [x = 0 hoặc x = 1 Trong đó: hoặc x = −1]<br>x = 0 và x = 1 là các nghiệm đơn (bội lẻ), do đó đạo hàm f′(x) đổi dấu khi đi qua hai điểm<br>này.<br>x = −1 là nghiệm bội chẵn (bậc 4), do đó đạo hàm f′(x) không đổi dấu khi đi qua điểm này.<br>Vì đạo hàm chỉ đổi dấu khi đi qua 2 điểm x = 0 và x = 1, nên hàm số y = f(x) có 2 điểm cực<br>trị.",
         "acceptedAnswers": [
-          "1"
+          "2"
         ]
       },
       {
@@ -9873,7 +9872,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3e<span class=\"m-root\">√<span class=\"m-rad\">³.</span></span>",
           "D": "2e<span class=\"m-root\">√<span class=\"m-rad\">².</span></span>"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Xét f(x) = x²e<sup>x</sup> trên [−3; 2].<br>f′(x) = 2xe<sup>x</sup> + x²e<sup>x</sup> = x(x + 2)e<sup>x</sup>. f′(x) = 0 ⇔ [x = 0 ∈ [−3; 2] hoặc x = −2 ∈ [−3; 2]].<br>Tính các giá trị: f(−3) = 9e<sup>−</sup>³; f(−2) = 4e<sup>−</sup>²; f(0) = 0; f(2) = 4e².<br>So sánh các giá trị, ta thấy giá trị lớn nhất là 4e². Chọn phương án"
       },
       {
@@ -9963,7 +9962,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "B(5; 3; −7)",
           "D": "B(5; −3; −7)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Tọa độ điểm B = 2M −A ⇒ B(2·2−(−1); 2·1−5; 2·(−2)−3) = (5; −3; −7)."
       },
       {
@@ -9992,7 +9991,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Tính đơn điệu và biến thiên của hàm số",
         "figure": "assets/images/quiz/math_kha/kha_de23_p1_q10.png",
-        "question": "4 2 4 4 Câu 10. Cho hàm số y = f(x) xác định trên ℝ và đồ thị hàm số y = f′(x) như hình vẽ. Hàm số y = f(x) nghịch biến trên khoảng nào dưới đây?",
+        "question": "Cho hàm số y = f(x) xác định trên ℝ và đồ thị hàm số y = f′(x) như hình vẽ. Hàm số y = f(x) nghịch biến trên khoảng nào dưới đây?",
         "options": {
           "A": "(−∞; −1)",
           "B": "(−∞; 0)",
@@ -10069,7 +10068,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "2 Bài 2. Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x + 2</span><span class=\"den\">x − 1</span></span>. Các mệnh đề dưới đây đúng hay sai:",
+        "question": "Cho hàm số y = <span class=\"m-frac\"><span class=\"num\">x² + x + 2</span><span class=\"den\">x − 1</span></span>. Các mệnh đề dưới đây đúng hay sai:",
         "statements": {
           "a": "Đồ thị hàm số có đường tiệm cận đứng là x = 1.",
           "b": "Đường tiệm cận xiên của đồ thị hàm số là y = x + 2.",
@@ -10284,7 +10283,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "4"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị hàm số y = f′(x), ta thấy f′(x) đổi dấu từ dương sang âm<br>khi đi qua điểm x = 1.<br>Do đó, hàm số y = f(x) đạt cực đại tại x = 1.<br>Vậy đồ thị hàm số có 1 điểm cực đại."
       },
       {
@@ -10302,7 +10301,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "I(4; 10; 8)",
           "D": "I(2; 5; 4)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Tọa độ trung điểm I của đoạn thẳng AB được tính theo công thức: xI =<br><span class=\"m-frac\"><span class=\"num\">1+3</span><span class=\"den\">2</span></span> = 2; y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">2+8</span><span class=\"den\">2</span></span> = 5; z<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">3+5</span><span class=\"den\">2</span></span> = 4. Vậy I(2; 5; 4)."
       },
       {
@@ -10313,14 +10312,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "2 2 Câu 3. Trong không gian, cho hình lăng trụ ABC.A′B′C′. Khẳng định nào dưới đây đúng?",
+        "question": "Trong không gian, cho hình lăng trụ ABC.A′B′C′. Khẳng định nào dưới đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">A</span> C′",
           "B": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">A</span> C′′",
           "C": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">BC′</span>",
           "D": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">B</span> C′′"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Trong hình lăng trụ ABC.A′B′C′, ta có <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">BC</span>.<br>Áp dụng quy tắc cộng vectơ: <span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">BC</span> = <span class=\"m-vec\">A</span> C′."
       },
       {
@@ -10331,7 +10330,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": "assets/images/quiz/math_kha/kha_de24_p1_q4.png",
-        "question": "tắc cộng vectơ: A B + B C = A B + BC = A C. Câu 4. Cho hình lập phương ABCD.EFGH. Góc giữa hai vectơ <span class=\"m-vec\">FG</span> và <span class=\"m-vec\">BD</span> bằng bao nhiêu độ?",
+        "question": "Cho hình lập phương ABCD.EFGH. Góc giữa hai vectơ <span class=\"m-vec\">FG</span> và <span class=\"m-vec\">BD</span> bằng bao nhiêu độ?",
         "options": {
           "A": "45°",
           "B": "135°",
@@ -10356,7 +10355,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "135°",
           "D": "45°"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có cos(<span class=\"m-vec\">u</span>, <span class=\"m-vec\">v</span>) = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span></span><span class=\"den\">|<span class=\"m-vec\">u</span>| · |<span class=\"m-vec\">v</span> |</span></span> = <span class=\"m-frac\"><span class=\"num\">−1 · 0 + 1 · (−1) + 0 · 0</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">(−1)² + 1² + 0²</span></span> · <span class=\"m-root\">√<span class=\"m-rad\">0² + (−1)² + 0²</span></span></span></span> =<br>−1<br>= −<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span></span>.<br><span class=\"m-root\">√<span class=\"m-rad\">2</span></span> · 1<br>Suy ra (<span class=\"m-vec\">u</span>, <span class=\"m-vec\">v</span>) = 135°."
       },
       {
@@ -10367,14 +10366,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": ") = 135. Câu 6. Trong không gian Oxyz, tọa độ của vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">i</span> + 2 <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span> là",
+        "question": "Trong không gian Oxyz, tọa độ của vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">i</span> + 2 <span class=\"m-vec\">j</span> − 3<span class=\"m-vec\">k</span> là",
         "options": {
           "A": "(1; −2; 3)",
           "B": "(3; −2; 1)",
           "C": "(1; 2; −3)",
           "D": "(−2; 1; 3)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Vectơ <span class=\"m-vec\">u</span> = x <span class=\"m-vec\">i</span> + y <span class=\"m-vec\">j</span> + z <span class=\"m-vec\">k</span> có tọa độ là (x; y; z).<br>Đối chiếu ta có <span class=\"m-vec\">u</span> = (1; 2; −3)."
       },
       {
@@ -10385,14 +10384,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": "có u = (1; 2; −3). Câu 7. Tích vô hướng của hai vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">i</span> + 2 <span class=\"m-vec\">j</span> − <span class=\"m-vec\">k</span> và <span class=\"m-vec\">v</span> = (0; 1; −2) bằng",
+        "question": "Tích vô hướng của hai vectơ <span class=\"m-vec\">u</span> = <span class=\"m-vec\">i</span> + 2 <span class=\"m-vec\">j</span> − <span class=\"m-vec\">k</span> và <span class=\"m-vec\">v</span> = (0; 1; −2) bằng",
         "options": {
           "A": "−4",
           "B": "0",
           "C": "4",
           "D": "−2"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có <span class=\"m-vec\">u</span> = (1; 2; −1) và <span class=\"m-vec\">v</span> = (0; 1; −2).<br><span class=\"m-vec\">u</span> · <span class=\"m-vec\">v</span> = 1 · 0 + 2 · 1 + (−1) · (−2) = 0 + 2 + 2 = 4."
       },
       {
@@ -10410,7 +10409,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(0; 0; 1)",
           "D": "(1; 0; 1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Vectơ đơn vị của trục Oy là <span class=\"m-vec\">j</span> = (0; 1; 0)."
       },
       {
@@ -10428,7 +10427,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = −1",
           "D": "y = 2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào đồ thị, đường tiệm cận đứng là đường thẳng song song với trục Oy<br>và đi qua điểm có hoành độ −1. Vậy phương trình tiệm cận đứng là x = −1."
       },
       {
@@ -10439,14 +10438,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de24_p1_q10.png",
-        "question": "có hoành độ −1. Vậy phương trình tiệm cận đứng là x = −1. Câu 10. Trong không gian Oxyz, cho hình hộp ABCD.A′B′C′D′ có <span class=\"m-vec\">AB</span> = (2; 0; 0), <span class=\"m-vec\">AD</span> = (0; 4; 0) và <span class=\"m-vec\">AA′</span> = (0; 1; 3). Tìm tọa độ vectơ <span class=\"m-vec\">AC′</span>.",
+        "question": "Trong không gian Oxyz, cho hình hộp ABCD.A′B′C′D′ có <span class=\"m-vec\">AB</span> = (2; 0; 0), <span class=\"m-vec\">AD</span> = (0; 4; 0) và <span class=\"m-vec\">AA′</span> = (0; 1; 3). Tìm tọa độ vectơ <span class=\"m-vec\">AC′</span>.",
         "options": {
           "A": "<span class=\"m-vec\">AC′</span> = (2; 4; 3)",
           "B": "<span class=\"m-vec\">AC′</span> = (2; 3; 5)",
           "C": "<span class=\"m-vec\">AC′</span> = (2; 5; 3)",
           "D": "<span class=\"m-vec\">AC′</span> = (1; 5; 3)"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Sử dụng quy tắc hình hộp: <span class=\"m-vec\">AC′</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">AA′</span>.<br><span class=\"m-vec\">AC′</span> = (2 + 0 + 0; 0 + 4 + 1; 0 + 0 + 3) = (2; 5; 3)."
       },
       {
@@ -10482,7 +10481,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = x³ − 3x²",
           "D": "y = x³ + 3x²"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào đồ thị hàm số, ta có các nhận xét sau:<br>Đồ thị hàm số đi qua gốc tọa độ (0; 0).<br>Hàm số có hai điểm cực trị là x = 0 và x = 2.<br>Tại điểm cực tiểu x = 2, giá trị của hàm số là y = −4.<br>Đồ thị đi qua điểm (1; −2).<br>Xét hàm số y = x³ − 3x²:<br>Với x = 0 ⇒ y = 0 (thỏa mãn).<br>Đạo hàm y′ = 3x² − 6x = 3x(x − 2). Cho y′ = 0 ⇔ [x = 0 hoặc x = 2] (thỏa mãn).<br>Với x = 1 ⇒ y = 1³ − 3 · 1² = −2 (thỏa mãn).<br>Với x = 2 ⇒ y = 2³ − 3 · 2² = −4 (thỏa mãn).<br>Vậy đồ thị trên là của hàm số y = x³ − 3x²."
       },
       {
@@ -10651,15 +10650,16 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de24_p3_q4.png",
         "question": "Trên phần mềm mô phỏng việc điều khiển drone giao hàng trong không gian Oxyz. Một đội gồm bốn drone giao hàng A, B, C, D xếp đội hình bay có dạng tam giác ABC và D nằm trên cạnh BC sao cho BD = 4DC. Tại thời điểm các drone có tọa độ là A(80; 20; 80), B(70; 20; 20), C(420; 120; 12 Khoảng cách giữa drone A và drone D bằng bao nhiêu mét? (Kết quả làm tròn đến hàng đơn vị).",
-        "answer": "282,31",
+        "answer": "282",
         "kqCells": [
           "2",
           "8",
           "2",
-          ","
+          ""
         ],
         "explanation": "Vì D nằm trên đoạn BC và BD = 4DC nên <span class=\"m-vec\">BD</span> = 4<span class=\"m-vec\">DC</span>.<br>Gọi D(x; y; z), ta có: (x − 70; y − 20; z − 20) = 4(420 − x; 120 − y; 120 − z).<br>⇔ {x − 70 = 1680 − 4x; y − 20 = 480 − 4y; z − 20 = 480 − 4z} ⇔ {5x = 1750; 5y = 500; 5z = 500} ⇔ {x = 350; y = 100; z = 100} ⇒ D(350; 100; 100).<br>Khoảng cách AD = <span class=\"m-root\">√<span class=\"m-rad\">(350 − 80)² + (100 − 20)² + (100 − 80)²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">270² + 80² + 20²</span></span><br>= <span class=\"m-root\">√<span class=\"m-rad\">72900 + 6400 + 400 =</span></span> <span class=\"m-root\">√<span class=\"m-rad\">79700</span></span> ≈ 282,31.<br>Làm tròn kết quả đến hàng đơn vị: 282 m.",
         "acceptedAnswers": [
+          "282",
           "282,31",
           "282.31"
         ]
@@ -10732,7 +10732,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "E (3; <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>; −<span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>)",
           "D": "E(2; 3; 1)"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Gọi E(x; y; z). Ta có <span class=\"m-vec\">CE</span> = (x−7; y −5; z −3) và <span class=\"m-vec\">EB</span> = (1−x; 2−y; −3−z).<br>Đẳng thức <span class=\"m-vec\">CE</span> = 2<span class=\"m-vec\">EB</span> tương đương với: {x − 7 = 2(1 − x); y − 5 = 2(2 − y); z − 3 = 2(−3 − z)} ⇔ {3x = 9; 3y = 9; 3z = −3} ⇔ {x = 3; y = 3.; z = −1}<br>Vậy E(3; 3; −1)."
       },
       {
@@ -10750,7 +10750,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "max<sub>[−1;3]</sub> f(x) = 5",
           "D": "max<sub>[−1;3]</sub> f(x) = 4"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên trên đoạn [−1; 3], ta thấy giá trị cao nhất của hàm<br>số là 5 tại x = 0 và giá trị thấp nhất là 0 tại x = −1.<br>Vậy max[−1;3] f(x) = 5."
       },
       {
@@ -10768,7 +10768,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "|<span class=\"m-vec\">a</span> | = 6",
           "D": "|<span class=\"m-vec\">a</span> | = 2<span class=\"m-root\">√<span class=\"m-rad\">11.</span></span>"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Độ dài của vectơ <span class=\"m-vec\">a</span> là |<span class=\"m-vec\">a</span> | = <span class=\"m-root\">√<span class=\"m-rad\">2² + (−2)² + 6²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">4 + 4 + 36</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">44</span></span> =<br>2<span class=\"m-root\">√<span class=\"m-rad\">11.</span></span>"
       },
       {
@@ -10786,7 +10786,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "(2; 0; 5)",
           "D": "(2; 0; −5)"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Ta có <span class=\"m-vec\">u</span> = 2 <span class=\"m-vec\">i</span> + 0 <span class=\"m-vec\">j</span> − 5<span class=\"m-vec\">k</span>, do đó tọa độ của vectơ <span class=\"m-vec\">u</span> là (2; 0; −5)."
       },
       {
@@ -10840,7 +10840,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "x = 2",
           "D": "x = −1"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Dựa vào bảng biến thiên, khi x → −1<sup>−</sup> thì y → +∞ và khi x → −1<sup>+</sup> thì<br>y → −∞. Do đó x = −1 là đường tiệm cận đứng."
       },
       {
@@ -10851,14 +10851,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": null,
-        "question": "x = −1 là đường tiệm cận đứng. Câu 8. Trong không gian với hệ trục tọa độ Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (1; −2; 1), <span class=\"m-vec\">b</span> = (−2; 1; 1). Góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> là",
+        "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (1; −2; 1), <span class=\"m-vec\">b</span> = (−2; 1; 1). Góc giữa hai vectơ <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> là",
         "options": {
           "A": "30°",
           "B": "120°",
           "C": "60°",
           "D": "150°"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Ta có cos(<span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>) = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-vec\">a</span> · <span class=\"m-vec\">b</span></span><span class=\"den\">|<span class=\"m-vec\">a</span> | · | <span class=\"m-vec\">b</span> |</span></span> = <span class=\"m-frac\"><span class=\"num\">1(−2) + (−2)1 + 1(1)</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1² + (−2)² + 1²</span></span> · <span class=\"m-root\">√<span class=\"m-rad\">(−2)² + 1² + 1²</span></span></span></span> =<br>−3<br>= −<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>.<br><span class=\"m-root\">√<span class=\"m-rad\">6</span></span> · <span class=\"m-root\">√<span class=\"m-rad\">6</span></span><br>Suy ra (<span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span>) = 120°."
       },
       {
@@ -10869,14 +10869,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "Vectơ và các phép toán trong không gian",
         "figure": null,
-        "question": ". Câu 9. Cho hình hộp ABCD.EFGH. Khi đó <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">CG</span> + <span class=\"m-vec\">EH</span> bằng vectơ nào?",
+        "question": "Cho hình hộp ABCD.EFGH. Khi đó <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">CG</span> + <span class=\"m-vec\">EH</span> bằng vectơ nào?",
         "options": {
           "A": "<span class=\"m-vec\">AH</span>",
           "B": "<span class=\"m-vec\">CE</span>",
           "C": "<span class=\"m-vec\">AE</span>",
           "D": "<span class=\"m-vec\">AG</span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Trong hình hộp ABCD.EFGH, ta có <span class=\"m-vec\">CG</span> = <span class=\"m-vec\">AE</span> và <span class=\"m-vec\">EH</span> = <span class=\"m-vec\">AD</span>.<br>Khi đó: <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">CG</span> + <span class=\"m-vec\">EH</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> + <span class=\"m-vec\">AE</span> = <span class=\"m-vec\">AC</span> + <span class=\"m-vec\">AE</span> = <span class=\"m-vec\">AG</span>."
       },
       {
@@ -10887,14 +10887,14 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "Ứng dụng đạo hàm và Khảo sát hàm số",
         "figure": null,
-        "question": "+ EH = AB + AD + AE = AC + AE = AG. Câu 10. Cho hình lăng trụ ABC.A′B′C′. Gọi M là trung điểm của cạnh BB′. Đặt <span class=\"m-vec\">CA</span> = <span class=\"m-vec\">a</span>,<span class=\"m-vec\">CB</span> = <span class=\"m-vec\">b</span>,<span class=\"m-vec\">AA′</span> = <span class=\"m-vec\">c</span>. Khẳng định nào sau đây đúng?",
+        "question": "Cho hình lăng trụ ABC.A′B′C′. Gọi M là trung điểm của cạnh BB′. Đặt <span class=\"m-vec\">CA</span> = <span class=\"m-vec\">a</span>,<span class=\"m-vec\">CB</span> = <span class=\"m-vec\">b</span>,<span class=\"m-vec\">AA′</span> = <span class=\"m-vec\">c</span>. Khẳng định nào sau đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">a</span> + <span class=\"m-vec\">c</span> − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> <span class=\"m-vec\">b</span>",
           "B": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">b</span> + <span class=\"m-vec\">c</span> − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> <span class=\"m-vec\">a</span>",
           "C": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">b</span> − <span class=\"m-vec\">a</span> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> <span class=\"m-vec\">c</span>",
           "D": "<span class=\"m-vec\">AM</span> = <span class=\"m-vec\">a</span> − <span class=\"m-vec\">c</span> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> <span class=\"m-vec\">b</span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Ta có <span class=\"m-vec\">AM</span> = <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">BM</span> = (<span class=\"m-vec\">CB</span> − <span class=\"m-vec\">CA</span>) + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span><span class=\"m-vec\">BB′</span>.<br>Vì ABC.A′B′C′ là hình lăng trụ nên <span class=\"m-vec\">BB′</span> = <span class=\"m-vec\">AA′</span> = <span class=\"m-vec\">c</span>.<br>Do đó <span class=\"m-vec\">AM</span> = <span class=\"m-vec\">b</span> − <span class=\"m-vec\">a</span> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> <span class=\"m-vec\">c</span>."
       },
       {
@@ -10905,7 +10905,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "Giá trị lớn nhất - Giá trị nhỏ nhất của hàm số",
         "figure": null,
-        "question": "2 Câu 11. Tìm giá trị nhỏ nhất của hàm số y = x³ − 24x + 1 trên đoạn [2; 19].",
+        "question": "Tìm giá trị nhỏ nhất của hàm số y = x³ − 24x + 1 trên đoạn [2; 19].",
         "options": {
           "A": "1 − 32<span class=\"m-root\">√<span class=\"m-rad\">2.</span></span>",
           "B": "−39",
@@ -11034,7 +11034,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "topic": "Hệ trục tọa độ trong không gian Oxyz",
         "figure": "assets/images/quiz/math_kha/kha_de25_p3_q1.png",
         "question": "Hình bên dưới minh họa một cái lều hai mái là hai hình chữ nhật giống nhau trong không gian Oxyz. Biết các kích thước của mái lều là SA = 5m, AB = 10m, độ cao từ S xuống mặt đất là 4m. Bạn An muốn trang trí chiếc lều bằng cách treo các sợi dây cờ trang trí từ các góc lều O, A, B, C đến đuôi một chiếc đèn treo từ vị trí chính giữa của SQ, cách SQ bằng 30cm. Hỏi tổng chiều dài sợi dây cờ trang trí tối thiểu bạn An cần mua là bao nhiêu mét? (kết quả làm tròn đến hàng phần mười).",
-        "answer": "27,623",
+        "answer": "27,6",
         "kqCells": [
           "2",
           "7",
@@ -11043,6 +11043,8 @@ window.MATH_KHA_EXAMS_DATA = {
         ],
         "explanation": "Chọn hệ trục tọa độ Oxyz sao cho mặt đất là mặt phẳng (Oxy).<br>Gọi OA là chiều rộng của lều. Hình chiếu của S lên mặt đất là trung điểm H của OA.<br>Ta có SH = 4, SA = 5 ⇒ HA = <span class=\"m-root\">√<span class=\"m-rad\">5² − 4²</span></span> = 3 ⇒ OA = 6m.<br>Tọa độ các góc: O(0; 0; 0), A(6; 0; 0), B(6; 10; 0), C(0; 10; 0).<br>Đỉnh lều: S(3; 0; 4), Q(3; 10; 4).<br>Trung điểm SQ là M(3; 5; 4). Đèn L treo dưới M một khoảng 0,3m nên L(3; 5; 4 − 0,3) =<br>(3; 5; 3,7).<br>Vì tính đối xứng, khoảng cách từ L đến 4 góc O, A, B, C là bằng nhau:<br>LO = <span class=\"m-root\">√<span class=\"m-rad\">(3 − 0)² + (5 − 0)² + (3,7 − 0)²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">9 + 25 + 13,69 =</span></span> <span class=\"m-root\">√<span class=\"m-rad\">47,69</span></span> ≈ 6,9058 m.<br>Tổng chiều dài dây cờ: T = 4 · LO = 4 · <span class=\"m-root\">√<span class=\"m-rad\">47,69</span></span> ≈ 27,623 m.<br>Làm tròn kết quả: 27,6 m.",
         "acceptedAnswers": [
+          "27,6",
+          "27.6",
           "27,623",
           "27.623"
         ]
@@ -11157,8 +11159,3 @@ window.MATH_KHA_EXAMS_DATA = {
     ]
   }
 };
-
-// Gộp trực tiếp vào window.MATH_ALL_EXAMS_DATA nếu đối tượng này đã tồn tại
-if (typeof window.MATH_ALL_EXAMS_DATA !== 'undefined') {
-  Object.assign(window.MATH_ALL_EXAMS_DATA, window.MATH_KHA_EXAMS_DATA);
-}
