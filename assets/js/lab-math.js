@@ -2147,6 +2147,13 @@
     }
   }
 
+  // Tích hợp 25 đề Ôn tập Giữa kì 1 Toán 12 — Thầy Lê Minh Kha
+  if (window.MATH_KHA_EXAMS_DATA) {
+    for (const [code, examData] of Object.entries(window.MATH_KHA_EXAMS_DATA)) {
+      MATH_EXAMS[code] = examData;
+    }
+  }
+
   // Trạng thái ứng dụng Đề Toán 12
   const state = {
     category: 'dinhki', // 'dinhki' (20 Đề Ôn Định Kì) | 'thpt' (Đề Thi Trường THPT)
@@ -2207,7 +2214,12 @@
     if (q.type === 'short') {
       const val = state.shortAnswers[key];
       if (!val || val.trim() === '') return 'UNANSWERED';
-      return normalizeNumberStr(val) === normalizeNumberStr(q.answer) ? 'CORRECT' : 'WRONG';
+      const normVal = normalizeNumberStr(val);
+      if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 0) {
+        const isMatch = q.acceptedAnswers.some(ans => normalizeNumberStr(ans) === normVal);
+        return isMatch ? 'CORRECT' : 'WRONG';
+      }
+      return normVal === normalizeNumberStr(q.answer) ? 'CORRECT' : 'WRONG';
     }
     return 'UNANSWERED';
   }
@@ -2282,7 +2294,7 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">📐</div>
             <div class="quiz-title-text">
-              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : 'Bộ 20 Đề Ôn Định Kì Toán 12'} (${exam.shortTitle || exam.title})</h3>
+              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : (state.category === 'kha' ? 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Lê Minh Kha' : 'Bộ 20 Đề Ôn Định Kì Toán 12')} (${exam.shortTitle || exam.title})</h3>
               <p>${exam.subtitle || 'Trọn bộ đề Toán 12 chuẩn cấu trúc mới: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ kèm lời giải chi tiết'}</p>
             </div>
           </div>
@@ -2330,7 +2342,7 @@
           </div>
         </div>
 
-        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
+        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs 25 Đề Thầy Kha vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
@@ -2339,7 +2351,14 @@
                 class="math-category-tab-btn ${state.category === 'dinhki' ? 'active' : ''}"
                 onclick="window.MathQuizApp.selectCategory('dinhki')"
               >
-                📘 20 Đề Ôn Định Kì (Đề 1 → 20)
+                📘 20 Đề Ôn Định Kì
+              </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${state.category === 'kha' ? 'active' : ''}"
+                onclick="window.MathQuizApp.selectCategory('kha')"
+              >
+                📕 25 Đề Ôn GK1 — Toán Thầy Kha
               </button>
               <button
                 type="button"
@@ -2385,6 +2404,25 @@
                 `;
               }).join('')}
             </div>
+          ` : (state.category === 'kha' ? `
+            <div class="math-exam-grid-20 math-exam-grid-25">
+              ${Array.from({ length: 25 }, (_, i) => {
+                const num = i + 1;
+                const code = `kha_de${num}`;
+                const isAct = state.examCode === code;
+                const hasProg = hasExamProgress(code);
+                return `
+                  <button
+                    type="button"
+                    class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                    onclick="window.MathQuizApp.selectExam('${code}')"
+                    title="Chuyển sang Đề Thầy Kha số ${num}"
+                  >
+                    Đề ${num}
+                  </button>
+                `;
+              }).join('')}
+            </div>
           ` : `
             <div class="math-thpt-grid">
               <button
@@ -2412,7 +2450,7 @@
                 <div class="thpt-btn-desc">Đề kiểm tra giữa học kỳ I — 22 câu chuẩn cấu trúc mới (Có lời giải chi tiết)</div>
               </button>
             </div>
-          `}
+          `)}
         </div>
 
         <!-- Thanh lọc trạng thái & Thống kê kết quả -->
@@ -2699,7 +2737,14 @@
     const key = getQKey(q.id);
     const isRevealed = !!state.revealedQuestions[key];
     const isStarred = !!state.starredQuestions[key];
-    const fig = q.figure ? MATH_FIGURES[q.figure] : null;
+    let fig = null;
+    if (q.figure) {
+      if (typeof q.figure === 'string' && (q.figure.includes('/') || q.figure.endsWith('.png'))) {
+        fig = { img: q.figure, caption: `Hình vẽ minh họa (${exam.title} • ${q.label})` };
+      } else {
+        fig = MATH_FIGURES[q.figure] || null;
+      }
+    }
     const status = evaluateQuestionStatus(q);
     const textSizeClass = getQuestionTextSizeClass(q, !!fig);
 
@@ -2880,11 +2925,15 @@
 
   window.MathQuizApp = {
     selectCategory(cat) {
-      if (cat !== 'dinhki' && cat !== 'thpt') return;
+      if (cat !== 'dinhki' && cat !== 'thpt' && cat !== 'kha') return;
       state.category = cat;
       if (cat === 'dinhki') {
         if (!state.examCode.startsWith('gk1_')) {
           state.examCode = 'gk1_de1';
+        }
+      } else if (cat === 'kha') {
+        if (!state.examCode.startsWith('kha_')) {
+          state.examCode = 'kha_de1';
         }
       } else if (cat === 'thpt') {
         if (state.examCode !== 'thpt_pbc' && state.examCode !== 'thpt_vietduc') {
@@ -2899,6 +2948,8 @@
       state.examCode = examCode;
       if (examCode === 'thpt_pbc' || examCode === 'thpt_vietduc') {
         state.category = 'thpt';
+      } else if (examCode.startsWith('kha_')) {
+        state.category = 'kha';
       } else {
         state.category = 'dinhki';
       }
@@ -3062,7 +3113,10 @@
       }
     },
     zoomFigure(figKey) {
-      const fig = MATH_FIGURES[figKey];
+      let fig = MATH_FIGURES[figKey];
+      if (!fig && typeof figKey === 'string' && (figKey.includes('/') || figKey.endsWith('.png'))) {
+        fig = { img: figKey, caption: 'Hình vẽ minh họa' };
+      }
       if (!fig) return;
       const modal = document.getElementById('mathFigureZoomModal');
       const body = document.getElementById('mathFigureZoomBody');

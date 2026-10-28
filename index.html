@@ -84,7 +84,7 @@
           <button type="button" class="header-nav-pill" id="headerBtnMath" onclick="switchTab('toan12')">
             <span>📐</span>
             <span>Đề Toán 12</span>
-            <span class="pill-badge">3 đề</span>
+            <span class="pill-badge">47 đề</span>
           </button>
           <button type="button" class="header-nav-pill" id="headerBtnChem" onclick="switchTab('hoa12')">
             <span>⚗️</span>
@@ -94,7 +94,7 @@
           <button type="button" class="header-nav-pill" id="headerBtnPhys" onclick="switchTab('ly12')">
             <span>⚡</span>
             <span>Đề Lí 12</span>
-            <span class="pill-badge">41 câu</span>
+            <span class="pill-badge">4 đề</span>
           </button>
         </nav>
 
@@ -403,7 +403,7 @@
             <li><a href="#circuit" onclick="switchTab('circuit')" class="footer-link">🔌 Vật Lý (Mạch Điện & Sự Nổi)</a></li>
             <li><a href="#biology" onclick="switchTab('biology')" class="footer-link">🧬 Hệ Cơ Quan & Thành Phần O₂</a></li>
             <li><a href="#baitap" onclick="switchTab('baitap')" class="footer-link">📝 Bài tập (400 câu Vật Lí Nhiệt 12)</a></li>
-            <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (Định kì & Đề trường THPT)</a></li>
+            <li><a href="#toan12" onclick="switchTab('toan12')" class="footer-link">📐 Đề Toán 12 (47 đề Ôn định kì, Thầy Kha & Đề trường THPT)</a></li>
             <li><a href="#hoa12" onclick="switchTab('hoa12')" class="footer-link">⚗️ Đề Hóa 12 (7 đề kiểm tra & ôn tập)</a></li>
           </ul>
         </div>
@@ -438,11 +438,12 @@
   <script src="assets/js/lab-quiz-tf.js?v=20261021"></script>
   <script src="assets/js/lab-quiz.js?v=20261021"></script>
   <script src="assets/js/lab-math-data.js?v=20261021_pbc11"></script>
-  <script src="assets/js/lab-math.js?v=20261021_pbc11"></script>
-  <script src="assets/js/lab-chem-data.js?v=20261023"></script>
-  <script src="assets/js/lab-chem.js?v=20261023"></script>
-  <script src="assets/js/lab-phys-data.js?v=20261023_v2"></script>
-  <script src="assets/js/lab-phys.js?v=20261023_v2"></script>
+  <script src="assets/js/lab-math-kha-data.js?v=20261026"></script>
+  <script src="assets/js/lab-math.js?v=20261026"></script>
+  <script src="assets/js/lab-chem-data.js?v=20261023_revised"></script>
+  <script src="assets/js/lab-chem.js?v=20261023_revised"></script>
+  <script src="assets/js/lab-phys-data.js?v=20261026_4de"></script>
+  <script src="assets/js/lab-phys.js?v=20261026_4de"></script>
   
   <script>
     window.lastLabTab = 'acid-base';
@@ -518,7 +519,7 @@
         toan12: {
           badge: '📐 Đề Toán 12 — HCMUE',
           title: 'Đề Ôn Tập Toán 12',
-          desc: '20 đề ôn định kì Học kì 1 & Bộ đề thi thực tế các trường THPT (THPT Phan Bội Châu, THPT Việt Đức) — Trắc nghiệm ABCD, Đúng/Sai và Trả lời ngắn kèm lời giải chi tiết, trình chiếu sửa bài trực tiếp trên lớp.'
+          desc: 'Trọn bộ 47 đề: 20 đề Ôn định kì, 25 đề Ôn GK1 Thầy Lê Minh Kha và Đề thi THPT (Phan Bội Châu, Việt Đức) — Chuẩn cấu trúc mới 2025: Trắc nghiệm ABCD, Đúng/Sai và Trả lời ngắn kèm lời giải chi tiết và hình vẽ sắc nét.'
         },
         hoa12: {
           badge: '⚗️ Đề Hóa 12 — HCMUE',
@@ -526,9 +527,9 @@
           desc: 'Bộ 7 đề kiểm tra Giữa kì & Ôn tập Hóa học 12 theo cấu trúc mới nhất của Bộ GD&ĐT (18 câu Nhiều lựa chọn, 4 câu Đúng/Sai, 6 câu Trả lời ngắn) — Kèm lời giải chi tiết và trình chiếu sửa bài.'
         },
         ly12: {
-          badge: '⚡ Chuyên Đề Vật Lí 12 — HCMUE',
-          title: 'Chuyên Đề: Nhiệt Hóa Hơi Riêng',
-          desc: 'Chương 1: Vật lí nhiệt — 41 câu trắc nghiệm chọn lọc & vận dụng cao: 37 câu Trắc nghiệm ABCD • 4 câu Đúng / Sai (16 ý) kèm lời giải chi tiết từng bước.'
+          badge: '⚡ Đề Ôn Tập & Chuyên Đề Vật Lí 12 — HCMUE',
+          title: 'Bộ 4 Đề Ôn Tập Giữa Kì I & Chuyên Đề Vật Lí 12',
+          desc: 'Chương 1: Vật lí nhiệt — Gồm Đề 1 Giữa kì (25 câu), Đề 2 Giữa kì (28 câu), Đề cương GK1 6 Bài học (78 câu) và Chuyên đề Nhiệt hóa hơi riêng (41 câu) kèm lời giải chi tiết từng bước.'
         }
       };
       const hero = heroContent[isQuizPage ? tabName : 'lab'];

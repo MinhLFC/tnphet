@@ -1,32 +1,63 @@
 /**
  * ============================================================================
- * TRÌNH DIỄN CHUYÊN ĐỀ VẬT LÍ 12: NHIỆT HÓA HƠI RIÊNG (CHƯƠNG 1: VẬT LÍ NHIỆT)
- * Mô phỏng tiêu chuẩn hiện đại: Slide thuyết trình & Danh sách cuộn
- * Hỗ trợ bộ lọc ABCD / Đúng Sai / Mức độ Nhận biết & Vận dụng, Bảng đáp án chuẩn
+ * MODULE TRÌNH CHIẾU & SỬA BÀI BỘ 4 ĐỀ ÔN TẬP & CHUYÊN ĐỀ VẬT LÍ 12
+ * Gồm:
+ *   1. Đề 1 Giữa kì (25 câu: 16 ABCD + 3 Đ/S + 6 TLN)
+ *   2. Đề 2 Giữa kì (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
+ *   3. Đề cương GK1 (78 câu: 57 ABCD + 8 Đ/S + 13 TLN - 6 Bài học)
+ *   4. Chuyên đề Nhiệt hóa hơi riêng (41 câu: 37 ABCD + 4 Đ/S)
+ *
+ * Tính năng:
+ * - Chế độ Trình chiếu (Slide) & Danh sách (List)
+ * - Tăng giảm cỡ chữ trình chiếu máy chiếu (Font zoom 80% - 150%)
+ * - Bảng đáp án nhanh toàn bộ các phần (ABCD, Đúng/Sai, Trả lời ngắn)
+ * - Hỗ trợ phóng to hình ảnh thí nghiệm / đồ thị HD toàn màn hình
+ * - Phím tắt máy tính: ⬅️ ➡️ chuyển câu, S đánh dấu, Space hiện lời giải, 1-4/A-D chọn đáp án
  * ============================================================================
  */
 
 (function () {
-  const STORAGE_KEY = 'tnphet_phys_quiz_state_v1';
+  'use strict';
+
+  const STORAGE_KEY = 'tnphet_phys_quiz_state_v2';
 
   const state = {
-    currentExamId: 'ly_nhiethoahoi',
+    currentExamId: 'ly_de1',
     mode: 'slide', // 'slide' | 'list'
     currentIndex: 0,
-    filterPart: 'ALL', // 'ALL' | 1 | 2
-    filterLevel: 'ALL', // 'ALL' | 'nb_th' | 'vd_vdc'
+    filterPart: 'ALL', // 'ALL' | 1 | 2 | 3
     filterStarred: false,
     sidebarOpen: true,
     fontScale: 1.0,
     isFullscreen: false,
     answerKeyModalOpen: false,
+    zoomModal: {
+      open: false,
+      src: '',
+      caption: ''
+    },
 
     // Dữ liệu người dùng
     starredQuestions: {},
     mcqAnswers: {},
     tfAnswers: {},
+    shortAnswers: {},
     revealedQuestions: {}
   };
+
+  function normalizeNumberStr(str) {
+    if (str === undefined || str === null) return '';
+    return String(str)
+      .trim()
+      .replace(/\s+/g, '')
+      .replace(',', '.')
+      .replace(/^0+(?=\d)/, '');
+  }
+
+  function escapeAttr(str) {
+    if (!str) return '';
+    return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
 
   function getCurrentExam() {
     const data = window.PHYS_EXAMS_DATA || {};
@@ -37,13 +68,28 @@
     return `${state.currentExamId}_q${qid}`;
   }
 
+  function hasExamProgress(code) {
+    return (
+      Object.keys(state.mcqAnswers).some(k => k.startsWith(code + '_')) ||
+      Object.keys(state.tfAnswers).some(k => k.startsWith(code + '_')) ||
+      Object.keys(state.shortAnswers).some(k => k.startsWith(code + '_'))
+    );
+  }
+
+  function isMcqOptionCorrect(q, letter) {
+    if (!letter) return false;
+    if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.includes(letter)) {
+      return true;
+    }
+    return letter === q.answer;
+  }
+
   function getFilteredQuestions() {
     const exam = getCurrentExam();
     if (!exam || !exam.questions) return [];
 
     return exam.questions.filter((q) => {
-      if (state.filterPart !== 'ALL' && q.part !== state.filterPart) return false;
-      if (state.filterLevel !== 'ALL' && q.level !== state.filterLevel) return false;
+      if (state.filterPart !== 'ALL' && q.part !== Number(state.filterPart)) return false;
       if (state.filterStarred && !state.starredQuestions[getQKey(q.id)]) return false;
       return true;
     });
@@ -55,7 +101,7 @@
     if (q.type === 'mcq') {
       const user = state.mcqAnswers[key];
       if (!user) return 'UNANSWERED';
-      return user === q.answer ? 'CORRECT' : 'WRONG';
+      return isMcqOptionCorrect(q, user) ? 'CORRECT' : 'WRONG';
     }
 
     if (q.type === 'tf') {
@@ -81,6 +127,18 @@
       return 'PARTIAL';
     }
 
+    if (q.type === 'sa' || q.type === 'short') {
+      const u = state.shortAnswers[key];
+      if (u === undefined || u === null || u.trim() === '') return 'UNANSWERED';
+      const normU = normalizeNumberStr(u);
+      const normC = normalizeNumberStr(q.answer);
+      if (normU === normC) return 'CORRECT';
+      if (q.acceptedAnswers && q.acceptedAnswers.map(normalizeNumberStr).includes(normU)) {
+        return 'CORRECT';
+      }
+      return 'WRONG';
+    }
+
     return 'UNANSWERED';
   }
 
@@ -89,25 +147,60 @@
     if (!exam || !exam.questions) return { total: 0, answered: 0, correct: 0, totalScore: '0.00' };
 
     let answered = 0;
-    let correct = 0;
+    let earnedUnits = 0;
+    let maxUnits = 0;
     const questions = exam.questions;
 
     questions.forEach((q) => {
-      const status = evaluateQuestionStatus(q);
-      if (status === 'CORRECT') {
-        answered++;
-        correct++;
-      } else if (status === 'WRONG' || status === 'PARTIAL') {
-        answered++;
+      const key = getQKey(q.id);
+      if (q.type === 'mcq') {
+        maxUnits += 0.25;
+        const u = state.mcqAnswers[key];
+        if (u) {
+          answered++;
+          if (isMcqOptionCorrect(q, u)) earnedUnits += 0.25;
+        }
+      } else if (q.type === 'tf') {
+        maxUnits += 1.0;
+        const u = state.tfAnswers[key];
+        if (u && Object.keys(u).length > 0) {
+          answered++;
+          let subCount = 0;
+          const c = q.answer || q.answers || {};
+          for (const k of ['a', 'b', 'c', 'd']) {
+            if (typeof u[k] === 'boolean') {
+              const cBool = c[k] === 'Đ' || c[k] === 'D' || c[k] === true;
+              if (u[k] === cBool) subCount++;
+            }
+          }
+          if (subCount === 1) earnedUnits += 0.1;
+          else if (subCount === 2) earnedUnits += 0.25;
+          else if (subCount === 3) earnedUnits += 0.5;
+          else if (subCount === 4) earnedUnits += 1.0;
+        }
+      } else if (q.type === 'sa' || q.type === 'short') {
+        maxUnits += 0.25;
+        const u = state.shortAnswers[key];
+        if (u !== undefined && u !== null && u.trim() !== '') {
+          answered++;
+          const normU = normalizeNumberStr(u);
+          const normC = normalizeNumberStr(q.answer);
+          if (normU === normC || (q.acceptedAnswers && q.acceptedAnswers.map(normalizeNumberStr).includes(normU))) {
+            earnedUnits += 0.25;
+          }
+        }
       }
     });
 
-    const score = questions.length > 0 ? (correct / questions.length) * 10 : 0;
+    // Chuẩn hóa về thang điểm 10
+    const normalizedScore = maxUnits > 0
+      ? (Math.abs(maxUnits - 10) < 0.01 ? earnedUnits : (earnedUnits / maxUnits) * 10)
+      : 0;
+
     return {
       total: questions.length,
       answered,
-      correct,
-      totalScore: score.toFixed(2)
+      totalScore: Math.min(10, normalizedScore).toFixed(2)
     };
   }
 
@@ -116,9 +209,13 @@
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const p = JSON.parse(saved);
+        if (p.currentExamId && window.PHYS_EXAMS_DATA && window.PHYS_EXAMS_DATA[p.currentExamId]) {
+          state.currentExamId = p.currentExamId;
+        }
         if (p.starredQuestions) state.starredQuestions = p.starredQuestions;
         if (p.mcqAnswers) state.mcqAnswers = p.mcqAnswers;
         if (p.tfAnswers) state.tfAnswers = p.tfAnswers;
+        if (p.shortAnswers) state.shortAnswers = p.shortAnswers;
         if (typeof p.fontScale === 'number') state.fontScale = p.fontScale;
       }
     } catch (e) {
@@ -129,14 +226,22 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        currentExamId: state.currentExamId,
         starredQuestions: state.starredQuestions,
         mcqAnswers: state.mcqAnswers,
         tfAnswers: state.tfAnswers,
+        shortAnswers: state.shortAnswers,
         fontScale: state.fontScale
       }));
     } catch (e) {
       console.warn('Cannot save phys quiz state:', e);
     }
+  }
+
+  function countStarred() {
+    const exam = getCurrentExam();
+    if (!exam || !exam.questions) return 0;
+    return exam.questions.filter(q => !!state.starredQuestions[getQKey(q.id)]).length;
   }
 
   // ==================== RENDER TOÀN BỘ ỨNG DỤNG ====================
@@ -149,10 +254,19 @@
       root.innerHTML = `
         <div class="quiz-empty-box" style="padding: 40px; text-align: center;">
           <div style="font-size: 2.4rem;">⚡</div>
-          <p style="margin-top: 10px; font-weight: 600;">Đang chuẩn bị dữ liệu chuyên đề Vật lí 12...</p>
+          <p style="margin-top: 10px; font-weight: 600;">Đang chuẩn bị dữ liệu đề Vật lí 12...</p>
         </div>
       `;
       return;
+    }
+
+    const allQ = exam.questions || [];
+    const p1Count = allQ.filter(q => q.part === 1).length;
+    const p2Count = allQ.filter(q => q.part === 2).length;
+    const p3Count = allQ.filter(q => q.part === 3).length;
+
+    if (state.filterPart === 3 && p3Count === 0) {
+      state.filterPart = 'ALL';
     }
 
     const filtered = getFilteredQuestions();
@@ -160,6 +274,8 @@
       state.currentIndex = Math.max(0, filtered.length - 1);
     }
     const stats = getExamStats();
+    const exams = window.PHYS_EXAMS_DATA || {};
+    const examList = Object.values(exams);
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="physWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -168,8 +284,8 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">⚡</div>
             <div class="quiz-title-text">
-              <h3>${exam.title} — ${exam.shortTitle}</h3>
-              <p>Trọn bộ 41 câu chuẩn phân hóa: 37 câu Trắc nghiệm ABCD • 4 câu Đúng / Sai (16 ý) • Kèm lời giải chi tiết</p>
+              <h3>${exam.title} (${exam.shortTitle || exam.title})</h3>
+              <p>${exam.subtitle || `Trọn bộ ${allQ.length} câu: Phần 1 ABCD (${p1Count}c) • Phần 2 Đúng/Sai (${p2Count}c)${p3Count > 0 ? ` • Phần 3 Trả lời ngắn (${p3Count}c)` : ''}`}</p>
             </div>
           </div>
 
@@ -198,7 +314,7 @@
 
             ${state.mode === 'slide' ? `
               <button class="quiz-tool-btn" onclick="window.PhysQuizApp.toggleSidebar()">
-                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : '▶ Hiện lưới 41 câu'}
+                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : `▶ Hiện lưới ${filtered.length} câu`}
               </button>
             ` : `
               <button class="quiz-tool-btn" onclick="window.PhysQuizApp.revealAllInFilter()">
@@ -211,40 +327,57 @@
             </button>
 
             <button class="quiz-tool-btn btn-accent" onclick="window.PhysQuizApp.resetCurrentExamAnswers()">
-              🔄 Làm mới
+              🔄 Làm mới đề này
             </button>
           </div>
         </div>
 
-        <!-- BỘ LỌC PHÂN MÔN & MỨC ĐỘ -->
+        <!-- THANH CHỌN ĐỀ & BỘ LỌC PHẦN -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
               <button type="button" class="math-category-tab-btn active" style="cursor: default;">
-                ⚡ Chuyên đề: Nhiệt Hóa Hơi Riêng (Vật lí 12 - Chương 1)
+                ⚡ Bộ 4 Đề Ôn Tập Giữa Kì I & Chuyên Đề Vật Lí 12 (Chương 1: Vật Lí Nhiệt)
               </button>
             </div>
 
             <div class="math-part-pills">
-              <button class="math-part-pill ${state.filterPart === 'ALL' && state.filterLevel === 'ALL' ? 'active' : ''}" onclick="window.PhysQuizApp.setFilter('ALL', 'ALL')">
-                Tất cả (41 câu)
+              <button class="math-part-pill ${state.filterPart === 'ALL' ? 'active' : ''}" onclick="window.PhysQuizApp.setPartFilter('ALL')">
+                Tất cả (${allQ.length} câu)
               </button>
-              <button class="math-part-pill ${state.filterPart === 1 ? 'active' : ''}" onclick="window.PhysQuizApp.setFilter(1, 'ALL')">
-                Phần 1: ABCD (37)
+              <button class="math-part-pill ${state.filterPart === 1 ? 'active' : ''}" onclick="window.PhysQuizApp.setPartFilter(1)">
+                Phần 1: ABCD (${p1Count})
               </button>
-              <button class="math-part-pill ${state.filterPart === 2 ? 'active' : ''}" onclick="window.PhysQuizApp.setFilter(2, 'ALL')">
-                Phần 2: Đúng - Sai (4)
+              <button class="math-part-pill ${state.filterPart === 2 ? 'active' : ''}" onclick="window.PhysQuizApp.setPartFilter(2)">
+                Phần 2: Đúng - Sai (${p2Count})
               </button>
-              <button class="math-part-pill ${state.filterLevel === 'nb_th' ? 'active' : ''}" onclick="window.PhysQuizApp.setFilter('ALL', 'nb_th')">
-                Nhận biết - Thông hiểu (23)
-              </button>
-              <button class="math-part-pill ${state.filterLevel === 'vd_vdc' ? 'active' : ''}" onclick="window.PhysQuizApp.setFilter('ALL', 'vd_vdc')">
-                Vận dụng (18)
-              </button>
+              ${p3Count > 0 ? `
+                <button class="math-part-pill ${state.filterPart === 3 ? 'active' : ''}" onclick="window.PhysQuizApp.setPartFilter(3)">
+                  Phần 3: Trả lời ngắn (${p3Count})
+                </button>
+              ` : ''}
               <button class="math-part-pill ${state.filterStarred ? 'active' : ''}" onclick="window.PhysQuizApp.toggleStarFilter()">
                 ★ Đã lưu ý (${countStarred()})
               </button>
             </div>
+          </div>
+
+          <div class="math-exam-grid-20" style="grid-template-columns: repeat(4, minmax(0, 1fr));">
+            ${examList.map((ex, i) => {
+              const num = i + 1;
+              const isAct = state.currentExamId === ex.code;
+              const hasProg = hasExamProgress(ex.code);
+              return `
+                <button
+                  type="button"
+                  class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                  onclick="window.PhysQuizApp.selectExam('${ex.code}')"
+                  title="Chuyển sang ${ex.title}"
+                >
+                  ${ex.shortTitle || ('Đề ' + num)}
+                </button>
+              `;
+            }).join('')}
           </div>
         </div>
 
@@ -256,8 +389,8 @@
             <span>Điểm hiện tại: <b style="color: #0284c7; font-size: 1.05rem;">${stats.totalScore}</b> / 10.0 điểm</span>
           </div>
           <div class="quiz-stats-right">
-            <button class="quiz-mini-btn" onclick="window.PhysQuizApp.resetCurrentExamAnswers()" title="Xóa toàn bộ câu trả lời để làm lại từ đầu">
-              ↺ Làm lại chuyên đề này
+            <button class="quiz-mini-btn" onclick="window.PhysQuizApp.resetCurrentExamAnswers()" title="Xóa toàn bộ câu trả lời của đề này để làm lại từ đầu">
+              ↺ Làm lại đề này
             </button>
           </div>
         </div>
@@ -267,14 +400,23 @@
 
         <!-- MODAL BẢNG ĐÁP ÁN -->
         ${state.answerKeyModalOpen ? renderAnswerKeyModal(exam) : ''}
+
+        <!-- MODAL PHÓNG TO HÌNH ẢNH THÍ NGHIỆM / ĐỒ THỊ -->
+        ${state.zoomModal.open ? `
+          <div class="quiz-modal-backdrop open" onclick="window.PhysQuizApp.closeZoomModal()">
+            <div class="quiz-modal-card zoom-card" onclick="event.stopPropagation()">
+              <div class="quiz-modal-header">
+                <h4>🔍 ${state.zoomModal.caption || 'Hình ảnh thí nghiệm / Đồ thị phóng to'}</h4>
+                <button class="modal-close-btn quiz-modal-close" onclick="window.PhysQuizApp.closeZoomModal()">&times;</button>
+              </div>
+              <div class="quiz-modal-body zoom-body">
+                <img src="${state.zoomModal.src}" alt="Zoom" class="zoomed-figure-img" />
+              </div>
+            </div>
+          </div>
+        ` : ''}
       </div>
     `;
-  }
-
-  function countStarred() {
-    const exam = getCurrentExam();
-    if (!exam || !exam.questions) return 0;
-    return exam.questions.filter(q => !!state.starredQuestions[getQKey(q.id)]).length;
   }
 
   // ==================== SLIDE VIEW ====================
@@ -320,16 +462,19 @@
             </div>
 
             <button class="slide-nav-btn" onclick="window.PhysQuizApp.nextSlide()" ${!hasNext ? 'disabled' : ''}>
-              Câu tiếp ➡
+              Câu tiếp theo ➡
             </button>
           </div>
 
           <div class="keyboard-hint-bar">
-            <span>Phím tắt: <b>[←]</b> Câu trước • <b>[→]</b> Câu tiếp • <b>[Space]</b> Xem giải • <b>[S]</b> Đánh dấu sao • <b>[1-4]</b> Chọn A-D</span>
+            <span><kbd class="kbd-tag">←</kbd> <kbd class="kbd-tag">→</kbd> Chuyển câu</span>
+            <span><kbd class="kbd-tag">1</kbd>-<kbd class="kbd-tag">4</kbd> / <kbd class="kbd-tag">A</kbd>-<kbd class="kbd-tag">D</kbd> Chọn đáp án</span>
+            <span><kbd class="kbd-tag">Space</kbd> Hiện/Ẩn lời giải</span>
+            <span><kbd class="kbd-tag">S</kbd> Đánh dấu ★</span>
           </div>
         </div>
 
-        <!-- CỘT ĐIỀU HƯỚNG 41 CÂU BÊN CẠNH -->
+        <!-- CỘT ĐIỀU HƯỚNG CÂU HỎI BÊN CẠNH -->
         ${state.sidebarOpen ? `
           <aside class="quiz-navigator-card">
             <div class="navigator-header">
@@ -354,7 +499,9 @@
                 else if (rev) cellClass += ' revealed-only';
                 if (isStar) cellClass += ' is-starred';
 
-                const shortTag = q.part === 1 ? `P1.${q.qnum}` : `P2.${q.qnum}`;
+                const shortTag = state.currentExamId === 'ly_decuong'
+                  ? `C${q.qnum}`
+                  : (q.part === 1 ? `P1.${q.qnum}` : (q.part === 2 ? `P2.${q.qnum}` : `P3.${q.qnum}`));
 
                 return `
                   <button
@@ -405,20 +552,22 @@
 
   // ==================== NỘI DUNG THẺ CÂU HỎI ====================
   function renderQuestionCardContent(q, isSlideMode) {
+    const exam = getCurrentExam();
     const key = getQKey(q.id);
     const isRevealed = !!state.revealedQuestions[key];
     const isStarred = !!state.starredQuestions[key];
     const status = evaluateQuestionStatus(q);
-    const levelBadge = q.level === 'vd_vdc' ? '🎯 Vận dụng cao' : '🎯 Nhận biết - Thông hiểu';
+    const typeLabel = q.type === 'mcq'
+      ? 'Nhiều lựa chọn (0.25đ)'
+      : (q.type === 'tf' ? 'Đúng/Sai (Tối đa 1.0đ)' : 'Trả lời ngắn (0.25đ)');
 
     return `
       <div class="slide-card-header">
         <div class="slide-q-meta">
-          <span class="slide-q-number">${q.label || `Câu ${q.qnum}`}</span>
-          <span class="slide-q-topic">${levelBadge}</span>
+          <span class="slide-q-number">${exam.shortTitle || exam.title} • ${q.label || `Câu ${q.qnum}`}</span>
           ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
           <span class="slide-q-topic" style="background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25);">
-            ${q.part === 1 ? 'Nhiều lựa chọn (0.25đ)' : 'Đúng/Sai (Tối đa 1.0đ)'}
+            ${typeLabel}
           </span>
         </div>
 
@@ -434,8 +583,15 @@
         </div>
       </div>
 
-      <div class="slide-q-body">
+      <div class="slide-q-body ${q.figure ? 'has-figure' : ''}">
         <div class="slide-q-text">${q.prompt || q.question || ''}</div>
+
+        ${q.figure ? `
+          <div class="slide-q-figure" onclick="window.PhysQuizApp.zoomImage('${q.figure}', '${escapeAttr((exam.shortTitle || exam.title) + ' • ' + (q.label || 'Câu ' + q.qnum))}')" title="Nhấn vào hình để phóng to toàn màn hình">
+            <img src="${q.figure}?v=20261026" alt="${q.label || ''}" class="slide-q-figure-img" onerror="this.onerror=null;this.src='${q.figure}'" />
+            <div class="slide-q-figure-caption">🔍 Nhấn để phóng to hình ảnh chi tiết</div>
+          </div>
+        ` : ''}
       </div>
 
       ${renderPartInteraction(q, key, isRevealed)}
@@ -467,25 +623,26 @@
           ${['A', 'B', 'C', 'D'].map(letter => {
             let stateClass = '';
             let statusIcon = '';
+            const isCorrectLetter = isMcqOptionCorrect(q, letter);
 
             if (isRevealed) {
-              if (letter === q.answer) {
+              if (isCorrectLetter) {
                 stateClass = 'is-correct';
                 statusIcon = '✔';
-              } else if (userAns === letter && userAns !== q.answer) {
+              } else if (userAns === letter && !isCorrectLetter) {
                 stateClass = 'is-wrong';
                 statusIcon = '✖';
               }
             } else if (userAns) {
               if (letter === userAns) {
-                if (userAns === q.answer) {
+                if (isCorrectLetter) {
                   stateClass = 'is-correct';
                   statusIcon = '✔';
                 } else {
                   stateClass = 'is-wrong';
                   statusIcon = '✖';
                 }
-              } else if (letter === q.answer && userAns !== q.answer) {
+              } else if (isCorrectLetter && !isMcqOptionCorrect(q, userAns)) {
                 stateClass = 'is-correct';
                 statusIcon = '✔';
               }
@@ -572,11 +729,65 @@
       `;
     }
 
+    // 3. PHẦN 3: Trả lời ngắn (KQ tối đa 4-6 kí tự)
+    if (q.type === 'sa' || q.type === 'short') {
+      const userVal = state.shortAnswers[key] || '';
+      const hasVal = userVal.trim() !== '';
+      const normU = normalizeNumberStr(userVal);
+      const normC = normalizeNumberStr(q.answer);
+      const isCorrect = hasVal && (normU === normC || (q.acceptedAnswers && q.acceptedAnswers.map(normalizeNumberStr).includes(normU)));
+      const inputClass = hasVal ? (isCorrect ? 'is-correct' : 'is-wrong') : '';
+      const showKq = isRevealed || isCorrect;
+
+      const ansStr = String(q.answer);
+      const cellLen = Math.max(4, Math.min(7, ansStr.length));
+      const kqCells = (q.kqCells && q.kqCells.length >= 4)
+        ? q.kqCells
+        : ansStr.padEnd(cellLen, ' ').slice(0, cellLen).split('');
+
+      return `
+        <div class="math-sa-wrapper">
+          <div class="math-sa-input-group">
+            <span class="math-sa-label">✍️ Nhập đáp số học sinh:</span>
+            <input
+              type="text"
+              class="math-sa-input ${inputClass}"
+              placeholder="Nhập số..."
+              value="${escapeAttr(userVal)}"
+              onchange="window.PhysQuizApp.setShortAnswer(${q.id}, this.value)"
+            />
+            <button type="button" class="quiz-tool-btn" onclick="const inp=this.previousElementSibling; window.PhysQuizApp.setShortAnswer(${q.id}, inp.value)">
+              ✔ Kiểm tra
+            </button>
+            ${hasVal ? `
+              <span style="font-weight: 800; font-size: 0.92rem; color: ${isCorrect ? '#16a34a' : '#dc2626'};">
+                ${isCorrect ? '🎉 Chính xác!' : `✖ Chưa đúng (Đáp số chuẩn: ${q.answer})`}
+              </span>
+            ` : ''}
+          </div>
+
+          <div class="math-kq-box-group" title="Ô điền kết quả chuẩn trên phiếu trả lời trắc nghiệm">
+            <span class="math-kq-title">KQ:</span>
+            <div class="math-kq-cells ${showKq ? 'revealed' : ''}">
+              ${kqCells.map(ch => `
+                <div class="math-kq-cell">${showKq ? ch.trim() : ''}</div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
     return '';
   }
 
   function getAnswerBadgeText(q) {
-    if (q.type === 'mcq') return `Chọn <b>${q.answer}</b>`;
+    if (q.type === 'mcq') {
+      if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 1) {
+        return `Chọn <b>${q.acceptedAnswers.join(', ')}</b>`;
+      }
+      return `Chọn <b>${q.answer}</b>`;
+    }
     if (q.type === 'tf') {
       const a = q.answer || q.answers || {};
       const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
@@ -584,6 +795,9 @@
       const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
       const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
       return `a) <b>${fa}</b> • b) <b>${fb}</b> • c) <b>${fc}</b> • d) <b>${fd}</b>`;
+    }
+    if (q.type === 'sa' || q.type === 'short') {
+      return `Đáp số: <b>${q.answer}</b>`;
     }
     return '';
   }
@@ -593,28 +807,34 @@
     const questions = exam.questions || [];
     const p1 = questions.filter(q => q.part === 1);
     const p2 = questions.filter(q => q.part === 2);
+    const p3 = questions.filter(q => q.part === 3);
 
     return `
       <div class="quiz-modal-backdrop open" onclick="window.PhysQuizApp.closeAnswerKeyModal()">
         <div class="quiz-modal-card quiz-modal-box modal-box-wide" onclick="event.stopPropagation()">
           <div class="quiz-modal-header">
-            <h4>🔑 BẢNG ĐÁP ÁN CHUYÊN ĐỀ — ${exam.title} (41 CÂU)</h4>
+            <h4>🔑 BẢNG ĐÁP ÁN — ${exam.title} (${questions.length} CÂU)</h4>
             <button class="modal-close-btn quiz-modal-close" onclick="window.PhysQuizApp.closeAnswerKeyModal()">&times;</button>
           </div>
           <div class="quiz-modal-body">
             <!-- PHẦN 1 -->
-            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (37 CÂU)</div>
+            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (${p1.length} CÂU)</div>
             <div class="key-table-grid">
-              ${p1.map(q => `
-                <div class="key-item">
-                  <span class="key-qnum">C${q.qnum}</span>
-                  <span class="key-ans-letter">${q.answer}</span>
-                </div>
-              `).join('')}
+              ${p1.map(q => {
+                const ansTxt = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 1
+                  ? q.acceptedAnswers.join(',')
+                  : q.answer;
+                return `
+                  <div class="key-item">
+                    <span class="key-qnum">C${q.qnum}</span>
+                    <span class="key-ans-letter">${ansTxt}</span>
+                  </div>
+                `;
+              }).join('')}
             </div>
 
             <!-- PHẦN 2 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (4 CÂU)</div>
+            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (${p2.length} CÂU)</div>
             <div class="key-tf-grid">
               ${p2.map(q => {
                 const a = q.answer || q.answers || {};
@@ -633,6 +853,19 @@
                 `;
               }).join('')}
             </div>
+
+            ${p3.length > 0 ? `
+              <!-- PHẦN 3 -->
+              <div class="key-section-title" style="margin-top: 18px;">PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (${p3.length} CÂU)</div>
+              <div class="key-table-grid short-grid">
+                ${p3.map(q => `
+                  <div class="key-item short">
+                    <span class="key-qnum">C${q.qnum}</span>
+                    <span class="key-ans-val">${q.answer}</span>
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
           </div>
         </div>
       </div>
@@ -649,9 +882,10 @@
         return;
       }
 
-      if (state.answerKeyModalOpen) {
+      if (state.answerKeyModalOpen || state.zoomModal.open) {
         if (e.key === 'Escape') {
           state.answerKeyModalOpen = false;
+          state.zoomModal.open = false;
           renderPhysApp();
         }
         return;
@@ -696,15 +930,20 @@
       renderPhysApp();
     },
 
+    selectExam: function (examCode) {
+      state.currentExamId = examCode;
+      state.currentIndex = 0;
+      saveState();
+      renderPhysApp();
+    },
+
     setMode: function (mode) {
       state.mode = mode;
       renderPhysApp();
     },
 
-    setFilter: function (part, level) {
+    setPartFilter: function (part) {
       state.filterPart = part;
-      state.filterLevel = level;
-      state.filterStarred = false;
       state.currentIndex = 0;
       renderPhysApp();
     },
@@ -717,7 +956,6 @@
 
     resetFilters: function () {
       state.filterPart = 'ALL';
-      state.filterLevel = 'ALL';
       state.filterStarred = false;
       state.currentIndex = 0;
       renderPhysApp();
@@ -750,7 +988,7 @@
     },
 
     changeZoom: function (delta) {
-      state.fontScale = Math.min(1.4, Math.max(0.85, Math.round((state.fontScale + delta) * 10) / 10));
+      state.fontScale = Math.min(1.5, Math.max(0.8, Math.round((state.fontScale + delta) * 10) / 10));
       saveState();
       renderPhysApp();
     },
@@ -768,8 +1006,9 @@
 
     revealAllInFilter: function () {
       const filtered = getFilteredQuestions();
+      const allRev = filtered.every(q => !!state.revealedQuestions[getQKey(q.id)]);
       filtered.forEach(q => {
-        state.revealedQuestions[getQKey(q.id)] = true;
+        state.revealedQuestions[getQKey(q.id)] = !allRev;
       });
       renderPhysApp();
     },
@@ -797,10 +1036,18 @@
       renderPhysApp();
     },
 
+    setShortAnswer: function (qid, val) {
+      const k = getQKey(qid);
+      state.shortAnswers[k] = val;
+      saveState();
+      renderPhysApp();
+    },
+
     clearQuestion: function (qid) {
       const k = getQKey(qid);
       delete state.mcqAnswers[k];
       delete state.tfAnswers[k];
+      delete state.shortAnswers[k];
       delete state.revealedQuestions[k];
       saveState();
       renderPhysApp();
@@ -816,14 +1063,29 @@
       renderPhysApp();
     },
 
+    zoomImage: function (src, caption) {
+      state.zoomModal = {
+        open: true,
+        src,
+        caption: caption || 'Hình ảnh thí nghiệm / Đồ thị'
+      };
+      renderPhysApp();
+    },
+
+    closeZoomModal: function () {
+      state.zoomModal.open = false;
+      renderPhysApp();
+    },
+
     resetCurrentExamAnswers: function () {
       const exam = getCurrentExam();
       if (!exam || !exam.questions) return;
-      if (confirm(`Bạn có chắc chắn muốn xóa toàn bộ câu trả lời của "${exam.shortTitle}" để làm lại từ đầu?`)) {
+      if (confirm(`Bạn có chắc chắn muốn xóa toàn bộ câu trả lời của "${exam.shortTitle || exam.title}" để làm lại từ đầu?`)) {
         exam.questions.forEach(q => {
           const k = getQKey(q.id);
           delete state.mcqAnswers[k];
           delete state.tfAnswers[k];
+          delete state.shortAnswers[k];
           delete state.revealedQuestions[k];
         });
         saveState();
