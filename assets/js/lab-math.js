@@ -2147,7 +2147,7 @@
     }
   }
 
-  // Tích hợp 25 đề Ôn tập Giữa kì 1 Toán 12 — Thầy Lê Minh Kha
+  // Tích hợp 25 đề Ôn tập Giữa kì 1 Toán 12 — Thầy Minh
   if (window.MATH_KHA_EXAMS_DATA) {
     for (const [code, examData] of Object.entries(window.MATH_KHA_EXAMS_DATA)) {
       MATH_EXAMS[code] = examData;
@@ -2294,7 +2294,7 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">📐</div>
             <div class="quiz-title-text">
-              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : (state.category === 'kha' ? 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Lê Minh Kha' : 'Bộ 20 Đề Ôn Định Kì Toán 12')} (${exam.shortTitle || exam.title})</h3>
+              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : (state.category === 'kha' ? 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Minh' : 'Bộ 20 Đề Ôn Định Kì Toán 12')} (${exam.shortTitle || exam.title})</h3>
               <p>${exam.subtitle || 'Trọn bộ đề Toán 12 chuẩn cấu trúc mới: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ kèm lời giải chi tiết'}</p>
             </div>
           </div>
@@ -2342,7 +2342,7 @@
           </div>
         </div>
 
-        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs 25 Đề Thầy Kha vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
+        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs 25 Đề Thầy Minh vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
@@ -2358,7 +2358,7 @@
                 class="math-category-tab-btn ${state.category === 'kha' ? 'active' : ''}"
                 onclick="window.MathQuizApp.selectCategory('kha')"
               >
-                📕 25 Đề Ôn GK1 — Toán Thầy Kha
+                📕 25 Đề Ôn GK1 — Toán Thầy Minh
               </button>
               <button
                 type="button"
@@ -2416,7 +2416,7 @@
                     type="button"
                     class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
                     onclick="window.MathQuizApp.selectExam('${code}')"
-                    title="Chuyển sang Đề Thầy Kha số ${num}"
+                    title="Chuyển sang Đề số ${num}"
                   >
                     Đề ${num}
                   </button>

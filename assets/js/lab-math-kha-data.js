@@ -467,7 +467,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "−3",
           "D": "2"
         },
-        "answer": "B",
+        "answer": "D",
         "explanation": "Dựa vào đồ thị hàm số trên đoạn [−2; 3], ta thấy điểm cao nhất của đồ thị<br>là điểm có tọa độ (3; 2).<br>Vậy giá trị lớn nhất của hàm số trên đoạn [−2; 3] là max<sub>[</sub>−<sub>2;3]</sub> f(x) = 2."
       },
       {
@@ -503,7 +503,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = x − 3x² − 9x − 2",
           "D": "y = −x³ + 3x² + 9x − 2"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Dựa vào bảng biến thiên, ta thấy: - Nhánh cuối cùng đi lên (x → +∞ thì<br>y → +∞) nên hệ số a > 0, loại đáp án A và D.<br>- Hàm số đạt cực trị tại x = −1 và x = 3. Xét hàm số y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>x³−x²−3x− <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span> ⇒ y′ = x²−2x−3.<br>Cho y′ = 0 ⇔ [x = −1 hoặc x = 3] (thỏa mãn).<br>Kiểm tra giá trị cực đại: x = −1 ⇒ y = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>(−1)³ − (−1)² − 3(−1) − <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span> = 1 (khớp BBT)."
       },
       {
@@ -521,7 +521,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-frac\"><span class=\"num\">19</span><span class=\"den\">3</span></span>",
           "D": "<span class=\"m-frac\"><span class=\"num\">13</span><span class=\"den\">3</span></span>"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Hàm số xác định và liên tục trên [2; 4].<br>Ta có f′(x) = <span class=\"m-frac\"><span class=\"num\">x² − 2x − 3</span><span class=\"den\">(x − 1)²</span></span>.<br>f′(x) = 0 ⇔ x² − 2x − 3 = 0 ⇔ [x = −1 ∈/ [2; 4] hoặc x = 3 ∈ [2; 4]].<br>Tính các giá trị: f(2) = 7; f(3) = 6; f(4) = <span class=\"m-frac\"><span class=\"num\">19</span><span class=\"den\">3</span></span>.<br>So sánh các giá trị trên, ta thấy giá trị nhỏ nhất của hàm số trên đoạn [2; 4] là 6."
       },
       {
@@ -1076,7 +1076,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "4"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Dựa vào bảng biến thiên ta thấy:<br>lim<sub>x</sub><sub>→</sub><sub>1</sub>+ y = +∞ (hoặc lim<sub>x</sub><sub>→</sub><sub>1</sub>− y = −∞) ⇒ x = 1 là tiệm cận đứng.<br>lim<sub>x</sub><sub>→−∞</sub> y = 3 ⇒ y = 3 là tiệm cận ngang.<br>lim<sub>x</sub><sub>→</sub><sub>+</sub><sub>∞</sub> y = 5 ⇒ y = 5 là tiệm cận ngang.<br>Vậy đồ thị hàm số có ba tiệm cận (một đứng và hai ngang)."
       },
       {
@@ -1112,7 +1112,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "3"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Ta có |<span class=\"m-vec\">u</span>| = <span class=\"m-root\">√<span class=\"m-rad\">2² + (−2)² + 1²</span></span> = 3.<br>|<span class=\"m-vec\">v</span> | = <span class=\"m-root\">√<span class=\"m-rad\">m² + 2² + (m + 1)²</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">2m² + 2m + 5.</span></span><br>|<span class=\"m-vec\">u</span>| = |<span class=\"m-vec\">v</span> | ⇔ 3 = <span class=\"m-root\">√<span class=\"m-rad\">2m² + 2m + 5</span></span> ⇔ 9 = 2m² + 2m + 5 ⇔ 2m² + 2m − 4 = 0.<br>Phương trình có 2 nghiệm phân biệt (m = 1 hoặc m = −2). Vậy có 2 giá trị m."
       },
       {
@@ -2713,7 +2713,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3",
           "D": "1"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Giá trị lớn nhất của hàm số trên đồ thị là y = 3, đạt được tại x = 4."
       },
       {
@@ -2857,8 +2857,8 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "10",
           "D": "5"
         },
-        "answer": "A",
-        "explanation": "Gọi T(x) (đơn vị USD) là tổng số tiền bao gồm cả chi phí ban đầu mà công<br>ty phải trả khi sản xuất x đồ chơi A thì T(x) = 50000 + 5x.<br>Ta có: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">T(x)</span><span class=\"den\">x</span></span> = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> (<span class=\"m-frac\"><span class=\"num\">50000</span><span class=\"den\">x</span></span> + 5) = 5 ⇒ Chọn"
+        "answer": "D",
+        "explanation": "Gọi T(x) (đơn vị USD) là tổng số tiền bao gồm cả chi phí ban đầu mà công<br>ty phải trả khi sản xuất x đồ chơi A thì T(x) = 50000 + 5x.<br>Ta có: <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> <span class=\"m-frac\"><span class=\"num\">T(x)</span><span class=\"den\">x</span></span> = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→+∞</span></span> (<span class=\"m-frac\"><span class=\"num\">50000</span><span class=\"den\">x</span></span> + 5) = 5 ⇒ Chọn D."
       },
       {
         "id": 11,
@@ -3711,7 +3711,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "−4",
           "D": "3"
         },
-        "answer": "A",
+        "answer": "D",
         "explanation": "Từ hình vẽ, ta thấy đồ thị hàm số có:<br>Đường tiệm cận đứng x = 2, suy ra −<span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">c</span></span> = 2 ⇔ c = −1.<br>Đường tiệm cận ngang y = −1, suy ra <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">c</span></span> = −1 ⇔ a = −c = 1.<br>Giao điểm với trục Oy tại điểm (0; −<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>), suy ra −<span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span> = −<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span> ⇔ b = 3.<br>Vậy a + b + c = 1 + 3 − 1 = 3."
       },
       {
@@ -5584,7 +5584,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "d": "Hình chữ nhật giới hạn bởi hai đường tiệm cận của đồ thị hàm số và hai trục tọa độ có diện tích bằng 1."
         },
         "answers": {
-          "a": true,
+          "a": false,
           "b": true,
           "c": true,
           "d": false
@@ -5609,7 +5609,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "answers": {
           "a": false,
           "b": false,
-          "c": false,
+          "c": true,
           "d": true
         },
         "explanation": "Tam giác ABC đều cạnh 2a có O là trung điểm BC nên AO = <span class=\"m-frac\"><span class=\"num\">2a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span> = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span><br>và AO ⊥ BC.<br>Chọn hệ trục tọa độ Oxyz như hình vẽ với O là gốc tọa độ, khi đó:<br>O(0; 0; 0), C(a; 0; 0), B(−a; 0; 0), A(0; a√3; 0).<br>Do SA ⊥ (ABC) và SA = a nên tọa độ điểm S là S(0; a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> a).<br>a) Vì O là trung điểm cạnh BC nên theo quy tắc trung điểm ta có: <span class=\"m-vec\">AB</span> +<span class=\"m-vec\">AC</span> = 2<span class=\"m-vec\">AO</span> = −2<span class=\"m-vec\">OA</span>.<br>Vậy khẳng định này SAI.<br>b) Trung điểm M của SC có tọa độ: M (<span class=\"m-frac\"><span class=\"num\">x<sub>S</sub> + x<sub>C</sub></span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">y<sub>S</sub> + y<sub>C</sub></span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">z<sub>S</sub> + z<sub>C</sub></span><span class=\"den\">2</span></span>) = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>; <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>[.<br>Vậy khẳng định này SAI (do sai khác dấu ở tọa độ x).<br>c) Vì điểm A nằm trên trục Oy và OA = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span> nên tọa độ điểm A là (0; a√3; 0). Vậy khẳng<br>định này ĐÚNG.<br>d) Ta có <span class=\"m-vec\">SB</span> = (−a; −a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> −a) và <span class=\"m-vec\">SC</span> = (a; −a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> −a).<br><span class=\"m-vec\">SB</span> · <span class=\"m-vec\">SC</span> = (−a) · a + (−a<span class=\"m-root\">√<span class=\"m-rad\">3)</span></span> · (−a√3) + (−a) · (−a) = −a² + 3a² + a² = 3a².<br>Vậy khẳng định này ĐÚNG."
@@ -7370,7 +7370,7 @@ window.MATH_KHA_EXAMS_DATA = {
         "answers": {
           "a": true,
           "b": true,
-          "c": true,
+          "c": false,
           "d": true
         },
         "explanation": "Ta có y = <span class=\"m-frac\"><span class=\"num\">2x² − 3x + 2</span><span class=\"den\">x − 1</span></span> = <span class=\"m-frac\"><span class=\"num\">2x(x − 1) − (x − 1) + 1</span><span class=\"den\">x − 1</span></span> = 2x − 1 + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x − 1</span></span>.<br>a) Vì <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→∞</span></span> [y − (2x − 1)] = <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→∞</span></span> <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x − 1</span></span> = 0 nên đường thẳng y = 2x − 1 là tiệm cận xiên của đồ<br>thị (C). Khẳng định này Đúng.<br>b) Ta có y′ = 2 − <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">(x − 1)²</span></span> = <span class=\"m-frac\"><span class=\"num\">2(x − 1)² − 1</span><span class=\"den\">(x − 1)²</span></span>.<br>Phương trình y′ = 0 ⇔ (x − 1)² = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> ⇔ x = 1 ± <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span></span>.<br>Vì đạo hàm đổi dấu qua hai nghiệm này nên hàm số có 2 điểm cực trị. Khẳng định này<br>Đúng.<br>c) Mẫu thức x − 1 = 0 ⇔ x = 1. Ta có <span class=\"m-lim\"><span class=\"lim-txt\">lim</span><span class=\"lim-sub\">x→1</span></span> y = ∞ nên tiệm cận đứng là đường thẳng x = 1.<br>Khẳng định y = 2 là Sai.<br>d) Tâm đối xứng của đồ thị hàm số bậc hai trên bậc nhất là giao điểm của hai đường tiệm cận.<br>Giao của x = 1 và y = 2x − 1 là điểm I(1; 2(1) − 1) = I(1; 1). Khẳng định này Đúng."
@@ -7414,10 +7414,10 @@ window.MATH_KHA_EXAMS_DATA = {
           "d": "Lợi nhuận của công ty được biểu diễn bởi hàm số L(x) = x<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> + 3x − 145."
         },
         "answers": {
-          "a": false,
-          "b": false,
+          "a": true,
+          "b": true,
           "c": true,
-          "d": false
+          "d": true
         },
         "explanation": "Đổi đơn vị: x triệu × S nghìn khách hàng = xS triệu triệu đồng = xS tỷ đồng.<br>Doanh thu R(x) = x<span class=\"m-root\">√<span class=\"m-rad\">45 − x.</span></span> Tổng chi phí C(x) = 10 + 3(<span class=\"m-root\">√<span class=\"m-rad\">45 − x)</span></span> ² = 10 + 3(45 − x) = 145 − 3x.<br>Lợi nhuận L(x) = R(x) − C(x) = x<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> + 3x − 145.<br>a) L′(x) = <span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> − <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span></span></span> + 3 = <span class=\"m-frac\"><span class=\"num\">90 − 3x</span><span class=\"den\">2<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span></span></span> + 3. L′(x) = 0 ⇔ 3x − 90 = 6<span class=\"m-root\">√<span class=\"m-rad\">45 − x</span></span> ⇔<br>x − 30 = 2<span class=\"m-root\">√<span class=\"m-rad\">45 − x.</span></span> Bình phương (x ≥ 30): x² − 60x + 900 = 180 − 4x ⇔ x² − 56x + 720 =<br>0 ⇔ x = 36 hoặc x = 20 (loại). Khẳng định đúng.<br><b>b) Đúng.</b><br><b>c) Đúng.</b><br><b>d) Đúng.</b>"
       },
@@ -8306,7 +8306,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "d": "Tại thời điểm 9 giờ 30 phút, máy bay cách trung tâm điều khiển một khoảng (làm tròn đến hàng phần mười) là 335, 6 km."
         },
         "answers": {
-          "a": false,
+          "a": true,
           "b": false,
           "c": true,
           "d": false
@@ -8332,7 +8332,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "a": true,
           "b": true,
           "c": false,
-          "d": true
+          "d": false
         },
         "explanation": "Vì OBCD.O′B′C′D′ là hình hộp chữ nhật có O là gốc tọa độ, B ∈ Ox, D ∈<br>Oy, O′ ∈ Oz nên:<br>a) C thuộc mặt phẳng (Oxy), có tọa độ C(2; 1; 0). Khẳng định này đúng.<br>b) B′ là điểm sao cho <span class=\"m-vec\">OB′</span> = <span class=\"m-vec\">OB</span> + <span class=\"m-vec\">OO′</span>, suy ra B′(2; 0; 1). Khẳng định này đúng.<br>c) C′ là điểm sao cho <span class=\"m-vec\">OC′</span> = <span class=\"m-vec\">OC</span> + <span class=\"m-vec\">OO′</span> = (2; 1; 1) = 2 <span class=\"m-vec\">i</span> + <span class=\"m-vec\">j</span> + <span class=\"m-vec\">k</span>. Khẳng định này sai.<br>d) D′ là điểm sao cho <span class=\"m-vec\">OD′</span> = <span class=\"m-vec\">OD</span> + <span class=\"m-vec\">OO′</span> = (0; 1; 1). Khẳng định này sai."
       },
@@ -8597,8 +8597,8 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "2",
           "D": "33"
         },
-        "answer": "B",
-        "explanation": "Xét f(x) = −x<sup>4</sup> + 12x² + 1 trên [−1; 2].<br>Ta có f′(x) = −4x³ + 24x = −4x(x² − 6); f′(x) = 0 ⇔ x = 0 (vì x ∈ [−1; 2]).<br>Tính các giá trị:<br>f(−1) = 12; f(0) = 1; f(2) = −16 + 48 + 1 = 33.<br>Vậy giá trị lớn nhất của hàm số trên đoạn [−1; 2] là 33. Chọn phương án"
+        "answer": "D",
+        "explanation": "Xét f(x) = −x<sup>4</sup> + 12x² + 1 trên [−1; 2].<br>Ta có f′(x) = −4x³ + 24x = −4x(x² − 6); f′(x) = 0 ⇔ x = 0 (vì x ∈ [−1; 2]).<br>Tính các giá trị:<br>f(−1) = 12; f(0) = 1; f(2) = −16 + 48 + 1 = 33.<br>Vậy giá trị lớn nhất của hàm số trên đoạn [−1; 2] là 33. Chọn phương án D."
       },
       {
         "id": 8,
@@ -8648,11 +8648,11 @@ window.MATH_KHA_EXAMS_DATA = {
         "options": {
           "A": "50",
           "B": "35",
-          "C": "40. 2",
+          "C": "40",
           "D": "45"
         },
-        "answer": "A",
-        "explanation": "Tổng số tiền thu được là f(x) = x · 20(3 − <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">40</span></span>) = 20x(9 − <span class=\"m-frac\"><span class=\"num\">3x</span><span class=\"den\">20</span></span> + <span class=\"m-frac\"><span class=\"num\">x²</span><span class=\"den\">1600</span></span>) =<br>x³<br>− 3x² + 180x với 0 ≤ x ≤ 50.<br>80<br>Ta có f′(x) = <span class=\"m-frac\"><span class=\"num\">3x²</span><span class=\"den\">80</span></span> − 6x + 180.<br>f′(x) = 0 ⇔ <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">80</span></span>(x² − 160x + 4800) = 0 ⇔ x = 40 hoặc x = 120 (loại).<br>Xét trên đoạn [0; 50], hàm số đạt giá trị lớn nhất tại x = 40.<br>Vậy cần chở 40 khách. Chọn phương án"
+        "answer": "C",
+        "explanation": "Tổng số tiền thu được là f(x) = x · 20(3 − <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">40</span></span>) = 20x(9 − <span class=\"m-frac\"><span class=\"num\">3x</span><span class=\"den\">20</span></span> + <span class=\"m-frac\"><span class=\"num\">x²</span><span class=\"den\">1600</span></span>) =<br>x³<br>− 3x² + 180x với 0 ≤ x ≤ 50.<br>80<br>Ta có f′(x) = <span class=\"m-frac\"><span class=\"num\">3x²</span><span class=\"den\">80</span></span> − 6x + 180.<br>f′(x) = 0 ⇔ <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">80</span></span>(x² − 160x + 4800) = 0 ⇔ x = 40 hoặc x = 120 (loại).<br>Xét trên đoạn [0; 50], hàm số đạt giá trị lớn nhất tại x = 40.<br>Vậy cần chở 40 khách. Chọn phương án C."
       },
       {
         "id": 11,
@@ -9065,8 +9065,8 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">AC</span>",
           "D": "<span class=\"m-vec\">CA</span>"
         },
-        "answer": "A",
-        "explanation": "Theo quy tắc hình hộp: <span class=\"m-vec\">AM</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">AP</span>.<br>Chọn phương án"
+        "answer": "B",
+        "explanation": "Theo quy tắc hình hộp: <span class=\"m-vec\">AM</span> + <span class=\"m-vec\">AB</span> + <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">AP</span>.<br>Chọn phương án B."
       },
       {
         "id": 9,
@@ -9872,8 +9872,8 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "3e<span class=\"m-root\">√<span class=\"m-rad\">³.</span></span>",
           "D": "2e<span class=\"m-root\">√<span class=\"m-rad\">².</span></span>"
         },
-        "answer": "B",
-        "explanation": "Xét f(x) = x²e<sup>x</sup> trên [−3; 2].<br>f′(x) = 2xe<sup>x</sup> + x²e<sup>x</sup> = x(x + 2)e<sup>x</sup>. f′(x) = 0 ⇔ [x = 0 ∈ [−3; 2] hoặc x = −2 ∈ [−3; 2]].<br>Tính các giá trị: f(−3) = 9e<sup>−</sup>³; f(−2) = 4e<sup>−</sup>²; f(0) = 0; f(2) = 4e².<br>So sánh các giá trị, ta thấy giá trị lớn nhất là 4e². Chọn phương án"
+        "answer": "A",
+        "explanation": "Xét f(x) = x²e<sup>x</sup> trên [−3; 2].<br>f′(x) = 2xe<sup>x</sup> + x²e<sup>x</sup> = x(x + 2)e<sup>x</sup>. f′(x) = 0 ⇔ [x = 0 ∈ [−3; 2] hoặc x = −2 ∈ [−3; 2]].<br>Tính các giá trị: f(−3) = 9e<sup>−</sup>³; f(−2) = 4e<sup>−</sup>²; f(0) = 0; f(2) = 4e².<br>So sánh các giá trị, ta thấy giá trị lớn nhất là 4e². Chọn phương án A."
       },
       {
         "id": 4,
@@ -10319,7 +10319,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">BC′</span>",
           "D": "<span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">B</span> C′′"
         },
-        "answer": "D",
+        "answer": "A",
         "explanation": "Trong hình lăng trụ ABC.A′B′C′, ta có <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">BC</span>.<br>Áp dụng quy tắc cộng vectơ: <span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">B</span> C′′ = <span class=\"m-vec\">A</span> B′ + <span class=\"m-vec\">BC</span> = <span class=\"m-vec\">A</span> C′."
       },
       {
@@ -10463,7 +10463,7 @@ window.MATH_KHA_EXAMS_DATA = {
           "C": "y = <span class=\"m-frac\"><span class=\"num\">2x − 1</span><span class=\"den\">x + 1</span></span>",
           "D": "y = <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2x − 1</span></span>"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "Từ bảng biến thiên ta thấy hàm số có tiệm cận đứng x = −1 (loại B và D)<br>và tiệm cận ngang y = 2.<br>Hàm số luôn đồng biến nên y′ > 0.<br>Xét y = <span class=\"m-frac\"><span class=\"num\">2x − 1</span><span class=\"den\">x + 1</span></span> ⇒ y′ = <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">(x + 1)²</span></span> > 0 (thỏa mãn).<br>Xét y = <span class=\"m-frac\"><span class=\"num\">2x + 3</span><span class=\"den\">x + 1</span></span> ⇒ y′ = <span class=\"m-frac\"><span class=\"num\">−1</span><span class=\"den\">(x + 1)²</span></span> < 0 (loại)."
       },
       {
