@@ -7,14 +7,17 @@
 .header-nav-pills {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.25rem;
   background: var(--bg-surface-soft);
-  padding: 0.25rem 0.35rem;
+  padding: 0.2rem 0.28rem;
   border-radius: 9999px;
   border: 1px solid var(--border-color);
+  min-width: 0;
   max-width: 100%;
   overflow-x: auto;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  flex-shrink: 1;
 }
 
 .header-nav-pills::-webkit-scrollbar {
@@ -24,18 +27,19 @@
 .header-nav-pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.38rem;
-  padding: 0.4rem 0.8rem;
+  gap: 0.3rem;
+  padding: 0.34rem 0.6rem;
   border-radius: 9999px;
   border: none;
   background: transparent;
   color: var(--text-muted);
   font-weight: 700;
-  font-size: 0.84rem;
+  font-size: 0.81rem;
   cursor: pointer;
   transition: var(--transition);
   white-space: nowrap;
   flex-shrink: 0;
+  text-decoration: none;
 }
 
 .header-nav-pill:hover {
@@ -52,9 +56,9 @@
 .header-nav-pill .pill-badge {
   background: var(--accent);
   color: #fff;
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 800;
-  padding: 0.1rem 0.4rem;
+  padding: 0.08rem 0.36rem;
   border-radius: 9999px;
   line-height: 1.2;
 }
@@ -69,40 +73,91 @@
   background: rgba(147, 197, 253, 0.1);
 }
 
-@media (max-width: 1350px) {
-  .header-nav-pill span.pill-text-long {
-    display: none;
-  }
-}
+/* ==========================================================================
+   Header Navbar Responsive - Tối ưu hiển thị thông minh trên 1 hàng
+   ========================================================================== */
 
-@media (max-width: 1200px) {
-  .header-nav-pill .pill-badge {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
+/* Laptop màn hình 1366px - 1440px: Ẩn bớt text phụ, giảm nhẹ padding */
+@media (max-width: 1440px) {
   .site-header .brand-sub-en,
   .site-header .brand-divider {
     display: none !important;
   }
-  .site-header .brand-title-vn {
-    font-size: 0.74rem !important;
+  .header-nav-pill span.pill-text-long {
+    display: none;
   }
   .header-nav-pill {
-    padding: 0.35rem 0.55rem;
-    font-size: 0.78rem;
-    gap: 0.25rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.79rem;
+    gap: 0.24rem;
+  }
+  .header-nav-pills {
+    gap: 0.2rem;
   }
 }
 
-@media (max-width: 768px) {
+/* Màn hình dưới 1320px: Ẩn chữ 'Đề' và ẩn badge để các nút co gọn hoàn hảo trên 1 hàng */
+@media (max-width: 1320px) {
+  .header-nav-pill .pill-prefix {
+    display: none;
+  }
+  .header-nav-pill .pill-badge {
+    display: none !important;
+  }
+  .site-header .brand-title-vn {
+    font-size: 0.76rem !important;
+  }
+  .header-nav-pill {
+    padding: 0.28rem 0.46rem;
+    font-size: 0.77rem;
+  }
+}
+
+/* Màn hình dưới 1080px */
+@media (max-width: 1080px) {
+  .site-header .brand-title-vn {
+    font-size: 0.72rem !important;
+  }
+  .brand-logo-img {
+    height: 40px;
+  }
+  .header-nav-pill {
+    padding: 0.26rem 0.42rem;
+    font-size: 0.75rem;
+    gap: 0.2rem;
+  }
+}
+
+/* Màn hình dưới 920px (Tablet): Ẩn text tên trường, chỉ giữ logo để menu rộng rãi */
+@media (max-width: 920px) {
   .site-header .brand-text {
     display: none !important;
   }
+  .header-nav-pills {
+    padding: 0.18rem 0.22rem;
+  }
   .header-nav-pill {
-    padding: 0.32rem 0.5rem;
+    padding: 0.28rem 0.45rem;
     font-size: 0.75rem;
+  }
+}
+
+/* Màn hình điện thoại dưới 640px: Vuốt cuộn mượt mà, nút Sáng/Tối luôn ghim mép phải */
+@media (max-width: 640px) {
+  .navbar {
+    height: 58px;
+    gap: 0.35rem;
+  }
+  .brand-logo-img {
+    height: 36px;
+  }
+  .theme-toggle-btn {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .header-nav-pill {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.72rem;
   }
 }
 
