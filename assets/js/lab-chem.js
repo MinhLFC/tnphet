@@ -571,8 +571,8 @@
         <div class="slide-q-text">${q.prompt || q.question || ''}</div>
 
         ${q.figure ? `
-          <div class="slide-q-figure" onclick="window.ChemQuizApp.zoomImage('${q.figure}', '${escapeAttr(exam.title + ' • ' + q.label)}')" title="Nhấn vào hình để phóng to toàn màn hình">
-            <img src="${q.figure}?v=20261030_v2" alt="${q.label}" class="slide-q-figure-img" onerror="this.onerror=null;this.src='${q.figure}'" />
+          <div class="slide-q-figure" onclick="window.ChemQuizApp.zoomImage('${q.figure}?v=20261030_v3', '${escapeAttr(exam.title + ' • ' + q.label)}')" title="Nhấn vào hình để phóng to toàn màn hình">
+            <img src="${q.figure}?v=20261030_v3" alt="${q.label}" class="slide-q-figure-img" onerror="this.onerror=null;this.src='${q.figure}'" />
             <div class="slide-q-figure-caption">🔍 Nhấn để phóng to hình ảnh chi tiết</div>
           </div>
         ` : ''}
