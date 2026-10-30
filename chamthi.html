@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Chấm Thi Trắc Nghiệm QM 2025 | Trường ĐH Sư phạm TP.HCM (HCMUE)</title>
+  <meta name="description" content="Phần mềm chấm thi trắc nghiệm theo định dạng mới chuẩn Bộ GD&ĐT QM 2025, offline không giới hạn lượt chấm, xuất phổ điểm và file Excel. Trường Đại học Sư phạm TP. Hồ Chí Minh.">
+  
+  <!-- Favicon & PWA Manifest -->
+  <link rel="icon" type="image/png" href="assets/images/logo-hcmue.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0054a6">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Chấm Thi QM2025">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0054a6',
+            'primary-dark': '#003d7a',
+            'primary-light': '#e6f0fa',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- External Libraries for OMR, Excel, Charts & PDF -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script async src="https://docs.opencv.org/4.8.0/opencv.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/chamthi.css">
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- ========================================================================= -->
+  <!-- TOP HEADER -->
+  <!-- ========================================================================= -->
+  <header class="app-header flex items-center justify-between">
+    <div class="brand-badge">
+      <img src="assets/images/logo-hcmue.png" alt="HCMUE Logo" class="brand-logo">
+      <div>
+        <h1 class="brand-title">TRƯỜNG ĐẠI HỌC SƯ PHẠM TP. HỒ CHÍ MINH</h1>
+        <p class="brand-sub">HỆ THỐNG CHẤM THI TRẮC NGHIỆM QM 2025 • KHÔNG GIỚI HẠN LƯỢT CHẤM</p>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <!-- Cấu trúc môn thi -->
+      <div class="flex items-center gap-2 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200">
+        <label for="templateSelect" class="text-xs font-bold text-slate-600 hidden sm:inline">Cấu trúc đề:</label>
+        <select id="templateSelect" class="bg-white border text-xs font-bold rounded px-2.5 py-1 text-primary focus:outline-none focus:ring-2 focus:ring-primary">
+          <option value="TOAN">Môn Toán (Phần I: 12 câu)</option>
+          <option value="KHTN">KHTN / KHXH (Phần I: 18 câu)</option>
+        </select>
+      </div>
+
+      <!-- Về trang thí nghiệm ảo -->
+      <a href="index.html" class="text-xs font-semibold text-slate-500 hover:text-primary px-3 py-1.5 rounded-lg border border-slate-200 bg-white hidden md:inline-flex items-center gap-1">
+        🔬 Phòng TN Ảo
+      </a>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- NAVIGATION TABS -->
+  <!-- ========================================================================= -->
+  <nav class="app-nav-bar">
+    <button class="app-tab-btn active" data-tab="tab-scan">
+      📷 Quét Chấm Bài
+    </button>
+    <button class="app-tab-btn" data-tab="tab-keys">
+      📝 Thiết Lập Đáp Án
+    </button>
+    <button class="app-tab-btn" data-tab="tab-results">
+      📋 Danh Sách Bài Chấm (<span id="resultCountBadge">0</span>)
+    </button>
+    <button class="app-tab-btn" data-tab="tab-stats">
+      📊 Phổ Điểm & Thống Kê
+    </button>
+    <button class="app-tab-btn" data-tab="tab-print">
+      🖨️ In & Xuất Phiếu Thi
+    </button>
+  </nav>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 1: QUÉT CHẤM BÀI (CAMERA & TẢI FILE) -->
+  <!-- ========================================================================= -->
+  <section id="tab-scan" class="app-tab-content active">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- Cột trái: Camera Quét Trực Tiếp -->
+      <div class="lg:col-span-2 space-y-4">
+        <div class="card p-5">
+          <div class="flex justify-between items-center mb-3">
+            <div>
+              <h2 class="text-base font-bold text-slate-800">Camera Quét Chấm Trực Tiếp</h2>
+              <p class="text-xs text-slate-500">Đặt phiếu thi trong khung căn 4 góc. Hệ thống sẽ tự nhận diện và tính điểm tức thì!</p>
+            </div>
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Offline On-Device
+            </span>
+          </div>
+
+          <!-- Khung Camera Scanner -->
+          <div class="scanner-container">
+            <div class="camera-wrapper">
+              <video id="cameraVideo" playsinline autoplay muted></video>
+              
+              <!-- Khung ngắm căn góc -->
+              <div class="camera-overlay-target">
+                <div class="corner-box-guide guide-tl"></div>
+                <div class="corner-box-guide guide-tr"></div>
+                <div class="corner-box-guide guide-bl"></div>
+                <div class="corner-box-guide guide-br"></div>
+              </div>
+            </div>
+
+            <!-- Nút điều khiển Camera -->
+            <div class="camera-controls w-full">
+              <button id="startCameraBtn" class="btn btn-primary w-full sm:w-auto">
+                📸 Bật Camera Quét Bài
+              </button>
+              
+              <div id="cameraActiveControls" style="display: none;" class="flex gap-2 flex-wrap w-full sm:w-auto">
+                <button id="manualCaptureBtn" class="btn btn-success flex-1 sm:flex-initial">
+                  ⚡ Chụp & Chấm Ngay
+                </button>
+                <button id="flipCameraBtn" class="btn btn-outline-primary" title="Đổi camera trước/sau">
+                  🔄 Đổi Camera
+                </button>
+                <button id="stopCameraBtn" class="btn btn-danger" title="Tắt Camera">
+                  ⏹️ Tắt Camera
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hộp tiến độ chấm hàng loạt -->
+        <div id="batchProgressBox" class="card p-4 bg-blue-50 border-blue-200" style="display: none;">
+          <div class="flex justify-between items-center mb-2">
+            <span id="batchProgressText" class="text-xs font-bold text-blue-900">Đang chấm bài...</span>
+          </div>
+          <div class="w-full bg-blue-200 rounded-full h-2.5 overflow-hidden">
+            <div id="batchProgressBar" class="bg-primary h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cột phải: Chấm Hàng Loạt & Hướng Dẫn Nhanh -->
+      <div class="space-y-4">
+        <!-- Chấm từ File ảnh / Scan -->
+        <div class="card p-5">
+          <h3 class="text-sm font-bold text-slate-800 mb-2">Chấm Hàng Loạt Từ Tệp</h3>
+          <p class="text-xs text-slate-500 mb-4">Tải lên cùng lúc nhiều ảnh chụp bài thi hoặc ảnh scan từ máy photocopy:</p>
+          
+          <label class="flex flex-col items-center justify-center border-2 border-dashed border-slate-300 rounded-xl p-6 hover:border-primary hover:bg-slate-50 cursor-pointer transition-all">
+            <span class="text-3xl mb-2">📁</span>
+            <span class="text-xs font-bold text-primary">Bấm để chọn tệp ảnh</span>
+            <span class="text-[11px] text-slate-400 mt-1">Hỗ trợ JPG, PNG, WEBP (chọn nhiều file)</span>
+            <input type="file" id="batchFileInput" multiple accept="image/*" class="hidden">
+          </label>
+        </div>
+
+        <!-- Quy định thang điểm Bộ GD&ĐT 2025 -->
+        <div class="card p-5 bg-slate-50">
+          <h3 class="text-sm font-bold text-slate-800 mb-2">Quy Chế Tính Điểm QM 2025</h3>
+          <ul class="text-xs space-y-2 text-slate-600">
+            <li class="flex items-start gap-1.5">
+              <span class="text-primary font-bold">•</span>
+              <span><strong>Phần I (Nhiều lựa chọn):</strong> 0.25đ / câu đúng.</span>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="text-primary font-bold">•</span>
+              <div>
+                <strong>Phần II (Đúng / Sai 4 ý):</strong>
+                <div class="text-[11px] text-slate-500 mt-0.5">
+                  Đúng 1 ý: <strong>0.1đ</strong> | Đúng 2 ý: <strong>0.25đ</strong><br>
+                  Đúng 3 ý: <strong>0.5đ</strong> | Đúng 4 ý: <strong>1.0đ</strong>
+                </div>
+              </div>
+            </li>
+            <li class="flex items-start gap-1.5">
+              <span class="text-primary font-bold">•</span>
+              <span><strong>Phần III (Trả lời ngắn):</strong> Môn Toán 0.5đ/câu; Môn KHTN 0.25đ/câu.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 2: THIẾT LẬP ĐÁP ÁN -->
+  <!-- ========================================================================= -->
+  <section id="tab-keys" class="app-tab-content">
+    <div class="card p-6">
+      <div id="answerKeyEditorContainer">
+        <!-- Render động qua JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 3: DANH SÁCH BÀI CHẤM & XUẤT EXCEL -->
+  <!-- ========================================================================= -->
+  <section id="tab-results" class="app-tab-content">
+    <div class="card p-5">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4">
+        <div>
+          <h2 class="text-base font-bold text-slate-800">Danh Sách Kết Quả Chấm Thi</h2>
+          <p class="text-xs text-slate-500">Xem lại bài thi chi tiết, điểm thành phần từng phần và xuất bảng điểm chuẩn.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="exportExcelBtn" class="btn btn-success text-xs">
+            📊 Xuất File Excel (.xlsx)
+          </button>
+          <button id="clearResultsBtn" class="btn btn-danger text-xs">
+            🗑️ Xóa Danh Sách
+          </button>
+        </div>
+      </div>
+
+      <!-- Bảng kết quả -->
+      <div class="overflow-x-auto border rounded-lg">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-100 text-slate-700 text-xs font-bold border-b">
+              <th class="py-2.5 px-3 text-center">STT</th>
+              <th class="py-2.5 px-3">Số Báo Danh</th>
+              <th class="py-2.5 px-3">Họ và Tên</th>
+              <th class="py-2.5 px-3 text-center">Mã Đề</th>
+              <th class="py-2.5 px-3 text-center">Điểm P1</th>
+              <th class="py-2.5 px-3 text-center">Điểm P2</th>
+              <th class="py-2.5 px-3 text-center">Điểm P3</th>
+              <th class="py-2.5 px-3 text-center">TỔNG ĐIỂM</th>
+              <th class="py-2.5 px-3 text-center">Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="resultsTableBody">
+            <!-- Điền động qua JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 4: PHỔ ĐIỂM & THỐNG KÊ CHUYÊN SÂU -->
+  <!-- ========================================================================= -->
+  <section id="tab-stats" class="app-tab-content">
+    <div class="space-y-6">
+      
+      <!-- Thẻ thông số tổng quát -->
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Tổng bài chấm</div>
+          <div id="statTotalPapers" class="text-2xl font-black text-primary mt-1">0</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Điểm TB (Mean)</div>
+          <div id="statMeanScore" class="text-2xl font-black text-slate-800 mt-1">0.00</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Trung vị (Median)</div>
+          <div id="statMedianScore" class="text-2xl font-black text-slate-800 mt-1">0.00</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Cao nhất</div>
+          <div id="statMaxScore" class="text-2xl font-black text-emerald-600 mt-1">0.00</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Thấp nhất</div>
+          <div id="statMinScore" class="text-2xl font-black text-rose-600 mt-1">0.00</div>
+        </div>
+        <div class="card p-4 text-center">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Độ lệch chuẩn (σ)</div>
+          <div id="statStdDev" class="text-2xl font-black text-amber-600 mt-1">0.00</div>
+        </div>
+      </div>
+
+      <!-- Biểu đồ Phổ Điểm -->
+      <div class="card p-5">
+        <h3 class="text-sm font-bold text-slate-800 mb-3">Biểu Đồ Phổ Điểm Bài Thi</h3>
+        <div class="relative h-72">
+          <canvas id="scoreDistributionChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Bảng Phân Tích Câu Hỏi (Item Analysis) -->
+      <div class="card p-5">
+        <h3 class="text-sm font-bold text-slate-800 mb-1">Ma Trận Phân Tích Câu Hỏi & Độ Khó (Phần I)</h3>
+        <p class="text-xs text-slate-500 mb-3">Thống kê số lượng chọn các phương án A, B, C, D để phát hiện các câu bẫy học sinh.</p>
+        
+        <div class="overflow-x-auto border rounded-lg max-h-80">
+          <table class="w-full text-left border-collapse">
+            <thead class="sticky top-0 bg-slate-100 border-b">
+              <tr class="text-xs font-bold text-slate-700 text-center">
+                <th class="py-2 px-3">Câu</th>
+                <th class="py-2 px-3">Chọn A</th>
+                <th class="py-2 px-3">Chọn B</th>
+                <th class="py-2 px-3">Chọn C</th>
+                <th class="py-2 px-3">Chọn D</th>
+                <th class="py-2 px-3">Tỷ lệ đúng</th>
+                <th class="py-2 px-3">Đánh giá độ khó</th>
+              </tr>
+            </thead>
+            <tbody id="itemAnalysisTableBody">
+              <!-- Điền động qua JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 5: IN & XUẤT PHIẾU THI CHUẨN QM 2025 -->
+  <!-- ========================================================================= -->
+  <section id="tab-print" class="app-tab-content">
+    <div class="card p-6 space-y-4">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+        <div>
+          <h2 class="text-base font-bold text-slate-800">Phiếu Trả Lời Trắc Nghiệm Chuẩn QM 2025 (HCMUE)</h2>
+          <p class="text-xs text-slate-500">Mẫu in sắc nét vector có sẵn logo Trường ĐH Sư phạm TP.HCM và 4 dấu góc định vị chuẩn xác.</p>
+        </div>
+        <div class="flex gap-2">
+          <button id="printA4Btn" class="btn btn-primary text-xs">
+            📄 Tải PDF Khổ A4 (2 phiếu/trang)
+          </button>
+          <button id="printA5Btn" class="btn btn-outline-primary text-xs">
+            📄 Tải PDF Khổ A5 (1 phiếu)
+          </button>
+        </div>
+      </div>
+
+      <!-- Khung xem trước mẫu phiếu -->
+      <div class="overflow-auto border rounded-xl p-4 bg-slate-100 flex justify-center">
+        <canvas id="sheetPreviewCanvas" class="bg-white shadow-md max-w-full h-auto rounded"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL XEM LẠI BÀI CHẤM CHI TIẾT -->
+  <!-- ========================================================================= -->
+  <div id="paperPreviewModal" class="paper-modal">
+    <div class="paper-modal-content">
+      <div class="p-3 bg-slate-100 border-b flex justify-between items-center">
+        <div id="modalPaperInfo" class="text-xs font-semibold text-slate-800"></div>
+        <button class="btn btn-xs btn-danger text-xs px-2 py-1 rounded" onclick="window.qm2025App.closePaperModal()">✕ Đóng</button>
+      </div>
+      <div class="modal-body">
+        <img id="modalPaperImage" src="" alt="Bài chấm OMR">
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- LIVE TOAST POPUP (THÔNG BÁO ĐIỂM SỐ KHI QUÉT) -->
+  <!-- ========================================================================= -->
+  <div id="liveGradingToast" class="live-grading-toast">
+    <div class="toast-score-circle">
+      <span id="toastScore">0.00</span>
+    </div>
+    <div class="text-xs space-y-0.5">
+      <div class="font-bold text-slate-800 text-sm">
+        SBD: <span id="toastSBD" class="text-primary font-mono">------</span> | Đề: <span id="toastMaDe" class="font-mono">---</span>
+      </div>
+      <div class="text-slate-600">
+        Phần I: <strong id="toastP1" class="text-emerald-600">0.0</strong>đ | 
+        Phần II: <strong id="toastP2" class="text-emerald-600">0.0</strong>đ | 
+        Phần III: <strong id="toastP3" class="text-emerald-600">0.0</strong>đ
+      </div>
+      <div class="text-[11px] text-emerald-600 font-semibold">✓ Đã lưu kết quả thành công!</div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/qm2025-template.js"></script>
+  <script src="assets/js/qm2025-omr.js"></script>
+  <script src="assets/js/qm2025-app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then((reg) => console.log('QM2025 PWA ServiceWorker đã kích hoạt:', reg.scope))
+          .catch((err) => console.log('ServiceWorker lỗi:', err));
+      });
+    }
+  </script>
+</body>
+</html>

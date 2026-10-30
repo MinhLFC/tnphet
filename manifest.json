@@ -1,0 +1,24 @@
+{
+  "name": "Chấm Thi Trắc Nghiệm QM 2025 - HCMUE",
+  "short_name": "Chấm Thi QM2025",
+  "description": "Ứng dụng chấm thi trắc nghiệm theo định dạng mới chuẩn Bộ GD&ĐT QM 2025, offline không giới hạn lượt chấm. ĐH Sư phạm TP.HCM.",
+  "start_url": "chamthi.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0054a6",
+  "theme_color": "#0054a6",
+  "icons": [
+    {
+      "src": "assets/images/logo-hcmue.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo-hcmue.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

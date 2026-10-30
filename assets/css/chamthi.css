@@ -1,0 +1,387 @@
+/* 
+ * Stylesheet Hệ Thống Chấm Thi Trắc Nghiệm QM 2025
+ * Trường Đại học Sư phạm TP. Hồ Chí Minh (HCMUE)
+ */
+
+:root {
+  --primary: #0054a6;
+  --primary-hover: #004080;
+  --primary-light: #e6f0fa;
+  --accent: #f59e0b;
+  --success: #10b981;
+  --danger: #ef4444;
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-100: #f1f5f9;
+  --slate-50: #f8fafc;
+  --border-color: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Header */
+.app-header {
+  background: #ffffff;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.brand-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.brand-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1.2;
+}
+
+.brand-sub {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748b;
+  letter-spacing: 0.02em;
+}
+
+/* Navigation Tabs */
+.app-nav-bar {
+  display: flex;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0 1rem;
+  overflow-x: auto;
+  gap: 0.5rem;
+}
+
+.app-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #64748b;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.app-tab-btn:hover {
+  color: var(--primary);
+}
+
+.app-tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+/* Tab Contents */
+.app-tab-content {
+  display: none;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.app-tab-content.active {
+  display: block;
+}
+
+/* Scanner Viewport */
+.scanner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.camera-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cameraVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Camera Target Overlay Frame */
+.camera-overlay-target {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 10%;
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  pointer-events: none;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.35);
+}
+
+.camera-overlay-target::before,
+.camera-overlay-target::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: #38bdf8;
+  border-style: solid;
+}
+
+.camera-overlay-target::before {
+  top: -2px;
+  left: -2px;
+  border-width: 4px 0 0 4px;
+}
+
+.camera-overlay-target::after {
+  bottom: -2px;
+  right: -2px;
+  border-width: 0 4px 4px 0;
+}
+
+.corner-box-guide {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: rgba(239, 68, 68, 0.3);
+  border: 2px solid #ef4444;
+}
+
+.guide-tl { top: 4px; left: 4px; }
+.guide-tr { top: 4px; right: 4px; }
+.guide-bl { bottom: 4px; left: 4px; }
+.guide-br { bottom: 4px; right: 4px; }
+
+/* Camera Controls */
+.camera-controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.88rem;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline-primary:hover {
+  background: var(--primary-light);
+}
+
+.btn-success {
+  background: var(--success);
+  color: #fff;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+}
+
+/* Live Toast Notification on Score */
+.live-grading-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #ffffff;
+  border: 2px solid var(--success);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  transform: translateY(150%);
+  opacity: 0;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100;
+}
+
+.live-grading-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-score-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #ecfdf5;
+  color: #059669;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  font-weight: 800;
+  border: 2px solid #10b981;
+}
+
+/* App Toast */
+.app-toast {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: #1e293b;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  z-index: 1000;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.app-toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-success { background: #059669; }
+.toast-error { background: #dc2626; }
+.toast-warning { background: #d97706; }
+.toast-info { background: #2563eb; }
+
+/* Modal Paper Preview */
+.paper-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  padding: 1rem;
+}
+
+.paper-modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.paper-modal-content {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 95vw;
+  max-height: 95vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body {
+  overflow: auto;
+  max-height: calc(90vh - 60px);
+  padding: 1rem;
+  text-align: center;
+}
+
+#modalPaperImage {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+/* Card & Tables */
+.card {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 0.5rem 1rem;
+  }
+  .brand-logo {
+    height: 38px;
+  }
+  .brand-title {
+    font-size: 0.9rem;
+  }
+  .app-tab-btn {
+    padding: 0.65rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .app-tab-content {
+    padding: 1rem 0.5rem;
+  }
+  .live-grading-toast {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
