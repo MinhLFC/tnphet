@@ -351,7 +351,7 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "question": "Cơ thể người mã hoá được loại amino acid nào sau đây trong tổng hợp protein cho cơ thể?",
         "options": {
           "A": "Cấu trúc A.",
-          "B": "Cấu trúc B (L-valine ở dạng ion lưỡng cực).",
+          "B": "Cấu trúc B.",
           "C": "Cấu trúc C.",
           "D": "Cấu trúc D."
         },
@@ -746,10 +746,10 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "figure": "assets/images/quiz/chem/chem_amino_p1_q41.png",
         "question": "Dung dịch của chất nào sau đây có môi trường base?",
         "options": {
-          "A": "Dạng ion lưỡng cực của lysine (chứa nhóm -NH<sub>2</sub> tự do).",
-          "B": "Dạng ion lưỡng cực của valine.",
-          "C": "Dạng cation của valine.",
-          "D": "Dạng ion lưỡng cực của glutamic acid."
+          "A": "Cấu trúc A.",
+          "B": "Cấu trúc B.",
+          "C": "Cấu trúc C.",
+          "D": "Cấu trúc D."
         },
         "answer": "A",
         "explanation": "Ở dạng ion lưỡng cực của lysine (chất A), phân tử còn lại một nhóm amino (-NH<sub>2</sub>) tự do chưa nhận proton, nhóm này có tính base làm dung dịch có pH &gt; 7.<br>Chọn <b>A</b>."
@@ -764,10 +764,10 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "figure": "assets/images/quiz/chem/chem_amino_p1_q42.png",
         "question": "Dạng ion chủ yếu nào của amino acid có trong môi trường acid mạnh (pH thấp)?",
         "options": {
-          "A": "H<sub>2</sub>N-CH(R)-COO<sup>-</sup> (anion).",
-          "B": "H<sub>3</sub>N<sup>+</sup>-CH(R)-COO<sup>-</sup> (ion lưỡng cực).",
-          "C": "(CH<sub>3</sub>)<sub>2</sub>CH-CH(NH<sub>3</sub><sup>+</sup>)-COO<sup>-</sup>.",
-          "D": "(CH<sub>3</sub>)<sub>2</sub>CH-CH(NH<sub>3</sub><sup>+</sup>)-COOH (cation)."
+          "A": "Cấu trúc A.",
+          "B": "Cấu trúc B.",
+          "C": "Cấu trúc C.",
+          "D": "Cấu trúc D."
         },
         "answer": "D",
         "explanation": "Trong môi trường acid mạnh (dư ion H<sup>+</sup>), nhóm carboxyl không phân li (-COOH) và nhóm amino bị proton hóa (-NH<sub>3</sub><sup>+</sup>), amino acid tồn tại chủ yếu ở dạng cation (chất D).<br>Chọn <b>D</b>."
@@ -1121,8 +1121,8 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "label": "Phần 1 - Câu 62",
         "topic": "Nhận biết các hợp chất hữu cơ bằng thuốc thử",
         "type": "mcq",
-        "figure": null,
-        "question": "Kết quả thí nghiệm của các chất X, Y, Z với các thuốc thử được ghi ở bảng sau:<br>- Chất X + Quỳ tím &rarr; Quỳ tím chuyển màu hồng<br>- Chất Y + Dung dịch AgNO<sub>3</sub> trong NH<sub>3</sub> &rarr; Tạo kết tủa Ag<br>- Chất Z + Nước bromine &rarr; Tạo kết tủa trắng<br>Các chất X, Y, Z lần lượt là",
+        "figure": "assets/images/quiz/chem/chem_amino_p1_q62.png",
+        "question": "Kết quả thí nghiệm của các chất X, Y, Z với các thuốc thử được ghi ở bảng sau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Chất</th><th>Thuốc thử</th><th>Hiện tượng</th></tr></thead><tbody><tr><td><strong>X</strong></td><td class=\"text-left\">Quỳ tím</td><td class=\"text-left\">Quỳ tím chuyển màu hồng</td></tr><tr><td><strong>Y</strong></td><td class=\"text-left\">Dung dịch AgNO<sub>3</sub> trong NH<sub>3</sub></td><td class=\"text-left\">Tạo kết tủa Ag</td></tr><tr><td><strong>Z</strong></td><td class=\"text-left\">Nước bromine</td><td class=\"text-left\">Tạo kết tủa trắng</td></tr></tbody></table></div>Các chất X, Y, Z lần lượt là",
         "options": {
           "A": "Ethyl formate, glutamic acid, aniline.",
           "B": "Aniline, ethyl formate, glutamic acid.",
@@ -1130,7 +1130,8 @@ window.CHEM_BAI9_EXAMS_DATA = {
           "D": "Glutamic acid, aniline, ethyl formate."
         },
         "answer": "C",
-        "explanation": "- X làm quỳ tím hóa hồng &rarr; glutamic acid.<br>- Y tráng bạc với AgNO<sub>3</sub>/NH<sub>3</sub> &rarr; ethyl formate (HCOOC<sub>2</sub>H<sub>5</sub>).<br>- Z tạo kết tủa trắng với bromine &rarr; aniline.<br>Chọn <b>C</b>."
+        "explanation": "- X làm quỳ tím hóa hồng &rarr; glutamic acid.<br>- Y tráng bạc với AgNO<sub>3</sub>/NH<sub>3</sub> &rarr; ethyl formate (HCOOC<sub>2</sub>H<sub>5</sub>).<br>- Z tạo kết tủa trắng với bromine &rarr; aniline.<br>Chọn <b>C</b>.",
+        "prompt": "Kết quả thí nghiệm của các chất X, Y, Z với các thuốc thử được ghi ở bảng sau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Chất</th><th>Thuốc thử</th><th>Hiện tượng</th></tr></thead><tbody><tr><td><strong>X</strong></td><td class=\"text-left\">Quỳ tím</td><td class=\"text-left\">Quỳ tím chuyển màu hồng</td></tr><tr><td><strong>Y</strong></td><td class=\"text-left\">Dung dịch AgNO<sub>3</sub> trong NH<sub>3</sub></td><td class=\"text-left\">Tạo kết tủa Ag</td></tr><tr><td><strong>Z</strong></td><td class=\"text-left\">Nước bromine</td><td class=\"text-left\">Tạo kết tủa trắng</td></tr></tbody></table></div>Các chất X, Y, Z lần lượt là"
       },
       {
         "id": 63,
@@ -1139,8 +1140,8 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "label": "Phần 1 - Câu 63",
         "topic": "Phân biệt dung dịch các chất hữu cơ",
         "type": "mcq",
-        "figure": null,
-        "question": "Cho các dung dịch sau: hồ tinh bột, methylamine, glucose và glycine được kí hiệu ngẫu nhiên là X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub>. Một học sinh tiến hành các thí nghiệm để phân biệt từng chất trong số các chất trên và có kết quả thí nghiệm sau:<br>- X<sub>1</sub> + Phenolphthalein &rarr; Chuyển màu hồng<br>- X<sub>2</sub> + Dung dịch I<sub>2</sub>/KI &rarr; Xuất hiện màu xanh tím<br>- X<sub>3</sub> + Cu(OH)<sub>2</sub> &rarr; Tạo dung dịch màu xanh lam<br>- X<sub>4</sub> + Phenolphthalein &rarr; Dung dịch không đổi màu<br>Từ kết quả trên, các chất X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub> tương ứng lần lượt là",
+        "figure": "assets/images/quiz/chem/chem_amino_p1_q63.png",
+        "question": "Cho các dung dịch sau: hồ tinh bột, methylamine, glucose và glycine được kí hiệu ngẫu nhiên là X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub>. Một học sinh tiến hành các thí nghiệm để phân biệt từng chất trong số các chất trên và có kết quả thí nghiệm sau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Chất</th><th>Thuốc thử</th><th>Hiện tượng</th></tr></thead><tbody><tr><td><strong>X<sub>1</sub></strong></td><td class=\"text-left\">Phenolphthalein</td><td class=\"text-left\">Chuyển sang màu hồng</td></tr><tr><td><strong>X<sub>2</sub></strong></td><td class=\"text-left\">Dung dịch I<sub>2</sub>/KI</td><td class=\"text-left\">Xuất hiện màu xanh tím</td></tr><tr><td><strong>X<sub>3</sub></strong></td><td class=\"text-left\">Cu(OH)<sub>2</sub></td><td class=\"text-left\">Tạo dung dịch màu xanh lam</td></tr><tr><td><strong>X<sub>4</sub></strong></td><td class=\"text-left\">Phenolphthalein</td><td class=\"text-left\">Dung dịch không đổi màu</td></tr></tbody></table></div>Từ kết quả trên, các chất X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub> tương ứng lần lượt là",
         "options": {
           "A": "methylamine, glucose, hồ tinh bột, và glycine.",
           "B": "glycine, hồ tinh bột, glucose và methylamine.",
@@ -1148,7 +1149,8 @@ window.CHEM_BAI9_EXAMS_DATA = {
           "D": "methylamine, hồ tinh bột, glucose và glycine."
         },
         "answer": "D",
-        "explanation": "- X<sub>1</sub> làm phenolphthalein hóa hồng &rarr; methylamine (tính base).<br>- X<sub>2</sub> tạo màu xanh tím với iodine &rarr; hồ tinh bột.<br>- X<sub>3</sub> hòa tan Cu(OH)<sub>2</sub> tạo dung dịch xanh lam &rarr; glucose.<br>- X<sub>4</sub> không đổi màu phenolphthalein &rarr; glycine.<br>Chọn <b>D</b>."
+        "explanation": "- X<sub>1</sub> làm phenolphthalein hóa hồng &rarr; methylamine (tính base).<br>- X<sub>2</sub> tạo màu xanh tím với iodine &rarr; hồ tinh bột.<br>- X<sub>3</sub> hòa tan Cu(OH)<sub>2</sub> tạo dung dịch xanh lam &rarr; glucose.<br>- X<sub>4</sub> không đổi màu phenolphthalein &rarr; glycine.<br>Chọn <b>D</b>.",
+        "prompt": "Cho các dung dịch sau: hồ tinh bột, methylamine, glucose và glycine được kí hiệu ngẫu nhiên là X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub>. Một học sinh tiến hành các thí nghiệm để phân biệt từng chất trong số các chất trên và có kết quả thí nghiệm sau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Chất</th><th>Thuốc thử</th><th>Hiện tượng</th></tr></thead><tbody><tr><td><strong>X<sub>1</sub></strong></td><td class=\"text-left\">Phenolphthalein</td><td class=\"text-left\">Chuyển sang màu hồng</td></tr><tr><td><strong>X<sub>2</sub></strong></td><td class=\"text-left\">Dung dịch I<sub>2</sub>/KI</td><td class=\"text-left\">Xuất hiện màu xanh tím</td></tr><tr><td><strong>X<sub>3</sub></strong></td><td class=\"text-left\">Cu(OH)<sub>2</sub></td><td class=\"text-left\">Tạo dung dịch màu xanh lam</td></tr><tr><td><strong>X<sub>4</sub></strong></td><td class=\"text-left\">Phenolphthalein</td><td class=\"text-left\">Dung dịch không đổi màu</td></tr></tbody></table></div>Từ kết quả trên, các chất X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub> và X<sub>4</sub> tương ứng lần lượt là"
       },
       {
         "id": 64,
@@ -2022,8 +2024,8 @@ window.CHEM_BAI9_EXAMS_DATA = {
         "type": "tf",
         "topic": "Độ tan và đặc điểm của Phenylalanine",
         "figure": "assets/images/quiz/chem/chem_amino_p2_q15.png",
-        "question": "Phenylalanine (Phe) là một loại amino acid thiết yếu, tham gia vào cấu tạo của protein và được sử dụng làm thuốc hỗ trợ điều trị bệnh trầm cảm trong y học. Công thức cấu tạo của Phe như hình bên.<br>Cho độ tan của Phe (gam/100 gam nước) ở các nhiệt độ khác nhau:<br>- Ở 0 °C: 1,00<br>- Ở 25 °C: 1,41<br>- Ở 50 °C: 2,19<br>- Ở 75 °C: 3,71<br>- Ở 100 °C: 6,89",
-        "prompt": "Phenylalanine (Phe) là một loại amino acid thiết yếu, tham gia vào cấu tạo của protein và được sử dụng làm thuốc hỗ trợ điều trị bệnh trầm cảm trong y học. Công thức cấu tạo của Phe như hình bên.<br>Cho độ tan của Phe (gam/100 gam nước) ở các nhiệt độ khác nhau:<br>- Ở 0 °C: 1,00<br>- Ở 25 °C: 1,41<br>- Ở 50 °C: 2,19<br>- Ở 75 °C: 3,71<br>- Ở 100 °C: 6,89",
+        "question": "Phenylalanine (Phe) là một loại amino acid thiết yếu, tham gia vào cấu tạo của protein và được sử dụng làm thuốc hỗ trợ điều trị bệnh trầm cảm trong y học. Công thức cấu tạo của Phe như hình bên.<br>Cho độ tan của Phe ở các nhiệt độ khác nhau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Nhiệt độ (°C)</th><th>0</th><th>25</th><th>50</th><th>75</th><th>100</th></tr></thead><tbody><tr><td><strong>Độ tan (g/100 g nước)</strong></td><td>1,00</td><td>1,41</td><td>2,19</td><td>3,71</td><td>6,89</td></tr></tbody></table></div>",
+        "prompt": "Phenylalanine (Phe) là một loại amino acid thiết yếu, tham gia vào cấu tạo của protein và được sử dụng làm thuốc hỗ trợ điều trị bệnh trầm cảm trong y học. Công thức cấu tạo của Phe như hình bên.<br>Cho độ tan của Phe ở các nhiệt độ khác nhau:<br><div class=\"quiz-table-wrap\"><table class=\"quiz-table\"><thead><tr><th>Nhiệt độ (°C)</th><th>0</th><th>25</th><th>50</th><th>75</th><th>100</th></tr></thead><tbody><tr><td><strong>Độ tan (g/100 g nước)</strong></td><td>1,00</td><td>1,41</td><td>2,19</td><td>3,71</td><td>6,89</td></tr></tbody></table></div>",
         "statements": {
           "a": "Phe thuộc loại α-amino acid và có tính chất lưỡng tính.",
           "b": "Ở pH = 2, Phe di chuyển về phía cực dương của điện trường.",
@@ -5152,6 +5154,7 @@ window.CHEM_BAI9_EXAMS_DATA = {
     ]
   }
 };
+
 
 // Tự động tích hợp vào window.CHEM_ALL_EXAMS_DATA
 if (typeof window.CHEM_ALL_EXAMS_DATA !== 'undefined') {

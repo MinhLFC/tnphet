@@ -2198,5 +2198,88 @@
   gap: 1rem;
 }
 
+/* ==========================================================================
+   Responsive Quiz Tables (Bảng thí nghiệm / Số liệu thực nghiệm)
+   ========================================================================== */
+.quiz-table-wrap {
+  margin: 0.85rem 0 1.1rem;
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #e2e8f0);
+  background: var(--bg-surface, #ffffff);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.quiz-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-color, #1e293b);
+}
+
+.quiz-table th {
+  background: var(--bg-surface-soft, #f8fafc);
+  color: var(--text-color, #0f172a);
+  font-weight: 700;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 2px solid var(--border-color, #cbd5e1);
+  border-right: 1px solid var(--border-color, #e2e8f0);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.quiz-table th:last-child {
+  border-right: none;
+}
+
+.quiz-table td {
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  border-right: 1px solid var(--border-color, #e2e8f0);
+  text-align: center;
+}
+
+.quiz-table td:last-child {
+  border-right: none;
+}
+
+.quiz-table tr:last-child td {
+  border-bottom: none;
+}
+
+.quiz-table tr:nth-child(even) td {
+  background: var(--bg-surface-alt, rgba(0, 0, 0, 0.015));
+}
+
+.quiz-table td.text-left,
+.quiz-table th.text-left {
+  text-align: left;
+}
+
+[data-theme="dark"] .quiz-table-wrap {
+  border-color: #334155;
+  background: #1e293b;
+}
+
+[data-theme="dark"] .quiz-table {
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .quiz-table th {
+  background: #0f172a;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .quiz-table td {
+  border-color: #334155;
+}
+
+[data-theme="dark"] .quiz-table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+
 
 
