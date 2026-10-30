@@ -22,6 +22,7 @@
   const STORAGE_KEY = 'chem_quiz_state_v3';
 
   const state = {
+    category: 'de_on', // 'de_on' | 'chuyende'
     currentExamId: 'hoa_de1',
     currentIndex: 0,
     mode: 'slide', // 'slide' | 'list'
@@ -59,6 +60,7 @@
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const p = JSON.parse(saved);
+        if (p.category) state.category = p.category;
         if (p.currentExamId) state.currentExamId = p.currentExamId;
         if (p.starredQuestions) state.starredQuestions = p.starredQuestions;
         if (p.mcqAnswers) state.mcqAnswers = p.mcqAnswers;
@@ -74,6 +76,7 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        category: state.category,
         currentExamId: state.currentExamId,
         starredQuestions: state.starredQuestions,
         mcqAnswers: state.mcqAnswers,
@@ -230,7 +233,23 @@
     }
     const stats = getExamStats();
     const exams = window.CHEM_ALL_EXAMS_DATA || {};
-    const examList = Object.values(exams);
+    const allExams = Object.values(exams);
+    const chuyenDeExams = allExams.filter(e => e.group === 'chuyende');
+    const deOnExams = allExams.filter(e => e.group !== 'chuyende');
+
+    // Đồng bộ category với đề hiện tại
+    if (exam && exam.group === 'chuyende') {
+      state.category = 'chuyende';
+    } else if (exam && (!state.category || state.category === 'chuyende')) {
+      state.category = 'de_on';
+    }
+    const curCat = state.category || 'de_on';
+    const activeExamList = curCat === 'chuyende' ? (chuyenDeExams.length ? chuyenDeExams : allExams) : deOnExams;
+
+    const p1Count = exam.questions.filter(q => q.part === 1).length;
+    const p2Count = exam.questions.filter(q => q.part === 2).length;
+    const p3Count = exam.questions.filter(q => q.part === 3).length;
+    const totalCount = exam.questions.length;
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="chemWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -239,8 +258,8 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">⚗️</div>
             <div class="quiz-title-text">
-              <h3>${exam.title}: ${exam.subtitle || 'Bộ 7 Đề Kiểm Tra & Ôn Tập Hóa Học 12'} (${exam.shortTitle || exam.title})</h3>
-              <p>Trọn bộ 28 câu chuẩn cấu trúc mới Bộ GD&ĐT: Trắc nghiệm ABCD (18c) • Đúng/Sai (4c) • Trả lời ngắn (6c)</p>
+              <h3>${exam.title}: ${exam.subtitle || exam.title} (${exam.shortTitle || exam.title})</h3>
+              <p>${exam.group === 'chuyende' ? `Chuyên đề tự luyện ${totalCount} câu: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)` : `Trọn bộ 28 câu chuẩn cấu trúc mới Bộ GD&ĐT: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)`}</p>
             </div>
           </div>
 
@@ -269,7 +288,7 @@
 
             ${state.mode === 'slide' ? `
               <button class="quiz-tool-btn" onclick="window.ChemQuizApp.toggleSidebar()">
-                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : '▶ Hiện lưới 28 câu'}
+                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : `▶ Hiện lưới ${totalCount} câu`}
               </button>
             ` : `
               <button class="quiz-tool-btn" onclick="window.ChemQuizApp.revealAllInFilter()">
@@ -291,23 +310,34 @@
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
-              <button type="button" class="math-category-tab-btn active" style="cursor: default;">
-                ⚗️ 7 Đề Kiểm Tra & Ôn Tập Hóa Học 12 (Bộ GD&ĐT)
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'de_on' ? 'active' : ''}"
+                onclick="window.ChemQuizApp.selectCategory('de_on')"
+              >
+                ⚗️ 7 Đề Kiểm Tra &amp; Ôn Tập (Bộ GD&amp;ĐT)
+              </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'chuyende' ? 'active' : ''}"
+                onclick="window.ChemQuizApp.selectCategory('chuyende')"
+              >
+                🧪 Chuyên Đề Bài 9: Amino Acid &amp; Peptide
               </button>
             </div>
 
             <div class="math-part-pills">
               <button class="math-part-pill ${state.filterPart === 'ALL' ? 'active' : ''}" onclick="window.ChemQuizApp.setPartFilter('ALL')">
-                Tất cả (28 câu)
+                Tất cả (${totalCount} câu)
               </button>
               <button class="math-part-pill ${state.filterPart === 1 ? 'active' : ''}" onclick="window.ChemQuizApp.setPartFilter(1)">
-                Phần 1: ABCD (18)
+                Phần 1: ABCD (${p1Count})
               </button>
               <button class="math-part-pill ${state.filterPart === 2 ? 'active' : ''}" onclick="window.ChemQuizApp.setPartFilter(2)">
-                Phần 2: Đúng - Sai (4)
+                Phần 2: Đúng - Sai (${p2Count})
               </button>
               <button class="math-part-pill ${state.filterPart === 3 ? 'active' : ''}" onclick="window.ChemQuizApp.setPartFilter(3)">
-                Phần 3: Trả lời ngắn (6)
+                Phần 3: Trả lời ngắn (${p3Count})
               </button>
               <button class="math-part-pill ${state.filterStarred ? 'active' : ''}" onclick="window.ChemQuizApp.toggleStarFilter()">
                 ★ Đã lưu ý (${countStarred()})
@@ -315,8 +345,8 @@
             </div>
           </div>
 
-          <div class="math-exam-grid-20" style="grid-template-columns: repeat(7, minmax(0, 1fr));">
-            ${examList.map((ex, i) => {
+          <div class="math-exam-grid-20" style="${curCat === 'chuyende' ? 'display: flex; gap: 10px;' : 'grid-template-columns: repeat(7, minmax(0, 1fr));'}">
+            ${activeExamList.map((ex, i) => {
               const num = i + 1;
               const isAct = state.currentExamId === ex.code;
               const hasProg = hasExamProgress(ex.code);
@@ -324,8 +354,9 @@
                 <button
                   type="button"
                   class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                  style="${curCat === 'chuyende' ? 'flex: 1; padding: 10px 18px; font-weight: 600; font-size: 0.95rem; white-space: normal; line-height: 1.3;' : ''}"
                   onclick="window.ChemQuizApp.selectExam('${ex.code}')"
-                  title="Chuyển sang ${ex.shortTitle || ('Đề ' + num)}"
+                  title="Chuyển sang ${ex.title || ex.shortTitle}"
                 >
                   ${ex.shortTitle || ('Đề ' + num)}
                 </button>
@@ -759,12 +790,12 @@
       <div class="quiz-modal-backdrop open" onclick="window.ChemQuizApp.closeAnswerKeyModal()">
         <div class="quiz-modal-card quiz-modal-box modal-box-wide" onclick="event.stopPropagation()">
           <div class="quiz-modal-header">
-            <h4>🔑 BẢNG ĐÁP ÁN TOÀN BỘ 28 CÂU — ${exam.title}</h4>
+            <h4>🔑 BẢNG ĐÁP ÁN TOÀN BỘ ${questions.length} CÂU — ${exam.title}</h4>
             <button class="modal-close-btn quiz-modal-close" onclick="window.ChemQuizApp.closeAnswerKeyModal()">&times;</button>
           </div>
-          <div class="quiz-modal-body">
+          <div class="quiz-modal-body" style="max-height: 75vh; overflow-y: auto;">
             <!-- PHẦN 1 -->
-            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (18 CÂU)</div>
+            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (${p1.length} CÂU)</div>
             <div class="key-table-grid">
               ${p1.map(q => `
                 <div class="key-item">
@@ -775,7 +806,7 @@
             </div>
 
             <!-- PHẦN 2 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (4 CÂU)</div>
+            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (${p2.length} CÂU)</div>
             <div class="key-tf-grid">
               ${p2.map(q => {
                 const a = q.answer || q.answers || {};
@@ -796,7 +827,7 @@
             </div>
 
             <!-- PHẦN 3 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (6 CÂU)</div>
+            <div class="key-section-title" style="margin-top: 18px;">PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (${p3.length} CÂU)</div>
             <div class="key-table-grid short-grid">
               ${p3.map(q => `
                 <div class="key-item short">
@@ -863,8 +894,28 @@
       renderChemApp();
     },
 
+    selectCategory: function (cat) {
+      state.category = cat;
+      if (cat === 'chuyende') {
+        state.currentExamId = 'hoa_chuyende_amino_acid';
+      } else {
+        state.currentExamId = 'hoa_de1';
+      }
+      state.currentIndex = 0;
+      state.filterPart = 'ALL';
+      state.filterStarred = false;
+      saveState();
+      renderChemApp();
+    },
+
     selectExam: function (examCode) {
       state.currentExamId = examCode;
+      const exam = window.CHEM_ALL_EXAMS_DATA && window.CHEM_ALL_EXAMS_DATA[examCode];
+      if (exam && exam.group === 'chuyende') {
+        state.category = 'chuyende';
+      } else if (exam) {
+        state.category = 'de_on';
+      }
       state.currentIndex = 0;
       saveState();
       renderChemApp();
