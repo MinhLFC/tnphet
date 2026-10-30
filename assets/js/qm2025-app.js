@@ -29,6 +29,13 @@ class QM2025App {
       this.renderAnswerKeyEditor();
       this.renderResultsTable();
       this.updateStatisticsDashboard();
+
+      // Hỗ trợ mở trực tiếp tab qua URL (ví dụ: ?tab=tab-download)
+      const urlParams = new URLSearchParams(window.location.search);
+      const tabParam = urlParams.get('tab');
+      if (tabParam) {
+        this.switchTab(tabParam);
+      }
     });
   }
 

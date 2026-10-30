@@ -681,16 +681,16 @@ class QM2025OMREngine {
 
     // 2. Vẽ Điểm số lớn vào ô ĐIỂM
     const isKHTN = (this.templateType === 'KHTN');
-    const boxX = isKHTN ? 380 : 515;
-    const boxY = isKHTN ? 140 : 130;
-    const boxW = 105;
-    const boxH = 75;
+    const boxX = isKHTN ? 376 : 394;
+    const boxY = isKHTN ? 95 : 120;
+    const boxW = isKHTN ? 80 : 70;
+    const boxH = isKHTN ? 75 : 56;
 
     ctx.fillStyle = '#dc2626'; // Đỏ chấm thi
-    ctx.font = 'bold 36px "Be Vietnam Pro", Arial, sans-serif';
+    ctx.font = 'bold 30px "Be Vietnam Pro", Arial, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(scoreResult.totalScore.toFixed(2), boxX + boxW / 2, boxY + boxH / 2 + 10);
+    ctx.fillText(scoreResult.totalScore.toFixed(2), boxX + boxW / 2, boxY + boxH / 2 + 5);
 
     ctx.restore();
   }

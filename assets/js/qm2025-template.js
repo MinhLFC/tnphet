@@ -2,22 +2,22 @@
  * QM2025 Template Generator & Coordinate Definition
  * Trường Đại học Sư phạm TP. Hồ Chí Minh (HCMUE)
  * Phiếu trả lời trắc nghiệm chuẩn Bộ GD&ĐT 2025: Môn Toán & Môn KHTN/KHXH
- * Chuẩn hóa 1200 x 600 px theo đúng mẫu phiếu Bộ GD&ĐT 2025 thực tế
+ * Sử dụng phôi gốc chính thức kèm Logo Đại học Sư phạm TP.HCM sắc nét, không bị lỗi đè chữ
  */
 
 const QM2025_CONFIG = {
-  WIDTH: 1200,
-  HEIGHT: 600,
-  CORNER_MARKER_SIZE: 26, // Kích thước ô vuông đen định vị góc
-  CORNER_PADDING: 18,
+  WIDTH: 1024,
+  HEIGHT: 550,
+  CORNER_MARKER_SIZE: 22,
+  CORNER_PADDING: 17,
 };
 
-// Định nghĩa mẫu phiếu và barem chuẩn Bộ GD&ĐT 2025
 const QM2025_TEMPLATES = {
   TOAN: {
     id: 'toan',
     name: 'Toán (Phần I: 12 câu | Phần II: 4 câu Đ/S | Phần III: 6 câu trả lời ngắn)',
     subName: 'Phiếu: QM 2025 - Toán - ĐH Sư phạm TP.HCM',
+    imageSrc: 'assets/images/phieu-qm2025-toan-hcmue.png',
     part1_count: 12,
     part2_count: 4,
     part3_count: 6,
@@ -31,6 +31,7 @@ const QM2025_TEMPLATES = {
     id: 'khtn',
     name: 'KHTN / KHXH (Phần I: 18 câu | Phần II: 4 câu Đ/S | Phần III: 6 câu trả lời ngắn)',
     subName: 'Phiếu: QM 2025 - Lý, Hóa, Sinh, Địa - ĐH Sư phạm TP.HCM',
+    imageSrc: 'assets/images/phieu-qm2025-khtn-hcmue.png',
     part1_count: 18,
     part2_count: 4,
     part3_count: 6,
@@ -44,37 +45,56 @@ const QM2025_TEMPLATES = {
 
 class QM2025TemplateRenderer {
   constructor() {
-    this.logoImg = null;
-    this.logoLoaded = false;
-    this.loadLogo();
+    this.images = {};
+    this.loaded = false;
+    this.preloadTemplates();
   }
 
-  loadLogo() {
-    this.logoImg = new Image();
-    this.logoImg.src = 'assets/images/logo-hcmue.png';
-    this.logoImg.onload = () => {
-      this.logoLoaded = true;
+  preloadTemplates() {
+    const toanImg = new Image();
+    toanImg.src = QM2025_TEMPLATES.TOAN.imageSrc;
+    toanImg.onload = () => {
+      this.images.TOAN = toanImg;
+      this.checkReady();
+    };
+
+    const khtnImg = new Image();
+    khtnImg.src = QM2025_TEMPLATES.KHTN.imageSrc;
+    khtnImg.onload = () => {
+      this.images.KHTN = khtnImg;
+      this.checkReady();
     };
   }
 
+  checkReady() {
+    if (this.images.TOAN && this.images.KHTN) {
+      this.loaded = true;
+      // Trigger update nếu preview đang chờ
+      const canvas = document.getElementById('sheetPreviewCanvas');
+      if (canvas && window.qm2025App) {
+        this.renderToCanvas(canvas, window.qm2025App.currentTemplate);
+      }
+    }
+  }
+
   /**
-   * Sinh bản đồ tọa độ hình học chuẩn xác 100% dựa theo mẫu phiếu QM2025 gốc
+   * Trả về bản đồ tọa độ ô tô (Grid Map) chuẩn xác 100% theo phôi gốc 1024 x 550
    */
   generateGroundTruthGrid(type = 'TOAN') {
     const W = QM2025_CONFIG.WIDTH;
     const H = QM2025_CONFIG.HEIGHT;
     const isKHTN = (type === 'KHTN');
-    const radius = 6.8;
+    const radius = 6.2;
 
     const gridMap = {
       type: type,
       width: W,
       height: H,
       corner_markers: [
-        { x: 31, y: 31 },
-        { x: W - 31, y: 31 },
-        { x: W - 31, y: H - 31 },
-        { x: 31, y: H - 31 },
+        { x: 28, y: 40 },
+        { x: W - 25, y: 40 },
+        { x: W - 25, y: H - 41 },
+        { x: 28, y: H - 41 },
       ],
       made: [],
       sbd: [],
@@ -84,8 +104,8 @@ class QM2025TemplateRenderer {
     };
 
     // 1. Mã đề (3 cột, 10 hàng 0-9)
-    const madeXCols = [44, 67, 90];
-    const madeYRows = [308, 331, 354, 376, 399, 422, 445, 468, 490, 513];
+    const madeXCols = [53, 73, 93];
+    const madeYRows = [282, 301, 320, 339, 358, 377, 396, 415, 434, 453];
     for (let c = 0; c < 3; c++) {
       for (let r = 0; r <= 9; r++) {
         gridMap.made.push({
@@ -99,8 +119,8 @@ class QM2025TemplateRenderer {
     }
 
     // 2. SBD (6 cột, 10 hàng 0-9)
-    const sbdXCols = [154, 177, 200, 222, 245, 268];
-    const sbdYRows = [308, 331, 354, 376, 399, 422, 445, 468, 490, 513];
+    const sbdXCols = [148, 167, 187, 206, 226, 245];
+    const sbdYRows = [282, 301, 320, 339, 358, 377, 396, 415, 434, 453];
     for (let c = 0; c < 6; c++) {
       for (let r = 0; r <= 9; r++) {
         gridMap.sbd.push({
@@ -115,11 +135,14 @@ class QM2025TemplateRenderer {
 
     // 3. Phần I
     const p1Opts = ['A', 'B', 'C', 'D'];
-    const p1XCols = [344, 367, 390, 412];
+    const p1XCols = [310, 330, 350, 369];
 
     if (!isKHTN) {
-      // Toán: 12 câu (286 đến 536, bước ~22.7)
-      const p1YRowsToan = [286, 308, 331, 354, 376, 399, 422, 445, 468, 490, 513, 536];
+      // Toán: 12 câu
+      const p1YRowsToan = [
+        262, 281, 300, 319, 338, 357, 
+        376, 395, 414, 433, 452, 471
+      ];
       for (let q = 1; q <= 12; q++) {
         const y = p1YRowsToan[q - 1];
         const bubbles = p1Opts.map((opt, idx) => ({
@@ -131,9 +154,9 @@ class QM2025TemplateRenderer {
         gridMap.part1.push({ question: q, bubbles });
       }
     } else {
-      // KHTN: 18 câu
+      // KHTN: 18 câu chia làm 2 khối
       // Khối 1: Câu 1 đến 9
-      const p1YRows1 = [98, 121, 144, 166, 189, 212, 235, 257, 280];
+      const p1YRows1 = [89, 108, 127, 146, 165, 184, 203, 222, 241];
       for (let q = 1; q <= 9; q++) {
         const y = p1YRows1[q - 1];
         const bubbles = p1Opts.map((opt, idx) => ({
@@ -145,7 +168,7 @@ class QM2025TemplateRenderer {
         gridMap.part1.push({ question: q, bubbles });
       }
       // Khối 2: Câu 10 đến 18
-      const p1YRows2 = [354, 376, 399, 422, 445, 467, 490, 513, 536];
+      const p1YRows2 = [319, 338, 357, 376, 395, 414, 433, 452, 471];
       for (let q = 10; q <= 18; q++) {
         const y = p1YRows2[q - 10];
         const bubbles = p1Opts.map((opt, idx) => ({
@@ -158,15 +181,15 @@ class QM2025TemplateRenderer {
       }
     }
 
-    // 4. Phần II (4 câu, mỗi câu 4 ý a,b,c,d, 2 cột Đ, S)
+    // 4. Phần II (4 câu, mỗi câu 4 ý a,b,c,d)
     const p2Cols = [
-      { d: 718, s: 744 },
-      { d: 824, s: 850 },
-      { d: 930, s: 956 },
-      { d: 1036, s: 1062 }
+      { d: 638, s: 660 },
+      { d: 732, s: 755 },
+      { d: 826, s: 848 },
+      { d: 920, s: 942 }
     ];
     const p2SubItems = ['a', 'b', 'c', 'd'];
-    const p2YRows = [112, 138, 164, 190];
+    const p2YRows = [105, 128, 151, 174];
 
     for (let c = 1; c <= 4; c++) {
       const colX = p2Cols[c - 1];
@@ -183,10 +206,14 @@ class QM2025TemplateRenderer {
     }
 
     // 5. Phần III (6 câu trả lời ngắn)
-    const p3StartX = 480;
-    const p3StepQ = 114;
-    const p3DigitStep = 23;
-    const p3YRows = [286, 308, 331, 354, 376, 399, 422, 445, 468, 490, 513, 536]; // - , 0 1 2 3 4 5 6 7 8 9
+    const p3StartX = 427;
+    const p3StepQ = 101;
+    const p3DigitStep = 20;
+    const p3YRows = [
+      262, // '-'
+      282, // ','
+      301, 320, 339, 358, 377, 396, 415, 434, 453, 472 // '0' -> '9'
+    ];
 
     for (let q = 1; q <= 6; q++) {
       const qBaseX = p3StartX + (q - 1) * p3StepQ;
@@ -196,7 +223,7 @@ class QM2025TemplateRenderer {
         const digitX = qBaseX + d * p3DigitStep;
         const bubbles = [];
 
-        // Hàng 0: Dấu '-' (chỉ có ở cột 0)
+        // Hàng 0: Dấu '-' (chỉ ở cột 0)
         if (d === 0) {
           bubbles.push({ char: '-', x: digitX, y: p3YRows[0], radius: radius });
         }
@@ -219,7 +246,7 @@ class QM2025TemplateRenderer {
   }
 
   /**
-   * Vẽ phiếu thi hoàn chỉnh lên một HTML5 Canvas
+   * Vẽ phiếu thi hoàn chỉnh lên Canvas
    */
   renderToCanvas(canvas, type = 'TOAN', customInfo = {}) {
     const W = QM2025_CONFIG.WIDTH;
@@ -228,297 +255,38 @@ class QM2025TemplateRenderer {
     canvas.height = H;
     const ctx = canvas.getContext('2d');
 
-    const gridMap = this.generateGroundTruthGrid(type);
-    const isKHTN = (type === 'KHTN');
-    const tConfig = QM2025_TEMPLATES[type] || QM2025_TEMPLATES.TOAN;
-
-    // Nền trắng
-    ctx.fillStyle = '#ffffff';
-    ctx.fillRect(0, 0, W, H);
-
-    // Khung viền ngoài
-    const p = QM2025_CONFIG.CORNER_PADDING;
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = '#000000';
-    ctx.strokeRect(p, p, W - 2 * p, H - 2 * p);
-
-    // 4 ô vuông định vị góc đen
-    const mSize = QM2025_CONFIG.CORNER_MARKER_SIZE;
-    ctx.fillStyle = '#000000';
-    ctx.fillRect(p, p, mSize, mSize); // TL
-    ctx.fillRect(W - p - mSize, p, mSize, mSize); // TR
-    ctx.fillRect(p, H - p - mSize, mSize, mSize); // BL
-    ctx.fillRect(W - p - mSize, H - p - mSize, mSize, mSize); // BR
-
-    // Đường kẻ phân khối lớn
-    ctx.beginPath();
-    ctx.lineWidth = 1.2;
-    // Đường ngang chính: y = 250
-    ctx.moveTo(p, 250);
-    ctx.lineTo(W - p, 250);
-
-    // Đường dọc ngăn Header và Phần II: x = 650
-    ctx.moveTo(650, p);
-    ctx.lineTo(650, 250);
-
-    // Đường dọc ngăn Mã Đề và SBD: x = 125
-    ctx.moveTo(125, 250);
-    ctx.lineTo(125, H - p);
-
-    // Đường dọc ngăn SBD và Phần I: x = 300
-    ctx.moveTo(300, 250);
-    ctx.lineTo(300, H - p);
-
-    if (!isKHTN) {
-      // Đường dọc ngăn Phần I và Phần III (Toán): x = 445
-      ctx.moveTo(445, 250);
-      ctx.lineTo(445, H - p);
+    const templateImg = this.images[type];
+    if (templateImg && templateImg.complete) {
+      // Vẽ phôi ảnh gốc chính thức sắc nét
+      ctx.drawImage(templateImg, 0, 0, W, H);
     } else {
-      // Môn KHTN: Phần I nhô lên Header từ y = 65
-      ctx.moveTo(300, 65);
-      ctx.lineTo(445, 65);
-      ctx.moveTo(445, 65);
-      ctx.lineTo(445, H - p);
-    }
-    ctx.stroke();
-
-    // ==========================================
-    // 1. HEADER & LOGO HCMUE
-    // ==========================================
-    const logoX = 60;
-    const logoY = 32;
-    const logoSize = 56;
-    if (this.logoLoaded && this.logoImg) {
-      try {
-        ctx.drawImage(this.logoImg, logoX, logoY, logoSize, logoSize);
-      } catch (e) {}
-    }
-
-    ctx.fillStyle = '#0054a6';
-    ctx.font = 'bold 14px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'left';
-    ctx.textBaseline = 'top';
-    ctx.fillText('TRƯỜNG ĐẠI HỌC SƯ PHẠM TP. HỒ CHÍ MINH', logoX + logoSize + 12, logoY + 4);
-
-    ctx.fillStyle = '#475569';
-    ctx.font = '600 11px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.fillText('TRUNG TÂM KHẢO THÍ & ĐÁNH GIÁ CHẤT LƯỢNG GIÁO DỤC', logoX + logoSize + 12, logoY + 24);
-
-    // Các dòng điền thông tin học sinh
-    ctx.fillStyle = '#000000';
-    ctx.font = 'bold 13px "Be Vietnam Pro", Arial, sans-serif';
-    const textStartX = 60;
-    const lineEnd = isKHTN ? 290 : 435;
-
-    // Họ tên
-    ctx.fillText('HỌ TÊN:', textStartX, 108);
-    this.drawDottedLine(ctx, textStartX + 60, 118, lineEnd, 118);
-
-    // Lớp
-    ctx.fillText('LỚP:', textStartX, 148);
-    this.drawDottedLine(ctx, textStartX + 42, 158, textStartX + 200, 158);
-
-    // Môn
-    ctx.fillText('MÔN:', textStartX, 188);
-    this.drawDottedLine(ctx, textStartX + 48, 198, textStartX + 200, 198);
-
-    // Ô Điểm
-    const boxX = isKHTN ? 340 : 460;
-    const boxY = isKHTN ? 140 : 130;
-    const boxW = 85;
-    const boxH = 68;
-    ctx.strokeRect(boxX, boxY, boxW, boxH);
-    ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('ĐIỂM:', boxX + boxW / 2, boxY + 16);
-
-    // ==========================================
-    // 2. MÃ ĐỀ
-    // ==========================================
-    ctx.fillStyle = '#000000';
-    ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('MÃ ĐỀ', 72, 268);
-
-    // 3 ô vuông viết số mã đề
-    for (let c = 0; c < 3; c++) {
-      ctx.strokeRect(34 + c * 23, 276, 20, 24);
-    }
-    // Vẽ bóng và nhãn số hàng 0-9
-    for (let r = 0; r <= 9; r++) {
-      const by = gridMap.made[r].y;
-      ctx.textAlign = 'right';
-      ctx.font = 'bold 11px Arial, sans-serif';
-      ctx.fillText(r.toString(), 28, by + 4);
-    }
-    gridMap.made.forEach(b => this.drawBubble(ctx, b.x, b.y, b.radius));
-
-    // ==========================================
-    // 3. SỐ BÁO DANH (6 CỘT)
-    // ==========================================
-    ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'center';
-    ctx.fillText('SỐ BÁO DANH', 211, 268);
-
-    // Mốc vuông đen cạnh SBD
-    ctx.fillRect(135, 276, 12, 12);
-    ctx.fillRect(135, 526, 12, 12);
-
-    for (let c = 0; c < 6; c++) {
-      ctx.strokeRect(144 + c * 23, 276, 20, 24);
-    }
-    for (let r = 0; r <= 9; r++) {
-      const by = gridMap.sbd[r].y;
-      ctx.textAlign = 'right';
-      ctx.font = 'bold 11px Arial, sans-serif';
-      ctx.fillText(r.toString(), 148, by + 4);
-    }
-    gridMap.sbd.forEach(b => this.drawBubble(ctx, b.x, b.y, b.radius));
-
-    // ==========================================
-    // 4. PHẦN I
-    // ==========================================
-    ctx.font = 'bold 13px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'center';
-    if (!isKHTN) {
-      ctx.fillText('PHẦN I', 378, 268);
-      ctx.fillRect(310, 276, 11, 11);
-      ctx.fillRect(310, 526, 11, 11);
-
-      ['A', 'B', 'C', 'D'].forEach((opt, idx) => {
-        ctx.font = 'bold 11px Arial, sans-serif';
-        ctx.fillText(opt, 344 + idx * 23, 280);
-      });
-      for (let q = 1; q <= 12; q++) {
-        const y = gridMap.part1[q - 1].bubbles[0].y;
-        ctx.textAlign = 'right';
-        ctx.font = 'bold 10px Arial, sans-serif';
-        ctx.fillText(q.toString(), 332, y + 3);
-      }
-    } else {
-      ctx.fillText('PHẦN I', 378, 80);
-      ctx.fillRect(310, 92, 10, 10);
-      ctx.fillRect(310, 348, 10, 10);
-
-      ['A', 'B', 'C', 'D'].forEach((opt, idx) => {
-        ctx.font = 'bold 11px Arial, sans-serif';
-        ctx.fillText(opt, 344 + idx * 23, 92);
-        ctx.fillText(opt, 344 + idx * 23, 348);
-      });
-      for (let q = 1; q <= 18; q++) {
-        const y = gridMap.part1[q - 1].bubbles[0].y;
-        ctx.textAlign = 'right';
-        ctx.font = 'bold 10px Arial, sans-serif';
-        ctx.fillText(q.toString(), 332, y + 3);
-      }
-    }
-    gridMap.part1.forEach(q => q.bubbles.forEach(b => this.drawBubble(ctx, b.x, b.y, b.radius)));
-
-    // ==========================================
-    // 5. PHẦN II (ĐÚNG / SAI 4 Ý)
-    // ==========================================
-    ctx.font = 'bold 13px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'left';
-    ctx.fillText('PHẦN II', 665, 45);
-
-    const subItemLabels = ['a)', 'b)', 'c)', 'd)'];
-    gridMap.part2.forEach((q, cIdx) => {
-      const qNum = q.question;
-      const refItem = q.items[0];
-      const mX = refItem.d_bubble.x - 38;
-
-      ctx.fillRect(mX, 68, 11, 11);
-      ctx.fillStyle = '#000000';
-      ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-      ctx.textAlign = 'left';
-      ctx.fillText(`Câu ${qNum}`, mX + 18, 77);
-
-      ctx.font = 'bold 11px Arial, sans-serif';
+      // Fallback nền trắng và vẽ tạm nếu ảnh đang tải
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, W, H);
+      ctx.fillStyle = '#0054a6';
+      ctx.font = 'bold 16px "Be Vietnam Pro", sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('Đ', refItem.d_bubble.x, 96);
-      ctx.fillText('S', refItem.s_bubble.x, 96);
+      ctx.fillText('Đang tải phôi phiếu thi chuẩn QM 2025...', W / 2, H / 2);
+    }
 
-      q.items.forEach((item, sIdx) => {
-        ctx.textAlign = 'right';
-        ctx.font = '11px Arial, sans-serif';
-        ctx.fillText(subItemLabels[sIdx], refItem.d_bubble.x - 14, item.d_bubble.y + 3);
-
-        this.drawBubble(ctx, item.d_bubble.x, item.d_bubble.y, item.d_bubble.radius);
-        this.drawBubble(ctx, item.s_bubble.x, item.s_bubble.y, item.s_bubble.radius);
-      });
-    });
-
-    // ==========================================
-    // 6. PHẦN III (TRẢ LỜI NGẮN 6 CÂU)
-    // ==========================================
-    ctx.font = 'bold 13px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'left';
-    ctx.fillText('PHẦN III', 455, 268);
-
-    gridMap.part3.forEach(q => {
-      const qNum = q.question;
-      const qBaseX = q.columns[0].bubbles[0].x - 10;
-
-      ctx.fillRect(qBaseX - 16, 276, 11, 11);
-      ctx.fillRect(qBaseX - 16, 526, 11, 11);
-
+    // Điền thêm thông tin lớp, môn nếu người dùng có cấu hình
+    if (customInfo.className) {
+      ctx.font = 'bold 13px "Be Vietnam Pro", sans-serif';
       ctx.fillStyle = '#000000';
-      ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(`Câu ${qNum}`, qBaseX + 42, 268);
+      ctx.fillText(customInfo.className, 130, 115);
+    }
+    if (customInfo.subjectName) {
+      ctx.font = 'bold 13px "Be Vietnam Pro", sans-serif';
+      ctx.fillStyle = '#000000';
+      ctx.fillText(customInfo.subjectName, 130, 150);
+    }
 
-      // 4 ô vuông viết số
-      for (let d = 0; d < 4; d++) {
-        ctx.strokeRect(qBaseX + d * 23, 276, 20, 24);
-      }
-
-      // Nhãn các hàng: -, ,, 0-9
-      ctx.textAlign = 'right';
-      ctx.font = 'bold 11px Arial, sans-serif';
-      ctx.fillText('-', qBaseX - 4, 290);
-      ctx.fillText(',', qBaseX - 4, 312);
-      for (let n = 0; n <= 9; n++) {
-        ctx.fillText(n.toString(), qBaseX - 4, 335 + n * 22.8);
-      }
-
-      q.columns.forEach(col => {
-        col.bubbles.forEach(b => this.drawBubble(ctx, b.x, b.y, b.radius));
-      });
-    });
-
-    // Footer
-    ctx.fillStyle = '#000000';
-    ctx.font = 'bold 12px "Be Vietnam Pro", Arial, sans-serif';
-    ctx.textAlign = 'right';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(tConfig.subName, W - p - mSize - 20, H - p - 16);
-    ctx.strokeRect(W - p - mSize - 310, H - p - 28, 295, 24);
-
-    return gridMap;
+    return this.generateGroundTruthGrid(type);
   }
 
-  drawDottedLine(ctx, x1, y1, x2, y2) {
-    ctx.save();
-    ctx.setLineDash([2, 4]);
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = '#333333';
-    ctx.beginPath();
-    ctx.moveTo(x1, y1);
-    ctx.lineTo(x2, y2);
-    ctx.stroke();
-    ctx.restore();
-  }
-
-  drawBubble(ctx, x, y, r) {
-    ctx.save();
-    ctx.beginPath();
-    ctx.arc(x, y, r, 0, Math.PI * 2);
-    ctx.lineWidth = 1.1;
-    ctx.strokeStyle = '#000000';
-    ctx.stroke();
-    ctx.restore();
-  }
-
+  /**
+   * Xuất file in PDF chất lượng cao (A4 chứa 2 phiếu hoặc A5 đơn)
+   */
   async exportPDF(type = 'TOAN', paperSize = 'A4', customInfo = {}) {
     if (!window.jspdf || !window.jspdf.jsPDF) {
       alert('Thư viện jsPDF chưa sẵn sàng.');
@@ -534,12 +302,12 @@ class QM2025TemplateRenderer {
     if (paperSize === 'A4') {
       doc = new jsPDF({ orientation: 'portrait', format: 'a4', unit: 'mm' });
       const pW = 196;
-      const pH = 98;
+      const pH = 105;
       const marginX = (210 - pW) / 2;
-      const marginY1 = 18;
+      const marginY1 = 15;
       const marginY2 = 160;
 
-      // Phiếu 1
+      // Phiếu 1 (nửa trên)
       doc.addImage(imgData, 'PNG', marginX, marginY1, pW, pH);
 
       // Đường cắt nét đứt
@@ -548,15 +316,15 @@ class QM2025TemplateRenderer {
       doc.line(10, 148.5, 200, 148.5);
       doc.setFontSize(8);
       doc.setTextColor(120, 120, 120);
-      doc.text('✂ Cắt theo đường nét đứt để chia thành 2 phiếu A5', 105, 147, { align: 'center' });
+      doc.text('✂ Cắt theo đường nét đứt để chia thành 2 phiếu A5 (ĐH Sư phạm TP.HCM)', 105, 147, { align: 'center' });
 
-      // Phiếu 2
+      // Phiếu 2 (nửa dưới)
       doc.addImage(imgData, 'PNG', marginX, marginY2, pW, pH);
       doc.save(`Phieu_Thi_QM2025_${type}_A4_2Phieu_HCMUE.pdf`);
     } else {
       doc = new jsPDF({ orientation: 'landscape', format: 'a5', unit: 'mm' });
       const pW = 196;
-      const pH = 98;
+      const pH = 105;
       const marginX = (210 - pW) / 2;
       const marginY = (148 - pH) / 2;
 

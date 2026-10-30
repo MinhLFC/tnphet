@@ -95,6 +95,9 @@
     <button class="app-tab-btn" data-tab="tab-print">
       🖨️ In & Xuất Phiếu Thi
     </button>
+    <button class="app-tab-btn text-emerald-600 font-bold" data-tab="tab-download">
+      📲 Tải App Điện Thoại
+    </button>
   </nav>
 
   <!-- ========================================================================= -->
@@ -353,6 +356,103 @@
       <!-- Khung xem trước mẫu phiếu -->
       <div class="overflow-auto border rounded-xl p-4 bg-slate-100 flex justify-center">
         <canvas id="sheetPreviewCanvas" class="bg-white shadow-md max-w-full h-auto rounded"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 6: TRUNG TÂM TẢI APP (ANDROID, SAMSUNG, IPHONE) -->
+  <!-- ========================================================================= -->
+  <section id="tab-download" class="app-tab-content">
+    <div class="card p-6 space-y-6">
+      <div class="border-b pb-4">
+        <h2 class="text-xl font-extrabold text-primary flex items-center gap-2">
+          📲 Tải Ứng Dụng Chấm Thi QM 2025 Cho Điện Thoại
+        </h2>
+        <p class="text-xs text-slate-500 mt-1">
+          Hỗ trợ đầy đủ điện thoại Android (Samsung, Xiaomi, Oppo, Vivo...), iPhone (iOS) và máy tính bảng.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Cột 1: Android & Samsung (APK) -->
+        <div class="border-2 border-emerald-500 rounded-2xl p-5 bg-emerald-50/40 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-3xl">🤖</span>
+              <div>
+                <h3 class="font-bold text-slate-800 text-sm">Điện Thoại Android & Samsung</h3>
+                <span class="text-[11px] text-emerald-700 font-semibold bg-emerald-100 px-2 py-0.5 rounded-full">Cài đặt trực tiếp (.APK)</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mb-4">
+              Tải file cài đặt APK chính thức để cài trực tiếp vào máy. Không giới hạn số lần quét, chấm bài nhanh bằng camera sau.
+            </p>
+            <ul class="text-xs space-y-1.5 text-slate-500 mb-4">
+              <li>✓ Tương thích Samsung Galaxy, Xiaomi, Oppo, Vivo...</li>
+              <li>✓ Android 7.0 trở lên</li>
+              <li>✓ Quét offline không cần 4G/Wifi</li>
+            </ul>
+          </div>
+
+          <a href="mobile_app/qm2025-chamthi-hcmue.apk" download="qm2025-chamthi-hcmue.apk" 
+             class="btn btn-success w-full text-center font-bold text-sm shadow-md hover:shadow-lg">
+            ⬇️ Tải File APK Cho Android / Samsung
+          </a>
+        </div>
+
+        <!-- Cột 2: iPhone / iPad (iOS) -->
+        <div class="border-2 border-blue-500 rounded-2xl p-5 bg-blue-50/40 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-3xl">🍏</span>
+              <div>
+                <h3 class="font-bold text-slate-800 text-sm">iPhone & iPad (Apple iOS)</h3>
+                <span class="text-[11px] text-blue-700 font-semibold bg-blue-100 px-2 py-0.5 rounded-full">Cài 1 Chạm (PWA)</span>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mb-3">
+              iOS không cho phép cài file APK ngoài App Store. Hệ thống đã tối ưu công nghệ Web App PWA để cài trực tiếp lên iPhone trong 3 giây:
+            </p>
+            <div class="bg-white p-3 rounded-xl border border-blue-200 text-xs space-y-2 mb-4 text-slate-700">
+              <div class="flex items-start gap-2">
+                <span class="font-bold text-primary">1.</span>
+                <span>Mở trang web này trên trình duyệt <strong>Safari</strong> của iPhone.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="font-bold text-primary">2.</span>
+                <span>Bấm nút <strong>Chia sẻ (Share)</strong> [biểu tượng ô vuông có mũi tên lên].</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="font-bold text-primary">3.</span>
+                <span>Cuộn xuống chọn <strong>"Thêm vào MH chính"</strong> (Add to Home Screen).</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center text-xs text-blue-800 font-bold bg-blue-100/60 py-2 rounded-lg">
+            ✓ Icon ứng dụng HCMUE sẽ xuất hiện trên màn hình iPhone
+          </div>
+        </div>
+
+        <!-- Cột 3: Quét Mã QR -->
+        <div class="border-2 border-slate-300 rounded-2xl p-5 bg-white flex flex-col items-center text-center justify-between">
+          <div>
+            <div class="flex items-center justify-center gap-2 mb-2">
+              <span class="text-3xl">📷</span>
+              <h3 class="font-bold text-slate-800 text-sm">Quét Mã QR Để Mở Trên Điện Thoại</h3>
+            </div>
+            <p class="text-xs text-slate-500 mb-3">
+              Mở camera của điện thoại quét mã QR bên dưới để mở ngay ứng dụng:
+            </p>
+            <div class="p-2 border rounded-xl inline-block bg-white shadow-sm mb-3">
+              <img src="assets/images/qr-download-app.png" alt="Mã QR tải ứng dụng" class="w-36 h-36 object-contain">
+            </div>
+          </div>
+          <div class="text-[11px] text-slate-400">
+            * Áp dụng cho mọi dòng máy Samsung, iPhone, Oppo, Xiaomi...
+          </div>
+        </div>
       </div>
     </div>
   </section>
