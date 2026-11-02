@@ -1,11 +1,14 @@
 /**
  * ============================================================================
- * MODULE TRÌNH CHIẾU & SỬA BÀI BỘ 4 ĐỀ ÔN TẬP & CHUYÊN ĐỀ VẬT LÍ 12
+ * MODULE TRÌNH CHIẾU & SỬA BÀI BỘ 7 ĐỀ ÔN TẬP & CHUYÊN ĐỀ VẬT LÍ 12
  * Gồm:
  *   1. Đề 1 Giữa kì (25 câu: 16 ABCD + 3 Đ/S + 6 TLN)
  *   2. Đề 2 Giữa kì (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
  *   3. Đề cương GK1 (78 câu: 57 ABCD + 8 Đ/S + 13 TLN - 6 Bài học)
  *   4. Chuyên đề Nhiệt hóa hơi riêng (41 câu: 37 ABCD + 4 Đ/S)
+ *   5. CĐ2: Bài tập luyện tập (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
+ *   6. CĐ2: Bài tập tự luyện (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
+ *   7. CĐ2: Phân hóa theo mức độ (45 câu: 30 ABCD + 7 Đ/S + 8 TLN)
  *
  * Tính năng:
  * - Chế độ Trình chiếu (Slide) & Danh sách (List)
@@ -337,7 +340,7 @@
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
               <button type="button" class="math-category-tab-btn active" style="cursor: default;">
-                ⚡ Bộ 4 Đề Ôn Tập Giữa Kì I & Chuyên Đề Vật Lí 12 (Chương 1: Vật Lí Nhiệt)
+                ⚡ Bộ 7 Đề Ôn Tập & Chuyên Đề Vật Lí 12 (Vật Lí Nhiệt & Khí Lí Tưởng)
               </button>
             </div>
 
@@ -362,7 +365,7 @@
             </div>
           </div>
 
-          <div class="math-exam-grid-20" style="grid-template-columns: repeat(4, minmax(0, 1fr));">
+          <div class="math-exam-grid-20" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px;">
             ${examList.map((ex, i) => {
               const num = i + 1;
               const isAct = state.currentExamId === ex.code;
