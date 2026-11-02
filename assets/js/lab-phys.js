@@ -25,6 +25,7 @@
   const STORAGE_KEY = 'tnphet_phys_quiz_state_v2';
 
   const state = {
+    category: 'nhiet', // 'nhiet' | 'khilituong'
     currentExamId: 'ly_de1',
     mode: 'slide', // 'slide' | 'list'
     currentIndex: 0,
@@ -212,8 +213,12 @@
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const p = JSON.parse(saved);
+        if (p.category) state.category = p.category;
         if (p.currentExamId && window.PHYS_EXAMS_DATA && window.PHYS_EXAMS_DATA[p.currentExamId]) {
           state.currentExamId = p.currentExamId;
+          if (p.currentExamId.startsWith('ly_cd2_')) {
+            state.category = 'khilituong';
+          }
         }
         if (p.starredQuestions) state.starredQuestions = p.starredQuestions;
         if (p.mcqAnswers) state.mcqAnswers = p.mcqAnswers;
@@ -229,6 +234,7 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        category: state.category,
         currentExamId: state.currentExamId,
         starredQuestions: state.starredQuestions,
         mcqAnswers: state.mcqAnswers,
@@ -278,7 +284,12 @@
     }
     const stats = getExamStats();
     const exams = window.PHYS_EXAMS_DATA || {};
-    const examList = Object.values(exams);
+    const allExams = Object.values(exams);
+    const curCat = state.category || (state.currentExamId.startsWith('ly_cd2_') ? 'khilituong' : 'nhiet');
+    state.category = curCat;
+    const nhietExams = allExams.filter(e => e.group !== 'khilituong' && !e.code.startsWith('ly_cd2_'));
+    const khiLiTuongExams = allExams.filter(e => e.group === 'khilituong' || e.code.startsWith('ly_cd2_'));
+    const activeExamList = curCat === 'khilituong' ? (khiLiTuongExams.length ? khiLiTuongExams : allExams) : nhietExams;
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="physWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -339,8 +350,19 @@
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
-              <button type="button" class="math-category-tab-btn active" style="cursor: default;">
-                ⚡ Bộ 7 Đề Ôn Tập & Chuyên Đề Vật Lí 12 (Vật Lí Nhiệt & Khí Lí Tưởng)
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'nhiet' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('nhiet')"
+              >
+                ⚡ Ôn Tập Giữa Kì 1 &amp; CĐ1 (Vật Lí Nhiệt)
+              </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'khilituong' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('khilituong')"
+              >
+                🎈 Chuyên Đề 2: Khí Lí Tưởng (3 Đề - 101 câu)
               </button>
             </div>
 
@@ -365,19 +387,19 @@
             </div>
           </div>
 
-          <div class="math-exam-grid-20" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px;">
-            ${examList.map((ex, i) => {
-              const num = i + 1;
+          <div class="phys-exam-pill-row" style="display: flex; flex-wrap: wrap; gap: 10px; padding-top: 0.65rem; border-top: 1px dashed var(--border-color);">
+            ${activeExamList.map((ex, i) => {
               const isAct = state.currentExamId === ex.code;
               const hasProg = hasExamProgress(ex.code);
               return `
                 <button
                   type="button"
                   class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                  style="flex: 1 1 180px; min-width: 150px; padding: 10px 18px; font-weight: 700; font-size: 0.88rem; white-space: normal; line-height: 1.35; border-radius: 10px;"
                   onclick="window.PhysQuizApp.selectExam('${ex.code}')"
                   title="Chuyển sang ${ex.title}"
                 >
-                  ${ex.shortTitle || ('Đề ' + num)}
+                  ${ex.shortTitle || ex.title}
                 </button>
               `;
             }).join('')}
@@ -933,8 +955,25 @@
       renderPhysApp();
     },
 
+    selectCategory: function (cat) {
+      state.category = cat;
+      if (cat === 'khilituong') {
+        state.currentExamId = 'ly_cd2_luyentap';
+      } else {
+        state.currentExamId = 'ly_de1';
+      }
+      state.currentIndex = 0;
+      saveState();
+      renderPhysApp();
+    },
+
     selectExam: function (examCode) {
       state.currentExamId = examCode;
+      if (examCode.startsWith('ly_cd2_')) {
+        state.category = 'khilituong';
+      } else {
+        state.category = 'nhiet';
+      }
       state.currentIndex = 0;
       saveState();
       renderPhysApp();

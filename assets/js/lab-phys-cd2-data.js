@@ -17,6 +17,7 @@
   "ly_cd2_luyentap": {
     "code": "ly_cd2_luyentap",
     "num": 5,
+    "group": "khilituong",
     "title": "CHUYÊN ĐỀ 2: BÀI TẬP LUYỆN TẬP — MÔ HÌNH ĐỘNG HỌC PHÂN TỬ CHẤT KHÍ",
     "shortTitle": "CĐ2: Luyện tập (28 câu)",
     "subtitle": "Vật lí 12 • 18 câu ABCD • 4 câu Đúng/Sai • 6 câu Trả lời ngắn",
@@ -618,6 +619,7 @@
   "ly_cd2_tuluyen": {
     "code": "ly_cd2_tuluyen",
     "num": 6,
+    "group": "khilituong",
     "title": "CHUYÊN ĐỀ 2: BÀI TẬP TỰ LUYỆN — MÔ HÌNH ĐỘNG HỌC PHÂN TỬ CHẤT KHÍ",
     "shortTitle": "CĐ2: Tự luyện (28 câu)",
     "subtitle": "Vật lí 12 • 18 câu ABCD • 4 câu Đúng/Sai • 6 câu Trả lời ngắn",
@@ -1219,6 +1221,7 @@
   "ly_cd2_mucdo": {
     "code": "ly_cd2_mucdo",
     "num": 7,
+    "group": "khilituong",
     "title": "CHUYÊN ĐỀ 2: BÀI TẬP PHÂN HÓA THEO MỨC ĐỘ — KHÍ LÍ TƯỞNG",
     "shortTitle": "CĐ2: Phân mức độ (45 câu)",
     "subtitle": "Vật lí 12 • 30 câu ABCD • 7 câu Đúng/Sai • 8 câu Trả lời ngắn",

@@ -119,12 +119,15 @@
     font-size: 0.72rem !important;
   }
   .brand-logo-img {
-    height: 40px;
+    height: 38px;
   }
   .header-nav-pill {
-    padding: 0.26rem 0.42rem;
-    font-size: 0.75rem;
-    gap: 0.2rem;
+    padding: 0.22rem 0.38rem;
+    font-size: 0.73rem;
+    gap: 0.16rem;
+  }
+  .header-nav-pills {
+    gap: 0.15rem;
   }
 }
 
@@ -152,6 +155,7 @@
     height: 36px;
   }
   .theme-toggle-btn {
+  flex-shrink: 0 !important;
     width: 36px !important;
     height: 36px !important;
   }
