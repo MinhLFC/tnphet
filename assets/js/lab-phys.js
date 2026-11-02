@@ -146,6 +146,96 @@
     return 'UNANSWERED';
   }
 
+  
+  // ==========================================
+  // HELPER: FORMAT LATEX / MATH TO CLEAN HTML
+  // ==========================================
+  function formatMathHtml(str) {
+    if (!str || typeof str !== 'string') return str || '';
+    if (!str.includes('$') && !str.includes('\\')) return str;
+
+    // Convert display math $$...$$
+    str = str.replace(/\$\$(.*?)\$\$/gs, function(_, expr) {
+      return '<div style="margin: 0.35rem 0; font-style: italic; font-weight: 500;">' + cleanMathExpr(expr) + '</div>';
+    });
+
+    // Convert inline math $...$
+    str = str.replace(/\$(.*?)\$/gs, function(_, expr) {
+      return cleanMathExpr(expr);
+    });
+
+    return str;
+  }
+
+  function cleanMathExpr(expr) {
+    if (!expr) return '';
+    expr = expr.trim();
+    while (expr.includes('\\\\')) expr = expr.replace(/\\\\/g, '\\');
+
+    // Units
+    expr = expr.replace(/\\text\{dm\}\^3/g, 'dm<sup>3</sup>')
+               .replace(/\\text\{m\}\^3/g, 'm<sup>3</sup>')
+               .replace(/\\text\{cm\}\^3/g, 'cm<sup>3</sup>')
+               .replace(/\\text\{mol\}\^\{-1\}/g, 'mol<sup>-1</sup>')
+               .replace(/\\text\{K\}\^\{-1\}/g, 'K<sup>-1</sup>');
+
+    // Text tags
+    expr = expr.replace(/\\text\{([^}]+)\}/g, '$1')
+               .replace(/\\mathrm\{([^}]+)\}/g, '$1')
+               .replace(/\\mathbf\{([^}]+)\}/g, '<b>$1</b>')
+               .replace(/\\mathit\{([^}]+)\}/g, '<i>$1</i>');
+
+    // Symbols
+    expr = expr.replace(/\\cdot/g, ' · ')
+               .replace(/\\times/g, ' × ')
+               .replace(/\\approx/g, ' ≈ ')
+               .replace(/\\le(q)?/g, ' ≤ ')
+               .replace(/\\ge(q)?/g, ' ≥ ')
+               .replace(/\\ne(q)?/g, ' ≠ ')
+               .replace(/\\pm/g, ' ± ')
+               .replace(/\\mp/g, ' ∓ ')
+               .replace(/\\infty/g, '∞')
+               .replace(/\\alpha/g, 'α')
+               .replace(/\\beta/g, 'β')
+               .replace(/\\gamma/g, 'γ')
+               .replace(/\\Delta/g, 'Δ')
+               .replace(/\\delta/g, 'δ')
+               .replace(/\\rho/g, 'ρ')
+               .replace(/\\mu/g, 'μ')
+               .replace(/\\pi/g, 'π')
+               .replace(/\\sim/g, ' ~ ')
+               .replace(/\\propto/g, ' ∝ ')
+               .replace(/\\implies/g, ' ⟹ ')
+               .replace(/\\iff/g, ' ⟺ ')
+               .replace(/\\rightarrow|\\to/g, ' → ')
+               .replace(/\^\\circ|\^\{\\circ\}|\\degree/g, '°');
+
+    expr = expr.replace(/\\left\(/g, '(').replace(/\\right\)/g, ')')
+               .replace(/\\left\[/g, '[').replace(/\\right\]/g, ']')
+               .replace(/\\left\\\{/g, '{').replace(/\\right\\\}/g, '}');
+
+    // Fractions
+    while (expr.includes('\\frac')) {
+      var match = expr.match(/\\frac\{([^{}]+)\}\{([^{}]+)\}/);
+      if (!match) break;
+      var num = match[1].trim();
+      var den = match[2].trim();
+      var repl = (/[+·×=-]/.test(num) || /[+·×=-]/.test(den)) ? '(' + num + ')/(' + den + ')' : num + '/' + den;
+      expr = expr.slice(0, match.index) + repl + expr.slice(match.index + match[0].length);
+    }
+
+    // Sub & sup
+    expr = expr.replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>')
+               .replace(/_\{([^}]+)\}/g, '<sub>$1</sub>')
+               .replace(/_([0-9]+)/g, '<sub>$1</sub>')
+               .replace(/_([A-Za-z])(?![a-zA-Z0-9])/g, '<sub>$1</sub>')
+               .replace(/\^([+-]?[0-9]+)/g, '<sup>$1</sup>')
+               .replace(/\^([A-Za-z])(?![a-zA-Z0-9])/g, '<sup>$1</sup>');
+
+    expr = expr.replace(/\\[a-zA-Z]+/g, '').replace(/\\/g, '');
+    return expr.replace(/\s+/g, ' ').trim();
+  }
+
   function getExamStats() {
     const exam = getCurrentExam();
     if (!exam || !exam.questions) return { total: 0, answered: 0, correct: 0, totalScore: '0.00' };
@@ -609,7 +699,7 @@
       </div>
 
       <div class="slide-q-body ${q.figure ? 'has-figure' : ''}">
-        <div class="slide-q-text">${q.prompt || q.question || ''}</div>
+        <div class="slide-q-text">${formatMathHtml(q.prompt || q.question || '')}</div>
 
         ${q.figure ? `
           <div class="slide-q-figure" onclick="window.PhysQuizApp.zoomImage('${q.figure}', '${escapeAttr((exam.shortTitle || exam.title) + ' • ' + (q.label || 'Câu ' + q.qnum))}')" title="Nhấn vào hình để phóng to toàn màn hình">
@@ -628,7 +718,7 @@
             <span class="explanation-ans-badge">${getAnswerBadgeText(q)}</span>
           </div>
           <div class="explanation-content">
-            ${q.explanation || 'Đang cập nhật hướng dẫn giải chi tiết.'}
+            ${formatMathHtml(q.explanation || 'Đang cập nhật hướng dẫn giải chi tiết.')}
           </div>
         </div>
       ` : ''}
@@ -680,7 +770,7 @@
                 onclick="window.PhysQuizApp.selectMcq(${q.id}, '${letter}')"
               >
                 <span class="option-letter">${letter}</span>
-                <span class="option-content">${options[letter] || ''}</span>
+                <span class="option-content">${formatMathHtml(options[letter] || '')}</span>
                 ${statusIcon ? `<span class="option-status-icon">${statusIcon}</span>` : ''}
               </button>
             `;
@@ -729,7 +819,7 @@
               <div class="math-tf-row ${rowClass}">
                 <div class="math-tf-statement">
                   <span class="math-tf-key">${subKey.toUpperCase()}</span>
-                  <span>${items[subKey] || ''}</span>
+                  <span>${formatMathHtml(items[subKey] || '')}</span>
                 </div>
                 <div class="math-tf-actions">
                   <button

@@ -39,7 +39,7 @@
           "D": "Có khối lượng không đáng kể (có thể bỏ qua)."
         },
         "answer": "D",
-        "explanation": "Theo mô hình khí lí tưởng:<br>• Các phân tử khí được coi là các <b>chất điểm</b> (thể tích riêng của các phân tử có thể bỏ qua so với thể tích bình chứa).<br>• Khi chưa va chạm, lực tương tác giữa các phân tử rất yếu nên có thể bỏ qua.<br>• Tuy nhiên, <b>mỗi phân tử khí luôn có khối lượng xác định</b>, không thể bỏ qua khối lượng của chúng (vì khi va chạm với thành bình, các phân tử truyền động lượng $p = mv$ gây ra áp suất lên thành bình). Do đó, phát biểu 'khối lượng không đáng kể' là <b>không đúng</b>.<br>⟶ Chọn <b>D</b>.",
+        "explanation": "Theo mô hình khí lí tưởng:<br>• Các phân tử khí được coi là các <b>chất điểm</b> (thể tích riêng của các phân tử có thể bỏ qua so với thể tích bình chứa).<br>• Khi chưa va chạm, lực tương tác giữa các phân tử rất yếu nên có thể bỏ qua.<br>• Tuy nhiên, <b>mỗi phân tử khí luôn có khối lượng xác định</b>, không thể bỏ qua khối lượng của chúng (vì khi va chạm với thành bình, các phân tử truyền động lượng p = mv gây ra áp suất lên thành bình). Do đó, phát biểu 'khối lượng không đáng kể' là <b>không đúng</b>.<br>⟶ Chọn <b>D</b>.",
         "prompt": "Câu nào sau đây nói về các phân tử khí lí tưởng là <b>không đúng</b>?"
       },
       {
@@ -99,7 +99,7 @@
           "D": "liên kết lại chặt chẽ với nhau."
         },
         "answer": "C",
-        "explanation": "Theo thuyết động học phân tử, nhiệt độ của chất khí tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử: $E_d = \\frac{1}{2}m\\overline{v^2} = \\frac{3}{2}kT$. Khi nhiệt độ tăng, động năng trung bình tăng nên <b>tốc độ chuyển động trung bình của các phân tử khí tăng lên</b>.<br>⟶ Chọn <b>C</b>.",
+        "explanation": "Theo thuyết động học phân tử, nhiệt độ của chất khí tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử: E<sub>d</sub> = 1/2mv<sup>2</sup>&#773; = 3/2kT. Khi nhiệt độ tăng, động năng trung bình tăng nên <b>tốc độ chuyển động trung bình của các phân tử khí tăng lên</b>.<br>⟶ Chọn <b>C</b>.",
         "prompt": "Khi đun nóng khối khí trong một bình kín thì các phân tử khí sẽ"
       },
       {
@@ -151,16 +151,16 @@
         "label": "Phần 1 - Câu 7",
         "topic": "Lượng chất và khối lượng mol",
         "figure": null,
-        "question": "Một lượng khí có khối lượng là 30 kg và chứa $11,28 \\cdot 10^{26}$ phân tử. Phân tử khí này chỉ gồm các nguyên tử hydrogen và carbon. Biết số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Khí này là",
+        "question": "Một lượng khí có khối lượng là 30 kg và chứa 11,28 · 10<sup>26</sup> phân tử. Phân tử khí này chỉ gồm các nguyên tử hydrogen và carbon. Biết số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Khí này là",
         "options": {
-          "A": "$\\text{CH}_3$.",
-          "B": "$\\text{CH}_4$.",
-          "C": "$\\text{C}_2\\text{H}_4$.",
-          "D": "$\\text{C}_2\\text{H}_2$."
+          "A": "CH<sub>3</sub>.",
+          "B": "CH<sub>4</sub>.",
+          "C": "C<sub>2</sub>H<sub>4</sub>.",
+          "D": "C<sub>2</sub>H<sub>2</sub>."
         },
         "answer": "B",
-        "explanation": "Số mol của lượng khí là:<br>$$n = \\frac{N}{N_A} = \\frac{11,28 \\cdot 10^{26}}{6,02 \\cdot 10^{23}} \\approx 1873,75\\text{ mol}$$<br>Khối lượng mol của chất khí là:<br>$$M = \\frac{m}{n} = \\frac{30 \\cdot 10^3\\text{ g}}{1873,75\\text{ mol}} \\approx 16\\text{ g/mol}$$<br>Vì phân tử gồm C và H nên với $M = 16\\text{ g/mol}$, công thức phân tử là $\\text{CH}_4$ (Methane: $12 + 4 \\times 1 = 16$).<br>⟶ Chọn <b>B</b>.",
-        "prompt": "Một lượng khí có khối lượng là 30 kg và chứa $11,28 \\cdot 10^{26}$ phân tử. Phân tử khí này chỉ gồm các nguyên tử hydrogen và carbon. Biết số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Khí này là"
+        "explanation": "Số mol của lượng khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (11,28 · 10<sup>26</sup>) / (6,02 · 10<sup>23</sup>) ≈ 1873,75 mol</div><br>Khối lượng mol của chất khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">M = m/n = (30 · 10<sup>3</sup> g) / (1873,75 mol) ≈ 16 g/mol</div><br>Vì phân tử gồm C và H nên với M = 16 g/mol, công thức phân tử là CH<sub>4</sub> (Methane: 12 + 4 × 1 = 16).<br>⟶ Chọn <b>B</b>.",
+        "prompt": "Một lượng khí có khối lượng là 30 kg và chứa 11,28 · 10<sup>26</sup> phân tử. Phân tử khí này chỉ gồm các nguyên tử hydrogen và carbon. Biết số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Khí này là"
       },
       {
         "id": 8,
@@ -179,7 +179,7 @@
           "D": "phân tử khí chuyển động chậm hơn, va chạm vào thành bình ít hơn và yếu hơn."
         },
         "answer": "D",
-        "explanation": "Khi nhiệt độ trong bình giảm, tốc độ chuyển động nhiệt trung bình của các phân tử giảm đi. Do đó, các phân tử va đập vào thành bình với tần số ít hơn và truyền độ biến thiên động lượng nhỏ hơn, làm cho lực tác dụng lên thành bình giảm $\\implies$ áp suất khí giảm.<br>⟶ Chọn <b>D</b>.",
+        "explanation": "Khi nhiệt độ trong bình giảm, tốc độ chuyển động nhiệt trung bình của các phân tử giảm đi. Do đó, các phân tử va đập vào thành bình với tần số ít hơn và truyền độ biến thiên động lượng nhỏ hơn, làm cho lực tác dụng lên thành bình giảm ⟹ áp suất khí giảm.<br>⟶ Chọn <b>D</b>.",
         "prompt": "Khi nhiệt độ trong một bình kín giảm thì áp suất của khối khí trong bình đó cũng giảm là vì"
       },
       {
@@ -199,7 +199,7 @@
           "D": "Thể tích bình chứa khí tăng và áp suất khí trong bình tăng."
         },
         "answer": "A",
-        "explanation": "Khi ấn pit-tông xuống, không gian chứa khí bị thu hẹp lại nên <b>thể tích khí giảm</b>. Mật độ phân tử khí tăng lên làm số va chạm vào thành bình tăng $\\implies$ <b>áp suất khí trong bình tăng lên</b> (theo định luật Boyle: $p \\sim 1/V$).<br>⟶ Chọn <b>A</b>.",
+        "explanation": "Khi ấn pit-tông xuống, không gian chứa khí bị thu hẹp lại nên <b>thể tích khí giảm</b>. Mật độ phân tử khí tăng lên làm số va chạm vào thành bình tăng ⟹ <b>áp suất khí trong bình tăng lên</b> (theo định luật Boyle: p ~ 1/V).<br>⟶ Chọn <b>A</b>.",
         "prompt": "Khi ấn pit-tông bơm xe đạp (bịt kín đầu vòi), hiện tượng xảy ra với lượng khí bên trong bơm là"
       },
       {
@@ -219,7 +219,7 @@
           "D": "vuông góc lên một đơn vị diện tích thành bình."
         },
         "answer": "D",
-        "explanation": "Theo định nghĩa vật lí: Áp suất $p = \\frac{F}{S}$ là độ lớn của áp lực (lực tác dụng vuông góc) tính trên <b>một đơn vị diện tích</b> của bề mặt bị ép.<br>⟶ Chọn <b>D</b>.",
+        "explanation": "Theo định nghĩa vật lí: Áp suất p = F/S là độ lớn của áp lực (lực tác dụng vuông góc) tính trên <b>một đơn vị diện tích</b> của bề mặt bị ép.<br>⟶ Chọn <b>D</b>.",
         "prompt": "Áp suất của chất khí tác dụng lên thành bình là do lực tác dụng"
       },
       {
@@ -271,16 +271,16 @@
         "label": "Phần 1 - Câu 13",
         "topic": "Hằng số Avogadro",
         "figure": null,
-        "question": "Số Avogadro $N_A$ có giá trị bằng",
+        "question": "Số Avogadro N<sub>A</sub> có giá trị bằng",
         "options": {
-          "A": "số phân tử chứa trong 20,4 lít khí $\\text{H}_2$ ở đktc.",
-          "B": "số phân tử chứa trong 16 gam oxygen $\\text{O}_2$.",
-          "C": "số phân tử chứa trong 18 gam nước lỏng $\\text{H}_2\\text{O}$.",
-          "D": "số phân tử chứa trong 40 gam $\\text{CO}_2$."
+          "A": "số phân tử chứa trong 20,4 lít khí H<sub>2</sub> ở đktc.",
+          "B": "số phân tử chứa trong 16 gam oxygen O<sub>2</sub>.",
+          "C": "số phân tử chứa trong 18 gam nước lỏng H<sub>2</sub>O.",
+          "D": "số phân tử chứa trong 40 gam CO<sub>2</sub>."
         },
         "answer": "C",
-        "explanation": "Số Avogadro $N_A$ là số hạt vi mô (phân tử hoặc nguyên tử) chứa trong <b>1 mol chất</b>.<br>• Trong 18 g nước: $n = \\frac{18}{18} = 1\\text{ mol} \\implies N = 1 \\cdot N_A = N_A$ phân tử.<br>• Trong 16 g $\\text{O}_2$: $n = \\frac{16}{32} = 0,5\\text{ mol} \\implies N = 0,5N_A$.<br>⟶ Chọn <b>C</b>.",
-        "prompt": "Số Avogadro $N_A$ có giá trị bằng"
+        "explanation": "Số Avogadro N<sub>A</sub> là số hạt vi mô (phân tử hoặc nguyên tử) chứa trong <b>1 mol chất</b>.<br>• Trong 18 g nước: n = 18/18 = 1 mol ⟹ N = 1 · N<sub>A</sub> = N<sub>A</sub> phân tử.<br>• Trong 16 g O<sub>2</sub>: n = 16/32 = 0,5 mol ⟹ N = 0,5N<sub>A</sub>.<br>⟶ Chọn <b>C</b>.",
+        "prompt": "Số Avogadro N<sub>A</sub> có giá trị bằng"
       },
       {
         "id": 14,
@@ -299,7 +299,7 @@
           "D": "các phân tử khí khác nhau va chạm vào thành bình tác dụng vào thành bình những xung lượng bằng nhau."
         },
         "answer": "C",
-        "explanation": "Theo định luật Avogadro: Các thể tích bằng nhau của các chất khí khác nhau ở cùng điều kiện nhiệt độ và áp suất đều chứa số phân tử như nhau ($V_1 = V_2 \\implies N_1 = N_2$). Do đó, mật độ phân tử $n_0 = \\frac{N}{V}$ trong một đơn vị thể tích của mọi chất khí ở cùng đktc là hoàn toàn <b>như nhau</b>.<br>⟶ Chọn <b>C</b>.",
+        "explanation": "Theo định luật Avogadro: Các thể tích bằng nhau của các chất khí khác nhau ở cùng điều kiện nhiệt độ và áp suất đều chứa số phân tử như nhau (V<sub>1</sub> = V<sub>2</sub> ⟹ N<sub>1</sub> = N<sub>2</sub>). Do đó, mật độ phân tử n<sub>0</sub> = N/V trong một đơn vị thể tích của mọi chất khí ở cùng đktc là hoàn toàn <b>như nhau</b>.<br>⟶ Chọn <b>C</b>.",
         "prompt": "Trong cùng điều kiện tiêu chuẩn về nhiệt độ và áp suất thì"
       },
       {
@@ -359,7 +359,7 @@
           "D": "các phân tử khí chuyển động nhanh hơn, va chạm với thành bình mạnh hơn và thường xuyên hơn."
         },
         "answer": "D",
-        "explanation": "Trong bình kín, thể tích và số lượng phân tử là không đổi. Khi nhiệt độ tăng, động năng trung bình của phân tử tăng $\\implies$ <b>phân tử khí chuyển động nhanh hơn</b>. Sự va đập vào thành bình trở nên dồn dập hơn và xung lực truyền vào thành bình lớn hơn $\\implies$ áp suất chất khí tăng lên.<br>⟶ Chọn <b>D</b>.",
+        "explanation": "Trong bình kín, thể tích và số lượng phân tử là không đổi. Khi nhiệt độ tăng, động năng trung bình của phân tử tăng ⟹ <b>phân tử khí chuyển động nhanh hơn</b>. Sự va đập vào thành bình trở nên dồn dập hơn và xung lực truyền vào thành bình lớn hơn ⟹ áp suất chất khí tăng lên.<br>⟶ Chọn <b>D</b>.",
         "prompt": "Khi nhiệt độ trong một bình kín tăng cao thì áp suất của khối khí trong bình cũng tăng lên vì"
       },
       {
@@ -465,10 +465,10 @@
         "label": "Phần 2 - Câu 3",
         "topic": "Ước lượng phân tử khí",
         "figure": null,
-        "question": "Biết bán kính Trái Đất $R = 6400\\text{ km}$, phân tử oxygen là quả cầu bán kính $r = 10^{-10}\\text{ m}$, số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Xét các nhận định sau:",
+        "question": "Biết bán kính Trái Đất R = 6400 km, phân tử oxygen là quả cầu bán kính r = 10<sup>-10</sup> m, số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Xét các nhận định sau:",
         "statements": {
-          "a": "Số phân tử oxygen cần thiết để xếp liền kề nhau thành một vòng quanh xích đạo Trái Đất là $10,2 \\cdot 10^{17}$ phân tử.",
-          "b": "Trong 16 gam khí oxygen có chứa $3,01 \\cdot 10^{23}$ phân tử $\\text{O}_2$.",
+          "a": "Số phân tử oxygen cần thiết để xếp liền kề nhau thành một vòng quanh xích đạo Trái Đất là 10,2 · 10<sup>17</sup> phân tử.",
+          "b": "Trong 16 gam khí oxygen có chứa 3,01 · 10<sup>23</sup> phân tử O<sub>2</sub>.",
           "c": "4 gam khí oxygen tương ứng với 0,3 mol khí oxygen.",
           "d": "Nếu xếp liền kề các phân tử trong 16 gam oxygen dọc theo đường xích đạo Trái Đất thì số vòng bao quanh xích đạo là khoảng 1.497.512 vòng."
         },
@@ -478,11 +478,11 @@
           "c": false,
           "d": true
         },
-        "explanation": "<b>a) Sai.</b> Chu vi xích đạo: $C = 2\\pi R = 2\\pi \\times 6400 \\cdot 10^3\\text{ m} \\approx 4,021 \\cdot 10^7\\text{ m}$. Đường kính phân tử: $d = 2r = 2 \\cdot 10^{-10}\\text{ m}$.<br>Số phân tử trên một vòng là: $n = \\frac{C}{d} = \\frac{4,021 \\cdot 10^7}{2 \\cdot 10^{-10}} \\approx 2,01 \\cdot 10^{17}$ phân tử (khác $10,2 \\cdot 10^{17}$).<br><b>b) Đúng.</b> Số mol oxygen: $n = \\frac{m}{M} = \\frac{16}{32} = 0,5\\text{ mol} \\implies N = 0,5 \\times 6,02 \\cdot 10^{23} = 3,01 \\cdot 10^{23}$ phân tử.<br><b>c) Sai.</b> Số mol của 4 gam $\\text{O}_2$: $n = \\frac{4}{32} = 0,125\\text{ mol}$ (không phải 0,3 mol).<br><b>d) Đúng.</b> Số vòng xếp được là: $n_v = \\frac{N}{n} = \\frac{3,01 \\cdot 10^{23}}{2,01 \\cdot 10^{17}} \\approx 1.497.512$ vòng.",
-        "prompt": "Biết bán kính Trái Đất $R = 6400\\text{ km}$, phân tử oxygen là quả cầu bán kính $r = 10^{-10}\\text{ m}$, số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Xét các nhận định sau:",
+        "explanation": "<b>a) Sai.</b> Chu vi xích đạo: C = 2π R = 2π × 6400 · 10<sup>3</sup> m ≈ 4,021 · 10<sup>7</sup> m. Đường kính phân tử: d = 2r = 2 · 10<sup>-10</sup> m.<br>Số phân tử trên một vòng là: n = C/d = (4,021 · 10<sup>7</sup>) / (2 · 10<sup>-10</sup>) ≈ 2,01 · 10<sup>17</sup> phân tử (khác 10,2 · 10<sup>17</sup>).<br><b>b) Đúng.</b> Số mol oxygen: n = m/M = 16/32 = 0,5 mol ⟹ N = 0,5 × 6,02 · 10<sup>23</sup> = 3,01 · 10<sup>23</sup> phân tử.<br><b>c) Sai.</b> Số mol của 4 gam O<sub>2</sub>: n = 4/32 = 0,125 mol (không phải 0,3 mol).<br><b>d) Đúng.</b> Số vòng xếp được là: n<sub>v</sub> = N/n = (3,01 · 10<sup>23</sup>) / (2,01 · 10<sup>17</sup>) ≈ 1.497.512 vòng.",
+        "prompt": "Biết bán kính Trái Đất R = 6400 km, phân tử oxygen là quả cầu bán kính r = 10<sup>-10</sup> m, số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Xét các nhận định sau:",
         "items": {
-          "a": "Số phân tử oxygen cần thiết để xếp liền kề nhau thành một vòng quanh xích đạo Trái Đất là $10,2 \\cdot 10^{17}$ phân tử.",
-          "b": "Trong 16 gam khí oxygen có chứa $3,01 \\cdot 10^{23}$ phân tử $\\text{O}_2$.",
+          "a": "Số phân tử oxygen cần thiết để xếp liền kề nhau thành một vòng quanh xích đạo Trái Đất là 10,2 · 10<sup>17</sup> phân tử.",
+          "b": "Trong 16 gam khí oxygen có chứa 3,01 · 10<sup>23</sup> phân tử O<sub>2</sub>.",
           "c": "4 gam khí oxygen tương ứng với 0,3 mol khí oxygen.",
           "d": "Nếu xếp liền kề các phân tử trong 16 gam oxygen dọc theo đường xích đạo Trái Đất thì số vòng bao quanh xích đạo là khoảng 1.497.512 vòng."
         },
@@ -502,7 +502,7 @@
         "label": "Phần 2 - Câu 4",
         "topic": "Số mol và áp suất các khí trong bình",
         "figure": null,
-        "question": "Cho 3 bình có cùng dung tích ở cùng một nhiệt độ chứa các lượng khí như sau:<br>• Bình (1) chứa 4 gam khí hydrogen ($\\text{H}_2$).<br>• Bình (2) chứa 22 gam khí carbon dioxide ($\\text{CO}_2$).<br>• Bình (3) chứa 7 gam khí nitrogen ($\\text{N}_2$).",
+        "question": "Cho 3 bình có cùng dung tích ở cùng một nhiệt độ chứa các lượng khí như sau:<br>• Bình (1) chứa 4 gam khí hydrogen (H<sub>2</sub>).<br>• Bình (2) chứa 22 gam khí carbon dioxide (CO<sub>2</sub>).<br>• Bình (3) chứa 7 gam khí nitrogen (N<sub>2</sub>).",
         "statements": {
           "a": "Số mol khí chứa trong bình (1) là 2 mol.",
           "b": "Số mol khí chứa trong bình (2) là 0,8 mol.",
@@ -515,8 +515,8 @@
           "c": true,
           "d": false
         },
-        "explanation": "<b>a) Đúng.</b> $n_{\\text{H}_2} = \\frac{4}{2} = 2\\text{ mol}$.<br><b>b) Sai.</b> $n_{\\text{CO}_2} = \\frac{22}{44} = 0,5\\text{ mol}$ (không phải 0,8 mol).<br><b>c) Đúng.</b> $n_{\\text{N}_2} = \\frac{7}{28} = 0,25\\text{ mol}$.<br><b>d) Sai.</b> Vì ba bình có cùng thể tích $V$ và nhiệt độ $T$, áp suất khí tuân theo phương trình trạng thái Clapeyron-Mendeleev: $p = \\frac{nRT}{V} \\implies p \\sim n$.<br>Do $n_1 (2) > n_2 (0,5) > n_3 (0,25)$ nên áp suất bình (1) là <b>lớn nhất</b> và bình (3) là <b>nhỏ nhất</b>.",
-        "prompt": "Cho 3 bình có cùng dung tích ở cùng một nhiệt độ chứa các lượng khí như sau:<br>• Bình (1) chứa 4 gam khí hydrogen ($\\text{H}_2$).<br>• Bình (2) chứa 22 gam khí carbon dioxide ($\\text{CO}_2$).<br>• Bình (3) chứa 7 gam khí nitrogen ($\\text{N}_2$).",
+        "explanation": "<b>a) Đúng.</b> n<sub>H<sub>2</sub></sub> = 4/2 = 2 mol.<br><b>b) Sai.</b> n<sub>CO<sub>2</sub></sub> = 22/44 = 0,5 mol (không phải 0,8 mol).<br><b>c) Đúng.</b> n<sub>N<sub>2</sub></sub> = 7/28 = 0,25 mol.<br><b>d) Sai.</b> Vì ba bình có cùng thể tích V và nhiệt độ T, áp suất khí tuân theo phương trình trạng thái Clapeyron-Mendeleev: p = nRT/V ⟹ p ~ n.<br>Do n<sub>1</sub> (2) > n<sub>2</sub> (0,5) > n<sub>3</sub> (0,25) nên áp suất bình (1) là <b>lớn nhất</b> và bình (3) là <b>nhỏ nhất</b>.",
+        "prompt": "Cho 3 bình có cùng dung tích ở cùng một nhiệt độ chứa các lượng khí như sau:<br>• Bình (1) chứa 4 gam khí hydrogen (H<sub>2</sub>).<br>• Bình (2) chứa 22 gam khí carbon dioxide (CO<sub>2</sub>).<br>• Bình (3) chứa 7 gam khí nitrogen (N<sub>2</sub>).",
         "items": {
           "a": "Số mol khí chứa trong bình (1) là 2 mol.",
           "b": "Số mol khí chứa trong bình (2) là 0,8 mol.",
@@ -553,10 +553,10 @@
         "label": "Phần 3 - Câu 2",
         "topic": "Khối lượng khí từ số hạt",
         "figure": null,
-        "question": "Một bình kín chứa $3,01 \\cdot 10^{23}$ phân tử khí Hydrogen ($\\text{H}_2$). Khối lượng của khí Hydrogen trong bình là bao nhiêu gam? (Lấy số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "question": "Một bình kín chứa 3,01 · 10<sup>23</sup> phân tử khí Hydrogen (H<sub>2</sub>). Khối lượng của khí Hydrogen trong bình là bao nhiêu gam? (Lấy số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "answer": "1",
-        "explanation": "Số mol khí Hydrogen là:<br>$$n = \\frac{N}{N_A} = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol}$$<br>Khối lượng khí Hydrogen trong bình là:<br>$$m = n \\cdot M = 0,5 \\times 2 = 1\\text{ gam}$$",
-        "prompt": "Một bình kín chứa $3,01 \\cdot 10^{23}$ phân tử khí Hydrogen ($\\text{H}_2$). Khối lượng của khí Hydrogen trong bình là bao nhiêu gam? (Lấy số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)"
+        "explanation": "Số mol khí Hydrogen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol</div><br>Khối lượng khí Hydrogen trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 0,5 × 2 = 1 gam</div>",
+        "prompt": "Một bình kín chứa 3,01 · 10<sup>23</sup> phân tử khí Hydrogen (H<sub>2</sub>). Khối lượng của khí Hydrogen trong bình là bao nhiêu gam? (Lấy số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)"
       },
       {
         "id": 25,
@@ -567,10 +567,10 @@
         "label": "Phần 3 - Câu 3",
         "topic": "Số mol từ số hạt",
         "figure": null,
-        "question": "Một bình kín chứa $3,01 \\cdot 10^{23}$ nguyên tử khí Helium ở nhiệt độ 0°C và áp suất 1 atm. Số mol khí Helium trong bình là bao nhiêu mol? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "question": "Một bình kín chứa 3,01 · 10<sup>23</sup> nguyên tử khí Helium ở nhiệt độ 0°C và áp suất 1 atm. Số mol khí Helium trong bình là bao nhiêu mol? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "answer": "0.5",
-        "explanation": "Khí hiếm Helium là đơn nguyên tử nên số phân tử bằng số nguyên tử.<br>Số mol khí Helium là:<br>$$n = \\frac{N}{N_A} = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol}$$",
-        "prompt": "Một bình kín chứa $3,01 \\cdot 10^{23}$ nguyên tử khí Helium ở nhiệt độ 0°C và áp suất 1 atm. Số mol khí Helium trong bình là bao nhiêu mol? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)"
+        "explanation": "Khí hiếm Helium là đơn nguyên tử nên số phân tử bằng số nguyên tử.<br>Số mol khí Helium là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol</div>",
+        "prompt": "Một bình kín chứa 3,01 · 10<sup>23</sup> nguyên tử khí Helium ở nhiệt độ 0°C và áp suất 1 atm. Số mol khí Helium trong bình là bao nhiêu mol? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)"
       },
       {
         "id": 26,
@@ -581,10 +581,10 @@
         "label": "Phần 3 - Câu 4",
         "topic": "Thể tích mol chất khí",
         "figure": null,
-        "question": "Bình kín đựng khí Nitrogen chứa $1,505 \\cdot 10^{23}$ phân tử $\\text{N}_2$ ở điều kiện tiêu chuẩn 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, thể tích 1 mol khí ở đktc là 22,4 lít)",
+        "question": "Bình kín đựng khí Nitrogen chứa 1,505 · 10<sup>23</sup> phân tử N<sub>2</sub> ở điều kiện tiêu chuẩn 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, thể tích 1 mol khí ở đktc là 22,4 lít)",
         "answer": "5.6",
-        "explanation": "Số mol khí Nitrogen là:<br>$$n = \\frac{N}{N_A} = \\frac{1,505 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,25\\text{ mol}$$<br>Thể tích bình chứa khí ở điều kiện tiêu chuẩn (0°C, 1 atm) là:<br>$$V = n \\cdot V_0 = 0,25 \\times 22,4 = 5,6\\text{ lít}$$<br><i>(Lưu ý: Tài liệu PDF gốc ghi nhầm phép tính $22,4 / 4 = 5,5$, giá trị chuẩn xác của phép chia là $5,6\\text{ lít}$).</i>",
-        "prompt": "Bình kín đựng khí Nitrogen chứa $1,505 \\cdot 10^{23}$ phân tử $\\text{N}_2$ ở điều kiện tiêu chuẩn 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, thể tích 1 mol khí ở đktc là 22,4 lít)"
+        "explanation": "Số mol khí Nitrogen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (1,505 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,25 mol</div><br>Thể tích bình chứa khí ở điều kiện tiêu chuẩn (0°C, 1 atm) là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = n · V<sub>0</sub> = 0,25 × 22,4 = 5,6 lít</div><br><i>(Lưu ý: Tài liệu PDF gốc ghi nhầm phép tính 22,4 / 4 = 5,5, giá trị chuẩn xác của phép chia là 5,6 lít).</i>",
+        "prompt": "Bình kín đựng khí Nitrogen chứa 1,505 · 10<sup>23</sup> phân tử N<sub>2</sub> ở điều kiện tiêu chuẩn 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, thể tích 1 mol khí ở đktc là 22,4 lít)"
       },
       {
         "id": 27,
@@ -597,7 +597,7 @@
         "figure": null,
         "question": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) có thể tích là 22,4 lít thì có khối lượng là bao nhiêu gam?",
         "answer": "4",
-        "explanation": "Khối lượng mol của nguyên tử khí Helium là $M = 4\\text{ g/mol}$.<br>Khối lượng của 1 mol khí Helium là:<br>$$m = n \\cdot M = 1 \\times 4 = 4\\text{ gam}$$",
+        "explanation": "Khối lượng mol của nguyên tử khí Helium là M = 4 g/mol.<br>Khối lượng của 1 mol khí Helium là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 1 × 4 = 4 gam</div>",
         "prompt": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) có thể tích là 22,4 lít thì có khối lượng là bao nhiêu gam?"
       },
       {
@@ -609,10 +609,10 @@
         "label": "Phần 3 - Câu 6",
         "topic": "Tính số mol từ khối lượng",
         "figure": null,
-        "question": "Biết khối lượng của 1 mol phân tử khí Oxygen ($\\text{O}_2$) là 32 g. Một khối lượng 4,8 g khí Oxygen là khối lượng của bao nhiêu mol khí này?",
+        "question": "Biết khối lượng của 1 mol phân tử khí Oxygen (O<sub>2</sub>) là 32 g. Một khối lượng 4,8 g khí Oxygen là khối lượng của bao nhiêu mol khí này?",
         "answer": "0.15",
-        "explanation": "Số mol khí Oxygen là:<br>$$n = \\frac{m}{M} = \\frac{4,8}{32} = 0,15\\text{ mol}$$",
-        "prompt": "Biết khối lượng của 1 mol phân tử khí Oxygen ($\\text{O}_2$) là 32 g. Một khối lượng 4,8 g khí Oxygen là khối lượng của bao nhiêu mol khí này?"
+        "explanation": "Số mol khí Oxygen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 4,8/32 = 0,15 mol</div>",
+        "prompt": "Biết khối lượng của 1 mol phân tử khí Oxygen (O<sub>2</sub>) là 32 g. Một khối lượng 4,8 g khí Oxygen là khối lượng của bao nhiêu mol khí này?"
       }
     ]
   },
@@ -733,16 +733,16 @@
         "label": "Phần 1 - Câu 6",
         "topic": "Số phân tử trong lượng chất",
         "figure": "assets/images/quiz/phys/phys_cd2_oxygen_hand.png",
-        "question": "Số phân tử Oxygen ($\\text{O}_2$) có trong 1 gam khí Oxygen là bao nhiêu? (Lấy $N_A = 6,022 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "question": "Số phân tử Oxygen (O<sub>2</sub>) có trong 1 gam khí Oxygen là bao nhiêu? (Lấy N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "options": {
-          "A": "$2,082 \\cdot 10^{23}$.",
-          "B": "$6,22 \\cdot 10^{23}$.",
-          "C": "$2,02 \\cdot 10^{22}$.",
-          "D": "$1,882 \\cdot 10^{22}$."
+          "A": "2,082 · 10<sup>23</sup>.",
+          "B": "6,22 · 10<sup>23</sup>.",
+          "C": "2,02 · 10<sup>22</sup>.",
+          "D": "1,882 · 10<sup>22</sup>."
         },
         "answer": "D",
-        "explanation": "Khối lượng mol của $\\text{O}_2$ là $M = 32\\text{ g/mol}$.<br>Số phân tử Oxygen trong 1 gam là:<br>$$N = \\frac{m}{M} \\cdot N_A = \\frac{1}{32} \\times 6,022 \\cdot 10^{23} \\approx 1,882 \\cdot 10^{22}\\text{ phân tử}$$<br>⟶ Chọn <b>D</b>.",
-        "prompt": "Số phân tử Oxygen ($\\text{O}_2$) có trong 1 gam khí Oxygen là bao nhiêu? (Lấy $N_A = 6,022 \\cdot 10^{23}\\text{ mol}^{-1}$)"
+        "explanation": "Khối lượng mol của O<sub>2</sub> là M = 32 g/mol.<br>Số phân tử Oxygen trong 1 gam là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">N = m/M · N<sub>A</sub> = 1/32 × 6,022 · 10<sup>23</sup> ≈ 1,882 · 10<sup>22</sup> phân tử</div><br>⟶ Chọn <b>D</b>.",
+        "prompt": "Số phân tử Oxygen (O<sub>2</sub>) có trong 1 gam khí Oxygen là bao nhiêu? (Lấy N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>)"
       },
       {
         "id": 7,
@@ -761,7 +761,7 @@
           "D": "Khi áp suất tác dụng lên một lượng khí tăng thì thể tích của khí tăng đáng kể."
         },
         "answer": "C",
-        "explanation": "Do khoảng cách giữa các phân tử khí rất lớn nên chất khí <b>rất dễ nén</b>.<br>• A sai vì khối lượng riêng chất khí nhỏ hơn chất rắn/lỏng hàng nghìn lần.<br>• B sai vì bành trướng là chiếm toàn bộ bình chứa.<br>• D sai vì khi áp suất tăng thì thể tích giảm ($V \\sim 1/p$).<br>⟶ Chọn <b>C</b>.",
+        "explanation": "Do khoảng cách giữa các phân tử khí rất lớn nên chất khí <b>rất dễ nén</b>.<br>• A sai vì khối lượng riêng chất khí nhỏ hơn chất rắn/lỏng hàng nghìn lần.<br>• B sai vì bành trướng là chiếm toàn bộ bình chứa.<br>• D sai vì khi áp suất tăng thì thể tích giảm (V ~ 1/p).<br>⟶ Chọn <b>C</b>.",
         "prompt": "Khi nói về các tính chất của chất khí, phát biểu nào sau đây là <b>đúng</b>?"
       },
       {
@@ -781,7 +781,7 @@
           "D": "biến thiên tuần hoàn."
         },
         "answer": "A",
-        "explanation": "Theo định luật Boyle: Ở nhiệt độ không đổi, áp suất tỉ lệ nghịch với thể tích ($p \\sim 1/V$). Do đó, khi áp suất của khí càng lớn thì thể tích khối khí có xu hướng <b>giảm đi</b>.<br>⟶ Chọn <b>A</b>.",
+        "explanation": "Theo định luật Boyle: Ở nhiệt độ không đổi, áp suất tỉ lệ nghịch với thể tích (p ~ 1/V). Do đó, khi áp suất của khí càng lớn thì thể tích khối khí có xu hướng <b>giảm đi</b>.<br>⟶ Chọn <b>A</b>.",
         "prompt": "Với một lượng khí không đổi ở nhiệt độ không đổi, áp suất của khí càng lớn thì thể tích của khối khí sẽ có xu hướng"
       },
       {
@@ -853,16 +853,16 @@
         "label": "Phần 1 - Câu 12",
         "topic": "Số Avogadro",
         "figure": null,
-        "question": "Số Avogadro $N_A$ có giá trị <b>khác</b> với số hạt có trong trường hợp nào sau đây?",
+        "question": "Số Avogadro N<sub>A</sub> có giá trị <b>khác</b> với số hạt có trong trường hợp nào sau đây?",
         "options": {
-          "A": "Số nguyên tử chứa trong 4 gam khí Helium ($M=4$).",
-          "B": "Số phân tử chứa trong 18 gam nước lỏng $\\text{H}_2\\text{O}$ ($M=18$).",
+          "A": "Số nguyên tử chứa trong 4 gam khí Helium (M=4).",
+          "B": "Số phân tử chứa trong 18 gam nước lỏng H<sub>2</sub>O (M=18).",
           "C": "Số nguyên tử chứa trong 22,4 lít khí trơ Helium ở 0°C và 1 atm.",
-          "D": "Số phân tử chứa trong 16 gam khí Oxygen $\\text{O}_2$ ($M=32$)."
+          "D": "Số phân tử chứa trong 16 gam khí Oxygen O<sub>2</sub> (M=32)."
         },
         "answer": "D",
-        "explanation": "Số Avogadro là số hạt trong 1 mol chất ($N_A \\approx 6,02 \\cdot 10^{23}$ hạt):<br>• 4 g He = 1 mol He $\\implies N_A$ nguyên tử.<br>• 18 g $\\text{H}_2\\text{O}$ = 1 mol $\\text{H}_2\\text{O} \\implies N_A$ phân tử.<br>• 22,4 lít khí trơ ở đktc = 1 mol $\\implies N_A$ nguyên tử.<br>• 16 g $\\text{O}_2$: $n = \\frac{16}{32} = 0,5\\text{ mol} \\implies 0,5N_A$ phân tử (khác $N_A$).<br>⟶ Chọn <b>D</b>.",
-        "prompt": "Số Avogadro $N_A$ có giá trị <b>khác</b> với số hạt có trong trường hợp nào sau đây?"
+        "explanation": "Số Avogadro là số hạt trong 1 mol chất (N<sub>A</sub> ≈ 6,02 · 10<sup>23</sup> hạt):<br>• 4 g He = 1 mol He ⟹ N<sub>A</sub> nguyên tử.<br>• 18 g H<sub>2</sub>O = 1 mol H<sub>2</sub>O ⟹ N<sub>A</sub> phân tử.<br>• 22,4 lít khí trơ ở đktc = 1 mol ⟹ N<sub>A</sub> nguyên tử.<br>• 16 g O<sub>2</sub>: n = 16/32 = 0,5 mol ⟹ 0,5N<sub>A</sub> phân tử (khác N<sub>A</sub>).<br>⟶ Chọn <b>D</b>.",
+        "prompt": "Số Avogadro N<sub>A</sub> có giá trị <b>khác</b> với số hạt có trong trường hợp nào sau đây?"
       },
       {
         "id": 13,
@@ -873,16 +873,16 @@
         "label": "Phần 1 - Câu 13",
         "topic": "Khối lượng phân tử",
         "figure": null,
-        "question": "Cho các khí: $\\text{H}_2$, $\\text{He}$, $\\text{O}_2$ và $\\text{N}_2$. Phát biểu nào sau đây là <b>đúng</b>?",
+        "question": "Cho các khí: H<sub>2</sub>, He, O<sub>2</sub> và N<sub>2</sub>. Phát biểu nào sau đây là <b>đúng</b>?",
         "options": {
-          "A": "Khối lượng phân tử của các khí $\\text{H}_2$, $\\text{He}$, $\\text{O}_2$ và $\\text{N}_2$ đều bằng nhau.",
-          "B": "Khối lượng phân tử của $\\text{N}_2$ nặng nhất trong 4 loại khí trên.",
-          "C": "Khối lượng phân tử của $\\text{He}$ nhẹ nhất trong 4 loại khí trên.",
-          "D": "Khối lượng phân tử của $\\text{O}_2$ nặng nhất trong 4 loại khí trên."
+          "A": "Khối lượng phân tử của các khí H<sub>2</sub>, He, O<sub>2</sub> và N<sub>2</sub> đều bằng nhau.",
+          "B": "Khối lượng phân tử của N<sub>2</sub> nặng nhất trong 4 loại khí trên.",
+          "C": "Khối lượng phân tử của He nhẹ nhất trong 4 loại khí trên.",
+          "D": "Khối lượng phân tử của O<sub>2</sub> nặng nhất trong 4 loại khí trên."
         },
         "answer": "D",
-        "explanation": "Khối lượng phân tử/nguyên tử của các chất khí:<br>• $M_{\\text{H}_2} = 2\\text{ g/mol}$ (nhẹ nhất).<br>• $M_{\\text{He}} = 4\\text{ g/mol}$.<br>• $M_{\\text{N}_2} = 28\\text{ g/mol}$.<br>• $M_{\\text{O}_2} = 32\\text{ g/mol}$ (nặng nhất).<br>⟶ Chọn <b>D</b>.",
-        "prompt": "Cho các khí: $\\text{H}_2$, $\\text{He}$, $\\text{O}_2$ và $\\text{N}_2$. Phát biểu nào sau đây là <b>đúng</b>?"
+        "explanation": "Khối lượng phân tử/nguyên tử của các chất khí:<br>• M<sub>H<sub>2</sub></sub> = 2 g/mol (nhẹ nhất).<br>• M<sub>He</sub> = 4 g/mol.<br>• M<sub>N<sub>2</sub></sub> = 28 g/mol.<br>• M<sub>O<sub>2</sub></sub> = 32 g/mol (nặng nhất).<br>⟶ Chọn <b>D</b>.",
+        "prompt": "Cho các khí: H<sub>2</sub>, He, O<sub>2</sub> và N<sub>2</sub>. Phát biểu nào sau đây là <b>đúng</b>?"
       },
       {
         "id": 14,
@@ -953,7 +953,7 @@
         "label": "Phần 1 - Câu 17",
         "topic": "Tính số mol chất khí",
         "figure": null,
-        "question": "Một khối lượng 4 gam khí Oxygen ($\\text{O}_2$) tương ứng với bao nhiêu mol khí?",
+        "question": "Một khối lượng 4 gam khí Oxygen (O<sub>2</sub>) tương ứng với bao nhiêu mol khí?",
         "options": {
           "A": "0,15 mol.",
           "B": "0,5 mol.",
@@ -961,8 +961,8 @@
           "D": "0,2 mol."
         },
         "answer": "C",
-        "explanation": "Số mol khí Oxygen là:<br>$$n = \\frac{m}{M} = \\frac{4}{32} = 0,125\\text{ mol}$$<br>⟶ Chọn <b>C</b>.",
-        "prompt": "Một khối lượng 4 gam khí Oxygen ($\\text{O}_2$) tương ứng với bao nhiêu mol khí?"
+        "explanation": "Số mol khí Oxygen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 4/32 = 0,125 mol</div><br>⟶ Chọn <b>C</b>.",
+        "prompt": "Một khối lượng 4 gam khí Oxygen (O<sub>2</sub>) tương ứng với bao nhiêu mol khí?"
       },
       {
         "id": 18,
@@ -973,16 +973,16 @@
         "label": "Phần 1 - Câu 18",
         "topic": "Số nguyên tử trong phân tử nước",
         "figure": null,
-        "question": "Trong 1 mol nước ($\\text{H}_2\\text{O}$) có chứa bao nhiêu nguyên tử cấu thành? (Lấy số Avogadro $N_A = 6,022 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "question": "Trong 1 mol nước (H<sub>2</sub>O) có chứa bao nhiêu nguyên tử cấu thành? (Lấy số Avogadro N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "options": {
-          "A": "$18,066 \\cdot 10^{23}$ nguyên tử.",
-          "B": "$6,022 \\cdot 10^{23}$ nguyên tử.",
-          "C": "$12,044 \\cdot 10^{23}$ nguyên tử.",
-          "D": "$8,000 \\cdot 10^{23}$ nguyên tử."
+          "A": "18,066 · 10<sup>23</sup> nguyên tử.",
+          "B": "6,022 · 10<sup>23</sup> nguyên tử.",
+          "C": "12,044 · 10<sup>23</sup> nguyên tử.",
+          "D": "8,000 · 10<sup>23</sup> nguyên tử."
         },
         "answer": "A",
-        "explanation": "Mỗi phân tử nước $\\text{H}_2\\text{O}$ gồm 2 nguyên tử H và 1 nguyên tử O, tức là có 3 nguyên tử.<br>Trong 1 mol $\\text{H}_2\\text{O}$ có $6,022 \\cdot 10^{23}$ phân tử $\\text{H}_2\\text{O}$, do đó tổng số nguyên tử là:<br>$$N = 3 \\times 6,022 \\cdot 10^{23} = 18,066 \\cdot 10^{23}\\text{ nguyên tử}$$<br>⟶ Chọn <b>A</b>.",
-        "prompt": "Trong 1 mol nước ($\\text{H}_2\\text{O}$) có chứa bao nhiêu nguyên tử cấu thành? (Lấy số Avogadro $N_A = 6,022 \\cdot 10^{23}\\text{ mol}^{-1}$)"
+        "explanation": "Mỗi phân tử nước H<sub>2</sub>O gồm 2 nguyên tử H và 1 nguyên tử O, tức là có 3 nguyên tử.<br>Trong 1 mol H<sub>2</sub>O có 6,022 · 10<sup>23</sup> phân tử H<sub>2</sub>O, do đó tổng số nguyên tử là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">N = 3 × 6,022 · 10<sup>23</sup> = 18,066 · 10<sup>23</sup> nguyên tử</div><br>⟶ Chọn <b>A</b>.",
+        "prompt": "Trong 1 mol nước (H<sub>2</sub>O) có chứa bao nhiêu nguyên tử cấu thành? (Lấy số Avogadro N<sub>A</sub> = 6,022 · 10<sup>23</sup> mol<sup>-1</sup>)"
       },
       {
         "id": 19,
@@ -993,12 +993,12 @@
         "label": "Phần 2 - Câu 1",
         "topic": "Số phân tử và tỉ số khối lượng",
         "figure": null,
-        "question": "Cho khối lượng phân tử của nước $\\text{H}_2\\text{O}$ và carbon $^{12}\\text{C}$ lần lượt là 18 g/mol và 12 g/mol. Xét tính đúng/sai của các mệnh đề sau:",
+        "question": "Cho khối lượng phân tử của nước H<sub>2</sub>O và carbon <sup>12</sup>C lần lượt là 18 g/mol và 12 g/mol. Xét tính đúng/sai của các mệnh đề sau:",
         "statements": {
-          "a": "Số phân tử $\\text{H}_2\\text{O}$ có trong 2 gam nước là $69,9 \\cdot 10^{22}$ phân tử.",
-          "b": "Tỉ số khối lượng của một phân tử nước và một nguyên tử carbon $^{12}\\text{C}$ bằng 1,5.",
+          "a": "Số phân tử H<sub>2</sub>O có trong 2 gam nước là 69,9 · 10<sup>22</sup> phân tử.",
+          "b": "Tỉ số khối lượng của một phân tử nước và một nguyên tử carbon <sup>12</sup>C bằng 1,5.",
           "c": "Một lượng 9 g nước tương ứng với 5 mol nước.",
-          "d": "Số nguyên tử carbon chứa trong 1 mol $^{12}\\text{C}$ là $6,02 \\cdot 10^{23}$ nguyên tử."
+          "d": "Số nguyên tử carbon chứa trong 1 mol <sup>12</sup>C là 6,02 · 10<sup>23</sup> nguyên tử."
         },
         "answers": {
           "a": false,
@@ -1006,13 +1006,13 @@
           "c": false,
           "d": true
         },
-        "explanation": "<b>a) Sai.</b> Số phân tử nước trong 2 gam là: $N = \\frac{m}{M} \\cdot N_A = \\frac{2}{18} \\times 6,02 \\cdot 10^{23} \\approx 6,69 \\cdot 10^{22}$ phân tử.<br><b>b) Đúng.</b> Tỉ số khối lượng: $\\frac{m_{\\text{H}_2\\text{O}}}{m_{^{12}\\text{C}}} = \\frac{M_{\\text{H}_2\\text{O}}}{M_{^{12}\\text{C}}} = \\frac{18}{12} = 1,5$.<br><b>c) Sai.</b> Số mol của 9 g nước là: $n = \\frac{9}{18} = 0,5\\text{ mol}$ (không phải 5 mol).<br><b>d) Đúng.</b> 1 mol chất bất kì luôn chứa đúng số Avogadro $N_A \\approx 6,02 \\cdot 10^{23}$ hạt vi mô.",
-        "prompt": "Cho khối lượng phân tử của nước $\\text{H}_2\\text{O}$ và carbon $^{12}\\text{C}$ lần lượt là 18 g/mol và 12 g/mol. Xét tính đúng/sai của các mệnh đề sau:",
+        "explanation": "<b>a) Sai.</b> Số phân tử nước trong 2 gam là: N = m/M · N<sub>A</sub> = 2/18 × 6,02 · 10<sup>23</sup> ≈ 6,69 · 10<sup>22</sup> phân tử.<br><b>b) Đúng.</b> Tỉ số khối lượng: (m<sub>H<sub>2</sub>O</sub>) / (m<sub><sup>12</sup>C</sub>) = (M<sub>H<sub>2</sub>O</sub>) / (M<sub><sup>12</sup>C</sub>) = 18/12 = 1,5.<br><b>c) Sai.</b> Số mol của 9 g nước là: n = 9/18 = 0,5 mol (không phải 5 mol).<br><b>d) Đúng.</b> 1 mol chất bất kì luôn chứa đúng số Avogadro N<sub>A</sub> ≈ 6,02 · 10<sup>23</sup> hạt vi mô.",
+        "prompt": "Cho khối lượng phân tử của nước H<sub>2</sub>O và carbon <sup>12</sup>C lần lượt là 18 g/mol và 12 g/mol. Xét tính đúng/sai của các mệnh đề sau:",
         "items": {
-          "a": "Số phân tử $\\text{H}_2\\text{O}$ có trong 2 gam nước là $69,9 \\cdot 10^{22}$ phân tử.",
-          "b": "Tỉ số khối lượng của một phân tử nước và một nguyên tử carbon $^{12}\\text{C}$ bằng 1,5.",
+          "a": "Số phân tử H<sub>2</sub>O có trong 2 gam nước là 69,9 · 10<sup>22</sup> phân tử.",
+          "b": "Tỉ số khối lượng của một phân tử nước và một nguyên tử carbon <sup>12</sup>C bằng 1,5.",
           "c": "Một lượng 9 g nước tương ứng với 5 mol nước.",
-          "d": "Số nguyên tử carbon chứa trong 1 mol $^{12}\\text{C}$ là $6,02 \\cdot 10^{23}$ nguyên tử."
+          "d": "Số nguyên tử carbon chứa trong 1 mol <sup>12</sup>C là 6,02 · 10<sup>23</sup> nguyên tử."
         },
         "answer": {
           "a": false,
@@ -1043,7 +1043,7 @@
           "c": false,
           "d": false
         },
-        "explanation": "<b>a) Đúng.</b> Nhiệt độ tăng làm tăng động năng tịnh tiến trung bình $E_d = \\frac{3}{2}kT \\implies$ tốc độ trung bình phân tử tăng.<br><b>b) Sai.</b> Thể tích bình không đổi và số lượng phân tử không đổi nên khoảng cách trung bình giữa các phân tử không đổi.<br><b>c) Sai.</b> Kích thước phân tử là thuộc tính cấu tạo nguyên tử, không nở to ra khi đun nóng.<br><b>d) Sai.</b> Khi nhiệt độ tăng, chuyển động nhiệt càng mạnh phá vỡ liên kết, các phân tử bay hỗn loạn độc lập chứ không liên kết lại.",
+        "explanation": "<b>a) Đúng.</b> Nhiệt độ tăng làm tăng động năng tịnh tiến trung bình E<sub>d</sub> = 3/2kT ⟹ tốc độ trung bình phân tử tăng.<br><b>b) Sai.</b> Thể tích bình không đổi và số lượng phân tử không đổi nên khoảng cách trung bình giữa các phân tử không đổi.<br><b>c) Sai.</b> Kích thước phân tử là thuộc tính cấu tạo nguyên tử, không nở to ra khi đun nóng.<br><b>d) Sai.</b> Khi nhiệt độ tăng, chuyển động nhiệt càng mạnh phá vỡ liên kết, các phân tử bay hỗn loạn độc lập chứ không liên kết lại.",
         "prompt": "Khi đun nóng một khối lượng khí xác định trong một bình kín có thể tích không đổi, xét các hiện tượng xảy ra với các phân tử khí:",
         "items": {
           "a": "Các phân tử khí có tốc độ chuyển động nhiệt trung bình lớn hơn.",
@@ -1080,7 +1080,7 @@
           "c": true,
           "d": false
         },
-        "explanation": "<b>a) Đúng.</b> Quỹ đạo của hạt khói là đường gấp khúc ziczac hỗn loạn do chịu va chạm ngẫu nhiên từ mọi phía.<br><b>b) Sai.</b> Nguồn gốc chuyển động ziczac là do va chạm của các phân tử không khí, không phải do áp suất ánh sáng.<br><b>c) Đúng.</b> Ánh sáng chiếu từ bên cạnh làm các hạt khói sáng lấp lánh (hiệu ứng Tyndall) giúp dễ quan sát qua kính hiển vi.<br><b>d) Sai.</b> Phân tử không khí có kích thước khoảng $10^{-10}\\text{ m}$, kính hiển vi quang học không thể quan sát được phân tử khí mà chỉ quan sát được hạt khói (kích thước khoảng $10^{-6}\\text{ m}$).",
+        "explanation": "<b>a) Đúng.</b> Quỹ đạo của hạt khói là đường gấp khúc ziczac hỗn loạn do chịu va chạm ngẫu nhiên từ mọi phía.<br><b>b) Sai.</b> Nguồn gốc chuyển động ziczac là do va chạm của các phân tử không khí, không phải do áp suất ánh sáng.<br><b>c) Đúng.</b> Ánh sáng chiếu từ bên cạnh làm các hạt khói sáng lấp lánh (hiệu ứng Tyndall) giúp dễ quan sát qua kính hiển vi.<br><b>d) Sai.</b> Phân tử không khí có kích thước khoảng 10<sup>-10</sup> m, kính hiển vi quang học không thể quan sát được phân tử khí mà chỉ quan sát được hạt khói (kích thước khoảng 10<sup>-6</sup> m).",
         "prompt": "Quan sát hình ảnh mô tả thí nghiệm chuyển động Brown của các hạt khói trong không khí dưới kính hiển vi. Xét tính đúng/sai của các nhận định sau:",
         "items": {
           "a": "Quỹ đạo chuyển động của mỗi hạt khói là đường gãy khúc ziczac ngẫu nhiên, không có quy luật.",
@@ -1104,12 +1104,12 @@
         "label": "Phần 2 - Câu 4",
         "topic": "Thông số trạng thái khí Helium",
         "figure": null,
-        "question": "Một bình kín chứa $3,01 \\cdot 10^{23}$ nguyên tử khí Helium ($\\text{He}$) ở nhiệt độ 0°C và áp suất 1 atm. Xét các mệnh đề sau:",
+        "question": "Một bình kín chứa 3,01 · 10<sup>23</sup> nguyên tử khí Helium (He) ở nhiệt độ 0°C và áp suất 1 atm. Xét các mệnh đề sau:",
         "statements": {
           "a": "Khối lượng khí Helium chứa trong bình là 2,5 gam.",
           "b": "Số mol khí Helium chứa trong bình là 0,5 mol.",
-          "c": "Thể tích của lượng khí Helium trong bình ở điều kiện trên là $2,11\\text{ m}^3$.",
-          "d": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) chứa $6,02 \\cdot 10^{23}$ nguyên tử."
+          "c": "Thể tích của lượng khí Helium trong bình ở điều kiện trên là 2,11 m<sup>3</sup>.",
+          "d": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) chứa 6,02 · 10<sup>23</sup> nguyên tử."
         },
         "answers": {
           "a": false,
@@ -1117,13 +1117,13 @@
           "c": false,
           "d": true
         },
-        "explanation": "<b>a) Sai.</b> $n = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol} \\implies m = 0,5 \\times 4 = 2\\text{ g}$ (không phải 2,5 g).<br><b>b) Đúng.</b> $n = 0,5\\text{ mol}$.<br><b>c) Sai.</b> Thể tích khí ở đktc: $V = n \\cdot 22,4 = 0,5 \\times 22,4 = 11,2\\text{ lít} = 0,0112\\text{ m}^3$ (không phải $2,11\\text{ m}^3$).<br><b>d) Đúng.</b> 1 mol chất luôn chứa đúng số Avogadro $N_A \\approx 6,02 \\cdot 10^{23}$ nguyên tử.",
-        "prompt": "Một bình kín chứa $3,01 \\cdot 10^{23}$ nguyên tử khí Helium ($\\text{He}$) ở nhiệt độ 0°C và áp suất 1 atm. Xét các mệnh đề sau:",
+        "explanation": "<b>a) Sai.</b> n = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol ⟹ m = 0,5 × 4 = 2 g (không phải 2,5 g).<br><b>b) Đúng.</b> n = 0,5 mol.<br><b>c) Sai.</b> Thể tích khí ở đktc: V = n · 22,4 = 0,5 × 22,4 = 11,2 lít = 0,0112 m<sup>3</sup> (không phải 2,11 m<sup>3</sup>).<br><b>d) Đúng.</b> 1 mol chất luôn chứa đúng số Avogadro N<sub>A</sub> ≈ 6,02 · 10<sup>23</sup> nguyên tử.",
+        "prompt": "Một bình kín chứa 3,01 · 10<sup>23</sup> nguyên tử khí Helium (He) ở nhiệt độ 0°C và áp suất 1 atm. Xét các mệnh đề sau:",
         "items": {
           "a": "Khối lượng khí Helium chứa trong bình là 2,5 gam.",
           "b": "Số mol khí Helium chứa trong bình là 0,5 mol.",
-          "c": "Thể tích của lượng khí Helium trong bình ở điều kiện trên là $2,11\\text{ m}^3$.",
-          "d": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) chứa $6,02 \\cdot 10^{23}$ nguyên tử."
+          "c": "Thể tích của lượng khí Helium trong bình ở điều kiện trên là 2,11 m<sup>3</sup>.",
+          "d": "1 mol khí Helium ở điều kiện tiêu chuẩn (0°C, 1 atm) chứa 6,02 · 10<sup>23</sup> nguyên tử."
         },
         "answer": {
           "a": false,
@@ -1141,10 +1141,10 @@
         "label": "Phần 3 - Câu 1",
         "topic": "Số mol khí Chlorine",
         "figure": null,
-        "question": "Biết khối lượng của 1 mol khí Chlorine ($\\text{Cl}_2$) là 70 g. Một khối lượng 168 g khí Chlorine là khối lượng của bao nhiêu mol khí này?",
+        "question": "Biết khối lượng của 1 mol khí Chlorine (Cl<sub>2</sub>) là 70 g. Một khối lượng 168 g khí Chlorine là khối lượng của bao nhiêu mol khí này?",
         "answer": "2.4",
-        "explanation": "Số mol khí Chlorine là:<br>$$n = \\frac{m}{M} = \\frac{168}{70} = 2,4\\text{ mol}$$",
-        "prompt": "Biết khối lượng của 1 mol khí Chlorine ($\\text{Cl}_2$) là 70 g. Một khối lượng 168 g khí Chlorine là khối lượng của bao nhiêu mol khí này?"
+        "explanation": "Số mol khí Chlorine là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 168/70 = 2,4 mol</div>",
+        "prompt": "Biết khối lượng của 1 mol khí Chlorine (Cl<sub>2</sub>) là 70 g. Một khối lượng 168 g khí Chlorine là khối lượng của bao nhiêu mol khí này?"
       },
       {
         "id": 24,
@@ -1155,10 +1155,10 @@
         "label": "Phần 3 - Câu 2",
         "topic": "Thể tích khí Helium đktc",
         "figure": null,
-        "question": "Bình kín đựng khí Helium chứa $3,01 \\cdot 10^{23}$ nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, thể tích mol đktc là 22,4 lít)",
+        "question": "Bình kín đựng khí Helium chứa 3,01 · 10<sup>23</sup> nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, thể tích mol đktc là 22,4 lít)",
         "answer": "11.2",
-        "explanation": "Số mol khí Helium là:<br>$$n = \\frac{N}{N_A} = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol}$$<br>Thể tích bình chứa khí ở đktc là:<br>$$V = n \\cdot V_0 = 0,5 \\times 22,4 = 11,2\\text{ lít}$$",
-        "prompt": "Bình kín đựng khí Helium chứa $3,01 \\cdot 10^{23}$ nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, thể tích mol đktc là 22,4 lít)"
+        "explanation": "Số mol khí Helium là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol</div><br>Thể tích bình chứa khí ở đktc là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = n · V<sub>0</sub> = 0,5 × 22,4 = 11,2 lít</div>",
+        "prompt": "Bình kín đựng khí Helium chứa 3,01 · 10<sup>23</sup> nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, thể tích mol đktc là 22,4 lít)"
       },
       {
         "id": 25,
@@ -1169,10 +1169,10 @@
         "label": "Phần 3 - Câu 3",
         "topic": "Thể tích Helium theo dm3",
         "figure": null,
-        "question": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), một khối lượng 16 g Helium có thể tích là bao nhiêu $\\text{dm}^3$?",
+        "question": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), một khối lượng 16 g Helium có thể tích là bao nhiêu dm<sup>3</sup>?",
         "answer": "89.6",
-        "explanation": "Số mol khí Helium ($M = 4\\text{ g/mol}$) là:<br>$$n = \\frac{m}{M} = \\frac{16}{4} = 4\\text{ mol}$$<br>Thể tích khí ở đktc là ($1\\text{ lít} = 1\\text{ dm}^3$):<br>$$V = n \\cdot 22,4 = 4 \\times 22,4 = 89,6\\text{ dm}^3$$",
-        "prompt": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), một khối lượng 16 g Helium có thể tích là bao nhiêu $\\text{dm}^3$?"
+        "explanation": "Số mol khí Helium (M = 4 g/mol) là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 16/4 = 4 mol</div><br>Thể tích khí ở đktc là (1 lít = 1 dm<sup>3</sup>):<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = n · 22,4 = 4 × 22,4 = 89,6 dm<sup>3</sup></div>",
+        "prompt": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), một khối lượng 16 g Helium có thể tích là bao nhiêu dm<sup>3</sup>?"
       },
       {
         "id": 26,
@@ -1183,10 +1183,10 @@
         "label": "Phần 3 - Câu 4",
         "topic": "Khối lượng Nitrogen từ số hạt",
         "figure": null,
-        "question": "Một bình kín chứa $11,61 \\cdot 10^{23}$ phân tử khí Nitrogen ($\\text{N}_2$). Khối lượng khí Nitrogen trong bình là bao nhiêu gam? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{N}_2} = 28\\text{ g/mol}$)",
+        "question": "Một bình kín chứa 11,61 · 10<sup>23</sup> phân tử khí Nitrogen (N<sub>2</sub>). Khối lượng khí Nitrogen trong bình là bao nhiêu gam? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>N<sub>2</sub></sub> = 28 g/mol)",
         "answer": "54",
-        "explanation": "Số mol khí Nitrogen là:<br>$$n = \\frac{N}{N_A} = \\frac{11,61 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} \\approx 1,9286\\text{ mol}$$<br>Khối lượng khí Nitrogen trong bình là:<br>$$m = n \\cdot M = 1,9286 \\times 28 \\approx 54\\text{ gam}$$",
-        "prompt": "Một bình kín chứa $11,61 \\cdot 10^{23}$ phân tử khí Nitrogen ($\\text{N}_2$). Khối lượng khí Nitrogen trong bình là bao nhiêu gam? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{N}_2} = 28\\text{ g/mol}$)"
+        "explanation": "Số mol khí Nitrogen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (11,61 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) ≈ 1,9286 mol</div><br>Khối lượng khí Nitrogen trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 1,9286 × 28 ≈ 54 gam</div>",
+        "prompt": "Một bình kín chứa 11,61 · 10<sup>23</sup> phân tử khí Nitrogen (N<sub>2</sub>). Khối lượng khí Nitrogen trong bình là bao nhiêu gam? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>N<sub>2</sub></sub> = 28 g/mol)"
       },
       {
         "id": 27,
@@ -1197,10 +1197,10 @@
         "label": "Phần 3 - Câu 5",
         "topic": "Khối lượng Helium",
         "figure": null,
-        "question": "Bình kín đựng khí Helium chứa $1,505 \\cdot 10^{23}$ nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Helium có trong bình là bao nhiêu gam? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{He}} = 4\\text{ g/mol}$)",
+        "question": "Bình kín đựng khí Helium chứa 1,505 · 10<sup>23</sup> nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Helium có trong bình là bao nhiêu gam? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>He</sub> = 4 g/mol)",
         "answer": "1",
-        "explanation": "Số mol khí Helium là:<br>$$n = \\frac{N}{N_A} = \\frac{1,505 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,25\\text{ mol}$$<br>Khối lượng Helium trong bình là:<br>$$m = n \\cdot M = 0,25 \\times 4 = 1\\text{ gam}$$",
-        "prompt": "Bình kín đựng khí Helium chứa $1,505 \\cdot 10^{23}$ nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Helium có trong bình là bao nhiêu gam? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{He}} = 4\\text{ g/mol}$)"
+        "explanation": "Số mol khí Helium là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (1,505 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,25 mol</div><br>Khối lượng Helium trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 0,25 × 4 = 1 gam</div>",
+        "prompt": "Bình kín đựng khí Helium chứa 1,505 · 10<sup>23</sup> nguyên tử Helium ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Helium có trong bình là bao nhiêu gam? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>He</sub> = 4 g/mol)"
       },
       {
         "id": 28,
@@ -1211,10 +1211,10 @@
         "label": "Phần 3 - Câu 6",
         "topic": "Khối lượng nước từ số hạt",
         "figure": null,
-        "question": "Một mẫu nước chứa $10,03 \\cdot 10^{23}$ phân tử $\\text{H}_2\\text{O}$ tương ứng với khối lượng bao nhiêu gam nước? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{H}_2\\text{O}} = 18\\text{ g/mol}$)",
+        "question": "Một mẫu nước chứa 10,03 · 10<sup>23</sup> phân tử H<sub>2</sub>O tương ứng với khối lượng bao nhiêu gam nước? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>H<sub>2</sub>O</sub> = 18 g/mol)",
         "answer": "30",
-        "explanation": "Số mol nước là:<br>$$n = \\frac{N}{N_A} = \\frac{10,03 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} \\approx 1,666\\text{ mol}$$<br>Khối lượng nước là:<br>$$m = n \\cdot M = 1,666 \\times 18 \\approx 30\\text{ gam}$$",
-        "prompt": "Một mẫu nước chứa $10,03 \\cdot 10^{23}$ phân tử $\\text{H}_2\\text{O}$ tương ứng với khối lượng bao nhiêu gam nước? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{H}_2\\text{O}} = 18\\text{ g/mol}$)"
+        "explanation": "Số mol nước là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (10,03 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) ≈ 1,666 mol</div><br>Khối lượng nước là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 1,666 × 18 ≈ 30 gam</div>",
+        "prompt": "Một mẫu nước chứa 10,03 · 10<sup>23</sup> phân tử H<sub>2</sub>O tương ứng với khối lượng bao nhiêu gam nước? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>H<sub>2</sub>O</sub> = 18 g/mol)"
       }
     ]
   },
@@ -1304,7 +1304,7 @@
           "D": "400 m/s."
         },
         "answer": "D",
-        "explanation": "Ở điều kiện tiêu chuẩn ($T = 273\\text{ K}$, $p = 1\\text{ atm}$), các phân tử khí chuyển động với tốc độ trung bình rất lớn, vào khoảng <b>400 m/s</b> (cỡ vài trăm mét trên giây).<br>⟶ Chọn <b>D</b>."
+        "explanation": "Ở điều kiện tiêu chuẩn (T = 273 K, p = 1 atm), các phân tử khí chuyển động với tốc độ trung bình rất lớn, vào khoảng <b>400 m/s</b> (cỡ vài trăm mét trên giây).<br>⟶ Chọn <b>D</b>."
       },
       {
         "id": 5,
@@ -1424,7 +1424,7 @@
           "D": "Vì áp suất chất khí giảm đi."
         },
         "answer": "B",
-        "explanation": "Nhiệt độ tuyệt đối của khối khí tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: $\\bar{E}_d = \\frac{1}{2}m\\bar{v^2} = \\frac{3}{2}kT$. Do đó khi nhiệt độ tăng, động năng tăng kéo theo <b>tốc độ chuyển động nhiệt tăng</b>.<br>⟶ Chọn <b>B</b>."
+        "explanation": "Nhiệt độ tuyệt đối của khối khí tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E<sub>d</sub> = 1/2m{v<sup>2</sup>} = 3/2kT. Do đó khi nhiệt độ tăng, động năng tăng kéo theo <b>tốc độ chuyển động nhiệt tăng</b>.<br>⟶ Chọn <b>B</b>."
       },
       {
         "id": 11,
@@ -1458,13 +1458,13 @@
         "prompt": "Điều kiện tiêu chuẩn (đktc truyền thống trong Vật lí) tương ứng với thông số nào?",
         "question": "Điều kiện tiêu chuẩn (đktc truyền thống trong Vật lí) tương ứng với thông số nào?",
         "options": {
-          "A": "$T = 0^\\circ\\text{C}$ và $p = 2\\text{ atm}$.",
-          "B": "$T = 100^\\circ\\text{C}$ và $p = 1\\text{ atm}$.",
-          "C": "$T = 273\\text{ K}$ ($0^\\circ\\text{C}$) và $p = 1\\text{ atm}$.",
-          "D": "$T = 0\\text{ K}$ và $p = 1\\text{ atm}$."
+          "A": "T = 0°C và p = 2 atm.",
+          "B": "T = 100°C và p = 1 atm.",
+          "C": "T = 273 K (0°C) và p = 1 atm.",
+          "D": "T = 0 K và p = 1 atm."
         },
         "answer": "C",
-        "explanation": "Điều kiện tiêu chuẩn (đktc) trong chương trình truyền thống được định nghĩa ở nhiệt độ $0^\\circ\\text{C}$ ($273\\text{ K}$) và áp suất $1\\text{ atm}$ ($1,013 \\cdot 10^5\\text{ Pa}$).<br>⟶ Chọn <b>C</b>."
+        "explanation": "Điều kiện tiêu chuẩn (đktc) trong chương trình truyền thống được định nghĩa ở nhiệt độ 0°C (273 K) và áp suất 1 atm (1,013 · 10<sup>5</sup> Pa).<br>⟶ Chọn <b>C</b>."
       },
       {
         "id": 13,
@@ -1504,7 +1504,7 @@
           "D": "Dính chặt vào thành bình."
         },
         "answer": "C",
-        "explanation": "Khi va chạm đàn hồi với thành bình, vận tốc của phân tử đổi hướng làm biến thiên động lượng $\\Delta \\vec{p}$, phân tử <b>truyền động lượng cho thành bình</b> tạo nên áp lực.<br>⟶ Chọn <b>C</b>."
+        "explanation": "Khi va chạm đàn hồi với thành bình, vận tốc của phân tử đổi hướng làm biến thiên động lượng Δ p&#8407;, phân tử <b>truyền động lượng cho thành bình</b> tạo nên áp lực.<br>⟶ Chọn <b>C</b>."
       },
       {
         "id": 15,
@@ -1515,8 +1515,8 @@
         "label": "Phần 1 - Câu 15",
         "topic": "Hằng số Avogadro",
         "figure": null,
-        "prompt": "Số Avogadro ($N_A$) là:",
-        "question": "Số Avogadro ($N_A$) là:",
+        "prompt": "Số Avogadro (N<sub>A</sub>) là:",
+        "question": "Số Avogadro (N<sub>A</sub>) là:",
         "options": {
           "A": "Số phân tử có trong 1 lít chất khí ở điều kiện chuẩn.",
           "B": "Số phân tử hoặc nguyên tử có trong 1 mol chất.",
@@ -1524,7 +1524,7 @@
           "D": "Số electron có trong một nguyên tử."
         },
         "answer": "B",
-        "explanation": "Hằng số Avogadro ($N_A \\approx 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$) là số hạt (phân tử hoặc nguyên tử) có trong <b>1 mol chất</b>.<br>⟶ Chọn <b>B</b>."
+        "explanation": "Hằng số Avogadro (N<sub>A</sub> ≈ 6,02 · 10<sup>23</sup> mol<sup>-1</sup>) là số hạt (phân tử hoặc nguyên tử) có trong <b>1 mol chất</b>.<br>⟶ Chọn <b>B</b>."
       },
       {
         "id": 16,
@@ -1544,7 +1544,7 @@
           "D": "kg/m³."
         },
         "answer": "C",
-        "explanation": "Khối lượng mol ($M$) là khối lượng của một lượng chất tính theo gam trên mỗi mol chất, đơn vị thông dụng là <b>g/mol</b>.<br>⟶ Chọn <b>C</b>."
+        "explanation": "Khối lượng mol (M) là khối lượng của một lượng chất tính theo gam trên mỗi mol chất, đơn vị thông dụng là <b>g/mol</b>.<br>⟶ Chọn <b>C</b>."
       },
       {
         "id": 17,
@@ -1555,16 +1555,16 @@
         "label": "Phần 1 - Câu 17",
         "topic": "Công thức số mol",
         "figure": null,
-        "prompt": "Số mol $n$ của một mẫu vật chất có khối lượng $m$ và khối lượng mol $M$ được xác định bằng công thức nào?",
-        "question": "Số mol $n$ của một mẫu vật chất có khối lượng $m$ và khối lượng mol $M$ được xác định bằng công thức nào?",
+        "prompt": "Số mol n của một mẫu vật chất có khối lượng m và khối lượng mol M được xác định bằng công thức nào?",
+        "question": "Số mol n của một mẫu vật chất có khối lượng m và khối lượng mol M được xác định bằng công thức nào?",
         "options": {
-          "A": "$n = \\frac{M}{m}$.",
-          "B": "$n = \\frac{m}{M}$.",
-          "C": "$n = m \\cdot M$.",
-          "D": "$n = \\frac{M}{N_A}$."
+          "A": "n = M/m.",
+          "B": "n = m/M.",
+          "C": "n = m · M.",
+          "D": "n = M/N<sub>A</sub>."
         },
         "answer": "B",
-        "explanation": "Số mol $n$ của mẫu chất được tính bằng thương số giữa khối lượng $m$ và khối lượng mol $M$:<br>$$n = \\frac{m}{M}$$<br>⟶ Chọn <b>B</b>."
+        "explanation": "Số mol n của mẫu chất được tính bằng thương số giữa khối lượng m và khối lượng mol M:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M</div><br>⟶ Chọn <b>B</b>."
       },
       {
         "id": 18,
@@ -1644,7 +1644,7 @@
           "D": "Tốc độ trung bình giảm về 0."
         },
         "answer": "C",
-        "explanation": "Động năng trung bình của phân tử $\\bar{E}_d = \\frac{1}{2}m\\bar{v^2} = \\frac{3}{2}kT$. Khi nhiệt độ $T$ tăng thì động năng trung bình tăng, dẫn đến <b>tốc độ trung bình của các phân tử khí tăng lên</b>.<br>⟶ Chọn <b>C</b>."
+        "explanation": "Động năng trung bình của phân tử E<sub>d</sub> = 1/2m{v<sup>2</sup>} = 3/2kT. Khi nhiệt độ T tăng thì động năng trung bình tăng, dẫn đến <b>tốc độ trung bình của các phân tử khí tăng lên</b>.<br>⟶ Chọn <b>C</b>."
       },
       {
         "id": 22,
@@ -1664,7 +1664,7 @@
           "D": "33,6 lít."
         },
         "answer": "C",
-        "explanation": "Ở điều kiện tiêu chuẩn, 1 mol khí chiếm thể tích 22,4 lít. Do đó thể tích của 2 mol khí là:<br>$$V = n \\cdot V_0 = 2 \\times 22,4 = 44,8\\text{ lít}$$<br>⟶ Chọn <b>C</b>."
+        "explanation": "Ở điều kiện tiêu chuẩn, 1 mol khí chiếm thể tích 22,4 lít. Do đó thể tích của 2 mol khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = n · V<sub>0</sub> = 2 × 22,4 = 44,8 lít</div><br>⟶ Chọn <b>C</b>."
       },
       {
         "id": 23,
@@ -1735,8 +1735,8 @@
         "label": "Phần 1 - Câu 26",
         "topic": "Tính số mol",
         "figure": null,
-        "prompt": "Nếu khối lượng mol của một chất khí là 44 g/mol (khí $\\text{CO}_2$), số mol của 88 g khí đó là bao nhiêu?",
-        "question": "Nếu khối lượng mol của một chất khí là 44 g/mol (khí $\\text{CO}_2$), số mol của 88 g khí đó là bao nhiêu?",
+        "prompt": "Nếu khối lượng mol của một chất khí là 44 g/mol (khí CO<sub>2</sub>), số mol của 88 g khí đó là bao nhiêu?",
+        "question": "Nếu khối lượng mol của một chất khí là 44 g/mol (khí CO<sub>2</sub>), số mol của 88 g khí đó là bao nhiêu?",
         "options": {
           "A": "1 mol.",
           "B": "2 mol.",
@@ -1744,7 +1744,7 @@
           "D": "4 mol."
         },
         "answer": "B",
-        "explanation": "Số mol của 88 g khí là:<br>$$n = \\frac{m}{M} = \\frac{88}{44} = 2\\text{ mol}$$<br>⟶ Chọn <b>B</b>."
+        "explanation": "Số mol của 88 g khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 88/44 = 2 mol</div><br>⟶ Chọn <b>B</b>."
       },
       {
         "id": 27,
@@ -1755,8 +1755,8 @@
         "label": "Phần 1 - Câu 27",
         "topic": "Khối lượng mol khí Oxi",
         "figure": null,
-        "prompt": "Khối lượng của 1 mol phân tử khí Oxygen ($\\text{O}_2$) là bao nhiêu?",
-        "question": "Khối lượng của 1 mol phân tử khí Oxygen ($\\text{O}_2$) là bao nhiêu?",
+        "prompt": "Khối lượng của 1 mol phân tử khí Oxygen (O<sub>2</sub>) là bao nhiêu?",
+        "question": "Khối lượng của 1 mol phân tử khí Oxygen (O<sub>2</sub>) là bao nhiêu?",
         "options": {
           "A": "16 g.",
           "B": "32 g.",
@@ -1764,7 +1764,7 @@
           "D": "64 g."
         },
         "answer": "B",
-        "explanation": "Mỗi nguyên tử Oxygen có khối lượng mol xấp xỉ 16 g/mol. Phân tử khí Oxygen gồm 2 nguyên tử O ($\\text{O}_2$) nên khối lượng mol phân tử là:<br>$$M = 2 \\times 16 = 32\\text{ g/mol}$$<br>⟶ 1 mol khí $\\text{O}_2$ có khối lượng là <b>32 g</b>.<br>⟶ Chọn <b>B</b>."
+        "explanation": "Mỗi nguyên tử Oxygen có khối lượng mol xấp xỉ 16 g/mol. Phân tử khí Oxygen gồm 2 nguyên tử O (O<sub>2</sub>) nên khối lượng mol phân tử là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">M = 2 × 16 = 32 g/mol</div><br>⟶ 1 mol khí O<sub>2</sub> có khối lượng là <b>32 g</b>.<br>⟶ Chọn <b>B</b>."
       },
       {
         "id": 28,
@@ -1861,7 +1861,7 @@
           "c": true,
           "d": false
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Trong mô hình khí lí tưởng, khi chưa va chạm lực tương tác giữa các phân tử rất yếu nên được coi bằng 0.<br>• <b>b) Sai:</b> Nhiệt độ là số đo động năng phân tử; nhiệt độ tăng thì tốc độ trung bình của các phân tử phải <b>tăng lên</b>.<br>• <b>c) Đúng:</b> Va chạm giữa các phân tử khí và thành bình là va chạm đàn hồi hoàn toàn.<br>• <b>d) Sai:</b> Ở 0°C ($273\\text{ K}$), các phân tử khí vẫn chuyển động hỗn loạn rất nhanh. Chúng chỉ ngừng chuyển động nhiệt tại độ không tuyệt đối ($0\\text{ K} = -273,15^\\circ\\text{C}$)."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Trong mô hình khí lí tưởng, khi chưa va chạm lực tương tác giữa các phân tử rất yếu nên được coi bằng 0.<br>• <b>b) Sai:</b> Nhiệt độ là số đo động năng phân tử; nhiệt độ tăng thì tốc độ trung bình của các phân tử phải <b>tăng lên</b>.<br>• <b>c) Đúng:</b> Va chạm giữa các phân tử khí và thành bình là va chạm đàn hồi hoàn toàn.<br>• <b>d) Sai:</b> Ở 0°C (273 K), các phân tử khí vẫn chuyển động hỗn loạn rất nhanh. Chúng chỉ ngừng chuyển động nhiệt tại độ không tuyệt đối (0 K = -273,15°C)."
       },
       {
         "id": 32,
@@ -1898,7 +1898,7 @@
           "c": true,
           "d": true
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Sai:</b> Khí lí tưởng hoàn toàn không có lực hút phân tử nên không thể ngưng tụ hóa lỏng.<br>• <b>b) Sai:</b> Áp suất khí chỉ tỉ lệ thuận với <b>nhiệt độ tuyệt đối $T$ (Kelvin)</b>, không tỉ lệ thuận với nhiệt độ $t$ (°C).<br>• <b>c) Đúng:</b> Mỗi chất khí có khối lượng phân tử riêng (ví dụ $\\text{H}_2: 2\\text{ g/mol}$, $\\text{He}: 4\\text{ g/mol}$, $\\text{O}_2: 32\\text{ g/mol}$...).<br>• <b>d) Đúng:</b> Các phân tử khí được coi là chất điểm, thể tích riêng bỏ qua so với thể tích bình."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Sai:</b> Khí lí tưởng hoàn toàn không có lực hút phân tử nên không thể ngưng tụ hóa lỏng.<br>• <b>b) Sai:</b> Áp suất khí chỉ tỉ lệ thuận với <b>nhiệt độ tuyệt đối T (Kelvin)</b>, không tỉ lệ thuận với nhiệt độ t (°C).<br>• <b>c) Đúng:</b> Mỗi chất khí có khối lượng phân tử riêng (ví dụ H<sub>2</sub>: 2 g/mol, He: 4 g/mol, O<sub>2</sub>: 32 g/mol...).<br>• <b>d) Đúng:</b> Các phân tử khí được coi là chất điểm, thể tích riêng bỏ qua so với thể tích bình."
       },
       {
         "id": 33,
@@ -1935,7 +1935,7 @@
           "c": true,
           "d": true
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Lực liên kết rất yếu, các phân tử khí chuyển động hỗn loạn bành trướng chiếm toàn bộ thể tích bình chứa.<br>• <b>b) Sai:</b> Chất khí không có hình dạng và thể tích riêng xác định.<br>• <b>c) Đúng:</b> Mật độ phân tử thấp làm cho sự truyền nhiệt và điện rất kém.<br>• <b>d) Đúng:</b> Theo định luật Charles cho quá trình đẳng tích ($V = \\text{const}$), nhiệt độ $T$ tăng làm áp suất $p$ tăng."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Lực liên kết rất yếu, các phân tử khí chuyển động hỗn loạn bành trướng chiếm toàn bộ thể tích bình chứa.<br>• <b>b) Sai:</b> Chất khí không có hình dạng và thể tích riêng xác định.<br>• <b>c) Đúng:</b> Mật độ phân tử thấp làm cho sự truyền nhiệt và điện rất kém.<br>• <b>d) Đúng:</b> Theo định luật Charles cho quá trình đẳng tích (V = const), nhiệt độ T tăng làm áp suất p tăng."
       },
       {
         "id": 34,
@@ -1972,7 +1972,7 @@
           "c": true,
           "d": true
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Khoảng cách phân tử lớn nên dễ dàng nén ép thể tích khí.<br>• <b>b) Sai:</b> Mật độ phân tử của chất khí nhỏ hơn hàng nghìn lần so với chất lỏng và rắn.<br>• <b>c) Đúng:</b> Hiện tượng khuếch tán cho phép các chất khí tự hòa trộn hoàn toàn vào nhau.<br>• <b>d) Đúng:</b> Theo định luật Boyle ($T = \\text{const}$), $p \\cdot V = \\text{const}$, thể tích giảm thì áp suất tăng."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Khoảng cách phân tử lớn nên dễ dàng nén ép thể tích khí.<br>• <b>b) Sai:</b> Mật độ phân tử của chất khí nhỏ hơn hàng nghìn lần so với chất lỏng và rắn.<br>• <b>c) Đúng:</b> Hiện tượng khuếch tán cho phép các chất khí tự hòa trộn hoàn toàn vào nhau.<br>• <b>d) Đúng:</b> Theo định luật Boyle (T = const), p · V = const, thể tích giảm thì áp suất tăng."
       },
       {
         "id": 35,
@@ -2009,7 +2009,7 @@
           "c": false,
           "d": true
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Khối lượng riêng $\\rho = \\frac{m}{V} = \\frac{pM}{RT}$, biến thiên theo $p$ và $T$.<br>• <b>b) Đúng:</b> Chênh lệch áp suất tạo lực đẩy dòng khí từ nơi áp suất cao về nơi áp suất thấp.<br>• <b>c) Sai:</b> Các phân tử chuyển động nhiệt hỗn loạn nên có khả năng khuếch tán rất mạnh.<br>• <b>d) Đúng:</b> Do chuyển động hỗn loạn đẳng hướng, áp suất khí nén lên thành bình là như nhau theo mọi hướng."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Khối lượng riêng ρ = m/V = pM/RT, biến thiên theo p và T.<br>• <b>b) Đúng:</b> Chênh lệch áp suất tạo lực đẩy dòng khí từ nơi áp suất cao về nơi áp suất thấp.<br>• <b>c) Sai:</b> Các phân tử chuyển động nhiệt hỗn loạn nên có khả năng khuếch tán rất mạnh.<br>• <b>d) Đúng:</b> Do chuyển động hỗn loạn đẳng hướng, áp suất khí nén lên thành bình là như nhau theo mọi hướng."
       },
       {
         "id": 36,
@@ -2020,18 +2020,18 @@
         "label": "Phần 2 - Câu 6",
         "topic": "Bài toán khí Oxygen trong khí cầu",
         "figure": null,
-        "prompt": "Một khí cầu chứa khí Oxygen có thể tích là 22,4 lít ở điều kiện tiêu chuẩn (0°C và 1 atm). Giả sử các phân tử Oxygen có bán kính xấp xỉ $r = 10^{-10}\\text{ m}$, bán kính Trái Đất là $R = 6400\\text{ km}$, và lấy số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Các nhận định sau đây đúng hay sai?",
-        "question": "Một khí cầu chứa khí Oxygen có thể tích là 22,4 lít ở điều kiện tiêu chuẩn (0°C và 1 atm). Giả sử các phân tử Oxygen có bán kính xấp xỉ $r = 10^{-10}\\text{ m}$, bán kính Trái Đất là $R = 6400\\text{ km}$, và lấy số Avogadro $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Các nhận định sau đây đúng hay sai?",
+        "prompt": "Một khí cầu chứa khí Oxygen có thể tích là 22,4 lít ở điều kiện tiêu chuẩn (0°C và 1 atm). Giả sử các phân tử Oxygen có bán kính xấp xỉ r = 10<sup>-10</sup> m, bán kính Trái Đất là R = 6400 km, và lấy số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Các nhận định sau đây đúng hay sai?",
+        "question": "Một khí cầu chứa khí Oxygen có thể tích là 22,4 lít ở điều kiện tiêu chuẩn (0°C và 1 atm). Giả sử các phân tử Oxygen có bán kính xấp xỉ r = 10<sup>-10</sup> m, bán kính Trái Đất là R = 6400 km, và lấy số Avogadro N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Các nhận định sau đây đúng hay sai?",
         "items": {
-          "a": "Số phân tử Oxygen chứa trong khí cầu trên là $6,02 \\cdot 10^{23}$ phân tử.",
+          "a": "Số phân tử Oxygen chứa trong khí cầu trên là 6,02 · 10<sup>23</sup> phân tử.",
           "b": "Một khối lượng 16 g khí Oxygen tương ứng với 1 mol khí Oxygen.",
-          "c": "Nếu xếp các phân tử Oxygen này nối tiếp nhau thành một hàng thẳng thì chiều dài chuỗi là $L = 1,204 \\cdot 10^{14}\\text{ m}$.",
+          "c": "Nếu xếp các phân tử Oxygen này nối tiếp nhau thành một hàng thẳng thì chiều dài chuỗi là L = 1,204 · 10<sup>14</sup> m.",
           "d": "Nếu xếp tất cả các phân tử Oxygen trong khí cầu thành một chuỗi dọc theo xích đạo Trái Đất thì chuỗi đó chỉ bao quanh Trái Đất được khoảng 1,5 lần."
         },
         "statements": {
-          "a": "Số phân tử Oxygen chứa trong khí cầu trên là $6,02 \\cdot 10^{23}$ phân tử.",
+          "a": "Số phân tử Oxygen chứa trong khí cầu trên là 6,02 · 10<sup>23</sup> phân tử.",
           "b": "Một khối lượng 16 g khí Oxygen tương ứng với 1 mol khí Oxygen.",
-          "c": "Nếu xếp các phân tử Oxygen này nối tiếp nhau thành một hàng thẳng thì chiều dài chuỗi là $L = 1,204 \\cdot 10^{14}\\text{ m}$.",
+          "c": "Nếu xếp các phân tử Oxygen này nối tiếp nhau thành một hàng thẳng thì chiều dài chuỗi là L = 1,204 · 10<sup>14</sup> m.",
           "d": "Nếu xếp tất cả các phân tử Oxygen trong khí cầu thành một chuỗi dọc theo xích đạo Trái Đất thì chuỗi đó chỉ bao quanh Trái Đất được khoảng 1,5 lần."
         },
         "answer": {
@@ -2046,7 +2046,7 @@
           "c": true,
           "d": false
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Ở đktc, $V = 22,4\\text{ lít} \\implies n = 1\\text{ mol} \\implies N = 6,02 \\cdot 10^{23}$ phân tử.<br>• <b>b) Sai:</b> Khí Oxygen là phân tử $\\text{O}_2$ ($M = 32\\text{ g/mol}$). Khối lượng 16 g chỉ tương ứng với $n = \\frac{16}{32} = 0,5\\text{ mol}$.<br>• <b>c) Đúng:</b> Đường kính phân tử $d = 2r = 2 \\cdot 10^{-10}\\text{ m}$. Chiều dài chuỗi:<br>$$L = N \\cdot d = 6,02 \\cdot 10^{23} \\times 2 \\cdot 10^{-10} = 1,204 \\cdot 10^{14}\\text{ m}$$<br>• <b>d) Sai:</b> Chu vi Trái Đất $C = 2\\pi R \\approx 4,02 \\cdot 10^7\\text{ m}$. Số vòng chuỗi bao quanh:<br>$$\\frac{L}{C} = \\frac{1,204 \\cdot 10^{14}}{4,02 \\cdot 10^7} \\approx 3 \\cdot 10^6\\text{ lần (khoảng 3 triệu lần, không phải 1,5 lần)}.$$"
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Đúng:</b> Ở đktc, V = 22,4 lít ⟹ n = 1 mol ⟹ N = 6,02 · 10<sup>23</sup> phân tử.<br>• <b>b) Sai:</b> Khí Oxygen là phân tử O<sub>2</sub> (M = 32 g/mol). Khối lượng 16 g chỉ tương ứng với n = 16/32 = 0,5 mol.<br>• <b>c) Đúng:</b> Đường kính phân tử d = 2r = 2 · 10<sup>-10</sup> m. Chiều dài chuỗi:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">L = N · d = 6,02 · 10<sup>23</sup> × 2 · 10<sup>-10</sup> = 1,204 · 10<sup>14</sup> m</div><br>• <b>d) Sai:</b> Chu vi Trái Đất C = 2π R ≈ 4,02 · 10<sup>7</sup> m. Số vòng chuỗi bao quanh:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">L/C = (1,204 · 10<sup>14</sup>) / (4,02 · 10<sup>7</sup>) ≈ 3 · 10<sup>6</sup> lần (khoảng 3 triệu lần, không phải 1,5 lần).</div>"
       },
       {
         "id": 37,
@@ -2057,19 +2057,19 @@
         "label": "Phần 2 - Câu 7",
         "topic": "Bài toán mẫu khí Nitrogen 14g",
         "figure": null,
-        "prompt": "Xét một mẫu khí Nitrogen ($\\text{N}_2$) có khối lượng $m = 14\\text{ g}$. Biết bán kính phân tử Nitrogen là $r = 10^{-10}\\text{ m}$, lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, khối lượng mol của $\\text{N}_2$ là $28\\text{ g/mol}$ và của $\\text{O}_2$ là $32\\text{ g/mol}$. Các mệnh đề sau đây đúng hay sai?",
-        "question": "Xét một mẫu khí Nitrogen ($\\text{N}_2$) có khối lượng $m = 14\\text{ g}$. Biết bán kính phân tử Nitrogen là $r = 10^{-10}\\text{ m}$, lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, khối lượng mol của $\\text{N}_2$ là $28\\text{ g/mol}$ và của $\\text{O}_2$ là $32\\text{ g/mol}$. Các mệnh đề sau đây đúng hay sai?",
+        "prompt": "Xét một mẫu khí Nitrogen (N<sub>2</sub>) có khối lượng m = 14 g. Biết bán kính phân tử Nitrogen là r = 10<sup>-10</sup> m, lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, khối lượng mol của N<sub>2</sub> là 28 g/mol và của O<sub>2</sub> là 32 g/mol. Các mệnh đề sau đây đúng hay sai?",
+        "question": "Xét một mẫu khí Nitrogen (N<sub>2</sub>) có khối lượng m = 14 g. Biết bán kính phân tử Nitrogen là r = 10<sup>-10</sup> m, lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, khối lượng mol của N<sub>2</sub> là 28 g/mol và của O<sub>2</sub> là 32 g/mol. Các mệnh đề sau đây đúng hay sai?",
         "items": {
-          "a": "Số phân tử Nitrogen có trong mẫu khí này là $2,01 \\cdot 10^{23}$ phân tử.",
-          "b": "Nếu xếp các phân tử Nitrogen trong mẫu trên liền kề nhau thành một chuỗi thì chuỗi này dài $3,01 \\cdot 10^{13}\\text{ m}$.",
-          "c": "Nếu thay mẫu trên bằng 14 g khí Oxygen ($\\text{O}_2$) có cùng bán kính phân tử thì chiều dài chuỗi là $L \\approx 5,2675 \\cdot 10^{13}\\text{ m}$.",
-          "d": "Trong cùng một khối lượng 14 g, tỉ số chiều dài giữa chuỗi phân tử $\\text{N}_2$ và chuỗi phân tử $\\text{O}_2$ là 1,4."
+          "a": "Số phân tử Nitrogen có trong mẫu khí này là 2,01 · 10<sup>23</sup> phân tử.",
+          "b": "Nếu xếp các phân tử Nitrogen trong mẫu trên liền kề nhau thành một chuỗi thì chuỗi này dài 3,01 · 10<sup>13</sup> m.",
+          "c": "Nếu thay mẫu trên bằng 14 g khí Oxygen (O<sub>2</sub>) có cùng bán kính phân tử thì chiều dài chuỗi là L ≈ 5,2675 · 10<sup>13</sup> m.",
+          "d": "Trong cùng một khối lượng 14 g, tỉ số chiều dài giữa chuỗi phân tử N<sub>2</sub> và chuỗi phân tử O<sub>2</sub> là 1,4."
         },
         "statements": {
-          "a": "Số phân tử Nitrogen có trong mẫu khí này là $2,01 \\cdot 10^{23}$ phân tử.",
-          "b": "Nếu xếp các phân tử Nitrogen trong mẫu trên liền kề nhau thành một chuỗi thì chuỗi này dài $3,01 \\cdot 10^{13}\\text{ m}$.",
-          "c": "Nếu thay mẫu trên bằng 14 g khí Oxygen ($\\text{O}_2$) có cùng bán kính phân tử thì chiều dài chuỗi là $L \\approx 5,2675 \\cdot 10^{13}\\text{ m}$.",
-          "d": "Trong cùng một khối lượng 14 g, tỉ số chiều dài giữa chuỗi phân tử $\\text{N}_2$ và chuỗi phân tử $\\text{O}_2$ là 1,4."
+          "a": "Số phân tử Nitrogen có trong mẫu khí này là 2,01 · 10<sup>23</sup> phân tử.",
+          "b": "Nếu xếp các phân tử Nitrogen trong mẫu trên liền kề nhau thành một chuỗi thì chuỗi này dài 3,01 · 10<sup>13</sup> m.",
+          "c": "Nếu thay mẫu trên bằng 14 g khí Oxygen (O<sub>2</sub>) có cùng bán kính phân tử thì chiều dài chuỗi là L ≈ 5,2675 · 10<sup>13</sup> m.",
+          "d": "Trong cùng một khối lượng 14 g, tỉ số chiều dài giữa chuỗi phân tử N<sub>2</sub> và chuỗi phân tử O<sub>2</sub> là 1,4."
         },
         "answer": {
           "a": false,
@@ -2083,7 +2083,7 @@
           "c": true,
           "d": false
         },
-        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Sai:</b> Số mol $n = \\frac{14}{28} = 0,5\\text{ mol} \\implies N = 0,5 \\times 6,02 \\cdot 10^{23} = 3,01 \\cdot 10^{23}$ phân tử.<br>• <b>b) Sai:</b> Chiều dài chuỗi là $L = N \\cdot (2r) = 3,01 \\cdot 10^{23} \\times (2 \\cdot 10^{-10}) = 6,02 \\cdot 10^{13}\\text{ m} \\neq 3,01 \\cdot 10^{13}\\text{ m}$.<br><i>(Lưu ý: Mệnh đề khẳng định $3,01 \\cdot 10^{13}\\text{ m}$ là sai do chưa nhân 2 cho đường kính $d = 2r$; tài liệu PDF gốc in nhầm ký hiệu thành Đ).</i><br>• <b>c) Đúng:</b> Số mol $\\text{O}_2$ là $n = \\frac{14}{32} = 0,4375\\text{ mol} \\implies N_{\\text{O}_2} = 2,63375 \\cdot 10^{23}$. Chiều dài chuỗi là $L = N_{\\text{O}_2} \\cdot 2r = 5,2675 \\cdot 10^{13}\\text{ m}$.<br>• <b>d) Sai:</b> Tỉ số chiều dài là $\\frac{L_{\\text{N}_2}}{L_{\\text{O}_2}} = \\frac{M_{\\text{O}_2}}{M_{\\text{N}_2}} = \\frac{32}{28} \\approx 1,14 \\neq 1,4$."
+        "explanation": "<b>Chi tiết từng nhận định:</b><br>• <b>a) Sai:</b> Số mol n = 14/28 = 0,5 mol ⟹ N = 0,5 × 6,02 · 10<sup>23</sup> = 3,01 · 10<sup>23</sup> phân tử.<br>• <b>b) Sai:</b> Chiều dài chuỗi là L = N · (2r) = 3,01 · 10<sup>23</sup> × (2 · 10<sup>-10</sup>) = 6,02 · 10<sup>13</sup> m ≠ q 3,01 · 10<sup>13</sup> m.<br><i>(Lưu ý: Mệnh đề khẳng định 3,01 · 10<sup>13</sup> m là sai do chưa nhân 2 cho đường kính d = 2r; tài liệu PDF gốc in nhầm ký hiệu thành Đ).</i><br>• <b>c) Đúng:</b> Số mol O<sub>2</sub> là n = 14/32 = 0,4375 mol ⟹ N<sub>O<sub>2</sub></sub> = 2,63375 · 10<sup>23</sup>. Chiều dài chuỗi là L = N<sub>O<sub>2</sub></sub> · 2r = 5,2675 · 10<sup>13</sup> m.<br>• <b>d) Sai:</b> Tỉ số chiều dài là (L<sub>N<sub>2</sub></sub>) / (L<sub>O<sub>2</sub></sub>) = (M<sub>O<sub>2</sub></sub>) / (M<sub>N<sub>2</sub></sub>) = 32/28 ≈ 1,14 ≠ q 1,4."
       },
       {
         "id": 38,
@@ -2094,10 +2094,10 @@
         "label": "Phần 3 - Câu 1",
         "topic": "Thể tích khí CO2 ở đktc",
         "figure": null,
-        "prompt": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), 44 gam Carbon Dioxide ($\\text{CO}_2$, có $M = 44\\text{ g/mol}$) có thể tích là bao nhiêu $\\text{dm}^3$ (lít)?",
-        "question": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), 44 gam Carbon Dioxide ($\\text{CO}_2$, có $M = 44\\text{ g/mol}$) có thể tích là bao nhiêu $\\text{dm}^3$ (lít)?",
+        "prompt": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), 44 gam Carbon Dioxide (CO<sub>2</sub>, có M = 44 g/mol) có thể tích là bao nhiêu dm<sup>3</sup> (lít)?",
+        "question": "Ở điều kiện tiêu chuẩn (0°C, 1 atm), 44 gam Carbon Dioxide (CO<sub>2</sub>, có M = 44 g/mol) có thể tích là bao nhiêu dm<sup>3</sup> (lít)?",
         "answer": "22.4",
-        "explanation": "Số mol khí $\\text{CO}_2$ là:<br>$$n = \\frac{m}{M} = \\frac{44}{44} = 1\\text{ mol}$$<br>Ở điều kiện tiêu chuẩn (0°C, 1 atm), 1 mol khí có thể tích là:<br>$$V = 1 \\times 22,4 = 22,4\\text{ lít} = 22,4\\text{ dm}^3$$"
+        "explanation": "Số mol khí CO<sub>2</sub> là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 44/44 = 1 mol</div><br>Ở điều kiện tiêu chuẩn (0°C, 1 atm), 1 mol khí có thể tích là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = 1 × 22,4 = 22,4 lít = 22,4 dm<sup>3</sup></div>"
       },
       {
         "id": 39,
@@ -2108,10 +2108,10 @@
         "label": "Phần 3 - Câu 2",
         "topic": "Khối lượng khí Oxygen",
         "figure": null,
-        "prompt": "$1,204 \\cdot 10^{24}$ phân tử Oxygen ($\\text{O}_2$) tương ứng với bao nhiêu gam khí Oxygen? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{O}_2} = 32\\text{ g/mol}$)",
-        "question": "$1,204 \\cdot 10^{24}$ phân tử Oxygen ($\\text{O}_2$) tương ứng với bao nhiêu gam khí Oxygen? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$, $M_{\\text{O}_2} = 32\\text{ g/mol}$)",
+        "prompt": "1,204 · 10<sup>24</sup> phân tử Oxygen (O<sub>2</sub>) tương ứng với bao nhiêu gam khí Oxygen? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>O<sub>2</sub></sub> = 32 g/mol)",
+        "question": "1,204 · 10<sup>24</sup> phân tử Oxygen (O<sub>2</sub>) tương ứng với bao nhiêu gam khí Oxygen? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>, M<sub>O<sub>2</sub></sub> = 32 g/mol)",
         "answer": "64",
-        "explanation": "Số mol khí $\\text{O}_2$ là:<br>$$n = \\frac{N}{N_A} = \\frac{1,204 \\cdot 10^{24}}{6,02 \\cdot 10^{23}} = 2\\text{ mol}$$<br>Khối lượng khí Oxygen tương ứng là:<br>$$m = n \\cdot M = 2 \\times 32 = 64\\text{ gam}$$"
+        "explanation": "Số mol khí O<sub>2</sub> là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (1,204 · 10<sup>24</sup>) / (6,02 · 10<sup>23</sup>) = 2 mol</div><br>Khối lượng khí Oxygen tương ứng là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 2 × 32 = 64 gam</div>"
       },
       {
         "id": 40,
@@ -2122,10 +2122,10 @@
         "label": "Phần 3 - Câu 3",
         "topic": "Khối lượng khí Argon",
         "figure": null,
-        "prompt": "Bình kín đựng khí Argon chứa $3,01 \\cdot 10^{23}$ nguyên tử Argon ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Argon có trong bình là bao nhiêu gam? (Biết khối lượng mol của Argon là $M = 40\\text{ g/mol}$, lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
-        "question": "Bình kín đựng khí Argon chứa $3,01 \\cdot 10^{23}$ nguyên tử Argon ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Argon có trong bình là bao nhiêu gam? (Biết khối lượng mol của Argon là $M = 40\\text{ g/mol}$, lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "prompt": "Bình kín đựng khí Argon chứa 3,01 · 10<sup>23</sup> nguyên tử Argon ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Argon có trong bình là bao nhiêu gam? (Biết khối lượng mol của Argon là M = 40 g/mol, lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
+        "question": "Bình kín đựng khí Argon chứa 3,01 · 10<sup>23</sup> nguyên tử Argon ở điều kiện 0°C và áp suất trong bình là 1 atm. Khối lượng Argon có trong bình là bao nhiêu gam? (Biết khối lượng mol của Argon là M = 40 g/mol, lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "answer": "20",
-        "explanation": "Số mol khí Argon trong bình là:<br>$$n = \\frac{N}{N_A} = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol}$$<br>Khối lượng khí Argon có trong bình là:<br>$$m = n \\cdot M = 0,5 \\times 40 = 20\\text{ gam}$$"
+        "explanation": "Số mol khí Argon trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol</div><br>Khối lượng khí Argon có trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">m = n · M = 0,5 × 40 = 20 gam</div>"
       },
       {
         "id": 41,
@@ -2136,10 +2136,10 @@
         "label": "Phần 3 - Câu 4",
         "topic": "Thể tích khí Nitrogen",
         "figure": null,
-        "prompt": "Bình kín đựng khí Nitrogen chứa $3,01 \\cdot 10^{23}$ phân tử Nitrogen ($\\text{N}_2$) ở điều kiện 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
-        "question": "Bình kín đựng khí Nitrogen chứa $3,01 \\cdot 10^{23}$ phân tử Nitrogen ($\\text{N}_2$) ở điều kiện 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$)",
+        "prompt": "Bình kín đựng khí Nitrogen chứa 3,01 · 10<sup>23</sup> phân tử Nitrogen (N<sub>2</sub>) ở điều kiện 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
+        "question": "Bình kín đựng khí Nitrogen chứa 3,01 · 10<sup>23</sup> phân tử Nitrogen (N<sub>2</sub>) ở điều kiện 0°C và áp suất 1 atm. Thể tích của bình đựng khí trên là bao nhiêu lít? (Lấy N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>)",
         "answer": "11.2",
-        "explanation": "Số mol khí $\\text{N}_2$ trong bình là:<br>$$n = \\frac{N}{N_A} = \\frac{3,01 \\cdot 10^{23}}{6,02 \\cdot 10^{23}} = 0,5\\text{ mol}$$<br>Ở điều kiện 0°C và 1 atm (đktc), thể tích của bình đựng khí là:<br>$$V = n \\cdot V_0 = 0,5 \\times 22,4 = 11,2\\text{ lít}$$"
+        "explanation": "Số mol khí N<sub>2</sub> trong bình là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (3,01 · 10<sup>23</sup>) / (6,02 · 10<sup>23</sup>) = 0,5 mol</div><br>Ở điều kiện 0°C và 1 atm (đktc), thể tích của bình đựng khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">V = n · V<sub>0</sub> = 0,5 × 22,4 = 11,2 lít</div>"
       },
       {
         "id": 42,
@@ -2150,10 +2150,10 @@
         "label": "Phần 3 - Câu 5",
         "topic": "Số mol khí Methane",
         "figure": null,
-        "prompt": "Biết khối lượng của 1 mol khí Methane ($\\text{CH}_4$) là 16 g. 48 g khí Methane là khối lượng của bao nhiêu mol khí này?",
-        "question": "Biết khối lượng của 1 mol khí Methane ($\\text{CH}_4$) là 16 g. 48 g khí Methane là khối lượng của bao nhiêu mol khí này?",
+        "prompt": "Biết khối lượng của 1 mol khí Methane (CH<sub>4</sub>) là 16 g. 48 g khí Methane là khối lượng của bao nhiêu mol khí này?",
+        "question": "Biết khối lượng của 1 mol khí Methane (CH<sub>4</sub>) là 16 g. 48 g khí Methane là khối lượng của bao nhiêu mol khí này?",
         "answer": "3",
-        "explanation": "Số mol của 48 g khí Methane là:<br>$$n = \\frac{m}{M} = \\frac{48}{16} = 3\\text{ mol}$$"
+        "explanation": "Số mol của 48 g khí Methane là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = m/M = 48/16 = 3 mol</div>"
       },
       {
         "id": 43,
@@ -2164,10 +2164,10 @@
         "label": "Phần 3 - Câu 6",
         "topic": "Số mol mẫu khí nguyên tử đơn",
         "figure": null,
-        "prompt": "Một mẫu khí có khối lượng là 8 kg và chứa $4,8 \\cdot 10^{25}$ nguyên tử. Phân tử khí này là đơn nguyên tử. Biết 1 mol khí có $N_A = 60,2 \\cdot 10^{22} = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Số mol của khí này là bao nhiêu mol? (Làm tròn kết quả đến một chữ số thập phân)",
-        "question": "Một mẫu khí có khối lượng là 8 kg và chứa $4,8 \\cdot 10^{25}$ nguyên tử. Phân tử khí này là đơn nguyên tử. Biết 1 mol khí có $N_A = 60,2 \\cdot 10^{22} = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Số mol của khí này là bao nhiêu mol? (Làm tròn kết quả đến một chữ số thập phân)",
+        "prompt": "Một mẫu khí có khối lượng là 8 kg và chứa 4,8 · 10<sup>25</sup> nguyên tử. Phân tử khí này là đơn nguyên tử. Biết 1 mol khí có N<sub>A</sub> = 60,2 · 10<sup>22</sup> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Số mol của khí này là bao nhiêu mol? (Làm tròn kết quả đến một chữ số thập phân)",
+        "question": "Một mẫu khí có khối lượng là 8 kg và chứa 4,8 · 10<sup>25</sup> nguyên tử. Phân tử khí này là đơn nguyên tử. Biết 1 mol khí có N<sub>A</sub> = 60,2 · 10<sup>22</sup> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Số mol của khí này là bao nhiêu mol? (Làm tròn kết quả đến một chữ số thập phân)",
         "answer": "79.7",
-        "explanation": "Số mol của mẫu khí là:<br>$$n = \\frac{N}{N_A} = \\frac{4,8 \\cdot 10^{25}}{6,02 \\cdot 10^{23}} = \\frac{480}{6,02} \\approx 79,734\\text{ mol}$$<br>Làm tròn đến 1 chữ số thập phân theo quy chuẩn:<br>$$n \\approx 79,7\\text{ mol}$$<br><i>(Lưu ý: Dòng giải trong tài liệu PDF gốc in nhầm số 19,73 nhưng ô đáp án đã ghi đúng giá trị 79,7).</i>"
+        "explanation": "Số mol của mẫu khí là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n = N/N<sub>A</sub> = (4,8 · 10<sup>25</sup>) / (6,02 · 10<sup>23</sup>) = 480/6,02 ≈ 79,734 mol</div><br>Làm tròn đến 1 chữ số thập phân theo quy chuẩn:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">n ≈ 79,7 mol</div><br><i>(Lưu ý: Dòng giải trong tài liệu PDF gốc in nhầm số 19,73 nhưng ô đáp án đã ghi đúng giá trị 79,7).</i>"
       },
       {
         "id": 44,
@@ -2178,10 +2178,10 @@
         "label": "Phần 3 - Câu 7",
         "topic": "Chuỗi phân tử Nitrogen",
         "figure": null,
-        "prompt": "Xét một mẫu khí Nitrogen ($\\text{N}_2$, có $M = 28\\text{ g/mol}$) có khối lượng 14 g. Biết bán kính của phân tử Nitrogen là $r = 10^{-10}\\text{ m}$, và $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Nếu xếp các phân tử Nitrogen này nối tiếp nhau thành một chuỗi thẳng thì chuỗi này dài bao nhiêu lần $10^{13}\\text{ m}$?",
-        "question": "Xét một mẫu khí Nitrogen ($\\text{N}_2$, có $M = 28\\text{ g/mol}$) có khối lượng 14 g. Biết bán kính của phân tử Nitrogen là $r = 10^{-10}\\text{ m}$, và $N_A = 6,02 \\cdot 10^{23}\\text{ mol}^{-1}$. Nếu xếp các phân tử Nitrogen này nối tiếp nhau thành một chuỗi thẳng thì chuỗi này dài bao nhiêu lần $10^{13}\\text{ m}$?",
+        "prompt": "Xét một mẫu khí Nitrogen (N<sub>2</sub>, có M = 28 g/mol) có khối lượng 14 g. Biết bán kính của phân tử Nitrogen là r = 10<sup>-10</sup> m, và N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Nếu xếp các phân tử Nitrogen này nối tiếp nhau thành một chuỗi thẳng thì chuỗi này dài bao nhiêu lần 10<sup>13</sup> m?",
+        "question": "Xét một mẫu khí Nitrogen (N<sub>2</sub>, có M = 28 g/mol) có khối lượng 14 g. Biết bán kính của phân tử Nitrogen là r = 10<sup>-10</sup> m, và N<sub>A</sub> = 6,02 · 10<sup>23</sup> mol<sup>-1</sup>. Nếu xếp các phân tử Nitrogen này nối tiếp nhau thành một chuỗi thẳng thì chuỗi này dài bao nhiêu lần 10<sup>13</sup> m?",
         "answer": "6.02",
-        "explanation": "Số mol khí Nitrogen là $n = \\frac{14}{28} = 0,5\\text{ mol}$.<br>Số phân tử Nitrogen là:<br>$$N = n \\cdot N_A = 0,5 \\times 6,02 \\cdot 10^{23} = 3,01 \\cdot 10^{23}$$<br>Đường kính của mỗi phân tử là $d = 2r = 2 \\cdot 10^{-10}\\text{ m}$.<br>Chiều dài chuỗi phân tử là:<br>$$L = N \\cdot d = 3,01 \\cdot 10^{23} \\times 2 \\cdot 10^{-10} = 6,02 \\cdot 10^{13}\\text{ m}$$<br>Vậy chuỗi dài <b>6,02</b> lần $10^{13}\\text{ m}$."
+        "explanation": "Số mol khí Nitrogen là n = 14/28 = 0,5 mol.<br>Số phân tử Nitrogen là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">N = n · N<sub>A</sub> = 0,5 × 6,02 · 10<sup>23</sup> = 3,01 · 10<sup>23</sup></div><br>Đường kính của mỗi phân tử là d = 2r = 2 · 10<sup>-10</sup> m.<br>Chiều dài chuỗi phân tử là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">L = N · d = 3,01 · 10<sup>23</sup> × 2 · 10<sup>-10</sup> = 6,02 · 10<sup>13</sup> m</div><br>Vậy chuỗi dài <b>6,02</b> lần 10<sup>13</sup> m."
       },
       {
         "id": 45,
@@ -2192,10 +2192,10 @@
         "label": "Phần 3 - Câu 8",
         "topic": "Tỉ số chiều dài chuỗi khí H2 và N2",
         "figure": null,
-        "prompt": "Xét một mẫu khí Nitrogen ($\\text{N}_2$, $M_{\\text{N}_2} = 28\\text{ g/mol}$) có khối lượng 14 g xếp thành chuỗi dài $L_{\\text{N}_2}$. Nếu thay bằng 14 g khí Hydrogen ($\\text{H}_2$, $M_{\\text{H}_2} = 2\\text{ g/mol}$) với giả thiết coi kích thước phân tử xấp xỉ nhau thì tỉ số chiều dài giữa chuỗi khí Hydrogen và chuỗi khí Nitrogen $\\left( \\frac{L_{\\text{H}_2}}{L_{\\text{N}_2}} \\right)$ là bao nhiêu?",
-        "question": "Xét một mẫu khí Nitrogen ($\\text{N}_2$, $M_{\\text{N}_2} = 28\\text{ g/mol}$) có khối lượng 14 g xếp thành chuỗi dài $L_{\\text{N}_2}$. Nếu thay bằng 14 g khí Hydrogen ($\\text{H}_2$, $M_{\\text{H}_2} = 2\\text{ g/mol}$) với giả thiết coi kích thước phân tử xấp xỉ nhau thì tỉ số chiều dài giữa chuỗi khí Hydrogen và chuỗi khí Nitrogen $\\left( \\frac{L_{\\text{H}_2}}{L_{\\text{N}_2}} \\right)$ là bao nhiêu?",
+        "prompt": "Xét một mẫu khí Nitrogen (N<sub>2</sub>, M<sub>N<sub>2</sub></sub> = 28 g/mol) có khối lượng 14 g xếp thành chuỗi dài L<sub>N<sub>2</sub></sub>. Nếu thay bằng 14 g khí Hydrogen (H<sub>2</sub>, M<sub>H<sub>2</sub></sub> = 2 g/mol) với giả thiết coi kích thước phân tử xấp xỉ nhau thì tỉ số chiều dài giữa chuỗi khí Hydrogen và chuỗi khí Nitrogen ≤ ft( (L<sub>H<sub>2</sub></sub>) / (L<sub>N<sub>2</sub></sub>) ) là bao nhiêu?",
+        "question": "Xét một mẫu khí Nitrogen (N<sub>2</sub>, M<sub>N<sub>2</sub></sub> = 28 g/mol) có khối lượng 14 g xếp thành chuỗi dài L<sub>N<sub>2</sub></sub>. Nếu thay bằng 14 g khí Hydrogen (H<sub>2</sub>, M<sub>H<sub>2</sub></sub> = 2 g/mol) với giả thiết coi kích thước phân tử xấp xỉ nhau thì tỉ số chiều dài giữa chuỗi khí Hydrogen và chuỗi khí Nitrogen ≤ ft( (L<sub>H<sub>2</sub></sub>) / (L<sub>N<sub>2</sub></sub>) ) là bao nhiêu?",
         "answer": "14",
-        "explanation": "Với cùng một khối lượng $m = 14\\text{ g}$, số phân tử tỉ lệ nghịch với khối lượng mol:<br>$$N = \\frac{m}{M} \\cdot N_A \\implies N \\propto \\frac{1}{M}$$<br>Chiều dài chuỗi tỉ lệ thuận với số phân tử ($L = N \\cdot d$), nên tỉ số chiều dài là:<br>$$\\frac{L_{\\text{H}_2}}{L_{\\text{N}_2}} = \\frac{N_{\\text{H}_2}}{N_{\\text{N}_2}} = \\frac{M_{\\text{N}_2}}{M_{\\text{H}_2}} = \\frac{28}{2} = 14$$"
+        "explanation": "Với cùng một khối lượng m = 14 g, số phân tử tỉ lệ nghịch với khối lượng mol:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">N = m/M · N<sub>A</sub> ⟹ N ∝ 1/M</div><br>Chiều dài chuỗi tỉ lệ thuận với số phân tử (L = N · d), nên tỉ số chiều dài là:<br><div style=\"margin: 0.35rem 0; font-style: italic; font-weight: 500;\">(L<sub>H<sub>2</sub></sub>) / (L<sub>N<sub>2</sub></sub>) = (N<sub>H<sub>2</sub></sub>) / (N<sub>N<sub>2</sub></sub>) = (M<sub>N<sub>2</sub></sub>) / (M<sub>H<sub>2</sub></sub>) = 28/2 = 14</div>"
       }
     ]
   }
