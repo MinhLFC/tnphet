@@ -30,7 +30,7 @@
         "level": "nb_th",
         "label": "Phần 1 - Câu 1",
         "topic": "Khí lí tưởng",
-        "figure": null,
+        "figure": "assets/images/quiz/phys/phys_cd2_box_gas.png",
         "question": "Câu nào sau đây nói về các phân tử khí lí tưởng là <b>không đúng</b>?",
         "options": {
           "A": "Có lực tương tác không đáng kể khi chưa va chạm.",
@@ -50,7 +50,7 @@
         "level": "nb_th",
         "label": "Phần 1 - Câu 2",
         "topic": "Cấu tạo chất khí",
-        "figure": null,
+        "figure": "assets/images/quiz/phys/phys_cd2_balloons.png",
         "question": "Tại sao những quả bóng bay khi để lâu ngày vẫn bị xẹp mặc dù đã được buộc thật chặt?",
         "options": {
           "A": "Vì khi mới thổi, không khí từ miệng vào bóng còn nóng, sau đó lạnh dần nên co lại.",
@@ -632,7 +632,7 @@
         "level": "nb_th",
         "label": "Phần 1 - Câu 1",
         "topic": "Hiện tượng dãn khí",
-        "figure": null,
+        "figure": "assets/images/quiz/phys/phys_cd2_spray_bottle.png",
         "question": "Với bình xịt khử trùng, khi ta ấn nút, van mở ra thì hiện tượng nào sau đây sẽ xảy ra với lượng khí đang bị nén trong bình?",
         "options": {
           "A": "Thể tích khí giảm, áp suất khí giảm.",
@@ -672,7 +672,7 @@
         "level": "nb_th",
         "label": "Phần 1 - Câu 3",
         "topic": "Hiện tượng khuếch tán",
-        "figure": null,
+        "figure": "assets/images/quiz/phys/phys_cd2_flat_tire.png",
         "question": "Bơm căng săm xe đạp và vặn van thật chặt nhưng để lâu ngày lốp xe vẫn bị xẹp dần vì",
         "options": {
           "A": "giữa các phân tử cao su dùng làm săm có khoảng cách nên các phân tử không khí có thể khuếch tán qua đó thoát ra ngoài.",
@@ -732,7 +732,7 @@
         "level": "vd",
         "label": "Phần 1 - Câu 6",
         "topic": "Số phân tử trong lượng chất",
-        "figure": null,
+        "figure": "assets/images/quiz/phys/phys_cd2_oxygen_hand.png",
         "question": "Số phân tử Oxygen ($\\text{O}_2$) có trong 1 gam khí Oxygen là bao nhiêu? (Lấy $N_A = 6,022 \\cdot 10^{23}\\text{ mol}^{-1}$)",
         "options": {
           "A": "$2,082 \\cdot 10^{23}$.",
