@@ -2636,7 +2636,7 @@
     // 1. PHẦN 1: Trắc nghiệm 4 lựa chọn A, B, C, D
     if (q.type === 'mcq') {
       const userAns = state.mcqAnswers[key];
-      const maxOptLen = Math.max(...Object.values(q.options || {}).map(s => (s || '').length));
+      const maxOptLen = Math.max(...Object.values(q.options || {}).map(s => (s || '').replace(/<[^>]*>/g, '').length));
       const useSingleCol = !q.qImg && maxOptLen > 56;
       const gridClass = q.qImg ? 'four-col-compact' : (useSingleCol ? 'single-col' : '');
 
