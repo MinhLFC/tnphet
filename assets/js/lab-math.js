@@ -2154,12 +2154,24 @@
     }
   }
 
+  // Tích hợp 9 Chuyên đề Chương 5: Phương pháp tọa độ trong không gian (Oxyz)
+  const OXYZ_CODES = [
+    'oxyz_b1_d1', 'oxyz_b1_d2',
+    'oxyz_b2_d1', 'oxyz_b2_d2', 'oxyz_b2_d3', 'oxyz_b2_d4',
+    'oxyz_b3_d1', 'oxyz_b3_d2', 'oxyz_b3_d3'
+  ];
+  if (window.MATH_OXYZ_EXAMS_DATA) {
+    for (const [code, examData] of Object.entries(window.MATH_OXYZ_EXAMS_DATA)) {
+      MATH_EXAMS[code] = examData;
+    }
+  }
+
   // Trạng thái ứng dụng Đề Toán 12
   const state = {
-    category: 'dinhki', // 'dinhki' (20 Đề Ôn Định Kì) | 'thpt' (Đề Thi Trường THPT)
-    examGroup: 'gk1', // 'gk1' (20 Đề Ôn Giữa Kì 1) | 'ck1' (20 Đề Ôn Cuối Kì 1)
+    category: 'dinhki', // 'dinhki' | 'kha' | 'thpt' | 'oxyz'
+    examGroup: 'gk1',
     examCode: window.MATH_ALL_EXAMS_DATA ? 'gk1_de1' : 'de2',
-    mode: 'slide', // 'slide' | 'list'
+    mode: 'slide', // 'slide' | 'list' | 'theory'
     partFilter: 'ALL', // 'ALL' | 1 | 2 | 3
     statusFilter: 'ALL',
     searchQuery: '',
@@ -2172,7 +2184,8 @@
     tfAnswers: {},
     shortAnswers: {},
     revealedQuestions: {},
-    starredQuestions: {}
+    starredQuestions: {},
+    revealedEssays: {}
   };
 
   function getQKey(qId) {
@@ -2286,6 +2299,20 @@
       state.currentIndex = Math.max(0, filtered.length - 1);
     }
     const stats = getExamStats();
+    const p1Count = exam.questions.filter(q => q.part === 1).length;
+    const p2Count = exam.questions.filter(q => q.part === 2).length;
+    const p3Count = exam.questions.filter(q => q.part === 3).length;
+    const hasTheory = !!(exam.theoryHtml || (exam.essayQuestions && exam.essayQuestions.length > 0));
+    if (state.mode === 'theory' && !hasTheory) {
+      state.mode = 'slide';
+    }
+
+    const catTitleMap = {
+      dinhki: 'Bộ 20 Đề Ôn Định Kì Toán 12',
+      kha: 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Minh',
+      thpt: 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT',
+      oxyz: 'Chương 5: Phương Pháp Tọa Độ Trong Không Gian Oxyz'
+    };
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="mathWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -2294,14 +2321,19 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">📐</div>
             <div class="quiz-title-text">
-              <h3>${state.category === 'thpt' ? 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT' : (state.category === 'kha' ? 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Minh' : 'Bộ 20 Đề Ôn Định Kì Toán 12')} (${exam.shortTitle || exam.title})</h3>
+              <h3>${catTitleMap[state.category] || 'Đề Ôn Tập Toán 12'} (${exam.shortTitle || exam.title})</h3>
               <p>${exam.subtitle || 'Trọn bộ đề Toán 12 chuẩn cấu trúc mới: Trắc nghiệm ABCD • Đúng/Sai • Trả lời ngắn KQ kèm lời giải chi tiết'}</p>
             </div>
           </div>
 
           <div class="quiz-controls-group">
-            <!-- Chuyển chế độ Trình chiếu / Danh sách -->
+            <!-- Chuyển chế độ Trình chiếu / Danh sách / Lý thuyết -->
             <div class="quiz-mode-switch">
+              ${hasTheory ? `
+                <button class="quiz-mode-btn ${state.mode === 'theory' ? 'active' : ''}" onclick="window.MathQuizApp.setMode('theory')">
+                  📖 Lý thuyết & Phương pháp (${(exam.essayQuestions || []).length} VD)
+                </button>
+              ` : ''}
               <button class="quiz-mode-btn ${state.mode === 'slide' ? 'active' : ''}" onclick="window.MathQuizApp.setMode('slide')">
                 🖥️ Trình chiếu (Slide)
               </button>
@@ -2324,13 +2356,17 @@
 
             ${state.mode === 'slide' ? `
               <button class="quiz-tool-btn" onclick="window.MathQuizApp.toggleSidebar()">
-                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : '▶ Hiện lưới 22 câu'}
+                ${state.sidebarOpen ? '◀ Ẩn lưới câu' : `▶ Hiện lưới ${filtered.length} câu`}
+              </button>
+            ` : (state.mode === 'theory' ? `
+              <button class="quiz-tool-btn" onclick="window.MathQuizApp.toggleAllEssays()">
+                👁️ Hiện/Ẩn lời giải tự luận
               </button>
             ` : `
               <button class="quiz-tool-btn" onclick="window.MathQuizApp.revealAllInFilter()">
                 👁️ Hiện tất cả lời giải
               </button>
-            `}
+            `)}
 
             <button class="quiz-tool-btn" onclick="window.MathQuizApp.toggleFullscreen()">
               ${state.isFullscreen ? '🗗 Thoát toàn màn hình' : '⛶ Toàn màn hình'}
@@ -2342,7 +2378,7 @@
           </div>
         </div>
 
-        <!-- Thanh chọn nhóm Đề (20 Đề Định Kì vs 25 Đề Thầy Minh vs Đề Thi Trường THPT) & Lọc theo Phần 1, 2, 3 -->
+        <!-- Thanh chọn nhóm Đề & Lọc theo Phần 1, 2, 3 -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
@@ -2367,20 +2403,32 @@
               >
                 🏫 Đề Thi Trường THPT (2 Đề)
               </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${state.category === 'oxyz' ? 'active' : ''}"
+                onclick="window.MathQuizApp.selectCategory('oxyz')"
+              >
+                🌐 Chương 5: Tọa độ Oxyz (9 Dạng)
+              </button>
             </div>
 
             <div class="math-part-pills">
-              <button class="math-part-pill ${state.partFilter === 'ALL' ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter('ALL')">
-                Tất cả (22 câu)
+              ${hasTheory ? `
+                <button class="math-part-pill ${state.mode === 'theory' ? 'active' : ''}" onclick="window.MathQuizApp.setMode('theory')">
+                  📖 Lý thuyết & ${exam.essayQuestions.length} VD tự luận
+                </button>
+              ` : ''}
+              <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 'ALL' ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter('ALL')">
+                Tất cả (${exam.questions.length} câu)
               </button>
-              <button class="math-part-pill ${state.partFilter === 1 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(1)">
-                Phần 1: ABCD (12)
+              <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 1 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(1)">
+                Phần 1: ABCD (${p1Count})
               </button>
-              <button class="math-part-pill ${state.partFilter === 2 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(2)">
-                Phần 2: Đúng - Sai (4)
+              <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 2 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(2)">
+                Phần 2: Đúng - Sai (${p2Count})
               </button>
-              <button class="math-part-pill ${state.partFilter === 3 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(3)">
-                Phần 3: Trả lời ngắn (6)
+              <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 3 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(3)">
+                Phần 3: Trả lời ngắn (${p3Count})
               </button>
             </div>
           </div>
@@ -2423,7 +2471,7 @@
                 `;
               }).join('')}
             </div>
-          ` : `
+          ` : (state.category === 'thpt' ? `
             <div class="math-thpt-grid">
               <button
                 type="button"
@@ -2450,7 +2498,32 @@
                 <div class="thpt-btn-desc">Đề kiểm tra giữa học kỳ I — 22 câu chuẩn cấu trúc mới (Có lời giải chi tiết)</div>
               </button>
             </div>
-          `)}
+          ` : `
+            <div class="math-oxyz-grid">
+              ${OXYZ_CODES.map((code) => {
+                const ox = MATH_EXAMS[code];
+                if (!ox) return '';
+                const isAct = state.examCode === code;
+                const hasProg = hasExamProgress(code);
+                const tlLen = (ox.essayQuestions || []).length;
+                const qLen = (ox.questions || []).length;
+                return `
+                  <button
+                    type="button"
+                    class="math-oxyz-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                    onclick="window.MathQuizApp.selectExam('${code}')"
+                  >
+                    <div class="oxyz-btn-top">
+                      <span class="oxyz-btn-badge">${ox.badge || 'OXYZ'}</span>
+                      <span class="oxyz-btn-counts">📖 ${tlLen} VD • 📝 ${qLen} câu</span>
+                    </div>
+                    <div class="oxyz-btn-title">${ox.shortTitle}</div>
+                    <div class="oxyz-btn-desc">${ox.dangTitle}</div>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          `))}
         </div>
 
         <!-- Thanh lọc trạng thái & Thống kê kết quả -->
@@ -2482,16 +2555,16 @@
         </div>
 
         <!-- Nội dung chính -->
-        ${filtered.length === 0 ? `
+        ${state.mode === 'theory' ? renderTheoryView(exam) : (filtered.length === 0 ? `
           <div class="quiz-slide-card" style="text-align: center; padding: 3rem 1.5rem;">
             <div style="font-size: 2.5rem;">🔍</div>
             <h3>Không tìm thấy câu hỏi phù hợp trong ${exam.title}</h3>
-            <p style="color: var(--text-muted);">Hãy chọn lại "Tất cả (22 câu)" hoặc xóa bộ lọc tìm kiếm.</p>
+            <p style="color: var(--text-muted);">Hãy chọn lại "Tất cả (${exam.questions.length} câu)" hoặc xóa bộ lọc tìm kiếm.</p>
             <div>
               <button class="slide-reveal-btn" onclick="window.MathQuizApp.clearFilters()">Xóa bộ lọc</button>
             </div>
           </div>
-        ` : (state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered))}
+        ` : (state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered)))}
       </div>
 
       <!-- Modal Bảng Đáp Án Chuẩn Của Đề Đang Chọn -->
@@ -2506,7 +2579,7 @@
               💡 Nhấn vào bất kỳ câu nào trong bảng dưới đây để chuyển thẳng tới trình chiếu và xem lời giải chi tiết:
             </p>
 
-            <h4 style="margin: 0.5rem 0; color: var(--primary-color);">PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (12 câu)</h4>
+            <h4 style="margin: 0.5rem 0; color: var(--primary-color);">PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (${p1Count} câu)</h4>
             <div class="answer-key-table-grid" style="margin-bottom: 1.15rem;">
               ${exam.questions.filter(q => q.part === 1).map(q => `
                 <div class="ak-cell" onclick="window.MathQuizApp.jumpToQuestionId(${q.id}); window.MathQuizApp.closeAnswerKeyModal();">
@@ -2516,7 +2589,7 @@
               `).join('')}
             </div>
 
-            <h4 style="margin: 0.85rem 0 0.45rem; color: var(--primary-color);">PHẦN II. Câu trắc nghiệm đúng sai (4 câu)</h4>
+            <h4 style="margin: 0.85rem 0 0.45rem; color: var(--primary-color);">PHẦN II. Câu trắc nghiệm đúng sai (${p2Count} câu)</h4>
             <div class="ak-grid-tf" style="margin-bottom: 1.15rem;">
               ${exam.questions.filter(q => q.part === 2).map(q => {
                 const qNum = q.label.replace('Phần 2 - ', '');
@@ -2533,7 +2606,7 @@
               }).join('')}
             </div>
 
-            <h4 style="margin: 0.5rem 0; color: var(--primary-color);">PHẦN III. Câu trắc nghiệm trả lời ngắn (6 câu)</h4>
+            <h4 style="margin: 0.5rem 0; color: var(--primary-color);">PHẦN III. Câu trắc nghiệm trả lời ngắn (${p3Count} câu)</h4>
             <div class="answer-key-table-grid" style="grid-template-columns: repeat(3, 1fr);">
               ${exam.questions.filter(q => q.part === 3).map(q => `
                 <div class="ak-cell" onclick="window.MathQuizApp.jumpToQuestionId(${q.id}); window.MathQuizApp.closeAnswerKeyModal();">
@@ -2677,7 +2750,7 @@
     if (q.type === 'short') {
       const userVal = state.shortAnswers[key] || '';
       const hasVal = userVal.trim() !== '';
-      const isCorrect = hasVal && normalizeNumberStr(userVal) === normalizeNumberStr(q.answer);
+      const isCorrect = hasVal && evaluateQuestionStatus(q) === 'CORRECT';
       const inputClass = hasVal ? (isCorrect ? 'is-correct' : 'is-wrong') : '';
       const showKq = isRevealed || isCorrect;
 
@@ -2882,9 +2955,9 @@
                 else if (rev) cellClass += ' revealed-only';
                 if (star) cellClass += ' is-starred';
 
-                const shortTag = q.part === 1
+                const shortTag = q.shortTag || (q.part === 1
                   ? `P1.${q.id}`
-                  : (q.part === 2 ? `P2.${q.id - 12}` : `P3.${q.id - 16}`);
+                  : (q.part === 2 ? `P2.${q.id - 12}` : `P3.${q.id - 16}`));
 
                 return `
                   <button
@@ -2923,21 +2996,89 @@
     `;
   }
 
+  function renderTheoryView(exam) {
+    const essays = exam.essayQuestions || [];
+    const allOpen = essays.length > 0 && essays.every(eq => state.revealedEssays[`${state.examCode}_tl_${eq.id}`]);
+    return `
+      <div class="oxyz-theory-view-wrapper">
+        ${exam.theoryHtml || ''}
+
+        <div class="oxyz-essay-section">
+          <div class="oxyz-essay-section-header">
+            <div>
+              <h4>✍️ BÀI TẬP TỰ LUẬN MẪU & PHƯƠNG PHÁP GIẢI (${essays.length} BÀI)</h4>
+              <p>Bấm vào từng bài để hiện/ẩn lời giải chi tiết, hoặc chuyển sang tab Trình chiếu để làm ${exam.questions.length} câu trắc nghiệm.</p>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <button type="button" class="quiz-tool-btn" onclick="window.MathQuizApp.toggleAllEssays()">
+                ${allOpen ? '🙈 Ẩn tất cả lời giải tự luận' : '👁️ Hiện tất cả lời giải tự luận'}
+              </button>
+              <button type="button" class="slide-reveal-btn" onclick="window.MathQuizApp.setMode('slide')">
+                🖥️ Chuyển sang Trắc nghiệm (${exam.questions.length} câu) ➡
+              </button>
+            </div>
+          </div>
+
+          <div class="oxyz-essay-list">
+            ${essays.map(eq => {
+              const eKey = `${state.examCode}_tl_${eq.id}`;
+              const isOpen = !!state.revealedEssays[eKey];
+              return `
+                <div class="oxyz-essay-card">
+                  <div class="oxyz-essay-card-head">
+                    <span class="oxyz-essay-badge">📝 ${eq.label}</span>
+                    <button type="button" class="quiz-tool-btn" onclick="window.MathQuizApp.toggleEssay(${eq.id})">
+                      ${isOpen ? '🙈 Ẩn lời giải' : '👁️ Xem lời giải chi tiết'}
+                    </button>
+                  </div>
+                  <div class="slide-q-body ${eq.figure ? 'has-figure' : ''}" style="margin-top:0.5rem;">
+                    <div class="slide-q-text">${eq.question}</div>
+                    ${eq.figure ? `
+                      <div class="slide-q-figure" onclick="window.MathQuizApp.zoomImage('${eq.figure}', '${exam.shortTitle} • ${eq.label}')">
+                        <img src="${eq.figure}" alt="${eq.label}" class="slide-q-figure-img" loading="lazy" />
+                        <div class="slide-q-figure-caption">Hình minh họa (${eq.label}) <span class="zoom-hint-badge">🔍 Phóng to</span></div>
+                      </div>
+                    ` : ''}
+                  </div>
+                  ${isOpen ? `
+                    <div class="slide-explanation-box" style="margin-top:0.75rem;">
+                      <div class="explanation-header">
+                        <span>💡 HƯỚNG DẪN GIẢI TỰ LUẬN CHI TIẾT:</span>
+                      </div>
+                      <div class="explanation-content">${eq.explanation}</div>
+                    </div>
+                  ` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   window.MathQuizApp = {
     selectCategory(cat) {
-      if (cat !== 'dinhki' && cat !== 'thpt' && cat !== 'kha') return;
+      if (cat !== 'dinhki' && cat !== 'thpt' && cat !== 'kha' && cat !== 'oxyz') return;
       state.category = cat;
       if (cat === 'dinhki') {
         if (!state.examCode.startsWith('gk1_')) {
           state.examCode = 'gk1_de1';
         }
+        if (state.mode === 'theory') state.mode = 'slide';
       } else if (cat === 'kha') {
         if (!state.examCode.startsWith('kha_')) {
           state.examCode = 'kha_de1';
         }
+        if (state.mode === 'theory') state.mode = 'slide';
       } else if (cat === 'thpt') {
         if (state.examCode !== 'thpt_pbc' && state.examCode !== 'thpt_vietduc') {
           state.examCode = 'thpt_pbc';
+        }
+        if (state.mode === 'theory') state.mode = 'slide';
+      } else if (cat === 'oxyz') {
+        if (!state.examCode.startsWith('oxyz_')) {
+          state.examCode = 'oxyz_b1_d1';
         }
       }
       state.currentIndex = 0;
@@ -2950,6 +3091,8 @@
         state.category = 'thpt';
       } else if (examCode.startsWith('kha_')) {
         state.category = 'kha';
+      } else if (examCode.startsWith('oxyz_')) {
+        state.category = 'oxyz';
       } else {
         state.category = 'dinhki';
       }
@@ -2960,7 +3103,24 @@
       state.mode = mode;
       renderMathApp();
     },
+    toggleEssay(eqId) {
+      const k = `${state.examCode}_tl_${eqId}`;
+      state.revealedEssays[k] = !state.revealedEssays[k];
+      renderMathApp();
+    },
+    toggleAllEssays() {
+      const exam = getCurrentExam();
+      const essays = exam.essayQuestions || [];
+      const allOpen = essays.every(eq => state.revealedEssays[`${state.examCode}_tl_${eq.id}`]);
+      essays.forEach(eq => {
+        const k = `${state.examCode}_tl_${eq.id}`;
+        if (allOpen) delete state.revealedEssays[k];
+        else state.revealedEssays[k] = true;
+      });
+      renderMathApp();
+    },
     setPartFilter(part) {
+      if (state.mode === 'theory') state.mode = 'slide';
       state.partFilter = part === 'ALL' ? 'ALL' : Number(part);
       state.currentIndex = 0;
       renderMathApp();
