@@ -32,6 +32,7 @@
     sidebarOpen: true,
     isFullscreen: false,
     revealedQuestions: {}, // { [key]: boolean }
+    revealedEssays: {},    // { [key]: boolean }
     starredQuestions: {},  // { [key]: boolean }
     mcqAnswers: {},        // { [key]: 'A'|'B'|'C'|'D' }
     tfAnswers: {},         // { [key]: { a: bool, b: bool, c: bool, d: bool } }
@@ -234,17 +235,25 @@
     const stats = getExamStats();
     const exams = window.CHEM_ALL_EXAMS_DATA || {};
     const allExams = Object.values(exams);
+    const ch5Exams = allExams.filter(e => e.group === 'ch5' || (e.code && e.code.startsWith('chem_ch5_')));
     const chuyenDeExams = allExams.filter(e => e.group === 'chuyende');
-    const deOnExams = allExams.filter(e => e.group !== 'chuyende');
+    const deOnExams = allExams.filter(e => e.group !== 'chuyende' && e.group !== 'ch5' && (!e.code || !e.code.startsWith('chem_ch5_')));
 
     // Đồng bộ category với đề hiện tại
-    if (exam && exam.group === 'chuyende') {
+    if (exam && (exam.group === 'ch5' || exam.code.startsWith('chem_ch5_'))) {
+      state.category = 'ch5';
+    } else if (exam && exam.group === 'chuyende') {
       state.category = 'chuyende';
-    } else if (exam && (!state.category || state.category === 'chuyende')) {
+    } else if (exam && !state.category) {
       state.category = 'de_on';
     }
     const curCat = state.category || 'de_on';
-    const activeExamList = curCat === 'chuyende' ? (chuyenDeExams.length ? chuyenDeExams : allExams) : deOnExams;
+    let activeExamList = deOnExams;
+    if (curCat === 'ch5') {
+      activeExamList = ch5Exams.length ? ch5Exams : allExams;
+    } else if (curCat === 'chuyende') {
+      activeExamList = chuyenDeExams.length ? chuyenDeExams : allExams;
+    }
 
     const p1Count = exam.questions.filter(q => q.part === 1).length;
     const p2Count = exam.questions.filter(q => q.part === 2).length;
@@ -264,8 +273,13 @@
           </div>
 
           <div class="quiz-controls-group">
-            <!-- Chuyển chế độ Trình chiếu / Danh sách -->
+            <!-- Chuyển chế độ Trình chiếu / Danh sách / Lý thuyết -->
             <div class="quiz-mode-switch">
+              ${(exam.essayQuestions || []).length > 0 ? `
+                <button class="quiz-mode-btn ${state.mode === 'theory' ? 'active' : ''}" onclick="window.ChemQuizApp.setMode('theory')">
+                  📖 Lý thuyết &amp; Ví dụ (${(exam.essayQuestions || []).length})
+                </button>
+              ` : ''}
               <button class="quiz-mode-btn ${state.mode === 'slide' ? 'active' : ''}" onclick="window.ChemQuizApp.setMode('slide')">
                 🖥️ Trình chiếu (Slide)
               </button>
@@ -324,6 +338,13 @@
               >
                 🧪 Chuyên Đề Bài 9: Amino Acid &amp; Peptide
               </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'ch5' ? 'active' : ''}"
+                onclick="window.ChemQuizApp.selectCategory('ch5')"
+              >
+                ⚡ Chương 5: Pin Điện &amp; Điện Phân (2 Chủ đề)
+              </button>
             </div>
 
             <div class="math-part-pills">
@@ -345,7 +366,7 @@
             </div>
           </div>
 
-          <div class="math-exam-grid-20" style="${curCat === 'chuyende' ? 'display: flex; gap: 10px;' : 'grid-template-columns: repeat(7, minmax(0, 1fr));'}">
+          <div class="math-exam-grid-20" style="${(curCat === 'ch5' || curCat === 'chuyende') ? 'display: flex; gap: 10px; flex-wrap: wrap;' : 'grid-template-columns: repeat(7, minmax(0, 1fr));'}">
             ${activeExamList.map((ex, i) => {
               const num = i + 1;
               const isAct = state.currentExamId === ex.code;
@@ -354,7 +375,7 @@
                 <button
                   type="button"
                   class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
-                  style="${curCat === 'chuyende' ? 'flex: 1; padding: 10px 18px; font-weight: 600; font-size: 0.95rem; white-space: normal; line-height: 1.3;' : ''}"
+                  style="${(curCat === 'ch5' || curCat === 'chuyende') ? 'flex: 1 1 200px; min-width: 170px; padding: 10px 18px; font-weight: 700; font-size: 0.92rem; white-space: normal; line-height: 1.35; border-radius: 10px;' : ''}"
                   onclick="window.ChemQuizApp.selectExam('${ex.code}')"
                   title="Chuyển sang ${ex.title || ex.shortTitle}"
                 >
@@ -380,7 +401,7 @@
         </div>
 
         <!-- THÂN NỘI DUNG: SLIDE HOẶC LIST -->
-        ${state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered)}
+        ${state.mode === 'theory' ? renderTheoryView(exam) : (state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered))}
 
         <!-- MODAL BẢNG ĐÁP ÁN -->
         ${state.answerKeyModalOpen ? renderAnswerKeyModal(exam) : ''}
@@ -888,6 +909,68 @@
   }
 
   // ==================== PUBLIC API ====================
+  
+  function renderTheoryView(exam) {
+    const essays = exam.essayQuestions || [];
+    const allOpen = essays.length > 0 && essays.every(eq => state.revealedEssays[`${state.currentExamId}_tl_${eq.id}`]);
+    return `
+      <div class="oxyz-theory-view-wrapper">
+        ${exam.theoryHtml || ''}
+
+        <div class="oxyz-essay-section">
+          <div class="oxyz-essay-section-header">
+            <div>
+              <h4>📖 VÍ DỤ MẪU & BÀI TẬP ÁP DỤNG (${essays.length} BÀI)</h4>
+              <p>Bấm vào từng bài để hiện/ẩn lời giải chi tiết, hoặc chuyển sang tab Trình chiếu để làm ${exam.questions.length} câu trắc nghiệm.</p>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <button type="button" class="quiz-tool-btn" onclick="window.ChemQuizApp.toggleAllEssays()">
+                ${allOpen ? '🙈 Ẩn tất cả lời giải' : '👁️ Hiện tất cả lời giải'}
+              </button>
+              <button type="button" class="slide-reveal-btn" onclick="window.ChemQuizApp.setMode('slide')">
+                🖥️ Chuyển sang Trắc nghiệm (${exam.questions.length} câu) ➔
+              </button>
+            </div>
+          </div>
+
+          <div class="oxyz-essay-list">
+            ${essays.map(eq => {
+              const eKey = `${state.currentExamId}_tl_${eq.id}`;
+              const isOpen = !!state.revealedEssays[eKey];
+              return `
+                <div class="oxyz-essay-card">
+                  <div class="oxyz-essay-card-head">
+                    <span class="oxyz-essay-badge">💡 ${eq.label}</span>
+                    <button type="button" class="quiz-tool-btn" onclick="window.ChemQuizApp.toggleEssay(${eq.id})">
+                      ${isOpen ? '🙈 Ẩn lời giải' : '👁️ Xem lời giải chi tiết'}
+                    </button>
+                  </div>
+                  <div class="slide-q-body ${eq.figure ? 'has-figure' : ''}" style="margin-top:0.5rem;">
+                    <div class="slide-q-text">${eq.question}</div>
+                    ${eq.figure ? `
+                      <div class="slide-q-figure" onclick="window.ChemQuizApp.zoomImage('${eq.figure}', '${exam.shortTitle} • ${eq.label}')">
+                        <img src="${eq.figure}" alt="${eq.label}" class="slide-q-figure-img" loading="lazy" />
+                        <div class="slide-q-figure-caption">Hình minh họa (${eq.label}) <span class="zoom-hint-badge">🔍 Phóng to</span></div>
+                      </div>
+                    ` : ''}
+                  </div>
+                  ${isOpen ? `
+                    <div class="slide-explanation-box" style="margin-top:0.75rem;">
+                      <div class="explanation-header">
+                        <span>💡 HƯỚNG DẪN GIẢI CHI TIẾT:</span>
+                      </div>
+                      <div class="explanation-content">${eq.explanation}</div>
+                    </div>
+                  ` : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   window.ChemQuizApp = {
     init: function () {
       loadSavedState();
@@ -896,7 +979,9 @@
 
     selectCategory: function (cat) {
       state.category = cat;
-      if (cat === 'chuyende') {
+      if (cat === 'ch5') {
+        state.currentExamId = 'chem_ch5_cd1';
+      } else if (cat === 'chuyende') {
         state.currentExamId = 'hoa_chuyende_amino_acid';
       } else {
         state.currentExamId = 'hoa_de1';
@@ -908,10 +993,30 @@
       renderChemApp();
     },
 
+    toggleEssay: function (id) {
+      const key = `${state.currentExamId}_tl_${id}`;
+      state.revealedEssays[key] = !state.revealedEssays[key];
+      saveState();
+      renderChemApp();
+    },
+
+    toggleAllEssays: function () {
+      const exam = getCurrentExam();
+      const essays = (exam && exam.essayQuestions) || [];
+      const allOpen = essays.length > 0 && essays.every(eq => state.revealedEssays[`${state.currentExamId}_tl_${eq.id}`]);
+      essays.forEach(eq => {
+        state.revealedEssays[`${state.currentExamId}_tl_${eq.id}`] = !allOpen;
+      });
+      saveState();
+      renderChemApp();
+    },
+
     selectExam: function (examCode) {
       state.currentExamId = examCode;
       const exam = window.CHEM_ALL_EXAMS_DATA && window.CHEM_ALL_EXAMS_DATA[examCode];
-      if (exam && exam.group === 'chuyende') {
+      if (exam && (exam.group === 'ch5' || examCode.startsWith('chem_ch5_'))) {
+        state.category = 'ch5';
+      } else if (exam && exam.group === 'chuyende') {
         state.category = 'chuyende';
       } else if (exam) {
         state.category = 'de_on';

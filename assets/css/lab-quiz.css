@@ -1523,21 +1523,25 @@
 .m-vec {
   position: relative;
   display: inline-block;
-  padding-top: 0.18em;
+  padding-top: 0.16em;
+  margin-right: 0.05em;
   font-style: italic;
+  line-height: 1.2;
 }
 
 .m-vec::before {
-  content: "→";
+  content: "\2192";
   position: absolute;
-  top: -0.52em;
+  top: -0.32em;
   left: 0;
   right: 0;
   text-align: center;
   font-size: 0.72em;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
+  color: inherit;
+  pointer-events: none;
 }
 
 /* Căn bậc hai (.m-root) và Hệ phương trình (.m-sys) trong Oxyz */
@@ -2423,28 +2427,30 @@
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-  gap: 0.32rem;
-  padding: 0.8rem 1rem !important;
+  gap: 0.35rem;
+  padding: 0.85rem 1.15rem !important;
   border-radius: 12px;
-  border: 2px solid var(--border-color);
-  background: var(--bg-surface-soft);
-  color: var(--text-main);
+  border: 1.5px solid var(--border-color, #e2e8f0);
+  background: var(--bg-surface, #ffffff);
+  color: var(--text-main, #0f172a);
   cursor: pointer;
-  transition: var(--transition);
-  min-height: 76px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 80px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
 }
 
 .math-oxyz-btn:hover {
-  border-color: var(--primary-color);
-  background: rgba(0, 60, 113, 0.05);
+  border-color: var(--primary-color, #003c71);
+  background: var(--bg-surface-soft, #f8fafc);
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(0, 60, 113, 0.12);
 }
 
 .math-oxyz-btn.active {
-  background: var(--bg-surface);
-  border-color: var(--primary-color);
-  box-shadow: 0 4px 18px rgba(0, 60, 113, 0.18);
+  background: var(--bg-surface, #ffffff);
+  border-color: var(--primary-color, #003c71);
+  box-shadow: 0 0 0 1.5px var(--primary-color, #003c71), 0 4px 18px rgba(0, 60, 113, 0.15);
 }
 
 .oxyz-btn-top {
