@@ -743,7 +743,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 39",
         "orig_qnum": 19,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Ở điều kiện chuẩn, kim loại nào sau đây khử được ion H<sup>+</sup> thành H ?\n2",
+        "prompt": "(SBT – KNTT) Ở điều kiện chuẩn, kim loại nào sau đây khử được ion H<sup>+</sup> thành H<sub>2</sub>?",
         "options": {
           "A": "Mg.",
           "B": "Cu.",
@@ -800,7 +800,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "orig_qnum": 22,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(Đề TSCĐ - 2007) Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO<sub>4</sub> có thể dùng kim loại\n4",
+        "prompt": "(Đề TSCĐ - 2007) Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO<sub>4</sub> có thể dùng kim loại",
         "options": {
           "A": "Fe.",
           "B": "Na.",
@@ -2875,14 +2875,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "orig_qnum": 9,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(Đề TSCĐ - 2012) Cho dãy các kim loại: Cu, Ni, Zn, Mg, Fe, Ag. Số kim loại trong dãy phản\nứng được với dung dịch FeCl<sub>3</sub> là bao nhiêu?\n3",
+        "prompt": "(Đề TSCĐ - 2012) Cho dãy các kim loại: Cu, Ni, Zn, Mg, Fe, Ag. Số kim loại trong dãy phản ứng được với dung dịch FeCl<sub>3</sub> là bao nhiêu?",
         "answer": "05",
         "acceptedAnswers": [
           "05",
-          "05"
+          "5"
         ],
         "figure": null,
-        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>05</b>.",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>Cặp Fe<sup>3+</sup>/Fe<sup>2+</sup> có thế điện cực chuẩn <i>E</i>° = +0,771 V.<br>Các kim loại có thế điện cực chuẩn nhỏ hơn +0,771 V sẽ khử được Fe<sup>3+</sup> về Fe<sup>2+</sup> (hoặc Fe):<br>• Mg: Mg + 2Fe<sup>3+</sup> &rarr; Mg<sup>2+</sup> + 2Fe<sup>2+</sup><br>• Zn: Zn + 2Fe<sup>3+</sup> &rarr; Zn<sup>2+</sup> + 2Fe<sup>2+</sup><br>• Fe: Fe + 2Fe<sup>3+</sup> &rarr; 3Fe<sup>2+</sup><br>• Ni: Ni + 2Fe<sup>3+</sup> &rarr; Ni<sup>2+</sup> + 2Fe<sup>2+</sup><br>• Cu: Cu + 2Fe<sup>3+</sup> &rarr; Cu<sup>2+</sup> + 2Fe<sup>2+</sup><br>Kim loại Ag có <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = +0,799 V > +0,771 V nên không phản ứng.<br>Vậy có <b>05</b> kim loại phản ứng được với dung dịch FeCl<sub>3</sub>: Cu, Ni, Zn, Mg, Fe.<br>Đáp án: <b>05</b>.",
         "options": {}
       },
       {
@@ -2965,14 +2965,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 14",
         "orig_qnum": 14,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "Cho các kim loại sau: Na, Mg, Al, Fe, Cu và Ag. Ở điều kiện chuẩn, có bao nhiêu kim loại trong\ndãy khử được ion H<sup>+</sup> thành khí H ?\n2",
+        "prompt": "Cho các kim loại sau: Na, Mg, Al, Fe, Cu và Ag. Ở điều kiện chuẩn, có bao nhiêu kim loại trong dãy khử được ion H<sup>+</sup> thành khí H<sub>2</sub>?",
         "answer": "04",
         "acceptedAnswers": [
           "04",
-          "04"
+          "4"
         ],
         "figure": null,
-        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>04</b>.",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>Ở điều kiện chuẩn, các kim loại có thế điện cực chuẩn âm (đứng trước hydrogen trong dãy điện hoá) sẽ khử được ion H<sup>+</sup> giải phóng khí H<sub>2</sub>:<br>• Na: 2Na + 2H<sup>+</sup> &rarr; 2Na<sup>+</sup> + H<sub>2</sub>&uarr;<br>• Mg: Mg + 2H<sup>+</sup> &rarr; Mg<sup>2+</sup> + H<sub>2</sub>&uarr;<br>• Al: 2Al + 6H<sup>+</sup> &rarr; 2Al<sup>3+</sup> + 3H<sub>2</sub>&uarr;<br>• Fe: Fe + 2H<sup>+</sup> &rarr; Fe<sup>2+</sup> + H<sub>2</sub>&uarr;<br>Hai kim loại Cu (<i>E</i>° = +0,340 V) và Ag (<i>E</i>° = +0,799 V) đứng sau H nên không khử được H<sup>+</sup>.<br>Vậy có <b>04</b> kim loại trong dãy khử được ion H<sup>+</sup> thành khí H<sub>2</sub>.<br>Đáp án: <b>04</b>.",
         "options": {}
       },
       {
@@ -3164,7 +3164,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "orig_qnum": 9,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SGK – CTST) Điện phân CaCl<sub>2</sub> nóng chảy, ở cathode xảy ra quá trình nào?\n2",
+        "prompt": "(SGK – CTST) Điện phân CaCl<sub>2</sub> nóng chảy, ở cathode xảy ra quá trình nào?",
         "options": {
           "A": "Oxi hoá ion Ca<sup>2+</sup>.",
           "B": "Khử ion Ca<sup>2+</sup>.",
@@ -3278,7 +3278,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "orig_qnum": 15,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – KNTT) Việc duy trì điện áp thấp (~ 5 V) trong quá trình điện phân nóng chảy Al<sub>2</sub>O<sub>3</sub>\ntrong 3NaF.AlF nhằm ngăn cản quá trình nào sau đây xảy ra ở cathode?\n3",
+        "prompt": "(SBT – KNTT) Việc duy trì điện áp thấp (~ 5 V) trong quá trình điện phân nóng chảy Al<sub>2</sub>O<sub>3</sub> trong 3NaF·AlF<sub>3</sub> nhằm ngăn cản quá trình nào sau đây xảy ra ở cathode?",
         "options": {
           "A": "Al<sup>3+</sup> + 3e &rarr; Al.",
           "B": "Na<sup>+</sup> + 1e &rarr; Na.",
@@ -3316,7 +3316,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "orig_qnum": 17,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – Cánh Diều) Khi điện phân dung dịch CuSO<sub>4</sub> , ion nào sẽ điện phân đầu tiên ở cathode?\n4",
+        "prompt": "(SBT – Cánh Diều) Khi điện phân dung dịch CuSO<sub>4</sub>, ion nào sẽ điện phân đầu tiên ở cathode?",
         "options": {
           "A": "Cu<sup>2+</sup>.",
           "B": "H<sup>+</sup> (của nước).",
@@ -4660,14 +4660,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 12",
         "orig_qnum": 12,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Để mạ đồng (Cu) cho một vật, người ta điện phân dung dịch chứa CuSO<sub>4</sub> và H<sub>2</sub>SO<sub>4</sub> với một điện\ncực là vật cần mạ. Khi đó ngoài kim loại đồng sinh ra và được phủ ở bề mặt vật cần mạ còn thu\nđược các khí H<sub>2</sub> và O<sub>2</sub> . Số sản phẩm nào thu được tại anode là bao nhiêu?\n2 2",
+        "prompt": "Để mạ đồng (Cu) cho một vật, người ta điện phân dung dịch chứa CuSO<sub>4</sub> và H<sub>2</sub>SO<sub>4</sub> với một điện cực là vật cần mạ. Khi đó ngoài kim loại đồng sinh ra và được phủ ở bề mặt vật cần mạ còn thu được các khí H<sub>2</sub> và O<sub>2</sub>. Số sản phẩm thu được tại anode là bao nhiêu?",
         "answer": "01",
         "acceptedAnswers": [
           "01",
-          "01"
+          "1"
         ],
         "figure": null,
-        "explanation": "Số sản phẩm nào thu được tại anode là 01: O .\nCathode Anode\n1) Cu<sup>2+</sup> + 2e &rarr; Cu\n2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e\n2) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>Tại cathode (vật cần mạ):<br>• Cu<sup>2+</sup> + 2e &rarr; Cu (kim loại bám vào bề mặt vật mạ)<br>• 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>&uarr;<br>Tại anode (cực trơ):<br>• 2H<sub>2</sub>O &rarr; O<sub>2</sub>&uarr; + 4e + 4H<sup>+</sup><br>Như vậy sản phẩm thu được tại anode chỉ có <b>01</b> chất khí là O<sub>2</sub>.<br>Đáp án: <b>01</b>.",
         "options": {}
       }
     ]
@@ -5803,7 +5803,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C10",
         "orig_qnum": 10,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "Cho 5,6 gam gồm Mg và Cu tác dụng với 400 mL dung dịch AgNO<sub>3</sub> 1 M. Phản ứng hoàn toàn\nthu được 32,4 gam chất rắn A và dung dịch nước lọc",
+        "prompt": "Cho 5,6 gam gồm Mg và Cu tác dụng với 400 mL dung dịch AgNO<sub>3</sub> 1 M. Phản ứng hoàn toàn thu được 32,4 gam chất rắn A và dung dịch nước lọc B. Khối lượng mỗi kim loại trong hỗn hợp đầu lần lượt là",
         "options": {
           "B": "4,15 và 1,45.",
           "A": "2,4 và 3,2.",
@@ -5812,7 +5812,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "TH : Ag<sup>+</sup> hết &rarr; n = n 0,4 mol &rArr; m = 43,2 gam > 32,4 gam (loại).\n1 Ag AgNO<sub>3</sub> Ag\nTH : Ag<sup>+</sup> dư &rarr; m = m = 32,4 gam &rArr; n = 0,3 mol\n2 A Ag Ag\nMg (x), Cu (y) —+—AgN—O3 &rarr; Mg2+ , Cu2+ , Ag+ + Ag\n &rArr; {{—5—,6ga—m &rarr; 24x + 64y = 5,6 {{x = 0,1 {m\nMg\n= 2,4 gam\n—B—Te &rarr; 2x + 2y = 0,3 &rArr; y = 0,05 &rarr; { m = 3,2 gam\n} } }\nCu"
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>n<sub>AgNO3</sub> = 0,4 · 1 = 0,4 mol.<br>• TH1: Nếu Ag<sup>+</sup> phản ứng hết &rArr; n<sub>Ag</sub> = 0,4 mol &rArr; m<sub>Ag</sub> = 0,4 · 108 = 43,2 gam > 32,4 gam (loại).<br>• TH2: Do đó Ag<sup>+</sup> dư &rArr; Cả Mg và Cu đều phản ứng hết, chất rắn A chỉ gồm Ag kết tủa: n<sub>Ag</sub> = 32,4 / 108 = 0,3 mol.<br>Gọi x, y lần lượt là số mol Mg và Cu ban đầu:<br>• Khối lượng hỗn hợp: 24x + 64y = 5,6 (1)<br>• Bảo toàn electron: 2x + 2y = n<sub>Ag</sub> = 0,3 (2)<br>Giải hệ phương trình (1) và (2) ta được: x = 0,1 mol; y = 0,05 mol.<br>Khối lượng từng kim loại:<br>m<sub>Mg</sub> = 0,1 · 24 = <b>2,4 gam</b>; m<sub>Cu</sub> = 0,05 · 64 = <b>3,2 gam</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 60,
@@ -5840,7 +5840,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C12",
         "orig_qnum": 12,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – KNTT) Hoà tan hỗn hợp bột kim loại gồm 8,4 gam Fe và 6,4 gam Cu vào 350 mL dung\ndịch AgNO<sub>3</sub> 2 M. Sau khi phản ứng xảy ra hoàn toàn thu được bao nhiêu gam chất rắn?\n3",
+        "prompt": "(SBT – KNTT) Hoà tan hỗn hợp bột kim loại gồm 8,4 gam Fe và 6,4 gam Cu vào 350 mL dung dịch AgNO<sub>3</sub> 2 M. Sau khi phản ứng xảy ra hoàn toàn thu được bao nhiêu gam chất rắn?",
         "answer": "70.2",
         "acceptedAnswers": [
           "70.2",
@@ -6991,7 +6991,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "orig_qnum": 19,
         "topic": "Đúng/Sai tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT)",
+        "prompt": "(SBT – KNTT) Cho các phát biểu sau về pin điện hoá và điện phân:",
         "items": {
           "a": "Kim loại càng mạnh thì thế điện cực chuẩn càng âm.",
           "b": "Khi tạo thành pin điện hoá, kim loại mạnh hơn sẽ đóng vai trò là cathode.",
@@ -7005,7 +7005,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng\nb. Sai Khi tạo thành pin điện hoá, kim loại mạnh hơn sẽ đóng vai trò là cực câm (anode).\nc. Đúng —1—mo—l Cu &rarr; n = 2 mol —B—Te &rarr; n = 0,5 mol —Δ—m↓ &rarr; m + m = 80g\ne O Cu O<sub>2</sub> 2\nĐể bảo vệ đồ vật bằng kim loại, nên gắn chúng với những mảnh kim loại mạnh\nd. Sai\nhơn.",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>• <b>a) Đúng:</b> Kim loại có tính khử càng mạnh thì thế điện cực chuẩn của cặp oxi hoá – khử tương ứng càng âm.<br>• <b>b) Sai:</b> Khi tạo thành pin điện hoá, kim loại có tính khử mạnh hơn sẽ đóng vai trò là anode (cực âm).<br>• <b>c) Đúng:</b> Phương trình điện phân: 2CuSO<sub>4</sub> + 2H<sub>2</sub>O &rarr; 2Cu + O<sub>2</sub> + 2H<sub>2</sub>SO<sub>4</sub>.<br>Cứ 1 mol Cu thoát ra thì có 0,5 mol O<sub>2</sub> thoát ra &rArr; &Delta;m<sub>dung dịch giảm</sub> = m<sub>Cu</sub> + m<sub>O2</sub> = 1 · 64 + 0,5 · 32 = 80 gam.<br>• <b>d) Sai:</b> Để bảo vệ đồ vật kim loại bằng phương pháp điện hoá, người ta phải gắn chúng với kim loại có tính khử mạnh hơn (vật hi sinh).",
         "options": {}
       },
       {
@@ -7440,7 +7440,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "orig_qnum": 13,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(ĐH A – 2008) Một pin điện hoá có điện cực Zn nhúng trong dung dịch ZnSO<sub>4</sub> và điện cực Cu\nnhúng trong dung dịch CuSO<sub>4</sub>. Sau một thời gian pin đó phóng điện thì khối lượng\n4",
+        "prompt": "(ĐH A – 2008) Một pin điện hoá có điện cực Zn nhúng trong dung dịch ZnSO<sub>4</sub> và điện cực Cu nhúng trong dung dịch CuSO<sub>4</sub>. Sau một thời gian pin đó phóng điện thì khối lượng",
         "options": {
           "A": "cả hai điện cực Zn và Cu đều tăng.",
           "B": "điện cực Zn giảm còn khối lượng điện cực Cu tăng.",

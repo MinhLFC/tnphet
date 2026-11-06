@@ -926,60 +926,96 @@ function renderSlideView(filtered) {
   // ==================== BẢNG ĐÁP ÁN NHANH ====================
   function renderAnswerKeyModal(exam) {
     const questions = exam.questions || [];
-    const p1 = questions.filter(q => q.part === 1);
-    const p2 = questions.filter(q => q.part === 2);
-    const p3 = questions.filter(q => q.part === 3);
+    
+    // Group questions by section using getQuestionSection
+    const sectionMap = new Map();
+    questions.forEach((q) => {
+      const sec = getQuestionSection(q, exam);
+      if (!sectionMap.has(sec.key)) {
+        sectionMap.set(sec.key, { ...sec, items: [] });
+      }
+      sectionMap.get(sec.key).items.push(q);
+    });
+    const sections = Array.from(sectionMap.values());
 
     return `
       <div class="quiz-modal-backdrop open" onclick="window.ChemQuizApp.closeAnswerKeyModal()">
         <div class="quiz-modal-card quiz-modal-box modal-box-wide" onclick="event.stopPropagation()">
-          <div class="quiz-modal-header">
-            <h4>🔑 BẢNG ĐÁP ÁN TOÀN BỘ ${questions.length} CÂU — ${exam.title}</h4>
-            <button class="modal-close-btn quiz-modal-close" onclick="window.ChemQuizApp.closeAnswerKeyModal()">&times;</button>
+          <div class="quiz-modal-header" style="background: linear-gradient(135deg, #1e3a8a 0%, #0369a1 100%); color: #ffffff; padding: 14px 20px; border-radius: 12px 12px 0 0;">
+            <h4 style="color: #ffffff; font-weight: 700; display: flex; align-items: center; gap: 8px; margin: 0;">
+              🔑 BẢNG ĐÁP ÁN TOÀN BỘ ${questions.length} CÂU — ${escapeHtml(exam.title)}
+            </h4>
+            <button class="modal-close-btn quiz-modal-close" style="color: #ffffff;" onclick="window.ChemQuizApp.closeAnswerKeyModal()">&times;</button>
           </div>
-          <div class="quiz-modal-body" style="max-height: 75vh; overflow-y: auto;">
-            <!-- PHẦN 1 -->
-            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (${p1.length} CÂU)</div>
-            <div class="key-table-grid">
-              ${p1.map(q => `
-                <div class="key-item">
-                  <span class="key-qnum">C${q.qnum}</span>
-                  <span class="key-ans-letter">${q.answer}</span>
-                </div>
-              `).join('')}
-            </div>
+          <div class="quiz-modal-body" style="max-height: 75vh; overflow-y: auto; padding: 20px;">
+            <p style="margin-top: 0; margin-bottom: 16px; font-size: 0.9rem; color: #64748b;">
+              💡 <i>Số thứ tự các câu được sắp xếp và hiển thị chính xác theo từng mục tương ứng trong tài liệu PDF. Nhấn vào bất kỳ câu nào để chuyển nhanh đến câu đó.</i>
+            </p>
+            ${sections.map((sec) => {
+              const mcqs = sec.items.filter(q => q.type === 'mcq');
+              const tfs = sec.items.filter(q => q.type === 'tf');
+              const sas = sec.items.filter(q => q.type === 'sa');
 
-            <!-- PHẦN 2 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (${p2.length} CÂU)</div>
-            <div class="key-tf-grid">
-              ${p2.map(q => {
-                const a = q.answer || q.answers || {};
-                const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
-                const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đ' : 'S';
-                const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
-                const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
-                return `
-                  <div class="key-tf-card">
-                    <div class="key-tf-num">Câu ${q.qnum}</div>
-                    <div class="key-tf-sub">a) <b class="${fa === 'Đ' ? 'd' : 's'}">${fa}</b></div>
-                    <div class="key-tf-sub">b) <b class="${fb === 'Đ' ? 'd' : 's'}">${fb}</b></div>
-                    <div class="key-tf-sub">c) <b class="${fc === 'Đ' ? 'd' : 's'}">${fc}</b></div>
-                    <div class="key-tf-sub">d) <b class="${fd === 'Đ' ? 'd' : 's'}">${fd}</b></div>
+              return `
+                <div class="key-section-block" style="margin-bottom: 22px; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
+                  <div class="key-section-title" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; color: #0f172a; padding: 10px 16px; border-bottom: 1px solid #e2e8f0; font-weight: 700; font-size: 0.95rem;">
+                    <span>📂 ${escapeHtml(sec.title || sec.code)}</span>
+                    <span style="font-size: 0.8rem; font-weight: 600; color: #475569; background: #e2e8f0; padding: 2px 8px; border-radius: 10px;">${sec.items.length} câu</span>
                   </div>
-                `;
-              }).join('')}
-            </div>
+                  <div style="padding: 14px 16px;">
+                    ${mcqs.length > 0 ? `
+                      <div class="key-table-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(68px, 1fr)); gap: 8px; margin-bottom: ${tfs.length > 0 || sas.length > 0 ? '14px' : '0'};">
+                        ${mcqs.map(q => {
+                          const num = q.orig_qnum || q.qnum || q.id;
+                          return `
+                            <div class="key-item" style="cursor: pointer;" onclick="window.ChemQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <span class="key-qnum">C${num}</span>
+                              <span class="key-ans-letter">${q.answer || '—'}</span>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
 
-            <!-- PHẦN 3 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (${p3.length} CÂU)</div>
-            <div class="key-table-grid short-grid">
-              ${p3.map(q => `
-                <div class="key-item short">
-                  <span class="key-qnum">C${q.qnum}</span>
-                  <span class="key-ans-val">${q.answer}</span>
+                    ${tfs.length > 0 ? `
+                      <div class="key-tf-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: ${sas.length > 0 ? '14px' : '0'};">
+                        ${tfs.map(q => {
+                          const num = q.orig_qnum || q.qnum || q.id;
+                          const a = q.answer || q.answers || {};
+                          const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
+                          const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đ' : 'S';
+                          const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
+                          const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
+                          return `
+                            <div class="key-tf-card" style="cursor: pointer;" onclick="window.ChemQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <div class="key-tf-num">Câu ${num}</div>
+                              <div class="key-tf-sub">a) <b class="${fa === 'Đ' ? 'd' : 's'}">${fa}</b></div>
+                              <div class="key-tf-sub">b) <b class="${fb === 'Đ' ? 'd' : 's'}">${fb}</b></div>
+                              <div class="key-tf-sub">c) <b class="${fc === 'Đ' ? 'd' : 's'}">${fc}</b></div>
+                              <div class="key-tf-sub">d) <b class="${fd === 'Đ' ? 'd' : 's'}">${fd}</b></div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
+
+                    ${sas.length > 0 ? `
+                      <div class="key-table-grid short-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 8px;">
+                        ${sas.map(q => {
+                          const num = q.orig_qnum || q.qnum || q.id;
+                          return `
+                            <div class="key-item short" style="cursor: pointer;" onclick="window.ChemQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <span class="key-qnum">C${num}</span>
+                              <span class="key-ans-val" style="font-size: 0.82rem; font-weight: 700;">${q.answer || '—'}</span>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
+                  </div>
                 </div>
-              `).join('')}
-            </div>
+              `;
+            }).join('')}
           </div>
         </div>
       </div>
@@ -1178,6 +1214,19 @@ function renderSlideView(filtered) {
       state.filterSection = 'ALL';
       state.filterStarred = false;
       state.currentIndex = 0;
+      renderChemApp();
+    },
+
+    goToQuestionById: function (qid) {
+      state.partFilter = 'all';
+      state.sectionFilter = 'all';
+      const exam = getCurrentExam();
+      const filtered = getFilteredQuestions(exam);
+      const idx = filtered.findIndex(q => q.id === qid);
+      if (idx !== -1) {
+        state.currentIndex = idx;
+      }
+      state.answerKeyModalOpen = false;
       renderChemApp();
     },
 
