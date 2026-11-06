@@ -691,7 +691,7 @@ function renderSlideView(filtered) {
             const pdfNum = q.orig_qnum || q.qnum || q.id;
             return `
               <span class="slide-q-topic" style="background:#e0f2fe; color:#0369a1; font-weight:700; border-radius: 6px; padding: 0.2rem 0.5rem;">📂 ${sec.code} • Câu ${pdfNum} (PDF)</span>
-              <span class="slide-q-number" style="font-weight: 600; color: #475569;">${exam.shortTitle || "Hóa học 12"} • ${q.id}/${exam.questions ? exam.questions.length : 145}</span>
+              <span class="slide-q-number" style="color: #ffffff; font-weight: 700;">${exam.shortTitle || "Hóa học 12"} • ${q.id}/${exam.questions ? exam.questions.length : 145}</span>
             `;
           })()}
           ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
