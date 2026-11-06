@@ -486,6 +486,7 @@
   }
 
 function renderSlideView(filtered) {
+    const exam = getCurrentExam();
     if (!filtered || filtered.length === 0) {
       return `
         <div class="quiz-empty-box">
