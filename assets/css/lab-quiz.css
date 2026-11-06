@@ -1525,8 +1525,8 @@
   display: inline-block;
   vertical-align: baseline;
   padding-top: 0.18em;
-  margin-right: 0.1em;
-  margin-left: 0.06em;
+  margin-right: 0.08em;
+  margin-left: 0.05em;
   font-style: italic;
   line-height: 1.2;
 }
@@ -1534,15 +1534,14 @@
 .m-vec::before {
   content: "\2192";
   position: absolute;
-  top: -0.32em;
+  top: -0.42em;
   left: 0;
-  right: 0;
+  width: 100%;
   text-align: center;
-  font-size: 0.75em;
+  transform: none !important;
+  font-size: 0.72em;
   font-style: normal;
-  font-weight: 700;
   line-height: 1;
-  color: inherit;
   pointer-events: none;
 }
 
@@ -2907,4 +2906,121 @@
   color: #ffffff;
   font-weight: 700;
   font-size: 0.85rem;
+}
+
+
+/* Chemistry Data Tables */
+.chem-table-wrap {
+  margin: 0.85rem 0;
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.chem-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.chem-data-table th,
+.chem-data-table td {
+  border: 1px solid #e2e8f0;
+  padding: 0.45rem 0.65rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.chem-data-table th {
+  background: #f8fafc;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.chem-data-table td:first-child,
+.chem-data-table th:first-child {
+  text-align: left;
+  background: #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.chem-data-table tr:hover td {
+  background: #f0fdf4;
+}
+
+/* Navigator Section Grouping */
+.nav-section-group {
+  margin-bottom: 0.85rem;
+}
+
+.nav-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.6rem;
+  background: #f8fafc;
+  border-radius: 6px;
+  border-left: 3px solid #0284c7;
+  margin-bottom: 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.nav-section-badge {
+  background: #0284c7;
+  color: #ffffff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  margin-right: 0.4rem;
+}
+
+.nav-section-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav-section-count {
+  font-size: 0.7rem;
+  color: #64748b;
+  margin-left: 0.3rem;
+}
+
+.nav-filter-tabs {
+  display: flex;
+  gap: 0.3rem;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
+  scrollbar-width: thin;
+}
+
+.nav-filter-tab {
+  padding: 0.25rem 0.55rem;
+  font-size: 0.72rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #475569;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.nav-filter-tab:hover {
+  background: #f1f5f9;
+  color: #0284c7;
+}
+
+.nav-filter-tab.active {
+  background: #0284c7;
+  color: #ffffff;
+  border-color: #0284c7;
 }

@@ -933,7 +933,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 49",
         "orig_qnum": 29,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các halogen và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử F<sub>2</sub>/2F<sup>-</sup> Cl<sub>2</sub>/2Cl<sup>-</sup> Br<sub>2</sub>/2Br<sup>-</sup> I<sub>2</sub>/2I<sup>-</sup>\nThế điện cực chuẩn (V) +2,87 +1,358 +1,087 +0,621\nDãy sắp xếp các ion halide theo thứ tự giảm dần tính khử là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các halogen và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>F<sub>2</sub>/2F<sup>−</sup></th><th>Cl<sub>2</sub>/2Cl<sup>−</sup></th><th>Br<sub>2</sub>/2Br<sup>−</sup></th><th>I<sub>2</sub>/2I<sup>−</sup></th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>+2,870</td><td>+1,358</td><td>+1,087</td><td>+0,621</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các ion halide theo thứ tự giảm dần tính khử là",
         "options": {
           "A": "F<sup>-</sup>, Cl<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup>.",
           "B": "Cl<sup>-</sup>, F<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup>.",
@@ -941,7 +941,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Br<sup>-</sup>, I<sup>-</sup>, F<sup>-</sup>, Cl<sup>-</sup>."
         },
         "answer": "C",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q29_halogen.png",
         "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: I<sup>-</sup>, Br<sup>-</sup>, Cl<sup>-</sup>, F<sup>-</sup>.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
@@ -952,7 +952,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 50",
         "orig_qnum": 30,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá - khử của các kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Li<sup>+</sup>/Li Mg<sup>2+</sup>/Mg Zn<sup>2+</sup>/Zn Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V –3,040 –2,356 –0,762 +0,799\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các kim loại và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Li<sup>+</sup>/Li</th><th>Mg<sup>2+</sup>/Mg</th><th>Zn<sup>2+</sup>/Zn</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>–3,040</td><td>–2,356</td><td>–0,762</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
         "options": {
           "A": "Mg.",
           "B": "Zn.",
@@ -960,7 +960,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Li."
         },
         "answer": "D",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q30_metals.png",
         "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Li.<br>Do đó chọn đáp án đúng là <b>D</b>."
       },
       {
@@ -971,7 +971,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 51",
         "orig_qnum": 31,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(KHBD – KNTT) Cho biết:\nCặp oxi hoá – khử Cu<sup>2+</sup>/Cu Ag<sup>+</sup>/Ag Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni\nThế điện cực chuẩn, V +0,340 +0,799 –0,44 –0,257\nDãy sắp xếp các ion kim loại theo chiều tăng dần tính oxi hoá là",
+        "prompt": "(KHBD – KNTT) Cho biết bảng thế điện cực chuẩn của các cặp oxi hoá – khử:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Cu<sup>2+</sup>/Cu</th><th>Ag<sup>+</sup>/Ag</th><th>Fe<sup>2+</sup>/Fe</th><th>Ni<sup>2+</sup>/Ni</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>+0,340</td><td>+0,799</td><td>–0,440</td><td>–0,257</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các ion kim loại theo chiều tăng dần tính oxi hoá là",
         "options": {
           "A": "Fe<sup>2+</sup>; Ni<sup>2+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.",
           "B": "Cu<sup>2+</sup>; Ag<sup>+</sup>; Ni<sup>2+</sup>; Fe<sup>2+</sup>.",
@@ -979,7 +979,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Ag<sup>+</sup>; Cu<sup>2+</sup>; Ni<sup>2+</sup>; Fe<sup>2+</sup>."
         },
         "answer": "A",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q31_cu_ag_fe_ni.png",
         "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>2+</sup>; Ni<sup>2+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
@@ -990,7 +990,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 52",
         "orig_qnum": 32,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "Cho biết:\nCặp oxi hoá – khử 2H<sup>+</sup>/H<sub>2</sub> Cu<sup>2+</sup>/Cu Fe<sup>2+</sup>/Fe Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V 0,0 +0,340 –0,44 +0,799\nDãy sắp xếp các cation theo chiều tăng dần tính oxi hoá là",
+        "prompt": "Cho biết bảng thế điện cực chuẩn của các cặp oxi hoá – khử:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>2H<sup>+</sup>/H<sub>2</sub></th><th>Cu<sup>2+</sup>/Cu</th><th>Fe<sup>2+</sup>/Fe</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>0,000</td><td>+0,340</td><td>–0,440</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các cation theo chiều tăng dần tính oxi hoá là",
         "options": {
           "A": "Fe<sup>2+</sup>; H<sup>+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.",
           "B": "Ag<sup>+</sup>; Cu<sup>2+</sup>; H<sup>+</sup>; Fe<sup>2+</sup>.",
@@ -998,7 +998,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "H<sup>+</sup>; Cu<sup>2+</sup>; Fe<sup>2+</sup>; Ag<sup>+</sup>."
         },
         "answer": "A",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q32_she_cu_fe_ag.png",
         "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>2+</sup>; H<sup>+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
@@ -1009,7 +1009,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 53",
         "orig_qnum": 33,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "Cho biết:\nCặp oxi hoá – khử Zn<sup>2+</sup>/Zn K<sup>+</sup>/K Hg<sup>2+</sup>/Hg Mg<sup>2+</sup>/Mg\nThế điện cực chuẩn, V –0,762 –2,924 +0,853 –2,356\nDãy sắp xếp các kim loại theo chiều tăng dần tính khử là",
+        "prompt": "Cho biết bảng thế điện cực chuẩn của các cặp oxi hoá – khử:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Zn<sup>2+</sup>/Zn</th><th>K<sup>+</sup>/K</th><th>Hg<sup>2+</sup>/Hg</th><th>Mg<sup>2+</sup>/Mg</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>–0,762</td><td>–2,924</td><td>+0,853</td><td>–2,356</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các kim loại theo chiều tăng dần tính khử là",
         "options": {
           "A": "K < Mg < Zn < Hg.",
           "B": "Mg < K < Hg < Zn.",
@@ -1017,7 +1017,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Hg < Mg < Zn < K."
         },
         "answer": "C",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q33_zn_k_hg_mg.png",
         "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Hg < Zn < Mg < K.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
@@ -1693,7 +1693,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 89",
         "orig_qnum": 29,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – Cánh Diều) Cho các phát biểu sau:\n(a) Một ưu điểm của acquy là tái sử dụng được nhiều lần.\n(b) Phản ứng xảy ra trong acquy cũng giống như phản ứng xảy ra trong pin Galvani nhưng có\nthể đảo ngược.\n(c) Acquy không gây ô nhiễm môi trường.\n(d) Acquy là nguồn điện hoá học có thể hoạt động liên tục.\nSố phát biểu không đúng là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các halogen và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>F<sub>2</sub>/2F<sup>−</sup></th><th>Cl<sub>2</sub>/2Cl<sup>−</sup></th><th>Br<sub>2</sub>/2Br<sup>−</sup></th><th>I<sub>2</sub>/2I<sup>−</sup></th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>+2,870</td><td>+1,358</td><td>+1,087</td><td>+0,621</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các ion halide theo thứ tự giảm dần tính khử là",
         "options": {
           "A": "2.",
           "B": "3.",
@@ -1701,7 +1701,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "1."
         },
         "answer": "A",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q29_halogen.png",
         "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b>2.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
@@ -1712,7 +1712,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 90",
         "orig_qnum": 30,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – Cánh Diều) Cho các phát biểu sau:\n(a) Khác với acquy, chất phản ứng của pin nhiên liệu phải được cung cấp liên tục từ nguồn bên\nngoài.\n(b) Pin nhiên liệu tạo ra điện năng nhờ năng lượng mặt trời.\n(c) Pin nhiên liệu biến đổi trực tiếp năng lượng hoá học thành điện năng.\n(d) Một trong những hạn chế của pin nhiên liệu là sự lưu trữ nhiên liệu.\n(e) Khi sử dụng, pin nhiên liệu không gây ô nhiễm môi trường.\nSố phát biểu đúng là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các kim loại và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Li<sup>+</sup>/Li</th><th>Mg<sup>2+</sup>/Mg</th><th>Zn<sup>2+</sup>/Zn</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>–3,040</td><td>–2,356</td><td>–0,762</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
         "options": {
           "A": "2.",
           "B": "3.",
@@ -1720,7 +1720,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "5."
         },
         "answer": "C",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p7_q30_metals.png",
         "explanation": "Chọn C\nPhát biểu đúng: (a), (c), (d) và (e).\n(b) sai; pin nhiên liệu là loại pin biến đổi trực tiếp năng lượng hoá học thành điện năng."
       },
       {
@@ -2839,13 +2839,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "orig_qnum": 7,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Na<sup>+</sup>/Na Ca<sup>2+</sup>/Ca Ni<sup>2+</sup>/Ni Au<sup>3+</sup>/Au\nThế điện cực chuẩn (V) –2,713 –2,84 –0,257 +1,52\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải\nphóng khí H là bao nhiêu?\n2",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Na<sup>+</sup>/Na</th><th>Ca<sup>2+</sup>/Ca</th><th>Ni<sup>2+</sup>/Ni</th><th>Au<sup>3+</sup>/Au</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>–2,713</td><td>–2,840</td><td>–0,257</td><td>+1,520</td></tr>\n    </tbody>\n  </table>\n</div>\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải phóng khí H<sub>2</sub> là bao nhiêu?",
         "answer": "03",
         "acceptedAnswers": [
           "03",
           "03"
         ],
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p24_q7_na_ca_ni_au.png",
         "explanation": "Số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải phóng khí H là 03: Na, Ca\nvà Ni.",
         "options": {}
       },
@@ -4966,13 +4966,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C16",
         "orig_qnum": 16,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(SBT – KNTT) Một pin điện hoá được thiết lập từ hai điện cực tạo bởi hai cặp oxi hoá - khử là\nM<sup>2+</sup>/M và Ag<sup>+</sup>/Ag. Cho biết:\nCặp oxi hoá - khử Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni Sn<sup>2+</sup>/Sn Cu<sup>2+</sup>/Cu Ag<sup>+</sup>/Ag\nThế điện cực chuẩn (V) –0,44 –0,257 –0,137 +0,340 +0,799\nNếu M là một trong số các kim loại: Fe, Ni, Sn, Cu thì sức điện động chuẩn lớn nhất của pin bằng\nbao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
+        "prompt": "(SBT – KNTT) Một pin điện hoá được thiết lập từ hai điện cực tạo bởi hai cặp oxi hoá − khử là M<sup>2+</sup>/M và Ag<sup>+</sup>/Ag. Cho biết bảng thế điện cực chuẩn:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Fe<sup>2+</sup>/Fe</th><th>Ni<sup>2+</sup>/Ni</th><th>Sn<sup>2+</sup>/Sn</th><th>Cu<sup>2+</sup>/Cu</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>–0,440</td><td>–0,257</td><td>–0,137</td><td>+0,340</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nNếu M là một trong số các kim loại: Fe, Ni, Sn, Cu thì sức điện động chuẩn lớn nhất của pin bằng bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
         "answer": "0.799",
         "acceptedAnswers": [
           "0.799",
           "0,799"
         ],
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p40_q16_fe_ni_sn_cu_ag.png",
         "explanation": "Sức điện động chuẩn lớn nhất của pin M – Ag ứng với thế điện cực chuẩn M<sup>n+</sup>/M là nhỏ nhất.\nVậy, M là Fe.\n<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (+0,799) – (–0,44) &approx; 1, 24 V\nPin(Fe–Ag) Cathode Anode Ag+ /Ag Fe2+ /Fe",
         "options": {}
       },
@@ -4984,7 +4984,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C17",
         "orig_qnum": 17,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\nCặp oxi hoá – khử Cu<sup>2+</sup>/Cu Zn<sup>2+</sup>/Zn Fe<sup>2+</sup>/Fe Ag<sup>+</sup>/Ag\nThế điện cực chuẩn (V) +0,34 –0,762 –0,44 +0,799\n\nPin có sức điện động chuẩn lớn nhất là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Cu<sup>2+</sup>/Cu</th><th>Zn<sup>2+</sup>/Zn</th><th>Fe<sup>2+</sup>/Fe</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>+0,340</td><td>–0,762</td><td>–0,440</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nNếu ghép từng cặp để tạo thành pin điện hóa, sức điện động chuẩn lớn nhất có thể đạt được là bao nhiêu volt (V)?",
         "options": {
           "A": "Pin Zn – Cu.",
           "B": "Pin Fe – Cu.",
@@ -4992,7 +4992,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Pin Fe – Ag."
         },
         "answer": "D",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p40_q17_cu_zn_fe_ag.png",
         "explanation": "Sức điện động chuẩn lớn nhất của pin X – Y ứng với thế điện cực chuẩn X<sup>n+</sup>/X là nhỏ nhất và\nY<sup>m+</sup>/Y là lớn nhất. Vậy, ta có 2 cặp thỏa mãn:\n<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (+0,34) – (–0,762) = 1,102 V\nPin(Zn–Cu) Cathode Anode Cu2+ /Cu Zn2+ /Zn\n<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (+0,799) – (–0,44) = 1, 239 V\nPin(Fe–Ag) Cathode Anode Ag+ /Ag Fe2+ /Fe\nChọn D."
       },
       {
@@ -6861,7 +6861,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "orig_qnum": 14,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(KHBD – KNTT) Cho biết:\nCặp oxi hoá – khử Cu<sup>2+</sup>/Cu Ag<sup>+</sup>/Ag Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni\nThế điện cực chuẩn, V +0,340 +0,799 –0,44 –0,257\nDãy sắp xếp các ion kim loại theo chiều tăng dần tính oxi hoá là",
+        "prompt": "(KHBD – KNTT) Cho biết bảng thế điện cực chuẩn của các cặp oxi hoá – khử:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>Cu<sup>2+</sup>/Cu</th><th>Ag<sup>+</sup>/Ag</th><th>Fe<sup>2+</sup>/Fe</th><th>Ni<sup>2+</sup>/Ni</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>+0,340</td><td>+0,799</td><td>–0,440</td><td>–0,257</td></tr>\n    </tbody>\n  </table>\n</div>\nDãy sắp xếp các ion kim loại theo chiều tăng dần tính oxi hoá là",
         "options": {
           "A": "Fe<sup>2+</sup>; Ni<sup>2+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.",
           "B": "Cu<sup>2+</sup>; Ag<sup>+</sup>; Ni<sup>2+</sup>; Fe<sup>2+</sup>.",
@@ -6869,7 +6869,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Ag<sup>+</sup>; Cu<sup>2+</sup>; Ni<sup>2+</sup>; Fe<sup>2+</sup>."
         },
         "answer": "A",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p64_q14_cu_ag_fe_ni.png",
         "explanation": "Chọn đáp án đúng <b>A</b>."
       },
       {
@@ -6937,7 +6937,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "orig_qnum": 18,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\nCặp oxi hóa – khử 2H<sup>+</sup>/H<sub>2</sub> Cu<sup>2+</sup>/Cu Fe<sup>2+</sup>/Fe Ag<sup>+</sup>/Ag\nThế điện cực chuẩn (V) 0,00 +0,34 –0,44 +0,799\nKhi điện phân dung dịch chứa đồng thời bốn loại cation trên với nồng độ mol bằng nhau, cation\nbị điện phân đầu tiên ở cathode là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\n<div class=\"chem-table-wrap\">\n  <table class=\"chem-data-table\">\n    <thead>\n      <tr><th>Cặp oxi hoá – khử</th><th>2H<sup>+</sup>/H<sub>2</sub></th><th>Cu<sup>2+</sup>/Cu</th><th>Fe<sup>2+</sup>/Fe</th><th>Ag<sup>+</sup>/Ag</th></tr>\n    </thead>\n    <tbody>\n      <tr><td><b>Thế điện cực chuẩn (V)</b></td><td>0,000</td><td>+0,340</td><td>–0,440</td><td>+0,799</td></tr>\n    </tbody>\n  </table>\n</div>\nKhi điện phân dung dịch chứa đồng thời bốn loại cation trên với nồng độ mol bằng nhau, cation bị điện phân đầu tiên ở cathode là",
         "options": {
           "A": "Cu<sup>2+</sup>.",
           "B": "Ag<sup>+</sup>.",
@@ -6945,7 +6945,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "D": "Fe<sup>2+</sup>."
         },
         "answer": "B",
-        "figure": null,
+        "figure": "assets/images/quiz/chem_ch5/tables/table_p64_q18_she_cu_fe_ag.png",
         "explanation": "Chọn đáp án đúng <b>B</b>."
       },
       {
