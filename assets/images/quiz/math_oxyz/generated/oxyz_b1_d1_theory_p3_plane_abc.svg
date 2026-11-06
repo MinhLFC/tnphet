@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%" style="background:#f8fafc; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <linearGradient id="planeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#bae6fd" stop-opacity="0.6"/>
+    </linearGradient>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#dc2626"/>
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title / Label -->
+  <text x="300" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#0369a1">MẶT PHẲNG (α) ĐI QUA 3 ĐIỂM KHÔNG THẲNG HÀNG A, B, C</text>
+
+  <!-- Plane Alpha (Parallelogram) -->
+  <polygon points="90,260 210,140 510,140 390,260" fill="url(#planeGrad)" stroke="#0284c7" stroke-width="2.5" filter="url(#shadow)"/>
+  <text x="475" y="165" font-size="18" font-weight="bold" font-style="italic" fill="#0369a1">(α)</text>
+
+  <!-- Point A -->
+  <circle cx="190" cy="225" r="5" fill="#0f172a"/>
+  <text x="170" y="238" font-size="16" font-weight="bold" fill="#0f172a">A</text>
+
+  <!-- Point B -->
+  <circle cx="370" cy="225" r="5" fill="#0f172a"/>
+  <text x="380" y="238" font-size="16" font-weight="bold" fill="#0f172a">B</text>
+
+  <!-- Point C -->
+  <circle cx="270" cy="170" r="5" fill="#0f172a"/>
+  <text x="280" y="165" font-size="16" font-weight="bold" fill="#0f172a">C</text>
+
+  <!-- Vector AB -->
+  <line x1="190" y1="225" x2="360" y2="225" stroke="#0284c7" stroke-width="2.8" marker-end="url(#arrowBlue)"/>
+  <text x="270" y="248" font-size="15" font-weight="bold" fill="#0284c7">AB &#8594;</text>
+
+  <!-- Vector AC -->
+  <line x1="190" y1="225" x2="264" y2="174" stroke="#0284c7" stroke-width="2.8" marker-end="url(#arrowBlue)"/>
+  <text x="212" y="190" font-size="15" font-weight="bold" fill="#0284c7">AC &#8594;</text>
+
+  <!-- Normal Vector n = [AB, AC] -->
+  <line x1="190" y1="225" x2="190" y2="75" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowRed)"/>
+  <!-- Right-angle symbol -->
+  <path d="M 190 205 L 205 205 L 205 225" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="200" y="85" font-size="15" font-weight="bold" fill="#dc2626">n&#8407; = [AB&#8407;, AC&#8407;] &#8869; (&#945;)</text>
+
+  <!-- Formula Summary Box -->
+  <rect x="295" y="280" width="290" height="66" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="310" y="303" font-size="13" font-weight="bold" fill="#334155">&#8226; C&#7863;p VTCP: u&#8321;&#8407; = AB&#8407;, u&#8322;&#8407; = AC&#8407;</text>
+  <text x="310" y="325" font-size="13" font-weight="bold" fill="#dc2626">&#8226; VTPT: n&#8407; = [AB&#8407;, AC&#8407;] &#8800; 0&#8407;</text>
+  <text x="310" y="340" font-size="11" fill="#64748b">&#8594; (&#945;) qua A v&#224; nh&#7853;n n&#8407; l&#224;m VTPT</text>
+</svg>

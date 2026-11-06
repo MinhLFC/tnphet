@@ -570,7 +570,7 @@
     return `
       <div class="slide-card-header">
         <div class="slide-q-meta">
-          <span class="slide-q-number">${exam.shortTitle || exam.title || "Hóa học 12"} • ${(q.label && q.label !== "undefined") ? q.label : ("Câu " + (q.orig_qnum || q.qnum || q.id || (state.currentIdx + 1)))}</span>
+          <span class="slide-q-number">${(exam.shortTitle || exam.title || "Hóa học 12").replace(/\s*•\s*undefined/g, "")} • ${(q && q.label && q.label !== "undefined" && String(q.label).trim()) ? q.label : ("Câu " + (q.orig_qnum || q.qnum || q.id || (state.currentIdx + 1)))}</span>
           ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
           <span class="slide-q-topic" style="background: rgba(2, 132, 199, 0.1); color: #0284c7;">
             ${q.type === 'mcq' ? 'Nhiều lựa chọn (0.25đ)' : (q.type === 'tf' ? 'Đúng/Sai (Tối đa 1.0đ)' : 'Trả lời ngắn (0.25đ)')}

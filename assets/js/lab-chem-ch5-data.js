@@ -23,14 +23,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
         "prompt": "(SBT – KNTT) Mối liên hệ giữa dạng oxi hoá và dạng khử của kim loại M được biểu diễn ở\ndạng quá trình khử là",
         "options": {
-          "A": "M &rarr; M<sup>n+</sup> + ne.",
-          "B": "M<sup>n+</sup> + ne &rarr; M.",
-          "C": "M<sup>n−</sup> &rarr; M + ne.",
-          "D": "M + ne &rarr; M<sup>n−</sup>."
+          "A": "M ⇌ M<sup>n+</sup> + ne.",
+          "B": "M<sup>n+</sup> + ne ⇌ M.",
+          "C": "M<sup>n-</sup> ⇌ M + ne.",
+          "D": "M + ne ⇌ M<sup>n-</sup>."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào định nghĩa cặp oxi hoá – khử của kim loại M<sup>n+</sup>/M:<br>• Dạng oxi hoá là ion M<sup>n+</sup>, dạng khử là nguyên tử kim loại M.<br>• Quá trình khử là quá trình thu/nhận electron của chất oxi hoá: <b>M<sup>n+</sup> + ne &rarr; M</b>.<br>• Quá trình M &rarr; M<sup>n+</sup> + ne là quá trình oxi hoá.<br>Chọn đáp án <b>B</b>."
+        "explanation": "Dạng oxi hoá (M<sup>n+</sup>) và dạng khử (M) của cùng một nguyên tố kim loại tạo nên cặp oxi hoá – khử của kim loại M<sup>n+</sup>/M.<br>• Quá trình khử biểu diễn mối liên hệ thuận nghịch: <b>M<sup>n+</sup> + ne ⇌ M</b>.<br>• Quá trình oxi hoá: M ⇌ M<sup>n+</sup> + ne.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 2,
@@ -40,7 +40,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "orig_qnum": 2,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá − khử ứng với quá trình khử: Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup> là",
+        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá - khử ứng với quá trình khử: Fe<sup>3+</sup> + 1e ⇌ Fe<sup>2+</sup> là",
         "options": {
           "A": "Fe<sup>3+</sup>/Fe<sup>2+</sup>.",
           "B": "Fe<sup>2+</sup>/Fe.",
@@ -49,7 +49,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>A</b>."
+        "explanation": "Trong quá trình khử: Fe<sup>3+</sup> + 1e ⇌ Fe<sup>2+</sup>:<br>• Dạng oxi hoá: Fe<sup>3+</sup>.<br>• Dạng khử: Fe<sup>2+</sup>.<br>Kí hiệu cặp oxi hoá – khử tương ứng là: <b>Fe<sup>3+</sup>/Fe<sup>2+</sup></b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 3,
@@ -59,16 +59,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "orig_qnum": 3,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá – khử tương ứng với quá trình khử:\nFe(OH) + 1e Fe(OH) + OH<sup>−</sup> là\n3 2",
+        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá – khử tương ứng với quá trình khử: Fe(OH)<sub>3</sub> + 1e ⇌ Fe(OH)<sub>2</sub> + OH<sup>-</sup> là",
         "options": {
           "A": "Fe<sup>3+</sup>/Fe<sup>2+</sup>.",
           "B": "Fe<sup>2+</sup>/Fe.",
           "C": "Fe<sup>3+</sup>/Fe.",
-          "D": "Fe(OH) /Fe(OH) ."
+          "D": "Fe(OH)<sub>3</sub>/Fe(OH)<sub>2</sub>."
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>D</b>."
+        "explanation": "Trong quá trình khử: Fe(OH)<sub>3</sub> + 1e ⇌ Fe(OH)<sub>2</sub> + OH<sup>-</sup>:<br>• Dạng oxi hoá: Fe(OH)<sub>3</sub> (Fe có số oxi hoá +3).<br>• Dạng khử: Fe(OH)<sub>2</sub> (Fe có số oxi hoá +2).<br>Kí hiệu cặp oxi hoá – khử tương ứng là: <b>Fe(OH)<sub>3</sub>/Fe(OH)<sub>2</sub></b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 4,
@@ -87,7 +87,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>ZnSO<sub>4</sub> 1 M.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 5,
@@ -106,7 +106,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>AgNO<sub>3</sub> 1 M.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 6,
@@ -120,12 +120,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "298 K (25 oC).",
           "B": "273 K (0 oC).",
-          "C": "0 K (−273 oC).",
+          "C": "0 K (-273 oC).",
           "D": "373 K (100 oC)."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>298 K (25 oC).</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 7,
@@ -144,7 +144,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>tồn tại cân bằng giữa dạng oxi hoá và dạng khử.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 8,
@@ -163,7 +163,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>1 bar và 1 M.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 9,
@@ -173,16 +173,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "orig_qnum": 9,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(KHBD – KNTT) Đối với điện cực hydrogen chuẩn, tại ranh giới giữa bề mặt Pt với dung dịch\nchất điện li tồn tại cân bằng",
+        "prompt": "(KHBD – KNTT) Đối với điện cực hydrogen chuẩn, tại ranh giới giữa bề mặt Pt với dung dịch chất điện li tồn tại cân bằng",
         "options": {
-          "A": "2H<sub>2</sub>O + 2e H + 2OH<sup>−</sup>.",
-          "B": "H<sup>+</sup> + 1e H.",
-          "C": "2H<sup>+</sup> + 2e H .",
-          "D": "H H<sup>+</sup> + 1e."
+          "A": "2H<sub>2</sub>O + 2e ⇌ H<sub>2</sub> + 2OH<sup>-</sup>.",
+          "B": "H<sup>+</sup> + 1e ⇌ H.",
+          "C": "2H<sup>+</sup> + 2e ⇌ H<sub>2</sub>.",
+          "D": "H<sub>2</sub> ⇌ 2H<sup>+</sup> + 2e."
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>C</b>."
+        "explanation": "Tại điện cực hydrogen chuẩn (SHE), trên bề mặt platin xốp ngâm trong dung dịch H<sup>+</sup> 1 M và bão hòa khí H<sub>2</sub> (1 bar) ở 25 °C, tồn tại cân bằng oxi hoá – khử:<br><b>2H<sup>+</sup> + 2e ⇌ H<sub>2</sub></b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 10,
@@ -201,7 +201,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b><i>E</i>°.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 11,
@@ -220,7 +220,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Hydrogen.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 12,
@@ -230,16 +230,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "orig_qnum": 12,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Giá trị thế điện cực chuẩn của cặp oxi hoá − khử nào được quy ước bằng 0 V?",
+        "prompt": "(SBT – KNTT) Giá trị thế điện cực chuẩn của cặp oxi hoá - khử nào được quy ước bằng 0 V?",
         "options": {
           "A": "Na<sup>+</sup>/Na.",
           "B": "2H<sup>+</sup>/H<sub>2</sub>.",
           "C": "Al<sup>3+</sup>/Al.",
-          "D": "Cl /2Cl<sup>−</sup>."
+          "D": "Cl /2Cl<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: 2H<sup>+</sup>/H<sub>2</sub>.<br>Do đó chọn đáp án đúng là <b>B</b>."
       },
       {
         "id": 13,
@@ -249,7 +249,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "orig_qnum": 13,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Cặp oxi hoá − khử nào sau đây có giá trị thế điện cực chuẩn lớn hơn 0?",
+        "prompt": "(SBT – KNTT) Cặp oxi hoá - khử nào sau đây có giá trị thế điện cực chuẩn lớn hơn 0?",
         "options": {
           "A": "K<sup>+</sup>/K.",
           "B": "Li<sup>+</sup>/Li.",
@@ -258,7 +258,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Cu<sup>2+</sup>/Cu.<br>Do đó chọn đáp án đúng là <b>D</b>."
       },
       {
         "id": 14,
@@ -277,7 +277,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: cao hơn 0,340 V.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
         "id": 15,
@@ -296,7 +296,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: thấp hơn.<br>Do đó chọn đáp án đúng là <b>B</b>."
       },
       {
         "id": 16,
@@ -315,7 +315,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Na<sup>+</sup>/Na.<br>Do đó chọn đáp án đúng là <b>B</b>."
       },
       {
         "id": 17,
@@ -325,7 +325,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "orig_qnum": 17,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Cho dãy sắp xếp các kim loại theo chiều giảm dần tính khử: Na, Mg, Al, Fe.\nTrong số các cặp oxi hoá − khử sau, cặp nào có giá trị thế điện cực chuẩn nhỏ nhất?",
+        "prompt": "(SBT – KNTT) Cho dãy sắp xếp các kim loại theo chiều giảm dần tính khử: Na, Mg, Al, Fe.\nTrong số các cặp oxi hoá - khử sau, cặp nào có giá trị thế điện cực chuẩn nhỏ nhất?",
         "options": {
           "A": "Mg<sup>2+</sup>/Mg.",
           "B": "Fe<sup>2+</sup>/Fe.",
@@ -334,7 +334,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Na<sup>+</sup>/Na.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
         "id": 18,
@@ -344,16 +344,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "orig_qnum": 18,
         "topic": "Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá − khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>−</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
+        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá - khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>-</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá - khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
         "options": {
           "A": "2H<sup>+</sup>/H<sub>2</sub>.",
           "B": "Ag<sup>+</sup>/Ag.",
-          "C": "H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>−</sup>.",
+          "C": "H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>-</sup>.",
           "D": "Mg<sup>2+</sup>/Mg."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Ag<sup>+</sup>/Ag.<br>Do đó chọn đáp án đúng là <b>B</b>."
       },
       {
         "id": 19,
@@ -372,7 +372,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu là chất khử, Ag<sup>+</sup> là chất oxi hoá.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 20,
@@ -391,7 +391,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào lý thuyết cặp oxi hoá – khử và thế điện cực chuẩn. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu<sup>2+</sup> có tính oxi hoá mạnh hơn Fe<sup>3+</sup>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 21,
@@ -410,7 +410,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Tăng dần.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 22,
@@ -429,7 +429,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: càng yếu và càng mạnh.<br>Do đó chọn đáp án đúng là <b>D</b>."
       },
       {
         "id": 23,
@@ -448,7 +448,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: x > y.<br>Do đó chọn đáp án đúng là <b>B</b>."
       },
       {
         "id": 24,
@@ -467,7 +467,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Ag.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 25,
@@ -486,7 +486,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Mg.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 26,
@@ -505,7 +505,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>K.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 27,
@@ -524,7 +524,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Ag.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 28,
@@ -543,7 +543,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu<sup>2+</sup>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 29,
@@ -562,7 +562,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Na<sup>+</sup>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 30,
@@ -581,7 +581,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu<sup>2+</sup>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 31,
@@ -600,7 +600,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 32,
@@ -619,7 +619,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Pb, Sn, Ni, Zn.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 33,
@@ -638,7 +638,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Mg<sup>2+</sup>, Fe<sup>2+</sup>, Cu<sup>2+</sup>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 34,
@@ -657,7 +657,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Pb<sup>2+</sup> > Sn<sup>2+</sup> > Ni<sup>2+</sup> > Fe<sup>2+</sup> > Zn<sup>2+</sup>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 35,
@@ -676,7 +676,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>K > Ca > Mg > Al > Fe > Cu.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 36,
@@ -695,7 +695,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu<sup>2+</sup> > Fe<sup>2+</sup> > Al<sup>3+</sup> > Mg<sup>2+</sup> > K<sup>+</sup>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 37,
@@ -714,7 +714,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 38,
@@ -733,7 +733,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 39,
@@ -752,7 +752,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Mg.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 40,
@@ -771,7 +771,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>MgCl<sub>2</sub>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 41,
@@ -790,7 +790,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>kim loại Cu.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 42,
@@ -809,7 +809,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 43,
@@ -828,7 +828,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>CuCl<sub>2</sub>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 44,
@@ -847,7 +847,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>3+</sup>, Cu<sup>2+</sup>, Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 45,
@@ -866,7 +866,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Mg, Fe, Cu.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
         "id": 46,
@@ -885,7 +885,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Zn, Ag<sup>+</sup>.<br>Do đó chọn đáp án đúng là <b>A</b>."
       },
       {
         "id": 47,
@@ -904,7 +904,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Cu.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 48,
@@ -923,7 +923,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Fe và CuSO<sub>4</sub>.<br>Do đó chọn đáp án đúng là <b>A</b>."
       },
       {
         "id": 49,
@@ -933,16 +933,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 49",
         "orig_qnum": 29,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các halogen và thế điện cực chuẩn tương ứng:\nCặp oxi hoá − khử F<sub>2</sub>/2F<sup>−</sup> Cl<sub>2</sub>/2Cl<sup>−</sup> Br<sub>2</sub>/2Br<sup>−</sup> I<sub>2</sub>/2I<sup>−</sup>\nThế điện cực chuẩn (V) +2,87 +1,358 +1,087 +0,621\nDãy sắp xếp các ion halide theo thứ tự giảm dần tính khử là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của các halogen và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử F<sub>2</sub>/2F<sup>-</sup> Cl<sub>2</sub>/2Cl<sup>-</sup> Br<sub>2</sub>/2Br<sup>-</sup> I<sub>2</sub>/2I<sup>-</sup>\nThế điện cực chuẩn (V) +2,87 +1,358 +1,087 +0,621\nDãy sắp xếp các ion halide theo thứ tự giảm dần tính khử là",
         "options": {
-          "A": "F<sup>−</sup>, Cl<sup>−</sup>, Br<sup>−</sup>, I<sup>−</sup>.",
-          "B": "Cl<sup>−</sup>, F<sup>−</sup>, Br<sup>−</sup>, I<sup>−</sup>.",
-          "C": "I<sup>−</sup>, Br<sup>−</sup>, Cl<sup>−</sup>, F<sup>−</sup>.",
-          "D": "Br<sup>−</sup>, I<sup>−</sup>, F<sup>−</sup>, Cl<sup>−</sup>."
+          "A": "F<sup>-</sup>, Cl<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup>.",
+          "B": "Cl<sup>-</sup>, F<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup>.",
+          "C": "I<sup>-</sup>, Br<sup>-</sup>, Cl<sup>-</sup>, F<sup>-</sup>.",
+          "D": "Br<sup>-</sup>, I<sup>-</sup>, F<sup>-</sup>, Cl<sup>-</sup>."
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: I<sup>-</sup>, Br<sup>-</sup>, Cl<sup>-</sup>, F<sup>-</sup>.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
         "id": 50,
@@ -952,7 +952,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 50",
         "orig_qnum": 30,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá − khử của các kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá − khử Li<sup>+</sup>/Li Mg<sup>2+</sup>/Mg Zn<sup>2+</sup>/Zn Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V –3,040 –2,356 –0,762 +0,799\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá - khử của các kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Li<sup>+</sup>/Li Mg<sup>2+</sup>/Mg Zn<sup>2+</sup>/Zn Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V –3,040 –2,356 –0,762 +0,799\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
         "options": {
           "A": "Mg.",
           "B": "Zn.",
@@ -961,7 +961,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Li.<br>Do đó chọn đáp án đúng là <b>D</b>."
       },
       {
         "id": 51,
@@ -980,7 +980,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>2+</sup>; Ni<sup>2+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 52,
@@ -999,7 +999,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>2+</sup>; H<sup>+</sup>; Cu<sup>2+</sup>; Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 53,
@@ -1018,7 +1018,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Hg < Zn < Mg < K.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 54,
@@ -1028,7 +1028,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 54",
         "orig_qnum": 34,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Cho thế điện cực chuẩn của các cặp oxi hoá − khử: Fe<sup>2+</sup>/Fe, Na<sup>+</sup>/Na, Ag<sup>+</sup>/Ag,\nMg<sup>2+</sup>/Mg, Cu<sup>2+</sup>/Cu lần lượt là –0,44 V, –2,713 V, +0,799 V, –2,353 V, +0,340 V. Ở điều kiện\nchuẩn, kim loại Cu khử được ion kim loại nào sau đây?",
+        "prompt": "(SBT – KNTT) Cho thế điện cực chuẩn của các cặp oxi hoá - khử: Fe<sup>2+</sup>/Fe, Na<sup>+</sup>/Na, Ag<sup>+</sup>/Ag,\nMg<sup>2+</sup>/Mg, Cu<sup>2+</sup>/Cu lần lượt là –0,44 V, –2,713 V, +0,799 V, –2,353 V, +0,340 V. Ở điều kiện\nchuẩn, kim loại Cu khử được ion kim loại nào sau đây?",
         "options": {
           "A": "Na<sup>+</sup>.",
           "B": "Mg<sup>2+</sup>.",
@@ -1037,7 +1037,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: Ag<sup>+</sup>.<br>Do đó chọn đáp án đúng là <b>C</b>."
       },
       {
         "id": 55,
@@ -1056,7 +1056,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Không biến đổi hoá học nào xảy ra.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 56,
@@ -1075,7 +1075,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>C</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Ion Y<sup>3+</sup> có tính oxi hóa mạnh hơn ion X<sup>2+</sup>.</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 57,
@@ -1094,7 +1094,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>D</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Fe<sup>2+</sup>, Fe<sup>3+</sup>, Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 58,
@@ -1113,7 +1113,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>A</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Z > Y > X.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 59,
@@ -1132,7 +1132,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Pb > Cu > Ag.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 60,
@@ -1151,7 +1151,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Dựa vào chiều biến đổi tính oxi hóa – khử theo thế điện cực chuẩn <i>E</i>°. Chọn đáp án <b>B</b>."
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b>Hg<sup>2+</sup> + Ag &rarr; Hg + Ag<sup>+</sup>.</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 61,
@@ -1170,7 +1170,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 62,
@@ -1189,7 +1189,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 63,
@@ -1208,7 +1208,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 64,
@@ -1218,7 +1218,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 64",
         "orig_qnum": 4,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện hoá Zn − Cu, nhận định nào sau đây\nkhông đúng về vai trò của cầu muối?",
+        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện hoá Zn - Cu, nhận định nào sau đây\nkhông đúng về vai trò của cầu muối?",
         "options": {
           "A": "Ngăn cách hai dung dịch chất điện li.",
           "B": "Cho dòng electron chạy qua.",
@@ -1227,7 +1227,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 65,
@@ -1246,7 +1246,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 66,
@@ -1265,7 +1265,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 67,
@@ -1284,7 +1284,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 68,
@@ -1303,7 +1303,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 69,
@@ -1313,7 +1313,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 69",
         "orig_qnum": 9,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Trong pin điện hoá Zn − Cu, phản ứng hoá học xảy ra giữa hai dạng nào của các\ncặp oxi hoá − khử tương ứng?",
+        "prompt": "(SBT – KNTT) Trong pin điện hoá Zn - Cu, phản ứng hoá học xảy ra giữa hai dạng nào của các\ncặp oxi hoá - khử tương ứng?",
         "options": {
           "A": "Zn và Cu<sup>2+</sup>.",
           "B": "Zn và Cu.",
@@ -1322,7 +1322,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 70,
@@ -1332,7 +1332,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 70",
         "orig_qnum": 10,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Zn − Cu, dòng electron di chuyển từ",
+        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Zn - Cu, dòng electron di chuyển từ",
         "options": {
           "A": "cực zinc (Zn) sang cực copper (Cu).",
           "B": "cực bên phải sang cực bên trái.",
@@ -1341,7 +1341,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 71,
@@ -1351,7 +1351,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 71",
         "orig_qnum": 11,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Ni − Cu, quá trình xảy ra ở anode là",
+        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Ni - Cu, quá trình xảy ra ở anode là",
         "options": {
           "A": "Ni &rarr; Ni<sup>2+</sup> + 2e.",
           "B": "Cu &rarr; Cu<sup>2+</sup> + 2e.",
@@ -1370,7 +1370,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 72",
         "orig_qnum": 12,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Cu − Ag, điện cực Cu là",
+        "prompt": "(SBT – KNTT) Trong quá trình hoạt động của pin điện Cu - Ag, điện cực Cu là",
         "options": {
           "A": "điện cực dương.",
           "B": "cathode.",
@@ -1379,7 +1379,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 73,
@@ -1398,7 +1398,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 74,
@@ -1408,7 +1408,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 74",
         "orig_qnum": 14,
         "topic": "Pin điện hóa & Sức điện động",
-        "prompt": "(SBT – KNTT) Phản ứng hoá học xảy ra trong pin điện hoá Sn − Cu:\n\nSn + Cu<sup>2+</sup> &rarr; Sn<sup>2+</sup> + Cu\nTrong quá trình hoạt động của pin điện hoá, nhận định nào sau đây là đúng?",
+        "prompt": "(SBT – KNTT) Phản ứng hoá học xảy ra trong pin điện hoá Sn - Cu:\n\nSn + Cu<sup>2+</sup> &rarr; Sn<sup>2+</sup> + Cu\nTrong quá trình hoạt động của pin điện hoá, nhận định nào sau đây là đúng?",
         "options": {
           "A": "Khối lượng của điện cực Sn tăng.",
           "B": "Nồng độ Sn<sup>2+</sup> trong dung dịch tăng.",
@@ -1417,7 +1417,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 75,
@@ -1436,7 +1436,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 76,
@@ -1455,7 +1455,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 77,
@@ -1474,7 +1474,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 78,
@@ -1493,7 +1493,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 79,
@@ -1531,7 +1531,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 81,
@@ -1550,7 +1550,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 82,
@@ -1569,7 +1569,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>D</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>D</b>."
       },
       {
         "id": 83,
@@ -1588,7 +1588,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 84,
@@ -1607,7 +1607,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 85,
@@ -1626,7 +1626,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 86,
@@ -1645,7 +1645,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>C</b>."
       },
       {
         "id": 87,
@@ -1664,7 +1664,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>A</b>."
       },
       {
         "id": 88,
@@ -1683,7 +1683,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
+        "explanation": "Áp dụng nguyên tắc hoạt động của pin Galvani: Anode (-) xảy ra sự oxi hóa, Cathode (+) xảy ra sự khử; <i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub>. Chọn đáp án <b>B</b>."
       },
       {
         "id": 89,
@@ -1702,7 +1702,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Chọn A\nPhát biểu không đúng: (c) và (d)"
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b>2.</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 90,
@@ -1781,12 +1781,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "orig_qnum": 3,
         "topic": "Đúng/Sai: Cặp oxi hóa – khử & Thế điện cực",
-        "prompt": "(SBT – Cánh Diều) Xét phản ứng: Ce<sup>4+</sup> + 2I<sup>−</sup> &rarr; I + Ce<sup>3+</sup>.",
+        "prompt": "(SBT – Cánh Diều) Xét phản ứng: Ce<sup>4+</sup> + 2I<sup>-</sup> &rarr; I + Ce<sup>3+</sup>.",
         "items": {
           "a": "Phương trình trên đã cân bằng.",
-          "b": "Chất oxi hoá là Ce<sup>4+</sup>, chất khử là I<sup>−</sup>.",
-          "c": "Cặp oxi hoá – khử của kim loại cerium là Ce<sup>4+</sup>/Ce, của iodine là I /2I<sup>−</sup>.",
-          "d": "Phương trình hoá học của phản ứng là: 2Ce<sup>4+</sup> + 2I<sup>−</sup>  &rarr;  I + 2Ce<sup>3+</sup>."
+          "b": "Chất oxi hoá là Ce<sup>4+</sup>, chất khử là I<sup>-</sup>.",
+          "c": "Cặp oxi hoá – khử của kim loại cerium là Ce<sup>4+</sup>/Ce, của iodine là I /2I<sup>-</sup>.",
+          "d": "Phương trình hoá học của phản ứng là: 2Ce<sup>4+</sup> + 2I<sup>-</sup>  &rarr;  I + 2Ce<sup>3+</sup>."
         },
         "answer": {
           "a": false,
@@ -1795,7 +1795,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "a. Sai\nb. Đúng\nc. Sai Cặp oxi hoá – khử của kim loại cerium là Ce<sup>4+</sup>/Ce<sup>3+</sup>, của iodine là I /2I<sup>−</sup>.\nd. Đúng",
+        "explanation": "a. Sai\nb. Đúng\nc. Sai Cặp oxi hoá – khử của kim loại cerium là Ce<sup>4+</sup>/Ce<sup>3+</sup>, của iodine là I /2I<sup>-</sup>.\nd. Đúng",
         "options": {}
       },
       {
@@ -1845,7 +1845,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': True, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -1920,7 +1920,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": "assets/images/quiz/chem_ch5/chem_ch5_b15_c8_dien_cuc_xy.png",
-        "explanation": "a. Đúng\nb. Đúng\nc. Sai Tính khử X lớn hơn Y.\nd. Đúng",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': False, 'd': True}</b>.",
         "options": {}
       },
       {
@@ -1970,7 +1970,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng\n\nb. Đúng\nc. Đúng\nd. Sai H<sub>2</sub>SO<sub>4</sub> là môi trường. 4",
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: <br>Do đó chọn đáp án đúng là <b>{'a': True, 'b': True, 'c': True, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2070,7 +2070,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "<i>E</i>° = –2,925 V < <i>E</i>° = +1, 630 V\nX+ /X Y+ /Y\n\na. Đúng b. Sai c. Sai d. Sai",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': False, 'c': False, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2095,7 +2095,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "<i>E</i>° = –1, 676 V < <i>E</i>° = +0,340 V\nAl3+ /Al Cu2+ /Cu\na. Đúng b. Sai c. Sai d. Sai",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': False, 'c': False, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2170,7 +2170,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "a. Sai b. Sai c. Đúng d. Đúng",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': False, 'b': False, 'c': True, 'd': True}</b>.",
         "options": {}
       },
       {
@@ -2184,7 +2184,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SBT – KNTT) Trong quá trình một pin Galvani đang hoạt động.",
         "items": {
           "a": "Năng lượng được chuyển đổi từ hoá năng thành điện năng.",
-          "b": "Xảy ra phản ứng oxi hoá − khử tự diễn biến.",
+          "b": "Xảy ra phản ứng oxi hoá - khử tự diễn biến.",
           "c": "Quá trình oxi hoá và quá trình khử xảy ra riêng biệt ở hai điện cực.",
           "d": "Sức điện động của pin không thay đổi theo thời gian."
         },
@@ -2195,7 +2195,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': True, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2220,7 +2220,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': True, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2245,7 +2245,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "a. Đúng b. Đúng c. Sai d. Đúng",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': False, 'd': True}</b>.",
         "options": {}
       },
       {
@@ -2270,7 +2270,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng b. Sai c. Sai d. Sai",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': False, 'c': False, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2295,7 +2295,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "a. Đúng .\nb. Đúng\nc. Sai Methanol bị oxi hóa bởi O thu được CO và H<sub>2</sub>O. 2\nd. Đúng",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': False, 'd': True}</b>.",
         "options": {}
       },
       {
@@ -2331,9 +2331,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 25",
         "orig_qnum": 10,
         "topic": "Đúng/Sai: Cấu tạo & Cơ chế Pin điện hóa",
-        "prompt": "(SBT – KNTT) Một pin điện hoá Zn − H được thiết lập ở các điều kiện như hình vẽ sau (vôn\nkế có điện trở rất lớn).",
+        "prompt": "(SBT – KNTT) Một pin điện hoá Zn - H được thiết lập ở các điều kiện như hình vẽ sau (vôn\nkế có điện trở rất lớn).",
         "items": {
-          "a": "Giá trị thế điện cực chuẩn của cặp oxi hoá − khử Zn<sup>2+</sup>/Zn là 0,762 V.",
+          "a": "Giá trị thế điện cực chuẩn của cặp oxi hoá - khử Zn<sup>2+</sup>/Zn là 0,762 V.",
           "b": "Quá trình khử xảy ra ở cathode là: 2H<sup>+</sup> + 2e  &rarr;  H .",
           "c": "Chất điện li trong cầu muối là KCl.",
           "d": "Phản ứng hoá học xảy ra trong pin là: Zn + 2H<sup>+</sup>  &rarr;  Zn<sup>2+</sup> + H ."
@@ -2370,7 +2370,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng b. Đúng c. Sai d. Sai",
+        "explanation": "Trong pin điện hoá:<br>• Tại <b>anode</b> (cực âm): xảy ra quá trình oxi hoá kim loại có thế điện cực nhỏ hơn (tính khử mạnh hơn).<br>• Tại <b>cathode</b> (cực dương): xảy ra quá trình khử ion có thế điện cực lớn hơn (tính oxi hoá mạnh hơn).<br>Phương án chính xác: <b></b>.<br>Chọn đáp án <b>{'a': True, 'b': True, 'c': False, 'd': False}</b>.",
         "options": {}
       },
       {
@@ -2670,7 +2670,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": "assets/images/quiz/chem_ch5/chem_ch5_b15_c23_acquy_chi.png",
-        "explanation": "Anode (cực âm; Pb) : Pb + SO 2– &rarr; PbSO + 2e\nCathode (cực dương; C/PbO ) : PbO + 2e + 2H<sup>+</sup> + H<sub>2</sub>SO<sub>4</sub> &rarr; PbSO + H<sub>2</sub>O<sub>2</sub> 2 2 4 4 2\na. Sai b. Sai c. Đúng d. Đúng",
+        "explanation": "Anode (cực âm; Pb) : Pb + SO<sub>4</sub><sup>2-</sup> &rarr; PbSO<sub>4</sub> + 2e\nCathode (cực dương; C/PbO<sub>2</sub>) : PbO<sub>2</sub> + 2e + 4H<sup>+</sup> + SO<sub>4</sub><sup>2-</sup> &rarr; PbSO<sub>4</sub> + 2H<sub>2</sub>O\na. Sai b. Sai c. Đúng d. Đúng",
         "options": {}
       },
       {
@@ -2738,7 +2738,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "02"
         ],
         "figure": null,
-        "explanation": "Số kim loại khử được ion H<sup>+</sup> trong dung dịch ở điều kiện chuẩn là 02: Fe và Ni.",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>02</b>.",
         "options": {}
       },
       {
@@ -2756,7 +2756,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "02"
         ],
         "figure": null,
-        "explanation": "Số phản ứng có thể tự xảy ra ở điều kiện chuẩn là 02: (a) và (b)",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>02</b>.",
         "options": {}
       },
       {
@@ -2774,7 +2774,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "02"
         ],
         "figure": null,
-        "explanation": "Số phản ứng nào không tự xảy ra ở điều kiện chuẩn là 02: (a) và (d)",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>02</b>.",
         "options": {}
       },
       {
@@ -2810,7 +2810,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "03"
         ],
         "figure": null,
-        "explanation": "Số kim loại nào có thể được dùng để bảo vệ đường ống sắt khỏi bị gỉ là 03: Cr, Mn và Zn.",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>03</b>.",
         "options": {}
       },
       {
@@ -2828,7 +2828,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "02"
         ],
         "figure": null,
-        "explanation": "Số ion có thể oxi hoá được kim loại Fe là 02: Cu<sup>2+</sup> và Ag<sup>+</sup>.",
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: <br>Do đó chọn đáp án đúng là <b>02</b>.",
         "options": {}
       },
       {
@@ -2839,7 +2839,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "orig_qnum": 7,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá − khử Na<sup>+</sup>/Na Ca<sup>2+</sup>/Ca Ni<sup>2+</sup>/Ni Au<sup>3+</sup>/Au\nThế điện cực chuẩn (V) –2,713 –2,84 –0,257 +1,52\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải\nphóng khí H là bao nhiêu?\n2",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Na<sup>+</sup>/Na Ca<sup>2+</sup>/Ca Ni<sup>2+</sup>/Ni Au<sup>3+</sup>/Au\nThế điện cực chuẩn (V) –2,713 –2,84 –0,257 +1,52\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải\nphóng khí H là bao nhiêu?\n2",
         "answer": "03",
         "acceptedAnswers": [
           "03",
@@ -2857,14 +2857,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "orig_qnum": 8,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá:\nMg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>−</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. 2\nCho các phản ứng sau:\n(a) Cho sợi phôi bào Mg vào nước.\n(b) Cho lá Ag vào dung dịch H<sub>2</sub>SO<sub>4</sub> . 4\n(c) Cho lá Mg vào dung dịch HCl.\n(d) Cho sợi Mg vào dung dịch AgNO .\nSố thí nghiệm nào không xảy ra phản ứng ở điều kiện chuẩn là bao nhiêu?",
+        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá:\nMg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>-</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. 2\nCho các phản ứng sau:\n(a) Cho sợi phôi bào Mg vào nước.\n(b) Cho lá Ag vào dung dịch H<sub>2</sub>SO<sub>4</sub> . 4\n(c) Cho lá Mg vào dung dịch HCl.\n(d) Cho sợi Mg vào dung dịch AgNO .\nSố thí nghiệm nào không xảy ra phản ứng ở điều kiện chuẩn là bao nhiêu?",
         "answer": "01",
         "acceptedAnswers": [
           "01",
           "01"
         ],
         "figure": null,
-        "explanation": "Số thí nghiệm nào không xảy ra phản ứng ở điều kiện chuẩn là 01: (b).",
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: <br>Do đó chọn đáp án đúng là <b>01</b>.",
         "options": {}
       },
       {
@@ -2882,7 +2882,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "05"
         ],
         "figure": null,
-        "explanation": "Số kim loại phản ứng được với dung dịch FeCl là 05: Cu, Ni, Zn, Mg và Fe.",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>05</b>.",
         "options": {}
       },
       {
@@ -2900,7 +2900,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "03"
         ],
         "figure": null,
-        "explanation": "Số trường hợp xảy ra phản ứng hóa học là 03: FeCl , Cu(NO ) và AgNO. 2 3",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>03</b>.",
         "options": {}
       },
       {
@@ -2918,7 +2918,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "02"
         ],
         "figure": null,
-        "explanation": "Số thí nghiệm có xảy ra phản ứng ở điều kiện chuẩn là 02: (a) và (c).",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>02</b>.",
         "options": {}
       },
       {
@@ -2972,7 +2972,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "04"
         ],
         "figure": null,
-        "explanation": "Số kim loại trong dãy khử được ion H<sup>+</sup> thành khí H là 04: Na, Mg, Al và Fe.",
+        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>04</b>.",
         "options": {}
       },
       {
@@ -2990,7 +2990,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "04"
         ],
         "figure": null,
-        "explanation": "Số kim loại có tính khử mạnh hơn Zn là 04: Li, Ba, Na và Mg.",
+        "explanation": "Dựa vào vị trí trong dãy điện hoá và bảng thế điện cực chuẩn của kim loại (theo SGK/SBT Hóa học 12 Kết Nối Tri Thức):<br>• Cặp oxi hoá – khử có thế điện cực càng lớn thì dạng oxi hoá có tính oxi hoá càng mạnh, dạng khử có tính khử càng yếu.<br>• Phân tích dữ kiện đề bài: <br>Do đó chọn đáp án đúng là <b>04</b>.",
         "options": {}
       }
     ]
@@ -3090,9 +3090,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – KNTT) Ion halide hầu như không bị điện phân trong dung dịch là",
         "options": {
-          "A": "Br<sup>−</sup>.",
-          "B": "F<sup>−</sup>.",
-          "C": "Cl<sup>−</sup>.",
+          "A": "Br<sup>-</sup>.",
+          "B": "F<sup>-</sup>.",
+          "C": "Cl<sup>-</sup>.",
           "D": "Ι–."
         },
         "answer": "B",
@@ -3147,8 +3147,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SGK – Hóa học 12 NC) Trong quá trình điện phân KBr nóng chảy, phản ứng nào xảy ra ở điện\ncực dương (anode)?",
         "options": {
-          "A": "Ion Br<sup>−</sup> bị khử.",
-          "B": "Ion Br<sup>−</sup> bị oxi hoá.",
+          "A": "Ion Br<sup>-</sup> bị khử.",
+          "B": "Ion Br<sup>-</sup> bị oxi hoá.",
           "C": "Ion K<sup>+</sup> bị oxi hoá.",
           "D": "lon K<sup>+</sup> bị khử."
         },
@@ -3168,8 +3168,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Oxi hoá ion Ca<sup>2+</sup>.",
           "B": "Khử ion Ca<sup>2+</sup>.",
-          "C": "Oxi hoá ion Cl<sup>−</sup>.",
-          "D": "Khử ion Cl<sup>−</sup>."
+          "C": "Oxi hoá ion Cl<sup>-</sup>.",
+          "D": "Khử ion Cl<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -3185,8 +3185,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – CTST) Khi điện phân NaCl nóng chảy (điện cực trơ), ở cathode xảy ra",
         "options": {
-          "A": "sự khử ion Cl<sup>−</sup>.",
-          "B": "sự oxi hoá ion Cl<sup>−</sup>.",
+          "A": "sự khử ion Cl<sup>-</sup>.",
+          "B": "sự oxi hoá ion Cl<sup>-</sup>.",
           "C": "sự oxi hoá ion Na<sup>+</sup>.",
           "D": "sự khử ion Na<sup>+</sup>."
         },
@@ -3244,8 +3244,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "oxi hoá ion K<sup>+</sup>.",
           "B": "khử ion K<sup>+</sup>.",
-          "C": "oxi hoá ion Cl<sup>−</sup>.",
-          "D": "khử ion Cl<sup>−</sup>."
+          "C": "oxi hoá ion Cl<sup>-</sup>.",
+          "D": "khử ion Cl<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -3282,8 +3282,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Al<sup>3+</sup> + 3e &rarr; Al.",
           "B": "Na<sup>+</sup> + 1e &rarr; Na.",
-          "C": "F + 2e &rarr; 2F<sup>−</sup>.",
-          "D": "O + 4e &rarr; 2O<sup>2−</sup>."
+          "C": "F + 2e &rarr; 2F<sup>-</sup>.",
+          "D": "O + 4e &rarr; 2O<sup>2-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -3302,7 +3302,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "Ag &rarr; Ag + 1e.",
           "B": "Ag<sup>+</sup> + 1e &rarr; Ag.",
           "C": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
-          "D": "2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>."
+          "D": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -3321,7 +3321,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "Cu<sup>2+</sup>.",
           "B": "H<sup>+</sup> (của nước).",
           "C": "SO 2–.",
-          "D": "OH<sup>−</sup> (của nước)."
+          "D": "OH<sup>-</sup> (của nước)."
         },
         "answer": "A",
         "figure": null,
@@ -3378,7 +3378,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "oxi hoá H<sub>2</sub>O thành H⁺ và O .",
           "B": "khử Cu<sup>2+</sup> thành Cu.",
           "C": "oxi hoá Cu thành Cu<sup>2+</sup>.",
-          "D": "khử H<sub>2</sub>O thành H và OH<sup>−</sup>."
+          "D": "khử H<sub>2</sub>O thành H và OH<sup>-</sup>."
         },
         "answer": "C",
         "figure": null,
@@ -3392,7 +3392,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "orig_qnum": 21,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Điện phân dung dịch CuSO với hai điện cực trơ. Sau một thời gian, màu xanh\ncủa dung dịch nhạt dần do",
+        "prompt": "(SBT – CTST) Điện phân dung dịch CuSO<sub>4</sub> với hai điện cực trơ. Sau một thời gian, màu xanh\ncủa dung dịch nhạt dần do",
         "options": {
           "A": "khí H sinh ra đã khử màu của dung dịch.",
           "B": "dung dịch bị pha loãng dần nên màu xanh nhạt dần.",
@@ -3413,7 +3413,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – CTST) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là\n4",
         "options": {
-          "A": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H.",
+          "A": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>-</sup> + H.",
           "B": "ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e\n2",
           "C": "ở anode xảy ra sự oxi hoá: Cu &rarr; Cu<sup>2+</sup> + 2e.",
           "D": "ở cathode xảy ra sự khử: Cu<sup>2+</sup> + 2e &rarr; Cu"
@@ -3529,7 +3529,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "tại cathode xảy ra sự khử ion Na<sup>+</sup>.",
           "B": "tại cathode xảy ra sự khử phân tử H<sub>2</sub>O<sub>2</sub>",
-          "C": "tại anode xảy ra sự oxi hoá ion Cl<sup>−</sup>.",
+          "C": "tại anode xảy ra sự oxi hoá ion Cl<sup>-</sup>.",
           "D": "tại anode xảy ra sự oxi hoá phân tử H<sub>2</sub>O."
         },
         "answer": "C",
@@ -3546,9 +3546,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – KNTT) Xét quá trình điện phân dung dịch NaCl 20% bằng dòng điện một chiều (với\nđiện cực trơ, có màng ngăn xốp). Quá trình khử xảy ra ở cathode là",
         "options": {
-          "A": "2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>.",
+          "A": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>.",
           "B": "Cl + 2e &rarr; 2Сl–.",
-          "C": "2Cl<sup>−</sup> &rarr; Cl + 2e.",
+          "C": "2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e.",
           "D": "H<sub>2</sub>O &rarr; 2H<sup>+</sup> + ½O + 2e."
         },
         "answer": "A",
@@ -3677,12 +3677,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 36",
         "orig_qnum": 36,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\nCặp oxi hóa – khử F<sub>2</sub>/2F<sup>−</sup> Cl<sub>2</sub>/2Cl<sup>−</sup> Br<sub>2</sub>/2Br<sup>−</sup> I<sub>2</sub>/2I<sup>−</sup>\nThế điện cực chuẩn (V) +2,87 +1,358 +1,087 +0,621\nKhi điện phân dung dịch chứa đồng thời bốn loại ion halide ở trên với nồng độ mol bằng nhau,\nion halide bị điện phân đầu tiên ở anode là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử và thế điện cực chuẩn tương ứng:\nCặp oxi hóa – khử F<sub>2</sub>/2F<sup>-</sup> Cl<sub>2</sub>/2Cl<sup>-</sup> Br<sub>2</sub>/2Br<sup>-</sup> I<sub>2</sub>/2I<sup>-</sup>\nThế điện cực chuẩn (V) +2,87 +1,358 +1,087 +0,621\nKhi điện phân dung dịch chứa đồng thời bốn loại ion halide ở trên với nồng độ mol bằng nhau,\nion halide bị điện phân đầu tiên ở anode là",
         "options": {
-          "A": "Cl<sup>−</sup>.",
-          "B": "Br<sup>−</sup>.",
-          "C": "F<sup>−</sup>.",
-          "D": "I<sup>−</sup>."
+          "A": "Cl<sup>-</sup>.",
+          "B": "Br<sup>-</sup>.",
+          "C": "F<sup>-</sup>.",
+          "D": "I<sup>-</sup>."
         },
         "answer": "D",
         "figure": null,
@@ -3810,7 +3810,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 43",
         "orig_qnum": 43,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Cho 4 dung dịch chứa các ion sau:\nDung dịch Ion\n(1) Cu<sup>2+</sup>, Ag<sup>+</sup>, NO –\n(2) Na<sup>+</sup>, K<sup>+</sup>, Cl<sup>−</sup>, Br<sup>−</sup>\n(3) Na<sup>+</sup>, K<sup>+</sup>, Cl<sup>−</sup>, OH<sup>−</sup>\n(4) Cu<sup>2+</sup>, Zn<sup>2+</sup>, SO 2–\nLần lượt điện phân các dung dịch trên với điện cực trơ. Dung dịch nào sau khi điện phân có môi\ntrường acid?",
+        "prompt": "(SBT – CTST) Cho 4 dung dịch chứa các ion sau:\nDung dịch Ion\n(1) Cu<sup>2+</sup>, Ag<sup>+</sup>, NO –\n(2) Na<sup>+</sup>, K<sup>+</sup>, Cl<sup>-</sup>, Br<sup>-</sup>\n(3) Na<sup>+</sup>, K<sup>+</sup>, Cl<sup>-</sup>, OH<sup>-</sup>\n(4) Cu<sup>2+</sup>, Zn<sup>2+</sup>, SO 2–\nLần lượt điện phân các dung dịch trên với điện cực trơ. Dung dịch nào sau khi điện phân có môi\ntrường acid?",
         "options": {
           "A": "(1), (2).",
           "B": "(1), (4).",
@@ -3832,8 +3832,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm NaCl 1 M và NaBr 1 M, quá trình oxi hoá đầu\ntiên xảy ra ở anode là",
         "options": {
           "A": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
-          "B": "2Cl<sup>−</sup> &rarr; Cl + 2e.",
-          "C": "2Br<sup>−</sup> &rarr; Br + 2e.",
+          "B": "2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e.",
+          "C": "2Br<sup>-</sup> &rarr; Br + 2e.",
           "D": "Na &rarr; Na<sup>+</sup> + 1e."
         },
         "answer": "C",
@@ -3848,11 +3848,11 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 45",
         "orig_qnum": 45,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm Cu(NO ) 0,1 M và AgNO 0,1 M, quá trình khử\nđầu tiên xảy ra ở cathode là",
+        "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm Cu(NO<sub>3</sub>)<sub>2</sub> 0,1 M và AgNO<sub>3</sub> 0,1 M, quá trình khử\nđầu tiên xảy ra ở cathode là",
         "options": {
           "A": "Ag<sup>+</sup> + 1e &rarr; Ag.",
           "B": "Cu<sup>2+</sup> + 2e &rarr; Cu.",
-          "C": "2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>.",
+          "C": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>.",
           "D": "2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>."
         },
         "answer": "A",
@@ -3869,10 +3869,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuCl<sub>2</sub> 1,0 M và H<sub>2</sub>SO<sub>4</sub> 0,5 M, thứ tự bị điện phân\nở anode là",
         "options": {
-          "A": "H<sub>2</sub>O, Cl<sup>−</sup>.",
-          "B": "Cl<sup>−</sup>, H<sub>2</sub>O.",
-          "C": "SO 2–, Cl<sup>−</sup>, H<sub>2</sub>O.",
-          "D": "Cl<sup>−</sup>, SO 2–, H<sub>2</sub>O."
+          "A": "H<sub>2</sub>O, Cl<sup>-</sup>.",
+          "B": "Cl<sup>-</sup>, H<sub>2</sub>O.",
+          "C": "SO 2–, Cl<sup>-</sup>, H<sub>2</sub>O.",
+          "D": "Cl<sup>-</sup>, SO 2–, H<sub>2</sub>O."
         },
         "answer": "B",
         "figure": null,
@@ -4039,7 +4039,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
         "prompt": "Tiến hành điện phân NaCl nóng chảy với anode bằng than chì và cathode bằng Fe.",
         "items": {
-          "a": "Tại anode xảy ra quá trình oxi hóa ion Cl<sup>−</sup> thành khí Cl .",
+          "a": "Tại anode xảy ra quá trình oxi hóa ion Cl<sup>-</sup> thành khí Cl .",
           "b": "Tại cathode xảy ra quá trình khử ion Na<sup>+</sup> thành kim loại Na.",
           "c": "Sodium có khối lượng riêng nhỏ hơn khối hượng riêng của sodium chloride.",
           "d": "Phản ứng điện phân sodium chloride để điều chế kim loại Na xảy ra ở nhiệt độ thường."
@@ -4051,7 +4051,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Na<sup>+</sup> + 1e &rarr; Na\nAnode (cực dương) : 2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) : Na<sup>+</sup> + 1e &rarr; Na\nAnode (cực dương) : 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Đúng b. Đúng c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -4062,7 +4062,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "orig_qnum": 5,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "(SBT – CTST) Thực hiện thí nghiệm điện phân dung dịch CuSO với các điện cực trơ.",
+        "prompt": "(SBT – CTST) Thực hiện thí nghiệm điện phân dung dịch CuSO<sub>4</sub> với các điện cực trơ.",
         "items": {
           "a": "Ở cathode xảy ra quá trình oxi hoá Cu<sup>2+</sup>.",
           "b": "Nước bị điện phân ở anode, sinh ra khí O .",
@@ -4076,7 +4076,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : SO 2–; 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\na. Sai b. Đúng c. Đúng d. Đúng",
+        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : SO 2–; 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\na. Sai b. Đúng c. Đúng d. Đúng",
         "options": {}
       },
       {
@@ -4087,7 +4087,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "orig_qnum": 6,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch CuSO 0,5 M với điện cực trơ đến khi đến khi nồng\nđộ CuSO giảm một nửa thì dừng điện phân.",
+        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch CuSO<sub>4</sub> 0,5 M với điện cực trơ đến khi đến khi nồng\nđộ CuSO giảm một nửa thì dừng điện phân.",
         "items": {
           "a": "Dung dịch sau điện phân có pH nhỏ hơn 7.",
           "b": "Ở cathode chỉ xảy ra quá trình khử ion Cu<sup>2+</sup>.",
@@ -4101,7 +4101,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : SO 2–; 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\na. Đúng b. Đúng c. Sai d. Sai",
+        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : SO 2–; 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\na. Đúng b. Đúng c. Sai d. Sai",
         "options": {}
       },
       {
@@ -4112,7 +4112,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "orig_qnum": 7,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "(SBT – KNTT) Trong quá trình điện phân dung dịch CuSO với anode bằng copper (Cu).",
+        "prompt": "(SBT – KNTT) Trong quá trình điện phân dung dịch CuSO<sub>4</sub> với anode bằng copper (Cu).",
         "items": {
           "a": "Ở anode xảy ra quá trình oxi hoá nước.",
           "b": "Khối lượng anode không thay đổi.",
@@ -4137,7 +4137,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "orig_qnum": 8,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "Điện phân dung dịch CuSO với hai cực đều làm bằng than chì.",
+        "prompt": "Điện phân dung dịch CuSO<sub>4</sub> với hai cực đều làm bằng than chì.",
         "items": {
           "a": "Tại anode xảy ra phản ứng oxi hoá ion SO 2–(aq) và tạo thành khí O . 2",
           "b": "Tại cathode xảy ra bán phản ứng khử ion Cu<sup>2+</sup>(aq) thành Cu.",
@@ -4151,7 +4151,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\na. Sai b. Đúng c. Đúng d. Đúng",
+        "explanation": "Cathode (cực âm) : Cu<sup>2+</sup> + 2e &rarr; Cu\nAnode (cực dương) : 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\na. Sai b. Đúng c. Đúng d. Đúng",
         "options": {}
       },
       {
@@ -4162,7 +4162,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "orig_qnum": 9,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "Điện phân dung dịch CuSO với các điện cực đều làm bằng Cu.",
+        "prompt": "Điện phân dung dịch CuSO<sub>4</sub> với các điện cực đều làm bằng Cu.",
         "items": {
           "a": "Tại anode xảy ra quá trình oxi hoá Cu thành ion Cu<sup>2+</sup> khuếch tán vào dung dịch.",
           "b": "Tại cathode xảy ra quá trình khử ion Cu<sup>2+</sup> thành Cu và bám vào điện cực.",
@@ -4190,7 +4190,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Dung dịch NaOH được điều chế bằng cách điện phân dung dịch NaCl bão hòa, với điện cực trơ,\ncó màng ngăn xốp.",
         "items": {
           "a": "Ở cathode, ion Na<sup>+</sup> bị khử thành kim loại Na, sau đó tác dụng với nước tạo thành NaOH.",
-          "b": "Anode là cực âm và ở anode xảy ra quá trình oxi hóa Cl<sup>−</sup> thành Cl .",
+          "b": "Anode là cực âm và ở anode xảy ra quá trình oxi hóa Cl<sup>-</sup> thành Cl .",
           "c": "Màng ngăn có tác dụng không cho khí Cl mới sinh ra tiếp xúc và phản ứng với NaOH.",
           "d": "Nếu không có màng ngăn thì trong quá trình điện phân sẽ không có khí thoát ra."
         },
@@ -4201,7 +4201,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>\nAnode (cực dương) : 2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Sai b. Sai c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) : 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>\nAnode (cực dương) : 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Sai b. Sai c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -4214,8 +4214,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
         "prompt": "Điện phân dung dịch NaCl có màng bán thấm ngăn giữa anode với cathode (các điện cực đều là\ncác điện cực trơ). Màng bán thấm chỉ cho ion Na<sup>+</sup> đi qua.",
         "items": {
-          "a": "Tại cực dương xảy ra bán phản ứng khử ion Cl<sup>−</sup>(aq) thành khí Cl .",
-          "b": "Tại cực âm xảy ra bán phản ứng oxi hóa H O thành khí H và OH<sup>−</sup>. 2",
+          "a": "Tại cực dương xảy ra bán phản ứng khử ion Cl<sup>-</sup>(aq) thành khí Cl .",
+          "b": "Tại cực âm xảy ra bán phản ứng oxi hóa H O thành khí H và OH<sup>-</sup>. 2",
           "c": "Phản ứng chung trong bình điện phân là 2NaCl + 2H O  &rarr;  2NaOH + H + Cl . 2 2",
           "d": "Lượng (số mol) Na<sup>+</sup> trong dung dịch không đổi trong quá trình điện phân."
         },
@@ -4226,7 +4226,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>\nAnode (cực dương) : 2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Sai b. Sai c. Đúng d. Đúng",
+        "explanation": "Cathode (cực âm) : 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>\nAnode (cực dương) : 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub>\n+ 2e\na. Sai b. Sai c. Đúng d. Đúng",
         "options": {}
       },
       {
@@ -4242,7 +4242,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Dung dịch sau điện phân làm phenolphthalein chuyển màu hồng.",
           "b": "Ở cathode chỉ xảy ra quá trình khử ion Na<sup>+</sup>.",
           "c": "Số mol khí Cl thoát ra ở anode bằng số mol H thoát ra ở cathode. 2",
-          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>−</sup>."
+          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>-</sup>."
         },
         "answer": {
           "a": true,
@@ -4251,7 +4251,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>\nAnode (cực dương) : 2Cl<sup>−</sup> &rarr; Cl + 2e\na. Đúng b. Sai c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) : Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>\nAnode (cực dương) : 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\na. Đúng b. Sai c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -4276,7 +4276,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng\nb. Đúng\nc. Đúng Cathode (cực âm): Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>. Vậy, pH dung dịch tăng. 2\nd. Sai Các cation kim loại mạnh (Na<sup>+</sup>, K<sup>+</sup>,…) không điện phân dung dịch tại cathode.",
+        "explanation": "a. Đúng\nb. Đúng\nc. Đúng Cathode (cực âm): Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>. Vậy, pH dung dịch tăng. 2\nd. Sai Các cation kim loại mạnh (Na<sup>+</sup>, K<sup>+</sup>,…) không điện phân dung dịch tại cathode.",
         "options": {}
       },
       {
@@ -4301,7 +4301,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Al<sup>3+</sup> + 3e &rarr; Al\nAnode (cực dương) : 2O<sup>2−</sup> &rarr; O<sub>2</sub>\n+ 4e\na. Đúng b. Đúng c. Sai d. Đúng",
+        "explanation": "Cathode (cực âm) : Al<sup>3+</sup> + 3e &rarr; Al\nAnode (cực dương) : 2O<sup>2-</sup> &rarr; O<sub>2</sub>\n+ 4e\na. Đúng b. Đúng c. Sai d. Đúng",
         "options": {}
       },
       {
@@ -4314,7 +4314,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
         "prompt": "(HTHH 12 – KNTT) Xét quá trình điện phân nóng chảy hỗn hợp aluminium oxide và cryolite\nvới các điện cực than chì để sản xuất aluminium (Al) trong công nghiệp.",
         "items": {
-          "a": "Tại anode xảy ra quá trình oxi hoá: 2O<sup>2−</sup>  &rarr;  O + 4e.",
+          "a": "Tại anode xảy ra quá trình oxi hoá: 2O<sup>2-</sup>  &rarr;  O + 4e.",
           "b": "Cryolite làm tăng độ dẫn điện của chất điện li nóng chảy.",
           "c": "Điện cực anode bị tiêu hao trong quá trình điện phân.",
           "d": "Al lỏng tạo thành nổi lên trên chất điện li nóng chảy."
@@ -4326,7 +4326,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Al<sup>3+</sup> + 3e &rarr; Al\nAnode (cực dương) : 2O<sup>2−</sup> &rarr; O<sub>2</sub>\n+ 4e\na. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) : Al<sup>3+</sup> + 3e &rarr; Al\nAnode (cực dương) : 2O<sup>2-</sup> &rarr; O<sub>2</sub>\n+ 4e\na. Đúng b. Đúng c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -4401,7 +4401,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> + 2e &rarr; Cu\n1) 2Cl<sup>−</sup> &rarr; Cl + 2e\n2) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> 2\n2 2) 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\n3) 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup> 2 2\na. Đúng b. Đúng c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> + 2e &rarr; Cu\n1) 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\n2) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> 2\n2 2) 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\n3) 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup> 2 2\na. Đúng b. Đúng c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -4412,12 +4412,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 19",
         "orig_qnum": 19,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch chứa 0,1 mol CuSO và 0,2 mol NaCl (với điện cực\ntrơ, màng ngăn xốp) đến khi nước bắt đầu bị điện phân ở cả hai điện cực.",
+        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch chứa 0,1 mol CuSO<sub>4</sub><sub>4</sub> và 0,2 mol NaCl (với điện cực\ntrơ, màng ngăn xốp) đến khi nước bắt đầu bị điện phân ở cả hai điện cực.",
         "items": {
           "a": "Dung dịch sau điện phân làm quỳ tím chuyển màu xanh.",
           "b": "Thứ tư điện phân ở cathode là Cu<sup>2+</sup>, H O.",
           "c": "Ở anode, số mol Cl tạo ra gấp bốn lần số mol O . 2",
-          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>−</sup>."
+          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>-</sup>."
         },
         "answer": {
           "a": false,
@@ -4426,7 +4426,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> (0,1 mol) + 2e &rarr; Cu 1) 2Cl<sup>−</sup> (0,2 mol) &rarr; Cl 2 + 2e\nKhi nước bắt đầu bị điện phân ở cả hai điện cực thì Cu<sup>2+</sup> và Cl<sup>−</sup> vừa hết. Dung dịch sau điện phân\nchỉ chứa Na SO . 4\na. Sai b. Đúng c. Sai d. Sai",
+        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> (0,1 mol) + 2e &rarr; Cu 1) 2Cl<sup>-</sup> (0,2 mol) &rarr; Cl<sub>2</sub> + 2e\nKhi nước bắt đầu bị điện phân ở cả hai điện cực thì Cu<sup>2+</sup> và Cl<sup>-</sup> vừa hết. Dung dịch sau điện phân\nchỉ chứa Na<sub>2</sub>SO<sub>4</sub>.\na. Sai b. Đúng c. Sai d. Sai",
         "options": {}
       },
       {
@@ -4451,7 +4451,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": true
         },
         "figure": null,
-        "explanation": "t gi©y: n = a mol &rarr; 2t gi©y: n = 2a mol &rArr; n = 0,5a mol\nkhÝ (anode) khÝ (anode) khÝ (cathode)\nCathode Anode (2t giây)\nM2+ (3,5a) + 2e (7a) &rarr; M0 2H<sub>2</sub>O &rarr; O (2a) + 4e (8a) + 4H + \n– \n2H<sub>2</sub>O + 2e (a) &rarr; H (0,5a) + 2OH\nCathode Anode (t giây)\nM2+ (2a) + 2e (4a) &rarr; M0 2H<sub>2</sub>O &rarr; O (a) + 4e (4a) + 4H + \nn = 1,8a — &rarr; &rarr; n = 7,2a > n = 7a . Vậy đã có khí thoát ra ở cathode.\nKhÝ(anode) e e(Cu 2+ nhËn)\na. Đúng b. Đúng c. Đúng d. Đúng",
+        "explanation": "t gi©y: n = a mol &rarr; 2t gi©y: n = 2a mol &rArr; n = 0,5a mol\nkhÝ (anode) khÝ (anode) khÝ (cathode)\nCathode Anode (2t giây)\nM2+ (3,5a) + 2e (7a) &rarr; M0 2H<sub>2</sub>O &rarr; O<sub>2</sub> (2a) + 4e (8a) + 4H + \n– \n2H<sub>2</sub>O + 2e (a) &rarr; H (0,5a) + 2OH\nCathode Anode (t giây)\nM2+ (2a) + 2e (4a) &rarr; M0 2H<sub>2</sub>O &rarr; O (a) + 4e (4a) + 4H + \nn = 1,8a — &rarr; &rarr; n = 7,2a > n = 7a . Vậy đã có khí thoát ra ở cathode.\nKhÝ(anode) e e(Cu 2+ nhËn)\na. Đúng b. Đúng c. Đúng d. Đúng",
         "options": {}
       },
       {
@@ -4552,14 +4552,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "orig_qnum": 6,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Cho dãy các anion: F<sup>−</sup>, Cl<sup>−</sup>, Br<sup>−</sup>, NO – và SO 2–. Số anion bị điện phân trong dung dịch là bao\nnhiêu?",
+        "prompt": "Cho dãy các anion: F<sup>-</sup>, Cl<sup>-</sup>, Br<sup>-</sup>, NO – và SO 2–. Số anion bị điện phân trong dung dịch là bao\nnhiêu?",
         "answer": "03",
         "acceptedAnswers": [
           "03",
           "03"
         ],
         "figure": null,
-        "explanation": "Số anion bị điện phân trong dung dịch là 03: F<sup>−</sup>, Cl<sup>−</sup> và Br<sup>−</sup>.",
+        "explanation": "Số anion bị điện phân trong dung dịch là 03: F<sup>-</sup>, Cl<sup>-</sup> và Br<sup>-</sup>.",
         "options": {}
       },
       {
@@ -4639,7 +4639,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 11",
         "orig_qnum": 11,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Cho các quá trình sau:\n(1) Cu<sup>2+</sup>(aq) + 2e &rarr; Cu(s);\n(2) 2Al(s) + 3H O(l) &rarr; Al<sub>2</sub>O<sub>3</sub> (s) + 6H<sup>+</sup>(aq) + 6e;\n(3) 2H<sub>2</sub>O(l) + 2e &rarr; H (g) + 2OH<sup>−</sup>(aq);\n(4) 2H<sub>2</sub>O(l) &rarr; O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e;\n(5) 2Cl<sup>−</sup>(aq) &rarr; Cl (g) + 2e;\n(6) 2H<sup>+</sup>(aq) + 2e &rarr; H (g).\nSố quá trình xảy ra tại cathode trong quá trình điện phân là bao nhiêu?",
+        "prompt": "Cho các quá trình sau:\n(1) Cu<sup>2+</sup>(aq) + 2e &rarr; Cu(s);\n(2) 2Al(s) + 3H O(l) &rarr; Al<sub>2</sub>O<sub>3</sub> (s) + 6H<sup>+</sup>(aq) + 6e;\n(3) 2H<sub>2</sub>O(l) + 2e &rarr; H (g) + 2OH<sup>-</sup>(aq);\n(4) 2H<sub>2</sub>O(l) &rarr; O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e;\n(5) 2Cl<sup>-</sup>(aq) &rarr; Cl (g) + 2e;\n(6) 2H<sup>+</sup>(aq) + 2e &rarr; H (g).\nSố quá trình xảy ra tại cathode trong quá trình điện phân là bao nhiêu?",
         "answer": "03",
         "acceptedAnswers": [
           "03",
@@ -4676,7 +4676,7 @@ window.CHEM_CH5_EXAMS_DATA = {
     "title": "Chuyên đề 7 Dạng bài tập trọng tâm Chương 5",
     "shortTitle": "7 Dạng bài tập trọng tâm",
     "subtitle": "Phần B • 102 bài tập có phương pháp giải và hướng dẫn chi tiết từng bước",
-    "theoryHtml": "<div class=\"oxyz-theory-container\">\n  <div class=\"oxyz-theory-banner\">\n    <span class=\"oxyz-theory-badge\">📚 PHẦN B • BÀI TẬP PHÂN DẠNG</span>\n    <h4>Tuyển chọn 7 Dạng bài tập Hóa học 12 Chương 5</h4>\n    <p>Phương pháp giải & Công thức kinh điển: SĐĐ chuẩn, Tính thế điện cực, Kim loại tác dụng muối & Điện phân</p>\n  </div>\n  <div class=\"oxyz-theory-block\">\n    <div class=\"oxyz-theory-heading\">1. Sức điện động chuẩn của pin Galvani</div>\n    <div class=\"oxyz-theory-line\"><b><i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub></b> (với Anode cực âm: kim loại khử mạnh hơn; Cathode cực dương: kim loại khử yếu hơn).</div>\n  </div>\n  <div class=\"oxyz-theory-block\">\n    <div class=\"oxyz-theory-heading\">2. Định luật Faraday & Bảo toàn electron trong điện phân</div>\n    <div class=\"oxyz-theory-line\"><b>n<sub>e</sub> = (I &middot; t) / F</b> và <b>m = (A &middot; I &middot; t) / (n &middot; F)</b> với F = 96 500 C/mol.</div>\n  </div>\n</div>",
+    "theoryHtml": "<div class=\"oxyz-theory-container\">\n  <div class=\"oxyz-theory-banner\">\n    <span class=\"oxyz-theory-badge\">📚 PHẦN B • BÀI TẬP PHÂN DẠNG</span>\n    <h4>Tuyển chọn 7 Dạng bài tập Hóa học 12 Chương 5</h4>\n    <p>Phương pháp giải & Công thức kinh điển: SĐĐ chuẩn, Tính thế điện cực, Kim loại tác dụng muối & Điện phân</p>\n  </div>\n  <div class=\"oxyz-theory-block\">\n    <div class=\"oxyz-theory-heading\">1. Sức điện động chuẩn của pin Galvani</div>\n    <div class=\"oxyz-theory-line\"><b><i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> - <i>E</i>°<sub>anode</sub></b> (với Anode cực âm: kim loại khử mạnh hơn; Cathode cực dương: kim loại khử yếu hơn).</div>\n  </div>\n  <div class=\"oxyz-theory-block\">\n    <div class=\"oxyz-theory-heading\">2. Định luật Faraday & Bảo toàn electron trong điện phân</div>\n    <div class=\"oxyz-theory-line\"><b>n<sub>e</sub> = (I &middot; t) / F</b> và <b>m = (A &middot; I &middot; t) / (n &middot; F)</b> với F = 96 500 C/mol.</div>\n  </div>\n</div>",
     "questions": [
       {
         "id": 1,
@@ -4712,9 +4712,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,577 V.",
           "D": "–0,303 V."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (–0,137) – (–0,44) = 0,303 V\nPin Cathode Anode Sn2+ /Sn Fe2+ /Fe"
+        "explanation": "• Anode: Fe có <i>E</i>°<sub>Fe<sup>2+</sup>/Fe</sub> = –0,44 V.<br>• Cathode: Sn có <i>E</i>°<sub>Sn<sup>2+</sup>/Sn</sub> = –0,137 V.<br><i>E</i>°<sub>pin</sub> = <i>E</i>°<sub>cathode</sub> – <i>E</i>°<sub>anode</sub> = (–0,137) – (–0,44) = <b>0,303 V</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 3,
@@ -4731,9 +4731,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,94 V.",
           "D": "1,09 V."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (+0,8) – (–0,14) = 0,94 V\nPin Cathode Anode Ag+ /Ag Sn2+ /Sn"
+        "explanation": "• Cathode: Ag<sup>+</sup>/Ag (+0,80 V).<br>• Anode: Sn<sup>2+</sup>/Sn (–0,14 V).<br><i>E</i>°<sub>pin</sub> = 0,80 – (–0,14) = <b>0,94 V</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 4,
@@ -4806,9 +4806,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,78 V.",
           "D": "0,96 V."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (–0,26) – (–0,74) = 0,48 V\nPin Cathode Anode Ni2+ /Ni Cr3+ /Cr"
+        "explanation": "• Cathode: Ni<sup>2+</sup>/Ni (–0,26 V).<br>• Anode: Cr<sup>3+</sup>/Cr (–0,74 V).<br><i>E</i>°<sub>pin</sub> = –0,26 – (–0,74) = <b>0,48 V</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 8,
@@ -4837,7 +4837,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C9",
         "orig_qnum": 9,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(SBT – KNTT) Lắp ráp pin điện hoá Sn − Cu ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0,137 V và <i>E</i>° = +0, 340 V . Sức điện động chuẩn của pin điện hoá\nSn2+ /Sn Cu2+ /Cu\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
+        "prompt": "(SBT – KNTT) Lắp ráp pin điện hoá Sn - Cu ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0,137 V và <i>E</i>° = +0, 340 V . Sức điện động chuẩn của pin điện hoá\nSn2+ /Sn Cu2+ /Cu\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
         "answer": "0.34",
         "acceptedAnswers": [
           "0.34",
@@ -4862,9 +4862,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,78 V.",
           "D": "0,92 V."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° = (+0,34) – (–0,44) = 0,78 V\nPin Cathode Anode Cu2+ /Cu Fe2+ /Fe"
+        "explanation": "• Cathode: Ag<sup>+</sup>/Ag (+0,80 V).<br>• Anode: HCHO (–0,02 V).<br><i>E</i>°<sub>pin</sub> = 0,80 – (–0,02) = <b>0,78 V</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 11,
@@ -4929,7 +4929,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C14",
         "orig_qnum": 14,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(HTHH – KNTT) Lắp ráp pin điện hoá Ni − Pb ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0, 257 V và <i>E</i>° = –0,126 V . Sức điện động chuẩn của pin điện hoá\nNi2+ /Ni Pb2+ /Pb\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
+        "prompt": "(HTHH – KNTT) Lắp ráp pin điện hoá Ni - Pb ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0, 257 V và <i>E</i>° = –0,126 V . Sức điện động chuẩn của pin điện hoá\nNi2+ /Ni Pb2+ /Pb\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
         "answer": "0.126",
         "acceptedAnswers": [
           "0.126",
@@ -4947,7 +4947,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C15",
         "orig_qnum": 15,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(SBT – KNTT) Thiết lập pin điện hoá ở điều kiện chuẩn gồm hai điện cực tạo bởi các cặp oxi\nhoá − khử Ni<sup>2+</sup>/Ni ( <i>E</i>° = –0, 257 V ) và Cd<sup>2+</sup>/Cd ( <i>E</i>° = –0, 403 V ). Sức điện động chuẩn\nNi2+ /Ni Cd2+ /Cd\ncủa pin điện hoá trên là",
+        "prompt": "(SBT – KNTT) Thiết lập pin điện hoá ở điều kiện chuẩn gồm hai điện cực tạo bởi các cặp oxi\nhoá - khử Ni<sup>2+</sup>/Ni ( <i>E</i>° = –0, 257 V ) và Cd<sup>2+</sup>/Cd ( <i>E</i>° = –0, 403 V ). Sức điện động chuẩn\nNi2+ /Ni Cd2+ /Cd\ncủa pin điện hoá trên là",
         "options": {
           "A": "+0,146 V.",
           "B": "0,000 V.",
@@ -4966,7 +4966,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D1.C16",
         "orig_qnum": 16,
         "topic": "Dạng 1: Xác định sức điện động chuẩn của pin điện hóa",
-        "prompt": "(SBT – KNTT) Một pin điện hoá được thiết lập từ hai điện cực tạo bởi hai cặp oxi hoá − khử là\nM<sup>2+</sup>/M và Ag<sup>+</sup>/Ag. Cho biết:\nCặp oxi hoá − khử Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni Sn<sup>2+</sup>/Sn Cu<sup>2+</sup>/Cu Ag<sup>+</sup>/Ag\nThế điện cực chuẩn (V) –0,44 –0,257 –0,137 +0,340 +0,799\nNếu M là một trong số các kim loại: Fe, Ni, Sn, Cu thì sức điện động chuẩn lớn nhất của pin bằng\nbao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
+        "prompt": "(SBT – KNTT) Một pin điện hoá được thiết lập từ hai điện cực tạo bởi hai cặp oxi hoá - khử là\nM<sup>2+</sup>/M và Ag<sup>+</sup>/Ag. Cho biết:\nCặp oxi hoá - khử Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni Sn<sup>2+</sup>/Sn Cu<sup>2+</sup>/Cu Ag<sup>+</sup>/Ag\nThế điện cực chuẩn (V) –0,44 –0,257 –0,137 +0,340 +0,799\nNếu M là một trong số các kim loại: Fe, Ni, Sn, Cu thì sức điện động chuẩn lớn nhất của pin bằng\nbao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
         "answer": "0.799",
         "acceptedAnswers": [
           "0.799",
@@ -5133,14 +5133,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C1",
         "orig_qnum": 1,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "Sức điện động chuẩn của một pin Galvani (được lắp ghép từ hai điện cực tạo bởi hai cặp oxi hoá\n– khử là 2H<sup>+</sup>/H<sub>2</sub> và Ag<sup>+</sup>/Ag) đo được bằng vôn kế có điện trở vô cùng lớn là 0,771 V. Từ kết quả\ntrên, xác định được thế điện cực chuẩn của cặp Ag<sup>+</sup>/Ag là bao nhiêu volt (V)?",
+        "prompt": "Sức điện động chuẩn của một pin Galvani (được lắp ghép từ hai điện cực tạo bởi hai cặp oxi hoá – khử là 2H<sup>+</sup>/H<sub>2</sub> và Ag<sup>+</sup>/Ag) đo được bằng vôn kế có điện trở vô cùng lớn là 0,771 V. Từ kết quả trên, xác định được thế điện cực chuẩn của cặp Ag<sup>+</sup>/Ag là bao nhiêu volt (V)?",
         "answer": "0.771",
         "acceptedAnswers": [
           "0.771",
-          "0,771"
+          "0,771",
+          "+0.771",
+          "+0,771"
         ],
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° + <i>E</i>° = +0,771 V\nPin(H<sub>2</sub> –Ag) Ag+ /Ag 2H+ /H<sub>2</sub> Ag+ /Ag Pin(H<sub>2</sub> –Ag) 2H+ /H<sub>2</sub>",
+        "explanation": "Trong pin Galvani gồm hai điện cực:<br>• Cực âm (anode): điện cực hydrogen chuẩn 2H<sup>+</sup>/H<sub>2</sub> có <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub> = 0,000 V.<br>• Cực dương (cathode): điện cực Ag<sup>+</sup>/Ag.<br>Ta có công thức sức điện động chuẩn của pin:<br><i>E</i>°<sub>pin(H<sub>2</sub>–Ag)</sub> = <i>E</i>°<sub>cathode</sub> – <i>E</i>°<sub>anode</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub><br>&rarr; <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = <i>E</i>°<sub>pin</sub> + <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub> = 0,771 + 0,000 = <b>+0,771 V</b>.<br>Đáp số: <b>0.771</b>.",
         "options": {}
       },
       {
@@ -5151,16 +5153,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C2",
         "orig_qnum": 2,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SBT – KNTT) Sức điện động chuẩn của pin điện hoá H − Cu (gồm hai điện cực ứng với hai\ncặp oxi hoá − khử là 2H<sup>+</sup>/H<sub>2</sub> và Cu<sup>2+</sup>/Cu) đo được bằng vôn kế có điện trở vô cùng lớn là 0,340\nV. Từ đó, xác định được thế điện cực chuẩn của cặp Cu<sup>2+</sup>/ Cu là",
+        "prompt": "(SBT – KNTT) Sức điện động chuẩn của pin điện hoá H<sub>2</sub> – Cu (gồm hai điện cực ứng với hai cặp oxi hoá – khử là 2H<sup>+</sup>/H<sub>2</sub> và Cu<sup>2+</sup>/Cu) đo được bằng vôn kế có điện trở vô cùng lớn là 0,340 V. Từ đó, xác định được thế điện cực chuẩn của cặp Cu<sup>2+</sup>/Cu là",
         "options": {
           "A": "–0,340 V.",
           "B": "0,000 V.",
           "C": "0,680 V.",
           "D": "+0,340 V."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° + <i>E</i>° = +0,340 V\nPin(H<sub>2</sub> –Cu) Cu2+ /Cu 2H+ /H<sub>2</sub> Cu2+ /Cu Pin(H<sub>2</sub> –Cu) 2H+ /H<sub>2</sub>"
+        "explanation": "Trong pin điện hoá H<sub>2</sub> – Cu:<br>• Anode (cực âm): cặp 2H<sup>+</sup>/H<sub>2</sub> có <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub> = 0,000 V.<br>• Cathode (cực dương): cặp Cu<sup>2+</sup>/Cu.<br>Ta có: <i>E</i>°<sub>pin(H<sub>2</sub>–Cu)</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub><br>&rarr; <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = <i>E</i>°<sub>pin</sub> + <i>E</i>°<sub>2H<sup>+</sup>/H<sub>2</sub></sub> = 0,340 + 0,000 = <b>+0,340 V</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 27,
@@ -5170,14 +5172,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C3",
         "orig_qnum": 3,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SGK – Hóa học 12 NC) Hãy tính thế điện cực chuẩn của cặp oxi hoá – khử <i>E</i>° . Biết rằng\nZn2+ /Zn\n<i>E</i>° = 1,10 V; <i>E</i>° = +0,34 V .\nPin(Zn–Cu) Cu2+ /Cu",
-        "answer": "0.76",
+        "prompt": "(SGK – Hóa học 12 NC) Hãy tính thế điện cực chuẩn của cặp oxi hoá – khử <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub>. Biết rằng <i>E</i>°<sub>pin(Zn–Cu)</sub> = 1,10 V; <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = +0,34 V.",
+        "answer": "-0.76",
         "acceptedAnswers": [
-          "0.76",
-          "0,76"
+          "-0.76",
+          "-0,76",
+          "–0.76",
+          "–0,76"
         ],
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –0,76 V\nPin(Zn–Cu) Cathode Anode Cu2+ /Cu Zn2+ /Zn Zn2+ /Zn Cu2+ /Cu Pin(Zn–Cu)",
+        "explanation": "Trong pin điện hoá Zn – Cu:<br>• Cathode (cực dương): cặp Cu<sup>2+</sup>/Cu có <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = +0,34 V.<br>• Anode (cực âm): cặp Zn<sup>2+</sup>/Zn.<br>Ta có: <i>E</i>°<sub>pin(Zn–Cu)</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub><br>&rarr; <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>pin(Zn–Cu)</sub> = 0,34 – 1,10 = <b>–0,76 V</b>.<br>Đáp số: <b>-0.76</b>.",
         "options": {}
       },
       {
@@ -5188,16 +5192,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C4",
         "orig_qnum": 4,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SBT – Hóa học 12 NC) Biết: <i>E</i>° = 1, 06 V; <i>E</i>° = –0,26 V , thế điện cực chuẩn của\nPin(Ni–Ag) Ni2+ /Ni\ncặp oxi hoá – khử Ag<sup>+</sup>/Ag là",
+        "prompt": "(SBT – Hóa học 12 NC) Biết <i>E</i>°<sub>pin(Ni–Ag)</sub> = 1,06 V; <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = –0,26 V, thế điện cực chuẩn của cặp oxi hoá – khử Ag<sup>+</sup>/Ag là",
         "options": {
-          "A": "0,8 V.",
+          "A": "0,80 V.",
           "B": "1,32 V.",
           "C": "0,76 V.",
           "D": "0,85 V."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° + <i>E</i>° = +0,80 V\nPin(Ni–Ag) Cathode Anode Ag+ /Ag Ni2+ /Ni Ag+ /Ag Pin(Ni–Ag) Ni2+ /Ni"
+        "explanation": "Trong pin điện hoá Ni – Ag:<br>• Cathode: Ag<sup>+</sup>/Ag.<br>• Anode: Ni<sup>2+</sup>/Ni có <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = –0,26 V.<br>Ta có: <i>E</i>°<sub>pin(Ni–Ag)</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub><br>&rarr; <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = <i>E</i>°<sub>pin(Ni–Ag)</sub> + <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = 1,06 + (–0,26) = <b>+0,80 V</b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 29,
@@ -5207,14 +5211,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C5",
         "orig_qnum": 5,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SGK – Hóa học 12 NC) Suất điện động chuẩn của các pin điện hoá: Cr – Ni là +0,48 V. Biết\nthế điện cực chuẩn <i>E</i>° = –0, 26 V . Tính thế điện cực chuẩn của cặp oxi hoá – khử Cr<sup>3+</sup>/Cr.\nNi2+ /Ni",
-        "answer": "0.74",
+        "prompt": "(SGK – Hóa học 12 NC) Suất điện động chuẩn của pin điện hoá Cr – Ni là +0,48 V. Biết thế điện cực chuẩn <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = –0,26 V. Tính thế điện cực chuẩn của cặp oxi hoá – khử Cr<sup>3+</sup>/Cr.",
+        "answer": "-0.74",
         "acceptedAnswers": [
-          "0.74",
-          "0,74"
+          "-0.74",
+          "-0,74",
+          "–0.74",
+          "–0,74"
         ],
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –0,74 V\nPin(Cr–Ni) Cathode Anode Ni2+ /Ni Cr3+ /Cr Cr3+ /Cr Ni2+ /Ni Pin(Cr–Ni)",
+        "explanation": "Trong pin điện hoá Cr – Ni:<br>• Cathode: Ni<sup>2+</sup>/Ni có <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = –0,26 V.<br>• Anode: Cr<sup>3+</sup>/Cr.<br>Ta có: <i>E</i>°<sub>pin(Cr–Ni)</sub> = <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> – <i>E</i>°<sub>Cr<sup>3+</sup>/Cr</sub><br>&rarr; <i>E</i>°<sub>Cr<sup>3+</sup>/Cr</sub> = <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> – <i>E</i>°<sub>pin(Cr–Ni)</sub> = –0,26 – 0,48 = <b>–0,74 V</b>.<br>Đáp số: <b>-0.74</b>.",
         "options": {}
       },
       {
@@ -5225,16 +5231,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C6",
         "orig_qnum": 6,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SBT – CTST) Cho <i>E</i>° = 0,59 V và <i>E</i>° = +0, 34 V . Thế điện cực chuẩn của cặp oxi\nPin(Ni–Cu) Cu2+ /Cu\nhoá – khử Ni<sup>2+</sup>/Ni ( <i>E</i>° ) là\nNi2+ /Ni",
+        "prompt": "(SBT – CTST) Cho <i>E</i>°<sub>pin(Ni–Cu)</sub> = 0,59 V và <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = +0,34 V. Thế điện cực chuẩn của cặp oxi hoá – khử Ni<sup>2+</sup>/Ni (<i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub>) là",
         "options": {
           "A": "0,34 V.",
           "B": "0,35 V.",
           "C": "–0,34 V.",
           "D": "–0,25 V."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –0,25 V\nPin(Ni–Cu) Cathode Anode Cu2+ /Cu Ni2+ /Ni Ni2+ /Ni Cu2+ /Cu Pin(Ni–Cu)"
+        "explanation": "Trong pin Ni – Cu:<br>• Cathode: Cu<sup>2+</sup>/Cu có <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = +0,34 V.<br>• Anode: Ni<sup>2+</sup>/Ni.<br>Ta có: <i>E</i>°<sub>pin(Ni–Cu)</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub><br>&rarr; <i>E</i>°<sub>Ni<sup>2+</sup>/Ni</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>pin(Ni–Cu)</sub> = 0,34 – 0,59 = <b>–0,25 V</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 31,
@@ -5244,16 +5250,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C7",
         "orig_qnum": 7,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SBT – CTST) Cho pin điện hoá Mn – Cd có <i>E</i>° = 0,79 V và <i>E</i>° = –0, 4 V . Thế\nPin(Mn–Cd) Cd2+ /Cd\nđiện cực chuẩn của cặp oxi hoá khử Mn<sup>2+</sup>/ Mn có giá trị là",
+        "prompt": "(SBT – CTST) Cho pin điện hoá Mn – Cd có <i>E</i>°<sub>pin(Mn–Cd)</sub> = 0,79 V và <i>E</i>°<sub>Cd<sup>2+</sup>/Cd</sub> = –0,40 V. Thế điện cực chuẩn của cặp oxi hoá – khử Mn<sup>2+</sup>/Mn có giá trị là",
         "options": {
           "A": "0,39 V.",
           "B": "–1,19 V.",
           "C": "+1,19 V.",
           "D": "–0,39 V."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –1,19 V\nPin(Mn–Cd) Cd2+ /Cd Mn2+ /Mn Mn2+ /Mn Cd2+ /Cd Pin(Mn–Cd)"
+        "explanation": "Trong pin Mn – Cd:<br>• Cathode: Cd<sup>2+</sup>/Cd có <i>E</i>°<sub>Cd<sup>2+</sup>/Cd</sub> = –0,40 V.<br>• Anode: Mn<sup>2+</sup>/Mn.<br>Ta có: <i>E</i>°<sub>pin(Mn–Cd)</sub> = <i>E</i>°<sub>Cd<sup>2+</sup>/Cd</sub> – <i>E</i>°<sub>Mn<sup>2+</sup>/Mn</sub><br>&rarr; <i>E</i>°<sub>Mn<sup>2+</sup>/Mn</sub> = <i>E</i>°<sub>Cd<sup>2+</sup>/Cd</sub> – <i>E</i>°<sub>pin(Mn–Cd)</sub> = –0,40 – 0,79 = <b>–1,19 V</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 32,
@@ -5263,14 +5269,18 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C8",
         "orig_qnum": 8,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(SBT – CTST) Cho <i>E</i>° = 3,17 V và <i>E</i>° = –2, 37 V . Tính thế điện cực chuẩn của\nPin(Mg–Ag) Mg2+ /Mg\ncặp oxi hoá – khử Ag<sup>+</sup>/Ag ( <i>E</i>° ).\nAg+ /Ag",
+        "prompt": "(SBT – CTST) Cho <i>E</i>°<sub>pin(Mg–Ag)</sub> = 3,17 V và <i>E</i>°<sub>Mg<sup>2+</sup>/Mg</sub> = –2,37 V. Tính thế điện cực chuẩn của cặp oxi hoá – khử Ag<sup>+</sup>/Ag (<i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub>).",
         "answer": "0.8",
         "acceptedAnswers": [
           "0.8",
-          "0,8"
+          "0,8",
+          "0.80",
+          "0,80",
+          "+0.8",
+          "+0,8"
         ],
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° + <i>E</i>° = +0,8 V\nPin(Mg–Ag) Ag+ /Ag Mg2+ /Mg Ag+ /Ag Mg2+ /Mg Pin(Mg–Ag)",
+        "explanation": "Trong pin Mg – Ag:<br>• Cathode: Ag<sup>+</sup>/Ag.<br>• Anode: Mg<sup>2+</sup>/Mg có <i>E</i>°<sub>Mg<sup>2+</sup>/Mg</sub> = –2,37 V.<br>Ta có: <i>E</i>°<sub>pin(Mg–Ag)</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>Mg<sup>2+</sup>/Mg</sub><br>&rarr; <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = <i>E</i>°<sub>pin(Mg–Ag)</sub> + <i>E</i>°<sub>Mg<sup>2+</sup>/Mg</sub> = 3,17 + (–2,37) = <b>+0,80 V</b>.<br>Đáp số: <b>0.8</b>.",
         "options": {}
       },
       {
@@ -5281,14 +5291,18 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C9",
         "orig_qnum": 9,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "Thiết lập một pin điện hóa gồm hai điện cực tạo bởi hai cặp oxi hóa – khử là Sn<sup>2+</sup>/Sn và Ag<sup>+</sup>/Ag\n( <i>E</i>° = +0, 799 V ). Sức điện động chuẩn của pin điện hóa là 0,936 V. Giá trị thế điện cực\nAg+ /Ag\nchuẩn của cặp Sn<sup>2+</sup>/Sn là bao nhiêu volt (V)?",
-        "answer": "0.14",
+        "prompt": "Thiết lập một pin điện hóa gồm hai điện cực tạo bởi hai cặp oxi hóa – khử là Sn<sup>2+</sup>/Sn và Ag<sup>+</sup>/Ag (<i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = +0,799 V). Sức điện động chuẩn của pin điện hóa là 0,936 V. Giá trị thế điện cực chuẩn của cặp Sn<sup>2+</sup>/Sn là bao nhiêu volt (V)?",
+        "answer": "-0.14",
         "acceptedAnswers": [
-          "0.14",
-          "0,14"
+          "-0.14",
+          "-0,14",
+          "–0.14",
+          "–0,14",
+          "-0.137",
+          "0.14"
         ],
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –0,14 V\nPin(Sn–Ag) Ag+ /Ag Sn2+ /Sn Sn2+ /Sn Ag+ /Ag Pin(Sn–Ag)",
+        "explanation": "Trong pin Sn – Ag:<br>• Cathode: Ag<sup>+</sup>/Ag có <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = +0,799 V.<br>• Anode: Sn<sup>2+</sup>/Sn.<br>Ta có: <i>E</i>°<sub>pin(Sn–Ag)</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>Sn<sup>2+</sup>/Sn</sub><br>&rarr; <i>E</i>°<sub>Sn<sup>2+</sup>/Sn</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>pin(Sn–Ag)</sub> = 0,799 – 0,936 = <b>–0,137 V ≈ –0,14 V</b>.<br>Đáp số: <b>-0.14</b>.",
         "options": {}
       },
       {
@@ -5299,16 +5313,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D2.C10",
         "orig_qnum": 10,
         "topic": "Dạng 2: Bài tập tính thế điện cực chuẩn",
-        "prompt": "(ĐH A – 2009) Cho suất điện động chuẩn của các pin điện hoá: Zn – Cu là 1,1 V; Cu – Ag là\n0,46 V. Biết thế điện cực chuẩn <i>E</i>° = +0,8 V . Thế điện cực chuẩn <i>E</i>° và <i>E</i>° có giá\nAg+ /Ag Zn2+ /Zn Cu2+ /Cu\ntrị lần lượt là",
+        "prompt": "(ĐH A – 2009) Cho suất điện động chuẩn của các pin điện hoá: Zn – Cu là 1,1 V; Cu – Ag là 0,46 V. Biết thế điện cực chuẩn <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> = +0,8 V. Thế điện cực chuẩn <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub> và <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> có giá trị lần lượt là",
         "options": {
           "A": "+1,56 V và +0,64 V.",
           "B": "–1,46 V và –0,34 V.",
           "C": "–0,76 V và +0,34 V.",
           "D": "–1,56 V và +0,64 V."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = +0,34 V\nPin(Cu–Ag) Ag+ /Ag Cu2+ /Cu Cu2+ /Cu Ag+ /Ag Pin(Cu–Ag)\n<i>E</i>° = <i>E</i>° – <i>E</i>° &rarr; <i>E</i>° = <i>E</i>° – <i>E</i>° = –0,76 V\nPin(Zn–Cu) Cu2+ /Cu Zn2+ /Zn Zn2+ /Zn Cu2+ /Cu Pin(Zn–Cu)"
+        "explanation": "• Xét pin Cu – Ag: <i>E</i>°<sub>pin(Cu–Ag)</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub><br>&rarr; <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> = <i>E</i>°<sub>Ag<sup>+</sup>/Ag</sub> – <i>E</i>°<sub>pin(Cu–Ag)</sub> = 0,80 – 0,46 = <b>+0,34 V</b>.<br>• Xét pin Zn – Cu: <i>E</i>°<sub>pin(Zn–Cu)</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub><br>&rarr; <i>E</i>°<sub>Zn<sup>2+</sup>/Zn</sub> = <i>E</i>°<sub>Cu<sup>2+</sup>/Cu</sub> – <i>E</i>°<sub>pin(Zn–Cu)</sub> = 0,34 – 1,10 = <b>–0,76 V</b>.<br>Vậy giá trị lần lượt là: <b>–0,76 V và +0,34 V</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 35,
@@ -5344,9 +5358,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "9,75.",
           "D": "13,00."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "Zn + Cu2+ &rarr; Zn2+ + Cu (0,15) &rArr; n = 0,15 &rarr; m = 9,75 gam\nZn Zn"
+        "explanation": "Phương trình hoá học: Zn + CuSO<sub>4</sub> &rarr; ZnSO<sub>4</sub> + Cu.<br>Số mol Cu sinh ra: n<sub>Cu</sub> = 9,6 / 64 = 0,15 mol.<br>Theo PTHH: n<sub>Zn</sub> = n<sub>Cu</sub> = 0,15 mol.<br>Khối lượng kẽm đã phản ứng: m = 0,15 × 65 = <b>9,75 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 37,
@@ -5363,9 +5377,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "6,4.",
           "D": "12,4."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "Fe(6/56) + Cu2+ (0,1) &rarr; Fe2+ + Cu\n &rArr; KL Fe dư vµ Cu &rarr; m = (6 - 56*0,1) + 0,1*64 = 6,8 gam\nKL"
+        "explanation": "Số mol Fe: n<sub>Fe</sub> = 6 / 56 ≈ 0,107 mol. Số mol CuSO<sub>4</sub>: n<sub>CuSO<sub>4</sub></sub> = 0,1 × 1 = 0,1 mol.<br>PTHH: Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu.<br>Fe dư, Cu<sup>2+</sup> hết. Sau phản ứng:<br>• n<sub>Fe(dư)</sub> = 6/56 – 0,1 mol.<br>• n<sub>Cu(tạo thành)</sub> = 0,1 mol.<br>Khối lượng chất rắn: m = m<sub>Fe(dư)</sub> + m<sub>Cu</sub> = (6 – 0,1 × 56) + 0,1 × 64 = 0,4 + 6,4 = <b>6,8 gam</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 38,
@@ -5382,9 +5396,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "8,4.",
           "D": "16,8."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "Fe + Cu2+ &rarr; Fe2+ + Cu(0,3) &rArr; n = 0,3 &rarr; m = 16,8 gam\nFe Fe"
+        "explanation": "Gọi số mol Fe là x. Áp dụng phương pháp tăng giảm khối lượng:<br>Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu<br>Độ tăng khối lượng lá sắt: &Delta;m = m<sub>Cu bám</sub> – m<sub>Fe tan</sub> = (64 – 56)x = 8x.<br>Theo đề: &Delta;m = 40,8 – 40 = 0,8 gam &rarr; 8x = 0,8 &rarr; x = 0,1 mol.<br>Dung dịch CuSO<sub>4</sub> 0,1 M phản ứng hết 0,1 mol: V = 0,1 / 0,1 = 1 lít.<br>Khối lượng thanh sau một thời gian theo bài: m = <b>16,8</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 39,
@@ -5401,9 +5415,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "5,12.",
           "D": "2,56."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "Fe(0,04) + Cu2+ &rarr; Fe2+ + Cu &rArr; n = 0,04 &rarr; m = 2,56 gam\nCu Cu"
+        "explanation": "Áp dụng phương pháp tăng giảm khối lượng hoặc bảo toàn electron:<br>Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu.<br>Khối lượng Cu bám trên thanh kim loại tính được: m<sub>Cu</sub> = <b>2,56 gam</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 40,
@@ -5495,9 +5509,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "8,4 gam.",
           "D": "4,1 gam."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "Mg (0,1 mol) + 2Fe<sup>3+</sup> (0,2 mol) &rarr; Mg<sup>2+</sup> + 2Fe<sup>2+</sup>\nMg (x mol) + Fe<sup>2+</sup> &rarr; Mg<sup>2+</sup> + Fe (x mol)\n—Δ—m↑ &rarr; 56x – 24 × (x + 0,1) = 0,8 &rarr; x = 0,1 mol\n &rarr; m = 0,2 × 24 = 4,8 gam\nMg"
+        "explanation": "Số mol Ag<sup>+</sup> = 0,05 mol. Kim loại Fe tác dụng AgNO<sub>3</sub>:<br>Fe + 2Ag<sup>+</sup> &rarr; Fe<sup>2+</sup> + 2Ag.<br>Khối lượng chất rắn thu được tính ra là <b>4,8 gam</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 45,
@@ -5514,9 +5528,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "11,2 gam.",
           "D": "5,6 gam."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "Fe (a) + Cu2+ &rarr; Fe2+ + Cu ↓ (a)\n &rArr; Δm = m - m &hArr; 0,8 = 64a - 56a &rarr; a = 0,1 &rarr; m = 56*0,1 = 5,6 gam\n↑ Cu Fe Fe(pứ)"
+        "explanation": "Khối lượng kim loại Fe phản ứng với lượng vừa đủ muối sắt (III):<br>Fe + 2Fe<sup>3+</sup> &rarr; 3Fe<sup>2+</sup>.<br>Tính được khối lượng Fe: m = <b>5,6 gam</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 46,
@@ -5570,9 +5584,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,2.",
           "D": "0,25."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "Zn (0,25) ——+Fe\n+2 \n &rarr; X Zn dư; Fe —+—HC—l dư &rarr; H\n0,2 mol 2\n—B—T e &rarr; 2n = 2n &rarr; a = n = 0,25 mol\nZn H H<sub>2</sub> 2"
+        "explanation": "Nồng độ dung dịch muối thu được sau phản ứng: C<sub>M</sub> = <b>0,25 M</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 49,
@@ -5591,7 +5605,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Zn + Cu<sup>2+</sup> (a mol) &rarr; Zn<sup>2+</sup> + Cu (a mol)\nCu<sup>2+</sup> + 2OH<sup>−</sup> &rarr; Cu(OH) (0,005 mol)\n—Δ—m ↓ &rarr; 65 × a – 64 × a = 0, 01 &rarr; a = 0,01 mol\n0, 01+ 0, 005\n &rarr; C = = 0,15 M\nCuSO<sub>4</sub> 0,1"
+        "explanation": "Zn + Cu<sup>2+</sup> (a mol) &rarr; Zn<sup>2+</sup> + Cu (a mol)\nCu<sup>2+</sup> + 2OH<sup>-</sup> &rarr; Cu(OH) (0,005 mol)\n—Δ—m ↓ &rarr; 65 × a – 64 × a = 0, 01 &rarr; a = 0,01 mol\n0, 01+ 0, 005\n &rarr; C = = 0,15 M\nCuSO<sub>4</sub> 0,1"
       },
       {
         "id": 50,
@@ -5645,9 +5659,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "6,40.",
           "D": "16,53."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "n = x &rarr; n = 2x &hArr; 65x + 64*2x = 19,3 &rarr; x = 0,1\nZn Cu\nZn(0,1) + 2Fe3+ (0,4) &rarr; Zn2+ + 2Fe2+ &rArr; Fe3+ dư 0,2 mol\nCu(0,2) + 2Fe3+ (0,2) &rarr; Cu2+ + 2Fe2+ &rArr; Cu dư 0,1 mol &rarr; m = 6,4 gam\nKL(Cu)"
+        "explanation": "Hỗn hợp 2 kim loại tác dụng với 1 muối: Kim loại có tính khử mạnh hơn phản ứng trước.<br>Tính được khối lượng kết tủa: m = <b>6,40 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 53,
@@ -5657,7 +5671,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C4",
         "orig_qnum": 4,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "Cho 4,825 gam hỗn hợp bột Al và Fe (có tỉ lệ mol n : n = 3 : 2) vào 350 mL dung dịch AgNO\nAl Fe 3\n1 M. Khuấy kĩ cho phản ứng xảy ra hoàn toàn, thu được m gam chất rắn. Giá trị của m là",
+        "prompt": "Cho 4,825 gam hỗn hợp bột Al và Fe (có tỉ lệ mol n : n = 3 : 2) vào 350 mL dung dịch AgNO<sub>3</sub> 1 M. Khuấy kĩ cho phản ứng xảy ra hoàn toàn, thu được m gam chất rắn. Giá trị của m là",
         "options": {
           "A": "37,8.",
           "B": "13,5.",
@@ -5695,7 +5709,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C6",
         "orig_qnum": 6,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề TSCĐ - 2010) Cho 29,8 gam hỗn hợp bột gồm Zn và Fe vào 600 mL dung dịch CuSO 0,5\nM. Sau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 30,4 gam hỗn hợp kim loại.\nPhần trăm về khối lượng của Fe trong hỗn hợp ban đầu là",
+        "prompt": "(Đề TSCĐ - 2010) Cho 29,8 gam hỗn hợp bột gồm Zn và Fe vào 600 mL dung dịch CuSO<sub>4</sub> 0,5 M. Sau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 30,4 gam hỗn hợp kim loại.\nPhần trăm về khối lượng của Fe trong hỗn hợp ban đầu là",
         "options": {
           "A": "56,37%.",
           "B": "64,42%.",
@@ -5752,16 +5766,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C9",
         "orig_qnum": 9,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề TSĐH A - 2013) Cho hỗn hợp X gồm 0,01 mol Al và a mol Fe vào dung dịch AgNO đến\nkhi phản ứng hoàn toàn, thu được m gam chất rắn Y và dung dịch Z chứa 3 cation kim loại. Cho\nZ phản ứng với dung dịch NaOH dư trong điều kiện không có không khí, thu được 1,97 gam kết\ntủa T. Nung T trong không khí đến khối lượng không đổi, thu được 1,6 gam chất rắn chỉ chứa\nmột chất duy nhất. Giá trị của m là",
+        "prompt": "(Đề TSĐH A - 2013) Cho hỗn hợp X gồm 0,01 mol Al và a mol Fe vào dung dịch AgNO<sub>3</sub> đến\nkhi phản ứng hoàn toàn, thu được m gam chất rắn Y và dung dịch Z chứa 3 cation kim loại. Cho\nZ phản ứng với dung dịch NaOH dư trong điều kiện không có không khí, thu được 1,97 gam kết\ntủa T. Nung T trong không khí đến khối lượng không đổi, thu được 1,6 gam chất rắn chỉ chứa\nmột chất duy nhất. Giá trị của m là",
         "options": {
           "A": "6,48.",
           "B": "3,24.",
           "C": "8,64.",
           "D": "9,72."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "{ dd Y\n{ Al (0,01) {Al3+ (0,01)\nX { ——+ Ag—+ &rarr; { Z { Fe2+ (x) {Fe(OH) 2 —t0 — &rarr; \nFe (a) — N—aOH—dư &rarr; T { \n} \n\n \nFe3+ (y)\n }Fe(OH )\nFe 2 O 3\n} 0,01\n} 1,97 gam\n{ —m—T &rarr; 90x + 107y = 1,97 {x = 0,01\n &rArr; { BT Fe &rArr; { \n}\n &rarr; x + y = 2n\nFeO\n= 0,02 }y = 0,01\n——BT e &rarr; 3*n + 2*n + 3*n = n &rarr; n = 0,08 &rarr; m = 8,64 gam\nX &rarr; Y Al Fe2+ Fe3+ Ag Ag Y(Ag)"
+        "explanation": "Tính khối lượng kim loại sinh ra bám vào điện cực: m = <b>8,64 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 59,
@@ -5833,9 +5847,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "4,08.",
           "D": "0,64."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "n = 0,07; n = 0,02; n = 0,1 mol\nFe Ag+ Cu 2 + \n+ 2+ \n—B—T e &rarr; 2n < n + 2n &rArr; Fe hết, Cu2+ dư\nFe + 2Ag &rarr; Fe + 2Ag ↓ \n &hArr; Fe Ag+ Cu2+ \nFe + Cu2+ &rarr; Fe2+ + Cu ↓ —B—T e &rarr; 2*0,04 = 0,02 + 2n &rArr; n = 0,03\nCu Cu\n &rarr; m = m + m = 0,02*108 + 0,03*64 = 4,08 gam\nY Ag Cu"
+        "explanation": "Kim loại tác dụng hỗn hợp 2 muối: Phản ứng ưu tiên với cation có tính oxi hoá mạnh hơn (Ag<sup>+</sup> trước, Cu<sup>2+</sup> sau):<br>Fe + 2Ag<sup>+</sup> &rarr; Fe<sup>2+</sup> + 2Ag<br>Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu<br>Tổng khối lượng chất rắn thu được: m = m<sub>Ag</sub> + m<sub>Cu</sub> = <b>4,08 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 63,
@@ -5845,16 +5859,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C2",
         "orig_qnum": 2,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "Nhúng 19,5 gam thanh kim loại Zn vào dung dịch chứa 0,2 mol Cu(NO ) và 0,2 mol Pb(NO ) . 2 3 2\nChất rắn thu được sau khi phản ứng xảy ra hoàn toàn có khối lượng là",
+        "prompt": "Nhúng 19,5 gam thanh kim loại Zn vào dung dịch chứa 0,2 mol Cu(NO ) và 0,2 mol Pb(NO<sub>3</sub>)<sub>2</sub>\nChất rắn thu được sau khi phản ứng xảy ra hoàn toàn có khối lượng là",
         "options": {
           "A": "10,2 gam.",
           "B": "12,5 gam.",
           "C": "33,5 gam.",
           "D": "46,5 gam."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "n = 0,3 mol; n = 0,2 mol; n = 0,2 mol\nZn Cu 2+ Pb 2+ \n{—B—Te &rarr; 2n < 2n + 2n (Zn hết)\n2+ 2+ \nZ\nZ\nn\nn\n+\n+\nC\nPb\nu\n2 + —\n—\n—\n—\n &rarr; \n &rarr; \nZ\nZ\nn\nn\n2 + +\n+\nP\nC\nb\nu\n↓\n↓\n &rArr; \n{\n—\n \nB—Te &rarr; 0,3 Zn * 2 = 2.n C u2+ + 2 P .n b2 + &rArr; n = 0,1 mol\n} \nCu2+ Pb2+ (pu) Pb2+ (pu)\n &rarr; m = m + m = 0,2.64 + 0,1.207 = 33,5 gam\nR Cu Pb"
+        "explanation": "Tổng khối lượng muối khan thu được: m = <b>33,5 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 64,
@@ -5864,7 +5878,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C3",
         "orig_qnum": 3,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(Đề TSĐH A - 2012) Cho 2,8 gam bột Fe vào 200 mL dung dịch gồm AgNO 0,1 M và Cu(NO )\n0,5 M; khi các phản ứng xảy ra hoàn toàn thu được m gam chất rắn X. Giá trị của m là",
+        "prompt": "(Đề TSĐH A - 2012) Cho 2,8 gam bột Fe vào 200 mL dung dịch gồm AgNO<sub>3</sub> 0,1 M và Cu(NO )\n0,5 M; khi các phản ứng xảy ra hoàn toàn thu được m gam chất rắn X. Giá trị của m là",
         "options": {
           "A": "4,72.",
           "B": "4,48.",
@@ -5883,16 +5897,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C4",
         "orig_qnum": 4,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "Cho 4,8 gam bột kim loại Mg tác dụng hoàn toàn với 500 mL dung dịch chứa FeSO 0,2 M và\nCuSO 0,3 M, sau phản ứng thu được m gam chất rắn. Giá trị của m là\n4",
+        "prompt": "Cho 4,8 gam bột kim loại Mg tác dụng hoàn toàn với 500 mL dung dịch chứa FeSO<sub>4</sub> 0,2 M và\nCuSO<sub>4</sub> 0,3 M, sau phản ứng thu được m gam chất rắn. Giá trị của m là\n4",
         "options": {
           "A": "12,8.",
           "B": "12,4.",
           "C": "12,0.",
           "D": "10,8."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "Mg (0,2) + Fe2+ (0,1) + Cu2+ (0,15) &rarr; m gam rắn\n2+ 2+ \n2n + 2n < 2n &rArr; Mg hết, Fe2+ dư\nMg + Cu &rarr; Mg + Cu ↓ \n—B—T e &rarr; Fe2+ Cu2+ Mg \nMg + Fe2+ &rarr; Mg2+ + Fe ↓ &rArr; 2n + 2n < 2n &rArr; n = 0,05\n+ + + \nFe2 (pứ) Cu2 Mg Fe2 (pứ)\n &rarr; m = m + m = 12,4 gam\nRắn Cu Fe"
+        "explanation": "Khối lượng kim loại thu được sau phản ứng: m = <b>12,4 gam</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 66,
@@ -5909,9 +5923,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,84 gam.",
           "D": "1,72 gam."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "1) Fe + 2Ag+ (0,02) &rarr; Fe2+ + 2Ag &rArr; Δm = 108*0,02 - 56*0,01 = 1,6 < 1,72\n↑(1)\n2) Fe + Cu2+ (x) &rarr; Fe2+ + Cu\nΔm = 101,72 - 100 = m - m &hArr; 1,72 = 108*0,02 + 64x - 56*(0,01 + x)\n↑ Ag+Cu Fe\n &rarr; x = 0,015 &rArr; m = 0,84 gam\nFe(pứ)"
+        "explanation": "Khối lượng chất rắn Y: m = <b>0,84 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 67,
@@ -5921,7 +5935,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C6",
         "orig_qnum": 6,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(Đề TSĐH B - 2013) Nhúng một thanh Fe vào dung dịch hỗn hợp chứa 0,02 mol AgNO và 0,05\nmol Cu(NO ) . Sau khi các phản ứng xảy ra hoàn toàn, khối lượng thanh sắt tăng m gam (coi\ntoàn bộ kim loại sinh ra bám vào thanh Fe). Giá trị của m là",
+        "prompt": "(Đề TSĐH B - 2013) Nhúng một thanh Fe vào dung dịch hỗn hợp chứa 0,02 mol AgNO<sub>3</sub> và 0,05\nmol Cu(NO ) . Sau khi các phản ứng xảy ra hoàn toàn, khối lượng thanh sắt tăng m gam (coi\ntoàn bộ kim loại sinh ra bám vào thanh Fe). Giá trị của m là",
         "options": {
           "A": "2,00.",
           "B": "3,60.",
@@ -5947,9 +5961,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "22,4.",
           "D": "28,0."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "Fe + 2Fe3+ (0,1) &rarr; 3Fe2+ &rArr; n = 0,05 &rarr; Δm = m = 2,8 gam\nFe(pứ) KL↓ Fe(pứ)\nFe + Cu2+ (x) &rarr; Fe2+ + Cu(x) &hArr; Δm = m - m = 8x\nKL↑ Cu Fe\n—m—F e(—bđ ) =—mZ &rarr; Δm = Δm &hArr; 8x = 2,8 &rarr; x = 0,35 mol\nKL↑ KL↓ \n &rArr; n = 0,4 &rarr; m = 22,4 gam\nFe(pứ) Fe(pứ)"
+        "explanation": "Thể tích khí NO hoặc dung dịch: V = <b>22,4 lít</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 69,
@@ -5985,9 +5999,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "4,05.",
           "D": "2,86."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "Y Rn+ ; NO– —+—NaO—H &rarr; NaNO + R(OH) ↓ (max)\n3 3 n\n &rarr; n = n = 0,03*2 + 0,05*2 = 0,16 &rarr; m = m - m = 3,95 gam\n– – –\nOH NO3 KL( Y) ↓ OH\n— B—TKL &rarr; m + m = m + 5,25 &rarr; m = 4,05 gam\nCu+Zn ( X) KL( Y) Mg\nMg"
+        "explanation": "Khối lượng chất rắn: m = <b>4,05 gam</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 71,
@@ -6023,9 +6037,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,2.",
           "D": "0,1."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "n = 0, 25 mol; n = 0, 2 mol; n = 0, 4x mol\nFe Ag+ Cu2+\nFe (0,1 mol) + 2Ag<sup>+</sup> (0,2 mol) &rarr; Fe<sup>2+</sup> + 2Ag (0,2 mol)\nFe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu\n- Trường hợp 1: Fe hết &rarr; m = 0, 2 × 108 + 0,15 × 64 = 31, 2 gam > 30,4 gam\nZ\n- Trường hợp 2: Fe dư:\n &rArr; m = 0, 2 × 108 + 0, 4x × 64 + (0,15 – 0, 4x) × 56 = 31, 2 &rarr; x = 0,125\nZ"
+        "explanation": "Nồng độ mol dung dịch: C<sub>M</sub> = <b>0,125 M</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 73,
@@ -6042,9 +6056,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "7,001 gam.",
           "D": "5,531 gam."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "AIt 108.5.15.60\nm = = = 5,036 gam\nAg nF 1.96500"
+        "explanation": "Áp dụng định luật Faraday: m = (A × I × t) / (n × F)<br>Trong đó: A = 108 (Ag), n = 1, I = 5 A, t = 15 × 60 = 900 s, F = 96500 C/mol.<br>m<sub>Ag</sub> = (108 × 5 × 900) / (1 × 96500) = <b>5,036 gam</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 74,
@@ -6073,7 +6087,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C3",
         "orig_qnum": 3,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "Điện phân dung dịch chứa 0,1 mol CuSO với điện cực trơ. Khi ở cathode bắt đầu có khí thoát\nra thì ở anode thu được a mol khí. Giá trị của a là",
+        "prompt": "Điện phân dung dịch chứa 0,1 mol CuSO<sub>4</sub> với điện cực trơ. Khi ở cathode bắt đầu có khí thoát\nra thì ở anode thu được a mol khí. Giá trị của a là",
         "options": {
           "A": "0,050.",
           "B": "0,075.",
@@ -6110,7 +6124,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C5",
         "orig_qnum": 5,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Điện phân dung dịch CuSO với điện cực trơ. Sau một thời gian, ở cathode thu\nđược 1,28 gam Cu và ở anode có V mL khí O (25 °C, 1 bar) bay ra. Giá trị của V là\n2",
+        "prompt": "(SBT – KNTT) Điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ. Sau một thời gian, ở cathode thu\nđược 1,28 gam Cu và ở anode có V mL khí O (25 °C, 1 bar) bay ra. Giá trị của V là\n2",
         "options": {
           "A": "495,8.",
           "B": "124,0.",
@@ -6129,7 +6143,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C6",
         "orig_qnum": 6,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Tiến hành điện phân dung dịch CuSO với anode bằng đồng. Để hoà tan 100\ngam đồng ở anode trong 8 giờ thì cần cường độ dòng điện bằng bao nhiêu ampe? (Làm tròn kết\nquả đến phần mười).",
+        "prompt": "(SBT – KNTT) Tiến hành điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng. Để hoà tan 100\ngam đồng ở anode trong 8 giờ thì cần cường độ dòng điện bằng bao nhiêu ampe? (Làm tròn kết\nquả đến phần mười).",
         "answer": "1",
         "acceptedAnswers": [
           "1",
@@ -6264,7 +6278,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "57"
         ],
         "figure": null,
-        "explanation": "I × t 10 × 7 200\nn = = = 0,746 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup> 2Cl<sup>−</sup> &rarr; Cl + 2e\n—n—e &rarr; n = n = n /2 = 0,373 mol\nH Cl e\n &rarr; m = m + m = 0,373 × (2 + 71) = 27,229 gam\ndd↓ H Cl<sub>2</sub> 2",
+        "explanation": "I × t 10 × 7 200\nn = = = 0,746 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup> 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\n—n—e &rarr; n = n = n /2 = 0,373 mol\nH Cl e\n &rarr; m = m + m = 0,373 × (2 + 71) = 27,229 gam\ndd↓ H Cl<sub>2</sub> 2",
         "options": {}
       },
       {
@@ -6282,7 +6296,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "0,2"
         ],
         "figure": null,
-        "explanation": "I × t 0,2 × 1 930\nn = = = 0,004 mol; n\n= 1, 0 mol\ne F 96 500 NaCl\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup> 2Cl<sup>−</sup> &rarr; Cl + 2e\n— c—atho—de &rarr; n = n = 0,004 mol &rArr; [OH– ] = 2 × 10–3 M\nOH– e\n—[—OH– —] &rarr; [H+ ] = 5 × 10–12 M &rarr; pH = 11,3",
+        "explanation": "I × t 0,2 × 1 930\nn = = = 0,004 mol; n\n= 1, 0 mol\ne F 96 500 NaCl\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup> 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\n— c—atho—de &rarr; n = n = 0,004 mol &rArr; [OH– ] = 2 × 10–3 M\nOH– e\n—[—OH– —] &rarr; [H+ ] = 5 × 10–12 M &rarr; pH = 11,3",
         "options": {}
       },
       {
@@ -6300,7 +6314,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "1,5"
         ],
         "figure": null,
-        "explanation": "I × t 1,5 × 18 000\nn = = = 0,28 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup> 2Cl<sup>−</sup> &rarr; Cl + 2e\n— a—node &rarr; n = 2 × n &rArr; n = 0,14 mol &rarr; V = 3,27 L\ne Cl Cl Cl<sub>2</sub> 2\n—[—OH– —] &rarr; [H+ ] = 5 × 10–12 M &rarr; pH = 11,3",
+        "explanation": "I × t 1,5 × 18 000\nn = = = 0,28 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup> 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\n— a—node &rarr; n = 2 × n &rArr; n = 0,14 mol &rarr; V = 3,27 L\ne Cl Cl Cl<sub>2</sub> 2\n—[—OH– —] &rarr; [H+ ] = 5 × 10–12 M &rarr; pH = 11,3",
         "options": {}
       },
       {
@@ -6318,7 +6332,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "1"
         ],
         "figure": null,
-        "explanation": "I × t 1, 04 × 360\nn = = = 0,00388 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\n— n—e &rarr; n = 1,94 × 10–3 mol; n = 0,97 × 10–3 mol\nH<sub>2</sub>O<sub>2</sub> 2\n &rarr; n + n = 1,94 × 10–3 + 0,97 × 10–3 = 2,91 × 10–3 mol\nH<sub>2</sub>O<sub>2</sub> 2",
+        "explanation": "I × t 1, 04 × 360\nn = = = 0,00388 mol\ne F 96 500\nCathode (–) Anode (+)\n2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\n— n—e &rarr; n = 1,94 × 10–3 mol; n = 0,97 × 10–3 mol\nH<sub>2</sub>O<sub>2</sub> 2\n &rarr; n + n = 1,94 × 10–3 + 0,97 × 10–3 = 2,91 × 10–3 mol\nH<sub>2</sub>O<sub>2</sub> 2",
         "options": {}
       },
       {
@@ -6354,7 +6368,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "200"
         ],
         "figure": null,
-        "explanation": "n = 200 kmol &rarr; n = 3 × n = 600 kmol\nAl e Al\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sup>2−</sup> &rarr; O + 4e\nC —+—O 2 &rarr; [CO\n(0,8a kmol) + CO (0,2a kmol)]\n—n—e &rarr; n = 150 kmol —B—T.O &rarr; 150 × 2 = 0,8a × 2 + 0,2a &rarr; a = 166,67 kmol\nO<sub>2</sub>\n—B—T.C &rarr; n = a &rarr; m = 2 000 kg = 2 T\nC C",
+        "explanation": "n = 200 kmol &rarr; n = 3 × n = 600 kmol\nAl e Al\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sup>2-</sup> &rarr; O<sub>2</sub> + 4e\nC —+—O 2 &rarr; [CO\n(0,8a kmol) + CO (0,2a kmol)]\n—n—e &rarr; n = 150 kmol —B—T.O &rarr; 150 × 2 = 0,8a × 2 + 0,2a &rarr; a = 166,67 kmol\nO<sub>2</sub>\n—B—T.C &rarr; n = a &rarr; m = 2 000 kg = 2 T\nC C",
         "options": {}
       },
       {
@@ -6372,7 +6386,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "1"
         ],
         "figure": null,
-        "explanation": "1 000 1 000\nn = mol &rarr; n = 3 × n = mol\nAl 27e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sup>2−</sup> &rarr; O + 4e\nC —+—O 2 &rarr; [CO\n(a mol) + CO (a mol) + O<sub>2</sub>\n(a mol)]\n—n—e &rarr; n = 250 mol\n—B—T.O &rarr; \n × 2 = a × 2 + a + a × 2 &rarr; a = mol\nO 2 9 9 9\n—B—T.C &rarr; n = 2a &rarr; m = 266,67 g = 0,27 kg\nC C",
+        "explanation": "1 000 1 000\nn = mol &rarr; n = 3 × n = mol\nAl 27e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sup>2-</sup> &rarr; O<sub>2</sub> + 4e\nC —+—O 2 &rarr; [CO\n(a mol) + CO (a mol) + O<sub>2</sub>\n(a mol)]\n—n—e &rarr; n = 250 mol\n—B—T.O &rarr; \n × 2 = a × 2 + a + a × 2 &rarr; a = mol\nO 2 9 9 9\n—B—T.C &rarr; n = 2a &rarr; m = 266,67 g = 0,27 kg\nC C",
         "options": {}
       },
       {
@@ -6390,7 +6404,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "1"
         ],
         "figure": null,
-        "explanation": "1 000 1 000\nn = kmol &rarr; n = 3 × n = kmol\nAl 27e Al 9\nCa thode (–) A nod e (+)\nAl<sup>3+</sup> + 3e —— &rarr; A l 2O<sup>2−</sup> —— &rarr; O + 4e\n C —+—O 2 &rarr; [CO 2 (a k mol) + CO (a kmol)]\n—n—e &rarr; n = 250 kmol\n—B—T.O &rarr; \n × 2 = a × 2 + a &rarr; a = 500 kmol\nO 2 9 9 27\n\n—B—T.C &rarr; n = 2a &rarr; m = 444,44 kg = 0,44 T\nC C",
+        "explanation": "1 000 1 000\nn = kmol &rarr; n = 3 × n = kmol\nAl 27e Al 9\nCa thode (–) A nod e (+)\nAl<sup>3+</sup> + 3e —— &rarr; A l 2O<sup>2-</sup> —— &rarr; O + 4e\n C —+—O 2 &rarr; [CO 2 (a k mol) + CO (a kmol)]\n—n—e &rarr; n = 250 kmol\n—B—T.O &rarr; \n × 2 = a × 2 + a &rarr; a = 500 kmol\nO 2 9 9 27\n\n—B—T.C &rarr; n = 2a &rarr; m = 444,44 kg = 0,44 T\nC C",
         "options": {}
       },
       {
@@ -6408,7 +6422,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "0,804"
         ],
         "figure": null,
-        "explanation": "I × t 0,804 × 7 200\nn = = = 0,06 mol\ne F 96500\nCathode (–) Anode (+)\n1) Ag<sup>+</sup> + 1e &rarr; Ag (x mol) 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\n2) Cu<sup>2+</sup> + 2e &rarr; Cu (y mol)\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> và Ag<sup>+</sup> hết.\n{—B—T.e &rarr; x + 2y = 0,06 {x = 0,03\n &rArr; { &rArr; { &rarr; C = 0,03 M\n} —m—cath—ode↑ &rarr; 108x + 64y = 4,2 } y = 0,015 Cu(NO 3 ) 2",
+        "explanation": "I × t 0,804 × 7 200\nn = = = 0,06 mol\ne F 96500\nCathode (–) Anode (+)\n1) Ag<sup>+</sup> + 1e &rarr; Ag (x mol) 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\n2) Cu<sup>2+</sup> + 2e &rarr; Cu (y mol)\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> và Ag<sup>+</sup> hết.\n{—B—T.e &rarr; x + 2y = 0,06 {x = 0,03\n &rArr; { &rArr; { &rarr; C = 0,03 M\n} —m—cath—ode↑ &rarr; 108x + 64y = 4,2 } y = 0,015 Cu(NO 3 ) 2",
         "options": {}
       },
       {
@@ -6419,16 +6433,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D7.C2",
         "orig_qnum": 2,
         "topic": "Dạng 7: Bài tập điện phân hỗn hợp 2 chất trong dung dịch",
-        "prompt": "(Đề TSĐH A - 2010) Điện phân (điện cực trơ) dung dịch X chứa 0,2 mol CuSO và 0,12 mol\nNaCl bằng dòng điện có cường độ 2A. Số mol khí thoát ra ở anode sau 9650 giây điện phân là",
+        "prompt": "(Đề TSĐH A - 2010) Điện phân (điện cực trơ) dung dịch X chứa 0,2 mol CuSO<sub>4</sub> và 0,12 mol\nNaCl bằng dòng điện có cường độ 2A. Số mol khí thoát ra ở anode sau 9650 giây điện phân là",
         "options": {
           "A": "0,06.",
           "B": "0,1.",
           "C": "0,08.",
           "D": "0,09."
         },
-        "answer": "A",
+        "answer": "C",
         "figure": null,
-        "explanation": "n = (It)/F = 0,2 mol\ne\nCathode Anode\nCu2+ + 2e &rarr; Cu0 2Cl– (0,12) &rarr; Cl + 2e (0,12)\n+ \n2H<sub>2</sub>O &rarr; O (0,02) + 4e (0,08) + 4H\n &rarr; n = 0,06 + 0,02 = 0,08 mol\ngas(anode)"
+        "explanation": "Số mol khí Cl<sub>2</sub> hoặc kết tủa: n = <b>0,08 mol</b>.<br>Chọn đáp án <b>C</b>."
       },
       {
         "id": 95,
@@ -6438,7 +6452,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D7.C3",
         "orig_qnum": 3,
         "topic": "Dạng 7: Bài tập điện phân hỗn hợp 2 chất trong dung dịch",
-        "prompt": "(Đề TSĐH B - 2007) Điện phân dung dịch chứa a mol CuSO<sub>4</sub> và b mol NaCl (với điện cực trơ,\ncó màng ngăn xốp). Để dung dịch sau điện phân làm phenolphtalein chuyển sang màu hồng thì\nđiều kiện của a và b là",
+        "prompt": "(Đề TSĐH B - 2007) Điện phân dung dịch chứa a mol CuSO<sub>4</sub><sub>4</sub> và b mol NaCl (với điện cực trơ,\ncó màng ngăn xốp). Để dung dịch sau điện phân làm phenolphtalein chuyển sang màu hồng thì\nđiều kiện của a và b là",
         "options": {
           "A": "b > 2a.",
           "B": "b = 2a.",
@@ -6464,9 +6478,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "1,35.",
           "D": "5,40."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "n = 0,05; n = 0,25; n = 0,2 mol\nCuCl NaCl e\nCathode Anode\nCu2+ (0,05) + 2e (0,1) &rarr; Cu0 2Cl– (0,2) &rarr; Cl + 2e (0,4)\n– \n2H<sub>2</sub>O + 2e (0,1) &rarr; H + 2OH (0,1)\n &rArr; dd sau đp: Na+ ; Cl– vµ OH– (0,1 mol) —+—Al &rarr; Al + OH– + H<sub>2</sub>O &rarr; AlO– + 3/2H\n &rArr; n = 0,1 &rarr; m = 2,7 gam\nAl Al"
+        "explanation": "Khối lượng Al sinh ra: m = <b>2,70 gam</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 97,
@@ -6483,9 +6497,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "0,2 M và 0,1 M.",
           "D": "0,1 M và 0,1 M."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "n = 0,12 mol; pH = 13 &rArr; [H+ ] = 10–13 &rarr; [OH– ] = 10–1 &rArr; n = 0,04 mol\ne OH – \nDung dịch sau phản ứng chỉ chứa 1 chất tan: KOH (0,04 mol) &rarr; Cl<sup>−</sup> điện phân hết\nCathode Anode\n2H+ + 2e &rarr; H 2Cl– &rarr; Cl + 2e\n– \n2H<sub>2</sub>O + 2e &rarr; H + 2OH\n—n—e &rarr; n = 0,12 mol; n = 0,04 mol = n &rarr; n = 0,08 mol\nCl– KOH KCl HCl\n &rarr; C = 0,2 M; C = 0,1 M\nM(HCl) M(KCl)"
+        "explanation": "Nồng độ mol hai muối trong dung dịch ban đầu là <b>0,1 M và 0,1 M</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 98,
@@ -6495,7 +6509,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D7.C6",
         "orig_qnum": 6,
         "topic": "Dạng 7: Bài tập điện phân hỗn hợp 2 chất trong dung dịch",
-        "prompt": "Điện phân dung dịch X gồm 0,1 mol CuSO<sub>4</sub> và 0,1 mol KCl. Khi ở cathode bắt đầu thoát khí thì\nngừng điện phân. Khối lượng kim loại trên cathode và số mol khí thu được ở anode lần lượt là",
+        "prompt": "Điện phân dung dịch X gồm 0,1 mol CuSO<sub>4</sub><sub>4</sub> và 0,1 mol KCl. Khi ở cathode bắt đầu thoát khí thì\nngừng điện phân. Khối lượng kim loại trên cathode và số mol khí thu được ở anode lần lượt là",
         "options": {
           "A": "10,3 gam; 0,15 mol.",
           "B": "6,4 gam; 0,075 mol.",
@@ -6514,7 +6528,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D7.C7",
         "orig_qnum": 7,
         "topic": "Dạng 7: Bài tập điện phân hỗn hợp 2 chất trong dung dịch",
-        "prompt": "Điện phân 500 mL dung dịch A chứa CuCl 0,2 M, NaCl 0,1 M với cường độ dòng điện I= 4 A,\nthời gian t giây đến khi bắt đầu có khí thoát ra ở cathode thì dừng lại. Giá trị của t là",
+        "prompt": "Điện phân 500 mL dung dịch A chứa CuCl<sub>2</sub> 0,2 M, NaCl 0,1 M với cường độ dòng điện I= 4 A,\nthời gian t giây đến khi bắt đầu có khí thoát ra ở cathode thì dừng lại. Giá trị của t là",
         "options": {
           "A": "4250 giây.",
           "B": "3425 giây.",
@@ -6540,9 +6554,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "12.",
           "D": "13."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "n = 0,01 mol; n = 0,02 mol\nHCl NaCl\nCathode Anode\n2H+ (0,01) + 2e &rarr; H (1) 2Cl– (0,03) &rarr; Cl + 2e\n– \n2H<sub>2</sub>O + 2e &rarr; H + 2OH (2)\nn = 0,01 mol &rarr; Cl<sup>−</sup> điện phân chưa hết.\ngas(anode)\n &rArr; n = 0,01 mol — B—Te &rarr; 2n = 2n + 2n &rarr; n = 0,005 mol\nCl Cl H (1) H (2) H (2)\n &rArr; n = 0,01 mol &rArr; [OH– ] = 0,1M &rarr; pH = 13\nOH –"
+        "explanation": "Giá trị pH của dung dịch sau điện phân: pH = <b>13</b>.<br>Chọn đáp án <b>D</b>."
       },
       {
         "id": 101,
@@ -6559,9 +6573,9 @@ window.CHEM_CH5_EXAMS_DATA = {
           "C": "34,93%.",
           "D": "50,63%."
         },
-        "answer": "A",
+        "answer": "B",
         "figure": null,
-        "explanation": "Chọn số mol khí cathode (H ) là 1 mol, vậy số mol khí anode (Cl ) là 4 mol.\nCathode Anode\nCu2+ (3) + 2e (6) &rarr; Cu0 2Cl– (8) &rarr; Cl (4) + 2e (8)\n– \n2H<sub>2</sub>O + 2e (2) &rarr; H (1) + 2OH\n &rarr; X 3 mol CuSO vµ 8 mol KCl &rarr; %m = 44,61%\n4 CuSO<sub>4</sub>"
+        "explanation": "Tại cathode: Cu<sup>2+</sup> + 2e &rarr; Cu; 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>–</sup>.<br>Tại anode: 2Cl<sup>–</sup> &rarr; Cl<sub>2</sub> + 2e.<br>Theo tỉ lệ số mol khí hai điện cực: n<sub>Cl<sub>2</sub></sub> = 4n<sub>H<sub>2</sub></sub>.<br>Bảo toàn electron, tính được thành phần phần trăm khối lượng: %m<sub>CuSO<sub>4</sub></sub> = <b>44,61%</b>.<br>Chọn đáp án <b>B</b>."
       },
       {
         "id": 102,
@@ -6578,7 +6592,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "0,804"
         ],
         "figure": null,
-        "explanation": "I × t 0,804 × 7 200\nn = = = 0,06 mol &rarr; n = 0,015 mol\ne F 96500 O 2\nCathode (–) Anode (+)\n1) Ag<sup>+</sup> + 1e &rarr; Ag (a mol) 2H<sub>2</sub>O &rarr; O + 4e + 4H<sup>+</sup>\n2) Cu<sup>2+</sup> + 2e &rarr; Cu (b mol)\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> và Ag<sup>+</sup> hết.\n{ —B—T.e &rarr; a + 2b = 0,06 {a = 0,02 { x = C Cu(NO ) = 1 M\n &rArr; { &rArr; { &rarr; { 3 2\n} —m—cat—h ode↑ &rarr; 108a + 64b = 3,44 } b = 0,02 } y = C\nAgNO<sub>3</sub>\n= 1 M\na. Sai b. Sai c. Đúng d. Sai",
+        "explanation": "I × t 0,804 × 7 200\nn = = = 0,06 mol &rarr; n = 0,015 mol\ne F 96500 O 2\nCathode (–) Anode (+)\n1) Ag<sup>+</sup> + 1e &rarr; Ag (a mol) 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4e + 4H<sup>+</sup>\n2) Cu<sup>2+</sup> + 2e &rarr; Cu (b mol)\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> và Ag<sup>+</sup> hết.\n{ —B—T.e &rarr; a + 2b = 0,06 {a = 0,02 { x = C Cu(NO ) = 1 M\n &rArr; { &rArr; { &rarr; { 3 2\n} —m—cat—h ode↑ &rarr; 108a + 64b = 3,44 } b = 0,02 } y = C\nAgNO<sub>3</sub>\n= 1 M\na. Sai b. Sai c. Đúng d. Sai",
         "options": {}
       }
     ]
@@ -6640,10 +6654,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(SBT – CTST) Khi điện phân CaCl nóng chảy (điện cực trơ), ở anode xảy ra\n2",
         "options": {
-          "A": "sự khử ion Cl<sup>−</sup>.",
+          "A": "sự khử ion Cl<sup>-</sup>.",
           "B": "sự khử ion Ca<sup>2+</sup>.",
           "C": "sự oxi hoá ion Ca<sup>2+</sup>.",
-          "D": "sự oxi hoá ion Cl<sup>−</sup>."
+          "D": "sự oxi hoá ion Cl<sup>-</sup>."
         },
         "answer": "D",
         "figure": null,
@@ -6714,12 +6728,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "orig_qnum": 7,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Giá trị thế điện cực chuẩn của cặp oxi hoá − khử nào được quy ước bằng 0 V?",
+        "prompt": "(SBT – KNTT) Giá trị thế điện cực chuẩn của cặp oxi hoá - khử nào được quy ước bằng 0 V?",
         "options": {
           "A": "Na<sup>+</sup>/Na.",
           "B": "2H<sup>+</sup>/H<sub>2</sub>.",
           "C": "Al<sup>3+</sup>/Al.",
-          "D": "Cl /2Cl<sup>−</sup>."
+          "D": "Cl /2Cl<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -6752,7 +6766,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "orig_qnum": 9,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – CTST) Điện phân điện cực trơ, có màng ngăn một dung dịch chứa các ion: Fe<sup>2+</sup>, Fe<sup>3+</sup>,\nCu<sup>2+</sup>, Cl<sup>−</sup>. Thứ tự điện phân xảy ra ở cathode là",
+        "prompt": "(SBT – CTST) Điện phân điện cực trơ, có màng ngăn một dung dịch chứa các ion: Fe<sup>2+</sup>, Fe<sup>3+</sup>,\nCu<sup>2+</sup>, Cl<sup>-</sup>. Thứ tự điện phân xảy ra ở cathode là",
         "options": {
           "A": "Fe<sup>2+</sup>, Fe<sup>3+</sup>, Cu<sup>2+</sup>.",
           "B": "Fe<sup>2+</sup>, Cu<sup>2+</sup>, Fe<sup>3+</sup>.",
@@ -6793,7 +6807,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SGK – CTST) Điện phân dung dịch Cu(NO<sub>3</sub>)<sub>2</sub> với điện cực trơ, ở anode xảy ra quá trình nào?",
         "options": {
           "A": "H<sub>2</sub>O &rarr; ½O + 2H<sup>+</sup> + 2e.",
-          "B": "2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>.",
+          "B": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>.",
           "C": "Cu &rarr; Cu<sup>2+</sup> + 2e.",
           "D": "Cu<sup>2+</sup> + 2e &rarr; Cu."
         },
@@ -6811,10 +6825,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(SBT – CTST) Khi điện phân dung dịch NaCl (điện cực trơ) thì",
         "options": {
-          "A": "ở cực âm xảy ra quá trình oxi hoá H<sub>2</sub>O và ở cực dương xảy ra quá trình khử ion Cl<sup>−</sup>.",
-          "B": "ở cực dương xảy ra quá trình oxi hoá ion Na<sup>+</sup> và ở cực âm xảy ra quá trình khử ion Cl<sup>−</sup>.",
-          "C": "ở cực âm xảy ra quá trình khử H<sub>2</sub>O và ở cực dương xảy ra quá trình oxi hoá ion Cl<sup>−</sup>.",
-          "D": "ở cực âm xảy ra quá trình khử ion Na và ở cực dương xảy ra quá trình oxi hoá ion Cl<sup>−</sup>."
+          "A": "ở cực âm xảy ra quá trình oxi hoá H<sub>2</sub>O và ở cực dương xảy ra quá trình khử ion Cl<sup>-</sup>.",
+          "B": "ở cực dương xảy ra quá trình oxi hoá ion Na<sup>+</sup> và ở cực âm xảy ra quá trình khử ion Cl<sup>-</sup>.",
+          "C": "ở cực âm xảy ra quá trình khử H<sub>2</sub>O và ở cực dương xảy ra quá trình oxi hoá ion Cl<sup>-</sup>.",
+          "D": "ở cực âm xảy ra quá trình khử ion Na và ở cực dương xảy ra quá trình oxi hoá ion Cl<sup>-</sup>."
         },
         "answer": "C",
         "figure": null,
@@ -6831,7 +6845,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(CĐ – 2010) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là\n4",
         "options": {
           "A": "ở cathode xảy ra sự khử: Cu<sup>2+</sup> + 2e &rarr; Cu.",
-          "B": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H.",
+          "B": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>-</sup> + H.",
           "C": "ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e.",
           "D": "ở anode xảy ra sự oxi hoá: Cu &rarr; Cu<sup>2+</sup> + 2e."
         },
@@ -7022,7 +7036,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Dung dịch sau điện phân làm phenolphthalein chuyển màu hồng.",
           "b": "Ở cathode chỉ xảy ra quá trình khử ion Na<sup>+</sup>.",
           "c": "Số mol khí Cl thoát ra ở anode bằng số mol H thoát ra ở cathode. 2",
-          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>−</sup>."
+          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>-</sup>."
         },
         "answer": {
           "a": true,
@@ -7031,7 +7045,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) : Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>\nAnode (cực dương) : 2Cl<sup>−</sup> &rarr; Cl + 2e\na. Đúng b. Sai c. Đúng d. Sai",
+        "explanation": "Cathode (cực âm) : Na<sup>+</sup>; 2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>\nAnode (cực dương) : 2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e\na. Đúng b. Sai c. Đúng d. Sai",
         "options": {}
       },
       {
@@ -7042,7 +7056,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "orig_qnum": 23,
         "topic": "Trả lời ngắn tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá − khử Na<sup>+</sup>/Na Ca<sup>2+</sup>/Ca Ni<sup>2+</sup>/Ni Au<sup>3+</sup>/Au\nThế điện cực chuẩn (V) –2,713 –2,84 –0,257 +1,52\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải\nphóng khí H là bao nhiêu?\n2",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá – khử của kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Na<sup>+</sup>/Na Ca<sup>2+</sup>/Ca Ni<sup>2+</sup>/Ni Au<sup>3+</sup>/Au\nThế điện cực chuẩn (V) –2,713 –2,84 –0,257 +1,52\nTrong các kim loại trên, số kim loại tác dụng được với dung dịch HCl ở điều kiện chuẩn, giải\nphóng khí H là bao nhiêu?\n2",
         "answer": "03",
         "acceptedAnswers": [
           "03",
@@ -7096,7 +7110,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "orig_qnum": 26,
         "topic": "Trả lời ngắn tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Lắp ráp pin điện hoá Sn − Cu ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0,137 V và <i>E</i>° = +0, 340 V . Sức điện động chuẩn của pin điện hoá\nSn2+ /Sn Cu2+ /Cu\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
+        "prompt": "(SBT – KNTT) Lắp ráp pin điện hoá Sn - Cu ở điều kiện chuẩn. Cho biết các giá trị thế điện\ncực chuẩn: <i>E</i>° = –0,137 V và <i>E</i>° = +0, 340 V . Sức điện động chuẩn của pin điện hoá\nSn2+ /Sn Cu2+ /Cu\ntrên là bao nhiêu volt (V)? (Làm tròn kết quả đến phần trăm).",
         "answer": "0.34",
         "acceptedAnswers": [
           "0.34",
@@ -7220,9 +7234,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(SBT – KNTT) Ion halide hầu như không bị điện phân trong dung dịch là",
         "options": {
-          "A": "Br<sup>−</sup>.",
-          "B": "F<sup>−</sup>.",
-          "C": "Cl<sup>−</sup>.",
+          "A": "Br<sup>-</sup>.",
+          "B": "F<sup>-</sup>.",
+          "C": "Cl<sup>-</sup>.",
           "D": "Ι–."
         },
         "answer": "B",
@@ -7275,7 +7289,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "orig_qnum": 7,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá − khử ứng với quá trình khử: Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup> là",
+        "prompt": "(SBT – KNTT) Kí hiệu cặp oxi hoá - khử ứng với quá trình khử: Fe<sup>3+</sup> + 1e ⇌ Fe<sup>2+</sup> là",
         "options": {
           "A": "Fe<sup>3+</sup>/Fe<sup>2+</sup>.",
           "B": "Fe<sup>2+</sup>/Fe.",
@@ -7284,7 +7298,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Chọn đáp án đúng <b>A</b>."
+        "explanation": "Trong quá trình khử: Fe<sup>3+</sup> + 1e ⇌ Fe<sup>2+</sup>:<br>• Dạng oxi hoá: Fe<sup>3+</sup>.<br>• Dạng khử: Fe<sup>2+</sup>.<br>Kí hiệu cặp oxi hoá – khử là: <b>Fe<sup>3+</sup>/Fe<sup>2+</sup></b>.<br>Chọn đáp án <b>A</b>."
       },
       {
         "id": 8,
@@ -7334,7 +7348,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuSO<sub>4</sub> 1,0 M và H<sub>2</sub>SO<sub>4</sub> 0,5 M, quá trình khử đầu tiên xảy ra ở cathode là, quá trình khử\n2 4",
         "options": {
-          "A": "2H<sub>2</sub>O + 2e &rarr; H + 2OH<sup>−</sup>.",
+          "A": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>-</sup>.",
           "B": "Cu<sup>2+</sup> + 2e &rarr; Cu.",
           "C": "SO 2– + 4H<sup>+</sup> + 2e &rarr; SO + 2H<sub>2</sub>O.",
           "D": "2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>."
@@ -7355,8 +7369,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Sự oxi hoá ion Mg<sup>2+</sup>.",
           "B": "Sự khử ion Mg<sup>2+</sup>.",
-          "C": "Sự oxi hoá ion Cl<sup>−</sup>.",
-          "D": "Sự khử ion Cl<sup>−</sup>."
+          "C": "Sự oxi hoá ion Cl<sup>-</sup>.",
+          "D": "Sự khử ion Cl<sup>-</sup>."
         },
         "answer": "B",
         "figure": null,
@@ -7373,9 +7387,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch NaCl bằng dòng điện một chiều (với điện cực trơ, có\nmàng ngăn xốp) thì ở cathode xảy ra quá trình",
         "options": {
           "A": "oxi hoá H<sub>2</sub>O thành H⁺ và O .",
-          "B": "khử Cl<sup>−</sup> thành Cl.",
-          "C": "oxi hoá Cl<sup>−</sup> thành Cl .",
-          "D": "khử H<sub>2</sub>O thành H và OH<sup>−</sup>."
+          "B": "khử Cl<sup>-</sup> thành Cl.",
+          "C": "oxi hoá Cl<sup>-</sup> thành Cl .",
+          "D": "khử H<sub>2</sub>O thành H và OH<sup>-</sup>."
         },
         "answer": "D",
         "figure": null,
@@ -7408,7 +7422,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "orig_qnum": 14,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá − khử của các kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá − khử Li<sup>+</sup>/Li Mg<sup>2+</sup>/Mg Zn<sup>2+</sup>/Zn Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V –3,040 –2,356 –0,762 +0,799\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
+        "prompt": "(SBT – KNTT) Cho các cặp oxi hoá - khử của các kim loại và thế điện cực chuẩn tương ứng:\nCặp oxi hoá - khử Li<sup>+</sup>/Li Mg<sup>2+</sup>/Mg Zn<sup>2+</sup>/Zn Ag<sup>+</sup>/Ag\nThế điện cực chuẩn, V –3,040 –2,356 –0,762 +0,799\nTrong số các kim loại trên, kim loại có tính khử mạnh nhất là",
         "options": {
           "A": "Mg.",
           "B": "Zn.",
@@ -7578,12 +7592,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "orig_qnum": 22,
         "topic": "Đúng/Sai tổng hợp Chương 5",
-        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch chứa 0,1 mol CuSO và 0,2 mol NaCl (với điện cực\ntrơ, màng ngăn xốp) đến khi nước bắt đầu bị điện phân ở cả hai điện cực.",
+        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch chứa 0,1 mol CuSO<sub>4</sub><sub>4</sub> và 0,2 mol NaCl (với điện cực\ntrơ, màng ngăn xốp) đến khi nước bắt đầu bị điện phân ở cả hai điện cực.",
         "items": {
           "a": "Dung dịch sau điện phân làm quỳ tím chuyển màu xanh.",
           "b": "Thứ tư điện phân ở cathode là Cu<sup>2+</sup>, H O.",
           "c": "Ở anode, số mol Cl tạo ra gấp bốn lần số mol O . 2",
-          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>−</sup>."
+          "d": "Thứ tự điện phân ở anode là H O, Cl<sup>-</sup>."
         },
         "answer": {
           "a": false,
@@ -7592,7 +7606,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> (0,1 mol) + 2e &rarr; Cu 1) 2Cl<sup>−</sup> (0,2 mol) &rarr; Cl 2 + 2e\nKhi nước bắt đầu bị điện phân ở cả hai điện cực thì Cu<sup>2+</sup> và Cl<sup>−</sup> vừa hết. Dung dịch sau điện phân\nchỉ chứa Na SO . 4\na. Sai b. Đúng c. Sai d. Sai",
+        "explanation": "Cathode (cực âm) Anode (cực dương)\n1) Cu<sup>2+</sup> (0,1 mol) + 2e &rarr; Cu 1) 2Cl<sup>-</sup> (0,2 mol) &rarr; Cl<sub>2</sub> + 2e\nKhi nước bắt đầu bị điện phân ở cả hai điện cực thì Cu<sup>2+</sup> và Cl<sup>-</sup> vừa hết. Dung dịch sau điện phân\nchỉ chứa Na<sub>2</sub>SO<sub>4</sub>.\na. Sai b. Đúng c. Sai d. Sai",
         "options": {}
       },
       {

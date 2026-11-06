@@ -1523,9 +1523,10 @@
 .m-vec {
   position: relative;
   display: inline-block;
-  padding-top: 0.16em;
-  margin-right: 0.08em;
-  margin-left: 0.04em;
+  vertical-align: baseline;
+  padding-top: 0.18em;
+  margin-right: 0.1em;
+  margin-left: 0.06em;
   font-style: italic;
   line-height: 1.2;
 }
@@ -1533,16 +1534,21 @@
 .m-vec::before {
   content: "\2192";
   position: absolute;
-  top: -0.26em;
+  top: -0.32em;
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 0.72em;
+  font-size: 0.75em;
   font-style: normal;
   font-weight: 700;
   line-height: 1;
   color: inherit;
   pointer-events: none;
+}
+
+.m-vec + sub,
+.m-vec + sup {
+  margin-right: 0.22em;
 }
 
 /* Căn bậc hai (.m-root) và Hệ phương trình (.m-sys) trong Oxyz */
