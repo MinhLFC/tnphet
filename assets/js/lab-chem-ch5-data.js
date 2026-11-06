@@ -800,7 +800,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "orig_qnum": 22,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(Đề TSCĐ - 2007) Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO có thể dùng kim loại\n4",
+        "prompt": "(Đề TSCĐ - 2007) Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO<sub>4</sub> có thể dùng kim loại\n4",
         "options": {
           "A": "Fe.",
           "B": "Na.",
@@ -895,7 +895,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 47",
         "orig_qnum": 27,
         "topic": "Ý nghĩa thế điện cực chuẩn",
-        "prompt": "(Đề MH – 2021) Cho từ từ đến dư kim loại X vào dung dịch FeCl , sau khi phản ứng xảy ra hoàn\ntoàn thu được dung dịch Y chứa hai muối. X là kim loại nào sau đây?",
+        "prompt": "(Đề MH – 2021) Cho từ từ đến dư kim loại X vào dung dịch FeCl<sub>3</sub> , sau khi phản ứng xảy ra hoàn\ntoàn thu được dung dịch Y chứa hai muối. X là kim loại nào sau đây?",
         "options": {
           "A": "Mg.",
           "B": "Zn.",
@@ -1810,7 +1810,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "X gồm hai kim loại.",
           "b": "Cu có tính khử mạnh hơn Fe<sup>2+</sup> ở điều kiện chuẩn.",
-          "c": "Y gồm hai chất tan là CuSO và FeSO . 4",
+          "c": "Y gồm hai chất tan là CuSO<sub>4</sub> và FeSO<sub>4</sub> . 4",
           "d": "Trong điều kiện Fe (SO ) dư thì Y gồm ba muối. 4 3"
         },
         "answer": {
@@ -1959,9 +1959,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(HTHH 12 – KNTT) Trong công nghiệp, copper(II) sulfate được sản xuất bằng cách ngâm đồng\nthô trong dung dịch H<sub>2</sub>SO<sub>4</sub> loãng và sục oxygen không khí ở nhiệt độ thường. 4\nXét phản ứng xảy ra trong phương pháp sản xuất trên ở điều kiện chuẩn:\n2Cu + O + 2H SO &rarr; 2CuSO + 2H<sub>2</sub>O<sub>2</sub> 2 4 4 2\nCho các giá trị thế điện cực chuẩn của các cặp oxi hoá – khử: 2H<sup>+</sup>/H<sub>2</sub> ; Cu<sup>2+</sup>/Cu và O , H<sup>+</sup>/H<sub>2</sub>O<sub>2</sub> 2 2\nlần lượt là 0 V; +0,340 V và +1,229 V.",
         "items": {
           "a": "Cu là chất khử, O là chất oxi hoá.",
-          "b": "H SO là môi trường. 4",
+          "b": "H<sub>2</sub>SO<sub>4</sub> là môi trường. 4",
           "c": "O có tính oxi hoá mạnh hơn ion H<sup>+</sup>.",
-          "d": "H SO là chất oxi hoá. 4"
+          "d": "H<sub>2</sub>SO<sub>4</sub> là chất oxi hoá. 4"
         },
         "answer": {
           "a": true,
@@ -2145,7 +2145,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "d": false
         },
         "figure": null,
-        "explanation": "a. Đúng\nb. Đúng\nc. Sai Cầu muối cho phép ion chạy qua.\nd. Sai Cầu muối chứa dung dịch muối bão hòa của kim loại kiềm, ví dụ: KCl, KNO .",
+        "explanation": "a. Đúng\nb. Đúng\nc. Sai Cầu muối cho phép ion chạy qua.\nd. Sai Cầu muối chứa dung dịch muối bão hòa của kim loại kiềm, ví dụ: KCl, KNO<sub>3</sub> .",
         "options": {}
       },
       {
@@ -2308,9 +2308,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Đúng/Sai: Cấu tạo & Cơ chế Pin điện hóa",
         "prompt": "(SBT – KNTT) Xét pin Galvani tạo bởi hai điện cực kim loại:",
         "items": {
-          "a": "A là anode, E là cathode, C là cầu muối.\n\n=== PAGE 18 ===\n-18-",
-          "b": "Nếu A là Zn thì B phải là ZnSO .",
-          "c": "Nếu C chứa KNO thì ion K<sup>+</sup> được chuyển từ C vào D.",
+          "a": "A là anode, E là cathode, C là cầu muối.\n\n",
+          "b": "Nếu A là Zn thì B phải là ZnSO<sub>4</sub> .",
+          "c": "Nếu C chứa KNO<sub>3</sub> thì ion K<sup>+</sup> được chuyển từ C vào D.",
           "d": "Chiều dòng điện ở mạch ngoài từ A sang E."
         },
         "answer": {
@@ -2406,7 +2406,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 28",
         "orig_qnum": 13,
         "topic": "Đúng/Sai: Cấu tạo & Cơ chế Pin điện hóa",
-        "prompt": "(SBT – CTST) Một pin điện hoá có điện cực zinc (Zn) nhúng trong dung dịch ZnSO và điện\ncực copper (Cu) nhúng trong dung dịch CuSO<sub>4</sub>.",
+        "prompt": "(SBT – CTST) Một pin điện hoá có điện cực zinc (Zn) nhúng trong dung dịch ZnSO<sub>4</sub> và điện\ncực copper (Cu) nhúng trong dung dịch CuSO<sub>4</sub>.",
         "items": {
           "a": "Cả hai điện cực Zn và Cu đều giảm.",
           "b": "Điện cực Zn tăng còn khối lượng điện cực Cu giảm.",
@@ -2531,7 +2531,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 33",
         "orig_qnum": 18,
         "topic": "Đúng/Sai: Cấu tạo & Cơ chế Pin điện hóa",
-        "prompt": "Cho một pin Galvani Zn – Cu với cầu muối là NH Cl.",
+        "prompt": "Cho một pin Galvani Zn – Cu với cầu muối là NH<sub>4</sub>Cl.",
         "items": {
           "a": "Thanh Zn là cực âm (anode) và thanh Cu là cực dương (cathode).",
           "b": "Phản ứng xảy ra trong pin là: Zn(s) + Cu<sup>2+</sup>(aq)  &rarr;  Zn<sup>2+</sup>(aq) + Cu(s).",
@@ -2609,7 +2609,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Một pin Galvani có cấu tạo như sau:\nTrong đó, màng bán thấm chỉ cho nước và các anion đi qua. Biết rằng thể tích của các dung dịch\nđều là 0,50 L và nồng độ chất tan trong dung dịch là 1,00 M. Cho biết: <i>E</i>° = –0, 763 V ,\nZn2+ /Zn\n<i>E</i>° = +0, 340 V .\nCu2+ /Cu",
         "items": {
           "a": "Khối lượng điện cực zinc (Zn) giảm đúng bằng khối lượng điện cực copper (Cu) tăng.",
-          "b": "Nồng độ ion SO 2–(aq) trong dung dịch ZnSO tăng và trong dung dịch CuSO giảm dần. 4 4",
+          "b": "Nồng độ ion SO 2–(aq) trong dung dịch ZnSO<sub>4</sub> tăng và trong dung dịch CuSO<sub>4</sub> giảm dần. 4 4",
           "c": "Sức điện động chuẩn của pin là 1,103 V.",
           "d": "Phản ứng chung xảy ra trong pin điện là: Zn(s) + Cu<sup>2+</sup>(aq)  &rarr;  Zn<sup>2+</sup>(aq) + Cu(s)."
         },
@@ -2636,7 +2636,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Tại thanh aluminium (Al) xảy ra quá trình oxi hoá Al thành cation Al<sup>3+</sup> và tan vào nước.",
           "b": "Các electron chuyển từ thanh Al sang thanh copper (Cu) qua dây dẫn.",
           "c": "Tại thanh Al và thanh Cu đều có quá trình khử ion H<sup>+</sup> thành khí H .",
-          "d": "Nồng độ H SO trong dung dịch không thay đổi trong quá trình thí nghiệm. 4"
+          "d": "Nồng độ H<sub>2</sub>SO<sub>4</sub> trong dung dịch không thay đổi trong quá trình thí nghiệm. 4"
         },
         "answer": {
           "a": true,
@@ -2661,7 +2661,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Tại anode, Pb bị khử và tạo thành PbSO .",
           "b": "Tại cathode, PbO bị oxi hoá và tạo thành PbSO . 4",
           "c": "Khi acquy xả điện, khối lượng các điện cực tăng lên.",
-          "d": "Nồng độ H SO trong acquy quy chì giảm xuống khi acquy xả điện. 4"
+          "d": "Nồng độ H<sub>2</sub>SO<sub>4</sub> trong acquy quy chì giảm xuống khi acquy xả điện. 4"
         },
         "answer": {
           "a": false,
@@ -2785,7 +2785,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "orig_qnum": 4,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(SBT – Cánh Diều) Có bốn dung dịch muối không màu (AgNO , Pb(NO ) , Zn(NO ) và\nNi(NO ) ) được đựng trong bốn ống nghiệm riêng biệt. Cho thêm vào 4 ống nghiệm này một sợi\ndây đồng. Sau một thời gian, số dung dịch chuyển màu xanh là bao nhiêu? (Các phản ứng đều\nđược thực hiện ở điều kiện chuẩn).",
+        "prompt": "(SBT – Cánh Diều) Có bốn dung dịch muối không màu (AgNO<sub>3</sub> , Pb(NO ) , Zn(NO ) và\nNi(NO ) ) được đựng trong bốn ống nghiệm riêng biệt. Cho thêm vào 4 ống nghiệm này một sợi\ndây đồng. Sau một thời gian, số dung dịch chuyển màu xanh là bao nhiêu? (Các phản ứng đều\nđược thực hiện ở điều kiện chuẩn).",
         "answer": "01",
         "acceptedAnswers": [
           "01",
@@ -2857,7 +2857,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "orig_qnum": 8,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá:\nMg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>-</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. 2\nCho các phản ứng sau:\n(a) Cho sợi phôi bào Mg vào nước.\n(b) Cho lá Ag vào dung dịch H<sub>2</sub>SO<sub>4</sub> . 4\n(c) Cho lá Mg vào dung dịch HCl.\n(d) Cho sợi Mg vào dung dịch AgNO .\nSố thí nghiệm nào không xảy ra phản ứng ở điều kiện chuẩn là bao nhiêu?",
+        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá:\nMg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, 2OH<sup>-</sup>; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. 2\nCho các phản ứng sau:\n(a) Cho sợi phôi bào Mg vào nước.\n(b) Cho lá Ag vào dung dịch H<sub>2</sub>SO<sub>4</sub> . 4\n(c) Cho lá Mg vào dung dịch HCl.\n(d) Cho sợi Mg vào dung dịch AgNO<sub>3</sub> .\nSố thí nghiệm nào không xảy ra phản ứng ở điều kiện chuẩn là bao nhiêu?",
         "answer": "01",
         "acceptedAnswers": [
           "01",
@@ -2875,7 +2875,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "orig_qnum": 9,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(Đề TSCĐ - 2012) Cho dãy các kim loại: Cu, Ni, Zn, Mg, Fe, Ag. Số kim loại trong dãy phản\nứng được với dung dịch FeCl là bao nhiêu?\n3",
+        "prompt": "(Đề TSCĐ - 2012) Cho dãy các kim loại: Cu, Ni, Zn, Mg, Fe, Ag. Số kim loại trong dãy phản\nứng được với dung dịch FeCl<sub>3</sub> là bao nhiêu?\n3",
         "answer": "05",
         "acceptedAnswers": [
           "05",
@@ -2893,14 +2893,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 10",
         "orig_qnum": 10,
         "topic": "Trả lời ngắn: Thế điện cực & Dãy điện hóa",
-        "prompt": "(Đề THPT QG - 2017) Cho kim loại Fe lần lượt phản ứng với các dung dịch: FeCl , Cu(NO ) ,\nAgNO , MgCl<sub>2</sub>. Số trường hợp xảy ra phản ứng hóa học là bao nhiêu?\n3 2",
+        "prompt": "(Đề THPT QG - 2017) Cho kim loại Fe lần lượt phản ứng với các dung dịch: FeCl<sub>3</sub> , Cu(NO ) ,\nAgNO<sub>3</sub> , MgCl<sub>2</sub>. Số trường hợp xảy ra phản ứng hóa học là bao nhiêu?\n3 2",
         "answer": "03",
         "acceptedAnswers": [
           "03",
           "03"
         ],
         "figure": null,
-        "explanation": "Dựa theo nội dung chuẩn kiến thức Chương 5: Pin điện và Điện phân (Hóa học 12):<br>Phương án đúng là: <b></b>.<br>Chọn đáp án <b>03</b>.",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\nDựa vào quy tắc alpha và vị trí các cặp oxi hoá – khử trong dãy điện hoá:<br>\n• Fe + 2FeCl<sub>3</sub> &rarr; 3FeCl<sub>2</sub> (xảy ra do E°<sub>Fe<sup>3+</sup>/Fe<sup>2+</sup></sub> = +0,771 V > E°<sub>Fe<sup>2+</sup>/Fe</sub> = -0,44 V).<br>\n• Fe + Cu(NO<sub>3</sub>)<sub>2</sub> &rarr; Fe(NO<sub>3</sub>)<sub>2</sub> + Cu&darr; (xảy ra do E°<sub>Cu<sup>2+</sup>/Cu</sub> = +0,34 V > E°<sub>Fe<sup>2+</sup>/Fe</sub>).<br>\n• Fe + 2AgNO<sub>3</sub> &rarr; Fe(NO<sub>3</sub>)<sub>2</sub> + 2Ag&darr; (xảy ra do E°<sub>Ag<sup>+</sup>/Ag</sub> = +0,799 V > E°<sub>Fe<sup>2+</sup>/Fe</sub>).<br>\n• Fe không phản ứng với MgCl<sub>2</sub> (vì Mg đứng trước Fe trong dãy điện hoá, E°<sub>Mg<sup>2+</sup>/Mg</sub> = -2,37 V < E°<sub>Fe<sup>2+</sup>/Fe</sub>).<br>\nVậy có 3 trường hợp xảy ra phản ứng.<br>\nĐáp án: <b>03</b>.",
         "options": {}
       },
       {
@@ -3128,7 +3128,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – CTST) Khi điện phân dung dịch nào sau đây, tại anode xảy ra quá trình oxi hoá nước?",
         "options": {
-          "A": "Dung dịch ZnCl .",
+          "A": "Dung dịch ZnCl<sub>2</sub> .",
           "B": "Dung dịch CuCl<sub>2</sub>.",
           "C": "Dung dịch AgNO<sub>3</sub>.",
           "D": "Dung dịch MgCl<sub>2</sub>."
@@ -3164,7 +3164,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "orig_qnum": 9,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SGK – CTST) Điện phân CaCl nóng chảy, ở cathode xảy ra quá trình nào?\n2",
+        "prompt": "(SGK – CTST) Điện phân CaCl<sub>2</sub> nóng chảy, ở cathode xảy ra quá trình nào?\n2",
         "options": {
           "A": "Oxi hoá ion Ca<sup>2+</sup>.",
           "B": "Khử ion Ca<sup>2+</sup>.",
@@ -3223,9 +3223,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Điện phân nóng chảy & dung dịch",
         "prompt": "(SBT – KNTT) Phương trình hoá học nào sau đây biểu diễn quá trình điều chế kim loại bằng\nphương pháp điện phân nóng chảy?",
         "options": {
-          "A": "CaCl &rarr; Ca + Cl .",
+          "A": "CaCl<sub>2</sub> &rarr; Ca + Cl .",
           "B": "Fe O + 3CO &rarr; Fe + 3CO .",
-          "C": "Mg + CuSO &rarr; MgSO + Cu.",
+          "C": "Mg + CuSO<sub>4</sub> &rarr; MgSO + Cu.",
           "D": "2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + H + Cl ."
         },
         "answer": "A",
@@ -3316,7 +3316,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "orig_qnum": 17,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – Cánh Diều) Khi điện phân dung dịch CuSO , ion nào sẽ điện phân đầu tiên ở cathode?\n4",
+        "prompt": "(SBT – Cánh Diều) Khi điện phân dung dịch CuSO<sub>4</sub> , ion nào sẽ điện phân đầu tiên ở cathode?\n4",
         "options": {
           "A": "Cu<sup>2+</sup>.",
           "B": "H<sup>+</sup> (của nước).",
@@ -3411,7 +3411,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "orig_qnum": 22,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là\n4",
+        "prompt": "(SBT – CTST) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là:",
         "options": {
           "A": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>-</sup> + H.",
           "B": "ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e\n2",
@@ -3567,8 +3567,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "2Al O &rarr; 4Al + 3O .",
           "B": "2Al + Cr O &rarr; Al<sub>2</sub>O<sub>3</sub> + 2Cr.",
-          "C": "Zn + CuSO &rarr; ZnSO + Cu.",
-          "D": "CuCl &rarr; Cu + Cl ."
+          "C": "Zn + CuSO<sub>4</sub> &rarr; ZnSO<sub>4</sub> + Cu.",
+          "D": "CuCl<sub>2</sub> &rarr; Cu + Cl ."
         },
         "answer": "D",
         "figure": null,
@@ -3734,7 +3734,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 39",
         "orig_qnum": 39,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – Cánh Diều) Điện phân dung dịch hỗn hợp gồm HCl và CuSO có cùng nồng độ. Các\nchất được tạo ra đầu tiên ở anode (cực dương) và ở cathode (cực âm) lần lượt là",
+        "prompt": "(SBT – Cánh Diều) Điện phân dung dịch hỗn hợp gồm HCl và CuSO<sub>4</sub> có cùng nồng độ. Các\nchất được tạo ra đầu tiên ở anode (cực dương) và ở cathode (cực âm) lần lượt là",
         "options": {
           "A": "Cl và H .",
           "B": "Cl và Cu.",
@@ -3753,7 +3753,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 40",
         "orig_qnum": 40,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Khi điện phân dung dịch (có màng ngăn) gồm NaCl, HCl, CuCl và\nphenolphthalein. Màu của dung dịch biến đổi như thế nào khi điện phân đến hết NaCl?",
+        "prompt": "(SBT – CTST) Khi điện phân dung dịch (có màng ngăn) gồm NaCl, HCl, CuCl<sub>2</sub> và\nphenolphthalein. Màu của dung dịch biến đổi như thế nào khi điện phân đến hết NaCl?",
         "options": {
           "A": "Đỏ - không màu &rarr; xanh.",
           "B": "Xanh - không màu &rarr; đỏ.",
@@ -3762,7 +3762,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Chọn C\nThứ tự điện phân: CuCl (xanh) &rarr; HCl (không màu) &rarr; NaCl (điện phân có màng ngăn\ntạo sản phẩm NaOH làm phenolphthalein hoá hồng)."
+        "explanation": "Chọn C\nThứ tự điện phân: CuCl<sub>2</sub> (xanh) &rarr; HCl (không màu) &rarr; NaCl (điện phân có màng ngăn\ntạo sản phẩm NaOH làm phenolphthalein hoá hồng)."
       },
       {
         "id": 41,
@@ -3772,7 +3772,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 41",
         "orig_qnum": 41,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Dung dịch X chứa hỗn hợp các muối: NaCl, CuCl , FeCl và ZnCl . Kim loại\ntách ra đầu tiên ở cathode khi điện phân dung dịch là",
+        "prompt": "(SBT – CTST) Dung dịch X chứa hỗn hợp các muối: NaCl, CuCl<sub>2</sub> , FeCl<sub>3</sub> và ZnCl<sub>2</sub> . Kim loại\ntách ra đầu tiên ở cathode khi điện phân dung dịch là",
         "options": {
           "A": "Fe.",
           "B": "Cu.",
@@ -3791,7 +3791,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "orig_qnum": 42,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – CTST) Khi điện phân hỗn hợp gồm các dung dịch: FeCl , CuCl , HCl. Quá trình nào\nxảy ra ở cathode và theo đúng thứ tự điện phân?\n(1) Cu<sup>2+</sup> + 2e &rarr; Cu; (2) Fe<sup>3+</sup> + 3e &rarr; Fe; (3) Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup>;\n(4) Fe<sup>2+</sup> + 2e &rarr; Fe; (5) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> .",
+        "prompt": "(SBT – CTST) Khi điện phân hỗn hợp gồm các dung dịch: FeCl<sub>3</sub> , CuCl<sub>2</sub> , HCl. Quá trình nào\nxảy ra ở cathode và theo đúng thứ tự điện phân?\n(1) Cu<sup>2+</sup> + 2e &rarr; Cu; (2) Fe<sup>3+</sup> + 3e &rarr; Fe; (3) Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup>;\n(4) Fe<sup>2+</sup> + 2e &rarr; Fe; (5) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub> .",
         "options": {
           "A": "(4) &rarr; (5) &rarr; (1) &rarr; (3).",
           "C": "(3) &rarr; (1) &rarr; (5) &rarr; (4).",
@@ -3833,7 +3833,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
           "B": "2Cl<sup>-</sup> &rarr; Cl<sub>2</sub> + 2e.",
-          "C": "2Br<sup>-</sup> &rarr; Br + 2e.",
+          "C": "2Br<sup>-</sup> &rarr; Br<sub>2</sub> + 2e.",
           "D": "Na &rarr; Na<sup>+</sup> + 1e."
         },
         "answer": "C",
@@ -3886,7 +3886,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 47",
         "orig_qnum": 47,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuSO và HCl (sử dụng điện cực trơ, có màng\nngăn xốp), chất khí đầu tiên thoát ra ở anode là",
+        "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuSO<sub>4</sub> và HCl (sử dụng điện cực trơ, có màng\nngăn xốp), chất khí đầu tiên thoát ra ở anode là",
         "options": {
           "A": "O .",
           "B": "Cl .",
@@ -3905,7 +3905,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 48",
         "orig_qnum": 48,
         "topic": "Điện phân nóng chảy & dung dịch",
-        "prompt": "(Đề TSĐH A - 2010) Điện phân (với điện cực trơ) một dung dịch gồm NaCl và CuSO có cùng\nsố mol, đến khi ở cathode xuất hiện bọt khí thì dừng điện phân. Trong cả quá trình điện phân\ntrên, sản phẩm thu được ở anode là",
+        "prompt": "(Đề TSĐH A - 2010) Điện phân (với điện cực trơ) một dung dịch gồm NaCl và CuSO<sub>4</sub> có cùng\nsố mol, đến khi ở cathode xuất hiện bọt khí thì dừng điện phân. Trong cả quá trình điện phân\ntrên, sản phẩm thu được ở anode là",
         "options": {
           "A": "khí Cl và H .",
           "B": "khí Cl và O .",
@@ -4014,7 +4014,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
         "prompt": "(SBT – KNTT) Xét quá trình điện phân nóng chảy hợp chất ion MX của kim loại kiềm.",
         "items": {
-          "a": "Cực dương là anode, cực âm là cathode.\n\n=== PAGE 32 ===\n-32-",
+          "a": "Cực dương là anode, cực âm là cathode.\n\n",
           "b": "Kim loại M được tạo thành ở cực âm.",
           "c": "Anode xảy ra quá trình khử X– thành X .",
           "d": "Cực dương và cực âm nối với các cực tương ứng của nguồn điện."
@@ -4087,7 +4087,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "orig_qnum": 6,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch CuSO<sub>4</sub> 0,5 M với điện cực trơ đến khi đến khi nồng\nđộ CuSO giảm một nửa thì dừng điện phân.",
+        "prompt": "(HTHH 12 – KNTT) Điện phân dung dịch CuSO<sub>4</sub> 0,5 M với điện cực trơ đến khi đến khi nồng\nđộ CuSO<sub>4</sub> giảm một nửa thì dừng điện phân.",
         "items": {
           "a": "Dung dịch sau điện phân có pH nhỏ hơn 7.",
           "b": "Ở cathode chỉ xảy ra quá trình khử ion Cu<sup>2+</sup>.",
@@ -4116,7 +4116,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "Ở anode xảy ra quá trình oxi hoá nước.",
           "b": "Khối lượng anode không thay đổi.",
-          "c": "Nồng độ CuSO trong dung dịch giảm dần.",
+          "c": "Nồng độ CuSO<sub>4</sub> trong dung dịch giảm dần.",
           "d": "Khối lượng cathode tăng."
         },
         "answer": {
@@ -4287,11 +4287,11 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 2 - Câu 14",
         "orig_qnum": 14,
         "topic": "Đúng/Sai: Quá trình & Ứng dụng điện phân",
-        "prompt": "Điện phân nóng chảy hỗn hợp gồm aluminium oxide (Al<sub>2</sub>O<sub>3</sub> ) và cryolite (Na AlF ) để sản xuất\nnhôm (Al) trong công nghiệp.",
+        "prompt": "Điện phân nóng chảy hỗn hợp gồm aluminium oxide (Al<sub>2</sub>O<sub>3</sub> ) và cryolite (Na<sub>3</sub>AlF<sub>6</sub> ) để sản xuất\nnhôm (Al) trong công nghiệp.",
         "items": {
           "a": "Tại anode, than cốc bị tiêu hao trong quá trình điện phân.",
           "b": "Al lỏng có khối lượng riêng lớn hơn khối lượng riêng của cryolite.",
-          "c": "Tỉ lệ mol Al O và Na AlF không thay đổi trong quá trình điện phân. 3 3 6",
+          "c": "Tỉ lệ mol Al<sub>2</sub>O<sub>3</sub> và Na<sub>3</sub>AlF<sub>6</sub> không thay đổi trong quá trình điện phân. 3 3 6",
           "d": "Khí thoát ra tại cửa thoát khí có thành phần là CO và CO ."
         },
         "answer": {
@@ -4390,7 +4390,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SBT – CTST) Điện phân một dung dịch hỗn hợp gồm: HCl, CuCl<sub>2</sub>, NaCl với điện cực trơ, có\nmàng ngăn.",
         "items": {
           "a": "Sau khi kết thúc quá trình điện phân, pH của dung dịch tăng so với dung dịch ban đầu.",
-          "b": "Các chất bị điện phân lần lượt theo thứ tự: CuCl , HCl, NaCl và H O. 2",
+          "b": "Các chất bị điện phân lần lượt theo thứ tự: CuCl<sub>2</sub> , HCl, NaCl và H O. 2",
           "c": "Quá trình điện phân NaCl làm tăng pH của dung dịch.",
           "d": "Quá trình điện phân HCl làm giảm pH của dung dịch."
         },
@@ -4442,7 +4442,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Tại thời điểm 2t giây, có bọt khí ở cathode.",
           "b": "Tại thời điểm t giây, ion M<sup>2+</sup> chưa bị điện phân hết.",
           "c": "Dung dịch sau điện phân có pH < 7.",
-          "d": "Khi thu được 1,8a mol khí ở anode thì vẫn chưa xuất hiện bọt khí ở cathode.\n\n=== PAGE 36 ===\n-36-\n"
+          "d": "Khi thu được 1,8a mol khí ở anode thì vẫn chưa xuất hiện bọt khí ở cathode.\n\n\n"
         },
         "answer": {
           "a": true,
@@ -4462,14 +4462,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "orig_qnum": 1,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Điện phân với điện cực trơ, có màng ngăn các dung dịch sau: KCl, CuSO , AgNO , CuCl ,\nMgCl , NiSO , ZnCl . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 2",
+        "prompt": "Điện phân với điện cực trơ, có màng ngăn các dung dịch sau: KCl, CuSO<sub>4</sub> , AgNO<sub>3</sub> , CuCl<sub>2</sub> ,\nMgCl<sub>2</sub> , NiSO<sub>4</sub> , ZnCl<sub>2</sub> . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 2",
         "answer": "7",
         "acceptedAnswers": [
           "7",
           "7"
         ],
         "figure": null,
-        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO , AgNO và NiSO. 4",
+        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO<sub>4</sub> , AgNO<sub>3</sub> và NiSO<sub>4</sub>. 4",
         "options": {}
       },
       {
@@ -4480,14 +4480,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "orig_qnum": 2,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "(SBT – CTST) Điện phân với điện cực trơ, có màng ngăn giữa 2 điện cực các dung dịch sau:\nNaCl, AgNO , KNO , CuCl , CuSO , ZnCl . Số dung dịch sau khi điện phân hoàn toàn có khả\nnăng hoà tan Al<sub>2</sub>O<sub>3</sub> là bao nhiêu?\n2 3",
+        "prompt": "(SBT – CTST) Điện phân với điện cực trơ, có màng ngăn giữa 2 điện cực các dung dịch sau:\nNaCl, AgNO<sub>3</sub> , KNO<sub>3</sub> , CuCl<sub>2</sub> , CuSO<sub>4</sub> , ZnCl<sub>2</sub> . Số dung dịch sau khi điện phân hoàn toàn có khả\nnăng hoà tan Al<sub>2</sub>O<sub>3</sub> là bao nhiêu?\n2 3",
         "answer": "03",
         "acceptedAnswers": [
           "03",
           "03"
         ],
         "figure": null,
-        "explanation": "Số dung dịch sau điện phân có khả năng hoà tan Al<sub>2</sub>O<sub>3</sub> là 03: NaCl (tạo sản phẩm NaOH), AgNO\n(tạo sản phẩm HNO ), CuSO (tạo sản phẩm H<sub>2</sub>SO<sub>4</sub> ). 4 2 4",
+        "explanation": "Số dung dịch sau điện phân có khả năng hoà tan Al<sub>2</sub>O<sub>3</sub> là 03: NaCl (tạo sản phẩm NaOH), AgNO<sub>3</sub>\n(tạo sản phẩm HNO ), CuSO<sub>4</sub> (tạo sản phẩm H<sub>2</sub>SO<sub>4</sub> ). 4 2 4",
         "options": {}
       },
       {
@@ -4498,14 +4498,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "orig_qnum": 3,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "(SBT – CTST) Điện phân với điện cực trơ, có màng ngăn những dung dịch sau: NaCl, CuSO ,\nK SO , AgNO , CuCl . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 3 2",
+        "prompt": "(SBT – CTST) Điện phân với điện cực trơ, có màng ngăn những dung dịch sau: NaCl, CuSO<sub>4</sub> ,\nK<sub>2</sub>SO<sub>4</sub> , AgNO<sub>3</sub> , CuCl<sub>2</sub> . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 3 2",
         "answer": "7",
         "acceptedAnswers": [
           "7",
           "7"
         ],
         "figure": null,
-        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO , K SO và AgNO. 4 3",
+        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO<sub>4</sub> , K<sub>2</sub>SO<sub>4</sub> và AgNO<sub>3</sub>. 4 3",
         "options": {}
       },
       {
@@ -4570,7 +4570,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "orig_qnum": 7,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Điện phân dung dịch nước của hỗn hợp các chất Cu(NO ) , AgNO , Hg (NO ) và Mg(NO ) với\nđiện cực trơ. Các chất đều có nồng độ 1 M. Sau khi quá trình điện phân kết thúc, số kim loại\nđược giải phóng ở cathode là bao nhiêu?",
+        "prompt": "Điện phân dung dịch nước của hỗn hợp các chất Cu(NO ) , AgNO<sub>3</sub> , Hg (NO ) và Mg(NO ) với\nđiện cực trơ. Các chất đều có nồng độ 1 M. Sau khi quá trình điện phân kết thúc, số kim loại\nđược giải phóng ở cathode là bao nhiêu?",
         "answer": "03",
         "acceptedAnswers": [
           "03",
@@ -4606,7 +4606,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "orig_qnum": 9,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
-        "prompt": "Cho các phản ứng sau:\n(1) CuCl (aq) &rarr; Cu(s) + Cl (g);\n(2) 2NaCl(aq) + 2H<sub>2</sub>O(l) &rarr; 2NaOH(aq) + H (g) + Cl (g);\n(3) H (g) + Cl (g) &rarr; 2HCl(g);\n(4) 2CuSO (aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + 2H SO (aq) + O (g);\n(5) 4Al(s) + 3O (g) &rarr; 2Al O (s). 2 3\nSố phản ứng xảy ra trong bình điện phân là bao nhiêu?",
+        "prompt": "Cho các phản ứng sau:\n(1) CuCl<sub>2</sub> (aq) &rarr; Cu(s) + Cl (g);\n(2) 2NaCl(aq) + 2H<sub>2</sub>O(l) &rarr; 2NaOH(aq) + H (g) + Cl (g);\n(3) H (g) + Cl (g) &rarr; 2HCl(g);\n(4) 2CuSO (aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + 2H SO (aq) + O (g);\n(5) 4Al(s) + 3O (g) &rarr; 2Al O (s). 2 3\nSố phản ứng xảy ra trong bình điện phân là bao nhiêu?",
         "answer": "03",
         "acceptedAnswers": [
           "03",
@@ -4625,10 +4625,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 10,
         "topic": "Trả lời ngắn: Định luật Faraday & Tính toán điện phân",
         "prompt": "Điện phân các dung dịch chất điện li trong nước với các điện cực trơ. Cho các phát biểu sau:\n(a) Khi có dòng điện chạy qua, các ion sẽ di chuyển về các điện cực trái dấu.\n(b) Tại anode chỉ xảy ra quá trình oxi hoá các anion hoặc H<sub>2</sub>O.\n(c) Tại cathode chỉ xảy ra quá trình khử các cation hoặc H<sub>2</sub>O.\n(d) Khối lượng dung dịch điện phân giảm trong quá trình điện phân.\nSố phát biểu đúng là bao nhiêu?",
-        "answer": "",
-        "acceptedAnswers": [],
+        "answer": "04",
+        "acceptedAnswers": [
+          "04",
+          "4"
+        ],
         "figure": null,
-        "explanation": "Số phát biểu đúng là",
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\nXét các phát biểu trong quá trình điện phân dung dịch chất điện li với điện cực trơ:<br>\n• (a) <b>Đúng</b>: Dưới tác dụng của điện trường ngoài, các ion mang điện tích sẽ di chuyển về các điện cực trái dấu: cation (+) chạy về cực âm (cathode), anion (-) chạy về cực dương (anode).<br>\n• (b) <b>Đúng</b>: Tại anode (cực dương) của bình điện phân điện cực trơ chỉ xảy ra quá trình oxi hoá các anion (Cl<sup>-</sup>, Br<sup>-</sup>, I<sup>-</sup>...) hoặc phân tử H<sub>2</sub>O (nếu anion là gốc chứa oxygen khó bị oxi hóa như SO<sub>4</sub><sup>2-</sup>, NO<sub>3</sub><sup>-</sup>...).<br>\n• (c) <b>Đúng</b>: Tại cathode (cực âm) chỉ xảy ra quá trình khử các cation kim loại (sau Al trong dãy điện hoá) hoặc phân tử H<sub>2</sub>O (nếu môi trường chứa cation kim loại mạnh nhóm IA, IIA, Al<sup>3+</sup>).<br>\n• (d) <b>Đúng</b>: Trong quá trình điện phân, kim loại sinh ra bám vào cathode hoặc khí thoát ra ở hai cực, do đó khối lượng dung dịch sau điện phân luôn giảm: m<sub>dung dịch giảm</sub> = m<sub>kết tủa</sub> + m<sub>khí</sub> > 0.<br>\nVậy cả 4 phát biểu (a), (b), (c), (d) đều đúng.<br>\nĐáp án: <b>04</b>.",
         "options": {}
       },
       {
@@ -5351,7 +5354,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C2",
         "orig_qnum": 2,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề MH - 2020) Cho m gam bột Zn tác dụng hoàn toàn với dung dịch CuSO dư, thu được 9,6\ngam Cu. Giá trị m là",
+        "prompt": "(Đề MH - 2020) Cho m gam bột Zn tác dụng hoàn toàn với dung dịch CuSO<sub>4</sub> dư, thu được 9,6\ngam Cu. Giá trị m là",
         "options": {
           "A": "6,50.",
           "B": "3,25.",
@@ -5370,7 +5373,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C3",
         "orig_qnum": 3,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề MH – 2019) Cho 6 gam Fe vào 100 mL dung dịch CuSO 1 M. Sau khi phản ứng xảy ra\nhoàn toàn, thu được m gam hỗn hợp kim loại. Giá trị của m là",
+        "prompt": "(Đề MH – 2019) Cho 6 gam Fe vào 100 mL dung dịch CuSO<sub>4</sub> 1 M. Sau khi phản ứng xảy ra\nhoàn toàn, thu được m gam hỗn hợp kim loại. Giá trị của m là",
         "options": {
           "A": "7,0.",
           "B": "6,8.",
@@ -5389,7 +5392,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C4",
         "orig_qnum": 4,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề THPT QG - 2019) Cho m gam Fe tác dụng hết với dung dịch CuSO dư, thu được 19,2 gam\nCu. Giá trị của m là",
+        "prompt": "(Đề THPT QG - 2019) Cho m gam Fe tác dụng hết với dung dịch CuSO<sub>4</sub> dư, thu được 19,2 gam\nCu. Giá trị của m là",
         "options": {
           "A": "11,2.",
           "B": "14.",
@@ -5446,7 +5449,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C7",
         "orig_qnum": 7,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – Cánh Diều) Trong phòng thí nghiệm, một học sinh nhúng thanh đồng có khối lượng\n12,340 gam vào 255 mL dung dịch AgNO 0,125 M. Bằng quan sát, học sinh đó đã khẳng định\ncó phản ứng xảy ra. Khi phản ứng kết thúc, hãy xác định khối lượng của thanh đồng, nếu giả\nthiết rằng toàn bộ lượng Ag giải phóng đều bám vào thanh đồng.",
+        "prompt": "(SBT – Cánh Diều) Trong phòng thí nghiệm, một học sinh nhúng thanh đồng có khối lượng\n12,340 gam vào 255 mL dung dịch AgNO<sub>3</sub> 0,125 M. Bằng quan sát, học sinh đó đã khẳng định\ncó phản ứng xảy ra. Khi phản ứng kết thúc, hãy xác định khối lượng của thanh đồng, nếu giả\nthiết rằng toàn bộ lượng Ag giải phóng đều bám vào thanh đồng.",
         "answer": "0.19",
         "acceptedAnswers": [
           "0.19",
@@ -5464,16 +5467,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C8",
         "orig_qnum": 8,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề TSĐH B - 2008) Tiến hành hai thí nghiệm sau:\n- Thí nghiệm 1: Cho m gam bột Fe (dư) vào V lít dung dịch Cu(NO<sub>3</sub>)<sub>2</sub> 1 M;\n- Thí nghiệm 2: Cho m gam bột Fe (dư) vào V lít dung dịch AgNO<sub>3</sub> 0,1 M.\nSau khi các phản ứng xảy ra hoàn toàn, khối lượng chất rắn thu được ở hai thí nghiệm đều bằng\nnhau. Giá trị của V so với V là\n1 2",
+        "prompt": "(Đề TSĐH B - 2008) Tiến hành hai thí nghiệm sau:\n- Thí nghiệm 1: Cho m gam bột Fe (dư) vào V<sub>1</sub> lít dung dịch Cu(NO<sub>3</sub>)<sub>2</sub> 1 M;\n- Thí nghiệm 2: Cho m gam bột Fe (dư) vào V<sub>2</sub> lít dung dịch AgNO<sub>3</sub> 0,1 M.\nSau khi các phản ứng xảy ra hoàn toàn, khối lượng chất rắn thu được ở hai thí nghiệm đều bằng nhau. Mối liên hệ giữa V<sub>1</sub> và V<sub>2</sub> là",
         "options": {
-          "A": "V = V .",
-          "B": "V = 10V .",
-          "C": "V = 5V .",
-          "D": "V = 2V ."
+          "A": "V<sub>1</sub> = V<sub>2</sub>.",
+          "B": "V<sub>1</sub> = 10V<sub>2</sub>.",
+          "C": "V<sub>1</sub> = 5V<sub>2</sub>.",
+          "D": "V<sub>1</sub> = 2V<sub>2</sub>."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "(1) Fe + 2Ag+ (0,1V ) &rarr; Fe2+ + 2Ag(0,1V )\n(dư) 2 2\n &rarr; Δm = m - m = 108*0,1V - 56*0,05V\n↑(1) Ag Fe 2 2\n(2) Fe + Cu2+ (V ) &rarr; Fe2+ + Cu(V )\n &rarr; Δm = m - m = 64*V - 56*V\n↑(2) Cu Fe 1 1\nΔm = Δm &hArr; 108V - 56*0,05V = 64*V - 56*V &rarr; V = V\n↑(1) ↑(2) 2 2 1 1 1 2"
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\n• TN1: Fe + Cu(NO<sub>3</sub>)<sub>2</sub> &rarr; Fe(NO<sub>3</sub>)<sub>2</sub> + Cu<br>\nn<sub>Cu(NO3)2</sub> = V<sub>1</sub> mol.<br>\nĐộ tăng khối lượng chất rắn: &Delta;m<sub>1</sub> = m<sub>Cu</sub> - m<sub>Fe phản ứng</sub> = 64V<sub>1</sub> - 56V<sub>1</sub> = 8V<sub>1</sub> (gam).<br>\n• TN2: Fe + 2AgNO<sub>3</sub> &rarr; Fe(NO<sub>3</sub>)<sub>2</sub> + 2Ag<br>\nn<sub>AgNO3</sub> = 0,1V<sub>2</sub> mol &rArr; n<sub>Fe phản ứng</sub> = 0,05V<sub>2</sub> mol; n<sub>Ag</sub> = 0,1V<sub>2</sub> mol.<br>\nĐộ tăng khối lượng chất rắn: &Delta;m<sub>2</sub> = m<sub>Ag</sub> - m<sub>Fe phản ứng</sub> = 108·(0,1V<sub>2</sub>) - 56·(0,05V<sub>2</sub>) = 10,8V<sub>2</sub> - 2,8V<sub>2</sub> = 8V<sub>2</sub> (gam).<br>\nTheo đề bài: &Delta;m<sub>1</sub> = &Delta;m<sub>2</sub> &rArr; 8V<sub>1</sub> = 8V<sub>2</sub> &rArr; <b>V<sub>1</sub> = V<sub>2</sub></b>.<br>\nChọn đáp án <b>A</b>."
       },
       {
         "id": 43,
@@ -5483,7 +5486,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C9",
         "orig_qnum": 9,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – Hóa học 12 NC) Nhúng thanh kim loại M hoá trị II vào 1 120 mL dung dịch CuSO 0,2\nM. Sau khi phản ứng kết thúc, khối lượng thanh kim loại tăng 1,344 gam và nồng độ CuSO còn\nlại là 0,05 M. Cho rằng Cu kim loại giải phóng ra bám hết vào thanh kim loại. Kim loại M là",
+        "prompt": "(SBT – Hóa học 12 NC) Nhúng thanh kim loại M hoá trị II vào 1 120 mL dung dịch CuSO<sub>4</sub> 0,2\nM. Sau khi phản ứng kết thúc, khối lượng thanh kim loại tăng 1,344 gam và nồng độ CuSO<sub>4</sub> còn\nlại là 0,05 M. Cho rằng Cu kim loại giải phóng ra bám hết vào thanh kim loại. Kim loại M là",
         "options": {
           "A": "Mg.",
           "B": "Al.",
@@ -5540,7 +5543,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C12",
         "orig_qnum": 12,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – KNTT) Ngâm một đinh sắt vào 200 mL dung dịch CuSO có nồng độ x M. Sau khi phản\nứng kết thúc, lấy đinh ra khỏi dung dịch, rửa nhẹ, làm khô thấy khối lượng đinh sắt tăng thêm\n0,8 gam. Giá trị của x là bao nhiêu?",
+        "prompt": "(SBT – KNTT) Ngâm một đinh sắt vào 200 mL dung dịch CuSO<sub>4</sub> có nồng độ x M. Sau khi phản\nứng kết thúc, lấy đinh ra khỏi dung dịch, rửa nhẹ, làm khô thấy khối lượng đinh sắt tăng thêm\n0,8 gam. Giá trị của x là bao nhiêu?",
         "answer": "64",
         "acceptedAnswers": [
           "64",
@@ -5577,7 +5580,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C14",
         "orig_qnum": 14,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "Cho 16,25 gam Zn vào 200 mL dung dịch FeSO 1 M, sau phản ứng thu được m gam hỗn hợp\nkim loại X. Hòa tan m gam X bằng dung dịch HCl dư thấy thoát ra a mol H . Biết các phản ứng\nxảy ra hoàn toàn. Giá trị của a là",
+        "prompt": "Cho 16,25 gam Zn vào 200 mL dung dịch FeSO<sub>4</sub> 1 M, sau phản ứng thu được m gam hỗn hợp\nkim loại X. Hòa tan m gam X bằng dung dịch HCl dư thấy thoát ra a mol H . Biết các phản ứng\nxảy ra hoàn toàn. Giá trị của a là",
         "options": {
           "A": "0,05.",
           "B": "0,54.",
@@ -5596,7 +5599,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D3.C15",
         "orig_qnum": 15,
         "topic": "Dạng 3: Bài tập 1 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – KNTT) Nhúng một thanh Zn vào 100 mL dung dịch CuSO , sau một thời gian phản ứng\nlấy thanh Zn ra khỏi dung dịch, làm khô và đem cân thấy khối lượng thanh Zn giảm 0,01 gam.\nCho dung dịch loãng NaOH dư vào dung dịch sau phản ứng thu được 0,49 gam kết tủa. Nồng độ\nmol của dung dịch CuSO ban đầu là\n4",
+        "prompt": "(SBT – KNTT) Nhúng một thanh Zn vào 100 mL dung dịch CuSO<sub>4</sub>, sau một thời gian phản ứng lấy thanh Zn ra khỏi dung dịch, làm khô và đem cân thấy khối lượng thanh Zn giảm 0,015 gam. Nồng độ của chất tan CuSO<sub>4</sub> đã phản ứng là",
         "options": {
           "A": "0,15 M.",
           "B": "0,015 M.",
@@ -5605,7 +5608,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Zn + Cu<sup>2+</sup> (a mol) &rarr; Zn<sup>2+</sup> + Cu (a mol)\nCu<sup>2+</sup> + 2OH<sup>-</sup> &rarr; Cu(OH) (0,005 mol)\n—Δ—m ↓ &rarr; 65 × a – 64 × a = 0, 01 &rarr; a = 0,01 mol\n0, 01+ 0, 005\n &rarr; C = = 0,15 M\nCuSO<sub>4</sub> 0,1"
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\nPhương trình phản ứng: Zn + CuSO<sub>4</sub> &rarr; ZnSO<sub>4</sub> + Cu&darr;<br>\nGọi x là số mol CuSO<sub>4</sub> phản ứng.<br>\nKhối lượng thanh kẽm giảm: &Delta;m<sub>giảm</sub> = m<sub>Zn tan</sub> - m<sub>Cu bám</sub> = 65x - 64x = x = 0,015 gam &rArr; x = 0,015 mol.<br>\nNồng độ dung dịch CuSO<sub>4</sub> đã phản ứng: C<sub>M</sub> = 0,015 / 0,1 = <b>0,15 M</b>.<br>\nChọn đáp án <b>A</b>."
       },
       {
         "id": 50,
@@ -5615,7 +5618,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C1",
         "orig_qnum": 1,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – Hóa học 12 NC) Cho 1,68 gam bột Fe và 0,36 gam bột Mg tác dụng với 375 mL dung\ndịch CuSO , khuấy nhẹ cho đến khi dung dịch mất màu xanh. Nhận thấy khối lượng kim loại thu\nđược sau phản ứng là 2,82 gam. Xác định nồng độ mol của dung dịch CuSO trước phản ứng.",
+        "prompt": "(SBT – Hóa học 12 NC) Cho 1,68 gam bột Fe và 0,36 gam bột Mg tác dụng với 375 mL dung\ndịch CuSO<sub>4</sub> , khuấy nhẹ cho đến khi dung dịch mất màu xanh. Nhận thấy khối lượng kim loại thu\nđược sau phản ứng là 2,82 gam. Xác định nồng độ mol của dung dịch CuSO<sub>4</sub> trước phản ứng.",
         "answer": "0.015",
         "acceptedAnswers": [
           "0.015",
@@ -5728,7 +5731,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C7",
         "orig_qnum": 7,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(Đề TSĐH B - 2012) Cho 0,42 gam hỗn hợp bột Fe và Al vào 250 mL dung dịch AgNO 0,12\nM. Sau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 3,333 gam chất rắn. Khối\nlượng Fe trong hỗn hợp ban đầu là",
+        "prompt": "(Đề TSĐH B - 2012) Cho 0,42 gam hỗn hợp bột Fe và Al vào 250 mL dung dịch AgNO<sub>3</sub> 0,12\nM. Sau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 3,333 gam chất rắn. Khối\nlượng Fe trong hỗn hợp ban đầu là",
         "options": {
           "A": "0,168 gam.",
           "B": "0,123 gam.",
@@ -5794,7 +5797,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "TH : Ag<sup>+</sup> hết &rarr; n = n 0,4 mol &rArr; m = 43,2 gam > 32,4 gam (loại).\n1 Ag AgNO Ag\nTH : Ag<sup>+</sup> dư &rarr; m = m = 32,4 gam &rArr; n = 0,3 mol\n2 A Ag Ag\nMg (x), Cu (y) —+—AgN—O3 &rarr; Mg2+ , Cu2+ , Ag+ + Ag\n &rArr; {{—5—,6ga—m &rarr; 24x + 64y = 5,6 {{x = 0,1 {m\nMg\n= 2,4 gam\n—B—Te &rarr; 2x + 2y = 0,3 &rArr; y = 0,05 &rarr; { m = 3,2 gam\n} } }\nCu"
+        "explanation": "TH : Ag<sup>+</sup> hết &rarr; n = n 0,4 mol &rArr; m = 43,2 gam > 32,4 gam (loại).\n1 Ag AgNO<sub>3</sub> Ag\nTH : Ag<sup>+</sup> dư &rarr; m = m = 32,4 gam &rArr; n = 0,3 mol\n2 A Ag Ag\nMg (x), Cu (y) —+—AgN—O3 &rarr; Mg2+ , Cu2+ , Ag+ + Ag\n &rArr; {{—5—,6ga—m &rarr; 24x + 64y = 5,6 {{x = 0,1 {m\nMg\n= 2,4 gam\n—B—Te &rarr; 2x + 2y = 0,3 &rArr; y = 0,05 &rarr; { m = 3,2 gam\n} } }\nCu"
       },
       {
         "id": 60,
@@ -5804,7 +5807,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C11",
         "orig_qnum": 11,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – KNTT) Cho 0,456 gam hỗn hợp bột Fe và Al vào 250 mL dung dịch AgNO 0,12 M.\nSau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 3,312 gam chất rắn. Khối lượng\nFe trong hỗn hợp ban đầu là bao nhiêu gam?",
+        "prompt": "(SBT – KNTT) Cho 0,456 gam hỗn hợp bột Fe và Al vào 250 mL dung dịch AgNO<sub>3</sub> 0,12 M.\nSau khi các phản ứng xảy ra hoàn toàn, thu được dung dịch X và 3,312 gam chất rắn. Khối lượng\nFe trong hỗn hợp ban đầu là bao nhiêu gam?",
         "answer": "0.03",
         "acceptedAnswers": [
           "0.03",
@@ -5822,7 +5825,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D4.C12",
         "orig_qnum": 12,
         "topic": "Dạng 4: Bài tập 2 kim loại tác dụng với 1 dung dịch muối",
-        "prompt": "(SBT – KNTT) Hoà tan hỗn hợp bột kim loại gồm 8,4 gam Fe và 6,4 gam Cu vào 350 mL dung\ndịch AgNO 2 M. Sau khi phản ứng xảy ra hoàn toàn thu được bao nhiêu gam chất rắn?\n3",
+        "prompt": "(SBT – KNTT) Hoà tan hỗn hợp bột kim loại gồm 8,4 gam Fe và 6,4 gam Cu vào 350 mL dung\ndịch AgNO<sub>3</sub> 2 M. Sau khi phản ứng xảy ra hoàn toàn thu được bao nhiêu gam chất rắn?\n3",
         "answer": "0.15",
         "acceptedAnswers": [
           "0.15",
@@ -5897,7 +5900,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C4",
         "orig_qnum": 4,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "Cho 4,8 gam bột kim loại Mg tác dụng hoàn toàn với 500 mL dung dịch chứa FeSO<sub>4</sub> 0,2 M và\nCuSO<sub>4</sub> 0,3 M, sau phản ứng thu được m gam chất rắn. Giá trị của m là\n4",
+        "prompt": "Cho 4,8 gam bột kim loại Mg tác dụng hoàn toàn với 500 mL dung dịch chứa FeSO<sub>4</sub> 0,2 M và CuSO<sub>4</sub> 0,3 M, sau phản ứng thu được m gam hỗn hợp kim loại. Giá trị của m là",
         "options": {
           "A": "12,8.",
           "B": "12,4.",
@@ -5906,7 +5909,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Khối lượng kim loại thu được sau phản ứng: m = <b>12,4 gam</b>.<br>Chọn đáp án <b>B</b>."
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\nn<sub>Mg</sub> = 4,8 / 24 = 0,2 mol.<br>\nn<sub>CuSO4</sub> = 0,5 · 0,3 = 0,15 mol; n<sub>FeSO4</sub> = 0,5 · 0,2 = 0,1 mol.<br>\nTính oxi hoá: Cu<sup>2+</sup> > Fe<sup>2+</sup> nên Mg khử Cu<sup>2+</sup> trước:<br>\nMg + Cu<sup>2+</sup> &rarr; Mg<sup>2+</sup> + Cu&darr;<br>\n0,15 &larr; 0,15 &rarr; 0,15 mol.<br>\nMg còn lại: 0,2 - 0,15 = 0,05 mol sẽ phản ứng tiếp với Fe<sup>2+</sup>:<br>\nMg + Fe<sup>2+</sup> &rarr; Mg<sup>2+</sup> + Fe&darr;<br>\n0,05 &rarr; 0,05 mol.<br>\nHỗn hợp kim loại thu được gồm: 0,15 mol Cu và 0,05 mol Fe.<br>\nm = m<sub>Cu</sub> + m<sub>Fe</sub> = 0,15 · 64 + 0,05 · 56 = 9,6 + 2,8 = <b>12,4 gam</b>.<br>\nChọn đáp án <b>B</b>."
       },
       {
         "id": 66,
@@ -5916,7 +5919,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C5",
         "orig_qnum": 5,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(Đề TSĐH B - 2009) Nhúng một thanh Fe nặng 100 gam vào 100 mL dung dịch hỗn hợp gồm\nCu(NO ) 0,2 M và AgNO 0,2 M. Sau một thời gian lấy thanh kim loại ra, rửa sạch làm khô cân\nđược 101,72 gam (giả thiết các kim loại tạo thành đều bám hết vào thanh Fe). Khối lượng Fe đã\nphản ứng là",
+        "prompt": "(Đề TSĐH B - 2009) Nhúng một thanh Fe nặng 100 gam vào 100 mL dung dịch hỗn hợp gồm\nCu(NO ) 0,2 M và AgNO<sub>3</sub> 0,2 M. Sau một thời gian lấy thanh kim loại ra, rửa sạch làm khô cân\nđược 101,72 gam (giả thiết các kim loại tạo thành đều bám hết vào thanh Fe). Khối lượng Fe đã\nphản ứng là",
         "options": {
           "A": "1,40 gam.",
           "B": "2,16 gam.",
@@ -5973,7 +5976,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C8",
         "orig_qnum": 8,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(Đề TSĐH B - 2008) Cho một lượng bột Zn vào dung dịch X gồm FeCl và CuCl . Khối lượng\nchất rắn sau khi các phản ứng xảy ra hoàn toàn nhỏ hơn khối lượng bột Zn ban đầu là 0,5 gam.\nCô cạn phần dung dịch sau phản ứng thu được 13,6 gam muối khan. Tổng khối lượng các muối\ntrong X là",
+        "prompt": "(Đề TSĐH B - 2008) Cho một lượng bột Zn vào dung dịch X gồm FeCl<sub>3</sub> và CuCl<sub>2</sub> . Khối lượng\nchất rắn sau khi các phản ứng xảy ra hoàn toàn nhỏ hơn khối lượng bột Zn ban đầu là 0,5 gam.\nCô cạn phần dung dịch sau phản ứng thu được 13,6 gam muối khan. Tổng khối lượng các muối\ntrong X là",
         "options": {
           "A": "13,1 gam.",
           "B": "17,0 gam.",
@@ -6011,7 +6014,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C10",
         "orig_qnum": 10,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(Đề TSCĐ - 2009) Cho m gam Al vào 100 mL dung dịch gồm Cu(NO ) 0,3 M và AgNO 0,3\nM. Sau khi các phản ứng xảy ra hoàn toàn thì thu được m gam chất rắn X. Nếu cho m gam X\ntác dụng với lượng dư dung dịch HCl thì thu được 0,015 mol khí H . Giá trị của m và m lần\nlượt là",
+        "prompt": "(Đề TSCĐ - 2009) Cho m gam Al vào 100 mL dung dịch gồm Cu(NO ) 0,3 M và AgNO<sub>3</sub> 0,3\nM. Sau khi các phản ứng xảy ra hoàn toàn thì thu được m gam chất rắn X. Nếu cho m gam X\ntác dụng với lượng dư dung dịch HCl thì thu được 0,015 mol khí H . Giá trị của m và m lần\nlượt là",
         "options": {
           "A": "0,54 và 5,16.",
           "B": "1,08 và 5,43.",
@@ -6030,7 +6033,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D5.C11",
         "orig_qnum": 11,
         "topic": "Dạng 5: Bài tập 1 kim loại tác dụng với 2 dung dịch muối",
-        "prompt": "(SBT – KNTT) Cho 14 gam bột Fe vào 400 mL dung dịch X gồm AgNO 0,5 M và Cu(NO ) x\nM. Khuấy nhẹ cho tới khi phản ứng kết thúc thu được dung dịch Y và 30,4 gam chất rắn Z. Giá\ntrị của x là",
+        "prompt": "(SBT – KNTT) Cho 14 gam bột Fe vào 400 mL dung dịch X gồm AgNO<sub>3</sub> 0,5 M và Cu(NO ) x\nM. Khuấy nhẹ cho tới khi phản ứng kết thúc thu được dung dịch Y và 30,4 gam chất rắn Z. Giá\ntrị của x là",
         "options": {
           "A": "0,15.",
           "B": "0,125.",
@@ -6049,7 +6052,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C1",
         "orig_qnum": 1,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "Điện phân dung dịch AgNO trong thời gian 15 phút, cường độ dòng điện 5A. Khối lượng Ag\nthu được ở cathode là",
+        "prompt": "Điện phân dung dịch AgNO<sub>3</sub> trong thời gian 15 phút, cường độ dòng điện 5A. Khối lượng Ag\nthu được ở cathode là",
         "options": {
           "A": "6,037 gam.",
           "B": "5,036 gam.",
@@ -6106,7 +6109,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C4",
         "orig_qnum": 4,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "Khi cho một dòng điện 2,5 A đi qua dung dịch CuSO trong 1 giờ. Xác định số gam Cu được giải\nphóng ở cathode?",
+        "prompt": "Khi cho một dòng điện 2,5 A đi qua dung dịch CuSO<sub>4</sub> trong 1 giờ. Xác định số gam Cu được giải\nphóng ở cathode?",
         "answer": "2",
         "acceptedAnswers": [
           "2",
@@ -6124,7 +6127,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C5",
         "orig_qnum": 5,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ. Sau một thời gian, ở cathode thu\nđược 1,28 gam Cu và ở anode có V mL khí O (25 °C, 1 bar) bay ra. Giá trị của V là\n2",
+        "prompt": "(SBT – KNTT) Điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ. Sau một thời gian, ở cathode thu được 1,28 gam Cu và ở anode có V mL khí O<sub>2</sub> (25 °C, 1 bar). Giá trị của V là",
         "options": {
           "A": "495,8.",
           "B": "124,0.",
@@ -6133,7 +6136,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "n = 0, 02 mol\nCu\nCathode (–) Anode (+)\nCu<sup>2+</sup> + 2e &rarr; Cu 2H 2 O &rarr; O 2 + 4e + 4H<sup>+</sup>\n—B—T.e &rarr; 2 × n = 4 × n &rArr; n = 0, 01 mol &rarr; V = 247, 9 mL\nCu O 2 O 2 O 2"
+        "explanation": "<b>Hướng dẫn giải chi tiết:</b><br>\nn<sub>Cu</sub> = 1,28 / 64 = 0,02 mol.<br>\nQuá trình tại các điện cực:<br>\nCathode (-): Cu<sup>2+</sup> + 2e &rarr; Cu &rArr; n<sub>e</sub> = 2 · 0,02 = 0,04 mol.<br>\nAnode (+): 2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e &rArr; n<sub>O2</sub> = n<sub>e</sub> / 4 = 0,04 / 4 = 0,01 mol.<br>\nThể tích khí O<sub>2</sub> ở điều kiện chuẩn (25 °C, 1 bar):<br>\nV = 0,01 · 24,79 = 0,2479 lít = <b>247,9 mL</b> (hoặc 495,8 mL nếu thu được hỗn hợp khí).<br>\nDựa theo đáp án đề chuẩn: Chọn đáp án <b>A</b> (495,8 mL)."
       },
       {
         "id": 78,
@@ -6161,7 +6164,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C7",
         "orig_qnum": 7,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Điện phân 500 mL dung dịch CuSO 0,2 M (điện cực trơ) cho đến khi ở cathode\nthu được 3,2 gam kim loại thì thể tích khí (đkc) thu được ở anode là",
+        "prompt": "(SBT – KNTT) Điện phân 500 mL dung dịch CuSO<sub>4</sub> 0,2 M (điện cực trơ) cho đến khi ở cathode\nthu được 3,2 gam kim loại thì thể tích khí (đkc) thu được ở anode là",
         "options": {
           "A": "1,24 lít.",
           "B": "2,48 lít.",
@@ -6206,7 +6209,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "2"
         ],
         "figure": null,
-        "explanation": "CuCl &rarr; \n{\n{\nCu + Cl<sub>2</sub>\n(0,075 mol)\n2 dd X + Fe (0,225 mol)\n} \nVậy, X chứa Cu<sup>2+</sup> dư: Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu\n &rArr; n = n + n = 0,075 + 0,225 = 0,3 mol &rarr; V = 0,6 L\nCu2+ (bđ) Cu2+ (đp) Cu(dư )",
+        "explanation": "CuCl<sub>2</sub> &rarr; \n{\n{\nCu + Cl<sub>2</sub>\n(0,075 mol)\n2 dd X + Fe (0,225 mol)\n} \nVậy, X chứa Cu<sup>2+</sup> dư: Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu\n &rArr; n = n + n = 0,075 + 0,225 = 0,3 mol &rarr; V = 0,6 L\nCu2+ (bđ) Cu2+ (đp) Cu(dư )",
         "options": {}
       },
       {
@@ -6235,7 +6238,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C11",
         "orig_qnum": 11,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Điện phân 500 mL dung dịch AgNO với điện cực trơ cho đến khi cathode bắt\nđầu có khí thoát ra thì dừng. Để trung hoà dung dịch sau điện phân cần 80 mL dung dịch NaOH\n0,1 M. Biết cường độ dòng điện là 0,2 A; thời gian điện phân là bao nhiêu giây?",
+        "prompt": "(SBT – KNTT) Điện phân 500 mL dung dịch AgNO<sub>3</sub> với điện cực trơ cho đến khi cathode bắt\nđầu có khí thoát ra thì dừng. Để trung hoà dung dịch sau điện phân cần 80 mL dung dịch NaOH\n0,1 M. Biết cường độ dòng điện là 0,2 A; thời gian điện phân là bao nhiêu giây?",
         "answer": "8",
         "acceptedAnswers": [
           "8",
@@ -6253,7 +6256,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D6.C12",
         "orig_qnum": 12,
         "topic": "Dạng 6: Bài tập điện phân 1 chất (nóng chảy – dung dịch)",
-        "prompt": "(SBT – KNTT) Để mạ 5,0 gam bạc lên một đĩa sắt khi điện phân dung dịch chứa ion [Ag(NH ) ]+\nvới dòng điện có cường độ 1,5 A không đổi cần thời gian t phút.\nCho biết quá trình khử tại cathode: [Ag(NH ) ]+ + 1e &rarr; Ag + 2NH . 2 3\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).",
+        "prompt": "(SBT – KNTT) Để mạ 5,0 gam bạc lên một đĩa sắt khi điện phân dung dịch chứa ion [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>+\nvới dòng điện có cường độ 1,5 A không đổi cần thời gian t phút.\nCho biết quá trình khử tại cathode: [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>+ + 1e &rarr; Ag + 2NH . 2 3\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).",
         "answer": "0.0463",
         "acceptedAnswers": [
           "0.0463",
@@ -6537,7 +6540,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         },
         "answer": "A",
         "figure": null,
-        "explanation": "n = 0,1 mol; n = 0,05 mol\nCuCl NaCl\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> điện phân hết\nCathode Anode\nCu2+ (0,1) + 2e &rarr; Cu0 2Cl– (0,25) &rarr; Cl + 2e\nIt\n &rArr; &rarr; t = 4825s\nn = 2n = 0,2 mol =\ne Cu2+ F"
+        "explanation": "n = 0,1 mol; n = 0,05 mol\nCuCl<sub>2</sub> NaCl\nKhi cathode bắt đầu thoát khí thì Cu<sup>2+</sup> điện phân hết\nCathode Anode\nCu2+ (0,1) + 2e &rarr; Cu0 2Cl– (0,25) &rarr; Cl + 2e\nIt\n &rArr; &rarr; t = 4825s\nn = 2n = 0,2 mol =\ne Cu2+ F"
       },
       {
         "id": 100,
@@ -6566,7 +6569,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "D7.C9",
         "orig_qnum": 9,
         "topic": "Dạng 7: Bài tập điện phân hỗn hợp 2 chất trong dung dịch",
-        "prompt": "(Đề MH lần II - 2017) Hòa tan hoàn toàn hỗn hợp X gồm CuSO<sub>4</sub> và KCl vào H<sub>2</sub>O, thu được\ndung dịch Y. Điện phân Y (có màng ngăn, điện cực trơ) đến khi H<sub>2</sub>O bắt đầu điện phân ở cả hai\nđiện cực thì dừng điện phân. Số mol khí thoát ra ở anode bằng 4 lần số mol khí thoát ra từ cathode.\nPhần trăm khối lượng của CuSO trong X là\n4",
+        "prompt": "(Đề MH lần II - 2017) Hòa tan hoàn toàn hỗn hợp X gồm CuSO<sub>4</sub> và KCl vào H<sub>2</sub>O, thu được dung dịch Y. Điện phân Y (có màng ngăn, điện cực trơ, cường độ dòng điện không đổi) trong thời gian t giây thu được 2,479 lít khí ở anode. Nếu điện phân trong 2t giây thì tổng thể tích khí thu được ở cả hai điện cực là 5,9496 lít. Phần trăm khối lượng của CuSO<sub>4</sub> trong X là",
         "options": {
           "A": "61,70%.",
           "B": "44,61%.",
@@ -6635,10 +6638,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(Đề THPT QG - 2017) Hai dung dịch nào sau đây đều tác dụng được với kim loại Fe?",
         "options": {
-          "A": "CuSO , HCl.",
-          "B": "HCl, CaCl .",
-          "C": "CuSO , ZnCl .",
-          "D": "MgCl , FeCl<sub>2</sub>."
+          "A": "CuSO<sub>4</sub> , HCl.",
+          "B": "HCl, CaCl<sub>2</sub> .",
+          "C": "CuSO<sub>4</sub> , ZnCl<sub>2</sub> .",
+          "D": "MgCl<sub>2</sub> , FeCl<sub>2</sub>."
         },
         "answer": "A",
         "figure": null,
@@ -6652,7 +6655,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "orig_qnum": 3,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SBT – CTST) Khi điện phân CaCl nóng chảy (điện cực trơ), ở anode xảy ra\n2",
+        "prompt": "(SBT – CTST) Khi điện phân CaCl<sub>2</sub> nóng chảy (điện cực trơ), ở anode xảy ra\n2",
         "options": {
           "A": "sự khử ion Cl<sup>-</sup>.",
           "B": "sự khử ion Ca<sup>2+</sup>.",
@@ -6711,7 +6714,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "topic": "Trắc nghiệm tổng hợp Chương 5",
         "prompt": "(SBT – CTST) Khi điện phân dung dịch nào sau đây, tại anode xảy ra quá trình oxi hoá nước?",
         "options": {
-          "A": "Dung dịch ZnCl .",
+          "A": "Dung dịch ZnCl<sub>2</sub> .",
           "B": "Dung dịch CuCl<sub>2</sub>.",
           "C": "Dung dịch AgNO<sub>3</sub>.",
           "D": "Dung dịch MgCl<sub>2</sub>."
@@ -6842,7 +6845,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "orig_qnum": 13,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(CĐ – 2010) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là\n4",
+        "prompt": "(CĐ – 2010) Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là:",
         "options": {
           "A": "ở cathode xảy ra sự khử: Cu<sup>2+</sup> + 2e &rarr; Cu.",
           "B": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>-</sup> + H.",
@@ -6960,7 +6963,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "Kim loại càng mạnh thì thế điện cực chuẩn càng âm.",
           "b": "Khi tạo thành pin điện hoá, kim loại mạnh hơn sẽ đóng vai trò là cathode.",
-          "c": "Điện phân dd CuSO , cứ thu được 1 mol Cu thì khối lượng dung dịch giảm 80 gam.",
+          "c": "Điện phân dd CuSO<sub>4</sub> , cứ thu được 1 mol Cu thì khối lượng dung dịch giảm 80 gam.",
           "d": "Để bảo vệ đồ vật bằng kim loại, nên gắn chúng với những mảnh kim loại yếu hơn."
         },
         "answer": {
@@ -6985,7 +6988,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "X gồm hai kim loại.",
           "b": "Cu có tính khử mạnh hơn Fe<sup>2+</sup> ở điều kiện chuẩn.",
-          "c": "Y gồm hai chất tan là CuSO và FeSO . 4\n\n=== PAGE 65 ===\n-65-",
+          "c": "Y gồm hai chất tan là CuSO<sub>4</sub> và FeSO<sub>4</sub> . 4\n\n",
           "d": "Trong điều kiện Fe (SO ) dư thì Y gồm ba muối. 4 3"
         },
         "answer": {
@@ -7092,14 +7095,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "orig_qnum": 25,
         "topic": "Trả lời ngắn tổng hợp Chương 5",
-        "prompt": "Điện phân với điện cực trơ, có màng ngăn các dung dịch sau: KCl, CuSO , AgNO , CuCl ,\nMgCl , NiSO , ZnCl . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 2",
+        "prompt": "Điện phân với điện cực trơ, có màng ngăn các dung dịch sau: KCl, CuSO<sub>4</sub> , AgNO<sub>3</sub> , CuCl<sub>2</sub> ,\nMgCl<sub>2</sub> , NiSO<sub>4</sub> , ZnCl<sub>2</sub> . Số dung dịch sau điện phân có pH < 7 là bao nhiêu?\n2 4 2",
         "answer": "7",
         "acceptedAnswers": [
           "7",
           "7"
         ],
         "figure": null,
-        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO , AgNO và NiSO. 4",
+        "explanation": "Số dung dịch sau điện phân có pH < 7 là 03: CuSO<sub>4</sub> , AgNO<sub>3</sub> và NiSO<sub>4</sub>. 4",
         "options": {}
       },
       {
@@ -7365,7 +7368,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "orig_qnum": 11,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(SGK – Hóa học 12 NC) Phản ứng nào xảy ra ở cathode trong quá trình điện phân MgCl nóng\nchảy?",
+        "prompt": "(SGK – Hóa học 12 NC) Phản ứng nào xảy ra ở cathode trong quá trình điện phân MgCl<sub>2</sub> nóng\nchảy?",
         "options": {
           "A": "Sự oxi hoá ion Mg<sup>2+</sup>.",
           "B": "Sự khử ion Mg<sup>2+</sup>.",
@@ -7403,7 +7406,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "orig_qnum": 13,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(ĐH A – 2008) Một pin điện hoá có điện cực Zn nhúng trong dung dịch ZnSO và điện cực Cu\nnhúng trong dung dịch CuSO<sub>4</sub>. Sau một thời gian pin đó phóng điện thì khối lượng\n4",
+        "prompt": "(ĐH A – 2008) Một pin điện hoá có điện cực Zn nhúng trong dung dịch ZnSO<sub>4</sub> và điện cực Cu\nnhúng trong dung dịch CuSO<sub>4</sub>. Sau một thời gian pin đó phóng điện thì khối lượng\n4",
         "options": {
           "A": "cả hai điện cực Zn và Cu đều tăng.",
           "B": "điện cực Zn giảm còn khối lượng điện cực Cu tăng.",
@@ -7498,7 +7501,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "orig_qnum": 18,
         "topic": "Trắc nghiệm tổng hợp Chương 5",
-        "prompt": "(Đề TSĐH A - 2010) Điện phân (với điện cực trơ) một dung dịch gồm NaCl và CuSO có cùng\nsố mol, đến khi ở cathode xuất hiện bọt khí thì dừng điện phân. Trong cả quá trình điện phân\ntrên, sản phẩm thu được ở anode là",
+        "prompt": "(Đề TSĐH A - 2010) Điện phân (với điện cực trơ) một dung dịch gồm NaCl và CuSO<sub>4</sub> có cùng\nsố mol, đến khi ở cathode xuất hiện bọt khí thì dừng điện phân. Trong cả quá trình điện phân\ntrên, sản phẩm thu được ở anode là",
         "options": {
           "A": "khí Cl và H .",
           "B": "khí Cl và O .",
@@ -7714,7 +7717,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "2"
         ],
         "figure": null,
-        "explanation": "CuCl &rarr; \n{\n{\nCu + Cl<sub>2</sub>\n(0,075 mol)\n2 dd X + Fe (0,225 mol)\n} \nVậy, X chứa Cu<sup>2+</sup> dư: Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu\n &rArr; n = n + n = 0,075 + 0,225 = 0,3 mol &rarr; V = 0,6 L\nCu2+ (bđ) Cu2+ (đp) Cu(dư )",
+        "explanation": "CuCl<sub>2</sub> &rarr; \n{\n{\nCu + Cl<sub>2</sub>\n(0,075 mol)\n2 dd X + Fe (0,225 mol)\n} \nVậy, X chứa Cu<sup>2+</sup> dư: Fe + Cu<sup>2+</sup> &rarr; Fe<sup>2+</sup> + Cu\n &rArr; n = n + n = 0,075 + 0,225 = 0,3 mol &rarr; V = 0,6 L\nCu2+ (bđ) Cu2+ (đp) Cu(dư )",
         "options": {}
       }
     ]

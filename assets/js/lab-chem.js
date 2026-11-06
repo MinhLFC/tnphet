@@ -439,43 +439,37 @@
     
     // Bài 15 (Chương 5)
     if (exam.id === 'chem_ch5_cd1') {
-      if (q.part === 1) {
-        if (q.qnum <= 20) return { key: 'cd1_s1', code: 'Mục 2.1', title: '2.1. Cặp oxi hóa – khử & Thế điện cực (Câu 1 - 20)' };
-        if (q.qnum <= 50) return { key: 'cd1_s2', code: 'Mục 2.2', title: '2.2. Ý nghĩa thế điện cực chuẩn (Câu 21 - 50)' };
-        return { key: 'cd1_s3', code: 'Mục 2.3', title: '2.3. Pin điện hóa & Sức điện động (Câu 51 - 90)' };
-      } else if (q.part === 2) {
-        if (q.qnum <= 16) return { key: 'cd1_s4', code: 'Mục 2.4', title: '2.4. Đúng/Sai: Cặp oxi hóa – khử & Thế điện cực (1 - 16)' };
-        return { key: 'cd1_s5', code: 'Mục 2.5', title: '2.5. Đúng/Sai: Pin điện hóa & Cơ chế (17 - 40)' };
-      } else {
-        return { key: 'cd1_s6', code: 'Mục 2.6', title: '2.6. Trả lời ngắn: Thế điện cực & Dãy điện hóa (1 - 15)' };
-      }
+      if (q.id <= 20) return { key: 'cd1_s1', code: 'Mục 2.1', title: '2.1. Cặp oxi hóa – khử & Thế điện cực (Câu 1 - 20)' };
+      if (q.id <= 60) return { key: 'cd1_s2', code: 'Mục 2.2', title: '2.2. Ý nghĩa thế điện cực chuẩn (Câu 1 - 40)' };
+      if (q.id <= 90) return { key: 'cd1_s3', code: 'Mục 2.3', title: '2.3. Pin điện hóa & Sức điện động (Câu 1 - 30)' };
+      if (q.id <= 105) return { key: 'cd1_s4', code: 'Mục 2.4', title: '2.4. Đúng/Sai: Cặp oxi hóa – khử & Thế điện cực (Câu 1 - 15)' };
+      if (q.id <= 130) return { key: 'cd1_s5', code: 'Mục 2.5', title: '2.5. Đúng/Sai: Pin điện hóa & Cơ chế (Câu 1 - 25)' };
+      return { key: 'cd1_s6', code: 'Mục 2.6', title: '2.6. Trả lời ngắn: Thế điện cực & Dãy điện hóa (Câu 1 - 15)' };
     }
     
     // Bài 16 (Chương 5)
     if (exam.id === 'chem_ch5_cd2') {
-      if (q.part === 1) return { key: 'cd2_s1', code: 'Mục 2.1', title: '2.1. Trắc nghiệm: Quá trình & Hiện tượng điện phân (1 - 50)' };
-      if (q.part === 2) return { key: 'cd2_s2', code: 'Mục 2.2', title: '2.2. Đúng/Sai: Điện phân nóng chảy & dung dịch (1 - 20)' };
-      return { key: 'cd2_s3', code: 'Mục 2.3', title: '2.3. Trả lời ngắn: Định luật Faraday & Tính toán (1 - 12)' };
+      if (q.id <= 50) return { key: 'cd2_s1', code: 'Mục 2.1', title: '2.1. Trắc nghiệm: Quá trình & Hiện tượng điện phân (Câu 1 - 50)' };
+      if (q.id <= 70) return { key: 'cd2_s2', code: 'Mục 2.2', title: '2.2. Đúng/Sai: Điện phân nóng chảy & dung dịch (Câu 1 - 20)' };
+      return { key: 'cd2_s3', code: 'Mục 2.3', title: '2.3. Trả lời ngắn: Định luật Faraday & Tính toán (Câu 1 - 12)' };
     }
     
     // Bài tập phân dạng (chem_ch5_dang)
     if (exam.id === 'chem_ch5_dang') {
-      const t = q.topic || '';
-      if (t.includes('Dạng 1')) return { key: 'dang_1', code: 'Dạng 1', title: 'Dạng 1: Sức điện động chuẩn pin điện hóa (24 câu)' };
-      if (t.includes('Dạng 2')) return { key: 'dang_2', code: 'Dạng 2', title: 'Dạng 2: Tính thế điện cực chuẩn (10 câu)' };
-      if (t.includes('Dạng 3')) return { key: 'dang_3', code: 'Dạng 3', title: 'Dạng 3: 1 kim loại + 1 dung dịch muối (15 câu)' };
-      if (t.includes('Dạng 4')) return { key: 'dang_4', code: 'Dạng 4', title: 'Dạng 4: 2 kim loại + 1 dung dịch muối (12 câu)' };
-      if (t.includes('Dạng 5')) return { key: 'dang_5', code: 'Dạng 5', title: 'Dạng 5: 1 kim loại + 2 dung dịch muối (11 câu)' };
-      if (t.includes('Dạng 6')) return { key: 'dang_6', code: 'Dạng 6', title: 'Dạng 6: Điện phân 1 chất nóng chảy & dd (20 câu)' };
-      if (t.includes('Dạng 7')) return { key: 'dang_7', code: 'Dạng 7', title: 'Dạng 7: Điện phân hỗn hợp 2 chất (10 câu)' };
-      return { key: 'dang_other', code: 'Phân dạng', title: t || 'Bài tập phân dạng' };
+      if (q.id <= 24) return { key: 'dang_1', code: 'Dạng 1', title: 'Dạng 1: Sức điện động chuẩn pin điện hóa (Câu 1 - 24)' };
+      if (q.id <= 34) return { key: 'dang_2', code: 'Dạng 2', title: 'Dạng 2: Tính thế điện cực chuẩn (Câu 1 - 10)' };
+      if (q.id <= 49) return { key: 'dang_3', code: 'Dạng 3', title: 'Dạng 3: 1 kim loại + 1 dung dịch muối (Câu 1 - 15)' };
+      if (q.id <= 61) return { key: 'dang_4', code: 'Dạng 4', title: 'Dạng 4: 2 kim loại + 1 dung dịch muối (Câu 1 - 12)' };
+      if (q.id <= 72) return { key: 'dang_5', code: 'Dạng 5', title: 'Dạng 5: 1 kim loại + 2 dung dịch muối (Câu 1 - 11)' };
+      if (q.id <= 92) return { key: 'dang_6', code: 'Dạng 6', title: 'Dạng 6: Điện phân 1 chất nóng chảy & dd (Câu 1 - 20)' };
+      return { key: 'dang_7', code: 'Dạng 7', title: 'Dạng 7: Điện phân hỗn hợp 2 chất (Câu 1 - 10)' };
     }
     
     // Đề ôn tập 01 & 02
     if (exam.id === 'chem_ch5_de01' || exam.id === 'chem_ch5_de02') {
-      if (q.part === 1) return { key: 'de_p1', code: 'Phần 1', title: 'Phần 1: Trắc nghiệm khách quan (18 câu)' };
-      if (q.part === 2) return { key: 'de_p2', code: 'Phần 2', title: 'Phần 2: Trắc nghiệm Đúng / Sai (4 câu)' };
-      return { key: 'de_p3', code: 'Phần 3', title: 'Phần 3: Trắc nghiệm Trả lời ngắn (6 câu)' };
+      if (q.id <= 18) return { key: 'de_p1', code: 'Phần 1', title: 'Phần 1: Trắc nghiệm khách quan (Câu 1 - 18)' };
+      if (q.id <= 22) return { key: 'de_p2', code: 'Phần 2', title: 'Phần 2: Đúng / Sai (Câu 19 - 22)' };
+      return { key: 'de_p3', code: 'Phần 3', title: 'Phần 3: Trả lời ngắn (Câu 23 - 28)' };
     }
     
     return {
@@ -605,14 +599,18 @@ function renderSlideView(filtered) {
                   if (star) cellClass += ' is-starred';
 
                   let shortTag = '';
+                  const num = q.orig_qnum || q.qnum || q.id;
                   if (exam.id === 'chem_ch5_dang') {
-                    shortTag = q.label ? q.label.replace('Dạng ', 'D').replace('.Câu ', '.C') : `C.${q.orig_qnum || q.qnum}`;
+                    const sec = getQuestionSection(q, exam);
+                    shortTag = `${sec.code.replace('Dạng ', 'D')}.C${num}`;
+                  } else if (exam.id === 'chem_ch5_de01' || exam.id === 'chem_ch5_de02') {
+                    shortTag = `C.${num}`;
                   } else if (q.part === 1) {
-                    shortTag = `C.${q.qnum}`;
+                    shortTag = `C.${num}`;
                   } else if (q.part === 2) {
-                    shortTag = `ĐS.${q.qnum}`;
+                    shortTag = `ĐS.${num}`;
                   } else {
-                    shortTag = `TL.${q.qnum}`;
+                    shortTag = `TL.${num}`;
                   }
 
                   return `
@@ -690,9 +688,12 @@ function renderSlideView(filtered) {
         <div class="slide-q-meta">
           ${(() => {
             const sec = getQuestionSection(q, exam);
-            return `<span class="slide-q-topic" style="background:#e0f2fe; color:#0369a1; font-weight:700;">📂 ${sec.code}</span>`;
+            const pdfNum = q.orig_qnum || q.qnum || q.id;
+            return `
+              <span class="slide-q-topic" style="background:#e0f2fe; color:#0369a1; font-weight:700; border-radius: 6px; padding: 0.2rem 0.5rem;">📂 ${sec.code} • Câu ${pdfNum} (PDF)</span>
+              <span class="slide-q-number" style="font-weight: 600; color: #475569;">${exam.shortTitle || "Hóa học 12"} • ${q.id}/${exam.questions ? exam.questions.length : 145}</span>
+            `;
           })()}
-          <span class="slide-q-number">${(exam.shortTitle || exam.title || "Hóa học 12").replace(/\s*•\s*undefined/g, "")} • ${(q && q.label && q.label !== "undefined" && String(q.label).trim()) ? q.label : ("Câu " + (q.orig_qnum || q.qnum || q.id || (state.currentIdx + 1)))}</span>
           ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
           <span class="slide-q-topic" style="background: rgba(2, 132, 199, 0.1); color: #0284c7;">
             ${q.type === 'mcq' ? 'Nhiều lựa chọn (0.25đ)' : (q.type === 'tf' ? 'Đúng/Sai (Tối đa 1.0đ)' : 'Trả lời ngắn (0.25đ)')}
