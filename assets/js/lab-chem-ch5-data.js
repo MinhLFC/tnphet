@@ -1,9 +1,6 @@
 /**
- * DỮ LIỆU HÓA HỌC 12 - CHƯƠNG 5: PIN ĐIỆN & ĐIỆN PHÂN
- * Chủ đề 1: Thế điện cực & Nguồn điện hóa học (84 Ví dụ mẫu & 112 câu trắc nghiệm)
- * Chủ đề 2: Quá trình điện phân & Ứng dụng (47 Ví dụ mẫu & 101 câu trắc nghiệm)
- * Chuẩn 100% đáp án từ bản Giáo viên (PDF trang 55-108).
- * Lời giải chi tiết sư phạm, khôi phục toàn bộ mũi tên &rarr; và chỉ số hóa học.
+ * DỮ LIỆU CÂU HỎI & VÍ DỤ MINH HỌA - HÓA HỌC 12 CHƯƠNG 5: PIN ĐIỆN VÀ ĐIỆN PHÂN
+ * Chuẩn hóa 100% LaTeX / HTML Subscript / Superscript
  */
 
 window.CHEM_CH5_EXAMS_DATA = {
@@ -150,8 +147,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "question": "Đối với điện cực hydrogen chuẩn, tại ranh giới giữa bề mặt Pt với dung\ndịch chất điện li tồn tại cân bằng",
         "options": {
           "A": "2H<sub>2</sub>O+ 2e H + 2OH−.",
-          "B": "H<sup>+</sup>+ 1e H.",
-          "C": "2H++ 2e H .",
+          "B": "H<sup>+</sup>+ 1e H<sub>2</sub>.",
+          "C": "2H<sup>+</sup>+ 2e H<sub>2</sub>.",
           "D": "H H<sup>+</sup> + 1e. <i>E</i>° =−0,762 V"
         },
         "explanation": "Áp dụng định nghĩa cặp oxi hoá – khử, bảng thế điện cực chuẩn và quy tắc alpha để dự đoán chiều phản ứng hoặc tính sức điện động."
@@ -164,7 +161,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "cao hơn.",
           "B": "thấp hơn.",
           "C": "bằng.",
-          "D": "gấp đôi.\n3"
+          "D": "gấp đôi."
         },
         "explanation": "Áp dụng định nghĩa cặp oxi hoá – khử, bảng thế điện cực chuẩn và quy tắc alpha để dự đoán chiều phản ứng hoặc tính sức điện động."
       },
@@ -255,11 +252,11 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 21,
         "label": "Ví dụ 8",
-        "question": "Cho thứ tự sắp xếp các cặp oxi hoá − khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg;\nH<sub>2</sub>O/H , OH−; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
+        "question": "Cho thứ tự sắp xếp các cặp oxi hoá − khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg;\nH<sub>2</sub>O/H<sub>2</sub>, OH−; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
         "options": {
           "A": "2H<sup>+</sup>/H<sub>2</sub>.",
           "B": "Ag<sup>+</sup>/Ag.",
-          "C": "H<sub>2</sub>O/H , OH−.",
+          "C": "H<sub>2</sub>O/H<sub>2</sub>, OH−.",
           "D": "Mg<sup>2+</sup>/Mg."
         },
         "explanation": "Áp dụng định nghĩa cặp oxi hoá – khử, bảng thế điện cực chuẩn và quy tắc alpha để dự đoán chiều phản ứng hoặc tính sức điện động."
@@ -351,7 +348,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 29,
         "label": "Ví dụ 16",
-        "question": "Ở điều kiện chuẩn, kim loại nào sau đây khử được ion H<sup>+</sup> thành H ?",
+        "question": "Ở điều kiện chuẩn, kim loại nào sau đây khử được ion H<sup>+</sup> thành H<sub>2</sub> ?",
         "options": {
           "A": "Mg.",
           "B": "Cu.",
@@ -387,7 +384,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 32,
         "label": "Ví dụ 19",
-        "question": "Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO<sub>4</sub> có thể dùng kim loại\n4",
+        "question": "Để khử ion Cu<sup>2+</sup> trong dung dịch CuSO<sub>4</sub> có thể dùng kim loại",
         "options": {
           "A": "Fe.",
           "B": "Na.",
@@ -497,10 +494,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Ví dụ 28",
         "question": "Hai kim loại X, Y và các dung dịch muối chloride của chúng có các phản ứng hóa học sau:\nX + 2YCl\n3 &rarr;\nAl<sup>3+</sup> /Al\nXCl + 2YCl ;\n2 2\nY + XCl &rarr; YCl + X.\n2 2\nPhát biểu nào sau đây là đúng?",
         "options": {
-          "A": "Kim loại X khử được ion Y2+.",
+          "A": "Kim loại X khử được ion Y<sup>2+</sup>.",
           "B": "Kim loại X có tính khử mạnh hơn kim loại Y.",
-          "C": "Ion Y3+ có tính oxi hóa mạnh hơn ion X2+.",
-          "D": "Ion Y2+ có tính oxi hóa mạnh hơn ion X2+.\n<i>E</i>° =+0,80 V; <i>E</i>° =+0,85 V"
+          "C": "Ion Y<sup>3+</sup> có tính oxi hóa mạnh hơn ion X<sup>2+</sup>.",
+          "D": "Ion Y<sup>2+</sup> có tính oxi hóa mạnh hơn ion X<sup>2+</sup>.\n<i>E</i>° =+0,80 V; <i>E</i>° =+0,85 V"
         },
         "explanation": "Áp dụng định nghĩa cặp oxi hoá – khử, bảng thế điện cực chuẩn và quy tắc alpha để dự đoán chiều phản ứng hoặc tính sức điện động."
       },
@@ -552,7 +549,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 47,
         "label": "Ví dụ 34",
-        "question": "Cho phản ứng oxi hoá – khử sau: X(s) + Y2+(aq)\n7 &rarr; X2+(aq) + Y(s).\na. Chất X có tính khử mạnh hơn chất Y.\nb. Ion Y2+ có tính khử mạnh hơn ion X2+.\nc. Chất X có tính oxi hoá mạnh hơn chất Y.\nd. Ion X2+ có tính oxi hoá mạnh hơn ion Y2+.",
+        "question": "Cho phản ứng oxi hoá – khử sau: X(s) + Y<sup>2+</sup>(aq)\n7 &rarr; X<sup>2+</sup>(aq) + Y(s).\na. Chất X có tính khử mạnh hơn chất Y.\nb. Ion Y<sup>2+</sup> có tính khử mạnh hơn ion X<sup>2+</sup>.\nc. Chất X có tính oxi hoá mạnh hơn chất Y.\nd. Ion X<sup>2+</sup> có tính oxi hoá mạnh hơn ion Y<sup>2+</sup>.",
         "options": null,
         "explanation": "Áp dụng định nghĩa cặp oxi hoá – khử, bảng thế điện cực chuẩn và quy tắc alpha để dự đoán chiều phản ứng hoặc tính sức điện động."
       },
@@ -695,8 +692,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Fe\n10 &rarr;\nFe<sup>2+</sup> + 2e",
           "B": "Fe2 + 2e &rarr;\nFe",
-          "C": "Ag<sup>+</sup> + le Ag",
-          "D": "Ag Ag<sup>+</sup> + le &rarr; &rarr;"
+          "C": "Ag<sup>+</sup> + 1e Ag",
+          "D": "Ag Ag<sup>+</sup> + 1e &rarr; &rarr;"
         },
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       },
@@ -705,10 +702,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Ví dụ 13",
         "question": "Trong pin nhiên liệu hydrogen, H có vai trò tương tự như kim loại mạnh hơn trong pin Galvani. Phản ứng nào sau đây diễn ra ở điện cực dương khi pin nhiên liệu hydrogen hoạt động?",
         "options": {
-          "A": "2H + O\n2 2 &rarr; 2H<sub>2</sub>O.",
-          "B": "H\n2 2 &rarr; 2H+ + 2e.",
-          "C": "O + 4H+ + 4e &rarr; 2H<sub>2</sub>O.",
-          "D": "2H+ + 2e &rarr; H ."
+          "A": "2H + O\n2 2 &rarr; 2H<sub>2</sub>O<sub>2</sub>.",
+          "B": "H\n2 2 &rarr; 2H<sup>+</sup> + 2e.",
+          "C": "O + 4H<sup>+</sup> + 4e &rarr; 2H<sub>2</sub>O<sub>2</sub>.",
+          "D": "2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>."
         },
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       },
@@ -832,7 +829,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 72,
         "label": "Ví dụ 25",
-        "question": "Pin X-Y có sức điện động chuẩn là 1,10 V với hai cặp oxi hoá - khử là X<sup>2+</sup>/X và Y<sup>2+</sup>/Y. Pin\nY-Z có sức điện động chuẩn là 0,82 V với hai cặp oxi hoá - khử là Y<sup>2+</sup>/Y và Z2+/Z. Pin X-Z (với hai\ncặp oxi hoá - khử là X<sup>2+</sup>/X và Z2+/Z) có sức điện động chuẩn là bao nhiêu volt (V)? (1,92)",
+        "question": "Pin X-Y có sức điện động chuẩn là 1,10 V với hai cặp oxi hoá - khử là X<sup>2+</sup>/X và Y<sup>2+</sup>/Y. Pin\nY-Z có sức điện động chuẩn là 0,82 V với hai cặp oxi hoá - khử là Y<sup>2+</sup>/Y và Z<sup>2+</sup>/Z. Pin X-Z (với hai\ncặp oxi hoá - khử là X<sup>2+</sup>/X và Z<sup>2+</sup>/Z) có sức điện động chuẩn là bao nhiêu volt (V)? (1,92)",
         "options": null,
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       },
@@ -874,14 +871,14 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 78,
         "label": "Ví dụ 31",
-        "question": "Một pin điện hoá Zn − H được thiết lập ở các điều kiện như hình vẽ sau (vôn kế có điện trở rất lớn).\na. Giá trị thế điện cực chuẩn của cặp oxi hoá − khử Zn<sup>2+</sup>/Zn là 0,762 V.\nb. Quá trình khử xảy ra ở cathode là: 2H+ + 2e\n12 &rarr; H . c. Chất điện li trong cầu muối là KCl.\nd. Phản ứng hoá học xảy ra trong pin là: Zn + 2H+ &rarr; Zn<sup>2+</sup> + H .",
+        "question": "Một pin điện hoá Zn − H được thiết lập ở các điều kiện như hình vẽ sau (vôn kế có điện trở rất lớn).\na. Giá trị thế điện cực chuẩn của cặp oxi hoá − khử Zn<sup>2+</sup>/Zn là 0,762 V.\nb. Quá trình khử xảy ra ở cathode là: 2H<sup>+</sup> + 2e\n12 &rarr; H<sub>2</sub>. c. Chất điện li trong cầu muối là KCl.\nd. Phản ứng hoá học xảy ra trong pin là: Zn + 2H<sup>+</sup> &rarr; Zn<sup>2+</sup> + H<sub>2</sub>.",
         "options": null,
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       },
       {
         "id": 79,
         "label": "Ví dụ 32",
-        "question": "Cho pin điện hoá có cấu tạo như sau:\na. Sức điện động chuẩn của pin là 0,76 V.\nb. Tại điện cực âm xảy ra quá trình oxi hoá Zn(s) thành ion Zn<sup>2+</sup>(aq).\nc. Tại điện cực dương xảy ra quá trình khử ion H<sup>+</sup>(aq) thành khí H (g). d. Phản ứng xảy ra trong pin là: H (g) + Zn<sup>2+</sup>(aq) 13 &rarr; Zn(s) + 2H+(aq).",
+        "question": "Cho pin điện hoá có cấu tạo như sau:\na. Sức điện động chuẩn của pin là 0,76 V.\nb. Tại điện cực âm xảy ra quá trình oxi hoá Zn(s) thành ion Zn<sup>2+</sup>(aq).\nc. Tại điện cực dương xảy ra quá trình khử ion H<sup>+</sup>(aq) thành khí H (g). d. Phản ứng xảy ra trong pin là: H (g) + Zn<sup>2+</sup>(aq) 13 &rarr; Zn(s) + 2H<sup>+</sup>(aq).",
         "options": null,
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       },
@@ -907,7 +904,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 82,
         "label": "Ví dụ 2",
-        "question": "Pin nhiên liệu được nghiên cứu rộng rãi nhằm thay thế nguồn nhiên liệu hóa thạch ngày càng\ncạn kiệt. Trong pin nhiên liệu, dòng điện được tạo ra do phản ứng oxi hóa nhiên liệu (hydrogen, carbon\nmonooxide, methanol, ethanol, propane,…) bằng oxygen không khí. Pin nhiên liệu phổ biến hiện nay\nlà pin hydrogen. Nhược điểm của pin nhiên liệu là\n14",
+        "question": "Pin nhiên liệu được nghiên cứu rộng rãi nhằm thay thế nguồn nhiên liệu hóa thạch ngày càng\ncạn kiệt. Trong pin nhiên liệu, dòng điện được tạo ra do phản ứng oxi hóa nhiên liệu (hydrogen, carbon\nmonooxide, methanol, ethanol, propane,…) bằng oxygen không khí. Pin nhiên liệu phổ biến hiện nay\nlà pin hydrogen. Nhược điểm của pin nhiên liệu là",
         "options": {
           "A": "nhiên liệu được bổ sung liên tục.",
           "B": "thời gian hoạt động của pin không bị hạn chế.",
@@ -936,7 +933,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "Na<sup>+</sup>/Na.",
           "B": "2H<sup>+</sup>/H<sub>2</sub>.",
           "C": "Al<sup>3+</sup>/Al.",
-          "D": "Cl<sub>2</sub>/2Cl<sup>−</sup>.\n2 2\nCâu 10. (SBT – KNTT) Cặp oxi hoá − khử nào sau đây có giá trị thế điện cực chuẩn lớn hơn 0?\n15"
+          "D": "Cl<sub>2</sub>/2Cl<sup>−</sup>.\n2 2\nCâu 10. (SBT – KNTT) Cặp oxi hoá − khử nào sau đây có giá trị thế điện cực chuẩn lớn hơn 0?"
         },
         "explanation": "Ở anode (cực âm) xảy ra quá trình oxi hoá kim loại mạnh hơn; ở cathode (cực dương) xảy ra quá trình khử ion kim loại yếu hơn. <i>E</i>°pin = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub>."
       }
@@ -1238,8 +1235,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Fe &rarr; Fe<sup>2+</sup> + 2e.",
           "B": "Fe<sup>2+</sup> + 2e &rarr; Fe.",
-          "C": "Ag + le &rarr; Ag.",
-          "D": "Ag &rarr; Ag + le."
+          "C": "Ag + 1e &rarr; Ag.",
+          "D": "Ag &rarr; Ag + 1e."
         },
         "answer": "A",
         "figure": null,
@@ -1324,11 +1321,11 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "mcq",
         "part": 1,
         "orig_qnum": 22,
-        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá − khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg;\nH<sub>2</sub>O/H , OH−; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
+        "prompt": "(SBT – KNTT) Cho thứ tự sắp xếp các cặp oxi hoá − khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg;\nH<sub>2</sub>O/H<sub>2</sub>, OH−; 2H<sup>+</sup>/H<sub>2</sub> ; Ag<sup>+</sup>/Ag. Cặp oxi hoá − khử có giá trị thế điện cực chuẩn lớn nhất trong dãy là",
         "options": {
           "A": "2H<sup>+</sup>/H<sub>2</sub>.",
           "B": "Ag<sup>+</sup>/Ag.",
-          "C": "H<sub>2</sub>O/H , OH−.",
+          "C": "H<sub>2</sub>O/H<sub>2</sub>, OH−.",
           "D": "Mg<sup>2+</sup>/Mg."
         },
         "answer": "B",
@@ -1417,13 +1414,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Pin quả chanh được thiếp lập gồm một dây Cu và dây Zn ghim vào một\nquả chanh và nối với bóng điện như hình bên. Bóng điện sáng đồng nghĩa với sự\nxuất hiện dòng điện. Bán phản ứng nào sau đây xảy ra ở cực dương?",
         "options": {
           "A": "Cu<sup>2+</sup>(aq) + 2e &rarr; Cu(s).",
-          "C": "2H+(aq) + 2e &rarr; H (g).",
+          "C": "2H<sup>+</sup>(aq) + 2e &rarr; H (g).",
           "B": "Zn(s) &rarr; Zn<sup>2+</sup>(aq) + 2e.",
           "D": "Cu(s) &rarr; Cu²+(aq) + 2e."
         },
         "answer": "C",
         "figure": "assets/images/quiz/chem_ch5/chem_cd1_p1_q27_pin_chanh.png",
-        "explanation": "Trong pin Galvani Zn – Cu:<br>• Do <i>E</i>°(Zn<sup>n+</sup>/Zn) = -0,76 V &lt; <i>E</i>°(Cu<sup>m+</sup>/Cu) = +0,34 V nên <b>Zn</b> có tính khử mạnh hơn <b>Cu</b>.<br>• <b>Tại Anode (cực âm)</b>: Thanh kim loại Zn đóng vai trò cực âm, xảy ra quá trình oxi hóa: <b>Zn &rarr; Zn<sup>n+</sup> + ne</b>.<br>• <b>Tại Cathode (cực dương)</b>: Xảy ra quá trình khử cation Cu<sup>m+</sup>: <b>Cu<sup>m+</sup> + me &rarr; Cu</b>.<br>• Phản ứng tổng quát trong pin: mZn + nCu<sup>m+</sup> &rarr; mZn<sup>n+</sup> + nCu.<br>&rarr; Quá trình xảy ra ở anode là: <b>2H+(aq) + 2e &rarr; H (g).</b>. Chọn đáp án <b>C</b>.",
+        "explanation": "Trong pin Galvani Zn – Cu:<br>• Do <i>E</i>°(Zn<sup>n+</sup>/Zn) = -0,76 V &lt; <i>E</i>°(Cu<sup>m+</sup>/Cu) = +0,34 V nên <b>Zn</b> có tính khử mạnh hơn <b>Cu</b>.<br>• <b>Tại Anode (cực âm)</b>: Thanh kim loại Zn đóng vai trò cực âm, xảy ra quá trình oxi hóa: <b>Zn &rarr; Zn<sup>n+</sup> + ne</b>.<br>• <b>Tại Cathode (cực dương)</b>: Xảy ra quá trình khử cation Cu<sup>m+</sup>: <b>Cu<sup>m+</sup> + me &rarr; Cu</b>.<br>• Phản ứng tổng quát trong pin: mZn + nCu<sup>m+</sup> &rarr; mZn<sup>n+</sup> + nCu.<br>&rarr; Quá trình xảy ra ở anode là: <b>2H<sup>+</sup>(aq) + 2e &rarr; H (g).</b>. Chọn đáp án <b>C</b>.",
         "id": 27,
         "qnum": 27,
         "label": "Phần 1 - Câu 27"
@@ -1684,16 +1681,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "mcq",
         "part": 1,
         "orig_qnum": 10,
-        "prompt": "Pin điện hóa có kí hiệu đơn giản: kim loại (anode) – kim loại (cathode). Phản ứng chung của\nmột pin điện hóa là: X(s) + Y2+(aq) &rarr; Y(s) + X2+(aq). Kí hiệu của pin điện hóa đó là",
+        "prompt": "Pin điện hóa có kí hiệu đơn giản: kim loại (anode) – kim loại (cathode). Phản ứng chung của\nmột pin điện hóa là: X(s) + Y<sup>2+</sup>(aq) &rarr; Y(s) + X<sup>2+</sup>(aq). Kí hiệu của pin điện hóa đó là",
         "options": {
-          "A": "Y – X2+.",
+          "A": "Y – X<sup>2+</sup>.",
           "B": "X – Y.",
-          "C": "X – Y2+.",
+          "C": "X – Y<sup>2+</sup>.",
           "D": "Y – X."
         },
-        "answer": "C",
+        "answer": "B",
         "figure": null,
-        "explanation": "Trong pin điện hóa kim loại:<br>• <b>Tại Anode (cực âm)</b>: Kim loại có tính khử mạnh hơn đóng vai trò cực âm, xảy ra quá trình oxi hóa: M &rarr; M<sup>n+</sup> + ne.<br>• <b>Tại Cathode (cực dương)</b>: Xảy ra quá trình khử cation có tính oxi hóa mạnh hơn: M<sup>n+</sup> + ne &rarr; M.<br>&rarr; Quá trình phù hợp theo câu hỏi là <b>X – Y2+.</b>. Chọn đáp án <b>C</b>.",
+        "explanation": "Quy ước kí hiệu đơn giản của pin điện hóa: kim loại (anode) – kim loại (cathode).<br>Trong phản ứng pin: X(s) + Y<sup>2+</sup>(aq) &rarr; Y(s) + X<sup>2+</sup>(aq):<br>• Tại Anode (cực âm): X bị oxi hóa thành X<sup>2+</sup> (X &rarr; X<sup>2+</sup> + 2e) &rarr; kim loại anode là <b>X</b>.<br>• Tại Cathode (cực dương): Y<sup>2+</sup> bị khử thành Y (Y<sup>2+</sup> + 2e &rarr; Y) &rarr; kim loại cathode là <b>Y</b>.<br>&rarr; Kí hiệu đơn giản của pin là <b>X – Y</b>. Chọn đáp án <b>B</b>.",
         "id": 42,
         "qnum": 42,
         "label": "Phần 1 - Câu 42"
@@ -1864,16 +1861,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "mcq",
         "part": 1,
         "orig_qnum": 20,
-        "prompt": "(Đề TSĐH A - 2011) Cho các phản ứng sau:\nFe + 2Fe(NO )\n3 3 &rarr; 3Fe(NO ) ; AgNO<sub>3</sub> + Fe(NO<sub>3</sub>)<sub>3</sub> 2 3 3 2 &rarr; Fe(NO ) + Ag.\n3 3\nDãy sắp xếp theo thứ tự tăng dần tính oxi hoá của các ion kim loại là",
+        "prompt": "(Đề TSĐH A - 2011) Cho các phản ứng sau:\nFe + 2Fe(NO<sub>3</sub>)<sub>3</sub> &rarr; 3Fe(NO<sub>3</sub>)<sub>2</sub>;\nAgNO<sub>3</sub> + Fe(NO<sub>3</sub>)<sub>2</sub> &rarr; Fe(NO<sub>3</sub>)<sub>3</sub> + Ag.\nDãy sắp xếp theo thứ tự tăng dần tính oxi hoá của các ion kim loại là",
         "options": {
           "A": "Ag<sup>+</sup>, Fe<sup>2+</sup>, Fe<sup>3+</sup>.",
           "B": "Ag<sup>+</sup>, Fe<sup>3+</sup>, Fe<sup>2+</sup>.",
           "C": "Fe<sup>2+</sup>, Ag<sup>+</sup>, Fe<sup>3+</sup>.",
           "D": "Fe<sup>2+</sup>, Fe<sup>3+</sup>, Ag<sup>+</sup>."
         },
-        "answer": "A",
+        "answer": "D",
         "figure": null,
-        "explanation": "Trong pin Galvani Fe – Ag:<br>• Do <i>E</i>°(Fe<sup>n+</sup>/Fe) = -0,44 V &lt; <i>E</i>°(Ag<sup>m+</sup>/Ag) = +0,80 V nên <b>Fe</b> có tính khử mạnh hơn <b>Ag</b>.<br>• <b>Tại Anode (cực âm)</b>: Thanh kim loại Fe đóng vai trò cực âm, xảy ra quá trình oxi hóa: <b>Fe &rarr; Fe<sup>n+</sup> + ne</b>.<br>• <b>Tại Cathode (cực dương)</b>: Xảy ra quá trình khử cation Ag<sup>m+</sup>: <b>Ag<sup>m+</sup> + me &rarr; Ag</b>.<br>• Phản ứng tổng quát trong pin: mFe + nAg<sup>m+</sup> &rarr; mFe<sup>n+</sup> + nAg.<br>&rarr; Quá trình xảy ra ở anode là: <b>Ag<sup>+</sup>, Fe<sup>2+</sup>, Fe<sup>3+</sup>.</b>. Chọn đáp án <b>A</b>.",
+        "explanation": "Dựa vào 2 phản ứng đề bài cho:<br>• Fe + 2Fe<sup>3+</sup> &rarr; 3Fe<sup>2+</sup> &rArr; Tính oxi hóa: Fe<sup>3+</sup> > Fe<sup>2+</sup>.<br>• Ag<sup>+</sup> + Fe<sup>2+</sup> &rarr; Fe<sup>3+</sup> + Ag &rArr; Tính oxi hóa: Ag<sup>+</sup> > Fe<sup>3+</sup>.<br>&rArr; Thứ tự tăng dần tính oxi hóa là: <b>Fe<sup>2+</sup> < Fe<sup>3+</sup> < Ag<sup>+</sup></b>.<br>Chọn đáp án <b>D</b>.",
         "id": 52,
         "qnum": 52,
         "label": "Phần 1 - Câu 52"
@@ -1900,16 +1897,16 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "mcq",
         "part": 1,
         "orig_qnum": 22,
-        "prompt": "Một học sinh thực hiện ba thí nghiệm ở điều kiện chuẩn và quan sát được các hiện tượng sau:\n(1) Copper (Cu) kim loại không phản ứng với dung dịch Pb(NO<sub>3</sub>)<sub>2</sub>1 M.\n3 2\n(2) Lead (Pb) kim loại tan trong dung dịch AgNO<sub>3</sub> 1 M và xuất hiện tinh thể Ag.\n\n(3) Silver (Ag) kim loại không phản ứng với dung dịch Cu(NO<sub>3</sub>)<sub>2</sub>1 M.\n3 2\nTrật tự nào sau đây thể hiện đúng mức độ khử của ba kim loại?",
+        "prompt": "Một học sinh thực hiện ba thí nghiệm ở điều kiện chuẩn và quan sát được các hiện tượng sau:\n(1) Copper (Cu) kim loại không phản ứng với dung dịch Pb(NO<sub>3</sub>)<sub>2</sub> 1 M.\n(2) Lead (Pb) kim loại tan trong dung dịch AgNO<sub>3</sub> 1 M và xuất hiện tinh thể Ag.\n(3) Silver (Ag) kim loại không phản ứng với dung dịch Cu(NO<sub>3</sub>)<sub>2</sub> 1 M.\nTrật tự nào sau đây thể hiện đúng mức độ khử của ba kim loại?",
         "options": {
           "A": "Cu > Pb > Ag.",
           "B": "Pb > Cu > Ag.",
-          "C": "Cu > Ap > Pb.",
+          "C": "Cu > Ag > Pb.",
           "D": "Pb > Ag > Cu."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Trong pin Galvani Cu – Ag:<br>• Do <i>E</i>°(Cu<sup>n+</sup>/Cu) = +0,34 V &lt; <i>E</i>°(Ag<sup>m+</sup>/Ag) = +0,80 V nên <b>Cu</b> có tính khử mạnh hơn <b>Ag</b>.<br>• <b>Tại Anode (cực âm)</b>: Thanh kim loại Cu đóng vai trò cực âm, xảy ra quá trình oxi hóa: <b>Cu &rarr; Cu<sup>n+</sup> + ne</b>.<br>• <b>Tại Cathode (cực dương)</b>: Xảy ra quá trình khử cation Ag<sup>m+</sup>: <b>Ag<sup>m+</sup> + me &rarr; Ag</b>.<br>• Phản ứng tổng quát trong pin: mCu + nAg<sup>m+</sup> &rarr; mCu<sup>n+</sup> + nAg.<br>&rarr; Quá trình xảy ra ở anode là: <b>Pb > Cu > Ag.</b>. Chọn đáp án <b>B</b>.",
+        "explanation": "Dựa vào kết quả 3 thí nghiệm:<br>• (1) Cu không phản ứng với Pb<sup>2+</sup> &rArr; Tính khử: Pb > Cu.<br>• (2) Pb phản ứng với Ag<sup>+</sup> &rArr; Tính khử: Pb > Ag.<br>• (3) Ag không phản ứng với Cu<sup>2+</sup> &rArr; Tính khử: Cu > Ag.<br>&rArr; Trật tự tính khử giảm dần: <b>Pb > Cu > Ag</b>.<br>Chọn đáp án <b>B</b>.",
         "id": 54,
         "qnum": 54,
         "label": "Phần 1 - Câu 54"
@@ -2207,7 +2204,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "tf",
         "part": 2,
         "orig_qnum": 44,
-        "prompt": "Cho một pin Galvani Zn – Cu với cầu muối là NH 4 Cl.",
+        "prompt": "Cho một pin Galvani Zn – Cu với cầu muối là NH 4 Cl<sub>2</sub>.",
         "items": {
           "a": "Thanh Zn là cực âm (anode) và thanh Cu là cực dương (cathode).",
           "b": "Phản ứng xảy ra trong pin là: Zn(s) + Cu<sup>2+</sup>(aq) &rarr; Zn<sup>2+</sup>(aq) + Cu(s).",
@@ -2235,7 +2232,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "X, Y, Z đều đứng trước hydrogen trong dãy điện hoá.",
           "b": "Z khử được ion của kim loại Y.",
           "c": "Dãy sắp xếp theo chiều giảm dần tính khử: Z > Y > X.",
-          "d": "Z khử được ion H<sup>+</sup> tạo thành H ."
+          "d": "Z khử được ion H<sup>+</sup> tạo thành H<sub>2</sub>."
         },
         "answer": {
           "a": true,
@@ -2299,12 +2296,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "tf",
         "part": 2,
         "orig_qnum": 26,
-        "prompt": "(SBT – KNTT) Thế điện cực chuẩn của các cặp oxi hoá – khử của kim loại M+/M và R2+/R\nlần lượt là +0,799 V và +0,34 V.",
+        "prompt": "(SBT – KNTT) Thế điện cực chuẩn của các cặp oxi hoá – khử của kim loại M<sup>+</sup>/M và R2+/R\nlần lượt là +0,799 V và +0,34 V.",
         "items": {
           "a": "M có tính khử mạnh hơn R.",
-          "b": "M+ có tính oxi hoá yếu hơn R2+.",
-          "c": "M khử được ion H<sup>+</sup> thành H .",
-          "d": "R khử được ion M+ thành M."
+          "b": "M<sup>+</sup> có tính oxi hoá yếu hơn R2+.",
+          "c": "M khử được ion H<sup>+</sup> thành H<sub>2</sub>.",
+          "d": "R khử được ion M<sup>+</sup> thành M."
         },
         "answer": {
           "a": true,
@@ -2322,7 +2319,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "tf",
         "part": 2,
         "orig_qnum": 27,
-        "prompt": "(HTHH 12 – KNTT) Trong công nghiệp, copper(II) sulfate được sản xuất bằng cách ngâm\nđồng thô trong dung dịch H<sub>2</sub>SO<sub>4</sub> loãng và sục oxygen không khí ở nhiệt độ thường.\n2 4\nXét phản ứng xảy ra trong phương pháp sản xuất trên ở điều kiện chuẩn:\n2Cu + O + 2H SO\n2 2 4 &rarr; 2CuSO + 2H<sub>2</sub>O\n4 2\nCho các giá trị thế điện cực chuẩn của các cặp oxi hoá – khử: 2H<sup>+</sup>/H<sub>2</sub> ; Cu<sup>2+</sup>/Cu và O , H<sup>+</sup>/H<sub>2</sub>O lần lượt\n2 2 2\nlà 0 V; +0,340 V và +1,229 V.",
+        "prompt": "(HTHH 12 – KNTT) Trong công nghiệp, copper(II) sulfate được sản xuất bằng cách ngâm\nđồng thô trong dung dịch H<sub>2</sub>SO<sub>4</sub> loãng và sục oxygen không khí ở nhiệt độ thường.\n2 4\nXét phản ứng xảy ra trong phương pháp sản xuất trên ở điều kiện chuẩn:\n2Cu + O + 2H SO\n2 2 4 &rarr; 2CuSO + 2H<sub>2</sub>O\n4 2\nCho các giá trị thế điện cực chuẩn của các cặp oxi hoá – khử: 2H<sup>+</sup>/H<sub>2</sub> ; Cu<sup>2+</sup>/Cu và O<sub>2</sub> , H<sup>+</sup>/H<sub>2</sub>O lần lượt\n2 2 2\nlà 0 V; +0,340 V và +1,229 V.",
         "items": {
           "a": "Cu là chất khử, O là chất oxi hoá.",
           "b": "H<sub>2</sub>SO<sub>4</sub> là môi trường.",
@@ -2368,7 +2365,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "tf",
         "part": 2,
         "orig_qnum": 29,
-        "prompt": "Cho biết: X+/X ;\n<i>E</i>°\nY + /Y\n + 1 , 6 3 0 V",
+        "prompt": "Cho biết: X<sup>+</sup>/X ;\n<i>E</i>°\nY + /Y\n + 1 , 6 3 0 V",
         "items": {
           "a": "X có tính khử mạnh; Y có tính khử yếu.",
           "b": "X và Y đều có tính khử mạnh.",
@@ -2432,7 +2429,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "tf",
         "part": 2,
         "orig_qnum": 6,
-        "prompt": "Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg; H<sub>2</sub>O/H , OH<sup>−</sup>; 2H<sup>+</sup>/H<sub>2</sub> ;\n2 2 2\nAg<sup>+</sup>/Ag.\nCho các phản ứng sau:",
+        "prompt": "Cho thứ tự sắp xếp các cặp oxi hoá – khử trong dãy điện hoá: Mg<sup>2+</sup>/Mg; H<sub>2</sub>O/H<sub>2</sub>, OH<sup>−</sup>; 2H<sup>+</sup>/H<sub>2</sub> ;\n2 2 2\nAg<sup>+</sup>/Ag.\nCho các phản ứng sau:",
         "items": {},
         "answer": {
           "a": true,
@@ -2496,7 +2493,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Sức điện động chuẩn của pin là 0,76 V.",
           "b": "Tại điện cực âm xảy ra quá trình oxi hoá Zn(s) thành ion Zn<sup>2+</sup>(aq).",
           "c": "Tại điện cực dương xảy ra quá trình khử ion H<sup>+</sup>(aq) thành khí H (g).",
-          "d": "Phản ứng xảy ra trong pin là: H (g) + Zn<sup>2+</sup>(aq) &rarr; Zn(s) + 2H+(aq)."
+          "d": "Phản ứng xảy ra trong pin là: H (g) + Zn<sup>2+</sup>(aq) &rarr; Zn(s) + 2H<sup>+</sup>(aq)."
         },
         "answer": {
           "a": false,
@@ -2541,7 +2538,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "Tại thanh aluminium (Al) xảy ra quá trình oxi hoá Al thành cation Al<sup>3+</sup> và tan vào nước.",
           "b": "Các electron chuyển từ thanh Al sang thanh copper (Cu) qua dây dẫn.",
-          "c": "Tại thanh Al và thanh Cu đều có quá trình khử ion H<sup>+</sup> thành khí H .",
+          "c": "Tại thanh Al và thanh Cu đều có quá trình khử ion H<sup>+</sup> thành khí H<sub>2</sub>.",
           "d": "Nồng độ H<sub>2</sub>SO<sub>4</sub> trong dung dịch không thay đổi trong quá trình thí nghiệm."
         },
         "answer": {
@@ -2647,7 +2644,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 35,
-        "prompt": "Dựa vào bảng sau, xét tính đúng sai của các phát biểu dưới đây.\na) Cu<sup>2+</sup> có tính oxi hóa mạnh hơn Fe<sup>3+</sup> và Cu có tính khử mạnh hơn Fe<sup>2+</sup>.\nb) Theo lí thuyết những kim loại có thế điện cực chuẩn âm đều khử được H<sup>+</sup> thành H và phản ứng\n\nđược trong dung dịch HCl.\nc) Trong dãy hoạt động hóa học, những kim loại đứng trước có thế điện cực chuẩn lớn hơn thế điện\ncực chuẩn của những kim loại đứng sau.\nd) Kẽm có thể khử các ion Fe<sup>2+</sup> và Ni<sup>2+</sup> về kim loại Fe và Ni nhưng không thể khử ion Al<sup>3+</sup> về kim\nloại Al.",
+        "prompt": "Dựa vào bảng sau, xét tính đúng sai của các phát biểu dưới đây.\na) Cu<sup>2+</sup> có tính oxi hóa mạnh hơn Fe<sup>3+</sup> và Cu có tính khử mạnh hơn Fe<sup>2+</sup>.\nb) Theo lí thuyết những kim loại có thế điện cực chuẩn âm đều khử được H<sup>+</sup> thành H<sub>2</sub> và phản ứng\n\nđược trong dung dịch HCl.\nc) Trong dãy hoạt động hóa học, những kim loại đứng trước có thế điện cực chuẩn lớn hơn thế điện\ncực chuẩn của những kim loại đứng sau.\nd) Kẽm có thể khử các ion Fe<sup>2+</sup> và Ni<sup>2+</sup> về kim loại Fe và Ni nhưng không thể khử ion Al<sup>3+</sup> về kim\nloại Al.",
         "answer": "2",
         "acceptedAnswers": [
           "2",
@@ -2823,14 +2820,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 12,
-        "prompt": "Cho biết giá trị thể điện cực chuẩn của các cặp oxi hoá - khử sau:\nCặp oxi hoá – khử Zn<sup>2+</sup>/Zn Fe<sup>2+</sup>/Fe Ni<sup>2+</sup>/Ni 2 H + / H\n\nCu<sup>2+</sup>/Cu\nE 0o\nx h /k h\n(V) − 0 , 7 6 3 − 0 , 4 4 0 − 0 , 2 5 7 0 0 , 3 4 0\nSố kim loại trong dãy ở điều kiện chuẩn là các kim loại Zn, Ni, Fe, Cu phản ứng được với dung dịch\nHCl ở điều kiện chuẩn là bao nhiêu?",
-        "answer": "2",
+        "prompt": "Cho biết giá trị thế điện cực chuẩn của các cặp oxi hoá - khử sau:\nCặp oxi hoá – khử: Zn<sup>2+</sup>/Zn (-0,763 V); Fe<sup>2+</sup>/Fe (-0,440 V); Ni<sup>2+</sup>/Ni (-0,257 V); 2H<sup>+</sup>/H<sub>2</sub> (0,00 V); Cu<sup>2+</sup>/Cu (+0,340 V).\nSố kim loại trong dãy (gồm Zn, Ni, Fe, Cu) phản ứng được với dung dịch HCl ở điều kiện chuẩn là bao nhiêu?",
+        "answer": "3",
         "acceptedAnswers": [
-          "2",
-          "2"
+          "3",
+          "3.0"
         ],
         "figure": null,
-        "explanation": "Dựa vào dãy điện hóa và thế điện cực chuẩn <i>E</i>°, xác định được chính xác <b>2</b> kim loại thỏa mãn yêu cầu đề bài.<br>&rarr; Giá trị cần điền: <b>2</b>.",
+        "explanation": "Điều kiện để kim loại phản ứng với dung dịch HCl giải phóng H<sub>2</sub> ở điều kiện chuẩn là thế điện cực chuẩn của kim loại phải âm hơn cặp 2H<sup>+</sup>/H<sub>2</sub> (tức <i>E</i>° < 0 V).<br>Trong 4 kim loại Zn, Ni, Fe, Cu:<br>• <i>E</i>°(Zn<sup>2+</sup>/Zn) = -0,763 V &lt; 0 V (thỏa mãn)<br>• <i>E</i>°(Fe<sup>2+</sup>/Fe) = -0,440 V &lt; 0 V (thỏa mãn)<br>• <i>E</i>°(Ni<sup>2+</sup>/Ni) = -0,257 V &lt; 0 V (thỏa mãn)<br>• <i>E</i>°(Cu<sup>2+</sup>/Cu) = +0,340 V &gt; 0 V (không thỏa mãn)<br>&rArr; Có <b>3</b> kim loại (Zn, Fe, Ni) phản ứng được với dung dịch HCl.<br>&rarr; Giá trị cần điền: <b>3</b>.",
         "id": 100,
         "qnum": 16,
         "label": "Phần 3 - Câu 16"
@@ -2887,7 +2884,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 16,
-        "prompt": "Pin X-Y có sức điện động chuẩn là 1,10 V với hai cặp oxi hoá - khử là X<sup>2+</sup>/X và Y<sup>2+</sup>/Y. Pin Y-\nZ có sức điện động chuẩn là 0,82 V với hai cặp oxi hoá - khử là Y<sup>2+</sup>/Y và Z2+/Z. Pin X-Z (với hai cặp\noxi hoá - khử là X<sup>2+</sup>/X và Z2+/Z) có sức điện động chuẩn là bao nhiêu volt (V)?\nĐáp án 1,92",
+        "prompt": "Pin X-Y có sức điện động chuẩn là 1,10 V với hai cặp oxi hoá - khử là X<sup>2+</sup>/X và Y<sup>2+</sup>/Y. Pin Y<sup>-</sup>\nZ có sức điện động chuẩn là 0,82 V với hai cặp oxi hoá - khử là Y<sup>2+</sup>/Y và Z<sup>2+</sup>/Z. Pin X-Z (với hai cặp\noxi hoá - khử là X<sup>2+</sup>/X và Z<sup>2+</sup>/Z) có sức điện động chuẩn là bao nhiêu volt (V)?\nĐáp án 1,92",
         "answer": "1.92",
         "acceptedAnswers": [
           "1.92",
@@ -3049,7 +3046,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 2,
         "label": "Ví dụ 2",
-        "question": "Viết phương trình hóa học của quá trình điện phân nóng chảy các chất: MgCl<sub>2</sub> , Al<sub>2</sub>O<sub>3</sub> .\n2 2 3\nb) Điện phân dung dịch:\nCathode (-) chứa ion dương (cation) Anode (+) chứa ion âm (anion)\n- Chất có tính oxi hoá mạnh hơn (dễ nhận\nelectron hơn) được ưu tiên điện phân trước.\nThứ tự khử ở cathode (Chỉ có ion kim loại\nsau Al<sup>3+</sup> mới bị khử): Au3+ > Ag<sup>+</sup> > Cu<sup>2+</sup> >\nH<sup>+</sup> > H<sub>2</sub>O. - Tổng quát: M<sup>n+</sup> + ne &rarr; M\n- Các ion Al<sup>3+</sup> và trước nó không bị điện\nphân mà nước bị điện phân\n2H<sub>2</sub>O + 2e &rarr;\nChất có tính khử mạnh hơn được ưutiên\nđiện phân trước. Thứ tự oxi hóa ở anode:\nH + 2OH− S 2 − > I − > B r − > C l − > O H − > H<sub>2</sub>O - Các anion không bị điện phân: N O −3 , SO<sub>2</sub>−\n4\n,PO3−,CO<sub>2</sub>−,\n4 3\nF − , C l O −4 mà nước bị điện phân\n2H<sub>2</sub>O &rarr; O + 4H+ + 4e",
+        "question": "Viết phương trình hóa học của quá trình điện phân nóng chảy các chất: MgCl<sub>2</sub> , Al<sub>2</sub>O<sub>3</sub> .\n2 2 3\nb) Điện phân dung dịch:\nCathode (-) chứa ion dương (cation) Anode (+) chứa ion âm (anion)\n- Chất có tính oxi hoá mạnh hơn (dễ nhận\nelectron hơn) được ưu tiên điện phân trước.\nThứ tự khử ở cathode (Chỉ có ion kim loại\nsau Al<sup>3+</sup> mới bị khử): Au3+ > Ag<sup>+</sup> > Cu<sup>2+</sup> >\nH<sup>+</sup> > H<sub>2</sub>O<sub>2</sub>. - Tổng quát: M<sup>n+</sup> + ne &rarr; M\n- Các ion Al<sup>3+</sup> và trước nó không bị điện\nphân mà nước bị điện phân\n2H<sub>2</sub>O + 2e &rarr;\nChất có tính khử mạnh hơn được ưutiên\nđiện phân trước. Thứ tự oxi hóa ở anode:\nH + 2OH− S 2 − > I − > B r − > C l − > O H − > H<sub>2</sub>O - Các anion không bị điện phân: N O −3 , SO<sub>2</sub>−\n4\n,PO3−,CO<sub>2</sub>−,\n4 3\nF − , C l O −4 mà nước bị điện phân\n2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3063,21 +3060,21 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 4,
         "label": "Ví dụ 2",
-        "question": "Điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ (graphite)\n4\nChuẩn bị:\nHoá chất: dung dịch CuSO<sub>4</sub> 0,5 M.\n4\nDụng cụ: nguồn điện một chiều (3 - 6 vôn), ống thuỷ tinh hình chữ U, hai điện cực than chì, dây dẫn,\nkẹp kim loại.\nTiến hành:\n- Lắp thiết bị thí nghiệm điện phân dung dịch CuSO<sub>4</sub> như Hình 16.2.\n4\n- Rót dung dịch CuSO<sub>4</sub> 0,5 M vào ống thuỷ tinh hình chữ U rồi nhúng hai điện cực than chì vào dung\n4\ndịch.\n- Nối hai điện cực than chì với hai cực của nguồn điện và tiến hành điện phân trong khoảng 5 phút.\nHình 16.2. Sơ đồ thí nghiệm điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ\n4\nQuan sát hiện tượng xảy ra ở mỗi điện cực và giải thích.Viết phương trình xảy ra tại các cực và phương\nđiện phân dung dịch.\nHướng dẫn giải\nHiện tượng: điện cực than chì ở cathode có kim loại đồng(màu đỏ) sinh ra bám vào.\nCuSO<sub>4</sub> ñieänli&rarr;Cu<sup>2+</sup> + SO<sub>2</sub>−\n\n4 4\n Ở cực dương (anode) sự oxi hóa H<sub>2</sub>O thành O : H<sub>2</sub>O\n2 2 2\n32 &rarr;\n1\nO + 2H+ + 2e 2\n Ở cực âm (cathode) sự khử ion Cu<sup>2+</sup> thành Cu: C u 2 + + 2 e &rarr; C u\nPhương trình điện phân: C u S O\n4\n+ H<sub>2</sub>O ñ p d d&rarr; C u +\n1 O + H S O\n4",
+        "question": "Điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ (graphite)\n4\nChuẩn bị:\nHoá chất: dung dịch CuSO<sub>4</sub> 0,5 M.\n4\nDụng cụ: nguồn điện một chiều (3 - 6 vôn), ống thuỷ tinh hình chữ U, hai điện cực than chì, dây dẫn,\nkẹp kim loại.\nTiến hành:\n- Lắp thiết bị thí nghiệm điện phân dung dịch CuSO<sub>4</sub> như Hình 16.2.\n4\n- Rót dung dịch CuSO<sub>4</sub> 0,5 M vào ống thuỷ tinh hình chữ U rồi nhúng hai điện cực than chì vào dung\n4\ndịch.\n- Nối hai điện cực than chì với hai cực của nguồn điện và tiến hành điện phân trong khoảng 5 phút.\nHình 16.2. Sơ đồ thí nghiệm điện phân dung dịch CuSO<sub>4</sub> với điện cực trơ\n4\nQuan sát hiện tượng xảy ra ở mỗi điện cực và giải thích.Viết phương trình xảy ra tại các cực và phương\nđiện phân dung dịch.\nHướng dẫn giải\nHiện tượng: điện cực than chì ở cathode có kim loại đồng(màu đỏ) sinh ra bám vào.\nCuSO<sub>4</sub> ñieänli&rarr;Cu<sup>2+</sup> + SO<sub>2</sub>−\n\n4 4\n Ở cực dương (anode) sự oxi hóa H<sub>2</sub>O thành O : H<sub>2</sub>O\n2 2 2\n32 &rarr;\n1\nO + 2H<sup>+</sup> + 2e 2\n Ở cực âm (cathode) sự khử ion Cu<sup>2+</sup> thành Cu: C u 2 + + 2 e &rarr; C u\nPhương trình điện phân: C u S O\n4\n+ H<sub>2</sub>O ñ p d d&rarr; C u +\n1 O + H S O",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 5,
         "label": "Ví dụ 3",
-        "question": "Viết quá trình xảy ra ở mỗi điện cực và phương trình hóa học của phản ứng điện phân khi\nđiện phân dung dịch: AgNO<sub>3</sub> với điện cực graphite.\n3",
+        "question": "Viết quá trình xảy ra ở mỗi điện cực và phương trình hóa học của phản ứng điện phân khi\nđiện phân dung dịch: AgNO<sub>3</sub> với điện cực graphite.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 6,
         "label": "Ví dụ 4",
-        "question": "[KNTT - SGK] Điện phân dung dịch NaCl bão hòa có màng ngăn với điện cực trơ\n(graphite)\na) Viết quá trình oxi hóa, quá trình khử xảy ra ở mỗi điện cực, biết sản phẩm của quá trình điện\nphân có khí Cl và H .\n2 2\nb) Viết phương trình hóa học của phản ứng điện phân.\nc) Trong quá trình điện phân, nếu không có màng ngăn, sản phẩm tạo thành ở hai điện cực khuếch\ntán vào nhau sẽ xảy ra phản ứng hóa học nào?\nd) Tìm hiểu ứng dụng của nước Javel. Đề xuất thí nghiệm đơn giản để chứng minh rằng dung dịch\nnước Javel có tính tẩy màu.\nLời giải:\na) Quá trình oxi hóa khử xảy ra ở mỗi điện cực:\nCathode (-) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H 2Cl<sup>−</sup> &rarr; Cl + 2e\n2 2 2\nb) Phương trình hóa học của phản ứng điện phân 2NaCl + 2H<sub>2</sub>O ñpdd&rarr; H + Cl + 2NaOH\n2 2 2\nc) Trong quá trình điện phân, sản phẩm tạo thành ở hai điện cực khuếch tán vào nhau sẽ xảy ra phản\nứng hóa học tạo thành nước Javel: Cl + 2NaOH &rarr; NaCl + NaClO + H<sub>2</sub>O\n2 2\nd) Thí nghiệm chứng minh tính tẩy màu của nước Javel: Nhúng mẩu giấy màu vào nước Javel thấy\nmẩu giấy màu bị mất màu => Nước Javel có tính tẩy màu.",
+        "question": "[KNTT - SGK] Điện phân dung dịch NaCl bão hòa có màng ngăn với điện cực trơ\n(graphite)\na) Viết quá trình oxi hóa, quá trình khử xảy ra ở mỗi điện cực, biết sản phẩm của quá trình điện\nphân có khí Cl<sub>2</sub> và H<sub>2</sub>.\n2 2\nb) Viết phương trình hóa học của phản ứng điện phân.\nc) Trong quá trình điện phân, nếu không có màng ngăn, sản phẩm tạo thành ở hai điện cực khuếch\ntán vào nhau sẽ xảy ra phản ứng hóa học nào?\nd) Tìm hiểu ứng dụng của nước Javel. Đề xuất thí nghiệm đơn giản để chứng minh rằng dung dịch\nnước Javel có tính tẩy màu.\nLời giải:\na) Quá trình oxi hóa khử xảy ra ở mỗi điện cực:\nCathode (-) Anode (+)\n2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H 2Cl<sup>−</sup> &rarr; Cl + 2e\n2 2 2\nb) Phương trình hóa học của phản ứng điện phân 2NaCl + 2H<sub>2</sub>O ñpdd&rarr; H + Cl + 2NaOH\n2 2 2\nc) Trong quá trình điện phân, sản phẩm tạo thành ở hai điện cực khuếch tán vào nhau sẽ xảy ra phản\nứng hóa học tạo thành nước Javel: Cl + 2NaOH &rarr; NaCl + NaClO + H<sub>2</sub>O\n2 2\nd) Thí nghiệm chứng minh tính tẩy màu của nước Javel: Nhúng mẩu giấy màu vào nước Javel thấy\nmẩu giấy màu bị mất màu => Nước Javel có tính tẩy màu.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3135,8 +3132,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "question": "Trong quá trình điện phân dung dịch NaCl (điện cực trơ), ở cathode xảy ra",
         "options": {
           "A": "sự oxi hoá cation Na<sup>+</sup>.",
-          "C": "sự khử phân tử H<sub>2</sub>O.",
-          "B": "sự oxi hoá phân tử H<sub>2</sub>O.",
+          "C": "sự khử phân tử H<sub>2</sub>O<sub>2</sub>.",
+          "B": "sự oxi hoá phân tử H<sub>2</sub>O<sub>2</sub>.",
           "D": "sự khử cation Na<sup>+</sup>."
         },
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
@@ -3168,7 +3165,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 14,
         "label": "Ví dụ 12",
-        "question": "Khi điện phân dung dịch CuSO<sub>4</sub> , ion nào sẽ điện phân đầu tiên ở cathode?\n4",
+        "question": "Khi điện phân dung dịch CuSO<sub>4</sub> , ion nào sẽ điện phân đầu tiên ở cathode?",
         "options": {
           "A": "Cu<sup>2+</sup>.",
           "B": "H<sup>+</sup> (của nước).",
@@ -3182,10 +3179,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Ví dụ 13",
         "question": "[KNTT - SBT]. Khi điện phân dung dịch gồm Cu(NO<sub>3</sub>)<sub>2</sub>1 M và AgNO<sub>3</sub> 1 M, thứ tự điện\n3 2 3\nphân ở cathode là",
         "options": {
-          "A": "Cu<sup>2+</sup>, Ag<sup>+</sup>, H<sub>2</sub>O.",
-          "B": "Ag<sup>+</sup>, Cu<sup>2+</sup>, H<sub>2</sub>O.",
-          "C": "H<sub>2</sub>O, Cu<sup>2+</sup>, Ag<sup>+</sup>.",
-          "D": "Cu<sup>2+</sup>, H<sub>2</sub>O, Ag<sup>+</sup>."
+          "A": "Cu<sup>2+</sup>, Ag<sup>+</sup>, H<sub>2</sub>O<sub>2</sub>.",
+          "B": "Ag<sup>+</sup>, Cu<sup>2+</sup>, H<sub>2</sub>O<sub>2</sub>.",
+          "C": "H<sub>2</sub>O<sub>2</sub>, Cu<sup>2+</sup>, Ag<sup>+</sup>.",
+          "D": "Cu<sup>2+</sup>, H<sub>2</sub>O<sub>2</sub>, Ag<sup>+</sup>."
         },
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3194,10 +3191,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Ví dụ 14",
         "question": "[KNTT - SBT]. Khi điện phân dung dịch gồm CuSO<sub>4</sub> và HCl (sử dụng điện cực trơ, có\n4\nmàng ngăn xốp), chất khí đầu tiên thoát ra ở anode là",
         "options": {
-          "A": "O .",
-          "B": "Cl .",
-          "C": "H .",
-          "D": "SO .\n2"
+          "A": "O<sub>2</sub>.",
+          "B": "Cl<sub>2</sub>.",
+          "C": "H<sub>2</sub>.",
+          "D": "SO ."
         },
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3206,10 +3203,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "label": "Ví dụ 15",
         "question": "Điện phân dung dịch hỗn hợp gồm HCl và CuSO<sub>4</sub> có cùng nồng độ. Các chất được tạo ra\n4\nđầu tiên ở anode (cực dương) và ở cathode (cực âm) lần lượt là",
         "options": {
-          "A": "Cl và H .",
-          "B": "Cl và Cu.",
-          "C": "O và Cu.",
-          "D": "O và H .\n2"
+          "A": "Cl<sub>2</sub> và H<sub>2</sub>.",
+          "B": "Cl<sub>2</sub> và Cu.",
+          "C": "O<sub>2</sub> và Cu.",
+          "D": "O<sub>2</sub> và H<sub>2</sub>."
         },
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3235,14 +3232,14 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 20,
         "label": "Ví dụ 18",
-        "question": "Điện phân dung dịch CuSO<sub>4</sub> 0,5 M với điện cực trơ đến khi đến khi\n4\nnồng độ CuSO<sub>4</sub> giảm một nửa thì dừng điện phân.\n4\na. Dung dịch sau điện phân có pH nhỏ hơn 7.\nb. Ở cathode chỉ xảy ra quá trình khử ion Cu<sup>2+</sup>.\nc. Số mol khí O thoát ra ở anode bằng số mol Cu tạo thành ở cathode. d. Thứ tự điện phân ở anode là SO 2–, H<sub>2</sub>O.",
+        "question": "Điện phân dung dịch CuSO<sub>4</sub> 0,5 M với điện cực trơ đến khi đến khi\n4\nnồng độ CuSO<sub>4</sub> giảm một nửa thì dừng điện phân.\n4\na. Dung dịch sau điện phân có pH nhỏ hơn 7.\nb. Ở cathode chỉ xảy ra quá trình khử ion Cu<sup>2+</sup>.\nc. Số mol khí O thoát ra ở anode bằng số mol Cu tạo thành ở cathode. d. Thứ tự điện phân ở anode là SO 2–, H<sub>2</sub>O<sub>2</sub>.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 21,
         "label": "Ví dụ 19",
-        "question": "Điện phân một dung dịch hỗn hợp gồm: HCl, CuCl<sub>2</sub> , NaCl với điện cực trơ, có màng ngăn. a. Sau khi kết thúc quá trình điện phân, pH của dung dịch tăng so với dung dịch ban đầu.\nb. Các chất bị điện phân lần lượt theo thứ tự: CuCl<sub>2</sub> , HCl, NaCl và H<sub>2</sub>O.\n2 2\nc. Quá trình điện phân NaCl làm tăng pH của dung dịch.\nd. Quá trình điện phân HCl làm giảm pH của dung dịch.",
+        "question": "Điện phân một dung dịch hỗn hợp gồm: HCl, CuCl<sub>2</sub> , NaCl với điện cực trơ, có màng ngăn. a. Sau khi kết thúc quá trình điện phân, pH của dung dịch tăng so với dung dịch ban đầu.\nb. Các chất bị điện phân lần lượt theo thứ tự: CuCl<sub>2</sub> , HCl, NaCl và H<sub>2</sub>O<sub>2</sub>.\n2 2\nc. Quá trình điện phân NaCl làm tăng pH của dung dịch.\nd. Quá trình điện phân HCl làm giảm pH của dung dịch.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3263,35 +3260,35 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 24,
         "label": "Ví dụ 22",
-        "question": "Điện phân 2 lít dung dịch NaCl 0,5 M với điện cực trơ, màng ngăn xốp\nbằng dòng điện có cường độ không đổi 0,2 A. Sau 1 930 giây thì dừng điện phân, thu được dung dịch\nX (giả thiết thể tích dung dịch không đổi). Dung dịch X có pH bằng bao nhiêu?\npH = 14 – 2,7 = 11,3\n34",
+        "question": "Điện phân 2 lít dung dịch NaCl 0,5 M với điện cực trơ, màng ngăn xốp\nbằng dòng điện có cường độ không đổi 0,2 A. Sau 1 930 giây thì dừng điện phân, thu được dung dịch\nX (giả thiết thể tích dung dịch không đổi). Dung dịch X có pH bằng bao nhiêu?\npH = 14 – 2,7 = 11,3",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 25,
         "label": "Ví dụ 23",
-        "question": "Trong công nghiệp, sodium được điều chế bằng cách điện phân nóng chảy sodium chloride\ntrong bình điện phân Downs với điện áp khoảng 7V, cường độ dòng điện từ 25000A đến 40000A với\ncác điện cực là than chì và sắt theo sơ đồ như hình dưới đây:\na. Ở anode xảy ra quá trình Na<sup>+</sup> + 1e &rarr; Na.\nb. Điện cực anode được làm bằng sắt, điện cực cathode được làm bằng than chì.\nc. Lưới thép giúp ngăn cho Na (ở trạng thái nóng chảy) không phản ứng lại với Cl . d. Khi sử dụng cường độ dòng điện là 30000 A thì sau 24 giờ sản xuất được 618 kg sodium (hiệu suất\ncủa cả quá trình đạt 80%). Cho Na = 23; F = 96500 C/mol.",
+        "question": "Trong công nghiệp, sodium được điều chế bằng cách điện phân nóng chảy sodium chloride\ntrong bình điện phân Downs với điện áp khoảng 7V, cường độ dòng điện từ 25000A đến 40000A với\ncác điện cực là than chì và sắt theo sơ đồ như hình dưới đây:\na. Ở anode xảy ra quá trình Na<sup>+</sup> + 1e &rarr; Na.\nb. Điện cực anode được làm bằng sắt, điện cực cathode được làm bằng than chì.\nc. Lưới thép giúp ngăn cho Na (ở trạng thái nóng chảy) không phản ứng lại với Cl<sub>2</sub>. d. Khi sử dụng cường độ dòng điện là 30000 A thì sau 24 giờ sản xuất được 618 kg sodium (hiệu suất\ncủa cả quá trình đạt 80%). Cho Na = 23; F = 96500 C/mol.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 26,
         "label": "Ví dụ 24",
-        "question": "Điện phân dung dịch NaCl có màng bán thấm ngăn giữa anode với cathode (các điện cực\nđều trơ). Sơ đồ bình điện phân như hình bên:\nDung dịch thu được sau quá trình điện phân có thành phần chính là\nNaOH nhưng còn lẫn NaCl. Biết ở 20°C, độ tan trong 100 gam nước\ncủa NaCl là 35,9 gam, của NaOH là 109,0 gam, độ tan của NaOH,\nNaCl tăng khi nhiệt độ tăng.\na) Hạ nhiệt độ 300 gam dung dịch hỗn hợp gồm NaCl 10 % và\nNaOH 56,667 % ở 60°C xuống 20°C se ̃ thu được kết tinh NaOH\nkhông lẫn rắn NaCl.\nb) Tại cực âm xảy ra quá trình khử hoá H<sub>2</sub>O thành khí H và OH<sup>−</sup>\n2 2\nc) Dựa vào sự chênh lệch độ tan, có thể tách NaOH và NaCl bằng phương pháp chiết.\nd) Màng ngăn có vai trò ngăn không cho Cl tác dụng với dung dịch NaOH.",
+        "question": "Điện phân dung dịch NaCl có màng bán thấm ngăn giữa anode với cathode (các điện cực\nđều trơ). Sơ đồ bình điện phân như hình bên:\nDung dịch thu được sau quá trình điện phân có thành phần chính là\nNaOH nhưng còn lẫn NaCl. Biết ở 20°C, độ tan trong 100 gam nước\ncủa NaCl là 35,9 gam, của NaOH là 109,0 gam, độ tan của NaOH,\nNaCl tăng khi nhiệt độ tăng.\na) Hạ nhiệt độ 300 gam dung dịch hỗn hợp gồm NaCl 10 % và\nNaOH 56,667 % ở 60°C xuống 20°C se ̃ thu được kết tinh NaOH\nkhông lẫn rắn NaCl.\nb) Tại cực âm xảy ra quá trình khử hoá H<sub>2</sub>O thành khí H<sub>2</sub> và OH<sup>−</sup>\n2 2\nc) Dựa vào sự chênh lệch độ tan, có thể tách NaOH và NaCl bằng phương pháp chiết.\nd) Màng ngăn có vai trò ngăn không cho Cl tác dụng với dung dịch NaOH.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 27,
         "label": "Ví dụ 25",
-        "question": "Trong công nghiệp, quá trình điện phân dung dịch NaCl thường được tiến hành trong thùng\nđiện phân có anode bằng than chì và cathode bằng sắt (giữa hai điện cực có màng ngăn xốp) dùng để\nsản xuất NaOH, khí Cl . Sơ đồ quá trình điện phân dung dịch NaCl trong công nghiệp như hình vẽ sau:\n35\nDung dịch NaCl bão hòa có nồng độ 300 g L-1 bơm vào chỉ được điện phân một phần thành dung dịch\nNaCl có nồng độ 200 g L-1, dung dịch này sau đó được dẫn ra khỏi thùng điện phân, trong khi nước\nmuối mới được bơm vào. Việc làm này giúp hạn chế sự tạo thành sản phẩm không mong muốn. Dung\ndịch NaOH thu được ở cathode có nồng độ 32% được chuyển sang thiết bị cô đặc để sản xuất dung\ndịch NaOH có nồng độ theo ý muốn.\na) Khí Cl thoát ra ở anode, khí H thoát ra ở cathode.\n2 2\nb) Giả sử NaOH không bị thất thoát trong quá trình cô đặc, thể tích dung dịch NaCl không thay đổi\ntrong quá trình điện phân. Để sản xuất được một thùng 20 lít dung dịch NaOH 45% thương phẩm có\nkhối lượng riêng 1,48 g mL-1, cần ít nhất 194,8 lít ( làm tròn đến hàng phần mười) dung dịch NaCl\nbão hòa nồng độ 300 g L-1 bơm vào thùng điện phân.c) Màng ngăn xốp có tác dụng ngăn không cho\nkhí Cl chuyển sang cathode phản ứng với OH<sup>−</sup>. d) Tại cathode xảy ra sự oxi hóa H<sub>2</sub>O thành khí H và OH<sup>−</sup>, tại anode xảy ra sự khử ion Cl<sup>−</sup> thành khí\n2 2\nCl . II. ỨNG DỤNG CỦA PHƯƠNG PHÁP ĐIỆN PHÂN\n1. Sản xuất kim loại\n Điện phân dung dịch (đpdd) => sản xuất kim loại trung bình và yếu.\nVí dụ: hơn 50% sản lượng kẽm trên thế giới được sản xuất bằng phương pháp điện phân:\nZnSO<sub>4</sub> + H<sub>2</sub>O\n4 2\n36\nñ p d d&rarr;\n1\nZn + O + H<sub>2</sub>SO<sub>4</sub>\n2 2 4  Điện phân nóng chảy (đpnc) => sản xuất kim loại mạnh từ Al trở về trước: Na, K, Mg, Ca, Al.\nVí dụ: Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite\nQuặng bauxite (thành phần chính Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O) thường lẫn tạp chất. Sau khi loại bỏ tạp chất bằng\n2 3 2\nphương pháp hóa học thu được Al<sub>2</sub>O<sub>3</sub> .\n2 3\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy\n2 3\nDo Al<sub>2</sub>O<sub>3</sub> có nhiệt độ nóng chảy rất cao (2050°C) nên Al<sub>2</sub>O<sub>3</sub> được trộn cùng với cryolite (Na AlF ) để\n2 3 2 3 3 6\n Tạo thành hỗn hợp nóng chảy ở gần 1000°C. Giải pháp này giúp tiết kiệm nhiều năng lượng.\n Tạo chất lỏng vừa có tính dẫn điện tốt vừa nổi lên trên Al lỏng để ngăn cách Al lỏng không bị\noxi hóa bởi không khí.\nA l O\n3\n n o ùn g c h a ûy &rarr; 2 A l 3 + + 3 O 2 -\n Ở cực dương (anode) sự oxi hóa ion O<sub>2</sub>- thành O : 2 O 2 − &rarr; O + 4 e\n Ở cực âm (cathode) sự khử ion Al<sup>3+</sup> thành Al: : Al<sup>3+</sup>+ 3e&rarr;Al\n Phương trình điện phân: 2Al O ñpnc&rarr;Al + 3O \n2 3 2\nKhí O tạo thành ở nhiệt độ cao, đốt cháy dần điện cực anode than chì thành CO và CO . Do vậy, trong\n2 2\nquá trình điện phân phải hạ thấp dần các điện cực anode vào thùng điện phân.\nSơ đồ thùng điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy",
+        "question": "Trong công nghiệp, quá trình điện phân dung dịch NaCl thường được tiến hành trong thùng\nđiện phân có anode bằng than chì và cathode bằng sắt (giữa hai điện cực có màng ngăn xốp) dùng để\nsản xuất NaOH, khí Cl<sub>2</sub>. Sơ đồ quá trình điện phân dung dịch NaCl trong công nghiệp như hình vẽ sau:\n35\nDung dịch NaCl bão hòa có nồng độ 300 g L-1 bơm vào chỉ được điện phân một phần thành dung dịch\nNaCl có nồng độ 200 g L-1, dung dịch này sau đó được dẫn ra khỏi thùng điện phân, trong khi nước\nmuối mới được bơm vào. Việc làm này giúp hạn chế sự tạo thành sản phẩm không mong muốn. Dung\ndịch NaOH thu được ở cathode có nồng độ 32% được chuyển sang thiết bị cô đặc để sản xuất dung\ndịch NaOH có nồng độ theo ý muốn.\na) Khí Cl thoát ra ở anode, khí H thoát ra ở cathode.\n2 2\nb) Giả sử NaOH không bị thất thoát trong quá trình cô đặc, thể tích dung dịch NaCl không thay đổi\ntrong quá trình điện phân. Để sản xuất được một thùng 20 lít dung dịch NaOH 45% thương phẩm có\nkhối lượng riêng 1,48 g mL-1, cần ít nhất 194,8 lít ( làm tròn đến hàng phần mười) dung dịch NaCl\nbão hòa nồng độ 300 g L-1 bơm vào thùng điện phân.c) Màng ngăn xốp có tác dụng ngăn không cho\nkhí Cl chuyển sang cathode phản ứng với OH<sup>−</sup>. d) Tại cathode xảy ra sự oxi hóa H<sub>2</sub>O thành khí H<sub>2</sub> và OH<sup>−</sup>, tại anode xảy ra sự khử ion Cl<sup>−</sup> thành khí\n2 2\nCl<sub>2</sub>. II. ỨNG DỤNG CỦA PHƯƠNG PHÁP ĐIỆN PHÂN\n1. Sản xuất kim loại\n Điện phân dung dịch (đpdd) => sản xuất kim loại trung bình và yếu.\nVí dụ: hơn 50% sản lượng kẽm trên thế giới được sản xuất bằng phương pháp điện phân:\nZnSO<sub>4</sub> + H<sub>2</sub>O\n4 2\n36\nñ p d d&rarr;\n1\nZn + O + H<sub>2</sub>SO<sub>4</sub>\n2 2 4  Điện phân nóng chảy (đpnc) => sản xuất kim loại mạnh từ Al trở về trước: Na, K, Mg, Ca, Al.\nVí dụ: Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite\nQuặng bauxite (thành phần chính Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O) thường lẫn tạp chất. Sau khi loại bỏ tạp chất bằng\n2 3 2\nphương pháp hóa học thu được Al<sub>2</sub>O<sub>3</sub> .\n2 3\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy\n2 3\nDo Al<sub>2</sub>O<sub>3</sub> có nhiệt độ nóng chảy rất cao (2050°C) nên Al<sub>2</sub>O<sub>3</sub> được trộn cùng với cryolite (Na AlF ) để\n2 3 2 3 3 6\n Tạo thành hỗn hợp nóng chảy ở gần 1000°C. Giải pháp này giúp tiết kiệm nhiều năng lượng.\n Tạo chất lỏng vừa có tính dẫn điện tốt vừa nổi lên trên Al lỏng để ngăn cách Al lỏng không bị\noxi hóa bởi không khí.\nA l O\n3\n n o ùn g c h a ûy &rarr; 2 A l 3 + + 3 O 2 -\n Ở cực dương (anode) sự oxi hóa ion O<sub>2</sub>- thành O : 2 O 2 − &rarr; O + 4 e\n Ở cực âm (cathode) sự khử ion Al<sup>3+</sup> thành Al: : Al<sup>3+</sup>+ 3e&rarr;Al\n Phương trình điện phân: 2Al O ñpnc&rarr;Al + 3O \n2 3 2\nKhí O tạo thành ở nhiệt độ cao, đốt cháy dần điện cực anode than chì thành CO và CO . Do vậy, trong\n2 2\nquá trình điện phân phải hạ thấp dần các điện cực anode vào thùng điện phân.\nSơ đồ thùng điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 28,
         "label": "Ví dụ 1",
-        "question": "Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite.\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy.\n2 3\na) Tại cathode xảy ra quá trình khử Al<sup>3+</sup>, tại anode xảy ra quá trình oxi hóa ion\n37\nO 2 - .\nb) Thành phần chính của quặng bauxite là Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O.\n2 3 2\nc) Có thể thay điện cực than chì bằng điện cực Ag hoặc Cu để dẫn điện tốt hơn.\nd) Cryolite có công thức 3NaF.AlF .\n3\nLời giải:\nQuặng bauxite (Al<sub>2</sub>O<sub>3</sub> . 2H<sub>2</sub>O) được trộn cùng với cryolite (Na AlF ) để tạo thành hỗn hợp nóng chảy.\n2 3 2 3 6\nỞ anode xảy ra quá trình oxi hóa O<sub>2</sub>- thành O . Ở cathode xảy ra quá trình khử Al<sup>3+</sup> thành Al. a) Đúng.\nb) Đúng.\nc) Sai vì Ag và Cu tham gia phản ứng trong quá trình điện phân nóng chảy Al<sub>2</sub>O<sub>3</sub> , tạo ra sản phẩm\n2 3\nphụ.\nd) Đúng.",
+        "question": "Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite.\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy.\n2 3\na) Tại cathode xảy ra quá trình khử Al<sup>3+</sup>, tại anode xảy ra quá trình oxi hóa ion\n37\nO 2 - .\nb) Thành phần chính của quặng bauxite là Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O<sub>2</sub>.\n2 3 2\nc) Có thể thay điện cực than chì bằng điện cực Ag hoặc Cu để dẫn điện tốt hơn.\nd) Cryolite có công thức 3NaF.AlF .\n3\nLời giải:\nQuặng bauxite (Al<sub>2</sub>O<sub>3</sub> . 2H<sub>2</sub>O) được trộn cùng với cryolite (Na AlF ) để tạo thành hỗn hợp nóng chảy.\n2 3 2 3 6\nỞ anode xảy ra quá trình oxi hóa O<sub>2</sub>- thành O<sub>2</sub>. Ở cathode xảy ra quá trình khử Al<sup>3+</sup> thành Al. a) Đúng.\nb) Đúng.\nc) Sai vì Ag và Cu tham gia phản ứng trong quá trình điện phân nóng chảy Al<sub>2</sub>O<sub>3</sub> , tạo ra sản phẩm\n2 3\nphụ.\nd) Đúng.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3340,7 +3337,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 35,
         "label": "Ví dụ 8",
-        "question": "Xét quá trình sản xuất nhôm được thực hiện theo phương pháp điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy\n2 3\nvới điện cực than chì.\na. Giải thích vì sao thực tế thành phần thể tích khí bay ra ở cực dương gồm CO (30% - 50%) và\nCO (70% - 50%) mà không phải là O .\n2 2\nb. Trung bình để sản xuất được 1 tấn Al thì lượng điện cực than chì bị tiêu hao do phản ứng oxi\nhoá là bao nhiêu? Giả thiết thành phần khí bay ra ở cực dương gồm 50% CO và 50% CO về thể tích. Giải:\n1 000 1 000\nn = kmol &rarr; n =3n = kmol\nAl 27 e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sub>2</sub>–\n39 &rarr; O + 4e C +O 2&rarr; [CO (a kmol) + CO (a kmol)] 250 250 500\nne&rarr; n = kmol BT.O&rarr; 2 = a2 + a &rarr; a = kmol\nO 2 9 9 27\nBT.C&rarr; n =2a &rarr; m = 444,44 kg = 0,44 T\nC C",
+        "question": "Xét quá trình sản xuất nhôm được thực hiện theo phương pháp điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy\n2 3\nvới điện cực than chì.\na. Giải thích vì sao thực tế thành phần thể tích khí bay ra ở cực dương gồm CO (30% - 50%) và\nCO (70% - 50%) mà không phải là O<sub>2</sub>.\n2 2\nb. Trung bình để sản xuất được 1 tấn Al thì lượng điện cực than chì bị tiêu hao do phản ứng oxi\nhoá là bao nhiêu? Giả thiết thành phần khí bay ra ở cực dương gồm 50% CO và 50% CO về thể tích. Giải:\n1 000 1 000\nn = kmol &rarr; n =3n = kmol\nAl 27 e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sub>2</sub>–\n39 &rarr; O + 4e C +O 2&rarr; [CO (a kmol) + CO (a kmol)] 250 250 500\nne&rarr; n = kmol BT.O&rarr; 2 = a2 + a &rarr; a = kmol\nO 2 9 9 27\nBT.C&rarr; n =2a &rarr; m = 444,44 kg = 0,44 T\nC C",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3354,14 +3351,14 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 37,
         "label": "Ví dụ 10",
-        "question": "Trong quá trình sản xuất nhôm bằng phương pháp điện phân nóng chảy aluminium oxide,\nđiện cực dương bằng than chì bị ăn mòn liên tục do phản ứng giữa carbon và oxygen tạo thành hỗn\nhợp khí O , CO và CO . Giả sử các khí trong hỗn hợp trên có tỉ lệ mol bằng nhau, các phản ứng xảy\n2 2\nra hoàn toàn, mỗi kg nhôm sinh ra tương ứng với bao nhiêu kg than chì bị đốt cháy ở cực dương? (Kết\nquả được làm tròn đến hàng phần trăm).\nGiải:\n1 000 1 000\nn = mol &rarr; n =3n = mol\nAl 27 e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sub>2</sub>– &rarr; O + 4e C + O &rarr; 2 [CO (a mol) + CO (a mol) + O (a mol)]\n2 2\n250 250 100\nne&rarr; n = mol BT.O&rarr; 2 = a2 + a + a2 &rarr; a = mol\nO 2 9 9 9\nBT.C&rarr; n =2a &rarr; m = 266,67 g = 0,27 kg\nC C",
+        "question": "Trong quá trình sản xuất nhôm bằng phương pháp điện phân nóng chảy aluminium oxide,\nđiện cực dương bằng than chì bị ăn mòn liên tục do phản ứng giữa carbon và oxygen tạo thành hỗn\nhợp khí O<sub>2</sub>, CO và CO . Giả sử các khí trong hỗn hợp trên có tỉ lệ mol bằng nhau, các phản ứng xảy\n2 2\nra hoàn toàn, mỗi kg nhôm sinh ra tương ứng với bao nhiêu kg than chì bị đốt cháy ở cực dương? (Kết\nquả được làm tròn đến hàng phần trăm).\nGiải:\n1 000 1 000\nn = mol &rarr; n =3n = mol\nAl 27 e Al 9\nCathode (–) Anode (+)\nAl<sup>3+</sup> + 3e &rarr; Al 2O<sub>2</sub>– &rarr; O + 4e C + O &rarr; 2 [CO (a mol) + CO (a mol) + O (a mol)]\n2 2\n250 250 100\nne&rarr; n = mol BT.O&rarr; 2 = a2 + a + a2 &rarr; a = mol\nO 2 9 9 9\nBT.C&rarr; n =2a &rarr; m = 266,67 g = 0,27 kg\nC C",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
       {
         "id": 38,
         "label": "Ví dụ 11",
-        "question": "Trong công nghiệp, kim loại nhôm được sản xuất từ quặng bauxite Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O bằng phương\n2 3 2\npháp điện phân nóng chảy với điện cực than chì và có mặt cryolite. Giả sử ở cathode thu được kim\nloại nhôm, ở anode chỉ thu được hỗn hợp khí CO và CO theo tỉ lệ thể tích 1: 1. Nếu thu được 99,16 m³ (ở đkc) hỗn hợp khí ở anode thì khối lượng (kg) quặng bauxite đã sử dụng là bao nhiêu? biết hiệu\nsuất cả quá trình điện phân là 80%?\nHướng dẫn giải\nn khí = 4 kmol &rarr; nCO = nCO = 2 kmol Bảo toàn electron: 3nAl = 2nCO + 4nCO &rarr; nAl = 4\nH = 80% &rarr; mAl O .2H<sub>2</sub>O = 138.4/(2.80%) = 345 kg.\n2 3 2\n2. Tinh chế kim loại\n- Từ nguồn kim loại thô (kim loại phế liệu hoặc sau quá trình nhiệt luyện, thuỷ luyện), các kim loại\nnhư Zn, Ni, Co, Cu, Ag, Au, ... được tinh chế bằng phương pháp điện phân.\n- Quá trình tinh chế được thực hiện bằng cách điện phân dung dịch chất tan (muối hoặc phức chất) của\nkim loại đó với anode làm bằng kim loại thô tương ứng.\nVí dụ: Trong công nghiệp, đồng phế liệu hoặc đồng thô được tinh chế bằng phương pháp điện\nphân.\nBình điện phân tinh chế đồng chứa dung dịch muối CuSO<sub>4</sub> trong dung dịch H<sub>2</sub>SO<sub>4</sub> , anode bằng\n4 2 4\nđồng thô và cathode là đồng tinh khiết.\n Tại anode: Cu bị oxi hoá thành ion Cu<sup>2+</sup> đi vào dung dịch: Cu &rarr; Cu<sup>2+</sup> + 2e =>Do vậy, anode\ndần bị hoà tan.\n Tại cathode: Cu<sup>2+</sup> bị khử thành Cu bám trên cathode: Cu<sup>2+</sup> + 2e &rarr; Cu\n Quá trình điện phân này được coi như là sự chuyển dời kim loại Cu từ anode (ở dạng đồng thô)\nvề cathode (ở dạng đồng tinh khiết).\n Kết thúc quá trình điện phân thu được đồng tinh khiết ở cathode.\n3. Mạ điện\n- Phương pháp điện phân được sử dụng trong mạ điện, trong đó ion kim loại bị khử, tạo thành lớp kim\nloại rắn bao phủ trên bề mặt kim loại cần mạ nhằm trang trí bề mặt hoặc chống sự ăn mòn.\n- Trong kĩ thuật mạ điện, các kim loại mạ thường là chromium, nickel, đồng, vàng, bạc, platinum, ...\n- Bình mạ điện chứa dung dịch muối của kim loại mạ, vật cần mạ và thanh kim loại mạ.",
+        "question": "Trong công nghiệp, kim loại nhôm được sản xuất từ quặng bauxite Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O bằng phương\n2 3 2\npháp điện phân nóng chảy với điện cực than chì và có mặt cryolite. Giả sử ở cathode thu được kim\nloại nhôm, ở anode chỉ thu được hỗn hợp khí CO và CO theo tỉ lệ thể tích 1: 1. Nếu thu được 99,16 m³ (ở đkc) hỗn hợp khí ở anode thì khối lượng (kg) quặng bauxite đã sử dụng là bao nhiêu? biết hiệu\nsuất cả quá trình điện phân là 80%?\nHướng dẫn giải\nn khí = 4 kmol &rarr; nCO = nCO = 2 kmol Bảo toàn electron: 3nAl = 2nCO + 4nCO &rarr; nAl = 4\nH = 80% &rarr; mAl O<sub>2</sub>.2H<sub>2</sub>O = 138.4/(2.80%) = 345 kg.\n2 3 2\n2. Tinh chế kim loại\n- Từ nguồn kim loại thô (kim loại phế liệu hoặc sau quá trình nhiệt luyện, thuỷ luyện), các kim loại\nnhư Zn, Ni, Co, Cu, Ag, Au, ... được tinh chế bằng phương pháp điện phân.\n- Quá trình tinh chế được thực hiện bằng cách điện phân dung dịch chất tan (muối hoặc phức chất) của\nkim loại đó với anode làm bằng kim loại thô tương ứng.\nVí dụ: Trong công nghiệp, đồng phế liệu hoặc đồng thô được tinh chế bằng phương pháp điện\nphân.\nBình điện phân tinh chế đồng chứa dung dịch muối CuSO<sub>4</sub> trong dung dịch H<sub>2</sub>SO<sub>4</sub> , anode bằng\n4 2 4\nđồng thô và cathode là đồng tinh khiết.\n Tại anode: Cu bị oxi hoá thành ion Cu<sup>2+</sup> đi vào dung dịch: Cu &rarr; Cu<sup>2+</sup> + 2e =>Do vậy, anode\ndần bị hoà tan.\n Tại cathode: Cu<sup>2+</sup> bị khử thành Cu bám trên cathode: Cu<sup>2+</sup> + 2e &rarr; Cu\n Quá trình điện phân này được coi như là sự chuyển dời kim loại Cu từ anode (ở dạng đồng thô)\nvề cathode (ở dạng đồng tinh khiết).\n Kết thúc quá trình điện phân thu được đồng tinh khiết ở cathode.\n3. Mạ điện\n- Phương pháp điện phân được sử dụng trong mạ điện, trong đó ion kim loại bị khử, tạo thành lớp kim\nloại rắn bao phủ trên bề mặt kim loại cần mạ nhằm trang trí bề mặt hoặc chống sự ăn mòn.\n- Trong kĩ thuật mạ điện, các kim loại mạ thường là chromium, nickel, đồng, vàng, bạc, platinum, ...\n- Bình mạ điện chứa dung dịch muối của kim loại mạ, vật cần mạ và thanh kim loại mạ.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3382,7 +3379,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 41,
         "label": "Ví dụ 3",
-        "question": "Tinh luyện đồng (Cu) bằng phương pháp điện phân được tiến hành như sau:\n- Các khối đồng có độ tinh khiết thấp được gắn với cực dương của nguồn điện;\n- Các tấm đồng mỏng có độ tinh khiết cao được gắn với cực âm của nguồn điện.\nDung dịch điện phân là dung dịch CuSO<sub>4</sub> .\n4\n40\na. Tại anode chủ yếu xảy ra quá trình oxi hoá H<sub>2</sub>O thành khí O và H<sup>+</sup>.\n2 2\nb. Các tạp chất không bị điện phân sẽ được giữ lại và bám vào anode.\nc. Nồng độ ion Cu<sup>2+</sup> trong dung dịch không đổi trong quá trình điện phân.\nd. Khối lượng Cu tan ra từ anode bằng khối lượng Cu bám vào cathode.",
+        "question": "Tinh luyện đồng (Cu) bằng phương pháp điện phân được tiến hành như sau:\n- Các khối đồng có độ tinh khiết thấp được gắn với cực dương của nguồn điện;\n- Các tấm đồng mỏng có độ tinh khiết cao được gắn với cực âm của nguồn điện.\nDung dịch điện phân là dung dịch CuSO<sub>4</sub> .\n4\n40\na. Tại anode chủ yếu xảy ra quá trình oxi hoá H<sub>2</sub>O thành khí O<sub>2</sub> và H<sub>2</sub><sup>+</sup>.\n2 2\nb. Các tạp chất không bị điện phân sẽ được giữ lại và bám vào anode.\nc. Nồng độ ion Cu<sup>2+</sup> trong dung dịch không đổi trong quá trình điện phân.\nd. Khối lượng Cu tan ra từ anode bằng khối lượng Cu bám vào cathode.",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3410,7 +3407,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 45,
         "label": "Ví dụ 7",
-        "question": "Để mạ 5,0 gam bạc lên một đĩa sắt khi điện phân dung dịch chứa ion\n[Ag(NH ) ]+ với dòng điện có cường độ 1,5 A không đổi cần thời gian t phút. Cho biết quá trình khử\n3 2\ntại cathode:\n[Ag(NH ) ]+ + le &rarr; Ag + 2NH .\n3 2 3\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).\n41\nĐáp án: 49,6",
+        "question": "Để mạ 5,0 gam bạc lên một đĩa sắt khi điện phân dung dịch chứa ion\n[Ag(NH ) ]+ với dòng điện có cường độ 1,5 A không đổi cần thời gian t phút. Cho biết quá trình khử\n3 2\ntại cathode:\n[Ag(NH ) ]+ + 1e &rarr; Ag + 2NH .\n3 2 3\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).\n41\nĐáp án: 49,6",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       },
@@ -3424,7 +3421,7 @@ window.CHEM_CH5_EXAMS_DATA = {
       {
         "id": 47,
         "label": "Ví dụ 9",
-        "question": "Muốn mạ đồng một tấm sắt có tổng diện tích bề mặt là x cm² với bề dày lớp mạ là 0,18 mm,\nngười ta dùng tấm sắt đó làm cathode của một bình điện phân chứa dung dịch CuSO<sub>4</sub> và anode là một\n4\nthanh đồng nguyên chất, rồi cho dòng điện có cường độ I = 10 A chạy qua trong thời gian 2 giờ 40\nphút 50 giây. Cho biết đồng có khối lượng riêng D = 8,9 g/cm³; Điện lượng Q (coulomb) được xác\nđịnh theo công thức: Q = n.F = I.t. Trong đó: n là số mol electron đi qua dây dẫn, I là cường độ dòng\nđiện (ampe), t là thời gian (giây), hằng số Faraday F = 96500 C/mol. Giả thiết Cu được sinh ra bám\nđồng đều trên bề mặt tấm sắt với bề dày lớp Cu như nhau ở mọi vị trí. Tính giá trị của x (kết quả cuối\ncùng làm tròn đến hàng đơn vị).\nHướng dẫn giải\nne = It/F = 1 &rarr; nCu = 0,5\nV Cu = 8,9.0,018.x = 0,5.64 &rarr; x = 200 cm².\n42",
+        "question": "Muốn mạ đồng một tấm sắt có tổng diện tích bề mặt là x cm² với bề dày lớp mạ là 0,18 mm,\nngười ta dùng tấm sắt đó làm cathode của một bình điện phân chứa dung dịch CuSO<sub>4</sub> và anode là một\n4\nthanh đồng nguyên chất, rồi cho dòng điện có cường độ I = 10 A chạy qua trong thời gian 2 giờ 40\nphút 50 giây. Cho biết đồng có khối lượng riêng D = 8,9 g/cm³; Điện lượng Q (coulomb) được xác\nđịnh theo công thức: Q = n.F = I.t. Trong đó: n là số mol electron đi qua dây dẫn, I là cường độ dòng\nđiện (ampe), t là thời gian (giây), hằng số Faraday F = 96500 C/mol. Giả thiết Cu được sinh ra bám\nđồng đều trên bề mặt tấm sắt với bề dày lớp Cu như nhau ở mọi vị trí. Tính giá trị của x (kết quả cuối\ncùng làm tròn đến hàng đơn vị).\nHướng dẫn giải\nne = It/F = 1 &rarr; nCu = 0,5\nV Cu = 8,9.0,018.x = 0,5.64 &rarr; x = 200 cm².",
         "options": null,
         "explanation": "Áp dụng thứ tự điện phân tại cathode (ion có tính oxi hoá mạnh hơn bị khử trước) và anode (ion có tính khử mạnh hơn bị oxi hoá trước)."
       }
@@ -3545,7 +3542,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Điện phân nóng chảy NaCl (điện cực trơ), ở cathode thu được chất nào sau đây?",
         "options": {
           "A": "HCl.",
-          "B": "Cl .",
+          "B": "Cl<sub>2</sub>.",
           "C": "Na.",
           "D": "NaOH."
         },
@@ -3565,7 +3562,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "CaCl<sub>2</sub> &rarr; Ca + Cl<sub>2</sub>. .",
           "B": "Fe O + 3CO &rarr; Fe + 3CO .",
           "C": "Mg + CuSO<sub>4</sub> &rarr; MgSO<sub>4</sub> + Cu.",
-          "D": "2NaCl + 2H<sub>2</sub>O\n4 2 &rarr; 2NaOH + H + Cl ."
+          "D": "2NaCl + 2H<sub>2</sub>O\n4 2 &rarr; 2NaOH + H + Cl<sub>2</sub>."
         },
         "answer": "A",
         "figure": null,
@@ -3599,13 +3596,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "(SBT – KNTT) Việc duy trì điện áp thấp (~ 5 V) trong quá trình điện phân nóng chảy Al<sub>2</sub>O<sub>3</sub>\n2 3\ntrong 3NaF.AlF nhằm ngăn cản quá trình nào sau đây xảy ra ở cathode?",
         "options": {
           "A": "Al<sup>3+</sup> + 3e &rarr; Al.",
-          "B": "Na<sup>+</sup> + le &rarr; Na.",
+          "B": "Na<sup>+</sup> + 1e &rarr; Na.",
           "C": "F + 2e &rarr; 2F–.",
           "D": "O + 4e &rarr; 2O<sub>2</sub>–."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Na<sup>+</sup> + le &rarr; Na.</b>. Chọn đáp án <b>B</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Na<sup>+</sup> + 1e &rarr; Na.</b>. Chọn đáp án <b>B</b>.",
         "id": 10,
         "qnum": 10,
         "label": "Phần 1 - Câu 10"
@@ -3616,14 +3613,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 11,
         "prompt": "Trong quá trình điện phân dung dịch AgNO<sub>3</sub> (các điện cực trơ), ở cực âm xảy ra phản ứng nào\n\nsau đây?",
         "options": {
-          "A": "Ag &rarr; Ag + le.",
-          "B": "Ag<sup>+</sup> + le &rarr; Ag.",
-          "C": "2H<sub>2</sub>O &rarr; 4H+ + O + 4e.",
-          "D": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>.\n2"
+          "A": "Ag &rarr; Ag + 1e.",
+          "B": "Ag<sup>+</sup> + 1e &rarr; Ag.",
+          "C": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
+          "D": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Ag<sup>+</sup> + le &rarr; Ag.</b>. Chọn đáp án <b>B</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Ag<sup>+</sup> + 1e &rarr; Ag.</b>. Chọn đáp án <b>B</b>.",
         "id": 11,
         "qnum": 11,
         "label": "Phần 1 - Câu 11"
@@ -3654,12 +3651,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "oxi hoá ion SO 2–.",
           "B": "khử ion SO 2–.",
-          "C": "khử phân tử H<sub>2</sub>O.",
-          "D": "oxi hoá phân tử H<sub>2</sub>O."
+          "C": "khử phân tử H<sub>2</sub>O<sub>2</sub>.",
+          "D": "oxi hoá phân tử H<sub>2</sub>O<sub>2</sub>."
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>oxi hoá phân tử H<sub>2</sub>O.</b>. Chọn đáp án <b>D</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>oxi hoá phân tử H<sub>2</sub>O<sub>2</sub>.</b>. Chọn đáp án <b>D</b>.",
         "id": 13,
         "qnum": 13,
         "label": "Phần 1 - Câu 13"
@@ -3688,14 +3685,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 15,
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch CuSO<sub>4</sub> bằng dòng điện một chiều (với điện cực anode\n\nbằng Cu) thì ở anode xảy ra quá trình",
         "options": {
-          "A": "oxi hoá H<sub>2</sub>O thành H⁺ và O .",
+          "A": "oxi hoá H<sub>2</sub>O thành H<sub>2</sub><sup>+</sup> và O<sub>2</sub>.",
           "B": "khử Cu<sup>2+</sup> thành Cu.",
           "C": "oxi hoá Cu thành Cu<sup>2+</sup>.",
-          "D": "khử H<sub>2</sub>O thành H và OH<sup>−</sup>."
+          "D": "khử H<sub>2</sub>O thành H<sub>2</sub> và OH<sup>−</sup>."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>oxi hoá H<sub>2</sub>O thành H⁺ và O .</b>. Chọn đáp án <b>A</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>oxi hoá H<sub>2</sub>O thành H<sub>2</sub><sup>+</sup> và O<sub>2</sub>.</b>. Chọn đáp án <b>A</b>.",
         "id": 15,
         "qnum": 15,
         "label": "Phần 1 - Câu 15"
@@ -3706,8 +3703,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 16,
         "prompt": "Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân dung dịch CuSO<sub>4</sub>\n4 4\nvới anode bằng graphite (điện cực trơ) đều có đặc điểm chung là",
         "options": {
-          "A": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H .",
-          "B": "ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O + 4H+ + 4e",
+          "A": "ở cathode xảy ra sự oxi hoá: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> + H<sub>2</sub>.",
+          "B": "ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e",
           "C": "ở anode xảy ra sự oxi hoá: Cu &rarr; Cu<sup>2+</sup> + 2e.",
           "D": "ở cathode xảy ra sự khử: Cu<sup>2+</sup> + 2e &rarr; Cu"
         },
@@ -3742,14 +3739,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 18,
         "prompt": "Sản phẩm thu được khi điện phân dung dịch KCl (điện cực trơ, có màng ngăn) gồm",
         "options": {
-          "A": "K và Cl .",
-          "C": "KOH, H và Cl .",
-          "B": "K, H và Cl .",
-          "D": "KOH, O và HCl.\n2"
+          "A": "K và Cl<sub>2</sub>.",
+          "B": "K, H<sub>2</sub> và Cl<sub>2</sub>.",
+          "C": "KOH, H<sub>2</sub> và Cl<sub>2</sub>.",
+          "D": "KOH, O<sub>2</sub> và HCl."
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>KOH, H và Cl .</b>. Chọn đáp án <b>C</b>.",
+        "explanation": "Khi điện phân dung dịch KCl có màng ngăn với điện cực trơ:<br>• <b>Tại Anode (cực dương)</b>: Ion Cl<sup>−</sup> có tính khử mạnh hơn H<sub>2</sub>O nên bị oxi hóa tạo khí chlorine: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>• <b>Tại Cathode (cực âm)</b>: Ion K<sup>+</sup> không bị khử trong dung dịch nước; phân tử H<sub>2</sub>O bị khử tạo khí hydrogen và ion OH<sup>−</sup>: <b>2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub>&uarr; + 2OH<sup>−</sup></b>.<br>• Ion K<sup>+</sup> kết hợp với OH<sup>−</sup> tạo dung dịch bazơ <b>KOH</b> ở khu vực cathode.<br>&bull; Phương trình hóa học tổng quát: <b>2KCl + 2H<sub>2</sub>O &rarr; 2KOH + Cl<sub>2</sub>&uarr; + H<sub>2</sub>&uarr;</b>.<br>&rarr; Các sản phẩm thu được gồm <b>KOH, H<sub>2</sub> và Cl<sub>2</sub></b>. Chọn đáp án <b>C</b>.",
         "id": 18,
         "qnum": 18,
         "label": "Phần 1 - Câu 18"
@@ -3799,7 +3796,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "tại cathode xảy ra sự khử ion Na<sup>+</sup>.",
           "B": "tại cathode xảy ra sự khử phân tử H<sub>2</sub>O",
           "C": "tại anode xảy ra sự oxi hoá ion Cl–.",
-          "D": "tại anode xảy ra sự oxi hoá phân tử H<sub>2</sub>O."
+          "D": "tại anode xảy ra sự oxi hoá phân tử H<sub>2</sub>O<sub>2</sub>."
         },
         "answer": "C",
         "figure": "assets/images/quiz/chem_ch5/chem_dien_phan_nacl_mang_ngan.png",
@@ -3922,14 +3919,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 28,
         "prompt": "(SBT – KNTT) Trong quá trình mạ bạc cho một chiếc vòng bằng thép thì ở anode xảy ra quá\ntrình",
         "options": {
-          "A": "Ag &rarr; Ag<sup>+</sup> + le.",
+          "A": "Ag &rarr; Ag<sup>+</sup> + 1e.",
           "B": "Fe &rarr; Fe<sup>2+</sup> + 2e.",
-          "C": "2H<sub>2</sub>O &rarr; 4H+ + O + 4e.",
-          "D": "C &rarr; C4+ + 4e."
+          "C": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
+          "D": "C &rarr; C<sup>4+</sup> + 4e."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Nguyên tắc mạ điện:<br>• <b>Vật cần mạ</b> được gắn vào <b>cathode (cực âm)</b> để cation kim loại mạ chạy về nhận e và kết tủa bám đều lên bề mặt vật.<br>• <b>Anode (cực dương)</b> làm bằng chính <b>kim loại dùng để mạ</b> (anode tan) để bù đắp liên tục ion kim loại vào dung dịch.<br>• Dung dịch điện phân là dung dịch muối của kim loại dùng để mạ.<br>&rarr; Chọn đáp án <b>A</b>: <b>Ag &rarr; Ag<sup>+</sup> + le.</b>.",
+        "explanation": "Nguyên tắc mạ điện:<br>• <b>Vật cần mạ</b> được gắn vào <b>cathode (cực âm)</b> để cation kim loại mạ chạy về nhận e và kết tủa bám đều lên bề mặt vật.<br>• <b>Anode (cực dương)</b> làm bằng chính <b>kim loại dùng để mạ</b> (anode tan) để bù đắp liên tục ion kim loại vào dung dịch.<br>• Dung dịch điện phân là dung dịch muối của kim loại dùng để mạ.<br>&rarr; Chọn đáp án <b>A</b>: <b>Ag &rarr; Ag<sup>+</sup> + 1e.</b>.",
         "id": 28,
         "qnum": 28,
         "label": "Phần 1 - Câu 28"
@@ -4028,7 +4025,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "mcq",
         "part": 1,
         "orig_qnum": 34,
-        "prompt": "Khi điện phân hỗn hợp gồm các dung dịch: FeCl<sub>3</sub> , CuCl<sub>2</sub> , HCl. Quá trình nào xảy ra ở cathode\n3 2\nvà theo đúng thứ tự điện phân?\n(1) Cu<sup>2+</sup> + 2e &rarr; Cu; (2) Fe<sup>3+</sup> + 3e &rarr; Fe; (3) Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup>;\n(4) Fe<sup>2+</sup> + 2e &rarr; Fe; (5) 2H+ + 2e &rarr; H .",
+        "prompt": "Khi điện phân hỗn hợp gồm các dung dịch: FeCl<sub>3</sub> , CuCl<sub>2</sub> , HCl. Quá trình nào xảy ra ở cathode\n3 2\nvà theo đúng thứ tự điện phân?\n(1) Cu<sup>2+</sup> + 2e &rarr; Cu; (2) Fe<sup>3+</sup> + 3e &rarr; Fe; (3) Fe<sup>3+</sup> + 1e &rarr; Fe<sup>2+</sup>;\n(4) Fe<sup>2+</sup> + 2e &rarr; Fe; (5) 2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>.",
         "options": {
           "A": "(4) &rarr; (5) &rarr; (1) &rarr; (3).",
           "C": "(3) &rarr; (1) &rarr; (5) &rarr; (4).",
@@ -4048,10 +4045,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 35,
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm NaCl 1 M và NaBr 1 M, quá trình oxi hoá đầu\ntiên xảy ra ở anode là",
         "options": {
-          "A": "2H<sub>2</sub>O &rarr; 4H+ + O + 4e.",
+          "A": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
           "B": "2Cl<sup>−</sup> &rarr; Cl<sub>2</sub> + 2e.",
           "C": "2Br– &rarr; Br + 2e.",
-          "D": "Na &rarr; Na<sup>+</sup> + le."
+          "D": "Na &rarr; Na<sup>+</sup> + 1e."
         },
         "answer": "C",
         "figure": null,
@@ -4069,7 +4066,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "Ag<sup>+</sup> + 1e &rarr; Ag.",
           "B": "Cu<sup>2+</sup> + 2e &rarr; Cu.",
           "C": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>.",
-          "D": "2H+ + 2e &rarr; H ."
+          "D": "2H<sup>+</sup> + 2e &rarr; H<sub>2</sub>."
         },
         "answer": "A",
         "figure": null,
@@ -4084,14 +4081,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 37,
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuCl<sub>2</sub> 1,0 M và H<sub>2</sub>SO<sub>4</sub> 0,5 M, thứ tự bị điện\n2 2 4\nphân ở anode là",
         "options": {
-          "A": "H<sub>2</sub>O, Cl–.",
-          "B": "Cl–, H<sub>2</sub>O.",
-          "C": "SO 2–, Cl–, H<sub>2</sub>O.",
-          "D": "Cl–, SO 2–, H<sub>2</sub>O."
+          "A": "H<sub>2</sub>O<sub>2</sub>, Cl–.",
+          "B": "Cl–, H<sub>2</sub>O<sub>2</sub>.",
+          "C": "SO 2–, Cl–, H<sub>2</sub>O<sub>2</sub>.",
+          "D": "Cl–, SO 2–, H<sub>2</sub>O<sub>2</sub>."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Thứ tự phóng điện ở các điện cực khi điện phân dung dịch:<br>• <b>Ở Cathode (cực âm)</b>: Cation nào có tính oxi hoá mạnh hơn (<i>E</i>° lớn hơn) sẽ bị khử trước: <b>Ag<sup>+</sup> > Fe<sup>3+</sup> > Cu<sup>2+</sup> > H<sup>+</sup> > Pb<sup>2+</sup> > Sn<sup>2+</sup> > Ni<sup>2+</sup> > Fe<sup>2+</sup> > Zn<sup>2+</sup></b> (các cation từ Al<sup>3+</sup> trở về trước không bị khử trong nước).<br>• <b>Ở Anode (cực dương)</b>: Anion nào có tính khử mạnh hơn sẽ bị oxi hoá trước: <b>S<sup>2−</sup> > I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > H<sub>2</sub>O</b> (các ion NO<sub>3</sub><sup>−</sup>, SO<sub>4</sub><sup>2−</sup>, F<sup>−</sup> không bị oxi hoá trong nước).<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl–, H<sub>2</sub>O.</b>.",
+        "explanation": "Thứ tự phóng điện ở các điện cực khi điện phân dung dịch:<br>• <b>Ở Cathode (cực âm)</b>: Cation nào có tính oxi hoá mạnh hơn (<i>E</i>° lớn hơn) sẽ bị khử trước: <b>Ag<sup>+</sup> > Fe<sup>3+</sup> > Cu<sup>2+</sup> > H<sup>+</sup> > Pb<sup>2+</sup> > Sn<sup>2+</sup> > Ni<sup>2+</sup> > Fe<sup>2+</sup> > Zn<sup>2+</sup></b> (các cation từ Al<sup>3+</sup> trở về trước không bị khử trong nước).<br>• <b>Ở Anode (cực dương)</b>: Anion nào có tính khử mạnh hơn sẽ bị oxi hoá trước: <b>S<sup>2−</sup> > I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > H<sub>2</sub>O</b> (các ion NO<sub>3</sub><sup>−</sup>, SO<sub>4</sub><sup>2−</sup>, F<sup>−</sup> không bị oxi hoá trong nước).<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl–, H<sub>2</sub>O<sub>2</sub>.</b>.",
         "id": 37,
         "qnum": 37,
         "label": "Phần 1 - Câu 37"
@@ -4102,14 +4099,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 38,
         "prompt": "(SBT – KNTT) Khi điện phân dung dịch gồm CuSO<sub>4</sub> và HCl (sử dụng điện cực trơ, có màng\n\nngăn xốp), chất khí đầu tiên thoát ra ở anode là",
         "options": {
-          "A": "O .",
-          "B": "Cl .",
-          "C": "H .",
-          "D": "SO .\n2"
+          "A": "O<sub>2</sub>.",
+          "B": "Cl<sub>2</sub>.",
+          "C": "H<sub>2</sub>.",
+          "D": "SO ."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Thứ tự phóng điện ở các điện cực khi điện phân dung dịch:<br>• <b>Ở Cathode (cực âm)</b>: Cation nào có tính oxi hoá mạnh hơn (<i>E</i>° lớn hơn) sẽ bị khử trước: <b>Ag<sup>+</sup> > Fe<sup>3+</sup> > Cu<sup>2+</sup> > H<sup>+</sup> > Pb<sup>2+</sup> > Sn<sup>2+</sup> > Ni<sup>2+</sup> > Fe<sup>2+</sup> > Zn<sup>2+</sup></b> (các cation từ Al<sup>3+</sup> trở về trước không bị khử trong nước).<br>• <b>Ở Anode (cực dương)</b>: Anion nào có tính khử mạnh hơn sẽ bị oxi hoá trước: <b>S<sup>2−</sup> > I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > H<sub>2</sub>O</b> (các ion NO<sub>3</sub><sup>−</sup>, SO<sub>4</sub><sup>2−</sup>, F<sup>−</sup> không bị oxi hoá trong nước).<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl .</b>.",
+        "explanation": "Thứ tự phóng điện ở các điện cực khi điện phân dung dịch:<br>• <b>Ở Cathode (cực âm)</b>: Cation nào có tính oxi hoá mạnh hơn (<i>E</i>° lớn hơn) sẽ bị khử trước: <b>Ag<sup>+</sup> > Fe<sup>3+</sup> > Cu<sup>2+</sup> > H<sup>+</sup> > Pb<sup>2+</sup> > Sn<sup>2+</sup> > Ni<sup>2+</sup> > Fe<sup>2+</sup> > Zn<sup>2+</sup></b> (các cation từ Al<sup>3+</sup> trở về trước không bị khử trong nước).<br>• <b>Ở Anode (cực dương)</b>: Anion nào có tính khử mạnh hơn sẽ bị oxi hoá trước: <b>S<sup>2−</sup> > I<sup>−</sup> > Br<sup>−</sup> > Cl<sup>−</sup> > H<sub>2</sub>O</b> (các ion NO<sub>3</sub><sup>−</sup>, SO<sub>4</sub><sup>2−</sup>, F<sup>−</sup> không bị oxi hoá trong nước).<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl<sub>2</sub>.</b>.",
         "id": 38,
         "qnum": 38,
         "label": "Phần 1 - Câu 38"
@@ -4120,14 +4117,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 39,
         "prompt": "(Đề TSĐH A - 2010) Điện phân (với điện cực trơ) một dung dịch gồm NaCl và CuSO<sub>4</sub> có\n\ncùng số mol, đến khi ở cathode xuất hiện bọt khí thì dừng điện phân. Trong cả quá trình điện phân\ntrên, sản phẩm thu được ở anode là",
         "options": {
-          "A": "khí Cl và H .",
-          "B": "khí Cl và O .",
-          "C": "chỉ có khí Cl .",
-          "D": "khí H và O ."
+          "A": "khí Cl<sub>2</sub> và H<sub>2</sub>.",
+          "B": "khí Cl<sub>2</sub> và O<sub>2</sub>.",
+          "C": "chỉ có khí Cl<sub>2</sub>.",
+          "D": "khí H<sub>2</sub> và O<sub>2</sub>."
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Khi điện phân dung dịch NaCl có màng ngăn xốp:<br>• <b>Tại Anode (cực dương)</b>: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>• <b>Tại Cathode (cực âm)</b>: <b>2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub>&uarr; + 2OH<sup>−</sup></b> (ion Na<sup>+</sup> không bị khử).<br>&bull; Phản ứng tổng quát: <b>2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + Cl<sub>2</sub>&uarr; + H<sub>2</sub>&uarr;</b>.<br>&rarr; Ở anode thu được Cl<sub>2</sub>, ở cathode thu được NaOH và H<sub>2</sub>. Chọn đáp án <b>B</b>: <b>khí Cl và O .</b>.",
+        "explanation": "Khi điện phân dung dịch NaCl có màng ngăn xốp:<br>• <b>Tại Anode (cực dương)</b>: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>• <b>Tại Cathode (cực âm)</b>: <b>2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub>&uarr; + 2OH<sup>−</sup></b> (ion Na<sup>+</sup> không bị khử).<br>&bull; Phản ứng tổng quát: <b>2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + Cl<sub>2</sub>&uarr; + H<sub>2</sub>&uarr;</b>.<br>&rarr; Ở anode thu được Cl<sub>2</sub>, ở cathode thu được NaOH và H<sub>2</sub>. Chọn đáp án <b>B</b>: <b>khí Cl<sub>2</sub> và O<sub>2</sub>.</b>.",
         "id": 39,
         "qnum": 39,
         "label": "Phần 1 - Câu 39"
@@ -4141,11 +4138,11 @@ window.CHEM_CH5_EXAMS_DATA = {
           "A": "Tại cathode xảy ra quá trình khử Cu<sup>2+</sup> trước.",
           "B": "Khối lượng dung dịch giảm là khối lượng của kim loại thoát ra bám vào cathode.",
           "C": "Ngay từ đầu đã có khí thoát ra tại cathode.",
-          "D": "Tại anode xảy ra quá trình oxi hoá H<sub>2</sub>O."
+          "D": "Tại anode xảy ra quá trình oxi hoá H<sub>2</sub>O<sub>2</sub>."
         },
         "answer": "D",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Tại anode xảy ra quá trình oxi hoá H<sub>2</sub>O.</b>. Chọn đáp án <b>D</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>Tại anode xảy ra quá trình oxi hoá H<sub>2</sub>O<sub>2</sub>.</b>. Chọn đáp án <b>D</b>.",
         "id": 40,
         "qnum": 40,
         "label": "Phần 1 - Câu 40"
@@ -4228,8 +4225,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 4,
         "prompt": "{ SGK – CTST } Điện phân dung dịch Cu(NO<sub>3</sub>)<sub>2</sub>với điện cực trơ, ở anode xảy ra quá trình\n3 2\nnào ?",
         "options": {
-          "A": "H<sub>2</sub>O &rarr; ½ O + 2H+ + 2e.",
-          "B": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>.\n2",
+          "A": "H<sub>2</sub>O &rarr; ½ O + 2H<sup>+</sup> + 2e.",
+          "B": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>.",
           "C": "Cu &rarr; Cu<sup>2+</sup> + 2e.",
           "D": "Cu<sup>2+</sup> + 2e &rarr; Cu."
         },
@@ -4336,14 +4333,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 10,
         "prompt": "{ SBT – KNTT } Trong quá trình điện phân dung dịch CuSO<sub>4</sub> với anode bằng graphite, ở\n\nanode xảy ra quá trình",
         "options": {
-          "A": "2H<sub>2</sub>O &rarr; 4H+ + O + 4e.",
-          "B": "2H<sub>2</sub>O + 2e &rarr; 2H + OH<sup>−</sup> .\n2",
+          "A": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
+          "B": "2H<sub>2</sub>O + 2e &rarr; 2H + OH<sup>−</sup> .",
           "C": "Cu<sup>2+</sup> + 2e &rarr; Cu.",
           "D": "Cu &rarr; Cu<sup>2+</sup>+ 2e."
         },
         "answer": "A",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>2H<sub>2</sub>O &rarr; 4H+ + O + 4e.</b>. Chọn đáp án <b>A</b>.",
+        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.</b>. Chọn đáp án <b>A</b>.",
         "id": 51,
         "qnum": 51,
         "label": "Phần 1 - Câu 51"
@@ -4355,9 +4352,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "{ SBT – KNTT } Xét quá trình điện phân dung dịch NaCl 20% bằng dòng điện một chiều\n(với điện cực trơ, có màng ngăn xốp). Quá trình khử xảy ra ở cathode là",
         "options": {
           "A": "2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub> + 2OH<sup>−</sup>.",
-          "B": "Cl + 2e &rarr; 2Cl–.",
+          "B": "Cl<sub>2</sub> + 2e &rarr; 2Cl–.",
           "C": "2Cl<sup>−</sup> &rarr; Cl<sub>2</sub> + 2e.",
-          "D": "H<sub>2</sub>O &rarr; 2H+ + ½O + 2e"
+          "D": "H<sub>2</sub>O &rarr; 2H<sup>+</sup> + ½O<sub>2</sub> + 2e"
         },
         "answer": "A",
         "figure": "assets/images/quiz/chem_ch5/chem_dien_phan_nacl_mang_ngan.png",
@@ -4392,7 +4389,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Cu<sup>2+</sup>.",
           "B": "H<sup>+</sup> (của nước).",
-          "C": "SO 2-.",
+          "C": "SO<sub>4</sub><sup>2−</sup>.",
           "D": "OH<sup>−</sup> (của\n\nnước)."
         },
         "answer": "A",
@@ -4409,8 +4406,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Trong quá trình điện phân dung dịch NaCl (điện cực trơ), ở cathode xảy ra",
         "options": {
           "A": "Sự oxi hóa cation Na<sup>+</sup>.",
-          "B": "Sự oxi hóa phân tử H<sub>2</sub>O.",
-          "C": "Sự khử phân tử H<sub>2</sub>O.",
+          "B": "Sự oxi hóa phân tử H<sub>2</sub>O<sub>2</sub>.",
+          "C": "Sự khử phân tử H<sub>2</sub>O<sub>2</sub>.",
           "D": "Sự khử cation Na<sup>+</sup>."
         },
         "answer": "A",
@@ -4426,14 +4423,14 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 15,
         "prompt": "Sản phẩm thu được khi điện phân dung dịch KCl (điện cực trơ, có màng ngăn) gồm",
         "options": {
-          "A": "K và Cl .",
-          "B": "K, H và Cl .",
-          "C": "KOH, H và Cl .",
-          "D": "KOH, O và HCl."
+          "A": "K và Cl<sub>2</sub>.",
+          "B": "K, H<sub>2</sub> và Cl<sub>2</sub>.",
+          "C": "KOH, H<sub>2</sub> và Cl<sub>2</sub>.",
+          "D": "KOH, O<sub>2</sub> và HCl."
         },
         "answer": "C",
         "figure": null,
-        "explanation": "Theo quy tắc điện phân dung dịch và điện phân nóng chảy: <b>KOH, H và Cl .</b>. Chọn đáp án <b>C</b>.",
+        "explanation": "Khi điện phân dung dịch KCl có màng ngăn với điện cực trơ:<br>• <b>Tại Anode (cực dương)</b>: Ion Cl<sup>−</sup> có tính khử mạnh hơn H<sub>2</sub>O nên bị oxi hóa tạo khí chlorine: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>• <b>Tại Cathode (cực âm)</b>: Ion K<sup>+</sup> không bị khử trong dung dịch nước; phân tử H<sub>2</sub>O bị khử tạo khí hydrogen và ion OH<sup>−</sup>: <b>2H<sub>2</sub>O + 2e &rarr; H<sub>2</sub>&uarr; + 2OH<sup>−</sup></b>.<br>• Ion K<sup>+</sup> kết hợp với OH<sup>−</sup> tạo dung dịch bazơ <b>KOH</b> ở khu vực cathode.<br>&bull; Phương trình hóa học tổng quát: <b>2KCl + 2H<sub>2</sub>O &rarr; 2KOH + Cl<sub>2</sub>&uarr; + H<sub>2</sub>&uarr;</b>.<br>&rarr; Các sản phẩm thu được gồm <b>KOH, H<sub>2</sub> và Cl<sub>2</sub></b>. Chọn đáp án <b>C</b>.",
         "id": 56,
         "qnum": 56,
         "label": "Phần 1 - Câu 56"
@@ -4553,13 +4550,13 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Khi điện phân NaCl nóng chảy (điện cực trơ), ở cathode thu được chất nào sau đây?",
         "options": {
           "A": "HCl.",
-          "B": "Cl .",
+          "B": "Cl<sub>2</sub>.",
           "C": "Na.",
           "D": "NaOH"
         },
         "answer": "B",
         "figure": null,
-        "explanation": "Trong bình điện phân Downs điều chế Na nóng chảy:<br>• <b>Tại Cathode (cực âm bằng sắt)</b>: Ion Na<sup>+</sup> nhận e bị khử thành kim loại: <b>Na<sup>+</sup> + 1e &rarr; Na</b>.<br>• <b>Tại Anode (cực dương bằng than chì)</b>: Ion Cl<sup>−</sup> nhường e bị oxi hóa thành khí chlorine: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>&bull; Phản ứng: <b>2NaCl &rarr; 2Na + Cl<sub>2</sub>&uarr;</b>.<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl .</b>.",
+        "explanation": "Trong bình điện phân Downs điều chế Na nóng chảy:<br>• <b>Tại Cathode (cực âm bằng sắt)</b>: Ion Na<sup>+</sup> nhận e bị khử thành kim loại: <b>Na<sup>+</sup> + 1e &rarr; Na</b>.<br>• <b>Tại Anode (cực dương bằng than chì)</b>: Ion Cl<sup>−</sup> nhường e bị oxi hóa thành khí chlorine: <b>2Cl<sup>−</sup> &rarr; Cl<sub>2</sub>&uarr; + 2e</b>.<br>&bull; Phản ứng: <b>2NaCl &rarr; 2Na + Cl<sub>2</sub>&uarr;</b>.<br>&rarr; Chọn đáp án <b>B</b>: <b>Cl<sub>2</sub>.</b>.",
         "id": 63,
         "qnum": 63,
         "label": "Phần 1 - Câu 63"
@@ -4698,12 +4695,12 @@ window.CHEM_CH5_EXAMS_DATA = {
         "options": {
           "A": "Ag &rarr; Ag<sup>+</sup> + 1e.",
           "B": "Fe &rarr; Fe<sup>2+</sup> + 2e.",
-          "C": "2H<sub>2</sub>O &rarr; 4H+ + O + 4e.",
-          "D": "C &rarr; C4+ + 4e."
+          "C": "2H<sub>2</sub>O &rarr; 4H<sup>+</sup> + O<sub>2</sub> + 4e.",
+          "D": "C &rarr; C<sup>4+</sup> + 4e."
         },
-        "answer": "B",
+        "answer": "A",
         "figure": null,
-        "explanation": "Nguyên tắc mạ điện:<br>• <b>Vật cần mạ</b> được gắn vào <b>cathode (cực âm)</b> để cation kim loại mạ chạy về nhận e và kết tủa bám đều lên bề mặt vật.<br>• <b>Anode (cực dương)</b> làm bằng chính <b>kim loại dùng để mạ</b> (anode tan) để bù đắp liên tục ion kim loại vào dung dịch.<br>• Dung dịch điện phân là dung dịch muối của kim loại dùng để mạ.<br>&rarr; Chọn đáp án <b>B</b>: <b>Fe &rarr; Fe<sup>2+</sup> + 2e.</b>.",
+        "explanation": "Nguyên tắc mạ điện (mạ bạc cho chiếc vòng thép):<br>• <b>Cathode (cực âm)</b>: Gắn vật cần mạ (vòng thép), tại đây cation Ag<sup>+</sup> trong dung dịch bị khử bám đều lên bề mặt vật: <b>Ag<sup>+</sup> + 1e &rarr; Ag</b>.<br>• <b>Anode (cực dương)</b>: Làm bằng chính kim loại dùng để mạ (thanh bạc nguyên chất – hiện tượng anode tan). Tại đây thanh bạc bị oxi hóa tan dần: <b>Ag &rarr; Ag<sup>+</sup> + 1e</b> để liên tục bổ sung cation Ag<sup>+</sup> vào dung dịch.<br>&rarr; Quá trình xảy ra ở anode là <b>Ag &rarr; Ag<sup>+</sup> + 1e</b>. Chọn đáp án <b>A</b>.",
         "id": 71,
         "qnum": 71,
         "label": "Phần 1 - Câu 71"
@@ -4732,10 +4729,10 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 35,
         "prompt": "{ SBT – KNTT } Khi điện phân dung dịch CuSO<sub>4</sub> bằng dòng điện một chiều (với điện cực\n\nanode bằng Cu) thì ở anode xảy ra quá trình",
         "options": {
-          "A": "oxi hoá H<sub>2</sub>O thành H<sup>+</sup> và O .",
+          "A": "oxi hoá H<sub>2</sub>O thành H<sub>2</sub><sup>+</sup> và O<sub>2</sub>.",
           "B": "khử Cu<sup>2+</sup> thành Cu.",
           "C": "oxi hoá Cu thành Cu<sup>2+</sup>.",
-          "D": "khử H<sub>2</sub>O thành H và OH<sup>−</sup>."
+          "D": "khử H<sub>2</sub>O thành H<sub>2</sub> và OH<sup>−</sup>."
         },
         "answer": "C",
         "figure": null,
@@ -4750,8 +4747,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 36,
         "prompt": "{ SBT – CTST } Điện phân dung dịch CuSO<sub>4</sub> với anode bằng đồng (anode tan) và điện phân\n\ndung dịch CuSO<sub>4</sub> với anode bằng graphite (điện cực trơ) đều có đặc điểm chung là",
         "options": {
-          "A": "Ở cathode xảy ra sự oxi hóa: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> +H .",
-          "B": "Ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O + 4H+ + 4e.",
+          "A": "Ở cathode xảy ra sự oxi hóa: 2H<sub>2</sub>O + 2e &rarr; 2OH<sup>−</sup> +H<sub>2</sub>.",
+          "B": "Ở anode xảy ra sự khử: 2H<sub>2</sub>O &rarr; O<sub>2</sub> + 4H<sup>+</sup> + 4e.",
           "C": "Ở anode xảy ra sự oxi hóa: Cu &rarr; Cu<sup>2+</sup> + 2e",
           "D": "Ở cathode xảy ra sự khử: Cu<sup>2+</sup> &rarr; Cu + 2e"
         },
@@ -4791,7 +4788,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 43,
         "prompt": "Tiến hành điện phân NaCl nóng chảy với anode bằng than chì và cathode bằng Fe.",
         "items": {
-          "a": "Tại anode xảy ra quá trình oxi hóa ion Cl– thành khí Cl .",
+          "a": "Tại anode xảy ra quá trình oxi hóa ion Cl– thành khí Cl<sub>2</sub>.",
           "b": "Tại cathode xảy ra quá trình khử ion Na<sup>+</sup> thành kim loại Na.",
           "c": "Sodium có khối lượng riêng nhỏ hơn khối hượng riêng của sodium chloride.",
           "d": "Phản ứng điện phân sodium chloride để điều chế kim loại Na xảy ra ở nhiệt độ thường."
@@ -4837,9 +4834,9 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 45,
         "prompt": "Điện phân dung dịch CuSO<sub>4</sub> với hai cực đều làm bằng than chì.",
         "items": {
-          "a": "Tại anode xảy ra phản ứng oxi hoá ion SO 2–(aq) và tạo thành khí O .",
+          "a": "Tại anode xảy ra phản ứng oxi hoá ion SO 2–(aq) và tạo thành khí O<sub>2</sub>.",
           "b": "Tại cathode xảy ra bán phản ứng khử ion Cu<sup>2+</sup>(aq) thành Cu.",
-          "c": "Phản ứng chung trong bình điện phân: 2Cu2+(aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + O (g) + 4H+(aq).",
+          "c": "Phản ứng chung trong bình điện phân: 2Cu2+(aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + O (g) + 4H<sup>+</sup>(aq).",
           "d": "Màu xanh của dung dịch nhạt dần trong quá trình điện phân."
         },
         "answer": {
@@ -4861,7 +4858,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "prompt": "Dung dịch NaOH được điều chế bằng cách điện phân dung dịch NaCl bão hòa, với điện cực\ntrơ, có màng ngăn xốp.",
         "items": {
           "a": "Ở cathode, ion Na<sup>+</sup> bị khử thành kim loại Na, sau đó tác dụng với nước tạo thành NaOH.",
-          "b": "Anode là cực âm và ở anode xảy ra quá trình oxi hóa Cl– thành Cl .",
+          "b": "Anode là cực âm và ở anode xảy ra quá trình oxi hóa Cl– thành Cl<sub>2</sub>.",
           "c": "Màng ngăn có tác dụng không cho khí Cl mới sinh ra tiếp xúc và phản ứng với NaOH.",
           "d": "Nếu không có màng ngăn thì trong quá trình điện phân sẽ không có khí thoát ra."
         },
@@ -4883,8 +4880,8 @@ window.CHEM_CH5_EXAMS_DATA = {
         "orig_qnum": 47,
         "prompt": "Điện phân dung dịch NaCl có màng bán thấm ngăn giữa anode với cathode (các điện cực đều\nlà các điện cực trơ). Màng bán thấm chỉ cho ion Na<sup>+</sup> đi qua.",
         "items": {
-          "a": "Tại cực dương xảy ra bán phản ứng khử ion Cl–(aq) thành khí Cl .",
-          "b": "Tại cực âm xảy ra bán phản ứng oxi hóa H<sub>2</sub>O thành khí H và OH<sup>−</sup>.",
+          "a": "Tại cực dương xảy ra bán phản ứng khử ion Cl–(aq) thành khí Cl<sub>2</sub>.",
+          "b": "Tại cực âm xảy ra bán phản ứng oxi hóa H<sub>2</sub>O thành khí H<sub>2</sub> và OH<sup>−</sup>.",
           "c": "Phản ứng chung trong bình điện phân là 2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + H<sub>2</sub> + Cl<sub>2</sub>.",
           "d": "Lượng (số mol) Na<sup>+</sup> trong dung dịch không đổi trong quá trình điện phân."
         },
@@ -4909,7 +4906,7 @@ window.CHEM_CH5_EXAMS_DATA = {
           "a": "Dung dịch sau điện phân làm phenolphthalein chuyển màu hồng.",
           "b": "Ở cathode chỉ xảy ra quá trình khử ion Na<sup>+</sup>.",
           "c": "Số mol khí Cl thoát ra ở anode bằng số mol H thoát ra ở cathode.",
-          "d": "Thứ tự điện phân ở anode là H<sub>2</sub>O, Cl–."
+          "d": "Thứ tự điện phân ở anode là H<sub>2</sub>O<sub>2</sub>, Cl–."
         },
         "answer": {
           "a": true,
@@ -4972,7 +4969,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "items": {
           "a": "Tại anode xảy ra phản ứng oxi hoá ion\n\nS O 24 − (aq) và tạo thành khí O",
           "b": "Tại cathode xảy ra bán phản ứng khử ion Cu<sup>2+</sup>(aq) thành Cu.",
-          "c": "Phản ứng chung trong bình điện phân là: 2Cu2+(aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + O (g) + 4H+(aq).",
+          "c": "Phản ứng chung trong bình điện phân là: 2Cu2+(aq) + 2H<sub>2</sub>O(l) &rarr; 2Cu(s) + O (g) + 4H<sup>+</sup>(aq).",
           "d": "Màu xanh của dung dịch nhạt dần trong quá trình điện phân."
         },
         "answer": {
@@ -5103,7 +5100,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 45,
-        "prompt": "Cho các quá trình sau:\n Cu<sup>2+</sup>(aq) + 2e &rarr; Cu(s); 2Al(s) + 3H O(l) &rarr; Al<sub>2</sub>O<sub>3</sub> (s) + 6H+(aq) + 6e;\n2 3\n 2H<sub>2</sub>O(l) + 2e &rarr; H (g) + 2OH<sup>−</sup>(aq); 2H<sub>2</sub>O(l)\n2 2 &rarr; O (g) + 4H+(aq) + 4e;\n\n 2Cl–(aq) &rarr; Cl (g) + 2e; 2H+(aq) + 2e &rarr; H (g).\n\nSố quá trình xảy ra tại cathode trong quá trình điện phân là bao nhiêu?",
+        "prompt": "Cho các quá trình sau:\n Cu<sup>2+</sup>(aq) + 2e &rarr; Cu(s); 2Al(s) + 3H O(l) &rarr; Al<sub>2</sub>O<sub>3</sub> (s) + 6H<sup>+</sup>(aq) + 6e;\n2 3\n 2H<sub>2</sub>O(l) + 2e &rarr; H (g) + 2OH<sup>−</sup>(aq); 2H<sub>2</sub>O(l)\n2 2 &rarr; O (g) + 4H<sup>+</sup>(aq) + 4e;\n\n 2Cl–(aq) &rarr; Cl (g) + 2e; 2H<sup>+</sup>(aq) + 2e &rarr; H (g).\n\nSố quá trình xảy ra tại cathode trong quá trình điện phân là bao nhiêu?",
         "answer": "2",
         "acceptedAnswers": [
           "2",
@@ -5135,7 +5132,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 47,
-        "prompt": "Điện phân dung dịch NaCl có màng bán thẩm ngăn giữa anode với cathode (các điện cực đều\nlà các điện cực trơ). Màng bán thẩm chỉ cho ion Na<sup>+</sup> đi qua. Sơ đồ bình điện phân như hình sau:\na) Tại cực dương xảy ra bán phản ứng khử ion Cl<sup>−</sup>(aq) thành khí Cl .\n\nb) Tại cực âm xảy ra bán phản ứng oxi hoá H<sub>2</sub>O thành khí H và OH−.\n2 2\nc) Phản ứng chung trong bình điện phân là 2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + H<sub>2</sub> + Cl<sub>2</sub>.\n2 2 2\nd) Lượng (số mol) Na<sup>+</sup> trong dung dịch không đổi trong quá trình điện phân.",
+        "prompt": "Điện phân dung dịch NaCl có màng bán thẩm ngăn giữa anode với cathode (các điện cực đều\nlà các điện cực trơ). Màng bán thẩm chỉ cho ion Na<sup>+</sup> đi qua. Sơ đồ bình điện phân như hình sau:\na) Tại cực dương xảy ra bán phản ứng khử ion Cl<sup>−</sup>(aq) thành khí Cl<sub>2</sub>.\n\nb) Tại cực âm xảy ra bán phản ứng oxi hoá H<sub>2</sub>O thành khí H<sub>2</sub> và OH−.\n2 2\nc) Phản ứng chung trong bình điện phân là 2NaCl + 2H<sub>2</sub>O &rarr; 2NaOH + H<sub>2</sub> + Cl<sub>2</sub>.\n2 2 2\nd) Lượng (số mol) Na<sup>+</sup> trong dung dịch không đổi trong quá trình điện phân.",
         "answer": "3",
         "acceptedAnswers": [
           "3",
@@ -5151,7 +5148,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 49,
-        "prompt": "Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite.\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy.\n2 3\na) Tại cathode xảy ra quá trình khử Al<sup>3+</sup>, tại anode xảy ra quá trình oxi hóa ion O 2 - .\nb) Thành phần chính của quặng bauxite là Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O.\n2 3 2\nc) Có thể thay điện cực than chì bằng điện cực Ag hoặc Cu để dẫn điện tốt hơn.\nd) Cryolite có công thức 3NaF.AlF .",
+        "prompt": "Trong công nghiệp, nhôm được sản xuất từ quặng bauxite theo hai giai đoạn chính:\nGiai đoạn 1: Tinh chế quặng bauxite.\nGiai đoạn 2: Điện phân Al<sub>2</sub>O<sub>3</sub> nóng chảy.\n2 3\na) Tại cathode xảy ra quá trình khử Al<sup>3+</sup>, tại anode xảy ra quá trình oxi hóa ion O 2 - .\nb) Thành phần chính của quặng bauxite là Al<sub>2</sub>O<sub>3</sub> .2H<sub>2</sub>O<sub>2</sub>.\n2 3 2\nc) Có thể thay điện cực than chì bằng điện cực Ag hoặc Cu để dẫn điện tốt hơn.\nd) Cryolite có công thức 3NaF.AlF .",
         "answer": "3",
         "acceptedAnswers": [
           "3",
@@ -5199,7 +5196,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 52,
-        "prompt": "(SBT – KNTT). Để mạ 5,0 g bạc lên một đĩa sắt khi điện phân dung dịch chứa ion\n[Ag(NH ) ]+ với dòng điện có cường độ 1,5 A không đổi cần thời gian t phút.\n3 2\nCho biết:\n- Quá trình khử tại cathode: [Ag(NH ) ]+ + le &rarr; Ag + 2NH .\n3 2 3\n- Điện lượng q = It = n .F, F = 96 500 C/mol.\ne\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).",
+        "prompt": "(SBT – KNTT). Để mạ 5,0 g bạc lên một đĩa sắt khi điện phân dung dịch chứa ion\n[Ag(NH ) ]+ với dòng điện có cường độ 1,5 A không đổi cần thời gian t phút.\n3 2\nCho biết:\n- Quá trình khử tại cathode: [Ag(NH ) ]+ + 1e &rarr; Ag + 2NH .\n3 2 3\n- Điện lượng q = It = n .F, F = 96 500 C/mol.\ne\nGiá trị của t là bao nhiêu? (Làm tròn kết quả đến phần mười).",
         "answer": "49.6",
         "acceptedAnswers": [
           "49.6",
@@ -5247,7 +5244,7 @@ window.CHEM_CH5_EXAMS_DATA = {
         "type": "sa",
         "part": 3,
         "orig_qnum": 55,
-        "prompt": "Nghiên cứu ảnh hưởng của hiệu điện thế đến phản ứng điện phân, một nhóm học sinh cho\nrằng, dòng điện có hiệu điện thế càng lớn thì tổng khối lượng chất rắn và chất khí sau điện phân càng\nlớn. Để thực hiện điểu đó, nhóm học sinh tiển hành như sau:\nBước 1: Lấy cốc thể tích 100 mL, thêm vào đó 2,5 gam và thêm nước vào cho đến khi\nthể tích dung dịch là 25 mL.\nBược 2: Thêm tiếp dung dịch vào dung dịch cho đến khi thể tích dung dịch đạt 40 mL. Đem\ncân toàn bộ cốc thì thấy khối lượng là gam.\nBước 3: Lấy hai điện cực than chì, nhúng vào dung dịch trong cốc (hai điện cực không tiếp xúc với\nnhau) và nối một điện cực với cực dương và nối một điện cực với cực âm của pin điện 2 V.\nBước 4: Thực hiện điện phân trong khoảng thời gian 10 phút, sau đó lấy hai điện cực ra và đem cân\nlại cốc đựng dung dịch sau điện phân thì khối lượng cốc là gam.\nLặp lại thí nghiệm khi thay dò̀ng điện 2 V bằng các dòng điện . Kết quả thí nghiệm:\nHiệu điện thế 2 4 6 8\n(V)\n1,5 1,2 1,0 0,8\na) Các quá trình khử ion Cu<sup>2+</sup> thành Cu và khử ion H<sup>+</sup> thành H xảy ra tại điện cực than chì nối với\n\ncực âm.\nb) Quá trình oxi hóa tạo thành khí và ion xảy ra tại điện cực than chì nối với cực dương.\nc) Sự chênh lệch khối lượng trước và sau điện phân đúng bằng khối lượng chất trong dung dịch đã\nđiện phân.\nd) Kết quả thí nghiệm chứng tỏ nhận định ban đầu của nhóm học sinh là sai.",
+        "prompt": "Nghiên cứu ảnh hưởng của hiệu điện thế đến phản ứng điện phân, một nhóm học sinh cho\nrằng, dòng điện có hiệu điện thế càng lớn thì tổng khối lượng chất rắn và chất khí sau điện phân càng\nlớn. Để thực hiện điểu đó, nhóm học sinh tiển hành như sau:\nBước 1: Lấy cốc thể tích 100 mL, thêm vào đó 2,5 gam và thêm nước vào cho đến khi\nthể tích dung dịch là 25 mL.\nBược 2: Thêm tiếp dung dịch vào dung dịch cho đến khi thể tích dung dịch đạt 40 mL. Đem\ncân toàn bộ cốc thì thấy khối lượng là gam.\nBước 3: Lấy hai điện cực than chì, nhúng vào dung dịch trong cốc (hai điện cực không tiếp xúc với\nnhau) và nối một điện cực với cực dương và nối một điện cực với cực âm của pin điện 2 V.\nBước 4: Thực hiện điện phân trong khoảng thời gian 10 phút, sau đó lấy hai điện cực ra và đem cân\nlại cốc đựng dung dịch sau điện phân thì khối lượng cốc là gam.\nLặp lại thí nghiệm khi thay dò̀ng điện 2 V bằng các dòng điện . Kết quả thí nghiệm:\nHiệu điện thế 2 4 6 8\n(V)\n1,5 1,2 1,0 0,8\na) Các quá trình khử ion Cu<sup>2+</sup> thành Cu và khử ion H<sup>+</sup> thành H<sub>2</sub> xảy ra tại điện cực than chì nối với\n\ncực âm.\nb) Quá trình oxi hóa tạo thành khí và ion xảy ra tại điện cực than chì nối với cực dương.\nc) Sự chênh lệch khối lượng trước và sau điện phân đúng bằng khối lượng chất trong dung dịch đã\nđiện phân.\nd) Kết quả thí nghiệm chứng tỏ nhận định ban đầu của nhóm học sinh là sai.",
         "answer": "1",
         "acceptedAnswers": [
           "1",
