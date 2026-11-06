@@ -343,7 +343,7 @@
                 class="math-category-tab-btn ${curCat === 'ch5' ? 'active' : ''}"
                 onclick="window.ChemQuizApp.selectCategory('ch5')"
               >
-                ⚡ Chương 5: Pin Điện &amp; Điện Phân (2 Chủ đề)
+                ⚡ Chương 5: Pin Điện &amp; Điện Phân (70 trang • 385 câu)
               </button>
             </div>
 
