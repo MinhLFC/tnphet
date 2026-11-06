@@ -1524,7 +1524,8 @@
   position: relative;
   display: inline-block;
   padding-top: 0.16em;
-  margin-right: 0.05em;
+  margin-right: 0.08em;
+  margin-left: 0.04em;
   font-style: italic;
   line-height: 1.2;
 }
@@ -1532,7 +1533,7 @@
 .m-vec::before {
   content: "\2192";
   position: absolute;
-  top: -0.32em;
+  top: -0.26em;
   left: 0;
   right: 0;
   text-align: center;
