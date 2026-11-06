@@ -518,7 +518,7 @@
                     class="nav-q-cell ${cellClass}"
                     style="aspect-ratio: auto; padding: 0.45rem 0.25rem; font-size: 0.75rem;"
                     onclick="window.ChemQuizApp.goToSlide(${idx})"
-                    title="${q.label} (${q.topic || ''})"
+                    title="${q.label || ('Câu ' + (q.qnum || q.id))} (${q.topic || ''})"
                   >
                     ${shortTag}
                   </button>
@@ -570,7 +570,7 @@
     return `
       <div class="slide-card-header">
         <div class="slide-q-meta">
-          <span class="slide-q-number">${exam.title} • ${q.label}</span>
+          <span class="slide-q-number">${exam.shortTitle || exam.title} • ${q.label || ('Câu ' + (q.qnum || q.id))}</span>
           ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
           <span class="slide-q-topic" style="background: rgba(2, 132, 199, 0.1); color: #0284c7;">
             ${q.type === 'mcq' ? 'Nhiều lựa chọn (0.25đ)' : (q.type === 'tf' ? 'Đúng/Sai (Tối đa 1.0đ)' : 'Trả lời ngắn (0.25đ)')}
