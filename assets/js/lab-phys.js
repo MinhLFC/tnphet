@@ -901,7 +901,7 @@
       if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 1) {
         return `Chọn <b>${q.acceptedAnswers.join(', ')}</b>`;
       }
-      return `Chọn <b>${q.answer}</b>`;
+      return `Chọn&nbsp;<b>${q.answer}</b>`;
     }
     if (q.type === 'tf') {
       const a = q.answer || q.answers || {};
