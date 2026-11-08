@@ -19,119 +19,119 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian với hệ tọa độ Oxyz. Viết phương trình tổng quát của mặt phẳng (P) đi qua điểm M (2;1;-3) có véctơ pháp tuyến là <span class=\"m-vec\">n</span> = (3;- 2;6).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_1.svg",
+        "figure": null,
         "explanation": "Phương trình tổng quát của mặt phẳng (P) đi qua điểm M (2;1;-3) có véctơ pháp tuyến là<br><span class=\"m-vec\">n</span> = (3;- 2;6) có dạng: 3(x - 2)- 2(y -1) + 6(z + 3) = 0 ⇔ 3x - 2y + 6z + 14 = 0."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian với hệ trục tọa độ Oxyz. Viết phương trình tổng quát của mặt phẳng (P) đi qua điểm M (2;-1;0) và có cặp véctơ chỉ phương là <span class=\"m-vec\">a</span> = (2;1;3),<span class=\"m-vec\">b</span> = (1;1;2).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_2.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (P) có cặp véctơ chỉ phương là <span class=\"m-vec\">a</span> = (2;1;3),<span class=\"m-vec\">b</span> = (1;1;2) nên có vectơ pháp tuyến là<br><span class=\"m-vec\">n</span> = [<span class=\"m-vec\">a</span>;<span class=\"m-vec\">b</span>] = (-1;-1;1).<br>Phương trình tổng quát của mặt phẳng (P) đi qua điểm M (2;-1;0) có véctơ pháp tuyến là<br><span class=\"m-vec\">n</span> = (-1;-1;1) có dạng:-1(x - 2)-1(y + 1) + 1(z -0) = 0 ⇔ -x - y + z + 1 = 0."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, viết phương trình của mặt phẳng đi qua điểm M (1;2;-1) và vuông góc với trục Ox.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_3.svg",
+        "figure": null,
         "explanation": "Mặt phẳng đi qua điểm M (1;2;-1) và vuông góc với trục Ox thì nhận vectơ i = (1;0;0) làm<br>vectơ pháp tuyến. Phương trình mặt phẳng cần tìm là:<br>1(x -1) + 0(y - 2) + 0(z + 1) = 0 hay x -1 = 0."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hình hộp ABCD.A′B′C′D′ có A(1;-1;3), B(0;2;4) D(2;-1;1),A′(0;1;2). a) Tính tọa độ các điểm C,B′,D′. b) Viết phương trình mặt phẳng (CB′D′).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_4.svg",
+        "figure": null,
         "explanation": "a) Tính tọa độ các điểm C,B′,D′.<br>Ta có: <span class=\"m-vec\">AD</span> = <span class=\"m-vec\">BC</span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>C</sub> = 1</span><span class=\"m-sys-row\">y<sub>C</sub>- 2 = 0</span><span class=\"m-sys-row\">z<sub>C</sub>- 4 = -2</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>C</sub> = 1</span><span class=\"m-sys-row\">y<sub>C</sub> = 2</span><span class=\"m-sys-row\">z<sub>C</sub> = 2</span></span></span> suy ra C(1;2;2).<br><span class=\"m-vec\">AA</span>′ = <span class=\"m-vec\">BB</span>′ ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>B′</sub> = -1</span><span class=\"m-sys-row\">y<sub>B′</sub>- 2 = 2</span><span class=\"m-sys-row\">z<sub>B′</sub>- 4 = -1</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>C</sub> = -1</span><span class=\"m-sys-row\">y<sub>C</sub> = 4</span><span class=\"m-sys-row\">z<sub>C</sub> = 3</span></span></span> suy ra B′(-1;4;3).<br><span class=\"m-vec\">AD</span> = <span class=\"m-vec\">A</span>′<span class=\"m-vec\">D</span>′ ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>D′</sub> = 1</span><span class=\"m-sys-row\">y<sub>D′</sub>-1 = 0</span><span class=\"m-sys-row\">z<sub>D′</sub>- 2 = -2</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x<sub>D′</sub> = 1</span><span class=\"m-sys-row\">y<sub>D′</sub> = 1</span><span class=\"m-sys-row\">z<sub>D′</sub> = 0</span></span></span> suy ra D′(1;1;0).<br>b) Viết phương trình mặt phẳng (CB′D′).<br>Ta có: <span class=\"m-vec\">CB</span>′ = (-2;2;1),<span class=\"m-vec\">CD</span>′ = (0;-1;-2) là cặp vectơ chỉ phương của mặt phẳng (CB′D′) nên<br>(CB′D′) có vectơ pháp tuyến là <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">CB</span>′,<span class=\"m-vec\">CD</span>′] = (-3;-4;2) và đi qua điểm C(1;2;2) có phương<br>trình là: 3x + 4y - 2z -7 = 0."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Trong không gian Oxyz, viết phương trình mặt phẳng (P) đi qua điểm M (1;-1;5) và vuông góc với hai mặt phẳng (Q):3x + 2y - z = 0, (R): x + y - z = 0.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_5.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (Q) và mặt phẳng (R) lần lượt có vectơ pháp tuyến là <span class=\"m-vec\">n</span><sub>Q</sub> = (3;2;-1), <span class=\"m-vec\">n</span><sub>R</sub> = (1;1;-1)<br>Vì mặt phẳng (P) vuông góc với cả hai mặt phẳng (R), (Q) nên giá của các vectơ <span class=\"m-vec\">n</span><sub>R</sub>, <span class=\"m-vec\">n</span><sub>Q</sub> song song hoặc nằm trong mặt phẳng (P).<br>Suy ra [<span class=\"m-vec\">n</span><sub>Q</sub>, <span class=\"m-vec\">n</span><sub>R</sub>] = (-1;2;1) là vectơ pháp tuyến của mặt phẳng (P).<br>Mặt phẳng (P) đi qua điểm M (1;-1;5) và có vectơ pháp tuyến <span class=\"m-vec\">n</span><sub>P</sub> = (-1;2;1) có phương trình<br>là: -1(x -1) + 2(y + 1) + 1(z -5) = 0 hay x - 2y - z + 2 = 0."
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Trong không gian Oxyz, viết phương trình mặt phẳng đi qua M (2;3;-1), song song với trục Ox và vuông góc với mặt phẳng (Q): x + 2y -3z + 1 = 0.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_6.svg",
+        "figure": null,
         "explanation": "Gọi (P) là mặt phẳng cần tìm.<br>Do (P)//Ox nên mặt phẳng (P) có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>1</sub> = <span class=\"m-vec\">i</span> = (1;0;0).<br>Mặt khác: (P) ⊥ (Q) ⇒ mặt phẳng (P) có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>2</sub> = <span class=\"m-vec\">n</span><sub>(Q)</sub> = (1;2;-3).<br>⇒ <span class=\"m-vec\">n</span><sub>(P)</sub> = [<span class=\"m-vec\">u</span><sub>1</sub>;<span class=\"m-vec\">u</span><sub>2</sub>] = (0;3;2).<br>Mặt phẳng (P) đi qua điểm M (2;3;-1) có phương trình (P):3y + 2z -7 = 0."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Lập phương trình mặt phẳng (P) đi qua: a) Điểm I(3;-4;1) và vuông góc với trục Ox b) Điểm K(-2;4;-1) và song song với mặt phẳng (ozx) c) Điểm K(-2;4;-1) và song song với mặt phẳng (Q):3x + 7y + 10z + 1 = 0",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_7.svg",
+        "figure": null,
         "explanation": "a) Mặt phẳng (P) ⊥ Ox nên có một vectơ pháp tuyến là <span class=\"m-vec\">n</span><sub>(P)</sub> = (1;0;0)<br>Phương trình mặt phẳng (P) là x -3 = 0.<br>b) Mặt phẳng (P)∥(Ozx) ⇒ (P) ⊥ Oy ⇒ <span class=\"m-vec\">n</span><sub>(P)</sub> = (0;1;0)<br>Phương trình mặt phẳng (P) là y - 4 = 0.<br>c) Mặt phẳng (P)∥(Q) ⇒ <span class=\"m-vec\">n</span><sub>(P)</sub> = <span class=\"m-vec\">n</span><sub>(Q)</sub> = (3;7;10)<br>Phương trình mặt phẳng (P) là: 3(x + 2) + 7(y - 4) + 10(z + 1) = 0 ⇔ 3x + 7y + 10z -12 = 0."
       },
       {
         "id": 8,
         "label": "Bài tập tự luận 8",
         "question": "Lập phương trình mặt phẳng (P) đi qua ba điểm A(1;1;1); B(0;4;0); C(2;2;0).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_8.svg",
+        "figure": null,
         "explanation": "Ta có: AB = (-1;3;-1); AC = (1;1;-1).<br>Xét <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">AB</span>;<span class=\"m-vec\">AC</span>] = (-2;-2;-4).<br>Khi đó <span class=\"m-vec\">n</span> là một vectơ pháp tuyến của mặt phẳng (P).<br>Mặt phẳng (P) đi qua B(0;4;0)nên có phương trình<br>-2(x -0)- 2(y - 4)- 4(z -0) = 0 ⇔ x + y + 2z - 4 = 0<br>Vậy (P): x + y + 2z - 4 = 0."
       },
       {
         "id": 9,
         "label": "Bài tập tự luận 9",
         "question": "Lập phương trình mặt phẳng theo đoạn chắn của mặt phẳng (P), biết rằng mặt phẳng (P) đi qua ba điểm A(5;0;0),B(0;3;0),C(0;0;6).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_9.svg",
+        "figure": null,
         "explanation": "Mặt phẳng đi qua ba điểm A(5;0;0),B(0;3;0),C(0;0;6) có phương trình là: <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">5</span></span> + <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">3</span></span> + <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">6</span></span> = 1."
       },
       {
         "id": 10,
         "label": "Bài tập tự luận 10",
         "question": "Trong không gian Oxyz. Viết phương trình mặt phẳng (P) chứa điểm M (1;3;- 2) cắt các tia Ox, Oy, Oz lần lượt tại A, B, C sao cho <span class=\"m-frac\"><span class=\"num\">OA</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">OB</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">OC</span><span class=\"den\">4</span></span>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_10.svg",
+        "figure": null,
         "explanation": "Phương trình mặt chắn cắt tia Ox tại A(a;0;0), cắt tia Oy tại B(0;b;0), cắt tia Oz tại<br>C(0;0;c) có dạng là (P): <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">a</span></span> + <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">b</span></span> + <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">c</span></span> = 1 (với a > 0, b > 0,c > 0).<br>Theo đề: <span class=\"m-frac\"><span class=\"num\">OA</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">OB</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">OC</span><span class=\"den\">4</span></span> ⇔ <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">c</span><span class=\"den\">4</span></span> ⇒ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">a = <span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span></span><span class=\"m-sys-row\">c = 2b</span></span></span>.<br>Vì M (1;3;- 2) nằm trên mặt phẳng (P) nên ta có: <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\"><span class=\"m-frac\"><span class=\"num\">b</span><span class=\"den\">2</span></span></span></span> + <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">b</span></span> + <span class=\"m-frac\"><span class=\"num\">-2</span><span class=\"den\">2b</span></span> = 1 ⇔ <span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">b</span></span> = 1 ⇔ b = 4.<br>Khi đó a = 2, c = 8.<br>Vậy phương trình mặt phẳng (P) là: <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> + <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">4</span></span> + <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">8</span></span> = 1 ⇔ 4x + 2y + z -8 = 0."
       },
       {
         "id": 11,
         "label": "Bài tập tự luận 11",
         "question": "Trong không gian Oxyz, cho hai điểm A(4;0;1) và B(-2;2;3).Viết phương trình mặt phẳng trung trực của đoạn thẳng AB.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_11.svg",
+        "figure": null,
         "explanation": "Mặt phẳng trung trực của đoạn thẳng AB có véctơ pháp tuyến là <span class=\"m-vec\">AB</span> = (-6;2;2) và đi qua trung<br>điểm I(1;1;2) của đoạn thẳng AB.<br>Do đó, ta có:-6(x -1) + 2(y -1) + 2(z - 2) = 0 ⇔ -6x + 2y + 2z = 0 ⇔ 3x - y - z = 0."
       },
       {
         "id": 12,
         "label": "Bài tập tự luận 12",
         "question": "Trong không gian Oxyz, cho hai điểm A(-3;2;1) và B(5;- 4;1). Gọi M là hình chiếu vuông góc của A trên (Oxy), và N là điểm đối xứng với B qua (Oyz). Viết phương trình mặt phẳng trung trực (P) của đoạn thẳng MN.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_12.svg",
+        "figure": null,
         "explanation": "M là hình chiếu của A(-3;2;1) trên trục (Oxy) nên ta có M (-3;2;0).<br>N là đối xứng với B(5;- 4;1) qua (Oyz) nên ta có N(-5;-4;1).<br>Gọi I là trung điểm MN. Ta có I(-4;-1;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) và <span class=\"m-vec\">MN</span> = (-2;-6;1)<br>Phương trình mặt phẳng 2(x + 4) + 6(y + 1)-1(z - <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) = 0 ⇔ 4x + 12y - 2z + 29 = 0."
       },
       {
         "id": 13,
         "label": "Bài tập tự luận 13",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hình vuông ABCD biết A(1;2;1),B(3;0;0), C(1;-1;-2),D(-1;1;-1). Giả sử I(a;b;c) là tâm đường tròn ngoại tiếp hình vuông ABCD và G là trọng tâm ΔABC. Viết phương trình mặt phẳng trung trực của GI.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_13.svg",
+        "figure": null,
         "explanation": "Vì ABCD là hình vuông nên tâm đường tròn ngoại tiếp hình vuông ABCD là giao điểm của hai<br>đường chéo AC và BD.<br>Khi đó I(1;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) và do G là trọng tâm tam giác ABC nên G(<span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">-1</span><span class=\"den\">3</span></span>).<br>Gọi M là trung điểm của đoạn thẳng GI nên M (<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">12</span></span>;-<span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">12</span></span>)<br>Phương trình mặt phẳng trung trực đoạn thẳng GI:<br>-4(x - <span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>) + (y - <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">12</span></span>)-(z + <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">12</span></span>) = 0 ⇔ 8x - 2y + 2z -9 = 0."
       },
       {
         "id": 14,
         "label": "Bài tập tự luận 14",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P) đi qua giao tuyến của hai mặt phẳng (α<sub>1</sub>):3x - y + z - 2 = 0, (α<sub>2</sub>): x + 4y -5 = 0 và song song với mặt phẳng (α<sub>3</sub>):2x + 21y - z + 7 = 0 . Viết phương trình của mặt phẳng (P).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_14.svg",
+        "figure": null,
         "explanation": "Ta có: (P)//(α<sub>3</sub>) ⇒ (P):2x + 21y - z + m = 0 (m ≠ -7)<br>Gọi d là giao tuyến của (α<sub>1</sub>);(α<sub>2</sub>) d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">(α<sub>1</sub>):3x - y + z - 2 = 0</span><span class=\"m-sys-row\">(α<sub>2</sub>): x + 4y -5 = 0</span></span></span><br>Cho - <sup>y</sup> - <sup> = 0</sup> - → <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">3x + z - 2 = 0</span><span class=\"m-sys-row\">x -5 = 0</span></span></span> ⇒ M (5;0;-13) và - <sup>z</sup> - <sup> = 0</sup> → <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">3x - y - 2 = 0</span><span class=\"m-sys-row\">x + 4y -5 = 0</span></span></span> → N(1;1;0)<br>M ∈ (P) ⇒ 2.5 + 21.0-(-13) + m = 0 ⇒ m = -23<br>N ∈ (P) ⇒ 2.1 + 21.1-0 + m = 0 ⇒ m = -23. Vậy 2x + 21y - z - 23 = 0."
       },
       {
         "id": 15,
         "label": "Bài tập tự luận 15",
         "question": "Trong không gian với hệ trục Oxyz, cho mặt phẳng (P):2x - 2y + z -5 = 0.Viết phương trình mặt phẳng (Q) song song với mặt phẳng (P), cách (P) một khoảng bằng 3 và cắt trục Ox tại điểm có hoành độ dương.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_15.svg",
+        "figure": null,
         "explanation": "Do (Q)//(P)nên mặt phẳng (Q):2x - 2y + z + C = 0; C ≠ -5, chọn M (0;0;5) ∈ (P)<br>Ta có d((P);(Q)) = d(M;(Q)) = <span class=\"m-frac\"><span class=\"num\">|5 + C|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + (-2)<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = 3 ⇔ <span class=\"m-sys\"><span class=\"m-sys-brack\">[</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">C = 4</span><span class=\"m-sys-row\">C = -14</span></span></span><br>Với C = 4 ⇒ (Q):2x - 2y + z + 4 = 0 khi đó (Q) cắt Ox tại điểm M<sub>1</sub>(-2;0;0)có hoành độ âm<br>nên trường hợp này (Q) không thỏa đề bài.<br>Với C = -14 ⇒ (Q):2x - 2y + z -14 = 0 khi đó (Q) cắt Ox tại điểm M<sub>2</sub>(7;0;0)có hoành độ<br>dương do đó (Q):2x - 2y + z -14 = 0 thỏa đề bài.<br>Vậy phương trình mặt phẳng (Q):2x - 2y + z -14 = 0."
       },
       {
         "id": 16,
         "label": "Bài tập tự luận 16",
         "question": "Trong không gian Oxyz,cho hai mặt phẳng (α):3x - 2y + 2z + 7 = 0, (β):5x - 4y + 3z + 1 = 0 Viết phương trình mặt phẳng đi qua gốc tọa độ O đồng thời vuông góc với cả (α) và (β).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_16.svg",
+        "figure": null,
         "explanation": "Vectơ pháp tuyến của hai mặt phẳng lần lượt là <span class=\"m-vec\">n</span><sub>α</sub> = (3;-2;2),<span class=\"m-vec\">n</span><sub>β</sub> = (5;-4;3).<br>Khi đó vecto pháp tuyến mặt phẳng cần tìm là <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">n</span><sub>α</sub>;<span class=\"m-vec\">n</span><sub>β</sub>] = (2;1;-2)<br>Mặt phẳng đi qua gốc tọa độ O có vectơ pháp tuyến <span class=\"m-vec\">n</span> = (2;1;-2) là: 2x + y - 2z = 0."
       },
       {
         "id": 17,
         "label": "Bài tập tự luận 17",
         "question": "Trong không gian với hệ trục tọa độ Oxyz. Viết phương trình mặt phẳng (P) đi qua hai điểm A(0;1;0), B(2;3;1) và vuông góc với mặt phẳng (Q): x + 2y - z = 0.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_17.svg",
+        "figure": null,
         "explanation": "Ta có <span class=\"m-vec\">AB</span> = (2;2;1), vectơ pháp tuyến mặt phẳng (Q): <span class=\"m-vec\">n</span><sub>Q</sub> = (1;2;-1).<br>Theo đề bài ta có vectơ pháp tuyến mặt phẳng (P): <span class=\"m-vec\">n</span><sub>P</sub> = <span class=\"m-vec\">n</span><sub>Q</sub> ∧ <span class=\"m-vec\">AB</span> = (4;-3;- 2).<br>Phương trình mặt phẳng (P) có dạng 4x -3y - 2z + C = 0.<br>Mặt phẳng (P) đi qua A(0;1;0) nên: -3 + C = 0 ⇔ C = 3.<br>Vậy phương trình mặt phẳng (P) là 4x -3y - 2z + 3 = 0."
       },
       {
@@ -166,7 +166,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 22,
         "label": "Bài tập tự luận 22",
         "question": "Trong không gian Oxyz, một ngôi nhà có sàn nhà thuộc mặt phẳng Oxy và trần nhà tầng 1 thuộc mặt phẳng z -1 = 0, mái nhà tầng 2 thuộc mặt phẳng x + y + 50z -100 = 0. Hỏi trong 3 mặt phẳng tương ứng chứa sàn nhà, trần nhà tầng 1, mái nhà tầng 2, hai mặt nào song song với nhau?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_tl_22.svg",
+        "figure": null,
         "explanation": "Vì mặt phẳng Oxy vuông góc với Oznên mặt phẳng Oxy nhận <span class=\"m-vec\">k</span> = (0;0;1)làm một vectơ pháp<br>tuyến.<br>Vì mặt phẳng Oxy đi qua điểm O(0; 0; 0) và có vectơ pháp tuyến <span class=\"m-vec\">k</span> = (0;0;1)nên có phương<br>trình là: z -0 = 0 ⇔ z = 0<br>Mặt phẳng z -1 = 0 có vecto pháp tuyến là <span class=\"m-vec\">n</span><sub>1</sub> = (0;0;1).<br>Vì <span class=\"m-vec\">n</span><sub>1</sub> = <span class=\"m-vec\">k</span> và -1 ≠ 0 nên mặt phẳng chứa sàn nhà song song với trần tầng 1.<br>Mặt mái tầng 2 có phương trình x + y + 50z -100 = 0 và có nhận một vectơ pháp tuyến là<br><span class=\"m-vec\">n</span><sub>2</sub> = (1;1;50) không cùng phương với <span class=\"m-vec\">n</span><sub>1</sub>,<span class=\"m-vec\">k</span> nên không song song với hai mặt phẳng còn lại."
       },
       {
@@ -185,7 +185,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P): x + y - z + 1 = 0. Điểm nào sau đây thuộc mặt phẳng (P)?",
         "options": {
           "A": "A(1;1;3).",
@@ -203,7 +203,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, điểm nào sau đây thuộc mặt phẳng (Oxy)?",
         "options": {
           "A": "A(1;1;0).",
@@ -221,7 +221,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ (Oxyz). Mặt phẳng (α) biết (α) đi qua điểm M (-1;5;2) đồng thời (α) có cặp vetơ chỉ phương <span class=\"m-vec\">u</span> = (0;1;1) và <span class=\"m-vec\">v</span> = (-3;-5;1) có phương trình là",
         "options": {
           "A": "y + z -7 = 0.",
@@ -239,7 +239,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ (Oxyz),cho ba điểm A(0;2;1), B(3;0;1), C(1;0;0). Phương trình mặt phẳng (ABC)là",
         "options": {
           "A": "2x -3y - 4z + 2 = 0.",
@@ -257,7 +257,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt phẳng đi qua điểm A(2;-3;-2) và song song với mặt phẳng (Oxy) có phương trình là",
         "options": {
           "A": "z + 2 = 0.",
@@ -275,7 +275,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt phẳng đi qua điểm A(2;-3;-2) và song song với mặt phẳng (Oxz) có phương trình là",
         "options": {
           "A": "x + z = 0.",
@@ -293,7 +293,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt phẳng đi qua điểm A(2;-3;-2) và song song với mặt phẳng (Oyz) có phương trình là",
         "options": {
           "A": "3y -2z = 0.",
@@ -311,7 +311,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt phẳng đi qua điểm A(2;-3;-2) và song song với mặt phẳng (α):2x - y + 3z -3 = 0 có phương trình là",
         "options": {
           "A": "2x - y + 3z = 0.",
@@ -329,7 +329,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho bốn điểm A(1;0;1),C(3;1;1), D(4;1;1) B(-1;2;2). Viết phương trình mặt phẳng đi qua hai điểm A,B và song song với CD.",
         "options": {
           "A": "y -2z + 2 = 0.",
@@ -347,7 +347,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho A(1;2;-1); B(-1;0;1) và mặt phẳng (P):x + 2y - z + 1 = 0. Viết phương trình mặt phẳng (Q) qua A,B và vuông góc với (P).",
         "options": {
           "A": "(Q):2x - y + 3 = 0.",
@@ -365,7 +365,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai mặt phẳng (α):3x - 2y + 2z + 7 = 0 và (β):5x - 4y + 3z + 1 = 0. Phương trình mặt phẳng đi qua gốc tọa độ O đồng thời vuông góc với cả(α) và (β) là",
         "options": {
           "A": "2x + y - 2z = 0.",
@@ -383,7 +383,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(2;3;5). Viết phương trình mặt phẳng (α)đi qua A và chứa trục Ox",
         "options": {
           "A": "(α):5y + 3z = 0.",
@@ -401,7 +401,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(-3;1;2). Viết phương trình mặt phẳng (α)đi qua A và chứa trục Oy",
         "options": {
           "A": "(α):2x -3z = 0.",
@@ -419,7 +419,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(2;4;-5). Viết phương trình mặt phẳng (α)đi qua A và chứa trục Oz",
         "options": {
           "A": "(α): x - 2y = 0.",
@@ -437,7 +437,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (Q) song song với mặt phẳng (P):x + 2y - 2z + 1 = 0 và (Q) cách điểm M (1;-2;1) một khoảng bằng 3 có phương trình là",
         "options": {
           "A": "x + 2y -2z + 10 = 0;x + 2y -2z -1 = 0.",
@@ -455,7 +455,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm B(1;-1;0), C(2;-1;-1), M (-2;1;3). Mặt phẳng (P) vuông góc với BC và cách M một khoảng bằng <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> có phương trình là",
         "options": {
           "A": "x - z - 7 = 0; x - z - 3 = 0.",
@@ -473,7 +473,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (α)qua hai điểm C(2;1;6), D(3;5;1) và cách đều hai điểm A(6;4;0), B(4;5;0)có phương trình là:",
         "options": {
           "A": "13x + 18y + 15z + 134 = 0;5x + 10y + 9z -7 = 0.",
@@ -491,7 +491,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (a<sub>1</sub>,a<sub>2</sub>,a<sub>3</sub>), <span class=\"m-vec\">b</span> = (b<sub>1</sub>,b<sub>2</sub>,b<sub>3</sub>) khác <span class=\"m-vec\">0</span>.Tích có hướng của <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span> là <span class=\"m-vec\">c</span>. Khẳng định nào sau đây đúng?",
         "options": {
           "A": "<span class=\"m-vec\">c</span> = (a<sub>1</sub> b<sub>3</sub>- a<sub>2</sub> b<sub>1</sub>,a<sub>2</sub> b<sub>3</sub>- a<sub>3</sub> b<sub>2</sub>,a<sub>3</sub> b<sub>1</sub>- a<sub>1</sub> b<sub>3</sub>).",
@@ -509,7 +509,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 19",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_19.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng nào dưới đây nhận <span class=\"m-vec\">n</span> = (3;1;-7) là một vectơ pháp tuyến?",
         "options": {
           "A": "3x + z + 7 = 0.",
@@ -527,7 +527,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 20",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_20.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P):3x - 2z + 2 = 0 đi qua điểm nào sau đây?",
         "options": {
           "A": "B(4;2;1).",
@@ -545,7 +545,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_21.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;2;3). Mặt phẳng chứa điểm A và trục Oz có phương trình là",
         "options": {
           "A": "2x - y = 0.",
@@ -563,7 +563,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_22.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(2;-1;-3) và mặt phẳng (P):3x - 2y + 4z -5 = 0. Gọi (Q) là mặt phẳng đi qua A và song song với mặt phẳng (P). Mặt phẳng (Q) có phương trình là:",
         "options": {
           "A": "3x - 2y + 4z - 4 = 0",
@@ -581,7 +581,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 23",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_23.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm A(4;0;1) và B(-2;2;3). Phương trình nào dưới đây là phương trình mặt phẳng trung trực của đoạn thẳng AB?",
         "options": {
           "A": "3x + y + z -6 = 0.",
@@ -599,7 +599,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 24",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_24.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm A(1;1;1) và hai mặt phẳng (P):2x- y + 3z -1 = 0, (Q): y = 0. Viết phương trình mặt phẳng (R) chứa A, vuông góc với cả hai mặt phẳng (P) và (Q).",
         "options": {
           "A": "3x- y + 2z-4 = 0.",
@@ -617,7 +617,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 25",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_25.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt phẳng đi qua ba điểm A(2;3;5), B(3;2;4) và C(4;1;2) có phương trình là",
         "options": {
           "A": "3x- y + 2z-4 = 0.",
@@ -635,7 +635,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 26",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_26.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (P):2x + y + z -2 = 0 song song với mặt phẳng nào dưới đây?",
         "options": {
           "A": "x + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> y-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> z -1 = 0.",
@@ -653,7 +653,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 27",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_27.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt phẳng (P) có phương trình: mx + (m-1)y + z -10 = 0 và mặt phẳng (Q):2x + y -2z + 3 = 0. Với giá trị nào của dưới đây của m thì (P) và (Q) vuông góc với nhau",
         "options": {
           "A": "m = -2.",
@@ -671,7 +671,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 28",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_28.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai vectơ <span class=\"m-vec\">a</span> = (2;1;-2)và vectơ <span class=\"m-vec\">b</span> = (1;0;2). Tìm tọa độ vectơ <span class=\"m-vec\">c</span> là tích có hướng của <span class=\"m-vec\">a</span> và <span class=\"m-vec\">b</span>.",
         "options": {
           "A": "<span class=\"m-vec\">c</span> = (2;6;-1).",
@@ -689,7 +689,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 29",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_29.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P):2x + 3y + z + 2 = 0. Véctơ nào dưới đây là một véctơ pháp tuyến của (P)?",
         "options": {
           "A": "<span class=\"m-vec\">n</span><sub>2</sub>(2;3;1).",
@@ -707,7 +707,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 30",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_30.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt phẳng (P): x-2y + z -5 = 0. Điểm nào dưới đây thuộc (P)?",
         "options": {
           "A": "P(0;0;-5).",
@@ -725,7 +725,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 31",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_31.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(-1;2;0) và B(3;0;2). Mặt phẳng trung trực của đoạn thẳng AB có phương trình là",
         "options": {
           "A": "x + y + z -3 = 0.",
@@ -743,7 +743,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 32",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_32.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, phương trình nào dưới đây là phương trình mặt phẳng đi qua điểm M (1;2;-3) và có một vectơ pháp tuyến <span class=\"m-vec\">n</span> = (1;-2;3).",
         "options": {
           "A": "x - 2y + 3z + 12 = 0.",
@@ -761,7 +761,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 33",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_33.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm A(5;-4;2)và B(1;2;3). Viết phương trình của mặt phẳng (P) đi qua A và vuông góc với đường thẳng AB.",
         "options": {
           "A": "2x -3y - z - 20 = 0.",
@@ -779,7 +779,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 34",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_34.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho ba điểm A(-1;1;1), B(2;1;0) C(1;-1;2). Mặt phẳng đi qua A và vuông góc với đường thẳng BC có phương trình là",
         "options": {
           "A": "3x + 2z + 1 = 0.",
@@ -797,7 +797,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 35",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_35.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (2;-1;4) và mặt phẳng (P):3x - 2y + z + 1 = 0. Phương trình của mặt phẳng đi qua M và song song với mặt phẳng (P) là",
         "options": {
           "A": "2x - 2y + 4z - 21 = 0.",
@@ -815,7 +815,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 36",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_36.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua 3 điểm M (-2;0;0), N (0;-1;0) và P(0;0;3) là",
         "options": {
           "A": "3x + 6y -2z -6 = 0.",
@@ -833,7 +833,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 37",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_37.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua 3 điểm A(-1;1;3), B(2;-1;3), C(2;2;-1) là.",
         "options": {
           "A": "8x + 12y + 9z -31 = 0.",
@@ -851,7 +851,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 38",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_38.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua hai điểm A(2;-1;0), B(1;1;2) và vuông góc với mặt phẳng (Q): x + y + 2z -3 = 0 là.",
         "options": {
           "A": "2x + 4y -3z -8 = 0.",
@@ -869,7 +869,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 39",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_39.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua điểm M (2;1;- 2) và vuông góc với hai mặt phẳng (Q): x + y + 2z -3 = 0 và (R): x - y - z + 4 = 0 là.",
         "options": {
           "A": "x + 3y -2z + 9 = 0.",
@@ -887,7 +887,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 40",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_40.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua điểm N (2;1;- 2), song song với trục Oy và vuông góc với mặt phẳng (Q): x - 2y + z -8 = 0 là",
         "options": {
           "A": "x - z - 4 = 0.",
@@ -905,7 +905,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 41",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_41.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(-1;0;1) và B(2;1;0). Phương trình mặt phẳng (P) đi qua A và vuông góc với AB là",
         "options": {
           "A": "(P): 3x + y - z + 4 = 0.",
@@ -923,7 +923,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_42.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt phẳng (P) đi qua điểm A(0;1;3) và song song với mặt phẳng (Q):2x -3z + 2025 = 0 là",
         "options": {
           "A": "(P):2x -3z + 9 = 0.",
@@ -941,7 +941,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 43",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_43.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình của mặt phẳng (P) đi qua điểm B(2;1;- 3), đồng thời vuông góc với hai mặt phẳng (Q): x + y + 3z -5 = 0, (R):2x - y + z -1 = 0 là",
         "options": {
           "A": "4x + 5y -3z + 22 = 0.",
@@ -959,7 +959,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 44",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_44.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng đi qua điểm M (1;-1;1), N (2;1;2) và song song với trục Oz có phương trình là",
         "options": {
           "A": "x + 2y + z = 0.",
@@ -977,7 +977,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 45",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p1_45.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P):2x - y + 2z + 11 = 0 và hai điểm A(1;0;-2),B(-1;-1;3). Mặt phẳng (Q) đi qua hai điểm A,B và vuông góc với mặt phẳng (P) có phương trình là",
         "options": {
           "A": "3x + 14y + 4z + 5 = 0.",
@@ -995,7 +995,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;2;5) và mặt phẳng (α): x + 2y + 2z - 6 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Véc tơ <span class=\"m-vec\">n</span> = (1;2;2) là một vectơ pháp tuyến của (α).",
@@ -1018,7 +1018,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục toạ độ Oxyz, cho ba điểm A(1;2;- 2);B(2;1;2);C(3;-2;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt phẳng (P) đi qua ba điểm A,B,C có một vectơ pháp tuyến là <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">AB</span>,<span class=\"m-vec\">AC</span>]",
@@ -1041,7 +1041,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho bốn điểm A(1;2;1),B(-2;1;3),C(2;-1;1) và D(0;3;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt phẳng (ABC) là 3x + y + 5z -10 = 0.",
@@ -1064,7 +1064,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(2;0;0),B(0;2;0),C(0;0;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ pháp tuyến của mặt phẳng (ABC) là <span class=\"m-vec\">n</span> = (3;3;2).",
@@ -1087,7 +1087,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_5.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P):(4-",
         "statements": {
           "a": "x -(a + 3) y + z + 1 = 0 và mặt phẳng (Q):3x - 4y + z + 3 = 0. Xét tính đúng sai của các khẳng định sau: a) Mặt phẳng (P) và mặt phẳng (Q) song song với nhau khi a = 1.",
@@ -1110,7 +1110,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho ba điểm A(3;5;-1), B(7;x;1), C(9;2; y), D(-1;2;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Toạ độ điểm M trung điểm của đoạn AD là (1;7;1).",
@@ -1133,7 +1133,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho tam giác ABC có A(1;-1;1), B(2;1;-2), C(0;0;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Toạ độ trọng tâm G của tam giác ABC là (1;0;0).",
@@ -1156,7 +1156,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz với ba vecto đơn vị <span class=\"m-vec\">i</span>, <span class=\"m-vec\">j</span>,<span class=\"m-vec\">k</span>, cho A(1;1;2), B(2;-1;0),<span class=\"m-vec\">u</span> = (1;- 2;-1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Tích có hướng của hai veccto <span class=\"m-vec\">i</span> và <span class=\"m-vec\">j</span> là vecto <span class=\"m-vec\">k</span>.",
@@ -1179,7 +1179,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho ba điểm A(-1;1;0), B(1;-1;2), C(1;- 2;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vecto pháp tuyến của mặt phẳng (ABC) là [<span class=\"m-vec\">AB</span>, <span class=\"m-vec\">AC</span>].",
@@ -1202,7 +1202,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 10",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_10.svg",
+        "figure": null,
         "question": "Cho các điểm A(1;-2;0);B(2;-1;1);C(1;1;2). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt phẳng (ABC) là x + 2y -3z -3 = 0.",
@@ -1225,7 +1225,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 11",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_11.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, Cho tam giác ABC với A(1;1;1),B(1;2;2),C(4;1;0). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "<span class=\"m-vec\">AB</span> = (0;1;1).",
@@ -1248,7 +1248,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 12",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, Cho các điểm A(1;-2;-1),B(4;1;2),C(2;3;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "<span class=\"m-vec\">AB</span> = (3;3;3).",
@@ -1271,7 +1271,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 13",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_13.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độOxyz, cho 3 điểm A(a;0;0), B(0;b;0), C(0;0;c) với a, b, c đều dương. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (ABC) có phương trình <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">a</span></span> + <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">b</span></span> + <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">c</span></span> = 1",
@@ -1294,7 +1294,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 14",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho ba điểm A(1;1;1);B(1;-2;3);C(2;-1;2). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Ba điểm A,B,C đã cho thẳng hàng.",
@@ -1317,7 +1317,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 15",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(2;0;-3) và các <span class=\"m-vec\">u</span> = (-1;-2;5), <span class=\"m-vec\">v</span> = (3;-1;- 2). Mặt phẳng (α) đi qua A và nhận <span class=\"m-vec\">u</span>,<span class=\"m-vec\">v</span> làm cặp vectơ chỉ phương. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ pháp tuyến của mặt phẳng (α) là <span class=\"m-vec\">n</span> = (9;13;7).",
@@ -1340,7 +1340,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 16",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm M (-2;1;3). Mặt phẳng (P) đi qua điểm M và cắt ba trục tọa độ tại các điểm A,B,C khác gốc tọa độ O sao cho tam giác ABC có trực tâm M. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Hình chiếu của điểm M trên trục Ox là H (-2;0;0).",
@@ -1363,7 +1363,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 17",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_17.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho các điểm A(1;1;3),B(-1;3;2),C(-1;2;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Vectơ <span class=\"m-vec\">AB</span> và <span class=\"m-vec\">AC</span> cùng phương.",
@@ -1386,7 +1386,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 18",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_18.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(2;-3;1) và mặt phẳng (α): x + 2y - z + 1 = 0. (P) là mặt phẳng đi qua A và song song với (α). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mọi mặt phẳng có pt dạng x + 2y - z + m = 0 (m là tham số thực) đều song song với (α).",
@@ -1409,7 +1409,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 19",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_19.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(0;2;-2) và các mặt phẳng (α): x + 2y - 2z -1 = 0, (β): x + 2y - 2z + 5 = 0.",
         "statements": {
           "a": "Gọi (P) là mặt phẳng đi qua điểm A và song song với (α). Giao điểm của (P) và trục Ox là I (8;0;0).",
@@ -1432,7 +1432,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 20",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p2_20.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho mặt phẳng (P): x - 2y + 2z -5 = 0 và hai điểm A(-3;0;1),B(0;-1;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Vectơ pháp tuyến của mặt phẳng (P)là <span class=\"m-vec\">n</span> = (-1;2;-2).",
@@ -1455,7 +1455,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, mặt phẳng đi qua điểm M (1;0;0) và song song với mặt phẳng (α):2x - y -1 = 0 có dạng -x + by + cz + d = 0. Tính b + c -3d.",
         "answer": "-2,5",
         "acceptedAnswers": [
@@ -1477,7 +1477,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho ba điểm A(2;1;-1), B(-1;0;4), C(0;-2;-1). Phương trình mặt phẳng qua A và vuông góc với BC có dạng x + by + cz + d = 0. Tính b + c + d.",
         "answer": "-12",
         "acceptedAnswers": [
@@ -1499,7 +1499,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm A(2;0;1) và 2 vectơ <span class=\"m-vec\">a</span> = (1;-3;2), <span class=\"m-vec\">b</span> = (-1;-1;2). Một mặt phẳng (Q) chứa điểm A và nhận <span class=\"m-vec\">a</span>, <span class=\"m-vec\">b</span> làm cặp vecto chỉ phương có phương trình là ax + by + cz -3 = 0. Tính a + b + c.",
         "answer": "3",
         "acceptedAnswers": [
@@ -1520,7 +1520,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, phương trình mặt phẳng (P) đi qua ba điểm A(1;0;- 2),B(-3;1;1),C(5;5;-5) có dạng ax + by + cz + 5 = 0, khi đó giá trị của biểu thức a + b + c bằng",
         "answer": "7",
         "acceptedAnswers": [
@@ -1541,7 +1541,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian với trục hệ tọa độ Oxyz, cho điểm H (1;2;3) là trực tâm của ΔABC với A,B,C là ba điểm lần lượt nằm trên các trục Ox,Oy,Oz (khác gốc tọa độ). Phương trình mặt phẳng đi qua ba điểm A,B,C có dạng mx + ny + pz -14 = 0, (m,n, p ∈ ′). Khi đó m + n + p bằng bao nhiêu?",
         "answer": "6",
         "acceptedAnswers": [
@@ -1562,7 +1562,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz cho hai điểm A(-1; 2; 0), B(1;1;3) và mặt phẳng (P): x - 2y + 3z -5 = 0. Phương trình của mặt phẳng đi qua hai điểm A, B, đồng thời vuông góc (P) là 2x -ay -bz + c = 0. Giá trị của biểu thức a + 2b + 3c bằng bao nhiêu?",
         "answer": "24",
         "acceptedAnswers": [
@@ -1583,7 +1583,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (α): x + by + cz + d = 0 vuông góc với mặt phẳng (β): x + 2y + 3z + 4 = 0 và chứa giao tuyến của hai mặt phẳng (P): x + 3y + z - 7 = 0, (Q): x - y + z + 1 = 0. Khi đó d bằng bao nhiêu?",
         "answer": "3",
         "acceptedAnswers": [
@@ -1604,7 +1604,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz cho mặt phẳng (α) đi qua điểm M (1;2;3) và cắt các tia Ox, Oy, Oz lần lượt tại A,B,C sao cho độ dài OA, OB, OC theo thứ tự lập thành cấp số nhân có công bội bằng 3. Phương trình mặt phẳng (α) có dạng Ax + By + z + D = 0, (A,B,D ∈ ℝ). Giá trị của biểu thức A + B + D bằng bao nhiêu?",
         "answer": "-6",
         "acceptedAnswers": [
@@ -1625,7 +1625,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B1.D1: Viết PT Mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d1_p3_9.svg",
+        "figure": null,
         "question": "Cho hai điểm A(3;-1;2), B(2;3;-3), C(-2;1;-2) và mặt phẳng(Oyz). Gọi M (a;b;c) là điểm thuộc mặt phẳng (Oyz) sao <span class=\"m-vec\">MA</span>.<span class=\"m-vec\">MB</span> + <span class=\"m-vec\">MB</span>.<span class=\"m-vec\">MC</span> + <span class=\"m-vec\">MC</span>.<span class=\"m-vec\">MA</span> có giá trị nhỏ nhất. Tính tổng a - 2b + c.",
         "answer": "-3",
         "acceptedAnswers": [
@@ -1744,14 +1744,14 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian Oxyz, cho mặt phẳng (Q): x + 2y + 2z -3 = 0 và mặt phẳng (P) không qua O, song song mặt phẳng (Q) và d((P);(Q)) = 1. Viết phương trình mặt phẳng (P)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_tl_1.svg",
+        "figure": null,
         "explanation": "Gọi phương trình mặt phẳng (P) có dạng x + 2y + 2z + d = 0 Với d ≠ 0;d ≠ -3.<br>Có d((P);(Q)) = 1 ⇔ <span class=\"m-frac\"><span class=\"num\">|d + 3|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup></span></span></span></span> = 1 ⇒ <span class=\"m-sys\"><span class=\"m-sys-brack\">[</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">d = 0</span><span class=\"m-sys-row\">d = -6</span></span></span>.<br>Kết hợp điều kiện ⇒ (P)có dạng: x + 2y + 2z -6 = 0."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian Oxyz, cho mặt phẳng (P):2x - 2y + z -5 = 0. Viết phương trình mặt phẳng (Q) song song với mặt phẳng (P), cách (P) một khoảng bằng 3 và cắt trục Ox tại điểm có hoành độ dương.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_tl_2.svg",
+        "figure": null,
         "explanation": "Ta có (Q)//(P)nên mặt phẳng (Q):2x - 2y + z + C = 0; C ≠ -5, chọn M (0;0;5) ∈ (P)<br>Ta có d((P);(Q)) = d(M;(Q)) = <span class=\"m-frac\"><span class=\"num\">|5 + C|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + (-2)<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = 3 ⇔ <span class=\"m-sys\"><span class=\"m-sys-brack\">[</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">C = 4</span><span class=\"m-sys-row\">C = -14</span></span></span><br>Với C = 4 ⇒ (Q):2x - 2y + z + 4 = 0 khi đó (Q) cắt Ox tại điểm M<sub>1</sub>(-2;0;0)có hoành độ<br>âm nên trường hợp này (Q) không thỏa đề bài.<br>Với C = -14 ⇒ (Q):2x - 2y + z -14 = 0 khi đó (Q) cắt Ox tại điểm M<sub>2</sub>(7;0;0)có hoành độ<br>dương do đó (Q):2x - 2y + z -14 = 0 thỏa đề bài.<br>Vậy phương trình mặt phẳng (Q):2x - 2y + z -14 = 0."
       },
       {
@@ -1812,7 +1812,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (1;0;1) và mặt phẳng (P):2x + y + 2z + 5 = 0. Khoảng cách từ điểm M đến mặt phẳng (P) là:",
         "options": {
           "A": "3<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -1830,7 +1830,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian hệ trục tọa độ Oxyz, khoảng cách từ điểm A(3;1;-2) đến mặt phẳng z = 0 bằng",
         "options": {
           "A": "<span class=\"m-root\">√<span class=\"m-rad\">5</span></span>.",
@@ -1848,7 +1848,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (2;-1;3) và mặt phẳng (P):2x - 2y + z + 1 = 0. Khoảng cách điểm M đến mặt phẳng (P) bằng",
         "options": {
           "A": "2.",
@@ -1866,7 +1866,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, khoảng cách từ điểm M (0;3;-1) đến mặt phẳng (α):2x + y - 2z - 2 = 0 bằng",
         "options": {
           "A": "1.",
@@ -1884,7 +1884,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, khoảng cách giữa hai mặt phẳng (P): x + 2y + 2z -10 = 0 và (Q): x + 2y + 2z -5 = 0 bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">3</span></span>.",
@@ -1902,7 +1902,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P):2x - y + 2z + 1 = 0 và mặt phẳng (Q):2x - y + 2z + 4 = 0. Khoảng cách giữa hai mặt phẳng đã cho bằng",
         "options": {
           "A": "1.",
@@ -1920,7 +1920,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng song song (P): x + y + z - 2 = 0; (Q): x + y + z + 4 = 0. Khoảng cách giữa hai mặt phẳng (P) và (Q) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">2<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">3</span></span>.",
@@ -1938,7 +1938,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, khoảng cách từ gốc tọa độ O đến mặt phẳng (P): 2x - y + 2z + 12 = 0 bằng",
         "options": {
           "A": "12.",
@@ -1956,7 +1956,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng song song (P):2x + y - 2z -1 = 0, (Q):6x + 3y -6z + 15 = 0. Khoảng cách giữa hai mặt phẳng (P),(Q) bằng:",
         "options": {
           "A": "2.",
@@ -1974,7 +1974,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, mặt phẳng (α) cắt các trục Ox, Oy, Oz lần lượt tại 3 điểm A(2;0;0), B(0;3;0), C(0;0;-4). Khoảng cách từ O đến (α) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">61</span></span></span><span class=\"den\">12</span></span>.",
@@ -1992,7 +1992,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P): x + y + 4z -3 = 0 và điểm A(1;1;3). Mặt phẳng (Q)∥(P) và cắt các tia Ox,Oy lần lượt tại các điểm B và C sao cho tam giác ABC có diện tích bằng 2<span class=\"m-root\">√<span class=\"m-rad\">22</span></span>. Khoảng cách từ điểm M (2;2;1) đến (Q) bằng:",
         "options": {
           "A": "2<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -2010,7 +2010,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(0;1;2) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">-3</span></span>. Gọi (P) là mặt phẳng đi qua A và chứa d. Khoảng cách từ điểm M (5;-1;3) đến (P) bằng",
         "options": {
           "A": "5.",
@@ -2028,7 +2028,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(-1;0;2) và mặt phẳng (P):2x + y - 2z = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (P) có vectơ pháp tuyến <span class=\"m-vec\">n</span> = (2;1;-2) và đi qua A.",
@@ -2051,7 +2051,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(2;0;0),B(0;2;0),C(0;0;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ pháp tuyến của mặt phẳng (ABC) là <span class=\"m-vec\">n</span> = (3;3;2).",
@@ -2074,7 +2074,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng (P): x -3y + 2z -1 = 0 và (Q):-2x + y + 4z -3 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (P) song song mặt phẳng (Q).",
@@ -2097,7 +2097,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_4.svg",
+        "figure": null,
         "question": "Trong hệ trục tọa độ Oxyz, cho hai mặt phẳng (P): 2x - 2y + z + 1 = 0, (Q):2x - 2y + z -5 = 0 và các điểm A(0;1;1), B(2;0;1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Hai mặt phẳng (P) và (Q) song song với nhau.",
@@ -2120,7 +2120,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai mặt phẳng (P):2x + 2y - z + 3 = 0, (Q): x + 2y - 2z + 4 = 0 và điểm A(1;2;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm A cách mặt phẳng (P) một khoảng bằng 5.",
@@ -2143,7 +2143,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho ba điểm A(1;2;0), B(1;0;2), C(2;1;3), và mặt phẳng (P): x - y + 2z + 7 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (ABC) có một vectơ pháp tuyến là (2;1;1).",
@@ -2166,7 +2166,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng (P) và (Q) lần lượt có phương trình là (P): x - 2y + 3z + 1 = 0và (Q):2x - 4y + 6z + 1 = 0.",
         "statements": {
           "a": "Các vectơ pháp tuyến của hai mặt phẳng trên cùng phương.",
@@ -2189,7 +2189,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho mặt phẳng (P)đi qua điểm M (-1;2;0) và có một vectơ pháp tuyến <span class=\"m-vec\">n</span> = (4;0;-5). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (P) có phương trình là 4x -5z + 4 = 0.",
@@ -2212,7 +2212,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho các điểm A(2;-3;1), B(1;0;-1), C(3;1;2), D(1;0;-1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng đi qua điểm A và song song với mặt phẳng (Oxz) có phương trình là y -3 = 0.",
@@ -2235,7 +2235,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 10",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho bốn điểm A(2;-1;0),B(1;1;3), C(-3;2;1),D(-1;14). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (P) qua A,B song song CD có một vectơ pháp tuyến là n = (3;3;-1).",
@@ -2258,7 +2258,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 11",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p2_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho điểm M (1;0;1) và hai mặt phẳng (Q): x + y -3z -5 = 0, (R): x + 2y - z -1 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (R) đi qua điểm M.",
@@ -2281,7 +2281,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (P) qua điểm A(1;-2;-2), vuông góc với mặt phẳng (Oxz) đồng thời khoảng cách từ điểm B(3;1;-3) đến (P) bằng <span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">5</span></span></span><span class=\"den\">5</span></span>. Phương trình mặt phẳng (P) có dạng 2x + by + cz + d = 0 (d ≠ 0). Tính P = 3b + 2c - d.",
         "answer": "46",
         "acceptedAnswers": [
@@ -2303,7 +2303,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_2.svg",
+        "figure": null,
         "question": "Trong hệ tục toạ độ không gian Oxyz, cho A(1;0;0), B(0;b;0), C(0;0;c), biết b,c > 0, phương trình mặt phẳng (P):y - z + 1 = 0. Tính M = c + b biết (ABC) ⊥ (P), d [O;(ABC)] = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>.",
         "answer": "1",
         "acceptedAnswers": [
@@ -2324,7 +2324,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục Oxyz, cho mặt phẳng (α): x + by + cz + d = 0 vuông góc với mặt phẳng (β): x + 2y + 3z + 4 = 0 và chứa giao tuyến của hai mặt phẳng (P): x + 3y + z -7 = 0, (Q): x - y + z + 1 = 0. Khi đó d bằng",
         "answer": "3",
         "acceptedAnswers": [
@@ -2345,7 +2345,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai điểm A(2;3;4), B(6;-3;0) và mặt phẳng (P) sao cho d(B;(P)) = 2d(A;(P)), (P) cắt AB tại I(a;b;c) nằm trên đoạn thẳng AB. Tính S = a + b + c.",
         "answer": "7",
         "acceptedAnswers": [
@@ -2366,7 +2366,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (1;2;3). Mặt phẳng (P): x + Ay + Bz + C = 0 chứa trục Oz và cách điểm M một khoảng lớn nhất, khi đó tính tổng A + B + C.",
         "answer": "2",
         "acceptedAnswers": [
@@ -2387,7 +2387,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (α):2x + 3y + z + 1 = 0. Gọi (P) là mặt phẳng song song với (α), cắt các tia Ox,Oy,Oz lần lượt tại các điểm A, B,C sao cho thể tích khối tứ diện OABC bằng 6. Tính khoảng cách từ gốc tọa độ O đến mặt phẳng (P) (kết quả làm tròn đến hàng phần trăm).",
         "answer": "1,6",
         "acceptedAnswers": [
@@ -2411,7 +2411,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (1;4;9). Gọi (P) là mặt phẳng đi qua M và cắt 3 tia Ox, Oy, Oz lần lượt tại các điểm A, B,C (khác O) sao cho OA + OB + OC đạt giá trị nhỏ nhất. Tính khoảng cách d từ gốc tọa độ O đến mặt phẳng (P) (kết quả là tròn đến hàng phần trăm).",
         "answer": "5,14",
         "acceptedAnswers": [
@@ -2433,7 +2433,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho các điểm A(2;0;0),B(0;4;0),C(0;0;6),D(2;4;6). Gọi (P)là mặt phẳng song song với mặt phẳng (ABC),(P) cách đều D và mặt phẳng (ABC). Phương trình của mặt phẳng (P) là ax + by + 2z + d = 0 với a,b,d ∈ ′. Giá trị của d bằng bao nhiêu?",
         "answer": "-24",
         "acceptedAnswers": [
@@ -2454,7 +2454,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm B(6;4;0), C(4;5;1), M (2;1;6).Mặt phẳng (P) vuông góc với BC và cách M một khoảng bằng <span class=\"m-root\">√<span class=\"m-rad\">6</span></span> có dạng ax + y + cz + d = 0. Tính -3a + c.",
         "answer": "7",
         "acceptedAnswers": [
@@ -2475,7 +2475,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 10",
         "topic": "B1.D2: Khoảng cách mặt phẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b1_d2_p3_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (Q) song song với mặt phẳng (P):2x - y - 2z + 19 = 0 và cách (P) một khoảng bằng 5 có dạng ax + y + cz + d = 0. Tính a + c + d.",
         "answer": "11",
         "acceptedAnswers": [
@@ -2528,7 +2528,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian Oxyz, xác định một vectơ chỉ phương của đường thẳng dưới đây: a) d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2-t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = 3 + t</span></span></span> b) d:<span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y-2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span> c) d: <span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">2- z</span><span class=\"den\">1</span></span>",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_tl_1.svg",
+        "figure": null,
         "explanation": "a) Đường thẳng d có một vectơ chỉ phương là <span class=\"m-vec\">u</span> = (-1;2;1).<br>b) Đường thẳng d có một vectơ chỉ phương là <span class=\"m-vec\">v</span> = (2;1;2).<br>c) Ta viết lại d: <span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">2-z</span><span class=\"den\">1</span></span> ⇔ d: <span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z-2</span><span class=\"den\">-1</span></span> ⇒ <span class=\"m-vec\">u</span><sub>1</sub> = (2;2;-1)."
       },
       {
@@ -2542,14 +2542,14 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 3t</span><span class=\"m-sys-row\">y = -1 + t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = 5-2t</span></span></span>. Trong các điểm sau đây, điểm nào thuộc đường thẳng Δ? A. M (11;2;4). B. N(5;0;3). C. P(10;3;-3). D. Q(8;-3;1).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_tl_3.svg",
+        "figure": null,
         "explanation": "Thế tọa độ M (11;2;4) vào phương trình đường thẳng Δ ta được <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">11 = 2 + 3t</span><span class=\"m-sys-row\">2 = -1 + t</span><span class=\"m-sys-row\">4 = 5-2t</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 3</span><span class=\"m-sys-row\">t = 3</span><span class=\"m-sys-row\">t = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span></span></span></span><br>Vì hệ phương trình trên vô nghiệm nên M không thuộc đường thẳng Δ.<br>Thế tọa độ N(5;0;3) vào phương trình đường thẳng Δ ta được <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">5 = 2 + 3t</span><span class=\"m-sys-row\">0 = -1 + t</span><span class=\"m-sys-row\">3 = 5-2t</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 1</span><span class=\"m-sys-row\">t = 1</span><span class=\"m-sys-row\">t = 1</span></span></span><br>Vì hệ phương trình trên có nghiệm nên N thuộc đường thẳng Δ.<br>Thế tọa độ P(10;3;-3) vào phương trình đường thẳng Δ ta được <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">10 = 2 + 3t</span><span class=\"m-sys-row\">3 = -1 + t</span><span class=\"m-sys-row\">-3 = 5-2t</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span></span><span class=\"m-sys-row\">t = 4</span><span class=\"m-sys-row\">t = 4</span></span></span><br>Vì hệ phương trình trên vô nghiệm nên P không thuộc đường thẳng Δ.<br>Thế tọa độ Q(8;-3;1) vào phương trình đường thẳng Δ ta được <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">8 = 2 + 3t</span><span class=\"m-sys-row\">-3 = -1 + t</span><span class=\"m-sys-row\">1 = 5-2t</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 2</span><span class=\"m-sys-row\">t = -2</span><span class=\"m-sys-row\">t = 2</span></span></span><br>Vì hệ phương trình trên vô nghiệm nên Q không thuộc đường thẳng Δ."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian Oxyz, xét vị trí tương đối của các cặp đường thẳng sau: a) d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 2t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = 3-t</span></span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 2t′</span><span class=\"m-sys-row\">y = 3 + 4t′(t′ ∈ ℝ)</span><span class=\"m-sys-row\">z = 5- 2t′</span></span></span> b) d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = -1 + 3t(t ∈ ℝ)</span><span class=\"m-sys-row\">z = 5 + t</span></span></span> và d′:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span> c) d:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span> và d′:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">5</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">-2</span></span>",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_tl_4.svg",
+        "figure": null,
         "explanation": "a) Ta có các vectơ chỉ phương của d và d′ lần lượt là <span class=\"m-vec\">a</span> = (1;2;-1) và <span class=\"m-vec\">a</span>′ = (2;4;-2).<br>Vì <span class=\"m-vec\">a</span>′ = 2<span class=\"m-vec\">a</span> nên <span class=\"m-vec\">a</span> và <span class=\"m-vec\">a</span>′ cùng phương ⇒ d và d′ song song với nhau hoặc trùng nhau.<br>Xét điểm M (1;0;3) ∈ d nên ta có M ∉ d′ nên d∥d′.<br>b) Ta có d và d′ lần lượt nhận <span class=\"m-vec\">a</span> = (2;3;1) và <span class=\"m-vec\">a</span>′ = (3;2;2) là các vectơ chỉ phương.<br>Vì <span class=\"m-vec\">a</span> và <span class=\"m-vec\">a</span>′ không cùng phương nên d và d′ cắt nhau hoặc chéo nhau.<br>Đường thẳng d′ qua M (1;-2;-1); có VTCP <span class=\"m-vec\">a</span>′ = (3;2;2) nên có phương trình là:<br>d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 3t′</span><span class=\"m-sys-row\">y = -2 + 2t′(t′ ∈ ℝ)</span><span class=\"m-sys-row\">z = -1 + 2t′</span></span></span><br>Xét hệ phương trình: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">1 + 2t = 1 + 3t′</span><span class=\"m-sys-row\">-1 + 3t = -2 + 2t′</span><span class=\"m-sys-row\">5 + t = -1 + 2t′</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = -<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">5</span></span></span><span class=\"m-sys-row\">t′ = -<span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">5</span></span></span><span class=\"m-sys-row\">5 + t = -1 + 2t′</span></span></span> ⇒ Hệ vô nghiệm<br>Vậy hai đường thẳng d và d′ chéo nhau.<br>c) Ta có: d đi qua M (0;1;0) và có vectơ chỉ phương <span class=\"m-vec\">a</span> = (1;-1;2);<br>Đường thẳng d′ đi qua M′(1;2;-2) và có vectơ chỉ phương <span class=\"m-vec\">a</span>′ = (5;1;-2).<br>Nên phương trình tham số của d và d′ lần lượt là:<br>d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 1-t</span><span class=\"m-sys-row\">z = 2t</span></span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 5t′</span><span class=\"m-sys-row\">y = 2 + t′</span><span class=\"m-sys-row\">z = -2- 2t′</span></span></span><br>Xét hệ phương trình <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 1 + 5t′</span><span class=\"m-sys-row\">1-t = 2 + t′</span><span class=\"m-sys-row\">2t = -2- 2t′</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t -5t′ = 1</span><span class=\"m-sys-row\">-t -t′ = 1</span><span class=\"m-sys-row\">2t + 2t′ = -2</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = -<span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span></span><span class=\"m-sys-row\">t′ = -<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span></span></span></span> ⇒ hệ có nghiệm duy nhất<br>Vậy hai đường thẳng d và d′ cắt nhau."
       }
     ],
@@ -2561,7 +2561,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, vectơ nào là một vectơ chỉ phương của đường thẳng có phương trình <span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">3y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3- z</span><span class=\"den\">1</span></span>?",
         "options": {
           "A": "<span class=\"m-vec\">a</span> = (3;<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>;1).",
@@ -2579,7 +2579,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng D vuông góc với mặt phẳng (α) có phương trình x + 2z + 3 = 0. Một vectơ chỉ phương của D là",
         "options": {
           "A": "<span class=\"m-vec\">a</span> = (1;0;2).",
@@ -2597,7 +2597,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho <span class=\"m-vec\">OA</span> = 2<span class=\"m-vec\">i</span> + 3<span class=\"m-vec\">j</span> -5<span class=\"m-vec\">k</span>; <span class=\"m-vec\">OB</span> = -2 <span class=\"m-vec\">j</span> -4<span class=\"m-vec\">k</span>. Một vectơ chỉ phương của đường thẳng AB là",
         "options": {
           "A": "<span class=\"m-vec\">a</span> = (-2;-5;-1).",
@@ -2615,7 +2615,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x-3</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y-4</span><span class=\"den\">-5</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">3</span></span>. Vectơ nào dưới đây là một vectơ chỉ phương của d?",
         "options": {
           "A": "<span class=\"m-vec\">a</span> = (3;4;-1).",
@@ -2633,7 +2633,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2-t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = 3 + t</span></span></span> có một vectơ chỉ phương là",
         "options": {
           "A": "a = (-1;2;1).",
@@ -2651,7 +2651,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, tọa độ nào sau đây là tọa độ của một véctơ chỉ phương của đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 4t</span><span class=\"m-sys-row\">y = 1-6t,(t ∈ ℝ)?</span><span class=\"m-sys-row\">z = 9t</span></span></span>",
         "options": {
           "A": "<span class=\"m-vec\">a</span> = (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">4</span></span>).",
@@ -2669,7 +2669,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, điểm nào dưới đây thuộc đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">3</span></span>?",
         "options": {
           "A": "Q(1;-2;-1).",
@@ -2687,7 +2687,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x-1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y-2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">-1</span></span>. Điểmnào sau đây thuộc d?",
         "options": {
           "A": "Q(-1;-2;1).",
@@ -2705,7 +2705,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, điểm nào dưới đây thuộc đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1-t</span><span class=\"m-sys-row\">y = 5 + t?</span><span class=\"m-sys-row\">z = 2 + 3t</span></span></span>",
         "options": {
           "A": "Q(-1;1;3).",
@@ -2723,7 +2723,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 3-t</span><span class=\"m-sys-row\">z = 1-t</span></span></span> không đi qua điểm nào dưới đây?",
         "options": {
           "A": "Q(3;2;0).",
@@ -2741,7 +2741,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">-5</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">1</span></span>. Trong các điểm sau đây, điểm nào không thuộc đường thẳng Δ?",
         "options": {
           "A": "M (4;-7;- 2).",
@@ -2759,7 +2759,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 3t</span><span class=\"m-sys-row\">y = -1 + t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = 5- 2t</span></span></span>. Véc tơ nào sau đây là một véc tơ chỉ phương của đường thẳng Δ?",
         "options": {
           "A": "u = (2;-1;5).",
@@ -2777,7 +2777,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">-5</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">1</span></span>. Véc tơ nào sau đây là một véc tơ chỉ phương của đường thẳng Δ?",
         "options": {
           "A": "<span class=\"m-vec\">u</span> = (1;- 2;4).",
@@ -2795,7 +2795,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, xét vị trí tương đối của hai đường thẳng Δ<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">3</span></span>, Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -3</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">1</span></span>",
         "options": {
           "A": "Δ<sub>1</sub> song song với Δ<sub>2</sub>.",
@@ -2813,7 +2813,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = 3-t</span></span></span> và d ':<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t'</span><span class=\"m-sys-row\">y = -1 + 2t'</span><span class=\"m-sys-row\">z = 2- 2t'</span></span></span>. Mệnh đề nào sau đây đúng?",
         "options": {
           "A": "Hai đường thẳng d và d′ chéo nhau.",
@@ -2831,7 +2831,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho hai đường thẳng thẳng d:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">1</span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1 + 2t</span><span class=\"m-sys-row\">y = 1 + t</span><span class=\"m-sys-row\">z = 3</span></span></span>. Khẳng định nào sau đây là khẳng định đúng?",
         "options": {
           "A": "d và d′ chéo nhau.",
@@ -2849,7 +2849,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -8</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">4</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">m -1</span></span> và Δ<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 4 + 4t</span><span class=\"m-sys-row\">y = 3-t</span><span class=\"m-sys-row\">z = 2 + 2t</span></span></span>. Giá trị của m để Δ<sub>1</sub> và Δ<sub>2</sub> vuông góc là",
         "options": {
           "A": "m = 1.",
@@ -2867,7 +2867,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -7</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">4</span></span> và d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 4</span><span class=\"den\">1</span></span> cắt nhau tại điểm M có toạ độ bằng",
         "options": {
           "A": "M (0;3;- 4).",
@@ -2885,7 +2885,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm M (1;3;2) nằm trên đường thẳng d.",
@@ -2908,7 +2908,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 3 + t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = 4-5t</span></span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ chỉ phương của đường thẳng Δ là: <span class=\"m-vec\">u</span> = (1;3;4).",
@@ -2931,7 +2931,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng Δ<sub>1</sub>, Δ<sub>2</sub> lần lượt có phương trình là:Δ<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span> và Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x - 4</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>. Xets",
         "statements": {
           "a": "Đường thẳng Δ<sub>1</sub> có một vectơ chỉ phương là: <span class=\"m-vec\">u</span><sub>1</sub> = (1;-1;2) và đi qua điểm A(-1;-2;1).",
@@ -2954,7 +2954,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p2_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng Δ<sub>1</sub>, Δ<sub>2</sub> lần lượt có phương trình là: Δ<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">2</span></span> và Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x + 4</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">-1</span></span>. Xét tínhđúng sai củacác khẳng định sau:",
         "statements": {
           "a": "Đường thẳng Δ<sub>1</sub> có một vectơ chỉ phương là: <span class=\"m-vec\">u</span><sub>1</sub> = (1;-1;2) và đi qua điểm A(-1;4;-5).",
@@ -2998,7 +2998,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz. Khi m ∈ ℝ \\{a} thì đường thẳng d đi qua hai điểm A(1;2;0); B(m;-1;3) cắt mặt phẳng (P): x + y + z -6 = 0. Giá trị của a bằng bao nhiêu?",
         "answer": "1",
         "acceptedAnswers": [
@@ -3019,7 +3019,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho các điểm M (-1;3;1), N(-2;1;-2), P(1;2;3), Q(2;-1;2), S(1;2;-3). Đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">2</span></span> đi qua bao nhiêu điểm trong số các điểm đã cho?",
         "answer": "2",
         "acceptedAnswers": [
@@ -3040,7 +3040,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 2-t</span><span class=\"m-sys-row\">z = 3 + 2t</span></span></span>,t ∈ ℝ và các điểm M (-1;3;1), N(-2;1;-2), P(1;2;3), Q(2;-1;2), S(1;2;-3). Có mấy điểm không thuộc đường thẳng (d) cho trước?",
         "answer": "3",
         "acceptedAnswers": [
@@ -3061,7 +3061,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(-1;2;4) và B(5;2;-2). Biết <span class=\"m-vec\">u</span> = (a;b;1) là vectơ chỉ phương của đường thẳng Δ là đường đối xứng với AB qua mặt phẳng (Oyz). Tính a + b",
         "answer": "1",
         "acceptedAnswers": [
@@ -3082,7 +3082,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B2.D1: Yếu tố & VTTĐ Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d1_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 4</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -5</span><span class=\"den\">1</span></span> và Δ′:<span class=\"m-frac\"><span class=\"num\">x + 3</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span> đối xứng với nhau qua mặt phẳng (P). Biết (P) có vectơ pháp tuyến là <span class=\"m-vec\">n</span> = (a;b;3). Tính a + b.",
         "answer": "1",
         "acceptedAnswers": [
@@ -3113,56 +3113,56 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian Oxyz, viết các phương trình tham số và chính tắc của đường thẳng Δ đi qua A(1;1;2) và song song với đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -3</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 5</span><span class=\"den\">3</span></span>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_1.svg",
+        "figure": null,
         "explanation": "Đường thẳng d có vectơ chỉ phương là <span class=\"m-vec\">u</span> = (2;1;3)<br>Vì Δ∥d nên vectơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = (2;1;3)<br>Đường thẳng Δ đi qua điểm A(1;1;2) và có vectơ chỉ phương là <span class=\"m-vec\">u</span> = (2;1;3).<br>Phương trình tham số của Δ là <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 1 + t</span><span class=\"m-sys-row\">z = 2 + 3t</span></span></span> (t ∈ ℝ)<br>Phương trình chính tắc của Δ là <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">3</span></span>."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian Oxyz, viết các phương trình tham số và chính tắc của đường thẳng Δ đi qua A(2;-1;4) và vuông góc với mặt phẳng (P): x + 3y - z -1 = 0.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_2.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (P) có véc-tơ pháp tuyến là <span class=\"m-vec\">n</span> = (1;3;-1)<br>Vì Δ ⊥ (P) nên véc-tơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = <span class=\"m-vec\">n</span> = (1;3;-1)<br>Đường thẳng Δ đi qua điểm A(2;-1;4) và có véc-tơ chỉ phương là <span class=\"m-vec\">u</span> = (1;3;-1).<br>Phương trình tham số của Δ là <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + t</span><span class=\"m-sys-row\">y = -1 + 3t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = 4-t</span></span></span>.<br>Phương trình chính tắc của Δ là <span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">-1</span></span>."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, viết các phương trình tham số và chính tắc của đường thẳng Δ đi qua hai điểm A(2;3;-1) và B(1;-2;4).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_3.svg",
+        "figure": null,
         "explanation": "Ta có <span class=\"m-vec\">AB</span> = (-1;-5;5).<br>Vì Δ đi qua hai điểm A và B nên véc-tơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = <span class=\"m-vec\">AB</span> = (-1;-5;5).<br>Đường thẳng Δ đi qua điểm A(2;3;-1) và có véc-tơ chỉ phương là <span class=\"m-vec\">u</span> = (-1;-5;5).<br>Phương trình tham số của Δ là <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2-t</span><span class=\"m-sys-row\">y = 3-5t (t ∈ ℝ)</span><span class=\"m-sys-row\">z = -1 + 5t</span></span></span>.<br>Phương trình chính tắc của Δ là <span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-5</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">5</span></span>."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian Oxyz, cho hai đường thẳng: Δ<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 3-t</span><span class=\"m-sys-row\">z = 2 + 3t</span></span></span> và Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -8</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. a) Chứng minh rằng Δ<sub>1</sub> và Δ<sub>2</sub> cắt nhau. b) Viết phương trình mặt phẳng (P) chứa Δ<sub>1</sub> và Δ<sub>2</sub>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_4.svg",
+        "figure": null,
         "explanation": "a) Đường thẳng Δ<sub>1</sub> đi qua điểm A(1;3;2) và có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>1</sub> = (2;-1;3)<br>Đường thẳng Δ<sub>2</sub> đi qua điểm B(8;- 2;2) và có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>2</sub> = (-1;1;2)<br>Ta có <span class=\"m-vec\">AB</span> = (7;-5;0) và [<span class=\"m-vec\">u</span><sub>1</sub>,<span class=\"m-vec\">u</span><sub>2</sub>] = (-5;-7;1) ≠ <span class=\"m-vec\">0</span> (1).<br>Mặt khác <span class=\"m-vec\">AB</span>.[<span class=\"m-vec\">u</span><sub>1</sub>;<span class=\"m-vec\">u</span><sub>2</sub>] = -35 + 35 = 0 (2).<br>Từ (1) và (2) suy ra Δ<sub>1</sub> và Δ<sub>2</sub> cắt nhau.<br>b) Mặt phẳng (P) chứa Δ<sub>1</sub> và Δ<sub>2</sub> nên có một vectơ pháp tuyến là <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">u</span><sub>1</sub>,<span class=\"m-vec\">u</span><sub>2</sub>] = (-5;-7;1).<br>Mặt phẳng (P) đi qua điểm A(1;3;2) có vectơ pháp tuyến <span class=\"m-vec\">n</span> = (-5;-7;1).có phương trình là:<br>-5(x –1) – 7(y – 3) + (z - 2) = 0 ⇔ 5x + 7y – z – 24 = 0."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Viết phương trình tham số và phương trình chính tắc của đường thẳng Δ trong mỗi trường hợp sau: a) Δ đi qua điểm A(-1;3;2) và có vectơ chỉ phương <span class=\"m-vec\">u</span> = (-2;3;4); b) Δ đi qua hai điểm M (2;-1;3) và N(3;0;4).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_5.svg",
+        "figure": null,
         "explanation": "a) Phương trình tham số của đường thẳng Δ đi qua điểm A(-1;3;2) và có vecto chỉ phương<br><span class=\"m-vec\">u</span> = (-2;3;4) là: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1- 2t</span><span class=\"m-sys-row\">y = 3 + 3t</span><span class=\"m-sys-row\">z = 2 + 4t</span></span></span> (t là tham số)<br>Phương trình chính tắc của đường thẳng Δ đi qua điểm A(-1;3;2) và có vecto chỉ phương<br><span class=\"m-vec\">u</span> = (-2;3;4) là: <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">4</span></span><br>b) Ta có MN = (1;1;1) là một vecto chỉ phương của đường thẳng Δ<br>Phương trình tham số của đường thẳng Δ là: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + t′</span><span class=\"m-sys-row\">y = -1 + t′ (t′</span><span class=\"m-sys-row\">z = 3 + t′</span></span></span> là tham số)<br>Phương trình chính tắc của đường thẳng Δ là: <span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>"
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Trong không gian Oxyz, cho hai mặt phẳng (α):2x + y - z + 3 = 0 và (β): x + y + z -1 = 0. Viết phương trình chính tắc đường thẳng Δ là giao tuyến của hai mặt phẳng (α) và (β)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_6.svg",
+        "figure": null,
         "explanation": "Ta có <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\"><span class=\"m-vec\">n</span><sub>(α)</sub> = (2;1;-1)</span><span class=\"m-sys-row\"><span class=\"m-vec\">n</span><sub>(β)</sub> = (1;1;1)</span></span></span> ⇒ [<span class=\"m-vec\">n</span><sub>(α)</sub>,<span class=\"m-vec\">n</span><sub>(β)</sub>] = (2;-3;1) ⇒ <span class=\"m-vec\">u</span><sub>Δ</sub> = [<span class=\"m-vec\">n</span><sub>α</sub>,<span class=\"m-vec\">n</span><sub>β</sub>] = (2;-3;1)..<br>Gọi M = (α) ∩ (β) thì M ∈ Δ và M thỏa <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">2x + y - z + 3 = 0</span><span class=\"m-sys-row\">x + y + z -1 = 0</span></span></span> - <sup>x</sup> - <sup> = 0</sup> → <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 0</span><span class=\"m-sys-row\">y = -1</span><span class=\"m-sys-row\">z = 2</span></span></span> ⇒ M (0;-1;2)<br>Đường thẳng Δ điqua M (0;-1;2) và nhận <span class=\"m-vec\">u</span><sub>Δ</sub> = (2;-3;1) làmmộtvectơchỉphươngcóphương<br>trình chính tắc là <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">1</span></span>."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P):x + y -5z + 4 = 0 và đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 5</span><span class=\"den\">6</span></span>. Gọi (Q) là mặt phẳng chứa d và vuông góc với (P). Xác định phương trình giao tuyến d′ của (Q) và (P)?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_7.svg",
+        "figure": null,
         "explanation": "Gọi đường thẳng d′ là hình chiếu vuông góc của đường thẳng d trên (P)<br>Đường thẳng d đi qua điểm A(-1;-1;-5) và có <span class=\"m-vec\">u</span><sub>d</sub> = (2;1;6).<br>Mặt phẳng (P) có vectơ pháp tuyến <span class=\"m-vec\">n</span><sub>P</sub> = (1;1;-5).<br>Mặt phẳng (Q) chứa d và vuông góc với (P) ⇒ (P) ∩ (Q) = d′.<br>Vectơ pháp tuyến của (Q) là <span class=\"m-vec\">n</span><sub>Q</sub> = [<span class=\"m-vec\">n</span><sub>P</sub>,<span class=\"m-vec\">u</span><sub>d</sub>] = (11;-16;-1).<br>Phương trình của mặt phẳng (Q) là: 11x -16y - z -10 = 0.<br>Do (P) ∩ (Q) = d′ nên vectơ chỉ phương của đường thẳng d′ là: <span class=\"m-vec\">u</span><sub>d′</sub> = [<span class=\"m-vec\">n</span><sub>Q</sub>, <span class=\"m-vec\">n</span><sub>P</sub>] = - 27(3;2;1),<br>- - → d′ có vectơ chỉ phương là <span class=\"m-vec\">u</span><sub>1</sub> = (3;2;1).<br>Gọi I = d ∩ (P), khi đó tọa độ I là nghiệm của hệ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x + y -5z + 4 = 0</span><span class=\"m-sys-row\"><span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 5</span><span class=\"den\">6</span></span></span></span></span>.<br>Giải hệ ta được (x;y;z) = (1;0;1).<br>Do đó d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 3t</span><span class=\"m-sys-row\">y = 2t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>, suy ra đường thẳng d′ đi qua điểm P(4;2;2)."
       },
       {
         "id": 8,
         "label": "Bài tập tự luận 8",
         "question": "Trong không gian Oxyz, cho đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = -2 + 5t</span></span></span> và d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + s</span><span class=\"m-sys-row\">y = 2 + s</span><span class=\"m-sys-row\">z = 1 + 3s</span></span></span>.Viết phương trình đường vuông góc chung của hai đường thẳng d<sub>1</sub>;d<sub>2</sub>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_8.svg",
+        "figure": null,
         "explanation": "Gọi Δ là đường vuông góc chung của hai đường thẳng d<sub>1</sub>;d<sub>2</sub>.<br>Đường thẳng d<sub>1</sub> có vectơ chỉ phương là <span class=\"m-vec\">u</span><sub>1</sub> = (2;1;5);d<sub>2</sub> có VTCP là <span class=\"m-vec\">u</span><sub>2</sub> = (1;1;3).<br>Gọi A = Δ ∩ d<sub>1</sub> ⇒ A(1 + 2t;2 + t;-2 + 5t);B = Δ ∩ d<sub>2</sub> ⇒ B(1 + s;2 + s;1 + 3s).<br><span class=\"m-vec\">AB</span> = (s - 2t;s -t;3 + 3s -5t).<br>.<span class=\"m-vec\">u</span><sub>1</sub> = 0<br>Ta có:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\"><span class=\"m-vec\">AB</span></span><span class=\"m-sys-row\"><span class=\"m-vec\">AB</span></span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">2(s - 2t) + s -t + 5(3 + 3s -5t) = 0</span><span class=\"m-sys-row\">s - 2t + s -t + 3(3 + 3s -5t) = 0</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">18s -30t = -15</span><span class=\"m-sys-row\">11s -18t = -9</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">s = 0</span><span class=\"m-sys-row\">t = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span></span></span></span>.<br>.<span class=\"m-vec\">u</span><sub>2</sub> = 0<br>Suy ra B(1;2;1) và <span class=\"m-vec\">AB</span> = (-1;-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>).<br>Phương trình đường thẳng đi qua B và có vectơ chỉ phương <span class=\"m-vec\">u</span> = (-2;-1;1) là <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1- 2t</span><span class=\"m-sys-row\">y = 2-t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>."
       },
       {
@@ -3183,7 +3183,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 11,
         "label": "Bài tập tự luận 11",
         "question": "Trong không gian Oxyz, một viên đạn được bắn ra từ điểm A(1;3;4) và trong 3 giây, đầu đạn đi với vận tốc không đổi, vectơ vận tốc (trên giây) là <span class=\"m-vec\">v</span> = (2;1;6). Hỏi viên đạn trên có bắn trúng mục tiêu trong mỗi tình huống sau hay không? a) Mục tiêu đặt tại điểm M (7;<span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">2</span></span>;21) b) Mục tiêu đặt tại điểm N(-3;1;-8).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_tl_11.svg",
+        "figure": null,
         "explanation": "Phương trình mô tả quỹ đạo chuyển động của viên đạn là: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 3 + t</span><span class=\"m-sys-row\">z = 4 + 6t</span></span></span><br>a) Thay tọa độ điểm M vào phương trình chuyển động ta có: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">7 = 1 + 2t</span><span class=\"m-sys-row\"><span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">2</span></span> = 3 + t</span><span class=\"m-sys-row\">21 = 4 + 6t</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 3</span><span class=\"m-sys-row\">t = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span></span><span class=\"m-sys-row\">t = <span class=\"m-frac\"><span class=\"num\">17</span><span class=\"den\">6</span></span></span></span></span><br>Ta thấy các giá trị t này đều khác nhau do đó điểm M không nằm trên quỹ đạo chuyển động<br>của viên đạn nên viên đạn không bắn trúng mục tiêu đặt tại điểm M.<br>b) Thay tọa độ điểm N vào phương trình chuyển động của viên đạn ta có:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">-3 = 1 + 2t</span><span class=\"m-sys-row\">1 = 3 + t</span><span class=\"m-sys-row\">-8 = 4 + 6t</span></span></span> ⇔ t = -2<br>Suy ra điểm N nằm trên quỹ đạo chuyển động của viên đạn. Do đó viên đạn trên có bắn trúng<br>mục tiêu đặt tại điểm N."
       },
       {
@@ -3202,7 +3202,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_1.svg",
+        "figure": null,
         "question": "Cho điểm A(1;2;0). Viết phương trình đường thẳng Δ đi qua A, vuông góc và cắt trục Ox.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = t</span><span class=\"m-sys-row\">z = t</span></span></span>",
@@ -3220,7 +3220,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_2.svg",
+        "figure": null,
         "question": "Cho điểm A(-1;1;0).Viết phương trình đường thẳng Δ đi qua A, cắt trục Ox, sao cho góc tạo bởiΔ với hai trục Ox,Oy bằng nhau.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1 + 2t</span><span class=\"m-sys-row\">y = 1-t</span><span class=\"m-sys-row\">z = 0</span></span></span>",
@@ -3238,7 +3238,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_3.svg",
+        "figure": null,
         "question": "Cho điểm A(1;2;3) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">-2</span></span>. Viết phương trình đường thẳng Δ đi qua A, vuông góc với đường thẳng d và cắt trục Oz.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">2</span></span>",
@@ -3256,7 +3256,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;0;3).Viết phương trình đường thẳng Δ đi qua A, cắt hai trục Ox,Oz tại M,N sao cho <span class=\"m-vec\">AM</span> = 2<span class=\"m-vec\">AN</span>.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1- 2t</span><span class=\"m-sys-row\">y = 0</span><span class=\"m-sys-row\">z = 3t</span></span></span>",
@@ -3274,7 +3274,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_5.svg",
+        "figure": null,
         "question": "Cho điểm A(1;-2;1) và 2 đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-3</span></span>, d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">1</span></span>. Phương trình đường thẳng d<sub>3</sub> đi qua A cắt hai đường thẳng d<sub>1</sub>,d<sub>2</sub> là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">4</span></span> = <span class=\"m-frac\"><span class=\"num\">1- z</span><span class=\"den\">-5</span></span>",
@@ -3292,7 +3292,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_6.svg",
+        "figure": null,
         "question": "Cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>;d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1-t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = -1 + t</span></span></span> và điểm A(1;2;3). Đường thẳng Δ đi qua A, vuông góc với d<sub>1</sub> và cắt d<sub>2</sub> có phương trình là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>.",
@@ -3310,7 +3310,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho tam giác nhọn ABC có E(2;2;1), F(-<span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>), O(0;0;0) lần lượt là chân đường cao hạ từ các đỉnh A,B,C xuống các cạnh BC,CA,AB. Viết phương trình đường thẳng Δ đi qua Acắt trục Ox tại điểm có hoành độ nguyên và tạo với d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span> một góc α, cosα = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">51</span></span></span><span class=\"den\">9</span></span>.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x + 3</span><span class=\"den\">7</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>",
@@ -3328,7 +3328,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_8.svg",
+        "figure": null,
         "question": "Đường thẳng Δ đi qua điểm M (3;1;1), nằm trong mặt phẳng (α): x + y - z -3 = 0, cắt d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3</span><span class=\"m-sys-row\">y = 1 + 3t</span><span class=\"m-sys-row\">z = 1- 2t</span></span></span> và tạo với đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = 4 + 3t</span><span class=\"m-sys-row\">z = -3- 2t</span></span></span> một góc nhỏ nhất, thì phương trình của Δ là:",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = -t′</span><span class=\"m-sys-row\">z = 2t′</span></span></span>.",
@@ -3346,7 +3346,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ là giao tuyến của hai mặt phẳng (P): z -1 = 0 và (Q): x + y + z -3 = 0. Gọi d là đường thẳng nằm trong mặt phẳng (P), cắt đường thẳng <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">-1</span></span> và vuông góc với đường thẳng Δ. Phương trình của đường thẳng d là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3 + t</span><span class=\"m-sys-row\">y = t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>.",
@@ -3364,7 +3364,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz cho đường thẳng (d):<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">3</span></span> và mặt phẳng (P): x - y - z -1 = 0. Viết pt đường thẳng (Δ) đi qua điểm A(1;1;- 2), biết (Δ) // (P) và (Δ) cắt d.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">-1</span></span>.",
@@ -3382,7 +3382,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt phẳng (P): x + 2y + z - 4 = 0 và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">3</span></span>. Viết phương trình đường thẳng Δ nằm trong mặt phẳng (P), đồng thời cắt và vuông góc với đường thẳng d.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">5</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">-3</span></span>.",
@@ -3400,7 +3400,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt phẳng (P): x + 2y + 2z + 5 = 0 và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>. Đường thẳng Δ nằm trên mặt phẳng (P), đồng thời vuông góc và cắt đường thẳng d có phương trình là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span>.",
@@ -3418,7 +3418,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span> và mặt phẳng (P): 2x + y + z + 1 = 0. Viết phương trình đường thẳng qua giao điểm của đường thẳng d với (P), nằm trên mặt phẳng (P) và vuông góc với đường thẳng d.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -2-t</span><span class=\"m-sys-row\">y = -2</span><span class=\"m-sys-row\">z = 3 + 2t</span></span></span>.",
@@ -3436,7 +3436,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2-t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = 4- 2t</span></span></span> và d′:<span class=\"m-frac\"><span class=\"num\">x - 4</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span>. Phương trình nào dưới đây là phương trình đường thẳng thuộc mặt phẳng chứa d và d′ đồng thời cách đều hai đường thẳng đó.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">-2</span></span>.",
@@ -3454,7 +3454,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">4</span></span> và d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">-1</span></span> . Viết phương trình đường thẳng Δ đi qua điểm A(0;2;-4) và cắt hai đường thẳng d<sub>1</sub> và d<sub>2</sub>.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 2- 2t</span><span class=\"m-sys-row\">z = -4 + 3t</span></span></span>.",
@@ -3472,7 +3472,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho điểm A(1;3;2),B(3;3;0) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">3</span></span>. Gọi M là trung điểm của AB. Viết phương trình đường thẳng Δ đi qua H (1;1;1) và cắt hai đường thẳng d và OM",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 1 + 23t</span><span class=\"m-sys-row\">z = 1-15t</span></span></span>.",
@@ -3490,7 +3490,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm N(0;-1;2) và hai đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1-t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = 3- 2t</span></span></span> ,d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -11</span><span class=\"den\">4</span></span>. Đường thẳng Δ cắt d<sub>1</sub>, d<sub>2</sub> lần lượt tại A và B sao cho N là trung điểm của AB. Đường thẳng Δ có phương trình là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 0</span><span class=\"m-sys-row\">y = -1 + t</span><span class=\"m-sys-row\">z = 2 + 3t</span></span></span>.",
@@ -3508,7 +3508,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm P(2;1;-4) và đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 1-t</span><span class=\"m-sys-row\">z = -12 + t</span></span></span>. Đường thẳng Δ cắt d<sub>1</sub>,và trục Oy lần lượt tại A và B sao cho P là trung điểm của AB. Đường thẳng Δ có phương trình là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 3t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = -4 + t</span></span></span>.",
@@ -3526,7 +3526,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 19",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_19.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz cho điểm A(1;0;2) và đường thẳng d có phương trình: <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span>. Viết phương trình đường thẳng Δ đi qua A, vuông góc và cắt d.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">1</span></span>",
@@ -3544,7 +3544,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 20",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_20.svg",
+        "figure": null,
         "question": "Trongkhônggianvớihệtọađộ Oxyz,cho điểm M (2;1;0) vàđườngthẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span> . Viết phương trình của đường thẳng d đi qua điểm M, cắt và vuông góc với Δ.",
         "options": {
           "A": "d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-4</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>.",
@@ -3562,7 +3562,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_21.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm A(0;1;-1) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 3</span><span class=\"den\">4</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">-4</span></span>. Viết phương trình đường thẳng Δ đi qua điểm A, vuông góc và cắt đường thẳng d.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">13</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">28</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">-20</span></span>.",
@@ -3580,7 +3580,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_22.svg",
+        "figure": null,
         "question": "Trong không gianvới hệ tọađộ Oxyz, chođiểm M (0;2;0) vàđường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 4 + 3t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = -1 + t</span></span></span>, t ∈ ℝ . Đường thẳng đi qua M, cắt và vuông góc với d có phương trình là:",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">2</span></span>.",
@@ -3598,7 +3598,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 23",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_23.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1-t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = 3- 2t</span></span></span> và mặt phẳng (P): x - 2y + z + 5 = 0. Phương trình đường thẳng d nằm trong mặt phẳng (P), cắt và vuông góc với Δ là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -3</span><span class=\"m-sys-row\">y = -1 + 3t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>.",
@@ -3616,7 +3616,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 24",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_24.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -5 + t</span><span class=\"m-sys-row\">y = 2t</span><span class=\"m-sys-row\">z = 1 + 7t</span></span></span> và mặt phẳng (P):3x + y - 2z -8 = 0. Phương trình đường thẳng d nằm trong mặt phẳng (P), cắt và vuông góc với Δ là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -7 -11t</span><span class=\"m-sys-row\">y = -4 + 23t</span><span class=\"m-sys-row\">z = -13-5t</span></span></span>.",
@@ -3634,7 +3634,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 25",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_25.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">1</span></span> và mặt phẳng (P): x - 2y- z + 3 = 0. Đường thẳng nằm trong (P) đồng thời cắt và vuông góc với Δ có phương trình là:",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 1-t</span><span class=\"m-sys-row\">z = 2</span></span></span>",
@@ -3652,7 +3652,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 26",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_26.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span> và mặt phẳng (P): x + y- z-1 = 0. Đường thẳng nằm trong (P) đồng thời cắt và vuông góc với Δ có phương trình là:",
         "options": {
           "A": "d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 3t</span><span class=\"m-sys-row\">y = 1- 2t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>",
@@ -3670,7 +3670,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 27",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_27.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai mặt phẳng (P):2x + y - z -1 = 0, (Q): x - 2y + z -5 = 0. Khi đó giao tuyến của hai mặt phẳng (P) và (Q) có một vectơ chỉ phương là",
         "options": {
           "A": "<span class=\"m-vec\">u</span> = (1;-2;1).",
@@ -3688,7 +3688,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 28",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_28.svg",
+        "figure": null,
         "question": "Trongkhônggian Oxyz,chohai mặtphẳng (P):3x - 2y + 2z -5 = 0 và (Q):4x + 5y - z + 1 = 0 . Biết hai điểm A, B phân biệt cùng thuộc giao tuyến của hai mặt phẳng (P) và (Q). Khi đó <span class=\"m-vec\">AB</span> cùng phương với véctơ nào sau đây?",
         "options": {
           "A": "<span class=\"m-vec\">u</span> = (8;-11;-23).",
@@ -3706,7 +3706,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 29",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_29.svg",
+        "figure": null,
         "question": "Cho hai điểm A(3;3;1), B(3; 2;1), mặt phẳng (P): x - 2y - z + 3 = 0. Đường thẳng d nằm trên (P) sao cho mọi điểm của d cách đều hai điểm A, B có phương trình là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 4 + t</span><span class=\"m-sys-row\">y = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">2</span></span></span><span class=\"m-sys-row\">z = 2 + t</span></span></span>.",
@@ -3724,7 +3724,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 30",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_30.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, gọi (α) là mặt phẳng chứa đường thẳng Δ có phương trình <span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span> và vuông góc với mặt phẳng (β): x + y - 2z -1 = 0. Giao tuyến của (α) và (β) đi qua điểm nào trong các điểm sau.",
         "options": {
           "A": "C(1;2;1).",
@@ -3742,7 +3742,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 31",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_31.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng chéo nhau d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">-1</span></span> và d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 3</span><span class=\"m-sys-row\">z = -2 + t</span></span></span>. Phương trình đường vuông góc chung của hai đường thẳng d<sub>1</sub>, d<sub>2</sub> là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = 2-t</span></span></span>.",
@@ -3760,7 +3760,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 32",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_32.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, đường vuông góc chung của hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 0</span><span class=\"m-sys-row\">z = -5 + t</span></span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 0</span><span class=\"m-sys-row\">y = 4-2t′</span><span class=\"m-sys-row\">z = 5 + 3t′</span></span></span> có phương trình là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x + 4</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>.",
@@ -3778,7 +3778,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 33",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_33.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, gọi (Δ) là đường vuông góc chung của hai đường thẳng: (d<sub>1</sub>): <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">3</span></span> và (d<sub>2</sub>):<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t′</span><span class=\"m-sys-row\">y = 3-2t′</span><span class=\"m-sys-row\">z = 1</span></span></span>. Phương trình của (Δ) là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span> + 2t</span><span class=\"m-sys-row\">y = <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span> + t</span><span class=\"m-sys-row\">z = 1</span></span></span>.",
@@ -3796,7 +3796,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 34",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_34.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho hai đường thẳng (d<sub>1</sub>)và (d<sub>2</sub>)chéo nhau có phương trình (d<sub>1</sub>):<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = 10 + 2t, (d<sub>2</sub>):</span><span class=\"m-sys-row\">z = t</span></span></span><span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3t</span><span class=\"m-sys-row\">y = 3-2t</span><span class=\"m-sys-row\">z = -2</span></span></span>. Gọi (Δ)là đường thẳng vuông góc chung của (d<sub>1</sub>)và (d<sub>2</sub>). Phương trình của (Δ) là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2t</span><span class=\"m-sys-row\">y = <span class=\"m-frac\"><span class=\"num\">177</span><span class=\"den\">98</span></span> + 3t</span><span class=\"m-sys-row\">z = -6t -<span class=\"m-frac\"><span class=\"num\">17</span><span class=\"den\">49</span></span></span></span></span>.",
@@ -3814,7 +3814,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 35",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_35.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, viết phương trình hình chiếu vuông góc của đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">1</span></span> trên mặt phẳng toạ độ Oxy.",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 5-6t</span><span class=\"m-sys-row\">y = 11 + 9t</span><span class=\"m-sys-row\">z = 0</span></span></span>.",
@@ -3832,7 +3832,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 36",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_36.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. Viết phương trình đường thẳng d′ là hình chiếu của d lên mặt phẳng Oxy.",
         "options": {
           "A": "d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -3 + t</span><span class=\"m-sys-row\">y = t</span><span class=\"m-sys-row\">z = 0</span></span></span>,(t ∈ ℝ).",
@@ -3850,7 +3850,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 37",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_37.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho điểm A(–1;3;–2) và mặt hai phẳng (P):2x – y + z + 3 = 0; (Q): x - 2y -1 = 0. Phương trình đường thẳng d′ là hình chiếu vuông góc của d lên mặt phẳng (P). Biết d là đường thẳng đi qua A và vuông góc với mặt phẳng (Q)",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = u</span><span class=\"m-sys-row\">y = 1 + 7u</span><span class=\"m-sys-row\">z = -2 + 10u</span></span></span>.",
@@ -3868,7 +3868,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 38",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p1_38.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho ba mặt phẳng (Oxy);(Oyz);(P): x + 2y - 4 = 0. Viết phương trình đường thẳng d′ là hình chiếu vuông góc của d lên mặt phẳng (P): x + 2y - 4 = 0 . Với d là giao tuyến của hai mặt phẳng (Oxy);(Oyz).",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -2u</span><span class=\"m-sys-row\">y = 2 + u</span><span class=\"m-sys-row\">z = 0</span></span></span>.",
@@ -3886,7 +3886,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 4</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -5</span><span class=\"den\">-4</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">1</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm M (3;-4;1)nằm trên đường thẳng d.",
@@ -3909,7 +3909,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho M (2;1;0) và đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm M (1;-1;1) nằm trên đường thẳng d.",
@@ -3932,7 +3932,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_3.svg",
+        "figure": null,
         "question": "Trong hệtọa độ Oxyz, chođường thẳngd:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. Xéttính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm M (1;3;-2)nằm trên đường thẳng d.",
@@ -3955,7 +3955,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_4.svg",
+        "figure": null,
         "question": "Trong Oxyz, cho mặt phẳng (P): x + 2y + z - 4 = 0 và đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">3</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường thẳng d có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>d</sub> = (-1;0;-2).",
@@ -3978,7 +3978,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_5.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz cho điểm A(1;0;2) và đường thẳng d có phương trình: <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường thẳng d có một véc tơ chỉ phương là<sup> → </sup> u(1;1;2).",
@@ -4001,7 +4001,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (2;1;0) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>. Xét tính đúng sai của các mệnh đề sau:",
         "statements": {
           "a": "Đường thẳng d có một véc tơ chỉ phương là<sup> → </sup> u = (2;1;-1).",
@@ -4024,7 +4024,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho măt phẳng (α): x + y - z + 6 = 0 và đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 4</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">5</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Măt phẳng (α): x + y - z + 6 = 0 có vectơ pháp tuyến <span class=\"m-vec\">n</span> = (1;1;-1).",
@@ -4047,7 +4047,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_8.svg",
+        "figure": null,
         "question": "Trong không gian với hê toa độOxyz, cho măt phẳng (P): x + y - z -1 = 0 và đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 4</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">1</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm N(0;2;0) thuộc đường thẳng d.",
@@ -4070,7 +4070,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(1;3;3) và B(3;5;9). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ chỉ phương của đường thẳng AB là: <span class=\"m-vec\">u</span> = (1;1;3).",
@@ -4093,7 +4093,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 10",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p2_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">2</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường thẳng d qua điểm M (1;2;2).",
@@ -4116,7 +4116,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(1;3;-2), B(1;1;5). Phương trình tham số của đường thẳng đi qua hai điểm A,B có dạng <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = a</span><span class=\"m-sys-row\">y = b - 2t</span><span class=\"m-sys-row\">z = -2 + ct</span></span></span>. Tính a + b + c.",
         "answer": "11",
         "acceptedAnswers": [
@@ -4137,7 +4137,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_2.svg",
+        "figure": null,
         "question": "Trong không gianOxyz, phương trình tham số của đường thẳng đi qua điểm M (3;- 2;1) và song song với đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">4</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 6</span><span class=\"den\">5</span></span> có dạng <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = a + 4t</span><span class=\"m-sys-row\">y = -2 + bt</span><span class=\"m-sys-row\">z = 1 + ct</span></span></span>. Tính a + b + 2c.",
         "answer": "10",
         "acceptedAnswers": [
@@ -4158,7 +4158,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (1;3;5) và mặt phẳng (P):2x + y -3z + 1 = 0. Phương trình tham số của đường thẳng đi qua M và vuông góc với (P)có dạng <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + at</span><span class=\"m-sys-row\">y = b + t</span><span class=\"m-sys-row\">z = 5 + ct</span></span></span>. Tính 3a + b + c.",
         "answer": "6",
         "acceptedAnswers": [
@@ -4179,7 +4179,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = -1- 4t</span><span class=\"m-sys-row\">z = 6 + 6t</span></span></span> và d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">-5</span></span>. Phương trình chính tắc của đường thẳng d<sub>3</sub> qua M (1;-1;2) và vuông góc với cả d<sub>1</sub>, d<sub>2</sub> có dạng <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">14</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">b</span></span> = <span class=\"m-frac\"><span class=\"num\">z - a</span><span class=\"den\">c</span></span>. Tính a + b + c.",
         "answer": "28",
         "acceptedAnswers": [
@@ -4200,7 +4200,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, phương trình tham số của đườngthẳng (Δ) qua M (2;3;1) và song song với hai mặt phẳng (P):2x - y + 2z - 7 = 0 và (Q): x + 3y - 2z + 3 = 0 có dạng <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = a + bt</span><span class=\"m-sys-row\">y = 3 + 6t;t ∈ ℝ</span><span class=\"m-sys-row\">z = c + dt</span></span></span>. Tính 2a + b + c + d.",
         "answer": "8",
         "acceptedAnswers": [
@@ -4221,7 +4221,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;-2;3), B(2;b;c), mặt phẳng (α): x + 3y - 2z + 5 = 0 và đường thẳng Δ: <span class=\"m-frac\"><span class=\"num\">x + 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">1</span></span>. Khi đó, để đường thẳng d đi qua hai điểm A, B, song song với mặt phẳng (α) và vuông góc với đường thẳng Δ thì b + c bằng:",
         "answer": "-1",
         "acceptedAnswers": [
@@ -4242,7 +4242,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (α):ax + by + cz + 10 = 0. Biết mặt phẳng (α) chứa hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1 + t</span><span class=\"m-sys-row\">y = 2 + 2t</span><span class=\"m-sys-row\">z = -t</span></span></span> và d ':<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1 + 2t'</span><span class=\"m-sys-row\">y = 4 + 2t</span><span class=\"m-sys-row\">z = -1-t</span></span></span>. Khi đó a + b + c bằng:",
         "answer": "-1",
         "acceptedAnswers": [
@@ -4263,7 +4263,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 -t</span><span class=\"m-sys-row\">y = 2t</span><span class=\"m-sys-row\">z = 1-t</span></span></span> và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 6</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">-2</span></span>. Gọi giao điểm của hai đường thẳng Δ và d là M (a;b;c). Tính a + b + c.",
         "answer": "3",
         "acceptedAnswers": [
@@ -4284,7 +4284,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_9.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai điểm A(1;2;-1), B(2;-1;3). đường thẳng đi qua 2điểm A, B có phương trình dạng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2t</span><span class=\"m-sys-row\">y = y<sub>0</sub> + bt</span><span class=\"m-sys-row\">z = z<sub>0</sub> + ct</span></span></span>. Tính y<sub>0</sub> + z<sub>0</sub> + b + c.",
         "answer": "2",
         "acceptedAnswers": [
@@ -4305,7 +4305,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 10",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho các điểm A(2;-1;0), B(1;2;1), C(3;- 2;0), D(1;1;-3). Đường thẳng đi qua Dvà vuông góc với mặt phẳng (ABC) luôn đi qua điểm M (2;a;b). Khi đó a<sup>b</sup> bằng bao nhiêu? (kết quả làm tròn đến hàng phần trăm).",
         "answer": "0,03",
         "acceptedAnswers": [
@@ -4327,7 +4327,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 11",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_11.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">4</span></span> và Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">4</span></span>. Phương trình mặt phẳng (P) chứa d và Δ có dạng: ax + by + z + c = 0.Tính giá trị của a + b + c",
         "answer": "-2",
         "acceptedAnswers": [
@@ -4348,7 +4348,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 12",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, một viên đạn được bắn ra từ điểm A(1;2;3)và trong 3 giây, đầu đạn đi với vận tốc không đổi; véctơ vận tốc (trên giây) là <span class=\"m-vec\">v</span> = (2;1;5). Khi viên đạn trúng mục tiêu tại điểm B(-5;a;b) thì giá trị của biểu thức b<sup>a</sup> bằng bao nhiêu? (kết quả làm tròn đến hàng phần chục).",
         "answer": "-0,1",
         "acceptedAnswers": [
@@ -4370,7 +4370,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 13",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_13.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz. Phương trình tham số của đường thẳng d đi qua A(1;1;3), nằm trong mặt phẳng (P): x + 2y + z - 6 = 0 và cắt đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span> có dạng <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + at</span><span class=\"m-sys-row\">y = 1</span><span class=\"m-sys-row\">z = 3 + bt</span></span></span>. Tính giá trị của biểu thức M = 2024a - b.",
         "answer": "2025",
         "acceptedAnswers": [
@@ -4391,7 +4391,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 14",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng chéo nhau d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 0</span><span class=\"m-sys-row\">z = -5 + t</span></span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 0</span><span class=\"m-sys-row\">y = 4-2t′</span><span class=\"m-sys-row\">z = 5 + 3t′</span></span></span>. Đường vuông góc chung của hai đường thẳng d và d′ đi qua điểm K(6; m; n). Tính m + n",
         "answer": "-7",
         "acceptedAnswers": [
@@ -4412,7 +4412,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 15",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (α) và B(3;a;2a). Biết mặt phẳng (α) chứa hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -1 + 5t</span><span class=\"m-sys-row\">y = 2- 4t</span><span class=\"m-sys-row\">z = 3 + 3t</span></span></span> và đường thẳng d':<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2 + 5t</span><span class=\"m-sys-row\">y = -4t</span><span class=\"m-sys-row\">z = 5 + 3t</span></span></span>. Khi đó để điểm B nằm trong mặt phẳng (α) thì giá trị của a bằng:",
         "answer": "4",
         "acceptedAnswers": [
@@ -4433,7 +4433,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 16",
         "topic": "B2.D2: Viết PT Đường thẳng",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d2_p3_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho điểm A(2;1;3) và đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. Gọi <span class=\"m-vec\">u</span>(a;b;3) là một véctơ chỉ phương của đường thẳng d đi qua điểm A, vuông góc với đường thẳng Δ và cắt trục Oy. Tính a + b.",
         "answer": "6",
         "acceptedAnswers": [
@@ -4485,84 +4485,84 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 5- 2t</span><span class=\"m-sys-row\">z = 14-3t</span></span></span> và d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1- 4t′</span><span class=\"m-sys-row\">y = 2 + t′</span><span class=\"m-sys-row\">z = -1 + 5t′</span></span></span>. Tính góc giữa hai đường thẳng đã cho.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_1.svg",
+        "figure": null,
         "explanation": "Đường thẳng d<sub>1</sub> có một vectơ chỉ phương <span class=\"m-vec\">u</span><sub>1</sub> = (1;-2;-3).<br>Đường thẳng d<sub>2</sub> có một vectơ chỉ phương <span class=\"m-vec\">u</span><sub>2</sub> = (-4;1;5).<br>Ta có: cos(d• <sup>1</sup>,d<sup>2</sup>) = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span><sub>1</sub>.<span class=\"m-vec\">u</span><sub>2</sub>|</span><span class=\"den\">|<span class=\"m-vec\">u</span><sub>1</sub>|.|<span class=\"m-vec\">u</span><sub>2</sub>|</span></span> = <span class=\"m-frac\"><span class=\"num\">1.(-4) + (-2).1 + (-3).5</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + (-2)<sup>2</sup> + (-3)<sup>2</sup>.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">(-4)<sup>2</sup> + 1<sup>2</sup> + 5<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span> ⇒ (d<sup>1</sup>,d<sup>2</sup>) = 30<sup>o</sup>."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -3</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 4</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">-1</span></span> và mặt phẳng (P):2x + y + z -1 = 0. Tính góc giữa Δ và (P)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_2.svg",
+        "figure": null,
         "explanation": "Đường thẳng Δ có một vectơ chỉ phương <span class=\"m-vec\">u</span> = (1;2;-1).<br>Mặt phẳng (P) có một vectơ pháp tuyến <span class=\"m-vec\">n</span> = (2;1;1).<br>Ta có: sin(Δ•,(P)) = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span>.<span class=\"m-vec\">n</span>|</span><span class=\"den\">|<span class=\"m-vec\">u</span>|.|<span class=\"m-vec\">n</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">|1.2 + 2.1 + (-1).1|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 2<sup>2</sup> + (-1)<sup>2</sup>.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> ⇒ (Δ•,(P)) = 30<sup>o</sup>"
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trên một phần mềm đã thiết kế sân khấu 3D trong không gian Oxyz. Tính cos giữa hai tia sáng có phương trình lần lượt là d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>, d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">9</span></span>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_3.svg",
+        "figure": null,
         "explanation": "Đường thẳng d<sub>1</sub> có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>1</sub> = (2;1;-1).<br>Đường thẳng d<sub>2</sub> có vectơ chỉ phương <span class=\"m-vec\">u</span><sub>2</sub> = (3;3;9).<br>Ta có cos(d<sub>1</sub>,d<sub>2</sub>) = <span class=\"m-frac\"><span class=\"num\">|2.3 + 1.3 + (-1).9|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + 1<sup>2</sup> + (-1)<sup>2</sup>.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">3<sup>2</sup> + 3<sup>2</sup> + 9<sup>2</sup></span></span></span></span> = 0."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, tính góc giữa hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">2</span></span> và d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_4.svg",
+        "figure": null,
         "explanation": "Vectơ chỉ phương <span class=\"m-vec\">u</span><sub>d1</sub> = (1;-1;2), vectơ chỉ phương <span class=\"m-vec\">u</span><sub>d2</sub> = (-1;1;1)<br>Ta có cos(d<sub>1</sub>,d<sub>2</sub>) = |cos(<span class=\"m-vec\">u</span><sub>d1</sub>,<span class=\"m-vec\">u</span><sub>d2</sub>)| = <span class=\"m-frac\"><span class=\"num\">1.(-1)-1.1 + 2.1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + (-1)<sup>2</sup> + 2<sup>2</sup>.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">(-1)<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = 0<br>Vậy (d<sub>1</sub>,d<sub>2</sub>) = 90°."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Trong không gian Oxyz, cho đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 6 + 5t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = 1</span></span></span> và mặt phẳng (P):3x - 2y + 1 = 0. Góc hợp bởi giữa đường thẳng d và mặt phẳng (P) bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_5.svg",
+        "figure": null,
         "explanation": "Gọi φ là góc giữa đường thẳng d và mặt phẳng (P).<br>Ta có <span class=\"m-vec\">u</span><sub>d</sub> = (5;1;0) và <span class=\"m-vec\">n</span><sub>(P)</sub> = (3;-2;0)<br>Khi đó sinφ = |cos(<span class=\"m-vec\">u</span><sup>d</sup>,<span class=\"m-vec\">n</span><sub>(</sub><sup>P</sup><sub>)</sub>)| = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span><sub>d</sub>.<span class=\"m-vec\">n</span><sub>(P)</sub>|</span><span class=\"den\">|<span class=\"m-vec\">u</span><sub>d</sub>|.|<span class=\"m-vec\">n</span><sub>(P)</sub>|</span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"den\">2</span></span> ⇒ φ = 45°."
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span> và mặt phẳng (α): x + y - z - 2 = 0. Cosin của góc tạo bởi đường thẳng Δ và mặt phẳng (α) bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_6.svg",
+        "figure": null,
         "explanation": "Đường thẳng Δ có một vectơ chỉ phương <span class=\"m-vec\">u</span> = (2;-1;2) và mặt phẳng (α) có vectơ pháp tuyến<br><span class=\"m-vec\">n</span> = (1;1;-1).<br>Ta có sin(Δ,(α)) = |cos(<span class=\"m-vec\">u</span>,<span class=\"m-vec\">n</span>)| = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span>.<span class=\"m-vec\">n</span>|</span><span class=\"den\">|<span class=\"m-vec\">u</span>|.|<span class=\"m-vec\">n</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">9</span></span> ⇒ cos(Δ,(α)) = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">78</span></span></span><span class=\"den\">9</span></span>."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Trong không gian Oxyz, cho hai mặt phẳng (P):2x - y - z -3 = 0 và (Q): x - z - 2 = 0. Góc giữa hai mặt phẳng (P) và (Q) bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_7.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (P) có một vectơ pháp tuyến <span class=\"m-vec\">n</span><sub>P</sub> = (2;-1;-1).<br>Mặt phẳng (Q) có một vectơ pháp tuyến <span class=\"m-vec\">n</span><sub>Q</sub> = (1;0;-1).<br>Ta có cos[(P),(Q)] = |cos(<span class=\"m-vec\">n</span><sub>P</sub>,<span class=\"m-vec\">n</span><sub>Q</sub>)| = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">n</span><sub>P</sub>.<span class=\"m-vec\">n</span><sub>Q</sub>|</span><span class=\"den\">|<span class=\"m-vec\">n</span><sub>P</sub>|.|<span class=\"m-vec\">n</span><sub>Q</sub>|</span></span> = <span class=\"m-frac\"><span class=\"num\">|2 + 0 + 1|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">4 + 1 + 1.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">1 + 1</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>. Vậy [(P),(Q)] = 30°."
       },
       {
         "id": 8,
         "label": "Bài tập tự luận 8",
         "question": "Trong không gian Oxyz, cho ba điểm M (1;0;0), N(0;1;0) và P(0;0;1). Cosin của góc giữa hai mặt phẳng (MNP) và mặt phẳng (Oxy) bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_8.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (MNP) có một vectơ pháp tuyến là n = [MN,MP] = (1;1;1).<br>Mặt phẳng (Oxy) có một vectơ pháp tuyến là <span class=\"m-vec\">k</span> = (0;0;1).<br>Gọi φ là góc giữa hai mặt phẳng (MNP) và (Oxy).<br>Ta có cosφ = |cos(<span class=\"m-vec\">n</span>,<span class=\"m-vec\">k</span>)| = <span class=\"m-frac\"><span class=\"num\">|1.0 + 1.0 + 1.1|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span></span>."
       },
       {
         "id": 9,
         "label": "Bài tập tự luận 9",
         "question": "Trong không gian với hệ trục Oxyz, khoảng cách giữa hai mặt phẳng (P): x + 2y + 2z -10 = 0 và (Q): x + 2y + 2z -5 = 0 bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_9.svg",
+        "figure": null,
         "explanation": "Cách 1: Ta có M (10;0;0) ∈ (P). Vì <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">2</span></span> ≠ <span class=\"m-frac\"><span class=\"num\">-10</span><span class=\"den\">-5</span></span> nên hai mặt phẳng (P)và (Q) song song.<br>Khi đó, d((P),(Q)) = d(M,(Q)) = <span class=\"m-frac\"><span class=\"num\">|10-5|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">9</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">3</span></span>.<br>Cách 2: Công thức khoảng cách giữa hai mặt phẳng song song (P):ax + by + cz - d<sub>1</sub> = 0 và<br>(Q):ax + by + cz - d<sub>2</sub> = 0 bằng: d((P),(Q)) = <span class=\"m-frac\"><span class=\"num\">|d<sub>1</sub>- d<sub>2</sub>|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup></span></span></span></span> ⇒ d((P),(Q)) = <span class=\"m-frac\"><span class=\"num\">|10-5|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">9</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">3</span></span>."
       },
       {
         "id": 10,
         "label": "Bài tập tự luận 10",
         "question": "Trong không gian Oxyz, khoảng cách giữa đường thẳng Δ: <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">2</span></span> và mặt phẳng (P): 2x - 2y - z + 1 = 0 bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_10.svg",
+        "figure": null,
         "explanation": "Đường thẳng Δ đi qua điểm M (1;- 2;1), có 1 véc tơ chỉ phương <span class=\"m-vec\">u</span> = (2;1;2).<br>Mặt phẳng (P)có 1 véc tơ pháp tuyến <span class=\"m-vec\">n</span> = (2;- 2;-1).<br>Ta có: <span class=\"m-vec\">u</span>. <span class=\"m-vec\">n</span> = 2.2- 2.1-1.2 = 0 ⇒ <span class=\"m-vec\">u</span> ⊥ <span class=\"m-vec\">n</span>.<br>Mà M ∉ (P) ⇒ d∥(P) ⇒ d(Δ,(P)) = d(M,(P)) = <span class=\"m-frac\"><span class=\"num\">|2.1- 2.(-2)-1.1 + 1|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + (-2)<sup>2</sup> + (-1)<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">6</span><span class=\"den\">3</span></span> = 2."
       },
       {
         "id": 11,
         "label": "Bài tập tự luận 11",
         "question": "Trong không gian Oxyz, cho mặt phẳng (P): x + y + 4z -3 = 0 và điểm A(1;1;3). Mặt phẳng (Q)∥(P) và cắt các tia Ox,Oy lần lượt tại các điểm B và C sao cho tam giác ABC có diện tích bằng 2<span class=\"m-root\">√<span class=\"m-rad\">22</span></span>. Khoảng cách từ điểm M (2;2;1) đến (Q) bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_11.svg",
+        "figure": null,
         "explanation": "Mặt phẳng (Q)∥(P) ⇒ (Q) có dạng: x + y + 4z + d = 0 (d ≠ -3).<br>(Q) ∩ Ox = B(-d;0;0), (Q) ∩ Oy = C(0;- d;0). Do B, C lần lượt thuộc các tia Ox,Oy<br>Suy ra d < 0.<br>Ta có: AB = (-d -1;-1;-3), AC = (-1;- d -1;-3) ⇒ [AB,AC] = (-3d;-3d;d<sup>2</sup> + 2d).<br>S<sup>ΔABC</sup> = 2<span class=\"m-root\">√<span class=\"m-rad\">22</span></span> ⇔ <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2<sub>2</sub></span></span>|[<span class=\"m-vec\">AB</span>,<span class=\"m-vec\">AC</span>]| = 2<span class=\"m-root\">√<span class=\"m-rad\">22</span></span> ⇔ 9d<sup>2</sup> + 9d<sup>2</sup> + (d<sup>2</sup> + 2d)<sup>2</sup> = 352<br>⇔ d<sup>4</sup> + 4d<sup>3</sup> + 22d -352 = 0 (*)<br>Giải (*) chỉ có d = -4 thỏa mãn. Khi đó ta có phương trình mặt phẳng (Q):x + y + 4z + 4 = 0.<br>Khoảng cách từ điểm M (2;2;1) đến (Q) bằng: <span class=\"m-frac\"><span class=\"num\">|2 + 2 + 4.1 + 4|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 1<sup>2</sup> + 4<sup>2</sup></span></span></span></span> = 2<span class=\"m-root\">√<span class=\"m-rad\">2.</span></span>"
       },
       {
         "id": 12,
         "label": "Bài tập tự luận 12",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (α): x + y - 2z + 2 = 0 và hai điểm A(2;0;1), B(1;1;2). Gọi d là đường thẳng nằm trong (α) và cắt đường thẳng AB, thỏa mãn góc giữa hai đường thẳng AB và d bằng góc giữa đường thẳng AB và mặt phẳng (α). Khoảng cách từ điểm A đến đường thẳng d bằng",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_12.svg",
+        "figure": null,
         "explanation": "Gọi A′ là hình chiếu của A(2;0;1) lên (α).<br>Ta có B ∈ (α).Gọi d là đường thẳng nằm trong (α) và cắt đường thẳng AB, thỏa mãn góc giữa<br>hai đường thẳng AB và d bằng góc giữa đường thẳng AB và mặt phẳng (α)<br>Khi đó d ≡ A′B ⇒ d(A,d) = d(A,(α)) = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span><span class=\"den\">3</span></span>."
       },
       {
@@ -4576,7 +4576,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 14,
         "label": "Bài tập tự luận 14",
         "question": "Trong một khung lưới ô vuông gồm các hình lập phương, xét các đường thẳng đi qua hai nút lưới (mỗi nút lưới là đỉnh của hình lập phương), người ta đưa ra một cách kiểm tra độ lệch về phương của hai đường thẳng bằng cách gắn hệ tọa độ Oxyz vào khung lưới ô vuông và tìm vectơ chỉ phương của hai đường thẳng đó. Giả sử, đường thẳng a đi qua hai nút lưới M (1;1;2) và N(0;3;0), đường thẳng b đi qua hai nút lưới P(1;0;3) và Q(3;3;9). Sau khi làm tròn đến hàng đơn vị của độ thì góc giữa hai đường thẳng a và b bằng n° (n là số tự nhiên). Giá trị của n bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_tl_14.svg",
+        "figure": null,
         "explanation": "Ta có: <span class=\"m-vec\">MN</span> = (-1;2;- 2), <span class=\"m-vec\">PQ</span> = (2;3;6).<br>Khi đó: cos(a,b) = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">MN</span>.<span class=\"m-vec\">PQ</span>|</span><span class=\"den\">|<span class=\"m-vec\">MN</span>|.|<span class=\"m-vec\">PQ</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">21</span></span>, suy ra (a,b) ≈ 68<sup>0</sup>."
       },
       {
@@ -4595,7 +4595,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, góc giữa trục Oy và mặt phẳng (Oxz) bằng",
         "options": {
           "A": "45°.",
@@ -4613,7 +4613,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, góc giữa hai mặt phẳng Oxy và Oxz bằng",
         "options": {
           "A": "45°.",
@@ -4631,7 +4631,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, cho điểm A(-3;1;-3) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>. Gọi (α)là mặt phẳng chứa đường thẳng d và vuông góc với mặt phẳng tọa độ (Oyz). Khoảng cách từ A đến mặt phẳng (α) bằng",
         "options": {
           "A": "2<span class=\"m-root\">√<span class=\"m-rad\">10</span></span>.",
@@ -4649,7 +4649,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, góc giữa hai mặt phẳng (P):x + y - z -11 = 0 và (P): 2x + 2y - 2z + 7 = 0 bằng",
         "options": {
           "A": "0°.",
@@ -4667,7 +4667,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, góc giữa hai mặt phẳng (Oxy) và (Oyz) bằng",
         "options": {
           "A": "30°.",
@@ -4685,7 +4685,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P):2x - y + 2z + 1 = 0 và mặt phẳng (Q):2x - y + 2z + 4 = 0. Khoảng cách giữa hai mặt phẳng đã cho bằng",
         "options": {
           "A": "1.",
@@ -4703,7 +4703,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt phẳng (α) cắt các trục Ox, Oy, Oz lần lượt tại 3 điểm A(2;0;0), B(0;3;0), C(0;0;-4). Khoảng cách từ O đến (α) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">61</span></span></span><span class=\"den\">12</span></span>.",
@@ -4721,7 +4721,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz,cho hai mặt phẳng (P) và (Q) lần lượt có hai vectơ pháp tuyến là <span class=\"m-vec\">n</span><sub>P</sub> và <span class=\"m-vec\">n</span><sub>Q</sub>. Biết góc giữa hai vectơ <span class=\"m-vec\">n</span><sub>P</sub> và <span class=\"m-vec\">n</span><sub>Q</sub> bằng 120°. Góc giữa hai mặt phẳng (P) và (Q) bằng",
         "options": {
           "A": "60°.",
@@ -4739,7 +4739,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai mặt phẳng (P) và (Q) lần lượt có hai vectơ pháp tuyến là <span class=\"m-vec\">n</span><sub>P</sub> và <span class=\"m-vec\">n</span><sub>Q</sub>. Biết góc giữa hai vectơ <span class=\"m-vec\">n</span><sub>P</sub> và <span class=\"m-vec\">n</span><sub>Q</sub> bằng 120°. Góc giữa hai mặt phẳng (P) và (Q) bằng",
         "options": {
           "A": "45°.",
@@ -4757,7 +4757,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, góc giữa hai mặt phẳng (Oxy) và (Oyz) bằng",
         "options": {
           "A": "30<sup>°</sup>",
@@ -4775,7 +4775,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai mặt phẳng song song (P): x + y + z - 2 = 0;. (Q): x + y + z + 4 = 0. Khoảng cách giữa hai mặt phẳng (P) và (Q) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">2<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">3</span></span>.",
@@ -4793,7 +4793,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, khoảng cách từ gốc tọa độ O đến mặt phẳng (P): 2x - y + 2z + 12 = 0 bằng",
         "options": {
           "A": "12.",
@@ -4811,7 +4811,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, chohai mặt phẳng song song (P):2x + y - 2z -1 = 0, (Q):6x + 3y -6z + 15 = 0. Khoảng cách giữa hai mặt phẳng (P),(Q) bằng",
         "options": {
           "A": "2.",
@@ -4829,7 +4829,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng (P): x - 2y + 2z -1 = 0 và (Q):2x + 2y - z -3 = 0. Gọi α là góc giữa hai mặt phẳng (P) và (Q). Tính cosα.",
         "options": {
           "A": "-<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">9</span></span>.",
@@ -4847,7 +4847,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz,cho đường thẳng d là giao tuyến của hai mặt phẳng (P): 2x + y - 2z - 4 = 0 và (Q): x - 2y + 2z + 6 = 0.Tính khoảng cách htừ điểm M(1;0;1)đến đường thẳng d.",
         "options": {
           "A": "h = 3.",
@@ -4865,7 +4865,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục Oxyz, gọi α là góc giữa hai mặt phẳng (P):x + 2y - z + 2 = 0 và (Q):2x - y - z + 4 = 0. Tính cosα.",
         "options": {
           "A": "cosα = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span>.",
@@ -4883,7 +4883,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz<sub>,</sub> góc giữa hai mặt phẳng (Oxz) và (P):x - y + 1 = 0 bằng",
         "options": {
           "A": "60°<sub>.</sub>",
@@ -4901,7 +4901,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;2;3). Khoảng cách từ điểm A đến trục Ox bằng",
         "options": {
           "A": "<span class=\"m-root\">√<span class=\"m-rad\">4</span></span>.",
@@ -4919,7 +4919,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 19",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_19.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, góc giữa hai mặt phẳng (Oxz) và (Oyz)bằng:",
         "options": {
           "A": "90<sup>0</sup>.",
@@ -4937,7 +4937,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 20",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_20.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho đường thẳng d có phương trình tham số <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -2t</span><span class=\"m-sys-row\">y = 6 + t</span><span class=\"m-sys-row\">z = 1-3t</span></span></span> và mặt phẳng (P):2x - y + 3z + 12 = 0. Tìm sin của góc giữa d và (P)?",
         "options": {
           "A": "0<sup>o</sup>.",
@@ -4955,7 +4955,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_21.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-2</span></span> và mặt phẳng (P):2x - y + 2z - 2022 = 0. Gọi α là góc giữa đường thẳng Δ và mặt phẳng (P). Khẳng định nào sau đây đúng?",
         "options": {
           "A": "sinα = -<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">9</span></span>.",
@@ -4973,7 +4973,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_22.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(0;1;0), góc giữa đường thẳng OA và mặt phẳng (Oxz) bằng",
         "options": {
           "A": "60<sup>0</sup>.",
@@ -4991,7 +4991,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 23",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_23.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng Δ: <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">4</span></span>, d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">2</span></span>. Gọi (P) là mặt phẳng chứa đường thẳng Δ và song song với đường thẳng d. Tính khoảng cách từ điểm M (3;0;-1) đến mặt phẳng (P).",
         "options": {
           "A": "3.",
@@ -5009,7 +5009,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 24",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_24.svg",
+        "figure": null,
         "question": "Trong không gian có hệ trục Oxyz, đường thẳng (d) có phương trình: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2-t</span><span class=\"m-sys-row\">y = 3 + t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span> và mặt phẳng (Δ): x + 2y - 2z + 3 = 0. Góc giữa (d) và (Δ) bằng α. Khẳng định nào sau đây đúng?",
         "options": {
           "A": "cotα = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">9</span></span>.",
@@ -5027,7 +5027,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 25",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_25.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, cho điểm A(-3;1;-3) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>. Gọi (α)là mặt phẳng chứa đường thẳng d và vuông góc với mặt phẳng tọa độ (Oyz). Khoảng cách từ A đến mặt phẳng (α) bằng",
         "options": {
           "A": "2<span class=\"m-root\">√<span class=\"m-rad\">10</span></span>.",
@@ -5045,7 +5045,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 26",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_26.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục toạ độ Oxyz, cho mặt cầu (S):x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 8 và điểm M (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0). Đường thẳng d thay đổi, đi qua điểm M và cắt mặt cầu(S) tại hai điểm A,B phân biệt. Tính diện tích lớn nhất của tam giác OAB.",
         "options": {
           "A": "2<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -5063,7 +5063,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 27",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_27.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (α) vuông góc với mặt phẳng (P): x + 3y - 2z + 2 = 0 và chứa đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">1</span></span>. Khoảng cách từ điểm A(1;-2;-1) đến mặt phẳng (α) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">8<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">3</span></span>.",
@@ -5081,7 +5081,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 28",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_28.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt phẳng (P):<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">3</span></span> + <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> + <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">-6</span></span> = 1 và (Q):x + 2y + 3z + 7 = 0. Tính tang góc tạo bởi hai mặt phẳng đã cho.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">19</span></span></span></span>",
@@ -5099,7 +5099,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 29",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_29.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(1;2;-3), mặt phẳng (P):3x + y - z -1 = 0 và mặt phẳng (Q): x + 3y + z -3 = 0. Gọi (Δ) là đường thẳng đi qua A, cắt và vuông góc với giao tuyến của (P) và (Q). Sin của góc tạo bởi đường thẳng (Δ) và mặt phẳng (P) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">55</span></span></span><span class=\"den\">55</span></span>.",
@@ -5117,7 +5117,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 30",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_30.svg",
+        "figure": null,
         "question": "Cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>;d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -3</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z -5</span><span class=\"den\">4</span></span>. Số đo góc giữa hai đường thẳng d<sub>1</sub>;d<sub>2</sub> bằng",
         "options": {
           "A": "90°.",
@@ -5135,7 +5135,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 31",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_31.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">-2</span></span>, d′:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">1</span></span>. Tính cosin của góc giữa hai đường thẳng d;d′.",
         "options": {
           "A": "cos(d;d′) = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3<span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span></span>.",
@@ -5153,7 +5153,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 32",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_32.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -9</span><span class=\"den\">-2</span></span>, d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 5</span><span class=\"den\">1</span></span>. Góc giữa hai đường thẳng đó bằng",
         "options": {
           "A": "90°.",
@@ -5171,7 +5171,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 33",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_33.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hình lăng trụ đứng ABC.A′B′C′ có A(0;0;0), B(2;0;0), C(0;2;0)và A′(0;0;2). Góc giữa BC′ và A′C là:",
         "options": {
           "A": "45<sup>o</sup>.",
@@ -5189,7 +5189,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 34",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_34.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục toạ độ Oxyz, cho mặt phẳng (P):x + y - z + 2 = 0 và hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = t</span><span class=\"m-sys-row\">z = 2 + 2t</span></span></span>; d ':<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3-t′</span><span class=\"m-sys-row\">y = 1 + t′</span><span class=\"m-sys-row\">z = 1- 2t′</span></span></span>. Biết rằng có 2 đường thẳng có các đặc điểm: song song với (P); cắt d,d′ và tạo với d góc 30<sup>O</sup>. Tính cosin góc tạo bởi hai đường thẳng đó.",
         "options": {
           "A": "<span class=\"m-root\">√<span class=\"m-rad\"><span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">3</span></span></span></span>.",
@@ -5207,7 +5207,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 35",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_35.svg",
+        "figure": null,
         "question": "Với giá trị nào của m thì đường thẳng (D):<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">m</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">m - 2</span></span> vuông góc với mặt phẳng (P): x + 3y + 2z = 2.",
         "options": {
           "A": "5.",
@@ -5225,7 +5225,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 36",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_36.svg",
+        "figure": null,
         "question": "Trong không giam Oxyz, cho mặt phẳng (P) có phương trình 2x - y + 2z + 1 = 0, đường thẳng d có phương trình <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">2</span></span>. Gọi φlà góc giữa đường thẳng d và mặt phẳng (P). Tính giá trị cosφ",
         "options": {
           "A": "cosφ = <span class=\"m-frac\"><span class=\"num\">6</span><span class=\"den\">9</span></span>",
@@ -5243,7 +5243,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 37",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_37.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, hãy tính số đo góc α giữa đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">-1</span></span> và mặt phẳng (P): x - y + 2z + 1 = 0.",
         "options": {
           "A": "α = 30°.",
@@ -5261,7 +5261,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 38",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_38.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, hãy tính số đo góc α giữa đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span> và mặt phẳng (P):5x + 11y + 2z - 4 = 0.",
         "options": {
           "A": "α = -30°.",
@@ -5279,7 +5279,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 39",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_39.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = -1 + 2t</span><span class=\"m-sys-row\">z = -2t</span></span></span> và mặt phẳng (Q): x + my + (m -1)z + 2021 = 0. Khi mặt phẳng (Q) tạo với đường thẳng d một góc lớn nhất thì điểm H nào dưới đây nằm trong mặt phẳng (Q)?",
         "options": {
           "A": "H (-2021;1;1).",
@@ -5297,7 +5297,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 40",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_40.svg",
+        "figure": null,
         "question": "Trong không gian cho hai điểm E(3;0;0), F(0;0;1). Cặp mặt phẳng nào dưới đây đi qua hai điểm E,F đồng thời tạo với trục Oz một góc 30°.",
         "options": {
           "A": "(Q<sub>1</sub>): x - <span class=\"m-root\">√<span class=\"m-rad\">26</span></span> y + 3z -3 = 0 và (Q<sub>2</sub>): x + <span class=\"m-root\">√<span class=\"m-rad\">26</span></span> y + 3z -3 = 0.",
@@ -5315,7 +5315,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 41",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_41.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho tam giác nhọn ABC có E(2;2;1), F(-<span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>;<span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">3</span></span>), O(0;0;0) lần lượt là chân đường cao hạ từ các đỉnh A,B,C xuống các cạnh BC,CA,AB. Viết phương trình đường thẳng Δ đi qua Acắt trục Ox tại điểm có hoành độ nguyên và tạo với d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span> một góc α, cosα = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">51</span></span></span><span class=\"den\">9</span></span>.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">x + 3</span><span class=\"den\">7</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span>",
@@ -5333,7 +5333,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_42.svg",
+        "figure": null,
         "question": "Đường thẳng Δ đi qua điểm M (3;1;1), nằm trong mặt phẳng (α): x + y - z -3 = 0, cắt d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3</span><span class=\"m-sys-row\">y = 1 + 3t</span><span class=\"m-sys-row\">z = 1- 2t</span></span></span> và tạo với đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = 4 + 3t</span><span class=\"m-sys-row\">z = -3- 2t</span></span></span> một góc nhỏ nhất, thì phương trình của Δ là:",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1</span><span class=\"m-sys-row\">y = -t′</span><span class=\"m-sys-row\">z = 2t′</span></span></span>.",
@@ -5351,7 +5351,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 43",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_43.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ là giao tuyến của hai mặt phẳng (P): z -1 = 0 và (Q): x + y + z -3 = 0. Gọi d là đường thẳng nằm trong mặt phẳng (P), cắt đường thẳng <span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">-1</span></span> và vuông góc với đường thẳng Δ. Phương trình của đường thẳng d là",
         "options": {
           "A": "<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3 + t</span><span class=\"m-sys-row\">y = t</span><span class=\"m-sys-row\">z = 1 + t</span></span></span>.",
@@ -5369,7 +5369,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 44",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_44.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">6</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">2</span></span> và d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">4</span></span>. Gọi (P) là mặt phẳng chứa đường thẳng d<sub>2</sub> và song song với đường thẳng d<sub>1</sub>. Khoảng cách giữa đường thẳng d<sub>1</sub> và mặt phẳng (P) là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">7</span></span>.",
@@ -5387,7 +5387,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 45",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p1_45.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm A(0;1;2) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">-3</span></span>. Gọi (P) là mặt phẳng đi qua A và chứa d. Khoảng cách từ điểm M (5;-1;3) đến (P) bằng",
         "options": {
           "A": "5.",
@@ -5405,7 +5405,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2- 2t</span><span class=\"m-sys-row\">y = 3- 2t</span><span class=\"m-sys-row\">z = 1-3t</span></span></span> và d′:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 6 + 2t′</span><span class=\"m-sys-row\">y = 3 + 2t′</span><span class=\"m-sys-row\">z = 7 + 9t′</span></span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường thẳng d đi qua điểm A(2;3;1).",
@@ -5428,7 +5428,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 2-3t</span><span class=\"m-sys-row\">z = 1 + 2t</span></span></span> và d:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">2</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm A(0;2;1) không thuộc đường thẳng Δ.",
@@ -5451,7 +5451,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai đường thẳng d và d′ có phương trình chính tắc lần lượt là: d:<span class=\"m-frac\"><span class=\"num\">x -3</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -7</span><span class=\"den\">5</span></span> = <span class=\"m-frac\"><span class=\"num\">z -15</span><span class=\"den\">6</span></span> và d′:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình tham số của d là: <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3 + 2t</span><span class=\"m-sys-row\">y = 7 + 5t</span><span class=\"m-sys-row\">z = 15 + 6t</span></span></span>,t ∈ ℝ.",
@@ -5474,7 +5474,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3 + t</span><span class=\"m-sys-row\">y = 4 + 2t</span><span class=\"m-sys-row\">z = -3-t</span></span></span>,t ∈ ℝ và mặt phẳng (P) có phương trình 2x + y + z -1 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = (3;4;-3).",
@@ -5497,7 +5497,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz,chođường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 3</span><span class=\"den\">1</span></span> và mặtphẳng (P) cóphương trình 3x + 6y -3z + 2024 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một vectơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = (-1;-2;1).",
@@ -5520,7 +5520,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = -1-3t</span></span></span>, t ∈ ℝ và mặt phẳng (P) có phương trình 2x + y -3z -1 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một véc tơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = (2;0;-3).",
@@ -5543,7 +5543,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho đường thẳng Δ<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 2 + 3t</span><span class=\"m-sys-row\">z = 3-t</span></span></span> và đường thẳng Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">3</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm M (1;2;3) thuộc Δ<sub>1</sub> và điểm N(2;-2;1) thuộc Δ<sub>2</sub>.",
@@ -5566,7 +5566,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x - 2024</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2025</span><span class=\"den\">-2</span></span> và mặt phẳng (P):2x + 2y - z + 1 = 0. Xét các vectơ <span class=\"m-vec\">u</span> = (2;1;-2),<span class=\"m-vec\">n</span> = (2;2;-1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "<span class=\"m-vec\">u</span> là một vectơ chỉ phương của đường thẳng Δ.",
@@ -5589,7 +5589,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = 3 + 3t</span></span></span>,t ∈ ℝ và mặt phẳng (P) có phương trình x + 2y - z - 2 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Một véc tơ pháp tuyến của (P) là <span class=\"m-vec\">n</span> = (1;2;-1).",
@@ -5612,7 +5612,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 10",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p2_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 3- 2t</span><span class=\"m-sys-row\">y = 1 + 2t</span><span class=\"m-sys-row\">z = -5 + t</span></span></span> và mặt phẳng (P): x + y -5 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Vectơ <span class=\"m-vec\">u</span> = (-2;2;1) là một vectơ chỉ phương của Δ.",
@@ -5635,7 +5635,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian với hệ truvcj tọa độ Oxyz, cho đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">1</span></span> và mặt phẳng (α): x - 2y - 2z + 5 = 0. Điểm A(a;b;c) có hoành độ dương thuộc đường thẳng d sao cho khoảng cách từ A đến (α) bằng 3. Tính tổng a + b -c?",
         "answer": "1",
         "acceptedAnswers": [
@@ -5656,7 +5656,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">2</span></span>, d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 2t</span><span class=\"m-sys-row\">y = 1</span><span class=\"m-sys-row\">z = 1-t</span></span></span>. Gọi φ là góc giữa hai đường thẳng d<sub>1</sub>,d<sub>2</sub>. Giá trị cosφ có dạng <span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">c</span></span></span><span class=\"den\">b</span></span>. Tính giá trị biểu thức P = b -3a + c?",
         "answer": "8",
         "acceptedAnswers": [
@@ -5677,7 +5677,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho tam giác ABC có A(1;2;-1), B(2;-1;3), C(-4;7;5).Tọa độchân đường phân giác gógóc ABC của tam giác ABC là I(a;b;c). Tính tổng a + b + c?",
         "answer": "4",
         "acceptedAnswers": [
@@ -5698,7 +5698,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 1 + 2t</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = -2-t</span></span></span> và (P):-x + 2y + 2z + 5 = 0. Gọi d là đường thẳng đi qua điểm A(-1;0;-1) cắt đường thẳng Δ<sub>1</sub> và tạo với đường thẳng Δ<sub>2</sub> một góc nhỏ nhất. Vectơ chỉ phương <span class=\"m-vec\">u</span><sub>d</sub> = (a;b;c). Tính tổng a + 2b -3c?",
         "answer": "9",
         "acceptedAnswers": [
@@ -5719,7 +5719,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P):ax + by + cz -1 = 0với c < 0 đi qua 2 điểm A(0;1;0);B(1;0;0) và tạo với (Oyz) một góc 60°. Tính tổng a + b + c? (Làm tròn đến hàng phần trăm)",
         "answer": "0,59",
         "acceptedAnswers": [
@@ -5741,7 +5741,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho hai đường thẳng d<sub>1</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 4 + t</span><span class=\"m-sys-row\">y = -4-t;d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x -5</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -11</span><span class=\"den\">4</span></span> = <span class=\"m-frac\"><span class=\"num\">z -5</span><span class=\"den\">2</span></span></span><span class=\"m-sys-row\">z = 6 + 2t</span></span></span>. Đường thẳng d đi qua A(5;-3;5) cắt d<sub>1</sub>,d<sub>2</sub> lần lượt ởB,C. Tính tỉ số <span class=\"m-frac\"><span class=\"num\">AB</span><span class=\"den\">AC</span></span>",
         "answer": "0,5",
         "acceptedAnswers": [
@@ -5763,7 +5763,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 1</span><span class=\"den\">-1</span></span>, d<sub>2</sub>:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = 0</span><span class=\"m-sys-row\">z = -t</span></span></span>. Mặt phẳng (P) qua d<sub>1</sub> tạo với d<sub>2</sub> một góc 45<sup>0</sup> và nhận vectơ <span class=\"m-vec\">n</span> = (1;b;c) làm một vectơ pháp tuyến. Xác định tích bc.",
         "answer": "-4",
         "acceptedAnswers": [
@@ -5784,7 +5784,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm A(3;-1;0) và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">1</span></span>. Lập phương trình mặt phẳng (α) chứa d sao cho khoảng cách từ A đến (α) lớn nhất. (Biết phương trình mặt phẳng (α) có dạng x + by + cz + d = 0, tính tổng b + c + d).",
         "answer": "0",
         "acceptedAnswers": [
@@ -5805,7 +5805,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_9.svg",
+        "figure": null,
         "question": "Cho hai điểm A(1; -1;1); B(2; - 2; 4). Có bao nhiêu mặt phẳng chứa A, B và tạo với mặt phẳng (α): x - 2y + z - 7 = 0 một góc 60°.",
         "answer": "2",
         "acceptedAnswers": [
@@ -5826,7 +5826,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 10",
         "topic": "B2.D3: Góc & Khoảng cách Oxyz",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d3_p3_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, biết mặt phẳng (P):ax + by + cz + d = 0 với c < 0 đi qua hai điểm A(0;1;0), B(1;0;0) và tạo với mặt phẳng (yOz) một góc 60°. Tính giá trị a + b + c.",
         "answer": "0,59",
         "acceptedAnswers": [
@@ -5880,84 +5880,84 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Cho hình chóp S.ABCD có đáy là hình thang vuông tại A và B biết AB = BC = a,AD = 2a. Biết rằng SA = a và vuông góc với mặt đáy (ABCD). Gọi M,N lần lượt là trung điểm của SB,CD. Tính cosin của góc giữa MN và (SAC).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_1.svg",
+        "figure": null,
         "explanation": "Chọn hệ trục như hình vẽ, chọn đơn vị là a.<br>Có A(0;0;0),B(1;0;0),C(1;1;0),D(0;2;0),S(0;0;1);M (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;0;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>);N(<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>;0).<br>Vectơ chỉ phương của MN là 2<span class=\"m-vec\">MN</span> = 2(0;<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">2</span></span>;-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) = (0;3;-1).<br>Vectơ pháp tuyến của (SAC) là <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">AC</span>;<span class=\"m-vec\">AS</span>] = (1;-1;0).<br>Vậy sin(MN;(SAC)) = <span class=\"m-frac\"><span class=\"num\">|3|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">9 + 1</span></span><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">5</span></span></span><span class=\"den\">10</span></span> nên cos(MN;(SAC)) = 1-(<span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">5</span></span></span><span class=\"den\">10</span></span>) = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">55</span></span></span><span class=\"den\">10</span></span>."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình thang cân, AD = 2AB = 2BC = 2CD = 2a. Hai mặt phẳng (SAB) và (SAD) cùng vuông góc với mặt phẳng (ABCD). Gọi M,N lần lượt là trung điểm của SB và CD. Tính cosin góc giữa MN và (SAC), biết thể tích khối chóp S.ABCD bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_2.svg",
+        "figure": null,
         "explanation": "Vì ABCD là hình thang cân có AD = 2AB = 2BC = 2CD = 2a<br>Suy ra AD = 2a;AB = BC = CD = a ⇒ CH = <span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;S<sub>ABCD</sub> = <span class=\"m-frac\"><span class=\"num\">a + 2a</span><span class=\"den\">2</span></span>·<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">3</span></span> a<sup>2</sup></span><span class=\"den\">4</span></span>.<br>Nên V<sub>ABCD</sub> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>·<span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">3</span></span> a<sup>2</sup></span><span class=\"den\">4</span></span>. SA = <span class=\"m-frac\"><span class=\"num\">a<sup>3</sup><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">4</span></span> ⇒ SA = a<br>Gắn hình chóp vào hệ trục tọa độ như hình vẽ dưới đây:<br>Та со́ K(0;0;0),B(<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0;0),C(0;<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0),A(0;-<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0),<br>N(<span class=\"m-frac\"><span class=\"num\">-a</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0),S(0;-<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;a),M (<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">4</span></span>;-<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">4</span></span>;<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>)<br>Vectơ <span class=\"m-vec\">MN</span> = (<span class=\"m-frac\"><span class=\"num\">-3a</span><span class=\"den\">4</span></span>;<span class=\"m-frac\"><span class=\"num\">3a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">4</span></span>;<span class=\"m-frac\"><span class=\"num\">-a</span><span class=\"den\">2</span></span>). Chọn <span class=\"m-vec\">u</span><sub>1</sub> = (-3;3<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> -2) cùng phương với <span class=\"m-vec\">MN</span><br>Nhận xét <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">BK ⊥ SA</span><span class=\"m-sys-row\">BK ⊥ AC</span></span></span> ⇒ BK ⊥ (SAC)<br>Vectơ <span class=\"m-vec\">BK</span> = (<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0;0) là VTPT của (SAC) nên ta chọn <span class=\"m-vec\">n</span><sub>1</sub> = (1;0;0) cùng phương với <span class=\"m-vec\">BK</span><br>Gọi α là góc góc giữa MN và (SAC) khi đó sinα = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span><sub>1</sub>·<span class=\"m-vec\">n</span><sub>1</sub>|</span><span class=\"den\">|<span class=\"m-vec\">u</span><sub>1</sub>|||<span class=\"m-vec\">u</span><sub>2</sub>∣</span></span> = <span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">10</span></span></span><span class=\"den\">20</span></span> ⇒ cosα = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">310</span></span></span><span class=\"den\">20</span></span>."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Cho hình lăng trụ đứng ABC.A′B′C′ có AB = AC = a,BAC = 120<sup>°</sup>,AA′ = a. Gọi M,N lần lượt là trung điểm của B′C′ và CC′. Số đo góc giữa mặt phẳng (AMN) và mặt phẳng (ABC) bằng",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_3.svg",
+        "figure": null,
         "explanation": "Thiết lập hệ toạ độ Oxyz trong không gian như hình vẽ, gốc toạ độ O trùng M.<br>Dễ dàng tính được MB′ = MC′ = <span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;MA′ = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span> và M (0;0;0),N ∈ (Oyz) ⇒ N(0;-<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>)<br>Ta có: A ∈ (Oxz) ⇒ A(<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0;a) và (ABC)∥(A′B′C′); (A′B′C′) ≡ (Oxy)<br>Suy ra mặt phẳng (ABC) có một vectơ pháp tuyến là <span class=\"m-vec\">k</span> = (0;0;1)<br>Ta có <span class=\"m-vec\">MA</span>(<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0;0) cùng phương <span class=\"m-vec\">u</span><sub>1</sub> = (1;0;2);<span class=\"m-vec\">MN</span>(0;-<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>) cùng phương <span class=\"m-vec\">u</span><sub>2</sub> = (0;-<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 1)<br>Mặt phẳng (AMN) có một vecto pháp tuyến <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">u</span><sub>1</sub>,<span class=\"m-vec\">u</span><sub>2</sub>] = (2<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> -1;-<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>)<br>Khi đó: cos((AMN),(ABC)) = |cos(<span class=\"m-vec\">k</span>,<span class=\"m-vec\">n</span>)| = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">4</span></span>"
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Cho hình chóp S.ABC có đáy ABC là tam giác vuông cân tại B,BC = a. Cạnh bên SA vuông góc với đáy và SA = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>. Gọi M là trung điểm AC. Tính cot góc của hai mặt phẳng (SBM) và (SAB)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_4.svg",
+        "figure": null,
         "explanation": "Chọn hệ trục tọa độ như hình vẽ<br>Khi đó ta có tọa độ các điểm như sau: B(0;0;0);A(a;0;0);C(0;a;0);S(a;0,a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>);M (<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0)<br>Ta có: <span class=\"m-vec\">n</span><sub>(</sub><sup>SAB</sup><sub>)</sub> = (0;1;0);<span class=\"m-vec\">n</span><sub>(</sub><sup>SBM</sup><sub>)</sub> = [<span class=\"m-vec\">SB</span>,<span class=\"m-vec\">MB</span>] = (a(1;0,<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>)) ∧ (<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>(1;1;0)) = <span class=\"m-frac\"><span class=\"num\">a<sup>2</sup></span><span class=\"den\">2</span></span>(-<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> <span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 1)<br>Đặt góc (SBM) và (SAB) là α, khi đó ta có:|cosα| = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">n</span><sub>(SAB)</sub>.<span class=\"m-vec\">n</span><sub>(SMB)</sub>|</span><span class=\"den\">|<span class=\"m-vec\">n</span><sub>(SAB)</sub>|.|<span class=\"m-vec\">n</span><sub>(SMB)</sub>|</span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">21</span></span></span><span class=\"den\">7</span></span><br>Khi đó sinα = 1-(<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">21</span></span></span><span class=\"den\">7</span></span>) = <span class=\"m-frac\"><span class=\"num\">2<span class=\"m-root\">√<span class=\"m-rad\">7</span></span></span><span class=\"den\">7</span></span> ⇒ cotα = <span class=\"m-frac\"><span class=\"num\">cosα</span><span class=\"den\">sinα</span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Cho hình tứ diện EFGH có EF vuông góc với EG, EG vuông góc với EH, EH vuông góc với EF. Biết EF = 6a, EG = 8a, EH = 12a (với a > 0,a ∈ ℝ). Gọi I,J tương ứng là trung điểm của hai cạnh FG,FH. Tính khoảng cách d từ điểm F đến mặt phẳng (EIJ) theo a.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_5.svg",
+        "figure": null,
         "explanation": "Vì EF vuông góc với EG, EG vuông góc với EH nên EG ⊥ (EFH). Gọi K là trung điểm<br>của EF suy ra IK ⊥ (EFH). Chọn hệ trục tọa độ Oxyz như hình vẽ<br>Khi đó ta có: K(0;0;0),I(0;0;4a),E(3a;0;0),J (0;6a;0).<br>Phương trình mặt phẳng (EIJ):<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">3a</span></span> + <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">6a</span></span> + <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">4a</span></span> = 1 ⇔ 4x + 2y + 3z -12a = 0.<br>Vậy d = (F,(EIJ)) = 2d(K,(EIJ)) = 2<span class=\"m-frac\"><span class=\"num\">12a</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">4 + 9 + 16</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">24a</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">29</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">24<span class=\"m-root\">√<span class=\"m-rad\">29</span></span> a</span><span class=\"den\">29</span></span>."
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Cho lăng trụ đứng ABC.A′B′C′ có đáy là tam giác ABC vuông cân tại A, cạnh BC = a<span class=\"m-root\">√<span class=\"m-rad\">6</span></span>. Góc giữa mặt phẳng (AB′C) và mặt phẳng (BCC′B′) bằng 60°. Tính thể tích V của khối lăng trụ ABC.A′B′C′.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_6.svg",
+        "figure": null,
         "explanation": "Gọi chiều cao của hình lăng trụ là h.<br>Đặt hệ trục tọa độ Axyz như hình vẽ. Khi đó A(0;0;0),B(a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0;0),C(0;a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0),B′(a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0;h)<br>Suy ra M (<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0) là trung điểm của BC.<br>Vì AM ⊥ (BCC′B′) và <span class=\"m-vec\">AM</span> = (<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>;0) nên <span class=\"m-vec\">n</span> = (1;1;0) là vectơ pháp tuyến của mặt<br>phẳng (BCC′B′).<br>Ta có: [<span class=\"m-vec\">AC</span>,<span class=\"m-vec\">AB</span>′] = (ah<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0;-3a<sup>2</sup>) ⇒ <span class=\"m-vec\">n</span><sub>1</sub> = (h;0;-<span class=\"m-root\">√<span class=\"m-rad\">3</span></span> a) là vectơ pháp tuyến của (AB′C).<br>Theo giả thiết góc giữa (AB′C) và mặt phẳng (BCC′B′) bằng 60°<br>Tức là: cos60° = |cos(<span class=\"m-vec\">n</span>,<span class=\"m-vec\">n</span><sup>1</sup>)| ⇒ <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">|h|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">h<sup>2</sup> + 3a<sup>2</sup></span></span></span></span> ⇒ h = <span class=\"m-root\">√<span class=\"m-rad\">3</span></span> a<br>Vậy thể tích của khối lăng trụ ABC.A′B′C′ là V = <span class=\"m-frac\"><span class=\"num\">3a<sup>3</sup><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Cho hình chóp tứ giác đều S.ABCD có tất cả các cạnh bẳng nhau. Gọi E,M lần lượt là trung điểm các cạnh BC, SA và α là góc tạo bởi đường thẳng EM và mặt phẳng (SBD). Tính tanα",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_7.svg",
+        "figure": null,
         "explanation": "Chọn hệ trục tọa độ Oxyz sao cho Ox ≡ OC,Oy ≡ OB,Oz ≡ OS. Chọn OA = 1<br>Ta có C(1;0;0),A(-1;0;0) ⇒ (SBD) nhận <span class=\"m-vec\">AC</span> = (2;0;0) là một vectơ pháp tuyến.<br>Từ SA = AB = OA<span class=\"m-root\">√<span class=\"m-rad\">2</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> ⇒ SO = <span class=\"m-root\">√<span class=\"m-rad\">SA<sup>2</sup>-OA<sup>2</sup></span></span> = 1 ⇒ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">S(0;0;1)</span><span class=\"m-sys-row\">A(-1;0;0)</span></span></span> ⇒ M (-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;0;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>)<br>Ta có <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">C(1;0;0)</span><span class=\"m-sys-row\">B(0;1;0)</span></span></span> ⇒ E(<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;0) ⇒ EM nhận <span class=\"m-vec\">ME</span> = (1;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) là một vectơ chỉ phương.<br>Suy ra:sin(EM;(SBD)) = sinα = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">ME</span>.<span class=\"m-vec\">AC</span>|</span><span class=\"den\">ME.AC</span></span> = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\"><sub>2</sub><sup>22</sup></span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span><span class=\"den\">3</span></span><br>1 + (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) + (-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>).2<br>⇒ cosα = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span></span> ⇒ tanα = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span>."
       },
       {
         "id": 8,
         "label": "Bài tập tự luận 8",
         "question": "Cho hình lập phương ABCD· A′B′C′D′ có cạnh bằng a. Gọi K là trung điểmcủa DD′. Khoảng cách giữa hai đường thẳng CK và A′D bằng bao nhiêu?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_8.svg",
+        "figure": null,
         "explanation": "Chọn a = 1 ta có hệ trục tọa độ Oxyz sao cho D(0;0;0),A′(1;0;1),K(0;0;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) và C(0;1;0)<br>Ta có <span class=\"m-vec\">DA</span>′ = (1;0;1);<span class=\"m-vec\">CK</span>(0;-1;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) và <span class=\"m-vec\">DK</span>(0;0;<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>)<br>Khi đó [<span class=\"m-vec\">DA</span>′;<span class=\"m-vec\">CK</span>] = (1;-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;-1),[<span class=\"m-vec\">DA</span>′;<span class=\"m-vec\">CK</span>].<span class=\"m-vec\">DK</span> = -<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span><br>Do đó: d(A′D;CK) = <span class=\"m-frac\"><span class=\"num\">-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span></span><span class=\"den\"><sup>2</sup><sub>2</sub></span></span> = <span class=\"m-frac\"><span class=\"num\">-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span></span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1 + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">4</span></span> + 1</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>.<br>1 + (-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) + (-1)"
       },
       {
         "id": 9,
         "label": "Bài tập tự luận 9",
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình chữ nhật, biết rằng AB = a,BC = a<span class=\"m-root\">√<span class=\"m-rad\">3,</span></span> SA = a và SA vuông góc với đáy ABCD. Hãy tính sin α, với α là góc tạo bởi giữa đường thẳng BD và mặt phẳng (SBC).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_9.svg",
+        "figure": null,
         "explanation": "Đặt hệ trục tọa độ Oxyz như hình vẽ. Khi đó, ta có: A(0;0;0),B(a;0;0),D(0;a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0),S(0;0;a)<br><span class=\"m-vec\">BD</span> = (-a;a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0) = a(-1;<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0) nên đường thẳng BD có vectơ chỉ phương là <span class=\"m-vec\">u</span> = (-1;<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0).<br>Ta có: <span class=\"m-vec\">SB</span> = (a;0;-a),<span class=\"m-vec\">BC</span> = (0;a<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0) ⇒ [<span class=\"m-vec\">SB</span>,<span class=\"m-vec\">BC</span>] = (a<sup>2</sup><span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 0;a<sup>2</sup><span class=\"m-root\">√<span class=\"m-rad\">3</span></span>) = a<sup>2</sup><span class=\"m-root\">√<span class=\"m-rad\">3</span></span>(1;0;1).<br>Như vậy, mặt phẳng (SBC) có vectơ pháp tuyến là <span class=\"m-vec\">n</span> = (1;0;1).<br>Do đó, α là góc tạo bởi giữa đường thẳng BD và mặt phẳng (SBC) thì<br>sinα = <span class=\"m-frac\"><span class=\"num\">|<span class=\"m-vec\">u</span>.n|</span><span class=\"den\">|<span class=\"m-vec\">u</span>|.|<span class=\"m-vec\">n</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\">(-1).1 + <span class=\"m-root\">√<span class=\"m-rad\">3.</span></span> 0 + 0.1</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">(-1)<sup>2</sup> + <span class=\"m-root\">√<span class=\"m-rad\">3</span></span><sup>2</sup> + 0<sup>2</sup>.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 0<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"den\">4</span></span>"
       },
       {
         "id": 10,
         "label": "Bài tập tự luận 10",
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh a. Cạnh bên SA vuông góc với đáy. Góc giữa SC và mặt đáy bằng 45°. Gọi E là trung điểm BC.Tính khoảng cách giữa hai đường thẳng DE và SC.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_10.svg",
+        "figure": null,
         "explanation": "Ta có thể đưa ra các cách giải như sau:<br>Do SAC là tam giác vuông có góc SCA = 45<sup>°</sup> nên SA = AC = a<span class=\"m-root\">√<span class=\"m-rad\">2,</span></span> SC = 2a,SB = SD = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>.<br>Chọn hệ trục tọa độ Oxyz sao cho tia Ox,Oy,Oz lần lượt trùng với các tia AB,AD,AS.<br>Khi đó tọạ độ điểm các điểm là D(0;a;0),E(a;<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0),C(a;a;0),S(0;0;a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>)<br>Do đó: <span class=\"m-vec\">DE</span> = (a;-<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">2</span></span>;0),<span class=\"m-vec\">SC</span> = (-a;-a;a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>),<span class=\"m-vec\">DC</span> = (a;0;0)<br>Suy ra [<span class=\"m-vec\">DE</span>;<span class=\"m-vec\">SC</span>] = (-<span class=\"m-frac\"><span class=\"num\">a<sup>2</sup><span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"den\">2</span></span>;-a<sup>2</sup><span class=\"m-root\">√<span class=\"m-rad\">2;</span></span> -<span class=\"m-frac\"><span class=\"num\">3a<sup>2</sup></span><span class=\"den\">2</span></span>) ⇒ d(DE;SC) = <span class=\"m-frac\"><span class=\"num\">|[<span class=\"m-vec\">DE</span>;<span class=\"m-vec\">SC</span>]·<span class=\"m-vec\">DC</span>|</span><span class=\"den\">|[<span class=\"m-vec\">DE</span>;<span class=\"m-vec\">SC</span>]|</span></span> = <span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">38</span></span></span><span class=\"den\">19</span></span>"
       },
       {
         "id": 11,
         "label": "Bài tập tự luận 11",
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh bằng 10. Cạnh bên SA vuông góc với mặt phẳng (ABCD) và SC = 10<span class=\"m-root\">√<span class=\"m-rad\">5</span></span>. Gọi M,N lần lượt là trung điểm của SA và CD. Tính khoảng cách d giữa BD và MN.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_11.svg",
+        "figure": null,
         "explanation": "Xét tam giác vuông SAC có: SA = <span class=\"m-root\">√<span class=\"m-rad\">SC<sup>2</sup>- AC<sup>2</sup></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">500- 200</span></span> = 10<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>.<br>Chọn hệ trục tọa độ như hình vẽ<br>Ta có A(0;0;0),M (0;0;5<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>),B(10;0;0),D(0;10;0),C(10;0;0),N(5;10;0)<br>⇒ <span class=\"m-vec\">u</span><sub>1</sub> = (1;2;-<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>)<br><span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\"><span class=\"m-vec\">MN</span> = (5;10;-5<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>)</span><span class=\"m-sys-row\"><span class=\"m-vec\">BD</span> = (-10;10;0)</span><span class=\"m-sys-row\">[<span class=\"m-vec\">u</span><sub>1</sub>;<span class=\"m-vec\">u</span><sub>2</sub>] = (<span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> <span class=\"m-root\">√<span class=\"m-rad\">3;</span></span> 3)</span></span></span> ⇒ <span class=\"m-vec\">u</span><sub>2</sub> = (-1;1;0) ⇒ d(MN,BD) = <span class=\"m-frac\"><span class=\"num\">∣<span class=\"m-vec\">u</span><sub>1</sub>,<span class=\"m-vec\">u</span><sub>2</sub>]<span class=\"m-vec\">ND</span>∣</span><span class=\"den\">∣<span class=\"m-vec\">u</span><sub>1</sub>,<span class=\"m-vec\">u</span><sub>2</sub>]</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">5</span></span>.<br>,<span class=\"m-vec\">ND</span> = (-5;0;0)"
       },
       {
         "id": 12,
         "label": "Bài tập tự luận 12",
         "question": "Cho lăng trụ tứ giác đều ABCD.A<sub>1</sub> B<sub>1</sub> C<sub>1</sub> D<sub>1</sub> cạnh đáy bằng 1 và chiều cao bằng x. Tìm x để góc tạo bởi đường thẳng B<sub>1</sub> D và (B<sub>1</sub> D<sub>1</sub> C) đạt giá trị lớn nhất.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_tl_12.svg",
+        "figure": null,
         "explanation": "Chọn hệ trục tọa độ Oxyz sao cho O ≡ D<sub>1</sub>,C<sub>1</sub> thuộc tia Ox,A<sub>1</sub> thuộc tia Oy,D thuộc tia Oz (như<br>hình vẽ).<br>Khi đó D<sub>1</sub>(0;0;0),B<sub>1</sub>(1;1;0),D(0;0;x),C(1;0;x).<br>Mặt phẳng (B<sub>1</sub> D<sub>1</sub> C) nhận véctơ <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">D</span><sub>1</sub><span class=\"m-vec\">B</span><sub>1</sub>,<span class=\"m-vec\">D</span><sub>1</sub><span class=\"m-vec\">C</span>] = (x;-x;-1) là véctơ pháp tuyến<br>Đường thẳng B<sub>1</sub> D nhận véctơ <span class=\"m-vec\">u</span> = (1;1;-x) là véctơ chỉ phương.<br>Gọi φ là góc giữa B<sub>1</sub> D và (B<sub>1</sub> D<sub>1</sub> C), suy ra:<br>sinφ = <span class=\"m-frac\"><span class=\"num\">|x - x + x|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">x<sup>2</sup> + (-x)<sup>2</sup> + 1.</span></span> <span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 1<sup>2</sup> + x<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">(2x<sup>2</sup> + 1)(x<sup>2</sup> + 2)</span></span></span></span> (x > 0)<br>1 1 1<br>= ≤ = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>.<br><span class=\"m-root\">√<span class=\"m-rad\">(2x + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x</span></span>)(x + <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">x</span></span>)</span></span> <span class=\"m-root\">√<span class=\"m-rad\">2(x<sup>2</sup> + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x<sup>2</sup></span></span>) + 5</span></span> <span class=\"m-root\">√<span class=\"m-rad\">2·2<span class=\"m-root\">√<span class=\"m-rad\">x<sup>2</sup>·<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">x<sup>2</sup></span></span></span></span> + 5</span></span><br>Dấu đẳng thức xảy ra khi x = 1 và góc φ lớn nhất ⇔ sinφlớn nhất ⇔ x = 1.<br>Vậy góc tạo bởi đường thẳng B<sub>1</sub> D và (B<sub>1</sub> D<sub>1</sub> C) đạt giá trị lớn nhất khi x = 1."
       },
       {
@@ -5990,7 +5990,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_1.svg",
+        "figure": null,
         "question": "Chotứdiện OABC có OA, OB, OC đôi mộtvuônggócvà OA = OB = 2a, OC = a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.Khoảng cách từ điểm O đến mặt phẳng (ABC) bằng",
         "options": {
           "A": "a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span><sub>.</sub>",
@@ -6008,7 +6008,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_2.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCDA<sub>1</sub> B<sub>1</sub> C<sub>1</sub> D<sub>1</sub> cạnh bằng a. Khoảng cách giữa A<sub>1</sub> B và B<sub>1</sub> C bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span></span>.",
@@ -6026,7 +6026,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai mặt phẳng 4x -4y + 2z -1 = 0 và 2x - 2y + z + 1 = 0chứa hai mặt của hình lập phương. Thể tích khối lập phương đó bằng",
         "options": {
           "A": "V = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">27</span></span>.",
@@ -6044,7 +6044,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_4.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABCD có đáy ABCD là tam giác vuông với AB = AC = 2. Cạnh bên SA vuông góc với đáy và SA = 3. Gọi M là trung điểm của SC. Tính khoảng cách giữa AM và BC.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>.",
@@ -6062,7 +6062,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_5.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABC có AB = a, AC = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>, SB > 2a và • ABC = góc BAS = góc BCS = 90<sup>0</sup>. Biết sin của góc giữa đường thẳng SB và mặt phẳng (SAC) bằng <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">11</span></span></span><span class=\"den\">11</span></span>. Tính thể tích khối chóp S.ABC",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">a<sup>3</sup><span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span><span class=\"den\">6</span></span>.",
@@ -6080,7 +6080,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_6.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCD.A′B′C′D′ có cạnh bằng 2a. Tính góc giữa CC′ và mặt phẳng (AB′C′)",
         "options": {
           "A": "60°.",
@@ -6098,7 +6098,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_7.svg",
+        "figure": null,
         "question": "Cho hình lăng trụ tam giác đều ABC.A′B′C′ có tất cả các cạnh bẳng nhau. Gọi α là góc tạo bởi hai mặt phẳng (C′AB) và (BCC′B′). Giá trị tanα bằng",
         "options": {
           "A": "<span class=\"m-root\">√<span class=\"m-rad\">6</span></span>.",
@@ -6116,7 +6116,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_8.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCD.A′B′C′D′ cạnh bằng a. Gọi K là trung điểm DD′. Tính khoảng cách giữa hai đường thẳng CK và A′D.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">2a</span><span class=\"den\">3</span></span>.",
@@ -6134,7 +6134,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_9.svg",
+        "figure": null,
         "question": "Cho lăng trụ đứng ABCD.A′B′C′D′ có đáy ABCD là hình thoi tâm O cạnh a, AA′ = a và gógóc ABC = 60°. Gọi M là trung điểm của cạnh AA′. Khoảng cách giữa hai đường thẳng MO và C′D bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">3<span class=\"m-root\">√<span class=\"m-rad\">5</span></span></span><span class=\"den\">10</span></span> a.",
@@ -6152,7 +6152,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_10.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCD.A′B′C′D′ có độ dài cạnh bằng 1. Gọi M, N,P,Q, lần lượt là trung điểm của các cạnh AB,BC,C′D′ và DD′. Thể tích khối tứ diện MNPQ là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">12</span></span>.",
@@ -6170,7 +6170,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_11.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABC có đáy ABC là tamgiác vuông cântại A và AB = a, cạnh bên SA vuông góc với mặt phẳng đáy và SA = a. Gọi D, E, F lần lượt là điểm đối xứng của A qua C, của S qua B và của A qua mặt phẳng (SBC). Thể tích của khối tứ diện ADEF bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">2a<sup>3</sup></span><span class=\"den\">3</span></span>.",
@@ -6188,7 +6188,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_12.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh bằng a. Cạnh bên SA = a vuông góc với đáy (ABCD). Gọi M là điểm nằm trên cạnh SD sao cho SM = 2MD. Hãy tính cosin của góc tạo bởi hai mặt phẳng (AMC) và (SBC)?",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>.",
@@ -6206,7 +6206,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_13.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABC có đáy ABC là tam giác đều cạnh a và độ dài cạnh SA = a và vuông góc với (ABC). Góc giữa mặt phẳng (SAB)và mặt phẳng (SBC) là α. Khi đó tanαbằng:",
         "options": {
           "A": "1.",
@@ -6224,7 +6224,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_14.svg",
+        "figure": null,
         "question": "Cho lăng trụ đứng ABC.A′B′C′ có đáy ABC là tam giác vuông tại B, AB = a, BC = a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>, AA′ = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>. Trên BB′ lấy điểm N sao cho BN = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span></span>. Khoảng cách từ B′ đến mặt phẳng (AC′N) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">6</span></span></span><span class=\"den\">2</span></span>.",
@@ -6242,7 +6242,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_15.svg",
+        "figure": null,
         "question": "Cho lăng trụ ABCD.A′B′C′D′ có đáy ABCD là hình chữ nhật và AB = a,AD = a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>. Hình chiếu vuông góc của điểm A lên mặt phẳng (A′B′C′D′) trùng với giao điểm của A′C′ và B′D′. Khoảng cách từ điểm B đến (AB′D′) bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span><span class=\"den\">2</span></span>.",
@@ -6260,7 +6260,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hình chóp S.ABCD có đáy ABCD là hình thoi, AC cắt BD tại gốc tọa độ O. Biết A(2;0;0), B(0;1;0), S(0;0;2<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>). Gọi M là trung điểm của cạnh SC. Mặt phẳng (ABM) cắt đường thẳng SD tại điểm N. Tính thể tích khối chóp S.ABMN.",
         "options": {
           "A": "V = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -6278,7 +6278,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_17.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCD.A′B′C′D′ có độ dài cạnh bằng 1. Gọi M, N, P, Q lần lượt là trung điểm của các cạnh AB, BC, C′D′ và DD′. Tính thể tích khối tứ diện MNPQ.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">12</span></span>.",
@@ -6296,7 +6296,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_18.svg",
+        "figure": null,
         "question": "Cho tứ diện O.ABC có OA, OB, OC đôi một vuông góc với nhau OA = a và OB = OC = 2a. Gọi P là trung điểm của BC (minh họa như hình vẽ). Khoảng cách giữa hai đường thẳng OP và AB bằng:",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">2</span></span> a</span><span class=\"den\">2</span></span>.",
@@ -6314,7 +6314,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 19",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_19.svg",
+        "figure": null,
         "question": "Cho lăng trụ ABC.A′B′C′ có tam giác ABC đều cạnh bằng 2a. Hình chiếu vuông góc của A′ lên mặt phẳng (ABC) trùng với trung điểm M của BC. Biết góc tạo bởi A′B và mặt đáy bằng 60°. Khoảng cách từ B đến mặt phẳng (AB′C) là",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">a<span class=\"m-root\">√<span class=\"m-rad\">7</span></span></span><span class=\"den\">7</span></span>.",
@@ -6332,7 +6332,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 20",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_20.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng Δ:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 0</span><span class=\"m-sys-row\">y = 2 + t</span><span class=\"m-sys-row\">z = -t</span></span></span> và d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span></span><span class=\"m-sys-row\">y = 1 + t′</span><span class=\"m-sys-row\">z = -1 + t′</span></span></span>. Biết rằng có một hình hộp ABCD.A′B′C′D′ thỏa mãn A, C cùng thuộc Ox, B, C′ cùng thuộc Δ và D, B′ cùng thuộc d. Thể tích của khối hộp ABCD.A′B′C′D′ là",
         "options": {
           "A": "9<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -6350,7 +6350,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_21.svg",
+        "figure": null,
         "question": "Cho lăng trụ tam giác đều ABC.A′B′C′ có cạnh bên bằng cạnh đáy. Đường thẳng MN (M ∈ A′C; N ∈ BC′) là đường vuông góc chung của A′C và BC′. Tỷ số <span class=\"m-frac\"><span class=\"num\">NB</span><span class=\"den\">NC′</span></span> bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">5</span></span></span><span class=\"den\">2</span></span>.",
@@ -6368,7 +6368,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_22.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hình hộp chữ nhật ABCD.A′B′C′D′ có A trùng với gốc tọa độ O. Biết rằng B(m;0;0), D(0;m;0), A′(0;0;n) với m, n là các số dương và m + n = 4. Gọi M là trung điểm của cạnh CC′. Thể tích lớn nhất của khối tứ diện BDA′M bằng",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">64</span><span class=\"den\">27</span></span>.",
@@ -6386,7 +6386,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 23",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_23.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz cho hình chóp tứ giác đều S.ABCD có các điểm A(1;2;0) B(4;6;0), D(-3;5;0). Gọi I là tâm hình vuông ABCD. Tính khoảng cách từ đường vuông góc chung của đường thẳng SI và BC đến đường thẳng AB.",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">15</span><span class=\"den\">2</span></span>.",
@@ -6404,7 +6404,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 24",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_24.svg",
+        "figure": null,
         "question": "Cho hình lăng trụ tam giác đều ABC.A′B′C′ có cạnh đáy bằng 1, cạnh bên bằng 3. Gọi I là điểm trên cạnh BB′ sao cho BI = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span> BB′, điểm M di động trên cạnh AA′. Biết diện tích của tam giác MIC′ nhỏ nhất khi tỷ số <span class=\"m-frac\"><span class=\"num\">AM</span><span class=\"den\">AA′</span></span> = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span>(a ∈ ℕ;b ∈ ℕ*,(a,b) = 1). P = a + b là",
         "options": {
           "A": "4.",
@@ -6422,7 +6422,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 25",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p1_25.svg",
+        "figure": null,
         "question": "Cho hình lập phương ABCD.EFGH có cạnh bằng 4. Gọi d là đường thẳng đi qua trọng tâm của tứ diện EABD, cắt đường thẳng AE tại M và song song với mặt phẳng (EBD). Tính AM.",
         "options": {
           "A": "AM = 1.",
@@ -6555,7 +6555,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p3_1.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông cạnh có cạnh bằng a và SA vuông góc với đáy. Khi a = 2, hãy tính độ dài cạnh SA để góc tạo bởi (SBC) và (SCD) bằng 60°.",
         "answer": "1,41",
         "acceptedAnswers": [
@@ -6580,7 +6580,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p3_2.svg",
+        "figure": null,
         "question": "Cho hình vuông ABCD cạnh a. Trên hai tia Bx, Dy vuông góc với mặt phẳng (ABCD) và cùng chiều lần lượt lấy hai điểm M,N sao cho BM = <span class=\"m-frac\"><span class=\"num\">a</span><span class=\"den\">4</span></span>;DN = 2a. Tính góc φ giữa hai mặt phẳng (AMN) và (CMN).",
         "answer": "90",
         "acceptedAnswers": [
@@ -6601,7 +6601,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p3_3.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông có độ dài đường chéo bằng a<span class=\"m-root\">√<span class=\"m-rad\">2</span></span> và SA vuông góc với mặt phẳng (ABCD). Gọi α là góc giữa hai mặt phẳng (SBD) và (ABCD). Nếu tanα = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> thì góc giữa hai mặt phẳng (SAC) và (SBC) bằng bao nhiêu?",
         "answer": "60",
         "acceptedAnswers": [
@@ -6622,7 +6622,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B2.D4: Tọa độ hóa & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b2_d4_p3_4.svg",
+        "figure": null,
         "question": "Cho hình chóp S.ABCD có đáy là hình thang vuông tại A và B, thỏa mãn điều kiện, AB = BC = a, AD = 2a, SAvuônggócvới mặt đáy(ABCD), SA = a.Gọi M,N lầnlượtlàtrung điểm của SB,CD.Tính cosin của góc giữa MN và (SAC). (Làm tròn kết quả đến hàng phần trăm)",
         "answer": "0,74",
         "acceptedAnswers": [
@@ -6742,28 +6742,28 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian Oxyz, cho mặt cầu (S) có phương trình (x-<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) + (y + 1)<sup>2</sup> + z<sup>2</sup> = 9. Xác định tâm và bán kính của (S).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_tl_1.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S) có tâm I (<span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>;-1;0), bán kính R = 3."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian Oxyz, cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2x-2y + 8z-18 = 0. Xác định tâm, bán kính của (S).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_tl_2.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S) có tâm I (x<sub>I</sub>; y<sub>I</sub>;z<sub>I</sub>) với x<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">2</span><span class=\"den\">-2</span></span> = -1, y<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">-2</span><span class=\"den\">-2</span></span> = 1, z<sub>I</sub> = <span class=\"m-frac\"><span class=\"num\">8</span><span class=\"den\">-2</span></span> = -4 nên I (-1;1;-4).<br>Mặt cầu (S) có bán kính là R = <span class=\"m-root\">√<span class=\"m-rad\">(-1)<sup>2</sup> + 1<sup>2</sup> + (-4)<sup>2</sup>-(-18)</span></span> = 6."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, phương trình nào trong các phương trình sau là phương trình mặt cầu? Xác định tâm và bán kính của mặt cầu đó. a) x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-2x -5z + 30 = 0. b) x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-4x + 2y -2z = 0. c) x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup>-2x + 6y -9z -10 = 0. d) x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 5 = 0. e) 3x<sup>2</sup> + 2y<sup>2</sup> + z<sup>2</sup>-2x-2y + 2z + 1 = 0 f) x<sup>2</sup> + y<sup>2</sup>-2x + 6y-8z -3 = 0 g) x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-6x + 8y -2z + 10 = 0 h) 2x<sup>2</sup> + 2y<sup>2</sup> + 2z<sup>2</sup> + 12x + 4y -8z + 20 = 0",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_tl_3.svg",
+        "figure": null,
         "explanation": "a) Ta có a = 1, b = 0, c = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">2</span></span>, d = 30. Do a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>-d = 1 + 0 + <span class=\"m-frac\"><span class=\"num\">25</span><span class=\"den\">4</span></span> -30 < 0 nên phương trình<br>đã cho không phải là phương trình mặt cầu.<br>b) Ta có a = 2, b = -1, c = 1, d = 0. Do a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>-d = 4 + 1 + 1-0 = 6 > 0 nên phương trình<br>đã cho là phương trình mặt cầu. Khi đó mặt cầu có tâm I (2;-1;1) và bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">6</span></span>.<br>c) Do phương trình x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup>-2x + 6y -9z -10 = 0 có chứa x<sup>3</sup> nên phương trình đã cho<br>không phải là phương trình mặt cầu.<br>d) Ta có a = 0, b = 0, c = 0, d = 5. Do a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>-d = 0 + 0 + 0-5 < 0 nên phương trình đãcho<br>không phải là phương trình mặt cầu.<br>e) Phương trình 3x<sup>2</sup> + 2y<sup>2</sup> + z<sup>2</sup>-2x-2y + 2z + 1 = 0 không phải là phương trình của một mặt cầu<br>vì các hệ số của x<sup>2</sup> và y<sup>2</sup> khác nhau.<br>f) Phương trình x<sup>2</sup> + y<sup>2</sup>-2x + 6y-8z -3 = 0 không phải là phương trình của một mặt cầu vì<br>không có biểu thức y<sup>2</sup>.<br>g) Ta có: x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-6x + 8y -2z + 10 = 0<br>⇔ x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-2.3.x + 2.4.y -2.1.z + 10 = 0 ⇔ (x -3)<sup>2</sup> + (y + 4)<sup>2</sup> + (z -1)<sup>2</sup> = 16<br>Vậy phương trình đã cho là phương trình mặt cầu tâm I (3;-4;1) bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">16</span></span> = 4.<br>h) Ta có: 2x<sup>2</sup> + 2y<sup>2</sup> + 2z<sup>2</sup> + 12x + 4y -8z + 20 = 0<br>⇔ x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 6x + 2y - 4z + 10 = 0 ⇔ x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2.3.x + 2.1.y - 2.2.z + 10 = 0<br>⇔ (x + 3)<sup>2</sup> + (y + 1)<sup>2</sup> + (z -2)<sup>2</sup> = 4.<br>Vậy phương trình đã cho là phương trình mặt cầu tâm I (-3;-1;2) bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">4</span></span> = 2."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian Oxyz, một thiết bị phát sóng đặt tại vị trí A(2;0;0). Vùng phủ sóng của thiết bị có bán kính bằng 1. Hỏi vị trí M (2;1;1) có thuộc vùng phủ sóng của thiết bị nói trên hay không?",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_tl_4.svg",
+        "figure": null,
         "explanation": "Vùng phủ sóng của thiết bị là khối cầu (S) có tâm A(2;0;0) và bán kính R = 1.<br>Do AM = <span class=\"m-root\">√<span class=\"m-rad\">(2-2)<sup>2</sup> + (1-0)<sup>2</sup> + (1-0)<sup>2</sup></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> > 1 nên vị trí M (2;1;1) không thuộc vùng phủ sóng<br>của thiết bị nói trên."
       },
       {
@@ -6789,7 +6789,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_1.svg",
+        "figure": null,
         "question": "Cho phương trình mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 16, bán kính R của mặt cầu là",
         "options": {
           "A": "R = 4.",
@@ -6807,7 +6807,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x -3)<sup>2</sup> + (y + 1)<sup>2</sup> + (z - 2)<sup>2</sup> = 4. Xác định toạ độ tâm I và bán kính R của mặt cầu (S).",
         "options": {
           "A": "I(3;-1;2),R = 2.",
@@ -6825,7 +6825,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x - 4y + 2z - 2 = 0. Xác định toạ độ tâm I và bán kính R của mặt cầu (S).",
         "options": {
           "A": "I(1;2;-1),R = 2<span class=\"m-root\">√<span class=\"m-rad\">2.</span></span>",
@@ -6843,7 +6843,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): (x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 9. Tọa độ tâm I và bán kính R của (S) lần lượt là",
         "options": {
           "A": "I(-1;2;-3); R = 3.",
@@ -6861,7 +6861,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình nào trong các phương trình sau là phương trình của một mặt cầu?",
         "options": {
           "A": "(S): x<sup>2</sup> + y<sup>2</sup>- z<sup>2</sup>- 4x + 2y + 2z -3 = 0.",
@@ -6879,7 +6879,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 4x + 2z -6y - 2 = 0 là phương trình của mặt cầu có tâm I. Xác định tọa độ tâm I",
         "options": {
           "A": "I(2;-1;3).",
@@ -6897,7 +6897,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho phương trình mặt cầu (S):(x - 2)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 1)<sup>2</sup> = 1. Tọa độ tâm I của mặt cầu (S) là",
         "options": {
           "A": "I(2;2;-1).",
@@ -6915,7 +6915,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu (S) có phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- <span class=\"m-root\">√<span class=\"m-rad\">2</span></span> x + y - z -1 = 0. Tính bán kính R của mặt cầu (S).",
         "options": {
           "A": "3.",
@@ -6933,7 +6933,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu (S) có phương trình: (x - a)<sup>2</sup> + y<sup>2</sup> + (z -c)<sup>2</sup> = 16 đi qua hai điểm O và M (1;0;1). Tính a + c",
         "options": {
           "A": "a + c = 4.",
@@ -6951,7 +6951,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, trong các phương trình sau phương trình nào là phương trình của mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4z -1 = 0",
@@ -6969,7 +6969,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz phương trình nào sau đây không phải là phương trình của một mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + x - 2y + 4z -3 = 0.",
@@ -6987,7 +6987,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, trong các phương trình sau phương trình nào không phải là phương trình của mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + 2y<sup>2</sup> + 2z<sup>2</sup>- 2x + 4z -1 = 0",
@@ -7005,7 +7005,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, trong các mặt cầu dưới đây, mặt cầu nào có bán kính R = 2?",
         "options": {
           "A": "(S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 4x + 2y + 2z -3 = 0",
@@ -7023,7 +7023,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, trong các phương trình sau phương trình nào là phương trình của mặt cầu?",
         "options": {
           "A": "2x<sup>2</sup> + 2y<sup>2</sup> + 2z<sup>2</sup> + 4x + 8y = 0",
@@ -7041,7 +7041,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, hỏi trong các phương trình sau phương trình nào là phương trình của mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- x + 6z + 16 = 0",
@@ -7059,7 +7059,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, hỏi trong các phương trình sau phương trình nào là phương trình của mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup>- z<sup>2</sup>- 2x + 4y + 4z + 5 = 0",
@@ -7077,7 +7077,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, hỏi trong các phương trình sau phương trình nào không phải là phương trình của mặt cầu?",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4y + 6z - 2 = 0",
@@ -7095,7 +7095,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (6;5;4) và mặt cầu (S) đi qua M, tiếp xúc với mặt phẳng (Oxy). Gọi R là bán kính của mặt cầu (S), giá trị nhỏ nhất của R là",
         "options": {
           "A": "3.",
@@ -7113,7 +7113,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho mặt cầu (S) có phương trình (x + 2)<sup>2</sup> + (y -1)<sup>2</sup> + z<sup>2</sup> = 4. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường kính mặt cầu bằng 8.",
@@ -7136,7 +7136,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độOxyz, cho hai điểm A(3;1;2),B(1;0;3). Mặt cầu (S)có tâm I thuộc trục Ox và đi qua hai điểm A,B. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Tọa độ tâm I của mặt cầu (S) có dạng I(a;0;0).",
@@ -7159,7 +7159,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz (đơn vị trên mỗi trục là mét), một ngọn hải đăng được đặt ở vị trí I(10; 20; 30) với bán kính phủ sáng là 3km. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt cầu mô tả ranh giới bên ngoài của vùng phủ sáng trên biển của hải đăng là (x -10)<sup>2</sup> + (y - 20)<sup>2</sup> + (z -30)<sup>2</sup> = 3000<sup>2</sup>.",
@@ -7205,7 +7205,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian với hệ toạ độ Oxyz, cho I(0;2;3). Tính bán kính mặt cầu tâm I tiếp xúc với trục Oy.",
         "answer": "3",
         "acceptedAnswers": [
@@ -7226,7 +7226,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, gọi (S) là mặt cầu đi qua hai điểm A(3;-1;2),B(1;1;-2) và có tâm thuộc trục Oz. Bán kính của mặt cầu (S) là R. Giá trị R<sup>2</sup> bằng?",
         "answer": "11",
         "acceptedAnswers": [
@@ -7247,7 +7247,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai điểm A(1;0;-3), B(-3;- 2;-5). Biết rằng tập hợp các điểm M trong không gian thỏa mãn đẳng thức AM<sup>2</sup> + BM<sup>2</sup> = 30 là một mặt cầu (S). Tìm bán kính R của mặt cầu (S).",
         "answer": "3",
         "acceptedAnswers": [
@@ -7268,7 +7268,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_4.svg",
+        "figure": null,
         "question": "Cho hai điểm A,B cố định trong không gian có độ dài AB là 4. Biết rằng tập hợp các điểm M trong không gian sao cho MA = 3MB là một mặt cầu. Bán kính mặt cầu đó bằng",
         "answer": "1,5",
         "acceptedAnswers": [
@@ -7290,7 +7290,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_5.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho điểm M (1;-2;3) và I là hình chiếu vuông góc của M (3;1;2) trên trục Ox. Gọi (S) là mặt cầu có tâm I và đi qua điểm M. Độ dài bán kính mặt cầu bằng bao nhiêu?",
         "answer": "3",
         "acceptedAnswers": [
@@ -7311,7 +7311,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu (S)có tâm là điểm A(1;2;-3)và đi qua điểm B(3;-2;1). Gọi M (1;b;-3) là điểm thuộc mặt cầu biết b ∈ ℕ<sup>*</sup>. Tung độ điểm M có giá trị bằng bao nhiêu?",
         "answer": "8",
         "acceptedAnswers": [
@@ -7332,7 +7332,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt cầu (S) có tâm I (2;-4;3) và tiếp xúc với trục Ox. Bán kính của mặt cầu trên bằng bao nhiêu?",
         "answer": "5",
         "acceptedAnswers": [
@@ -7353,7 +7353,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, mặt cầu (S) có bán kính bằng 2, tiếp xúc với mặt phẳng (Oyz) và có tâm nằm trên tia Ox. Hoành độ của tâm mặt cầu (S) bằng bao nhiêu?",
         "answer": "2",
         "acceptedAnswers": [
@@ -7374,7 +7374,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B3.D1: Tâm & Bán kính Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d1_p3_9.svg",
+        "figure": null,
         "question": "Mặt cầu (S) có tâm I (-1;2;3) và có đúng một điểm chung với mặt phẳng (Oxy). Gọi một giao điểm của mặt cầu (S) với trục Oz là A(a;b;c) (c > 1). Tổng a + b + c bằng bao nhiêu?",
         "answer": "5",
         "acceptedAnswers": [
@@ -7405,49 +7405,49 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Viết phương trình mặt cầu (S): a) có tâm I(7;-3;0), bán kính R = 8 b) có tâm M (3;1;-4) và đi qua điểm N(1;0;1) c) có đường kính AB với A(4;6;8) và B(2;4;4)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_1.svg",
+        "figure": null,
         "explanation": "a) Phương trình mặt cầu (S)có tâm I(7;-3;0), bán kính R = 8 là:<br>(x -7)<sup>2</sup> + (y + 3)<sup>2</sup> + z<sup>2</sup> = 8<sup>2</sup> hay (x -7)<sup>2</sup> + (y + 3)<sup>2</sup> + z<sup>2</sup> = 64.<br>b) Mặt cầu (S) có tâm M (3;1;-4) và đi qua điểm N(1;0;1) nên có bán kính R = MN = <span class=\"m-root\">√<span class=\"m-rad\">30.</span></span><br>Vậy mặt cầu (S) có phương trình là: (x -3)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 4)<sup>2</sup> = (<span class=\"m-root\">√<span class=\"m-rad\">30</span></span>)<sup>2</sup><br>Hay (x -3)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 4)<sup>2</sup> = 30.<br>c) Mặt cầu (S)có đường kính AB với A(4;6;8) và B(2;4;4)nên có tâm J (3;5;6)là trung điểm<br>của AB và bán kính R = AJ = <span class=\"m-root\">√<span class=\"m-rad\">6.</span></span><br>Vậy mặt cầu (S) có phương trình là: (x -3)<sup>2</sup> + (y -5)<sup>2</sup> + (z -6)<sup>2</sup> = 6."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian Oxyz, cho điểm I(1;-2;3). Viết phương trình mặt cầu tâm I, cắt trục Ox tại hai điểm A và B sao cho AB = 2<span class=\"m-root\">√<span class=\"m-rad\">3</span></span>.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_2.svg",
+        "figure": null,
         "explanation": "Gọi H là trung điểm của AB thì IH vuông góc với AB và IH = <span class=\"m-root\">√<span class=\"m-rad\">(-2)<sup>2</sup> + 3<sup>2</sup></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">13</span></span>.<br>Suy ra bán kính mặt cầu là: R = IA = <span class=\"m-root\">√<span class=\"m-rad\">3 + 13</span></span> = 4.<br>Vậy phương trình mặt cầu là (x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z -3)<sup>2</sup> = 16."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, viết phương trình mặt cầu (S) có tâm A(1;2;-3) và tiếp xúc với trục Ox.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_3.svg",
+        "figure": null,
         "explanation": "Ta có:R = d(A,Ox) = <span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + (-3)<sup>2</sup></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">13</span></span>.<br>Phương trình mặt cầu (S) có tâm A(1;2;-3), bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">13</span></span> có phương trình là:<br>(S):(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 13."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian với hệ tọa độ Oxyz, cho các điểm A(6;0;0),B(0;4;0) và C(0;0;2). Viết phương trình mặt cầu ngoại tiếp tứ diện OABC.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_4.svg",
+        "figure": null,
         "explanation": "Phương trình mặt cầu ngoại tiếp tứ diện OABC có dạng:<br>x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2ax - 2by - 2cz + d = 0 (a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>- d > 0)<br>Do O,A,B,C ∈ (S) ⇒ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">d = 0</span><span class=\"m-sys-row\">36-12a + d = 0</span><span class=\"m-sys-row\">16-8b + d = 0</span><span class=\"m-sys-row\">4- 4c + d = 0</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">d = 0</span><span class=\"m-sys-row\">a = 3</span><span class=\"m-sys-row\">b = 2</span><span class=\"m-sys-row\">c = 1</span></span></span> ⇒ R = <span class=\"m-root\">√<span class=\"m-rad\">a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>- d</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">14</span></span><br>Mặt cầu tâm I(3;2;1),R = <span class=\"m-root\">√<span class=\"m-rad\">14</span></span> có phương trình (x -3)<sup>2</sup> + (y - 2)<sup>2</sup> + (z -1)<sup>2</sup> = 14."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Trong không gian Oxyz, viết phương trình mặt cầu có tâm nằm trên mặt phẳng (Oyz) và đi qua các điểm A(0;8;0),B(4;6;2),C(0;12;4).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_5.svg",
+        "figure": null,
         "explanation": "Gọi tâm mặt cầu là I(0;b;c) ∈ (Oyz). Do A(0;8;0),B(4;6;2),C(0;12;4) thuộc mặt cầu nên<br>Khi đó IA = IB = IC ⇔ (b -8)<sup>2</sup> + c<sup>2</sup> = 16 + (b -6)<sup>2</sup> + (c - 2)<sup>2</sup> = (b -12)<sup>2</sup> + (c - 4)<sup>2</sup>.<br>⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">b -c = 2</span><span class=\"m-sys-row\">b + c = 12</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">b = 7</span><span class=\"m-sys-row\">c = 5</span></span></span>. Vậy I(0;7;5);R = IA = <span class=\"m-root\">√<span class=\"m-rad\">26</span></span><br>Phương trình mặt cầu là x<sup>2</sup> + (y -7)<sup>2</sup> + (z -5)<sup>2</sup> = 26."
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Trong không gian Oxyz, gọi (P) là mặt phẳng đi qua điểm A(1;4;-3)và chứa trục Ox. Viết phương trình mặt cầu (S) có tâm I(1;2;1) và tiếp xúc với mặt phẳng (P).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_6.svg",
+        "figure": null,
         "explanation": "Ta có <span class=\"m-vec\">OA</span> = (1;4;-3) nên [<span class=\"m-vec\">OA</span>,<span class=\"m-vec\">i</span>] = (0;-3;-4) khi đó mặt phẳng (P) đi qua điểm A(1;4;-3) và<br>có véctơ pháp tuyến <span class=\"m-vec\">n</span> = (0;3;4) nên phương trình mặt phẳng (P) là: 3y + 4z = 0.<br>Lại có: d(I,(P)) = <span class=\"m-frac\"><span class=\"num\">|3.2 + 4.1|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3<sup>2</sup> + 4<sup>2</sup></span></span></span></span> = 2.<br>Mặt cầu tâm I(1;2;1) bán kính R = d(I,(P)) = 2 có phương trình là<br>(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z -1)<sup>2</sup> = 4."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, hãy viết phương trình mặt cầu đi qua 3 điểm A(-2;3;3),B(-1;1;2),C(4;2;2) và có tâm nằm thuộc mặt phẳng (Oyz).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_7.svg",
+        "figure": null,
         "explanation": "Vì mặt cầu có tâm I thuộc mặt phẳng (Oyz) nên tâm có dạng I(0;b;c).<br>Vì mặt cầu đi qua ba điểm A(-2;3;3),B(-1;1;2),C(4;2;2) nên ta có:<br>IA = IB = IC = R ⇔ IA<sup>2</sup> = IB<sup>2</sup> = IC<sup>2</sup> = R<sup>2</sup><br>2 2 2 2<br>⇔ <sub>2222</sub><br>⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">4 + (3-b) + (3-c) = 1 + (1-b) + (2-c)</span><span class=\"m-sys-row\">1 + (1-b) + (2-c) = 16 + (2-b) + (2-c)</span><span class=\"m-sys-row\">40 + 9-6c + c<sup>2</sup> = 65 + 4- 4c + c<sup>2</sup></span><span class=\"m-sys-row\">b = 9</span><span class=\"m-sys-row\">-2c = 20</span><span class=\"m-sys-row\">b = 9</span></span></span><br>⇔ ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">c = -10</span><span class=\"m-sys-row\">b = 9</span></span></span> ⇒ I(0;9;-10),R = IA = <span class=\"m-root\">√<span class=\"m-rad\">4 + 36 + 169</span></span> = <span class=\"m-root\">√<span class=\"m-rad\">209</span></span>.<br>Phương trình mặt cầu là x<sup>2</sup> + (y -9)<sup>2</sup> + (z + 10)<sup>2</sup> = 209."
       },
       {
@@ -7461,7 +7461,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 9,
         "label": "Bài tập tự luận 9",
         "question": "Trong không gian Oxyz, cho điểm A(1;-1;1) và đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = t</span><span class=\"m-sys-row\">y = -1-2t,(t ∈ ℝ)</span><span class=\"m-sys-row\">z = 2-2t</span></span></span>. Gọi (P) là mặt phẳng đi qua A và chứa d. Lập phương trình mặt cầu (S) có tâm I (2;3;-1) sao cho tiếp xúc với (P).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_tl_9.svg",
+        "figure": null,
         "explanation": "Đường thẳng d đi qua M (0;-1;2) và có vectơ chỉ phương <span class=\"m-vec\">u</span> = (1;- 2;- 2).<br>Mặt phẳng (P) có vectơ pháp tuyến <span class=\"m-vec\">n</span> = [<span class=\"m-vec\">AM</span>;<span class=\"m-vec\">u</span>] = (2;-1;2) ⇒ (P):2x - y + 2z -5 = 0.<br>Bán kính mặt cầu R = d(<sub>I;(P)</sub>) = 2 nên phương trình mặt cầu là:(x - 2)<sup>2</sup> + (y -3)<sup>2</sup> + (z + 1)<sup>2</sup> = 4."
       },
       {
@@ -7480,7 +7480,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(1;1;2) và B(3;1;0). Mặt cầu đường kính AB có phương trình là",
         "options": {
           "A": "(x -2)<sup>2</sup> + (y -1)<sup>2</sup> + (z -1)<sup>2</sup> = 8.",
@@ -7498,7 +7498,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm I (1;0;-1) và A(2;2;-3). Mặt cầu (S) tâm I và đi qua điểm A có phương trình là",
         "options": {
           "A": "(x -1)<sup>2</sup> + y<sup>2</sup> + (z + 1)<sup>2</sup> = 9.",
@@ -7516,7 +7516,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm I (1;0;-1) và A(2;2;-3). Mặt cầu (S) tâm I và đi qua điểm A có phương trình là",
         "options": {
           "A": "(x -1)<sup>2</sup> + y<sup>2</sup> + (z + 1)<sup>2</sup> = 9.",
@@ -7534,7 +7534,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_4.svg",
+        "figure": null,
         "question": "Phương trình mặt cầu tâm I (1;2;3) và bán kính R = 3 là",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y -2)<sup>2</sup> + (z -3)<sup>2</sup> = 9.",
@@ -7552,7 +7552,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu đường kính AB với A(0;-3;2), B(2;1;-2) có phương trình là",
         "options": {
           "A": "(x + 1)<sup>2</sup> + (y -1)<sup>2</sup> + z<sup>2</sup> = 3.",
@@ -7570,7 +7570,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz<sub>,</sub> viết phương trình mặt cầu (S) có tâm I(2;1;2) và bán kính R = 3.",
         "options": {
           "A": "(S):(x + 2)<sup>2</sup> + (y + 1)<sup>2</sup> + (z + 2)<sup>2</sup> = 9<sub>.</sub>",
@@ -7588,7 +7588,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu có tâm I(4;-4;2) và đi qua gốc tọa độ có phương trình là",
         "options": {
           "A": "(x + 4)<sup>2</sup> + (y -4)<sup>2</sup> + (z + 2)<sup>2</sup> = 6.",
@@ -7606,7 +7606,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt cầu có tâm I (2;-1;3) và đi qua điểm A(1;2;-1) là",
         "options": {
           "A": "(x -2)<sup>2</sup> + (y + 1)<sup>2</sup> + (z -3)<sup>2</sup> = 26.",
@@ -7624,7 +7624,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S) có tâm I(0;0;-3)và tiếp xúc với mặt phẳng (P):2x - 2y - z + 12 = 0. Phương trình của (S) là",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + (z + 3)<sup>2</sup> = 25.",
@@ -7642,7 +7642,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_10.svg",
+        "figure": null,
         "question": "Phương trình mặt cầu tâm I (1; 2; 3) và bán kính R = 3 là:",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y -2)<sup>2</sup> + (z -3)<sup>2</sup> = 9.",
@@ -7660,7 +7660,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, mặt cầu (S) có tâm I (-1;0;2) và bán kính R = 4 có phương trình là",
         "options": {
           "A": "(x -1)<sup>2</sup> + y<sup>2</sup> + (z + 2)<sup>2</sup> = 4.",
@@ -7678,7 +7678,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_12.svg",
+        "figure": null,
         "question": "Trongkhônggian Oxyz,phươngtrìnhcủamặt cầucóđườngkính AB với A(2;1;0) và B(0;1;2) là",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y -1)<sup>2</sup> + (z -1)<sup>2</sup> = 4.",
@@ -7696,7 +7696,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 13",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_13.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, phương trình mặt cầu tâm I(1;-2;3), bán kính R = 2 là",
         "options": {
           "A": "x<sup>2</sup> + 2y<sup>2</sup> + 3z<sup>2</sup> = 4.",
@@ -7714,7 +7714,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu tâm I(0;1;-2) và đi qua điểm M (1;0;-1) có phương trình là:",
         "options": {
           "A": "x<sup>2</sup> + (y + 1)<sup>2</sup> + (z -2)<sup>2</sup> = 9.",
@@ -7732,7 +7732,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M (1;-2;3). Gọi I là hình chiếu vuông góc của M trên trục Ox. Phương trình nào dưới đây là phương trình mặt cầu tâm I bán kính IM?",
         "options": {
           "A": "(x + 1)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 13.",
@@ -7750,7 +7750,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 16",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_16.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, phương trình mặt cầu (S) có tâm I (-1;2;1) và đi qua điểm A(0;4;-1) là",
         "options": {
           "A": "(x + 1)<sup>2</sup> + (y -2)<sup>2</sup> + (z -1)<sup>2</sup> = 3.",
@@ -7768,7 +7768,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 17",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_17.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S) có tâm I (0;0;-3) và đi qua điểm M (4;0;0). Phương trình của (S) là",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + (z + 3)<sup>2</sup> = 5.",
@@ -7786,7 +7786,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 18",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_18.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho tứ diện ABCD với A(3;4;0), B(2;5;4), C(-1;1;1), D(3;5;3). Viết phương trình mặt cầu ngoại tiếp tứ diện đó",
         "options": {
           "A": "(x + 1)<sup>2</sup> + (y + 3)<sup>2</sup> + (z + 2)<sup>2</sup> = 9.",
@@ -7804,7 +7804,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 19",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_19.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho bốn điểm A(2;0;0), B(0;2;0), C(0;0;2), D(2;2;2). Mặt cầu ngoại tiếp tứ diện ABCD có bán kính bằng",
         "options": {
           "A": "3.",
@@ -7822,7 +7822,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 20",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_20.svg",
+        "figure": null,
         "question": "Mặt cầu tâm I (5;3;-2) và đi qua điểm A(3;-1;2) có phương trình",
         "options": {
           "A": "(x -5)<sup>2</sup> + (y -3)<sup>2</sup> + (z + 2)<sup>2</sup> = 36.",
@@ -7840,7 +7840,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 21",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_21.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S)có tâm I (2; 2; -1) và tiếp xúc với mặt phẳng (α): x - y - z + 2 = 0. Phương trình mặt cầu (S)là",
         "options": {
           "A": "(x -2)<sup>2</sup> + (y -2)<sup>2</sup> + (z + 1)<sup>2</sup> = 9.",
@@ -7858,7 +7858,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 22",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_22.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(1;3;- 2), B(3;-1;4). Mặt cầu đường kính AB có phương trình",
         "options": {
           "A": "(x -2)<sup>2</sup> + (y -1)<sup>2</sup> + (z -1)<sup>2</sup> = <span class=\"m-root\">√<span class=\"m-rad\">14</span></span>.",
@@ -7876,7 +7876,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 23",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_23.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(-1;-3;4) và B(3;-1;2). Phương trình mặt cầu đường kính AB là",
         "options": {
           "A": "(x + 1)<sup>2</sup> + (y -2)<sup>2</sup> + (z + 3)<sup>2</sup> = 6.",
@@ -7894,7 +7894,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 24",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_24.svg",
+        "figure": null,
         "question": "Trong không gian hệ trục tọa độ Oxyz, cho điểm A(2;0;1). Phương trình mặt cầu tâm A tiếp xúc với mặt phẳng (Oxy) là",
         "options": {
           "A": "(S):(x + 2)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 1.",
@@ -7912,7 +7912,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 25",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_25.svg",
+        "figure": null,
         "question": "Trong không gian hệ trục tọa độ Oxyz, cho điểm A(-1;2;3). Phương trình mặt cầu tâm A và tiếp xúc với trục Oz là",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 5.",
@@ -7930,7 +7930,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 26",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_26.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt cầu (S) có đường kính AB với tọa độ các điểm A(2;0;-1), B(0;-2;3). Phương trình mặt cầu (S) là",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y + 1)<sup>2</sup> + (z -1)<sup>2</sup> = 24.",
@@ -7948,7 +7948,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 27",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_27.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, A(-3; 4; 2), B(-5; 6; 2), C(-10; 17;-7). Viết phương trình mặt cầu tâm C, bán kính AB.",
         "options": {
           "A": "(x + 10)<sup>2</sup> + (y -17)<sup>2</sup> + (z -7)<sup>2</sup> = 8.",
@@ -7966,7 +7966,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 28",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_28.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục toạ độ Oxyz, cho hai điểm A(-1;2;1), B(0;2;3). Viết phương trình mặt cầu đường kính AB. 2 2",
         "options": {
           "A": "(x + <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>) + (y - 2)<sup>2</sup> + (z - 2)<sup>2</sup> = <span class=\"m-frac\"><span class=\"num\">5</span><span class=\"den\">4</span></span>.",
@@ -7984,7 +7984,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 29",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_29.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai điểm A(2;-1;0),B(0;3;-4). Phương trình nào sau đây là phương trình mặt cầu đường kính AB",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y -1)<sup>2</sup> + (z -2)<sup>2</sup> = 3.",
@@ -8002,7 +8002,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 30",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_30.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu đường kính ABvới A(0;1;2) và B(4;5;-4) có phương trình là",
         "options": {
           "A": "(x + 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z -1)<sup>2</sup> = 68.",
@@ -8020,7 +8020,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 31",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_31.svg",
+        "figure": null,
         "question": "Trong không gian tọa độ Oxyz, cho mặt cầu (S) có tâm A(2;1;1) và tiếp xúc với mặt phẳng (P):2x - y + 2z + 1 = 0. Phương trình mặt cầu (S) là",
         "options": {
           "A": "(x -2)<sup>2</sup> + (y -1)<sup>2</sup> + (z -1)<sup>2</sup> = 3.",
@@ -8038,7 +8038,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 32",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_32.svg",
+        "figure": null,
         "question": "Cho mặt cầu (S) đi qua A(3;1;0), B(5;5;0) và cótâm I thuộctrục Ox.Mặtcầu (S) cóphương trình là",
         "options": {
           "A": "(x + 10)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 5<span class=\"m-root\">√<span class=\"m-rad\">2</span></span>.",
@@ -8056,7 +8056,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 33",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_33.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục toạ độ Oxyz, cho hai điểm A(1;-2;3) và B(5;4;7). Phương trình mặt cầu nhận AB làm đường kính là",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z -3)<sup>2</sup> = 17.",
@@ -8074,7 +8074,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 34",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_34.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm I(1;-2;3) và mặt phẳng (P):2x - y + 2z -1 = 0. Mặt cầu (S) có tâm I và tiếp xúc với mặt phẳng (P) có phương trình",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z -3)<sup>2</sup> = 9.",
@@ -8092,7 +8092,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 35",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_35.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho ba điểm A(-3;4;2), B(-5;6;2) và C(-10;17;-7). Phương trình mặt cầu tâm C bán kính AB là",
         "options": {
           "A": "(x + 10)<sup>2</sup> + (y -17)<sup>2</sup> + (z -7)<sup>2</sup> = 8.",
@@ -8110,7 +8110,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 36",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_36.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz. Hãy viết phương trình mặt cầu có tâm I (2;2;3) và tiếp xúc với mặt phẳng (Oxz).",
         "options": {
           "A": "(x + 2)<sup>2</sup> + (y + 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 4.",
@@ -8128,7 +8128,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 37",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_37.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm I (3;1;- 2). Phương trình mặt cầu tâm I tiếp xúc với trục Ox là",
         "options": {
           "A": "(x -3)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 2)<sup>2</sup> = 5.",
@@ -8146,7 +8146,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 38",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_38.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm M (6;2;-5),N (-4;0;7). Viết phương trình mặt cầu đường kính MN?",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y -1)<sup>2</sup> + (z -1)<sup>2</sup> = 62.",
@@ -8164,7 +8164,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 39",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_39.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu có tâm I(2;1;-3) và tiếp xúc với mặt phẳng (P):4x - y + 2z -5 = 0 có phương trình là",
         "options": {
           "A": "(x - 2)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 3)<sup>2</sup> = <span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">21</span></span>.",
@@ -8182,7 +8182,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 40",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_40.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt phẳng (P): x - 2y + 2z - 2 = 0 và điểm I (-1;2;-1). Xét (S) là mặt cầu tâm I và cắt (P) theo giao tuyến là đường tròn có bán kính bằng 5. Phương trình của (S) là",
         "options": {
           "A": "(x + 1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 1)<sup>2</sup> = 34.",
@@ -8200,7 +8200,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 41",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_41.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường tròn (C) tâm O có bán kính bằng 2 và nằm trong mặt phẳng (xOy). Tìm phương trình mặt cầu chứa đường tròn (C) và đi qua điểm A(0;0;-4). 2",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = <span class=\"m-frac\"><span class=\"num\">25</span><span class=\"den\">4</span></span>.",
@@ -8218,7 +8218,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 42",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_42.svg",
+        "figure": null,
         "question": "Trong không gianOxyz, cho đường tròn (C) có bán kính bằng 4 nằm trong mặt phẳng (Oxy) có tâm là gốc tọa độ O. Hãy viết phương trình mặt cầu chứa đường tròn (C) đồng thời cắt trục Oz tại điểm A(0;0;8).",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + (z - 4)<sup>2</sup> = 16",
@@ -8236,7 +8236,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 43",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_43.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng d<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 4</span><span class=\"den\">2</span></span>; d<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x + 8</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -6</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -10</span><span class=\"den\">-1</span></span> . Gọi (S) là mặt cầu tiếp xúc với d<sub>1</sub>;d<sub>2</sub> và có bán kính nhỏ nhất. Phương trình của mặt cầu (S) là",
         "options": {
           "A": "x<sup>2</sup> + (y -10)<sup>2</sup> + (z -6)<sup>2</sup> = 35.",
@@ -8254,7 +8254,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 44",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_44.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho điểm A(1;-1;2). Gọi M,N,K là hình chiếu vuông góc của A lên ba trục tọa độ. Mặt cầu tâm O tiếp xúc với mặt phẳng (MNK) có phương trình là:",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 6.",
@@ -8272,7 +8272,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 45",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_45.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hình chóp S.ABC có các đỉnh S(1; 2; - 2), A(-1; 0; - 2), C(3; - 4; 0). Tam giác ABC vuông tại B có độ dài cạnh BC = 3<span class=\"m-root\">√<span class=\"m-rad\">3</span></span> đồng thời mặt đáy (ABC) vuông góc với mặt bên (SAC). Gọi I là trung điểm của AC. Mặt cầu tâm I và tiếp xúc với mặt phẳng (SBC) có phương trình là:",
         "options": {
           "A": "(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z + 1)<sup>2</sup> = <span class=\"m-frac\"><span class=\"num\">18</span><span class=\"den\">17</span></span>.",
@@ -8290,7 +8290,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 46",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_46.svg",
+        "figure": null,
         "question": "Một vệ tinh quay quanh Trái Đất với độ cao so với mặt đất là 18900 km. Ta xét trong không gian Oxyz với tâm O là tâm Trái Đất, 1 đơn vị dài trong không gian Oxyz tương ứng với 6300 km trên thực tế. Biết bán kính Trái Đất khoảng 6300 km. Phương trình biểu diễn quỹ đạo chuyển động của vệ tinh đó là",
         "options": {
           "A": "x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 4.",
@@ -8308,7 +8308,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 47",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_47.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz (đơn vị đo là cm), mặt sàn nhà đa năng thuộc mặt phẳng Oxy. Một quả cầu bằng nhựa nằm trên mặt sàn nhà đa năng và có tâm I(12;20;50). Khi đó, mặt ngoài của quả cầu nhựa (S) có phương trình là:",
         "options": {
           "A": "(x-12)<sup>2</sup> + (y -20)<sup>2</sup> + (z -50)<sup>2</sup> = 12<sup>2</sup>.",
@@ -8344,7 +8344,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 49",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_49.svg",
+        "figure": null,
         "question": "Một máy Rađa có tầm hoạt động với bán kính tối đa là20 km. Ta xét trong không gian Oxyz với tâm O là vị trí máy Rađa, 1 đơn vị dài trong không gian Oxyz tương ứng với 10 km trên thực tế. Hỏi trong không gian Oxyz trên, vật thể có tọa độ tương ứng với đáp án nào dưới đây sẽ bị Rađa phát hiện?",
         "options": {
           "A": "M (1;0;2).",
@@ -8362,7 +8362,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 50",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p1_50.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz (đơn vị trên mỗi trục tọa độ là km), một máy bay đang ở vị trí A(3;-2;1) và sẽ hạ cánh ở vị trí B(2;-5;0) trên đường băng. Có một đám mây được mô phỏng bởi mặt phẳng (P) tiếp xúc với mặt cầu (S):(x-2)<sup>2</sup> + (y + 1)<sup>2</sup> + (z + 1)<sup>2</sup> = 16 tại M (<span class=\"m-frac\"><span class=\"num\">10</span><span class=\"den\">9</span></span>;-<span class=\"m-frac\"><span class=\"num\">25</span><span class=\"den\">9</span></span>;<span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">9</span></span>). Tính độ cao của máy bay khi đi xuyên qua đám mây để hạ cánh (Giả sử mặt đất ở vị trí máy bay đang bay được coi là mặt phẳng mặt phẳng (Oxy))",
         "options": {
           "A": "<span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\">5</span></span> km.",
@@ -8380,7 +8380,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng d: <span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 3</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 2</span><span class=\"den\">2</span></span> và mặt cầu (S) có tâm I (3;2;0). Đường thẳng d cắt mặt cầu (S) tại hai điểm A, B sao cho AB = 8. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt phẳng (P) đi qua điểm I (3;2;0) và vuông góc với đường thẳng d có phương trình là x + 2y + 2z -7 = 0.",
@@ -8403,7 +8403,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho A(0; 0; 2), B(1; 1; 0) và mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + (z -1)<sup>2</sup> = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">4</span></span>. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có tâm I (0; 0; 1).",
@@ -8426,7 +8426,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho A(0;1;1),B(1;0;-3),C(-1;-2;-3) và mặt cầu (S) có phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>-2x + 2z -2 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có bán kính R = 2.",
@@ -8449,7 +8449,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt phẳng (P): x - 2y + 2z - 2 = 0 và điểm I (-1; 2; -1). Biết mặt cầu (S) có tâm I và cắt mặt phẳng (P) theo giao tuyến là đường tròn (C) có diện tích là 25π. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Bán kính đường tròn (C) là r = 5.",
@@ -8472,7 +8472,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 5",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x-2)<sup>2</sup> + (y + 1)<sup>2</sup> + (z -1)<sup>2</sup> = 9. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có tâm I (2;-1;1), bán kính R = 3.",
@@ -8495,7 +8495,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 6",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz,cho mặt cầu (S) có tâm I (2;3;-1) cắt đường thẳng (d): <span class=\"m-frac\"><span class=\"num\">x -11</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 25</span><span class=\"den\">-2</span></span> tại hai điểm A,B sao cho AB = 16. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Đường thẳng (d) có vectơ chỉ phương là <span class=\"m-vec\">u</span> = (2;1;-2).",
@@ -8518,7 +8518,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 7",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm I (1;-2;3) và điểm M (-1;0;2). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu tâm I và đi qua điểm M có bán kính là R = IM = <span class=\"m-root\">√<span class=\"m-rad\">3</span></span>.",
@@ -8541,7 +8541,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 8",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho ba điểm A(1;2;-4), B(1;-3;1), C(2;2;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S<sub>1</sub>)tâm A, bán kính R = 1 có phương trình là(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z - 4)<sup>2</sup> = 1.",
@@ -8564,7 +8564,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 9",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_9.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho A(2;0;0),B(1;3;0),C(-1;0;3),D(1;2;3). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S):(x - 2)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 25 có tâm là điểm A.",
@@ -8587,7 +8587,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 10",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4z + 1 = 0. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Tọa độ tâm I của mặt cầu là (1;0;-2).",
@@ -8610,7 +8610,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 11",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_11.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + (z -1)<sup>2</sup> = 5 và hai điểm A(2;-2;4), B(-3;3;-1). Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có tâm I(0;1;-1).",
@@ -8633,7 +8633,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 12",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_12.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt cầu (S) có phương trình (x - 4)<sup>2</sup> + (y -3)<sup>2</sup> + (z + 1)<sup>2</sup> = 169. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có đường kính bằng 13.",
@@ -8656,7 +8656,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 13",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p2_13.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz (đơn vị trên mỗi trục tính theo kilômét), một trạm thu phát sóng điện thoại di động được đặt ở vị trí I(1;3;7). Trạm thu phát sóng đó được thiết kế với bán kính phủ sóng là 3 km. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt cầu (S) để mô tả ranh giới bên ngoài của vùng phù sóng trong không gian là (x + 1)<sup>2</sup> + (y + 3)<sup>2</sup> + (z + 7)<sup>2</sup> = 9.",
@@ -8702,7 +8702,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_1.svg",
+        "figure": null,
         "question": "Bán kính mặt cầu đi qua bốn điểm M (1;0;1), N(1;0;0), P(2;1;0) và Q(1;1;1) có dạng <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">a</span></span></span><span class=\"den\">b</span></span>; a,b ∈ ℕ và nguyên tố cùng nhau. Khi đó giá trị của biểu thức S = a<sup>b</sup> bao nhiêu?",
         "answer": "9",
         "acceptedAnswers": [
@@ -8723,7 +8723,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt cầu (S) có tâm I(a;b;c) nằm trên đường thảng (d):<span class=\"m-frac\"><span class=\"num\">x</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">1</span></span> và tiếp xúc với hai mặt phẳng (P):2x - z - 4 = 0, (Q): x - 2y - 2 = 0. Tổng P = a + b + c bằng bao nhiêu?",
         "answer": "6",
         "acceptedAnswers": [
@@ -8744,7 +8744,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai đường thẳng Δ<sub>1</sub>:<span class=\"m-frac\"><span class=\"num\">x - 4</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">-1</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 5</span><span class=\"den\">-2</span></span> và Δ<sub>2</sub>:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 3</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">1</span></span>. Trong tất cả mặt cầu tiếp xúc với cả hai đường thẳng Δ<sub>1</sub> và Δ<sub>2</sub>. Gọi (S) là mặt cầu có bán kính nhỏ nhất. Diện tích của mặt cầu đó có kết quả bằng bao nhiêu? (làm tròn đến hàng phần trục)",
         "answer": "18,8",
         "acceptedAnswers": [
@@ -8766,7 +8766,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_4.svg",
+        "figure": null,
         "question": "Cho mặt cầu (S):(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z -3)<sup>2</sup> = 25 và đường thẳng d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y + 4</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">3</span></span>. Đường thẳng d cắt mặt cầu (S) tại hai điểm phân biệt trong đó M (x<sub>M</sub>;y<sub>M</sub>;z<sub>M</sub>) với x<sub>M</sub> > 0 Giá trị biểu thức T = x<sub>M</sub><sup>2</sup> + y<sub>M</sub><sup>2</sup> + z<sub>M</sub><sup>2</sup> bằng bao nhiêu? (Làm tròn kết quả đến hàng phần trăm)",
         "answer": "70,5",
         "acceptedAnswers": [
@@ -8790,7 +8790,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_5.svg",
+        "figure": null,
         "question": "Cho 3 điểm M (2;3;3),N(2;-1;-1),P(-2;-1;3) và mặt phẳng (α):2x + 3y - z + 2 = 0. Phương trình mặt cầu đi qua 3 điểm M,N,P và có tâm thuộc mặt phẳng (α)có bán kính bằng bao nhiêu?",
         "answer": "4",
         "acceptedAnswers": [
@@ -8811,7 +8811,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, mặt cầu có tâm I(1;2;-1) và tiếp xúc với mặt phẳng (P):2x - 2y - z -8 = 0 có phương trình (C): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2ax - 2by - 2cz + d = 0. Tính giá trị của biểu thức a + b + c + 2d.",
         "answer": "-4",
         "acceptedAnswers": [
@@ -8832,7 +8832,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 7",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_7.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, phương trình mặt cầu (S)có tâm I (1;3;2) và có một tiếp tuyến là đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z</span><span class=\"den\">-1</span></span> có dạng x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2ax - 2by - 2cz + d = 0. Tính T = a + b + c - d.",
         "answer": "0",
         "acceptedAnswers": [
@@ -8853,7 +8853,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 8",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_8.svg",
+        "figure": null,
         "question": "Trong không gian với tọa độ Oxyz, cho mặt cầu (C):(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 11. Đường thẳng d là tiếp tuyến của mặt cầu (C) tại điểm A(2;1;0) có vectơ chỉ phương là <span class=\"m-vec\">u</span><sub>d</sub> = (-1;b;c) và vuông góc với đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">y</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">1</span></span>. Tính giá trị b + c(kết quả làm tròn đến hang phần trăm).",
         "answer": "0,71",
         "acceptedAnswers": [
@@ -8875,7 +8875,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 9",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz cho A(-2;0;0); B(0;-2;0); C(0;0;-2). D là điểm khác O sao cho DA, DB, DC đôi một vuông góc. I(a;b;c) là tâm mặt cầu ngoại tứ diện ABCD. Tính S = a + b + c.",
         "answer": "-1",
         "acceptedAnswers": [
@@ -8896,7 +8896,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 10",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_10.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt cầu (S) tâm I (-2;3;0) và đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x - 4</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">1</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">2</span></span>. Biết đường thẳng Δ cắt mặt cầu (S) tại hai điểm phân biệt A,B sao cho AB = 8. Tính bán kính của mặt cầu (S).",
         "answer": "5",
         "acceptedAnswers": [
@@ -8938,7 +8938,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 12",
         "topic": "B3.D2: Viết PT Mặt cầu",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d2_p3_12.svg",
+        "figure": null,
         "question": "Hệ thống định vị toàn cầu GPS là một hệ thống cho phép xác định chính xác vị trí của một vật trong không gian. Cách thức hoạt động của GPS như sau: Trong cùng một thời điểm, vị trí M của một vật sẽ được xác định bằng 4 vệ tinh cho trước, các vệ tinh này có gắn máy thu tín hiệu, bằng cách so sánh thời gian từ lúc tín hiệu được phát đi với thời gian nhận tín hiệu phản hồi thì sẽ xác định được khoảng cách từ các vệ tinh đến vị trí M. Như vậy, vị trí M là giao điểm của 4 mặt cầu có tâm là 4 vệ tinh đã cho. Giả sử trong không gian Oxyz, 4 vệ tinh có tọa độ là A(-1;6;3), B(4;8;1), C(9;6;7), D(-15;18;7). Biết khoảng cách từ M đến các vệ tinh lần lượt là MA = 6, MB = 7, MC = 12, MD = 24. Khi đó tọa độ điểm M (x<sub>M</sub>; y<sub>M</sub>;z<sub>M</sub>). Tính giá trị biểu thức T = x<sub>M</sub> + y<sub>M</sub> + z<sub>M</sub>.",
         "answer": "2",
         "acceptedAnswers": [
@@ -8969,49 +8969,49 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "id": 1,
         "label": "Bài tập tự luận 1",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P):2x + 3y + z + 17 = 0 và mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4y - 2z -8 = 0. Xét vị trí tương đối của mặt phẳng (P)và mặt cầu(S).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_1.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S) có tâm I (1;-2;1), bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">14</span></span> và d(I,(P)) = <span class=\"m-frac\"><span class=\"num\">|2-6 + 1 + 17|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup></span></span></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">14</span></span>.<br>Vậy mặt phẳng (P)tiếp xúc với mặt cầu(S)."
       },
       {
         "id": 2,
         "label": "Bài tập tự luận 2",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt cầu (S):(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z + 3)<sup>2</sup> = 4 và mặt phẳng (P): x + y - z + 4 = 0. Xét vị trí tương đối của mặt phẳng (P) và mặt cầu (S).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_2.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S) có tâm I (1;2;-3), bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">4</span></span> = 2 và d(I,(P)) = <span class=\"m-frac\"><span class=\"num\">|1 + 2 + 3 + 4|</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 1<sup>2</sup> + (-1)<sup>2</sup></span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">10</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3</span></span></span></span> > R<br>Vậy mặt phẳng (P)và mặt cầu(S) không có điểm chung."
       },
       {
         "id": 3,
         "label": "Bài tập tự luận 3",
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x + 1)<sup>2</sup> + (y - 2)<sup>2</sup> + z<sup>2</sup> = 9 và đường thẳng có phương trình Δ:<span class=\"m-frac\"><span class=\"num\">x -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 2</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -3</span><span class=\"den\">1</span></span>. Tìm vị trí tương đối của đường thẳng Δ và mặt cầu (S)",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_3.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S):(x + 1)<sup>2</sup> + (y - 2)<sup>2</sup> + z<sup>2</sup> = 9có tâm I(-1; 2; 0) bán kính R = 3<br>Gọi H là hình chiếu vuông góc của I trên Δ thì ta có H (1 + 2t; 2- 2t; 3 + t), t ∈ ℝ.<br>Khi đó: <span class=\"m-vec\">IH</span> = (2 + 2t; - 2t; 3 + t). Một vectơ chỉ phương của Δ là <span class=\"m-vec\">u</span> = (2; - 2;1).<br>Ta có: <span class=\"m-vec\">IH</span>.<span class=\"m-vec\">u</span> = 0 ⇔ 4 + 4t + 4t + 3 + t = 0 ⇔ t = -<span class=\"m-frac\"><span class=\"num\">7</span><span class=\"den\">9</span></span>.<br><span class=\"m-vec\">IH</span> = (<span class=\"m-frac\"><span class=\"num\">4</span><span class=\"den\">9</span></span>; <span class=\"m-frac\"><span class=\"num\">14</span><span class=\"den\">9</span></span>; <span class=\"m-frac\"><span class=\"num\">20</span><span class=\"den\">9</span></span>) ⇒ IH = <span class=\"m-root\">√<span class=\"m-rad\"><span class=\"m-frac\"><span class=\"num\">16</span><span class=\"den\">81</span></span> + <span class=\"m-frac\"><span class=\"num\">196</span><span class=\"den\">81</span></span> + <span class=\"m-frac\"><span class=\"num\">400</span><span class=\"den\">81</span></span></span></span> = <span class=\"m-frac\"><span class=\"num\">2<span class=\"m-root\">√<span class=\"m-rad\">17</span></span></span><span class=\"den\">3</span></span> ⇒ d(I; Δ) = <span class=\"m-frac\"><span class=\"num\">2<span class=\"m-root\">√<span class=\"m-rad\">17</span></span></span><span class=\"den\">3</span></span> < R<br>Vậy đường thẳng Δcắt mặt cầu (S) tại hai điểm phân biệt."
       },
       {
         "id": 4,
         "label": "Bài tập tự luận 4",
         "question": "Trong không gian Oxyz, đường thẳng d:<span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = 4 + 2t</span><span class=\"m-sys-row\">y = 3 + t</span><span class=\"m-sys-row\">z = 3 + 2t</span></span></span>,t ∈ ℝ. Viết phương trình mặt cầu (S) có tâm I(-2;3;0) và đường thẳng d cắt mặt cầu (S) tại hai điểm phân biệt A, B sao cho độ dài đoạn thẳng AB = 8.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_4.svg",
+        "figure": null,
         "explanation": "Gọi H là trung điểm của AB ⇒ IH ⊥ AB, AH = 4.<br>Đường thẳng d đi qua điểm M (4;3;3) và có 1 vectơ chỉ phương <span class=\"m-vec\">u</span> = (2;1;2).<br>Ta có:<span class=\"m-vec\">IM</span> = (6;0;3) ⇒ [<span class=\"m-vec\">IM</span>,<span class=\"m-vec\">u</span>] = (-3;-6;6)<br>⇒ IH = d(I;d) = <span class=\"m-frac\"><span class=\"num\">|[<span class=\"m-vec\">IM</span>,<span class=\"m-vec\">u</span>]|</span><span class=\"den\">|<span class=\"m-vec\">u</span>|</span></span> = <span class=\"m-frac\"><span class=\"num\"><span class=\"m-root\">√<span class=\"m-rad\">(-3)<sup>2</sup> + (-6)<sup>2</sup> + 6<sup>2</sup></span></span></span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">2<sup>2</sup> + 1<sup>2</sup> + 2<sup>2</sup></span></span></span></span> = 3.<br>Khi đó: R<sup>2</sup> = IA<sup>2</sup> = IH<sup>2</sup> + AH<sup>2</sup> = 25 ⇒ R = 5.<br>Mặt cầu (S) có tâm I(-2;3;0) và bán kính R = 5 nên có phương trình là:<br>(x + 2)<sup>2</sup> + (y -3)<sup>2</sup> + z<sup>2</sup> = 25."
       },
       {
         "id": 5,
         "label": "Bài tập tự luận 5",
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai đường thẳng chéo nhau d:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">y -3</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">z + 4</span><span class=\"den\">-5</span></span> và d′:<span class=\"m-frac\"><span class=\"num\">x + 1</span><span class=\"den\">3</span></span> = <span class=\"m-frac\"><span class=\"num\">y - 4</span><span class=\"den\">-2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 4</span><span class=\"den\">-1</span></span>. Viết phương trình mặt cầu có bán kính nhỏ nhất tiếp xúc với cả hai đường thẳng (d),(d′).",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_5.svg",
+        "figure": null,
         "explanation": "Đường thẳng d có một vectơ chỉ phương là <span class=\"m-vec\">u</span><sub>d</sub> = (2;3;-5).<br>Đường thẳng d′ có một vectơ chỉ phương là <span class=\"m-vec\">u</span><sub>d′</sub> = (3;-2;-1).<br>Gọi M ∈ d ⇒ M (2 + 2m;3 + 3m;-4-5m) và N ∈ d′ ⇒ N(-1 + 3n;4- 2n;4- n).<br>Khi đó ta có <span class=\"m-vec\">MN</span> = (-3 + 3n - 2m;1- 2n -3m;8- n + 5m).<br>.<span class=\"m-vec\">u</span><sub>d</sub> = 0<br>MN là đường vuông góc chung của d và d′ khi và chỉ khi <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">MN ⊥ d</span><span class=\"m-sys-row\">MN ⊥ d′</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\"><span class=\"m-vec\">MN</span></span><span class=\"m-sys-row\"><span class=\"m-vec\">MN</span></span></span></span><br>.<span class=\"m-vec\">u</span><sub>d′</sub> = 0<br>⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">2(-3 + 3n - 2m) + 3.(1- 2n -3m)-5(8- n + 5m) = 0</span><span class=\"m-sys-row\">3(-3 + 3n - 2m)- 2.(1- 2n -3m)-1(8- n + 5m) = 0</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">-38m + 5n = 43</span><span class=\"m-sys-row\">-5m + 14n = 19</span></span></span> ⇔ <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">m = -1</span><span class=\"m-sys-row\">n = 1</span></span></span>.<br>Suy ra M (0;0;1), N(2;2;3).<br>Gọi I là trung điểm của suy ra I(1;1;2) và IM = IN = <span class=\"m-root\">√<span class=\"m-rad\">1<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup></span></span> = <span class=\"m-root\">√<span class=\"m-rad\">3</span></span>.<br>Khi đó mặt cầu tâm I, bán kính R = <span class=\"m-root\">√<span class=\"m-rad\">3</span></span> tiếp xúc với hai đường thẳng d, d′lần lượt tại M và<br>Do MN là khoảng cách giữa hai đường thẳng d, d′ nên mặt cầu đường kính MN là mặt cầu có<br>bán kính nhỏ nhất tiếp xúc với hai đường thẳng d, d′.<br>Vậy phương trình mặt cầu cần tìm là (x -1)<sup>2</sup> + (y -1)<sup>2</sup> + (z - 2)<sup>2</sup> = 3."
       },
       {
         "id": 6,
         "label": "Bài tập tự luận 6",
         "question": "Trong không gian với hệ tọa độ Oxyz cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 4x + 2y - 2z -3 = 0 và điểm A(5;3;-2). Một đường thẳng d thay đổi luôn đi qua A và luôn cắt mặt cầu tại hai điểm phân biệt M,N. Tính giá trị nhỏ nhất của biểu thức S = AM + 4AN.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_6.svg",
+        "figure": null,
         "explanation": "Mặt cầu (S) có tâm I(2;-1;1), bán kính R = 3.<br>AI = <span class=\"m-root\">√<span class=\"m-rad\">34</span></span> > R ⇒ A nằm ngoài mặt cầu (S).<br>A I<br>Do hai điểm M,N nằm ở vị trí hai đầu một dây cung nên để S<sub>min</sub> thì N nằm giữa A và M.<br>Gọi H là trung điểm MN ⇒ IH ⊥ MN,NH = <span class=\"m-frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span> MN.<br>S = 4(AH - NH) + AH + NH = 5AH -3NH<br>S = 5<span class=\"m-root\">√<span class=\"m-rad\">AI<sup>2</sup>- IH<sup>2</sup></span></span> -3<span class=\"m-root\">√<span class=\"m-rad\">R<sup>2</sup>- IH<sup>2</sup></span></span> = 5<span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span> -3<span class=\"m-root\">√<span class=\"m-rad\">9- x<sup>2</sup>,</span></span> x = IH.<br>Xét hàm số f (x) = 5<span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span> -3<span class=\"m-root\">√<span class=\"m-rad\">9- x<sup>2</sup>,</span></span> (0 ≤ x < 3).<br>Đạo hàm: f′(x) = <span class=\"m-frac\"><span class=\"num\">-5x</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span></span></span> + <span class=\"m-frac\"><span class=\"num\">3x</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3<sup>2</sup>- x<sup>2</sup></span></span></span></span> = x(<span class=\"m-frac\"><span class=\"num\">-5</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span></span></span> + <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">3<sup>2</sup>- x<sup>2</sup></span></span></span></span>).<br>Xét (<span class=\"m-frac\"><span class=\"num\">-5</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span></span></span> + <span class=\"m-frac\"><span class=\"num\">3</span><span class=\"den\"><span class=\"m-root\">√<span class=\"m-rad\">9- x<sup>2</sup></span></span></span></span>) > 0 ⇔ 5<span class=\"m-root\">√<span class=\"m-rad\">9- x<sup>2</sup></span></span> < 3<span class=\"m-root\">√<span class=\"m-rad\">34- x<sup>2</sup></span></span><br>⇔ 225- 25x<sup>2</sup> < 9.34-9x<sup>2</sup> ⇔ 16x<sup>2</sup> + 81 > 0(luôn đúng).<br>Suy ra f′(x) ≥ 0,∀x ∈ [0;3), f′(x) = 0 ⇔ x = 0 ⇒ f (x) đồng biến trên [0;3).<br>Suy ra m<sub>[0;</sub> i<sub>3</sub> n<sub>)</sub> f (x) = f (0) = 5<span class=\"m-root\">√<span class=\"m-rad\">34</span></span> -9."
       },
       {
         "id": 7,
         "label": "Bài tập tự luận 7",
         "question": "Trong không gian với hệ trục tọa độ Oxyz, đài kiểm soát không lưu sân bay có tọa độ O(0;0;0) , mỗi đơn vị trên trục ứng với 1 km. Máy bay bay trong phạm vi cách đài kiểm soát 417 km sẽ hiển thị trên màn hình ra đa. Một máy bay đang ở vị trí A(-688;-185;8), chuyển động theo theo đường thẳng d có véctơ chỉ phương là <span class=\"m-vec\">u</span> = (91;75;0) và hướng về đài kiểm soát không lưu. Hãy xác định tọa độ vị trí sớm nhất mà máy bay xuất hiện trên màn hình ra đa.",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_tl_7.svg",
+        "figure": null,
         "explanation": "Phương trình tham số của đường thẳng d đi qua A(-688;-185;8) và nhận <span class=\"m-vec\">u</span> = (91;75;0) làm<br>véctơ chỉ phương là <span class=\"m-sys\"><span class=\"m-sys-brace\">{</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">x = -688 + 91t</span><span class=\"m-sys-row\">y = -185 + 75t</span></span></span>.<br>z = 8<br>Gọi B là vị trí sớm nhất mà máy bay xuất hiện trên màn hình ra đa.<br>Vì B ∈ d ⇒ B(-688 + 91t;-185 + 75t;8).<br>Vì B là vị trí sớm nhất mà máy bay xuất hiện trên màn hình ra đa nên<br>OB = 417 ⇔ <span class=\"m-root\">√<span class=\"m-rad\">(-688 + 91t)<sup>2</sup> + (-185 + 75t)<sup>2</sup> + 8<sup>2</sup></span></span> = 417<br>⇔ 13906t<sup>2</sup>-152966t + 333744 = 0 ⇔ <span class=\"m-sys\"><span class=\"m-sys-brack\">[</span><span class=\"m-sys-rows\"><span class=\"m-sys-row\">t = 3</span><span class=\"m-sys-row\">t = 8</span></span></span><br>Với t = 3 ⇒ B(-415;40;8) ⇒ AB ≈ 353,77 km<br>Với t = 8 ⇒ B(-88;415;8) ⇒ AB ≈ 848,53 km<br>Do 353,77 < 848,53 vị trí máy bay xuất hiện sớm nhất là B(-415;40;8)."
       },
       {
@@ -9044,7 +9044,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 1",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S) có phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x - 4y -6z = 0. Trong ba điểm có tọa độ lần lượt là (0;0;0),(1;2;3),(2;0;6) thì có bao nhiêu điểm nằm trên mặt cầu (S)?",
         "options": {
           "A": "0.",
@@ -9062,7 +9062,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 2",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_2.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho mặt cầu (S)có phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x - 4y -6z = 0. Trong ba điểm có tọa độ lần lượt là (0;0;0), (1;2;3) và (2;0;6) thì có bao nhiêu điểm nằm trên mặt cầu.",
         "options": {
           "A": "0.",
@@ -9080,7 +9080,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 3",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_3.svg",
+        "figure": null,
         "question": "Trong không gianOxyz cho mặt cầu (S) có phương trình x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x - 4y -6z = 0 trong các điểm có tọa độ lần lượt là (0;0;0), (1;2;3), (2;0;6) thì có bao nhiêu điểm trên mặt cầu.",
         "options": {
           "A": "0.",
@@ -9098,7 +9098,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 4",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho hai mặt cầu (S):(x -3)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 9 và (S'):(x + 2)<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 4. Khẳng định nào sau đây là đúng?",
         "options": {
           "A": "Hai mặt cầu tiếp xúc ngoài.",
@@ -9116,7 +9116,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 5",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_5.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho điểm M thuộc mặt cầu (S):(x -3)<sup>2</sup> + (y -3)<sup>2</sup> + (z - 2)<sup>2</sup> = 9 và ba điểm A(1;0;0),B(2;1;3),C(0;2;-3). Biết rằng tập hợp các điểm M thỏa mãn biểu thức MA<sup>2</sup> + 2.<span class=\"m-vec\">MB</span>.<span class=\"m-vec\">MC</span> = 8 là đường tròn cố định, bán kính r của đường tròn này là.",
         "options": {
           "A": "r = <span class=\"m-root\">√<span class=\"m-rad\">6</span></span>.",
@@ -9134,7 +9134,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 6",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, mặt cầu (S):(x - 2)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 3)<sup>2</sup> = 16 đi qua điểm nào dưới đây?",
         "options": {
           "A": "Điểm Q(-2;-1;-1).",
@@ -9152,7 +9152,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 7",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_7.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x - 2)<sup>2</sup> + (y + 1)<sup>2</sup> + (z -1)<sup>2</sup> = 6. Điểm nào dưới đây thuộc mặt cầu (S)?",
         "options": {
           "A": "B(3;1;1).",
@@ -9170,7 +9170,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 8",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_8.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): (x - 2)<sup>2</sup> + (y + 3)<sup>2</sup> + (z -1)<sup>2</sup> = 9. Điểm nào trong các điểm bên dưới thuộc mặt cầu (S)?",
         "options": {
           "A": "K(5;-3;1).",
@@ -9188,7 +9188,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 9",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_9.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, gọi I là tâm của mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2x - 4z -1 = 0. Độ dài đoạn OI (với O là gốc tọa độ) bằng",
         "options": {
           "A": "5.",
@@ -9206,7 +9206,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 10",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_10.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + (z - 4)<sup>2</sup> = 4. Có bao nhiêu điểm P thuộc (S) mà tiếp diện của (S) tại P cắt các trục Ox, Oz tương ứng tại các điểm E(a;0;0), F(0;0;b) sao cho a, b là các số nguyên dương và góc EPF = 90<sup>o</sup>?",
         "options": {
           "A": "1.",
@@ -9224,7 +9224,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 11",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_11.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai mặt cầu (S<sub>1</sub>),(S<sub>2</sub>): (S<sub>1</sub>) có tâm I(0,0,<span class=\"m-frac\"><span class=\"num\">21</span><span class=\"den\">2</span></span>), bán kính r<sub>1</sub> = 6 và (S<sub>2</sub>) có tâm J (0,0,1), bán kính r<sub>2</sub> = <span class=\"m-frac\"><span class=\"num\">9</span><span class=\"den\">2</span></span>. Hỏi có bao nhiêu điểm M (x, y,z) với x, y,z nguyên thuộc phần giao của hai khối cầu?",
         "options": {
           "A": "11.",
@@ -9242,7 +9242,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 12",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_12.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho hai điểm A(1;5;2) và B(5;13;10). Có bao nhiêu điểm I(a;b;c) với a,b,c là các số nguyên sao cho có mặt cầu tâm I đi qua A,B và tiếp xúc với mặt phẳng (Oxy)?",
         "options": {
           "A": "10.",
@@ -9278,7 +9278,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 14",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_14.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz (đơn vị của các trục tọa độ là kilomet), một trạm thu phát sóng điện thoại di động có đầu thu phát được đặt tại điểm I(-6;-1;4). Cho biết bán kính phủ sóng của trạm là 2km. Người sử dụng điện thoại đứng ở điểm nào sau đây thì sử dụng được dịch vụ của trạm nói trên?",
         "options": {
           "A": "A(-4;0;2)",
@@ -9296,7 +9296,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 1 - Câu 15",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "mcq",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p1_15.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz (đơn vị của các trục tọa độ là kilomet), một trạm thu phát sóng điện thoại di động có đầu thu phát được đặt tại điểm I(-6;-1;4). Cho biết bán kính phủ sóng của trạm là 2km. Người sử dụng điện thoại đứng ở điểm nào sau đây thì không sử dụng được dịch vụ của trạm nói trên?",
         "options": {
           "A": "A(-5;0;3)",
@@ -9314,7 +9314,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 1",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p2_1.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (C):(x -1)<sup>2</sup> + (y + 2)<sup>2</sup> + z<sup>2</sup> = 16. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Điểm A(1;2;-1) nằm bên ngoài mặt cầu (C).",
@@ -9337,7 +9337,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 2",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p2_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x + 1)<sup>2</sup> + (y -1)<sup>2</sup> + (z + 2)<sup>2</sup> = 9 có tâm I và bán kính R. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Phương trình mặt cầu (S) có tâm I(1;-1;2), bán kính R = 3.",
@@ -9360,7 +9360,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 3",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p2_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S): x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4y + 1 = 0 có tâm I và bán kính R. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt cầu (S) có tâm I(1;-2;0) và bán kính R = 2.",
@@ -9383,7 +9383,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 2 - Câu 4",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "tf",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p2_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho đường thẳng d: x = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z - 2</span><span class=\"den\">-1</span></span> và mặt phẳng (P):3x + y - z -5 = 0. Mặt cầu (S) có tâm I thuộc đường thẳng d và cắt mặt phẳng (P) theo giao tuyến là đường tròn lớn nhất có bán kính r = 5. Xét tính đúng sai của các khẳng định sau:",
         "statements": {
           "a": "Mặt phẳng (P):3x + y - z -5 = 0 có vectơ pháp tuyến <span class=\"m-vec\">n</span> = (3;1;-1).",
@@ -9406,7 +9406,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 1",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_1.svg",
+        "figure": null,
         "question": "Trong không gian với hệ trục tọa độ Oxyz, cho mặt phẳng (P): 2x - y + 2z -14 = 0 và mặt cầu (S):x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>- 2x + 4y + 2z -3 = 0. Lấy M (a;b;c) thuộc mặt cầu (S) sao cho khoảng cách từ M đến mặt phẳng (P) là lớn nhất. Giá trị của biểu thức K = a + b + c là",
         "answer": "-5",
         "acceptedAnswers": [
@@ -9427,7 +9427,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 2",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_2.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz (đơn vị của các trục tọa độ là kilômét), một trạm thu phát sóng điện thoại di động có đầu thu phát được đặt tại điểm I(-2;1;- 4). Biết bán kính phủ sóng của trạm là 3km. Có 5 người sử dụng điện thoại tại các điểm A(2;-1;3),B(0;1;- 4),C(-2;1;-3), D(0;1;-3), E(-4;-2;1). Hỏi trong số 5 người đó, có bao nhiêu người có thể sử dụng được dịch vụ của trạm nói trên?",
         "answer": "3",
         "acceptedAnswers": [
@@ -9448,7 +9448,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 3",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_3.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho mặt cầu (S):(x -1)<sup>2</sup> + (y - 2)<sup>2</sup> + (z -3)<sup>2</sup> = 25 và hai điểm A(3;-2;6),B(0;1;0). Mặt phẳng (P):ax + by + cz - 2 = 0 chứa đường thẳng AB và cắt (S) theo giao tuyến là đường tròn có bán kính nhỏ nhất. Giá trị của biểu thức M = 2a + b -c bằng bao nhiêu?",
         "answer": "1",
         "acceptedAnswers": [
@@ -9469,7 +9469,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 4",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_4.svg",
+        "figure": null,
         "question": "Trong không gian với hệ tọađộ Oxyz, cho mặt phẳng (P): x + y - z -3 = 0 vàhai điểm M (1;1;1) , N(-3;-3;-3). Mặt cầu (S) đi qua M, N và tiếp xúc với mặt phẳng (P) tại điểm Q. Biết rằng Q luôn thuộc một đường tròn cố định. Tìm bán kính của đường tròn đó.",
         "answer": "6",
         "acceptedAnswers": [
@@ -9490,7 +9490,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 5",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_5.svg",
+        "figure": null,
         "question": "Trong hệ trục Oxyz cho trước (đơn vị trên trục là mét), cho một trạm thu phát sóng 5G có bán kính vùng phủ sóng của trạm ở ngưỡng 600m được đặt ở vị trí I(200;450;60). Tìm giá trị lớn nhất của m (làm tròn đến hàng đơn vị) để một người dùng điện thoại ở vị trí A(m + 100;m + 370;0) có thể sử dụng dịch vụ của trạm nói trên.",
         "answer": "512",
         "acceptedAnswers": [
@@ -9511,7 +9511,7 @@ window.MATH_OXYZ_EXAMS_DATA = {
         "label": "Phần 3 - Câu 6",
         "topic": "B3.D3: VTTĐ Mặt cầu & Thực tế",
         "type": "short",
-        "figure": "assets/images/quiz/math_oxyz/generated/oxyz_b3_d3_p3_6.svg",
+        "figure": null,
         "question": "Trong không gian Oxyz, cho đường thẳng Δ:<span class=\"m-frac\"><span class=\"num\">x - 2</span><span class=\"den\">-3</span></span> = <span class=\"m-frac\"><span class=\"num\">y -1</span><span class=\"den\">2</span></span> = <span class=\"m-frac\"><span class=\"num\">z -1</span><span class=\"den\">2</span></span>, (P): x + 2y - 2z - 2 = 0, (Q): x + 2y - 2z + 4 = 0. Gọi mặt cầu S(I,R) có tâm I thuộc Δ và tiếp xúc với (P),(Q). Khi đó đường kính của mặt cầu có giá trị bằng bao nhiêu?",
         "answer": "2",
         "acceptedAnswers": [
