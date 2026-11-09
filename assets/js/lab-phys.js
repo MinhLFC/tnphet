@@ -820,7 +820,7 @@
       </div>
 
       <div class="slide-question-body">
-        <div class="slide-prompt-text">
+        <div class="slide-prompt-text" style="font-weight: 700; font-size: calc(1.12rem * var(--quiz-scale, 1)); line-height: 1.6; margin-bottom: 1rem; color: #0f172a;">
           ${formatMathHtml(q.question || q.prompt)}
         </div>
 

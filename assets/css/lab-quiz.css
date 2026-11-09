@@ -557,9 +557,10 @@
   }
 }
 
-.slide-q-text {
+.slide-q-text,
+.slide-prompt-text {
   font-size: calc(1.12rem * var(--quiz-scale));
-  font-weight: 600;
+  font-weight: 700 !important;
   color: var(--text-main);
   line-height: 1.56;
 }
@@ -567,13 +568,13 @@
 /* Tự động điều chỉnh cỡ chữ vừa vặn khi đề bài dài hoặc có nhiều bước thí nghiệm */
 .slide-q-text.q-text-medium {
   font-size: calc(1.02rem * var(--quiz-scale));
-  font-weight: 600;
+  font-weight: 700 !important;
   line-height: 1.54;
 }
 
 .slide-q-text.q-text-long {
   font-size: calc(0.96rem * var(--quiz-scale));
-  font-weight: 500;
+  font-weight: 700 !important;
   line-height: 1.52;
 }
 

@@ -2399,13 +2399,13 @@
         "label": "Luyện tập • Phần 1 - Câu 8",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
-        "prompt": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
+        "question": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
+        "prompt": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
         "options": {
-          "A": "ti ̉lê ̣thuâṇ với thể tić h.",
-          "B": "ti ̉lê ̣nghic̣h với thể tić h.",
-          "C": "ti ̉lê ̣nghic̣h với biǹ h phương thể tić h.",
-          "D": "ti ̉lê ̣thuâṇ với biǹ h phương thể tić h."
+          "A": "tỉ lệ thuận với thể tích.",
+          "B": "tỉ lệ nghịch với thể tích.",
+          "C": "tỉ lệ nghịch với bình phương thể tích.",
+          "D": "tỉ lệ thuận với bình phương thể tích."
         },
         "answer": "B",
         "explanation": "Theo định luật Boyle: Khi nhiệt độ của một khối lượng khí xác định được giữ không đổi, áp suất p tỉ lệ nghịch với thể tích V của nó (p ~ 1/V hay p·V = hằng số).<br><b>⇒ Chọn đáp án B.</b>"
@@ -2574,9 +2574,14 @@
         "label": "Luyện tập • Phần 1 - Câu 15",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p6_img1.png",
-        "question": "Đường nào sau đây không biểu diễn quá trình đẳng nhiệt ?\nA. B.\nC. D.",
-        "prompt": "Đường nào sau đây không biểu diễn quá trình đẳng nhiệt ?\nA. B.\nC. D.",
-        "options": {},
+        "question": "Đường nào sau đây không biểu diễn quá trình đẳng nhiệt?",
+        "prompt": "Đường nào sau đây không biểu diễn quá trình đẳng nhiệt?",
+        "options": {
+          "A": "Hình A",
+          "B": "Hình B",
+          "C": "Hình C",
+          "D": "Hình D"
+        },
         "answer": "D",
         "explanation": "Trong hệ tọa độ có trục nhiệt độ (như p-T hoặc V-T), đường đẳng nhiệt luôn là đường thẳng vuông góc với trục OT (nhiệt độ T = const). Do đó đồ thị đường xiên hoặc không vuông góc với trục OT không thể là đường đẳng nhiệt.<br><b>⇒ Chọn đáp án D.</b>"
       },
@@ -3128,7 +3133,12 @@
         "figure": "assets/images/quiz/phys/boyle_p15_img2.png",
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle\n\n\n16 ===\nA. B. C. D.",
         "prompt": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle\n\n\n16 ===\nA. B. C. D.",
-        "options": {},
+        "options": {
+          "A": "Hình A",
+          "B": "Hình B",
+          "C": "Hình C",
+          "D": "Hình D"
+        },
         "answer": "A",
         "explanation": "Trong hệ trục (p, V), đường đẳng nhiệt có dạng là đường hypebol dốc xuống từ trái qua phải.<br><b>⇒ Chọn đáp án A.</b>"
       },
@@ -3788,13 +3798,13 @@
         "label": "Luyện tập • Phần 1 - Câu 5",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Khi nén khi ́đẳng nhiêṭ thi ̀số phân tử trong môṭ đơn vi ṭ hể tić h",
-        "prompt": "Khi nén khi ́đẳng nhiêṭ thi ̀số phân tử trong môṭ đơn vi ṭ hể tić h",
+        "question": "Khi nén khí đẳng nhiệt thì số phân tử trong một đơn vị thể tích:",
+        "prompt": "Khi nén khí đẳng nhiệt thì số phân tử trong một đơn vị thể tích:",
         "options": {
-          "A": "không đổi.",
-          "B": "tăng ti ̉lê ̣với biǹ h phương áp suất.",
-          "C": "tăng ti ̉lê ̣thuâṇ với áp suất.",
-          "D": "giảm ti ̉lê ̣nghic̣h với áp suất."
+          "A": "không đổi.",
+          "B": "tăng tỉ lệ với bình phương áp suất.",
+          "C": "tăng tỉ lệ thuận với áp suất.",
+          "D": "giảm tỉ lệ nghịch với áp suất."
         },
         "answer": "C",
         "explanation": "Hệ thức p₁·V₁ = p₂·V₂ diễn tả định luật Boyle cho quá trình biến đổi đẳng nhiệt của một khối khí lí tưởng xác định.<br><b>⇒ Chọn đáp án A.</b>"
@@ -3863,9 +3873,14 @@
         "label": "Luyện tập • Phần 1 - Câu 8",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Quá triǹ h nào sau đây là đẳng quá triǹ h?\nB. Đun nóng không khi ́trong môṭ xi lanh, khi ́nở ra đẩy pit tông chuyển đôṇ g.\nC. Không khi ́trong quả bóng bay bi p̣ hơi nắng nở ra làm căng bóng.\nA. Đun nóng không khi ́trong môṭ biǹ h kiń .\nD. Cả ba quá triǹ h trên đều không phải đẳng quá triǹ h.",
-        "prompt": "Quá triǹ h nào sau đây là đẳng quá triǹ h?\nB. Đun nóng không khi ́trong môṭ xi lanh, khi ́nở ra đẩy pit tông chuyển đôṇ g.\nC. Không khi ́trong quả bóng bay bi p̣ hơi nắng nở ra làm căng bóng.\nA. Đun nóng không khi ́trong môṭ biǹ h kiń .\nD. Cả ba quá triǹ h trên đều không phải đẳng quá triǹ h.",
-        "options": {},
+        "question": "Quá trình nào sau đây là đẳng quá trình?",
+        "prompt": "Quá trình nào sau đây là đẳng quá trình?",
+        "options": {
+          "A": "Đun nóng không khí trong một bình kín.",
+          "B": "Đun nóng không khí trong một xi lanh, khí nở ra đẩy pit-tông chuyển động.",
+          "C": "Không khí trong quả bóng bay bị phơi nắng, nở ra làm căng bóng.",
+          "D": "Cả ba quá trình trên đều không phải là đẳng quá trình."
+        },
         "answer": "A",
         "explanation": "Trong hệ tọa độ (p, T), đường biểu diễn quá trình biến đổi đẳng nhiệt là một đường thẳng vuông góc với trục hoành OT.<br><b>⇒ Chọn đáp án D.</b>"
       },
@@ -3958,8 +3973,8 @@
         "label": "Luyện tập • Phần 1 - Câu 12",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Môṭ quả bóng da có dung tić h 1,25 lit́ . Người ta bơm không khi ́ ở áp suất 10<sup>5</sup> Pa vào bóng. Mỗi lần\nbơm đươc̣ 125 cm<sup>3</sup> không khi.́ Biết trước khi bơm, trong bóng có không khi ́ở áp suất 10<sup>5</sup> Pa và nhiêṭ đô ̣không\nđổi trong thời gian bơm. Áp suất không khi ́trong quả bóng sau 20 lần bơm bằng",
-        "prompt": "Môṭ quả bóng da có dung tić h 1,25 lit́ . Người ta bơm không khi ́ ở áp suất 10<sup>5</sup> Pa vào bóng. Mỗi lần\nbơm đươc̣ 125 cm<sup>3</sup> không khi.́ Biết trước khi bơm, trong bóng có không khi ́ở áp suất 10<sup>5</sup> Pa và nhiêṭ đô ̣không\nđổi trong thời gian bơm. Áp suất không khi ́trong quả bóng sau 20 lần bơm bằng",
+        "question": "Một quả bóng da có dung tích 1,25 lít. Người ta bơm không khí ở áp suất 10<sup>5</sup> Pa vào bóng. Mỗi lần bơm được 125 cm<sup>3</sup> không khí. Biết trước khi bơm, trong bóng có không khí ở áp suất 10<sup>5</sup> Pa và nhiệt độ không đổi trong thời gian bơm. Áp suất không khí trong quả bóng sau 20 lần bơm bằng:",
+        "prompt": "Một quả bóng da có dung tích 1,25 lít. Người ta bơm không khí ở áp suất 10<sup>5</sup> Pa vào bóng. Mỗi lần bơm được 125 cm<sup>3</sup> không khí. Biết trước khi bơm, trong bóng có không khí ở áp suất 10<sup>5</sup> Pa và nhiệt độ không đổi trong thời gian bơm. Áp suất không khí trong quả bóng sau 20 lần bơm bằng:",
         "options": {
           "A": "2.10<sup>5</sup> Pa",
           "B": "4,5.10<sup>5</sup> Pa",
@@ -4465,13 +4480,13 @@
         "label": "Tự luyện • Phần 1 - Câu 3",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
-        "prompt": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
+        "question": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
+        "prompt": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
         "options": {
-          "A": "ti ̉lê ̣nghic̣h với thể tić h.",
-          "B": "ti ̉lê ̣thuâṇ với thể tić h.",
-          "C": "ti ̉lê ̣thuâṇ với biǹ h phương thể tić h.",
-          "D": "ti ̉lê ̣nghic̣h với biǹ h phương thể tić h."
+          "A": "tỉ lệ nghịch với thể tích.",
+          "B": "tỉ lệ thuận với thể tích.",
+          "C": "tỉ lệ thuận với bình phương thể tích.",
+          "D": "tỉ lệ nghịch với bình phương thể tích."
         },
         "answer": "A",
         "explanation": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất tỉ lệ nghịch với thể tích (p ~ 1/V).<br><b>⇒ Chọn đáp án A.</b>"
@@ -5032,8 +5047,8 @@
         "label": "Tự luyện • Phần 3 - Câu 2",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Dùng ống bơm bơm một quả bóng đang bị xẹp, mỗi lần bơm đẩy được 50cm3 không khí ở áp suất 1\natm vào quả bóng. Sau 60 lần bơm quả bóng có dung tích 2 lít, coi quá trình bơm nhiệt độ không đổi, áp suất\nkhí trong quả bóng sau khi bơm là bao nhiêu atm?\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Dùng ống bơm bơm một quả bóng đang bị xẹp, mỗi lần bơm đẩy được 50cm3 không khí ở áp suất 1\natm vào quả bóng. Sau 60 lần bơm quả bóng có dung tích 2 lít, coi quá trình bơm nhiệt độ không đổi, áp suất\nkhí trong quả bóng sau khi bơm là bao nhiêu atm?\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Dùng ống bơm bơm một quả bóng đang bị xẹp, mỗi lần bơm đẩy được 50 cm<sup>3</sup> không khí ở áp suất 1 atm vào quả bóng. Sau 60 lần bơm quả bóng có dung tích 2 lít, coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau khi bơm là bao nhiêu atm?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Dùng ống bơm bơm một quả bóng đang bị xẹp, mỗi lần bơm đẩy được 50 cm<sup>3</sup> không khí ở áp suất 1 atm vào quả bóng. Sau 60 lần bơm quả bóng có dung tích 2 lít, coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau khi bơm là bao nhiêu atm?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
         "answer": "1,5",
         "acceptedAnswers": [
           "1,5",
@@ -5184,7 +5199,12 @@
         "figure": "assets/images/quiz/phys/boyle_p44_img2.png",
         "question": ": Đồ thị nào sau đây biểu diễn đúng định luật Bôilơ – Mariôt:\nA. B. C. D.",
         "prompt": ": Đồ thị nào sau đây biểu diễn đúng định luật Bôilơ – Mariôt:\nA. B. C. D.",
-        "options": {},
+        "options": {
+          "A": "Hình A",
+          "B": "Hình B",
+          "C": "Hình C",
+          "D": "Hình D"
+        },
         "answer": "D",
         "explanation": "Định luật Boyle-Mariotte được biểu diễn đúng bằng đường cong hypebol trong hệ trục tọa độ (p, V).<br><b>⇒ Chọn đáp án D.</b>"
       },
@@ -5302,8 +5322,8 @@
         "label": "Luyện tập • Phần 1 - Câu 7",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p46_img2.png",
-        "question": "Phiá trên côṭ thủy ngân của áp kế có loṭ môṭ khối lươṇ g nhỏ không khi,́ nên áp kế đó chi ̉ áp suất nhỏ\nhơn áp suất khi ́ quyển. Khi áp suất khi ́ quyển là 768mmHg thi ̀ áp kế chi ̉ 748 mmHg, chiều dài khoảng chân\nkhông khi đó là 80 mm. Coi nhiêt đô ̣trong hai lần đo là như nhau. Nếu áp kế chi ̉ 734 mmHg thi ̀ áp suất khi ́\nquyển thưc̣ bằng bao nhiêu mmHg?",
-        "prompt": "Phiá trên côṭ thủy ngân của áp kế có loṭ môṭ khối lươṇ g nhỏ không khi,́ nên áp kế đó chi ̉ áp suất nhỏ\nhơn áp suất khi ́ quyển. Khi áp suất khi ́ quyển là 768mmHg thi ̀ áp kế chi ̉ 748 mmHg, chiều dài khoảng chân\nkhông khi đó là 80 mm. Coi nhiêt đô ̣trong hai lần đo là như nhau. Nếu áp kế chi ̉ 734 mmHg thi ̀ áp suất khi ́\nquyển thưc̣ bằng bao nhiêu mmHg?",
+        "question": "Phía trên cột thủy ngân của áp kế có lọt một khối lượng nhỏ không khí, nên áp kế đó chỉ áp suất nhỏ hơn áp suất khí quyển. Khi áp suất khí quyển là 768 mmHg thì áp kế chỉ 748 mmHg, chiều dài khoảng chân không khi đó là 80 mm. Coi nhiệt độ trong hai lần đo là như nhau. Nếu áp kế chỉ 734 mmHg thì áp suất khí quyển thực bằng bao nhiêu mmHg?",
+        "prompt": "Phía trên cột thủy ngân của áp kế có lọt một khối lượng nhỏ không khí, nên áp kế đó chỉ áp suất nhỏ hơn áp suất khí quyển. Khi áp suất khí quyển là 768 mmHg thì áp kế chỉ 748 mmHg, chiều dài khoảng chân không khi đó là 80 mm. Coi nhiệt độ trong hai lần đo là như nhau. Nếu áp kế chỉ 734 mmHg thì áp suất khí quyển thực bằng bao nhiêu mmHg?",
         "options": {
           "A": "760 mmHg",
           "B": "755 mmHg",
@@ -5815,8 +5835,8 @@
         "label": "Luyện tập • Phần 3 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "10,3",
         "acceptedAnswers": [
           "10,3",
@@ -5909,13 +5929,13 @@
         "label": "Tự luyện • Phần 1 - Câu 2",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
-        "prompt": "Đối với môṭ lươṇ g khi ́lý tưởng xác điṇh, khi nhiêṭ đô ̣không đổi thi ̀áp suất",
+        "question": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
+        "prompt": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất:",
         "options": {
-          "A": "ti ̉lê ̣thuâṇ với biǹ h phương thể tić h.",
-          "B": "ti ̉lê ̣nghic̣h với thể tić h.",
-          "C": "ti ̉lê ̣thuâṇ với thể tić h.",
-          "D": "ti ̉lê ̣nghic̣h với biǹ h phương thể tić h."
+          "A": "tỉ lệ thuận với bình phương thể tích.",
+          "B": "tỉ lệ nghịch với thể tích.",
+          "C": "tỉ lệ thuận với thể tích.",
+          "D": "tỉ lệ nghịch với bình phương thể tích."
         },
         "answer": "B",
         "explanation": "Theo định luật Boyle, khi nhiệt độ của một lượng khí lí tưởng xác định không đổi thì áp suất tỉ lệ nghịch với thể tích: p ~ 1/V.<br><b>⇒ Chọn đáp án B.</b>"
@@ -6542,8 +6562,8 @@
         "label": "Tự luyện • Phần 3 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "10,5",
         "acceptedAnswers": [
           "10,5",
@@ -7721,8 +7741,8 @@
         "label": "Phần 1 - Câu 45",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Phiá trên côṭ thủy ngân của áp kế có loṭ môṭ khối lươṇ g nhỏ không khi,́ nên áp kế đó chi ̉áp suất nhỏ\nhơn áp suất khi ́ quyển. Khi áp suất khi ́ quyển là 768mmHg thi ̀ áp kế chi ̉ 748 mmHg, chiều dài khoảng chân\nkhông khi đó là 80 mm. Coi nhiêt đô ̣trong hai lần đo là như nhau. Nếu áp kế chi ̉ 734 mmHg thi ̀ áp suất khi ́\nquyển thưc̣ bằng bao nhiêu mmHg?",
-        "prompt": "Phiá trên côṭ thủy ngân của áp kế có loṭ môṭ khối lươṇ g nhỏ không khi,́ nên áp kế đó chi ̉áp suất nhỏ\nhơn áp suất khi ́ quyển. Khi áp suất khi ́ quyển là 768mmHg thi ̀ áp kế chi ̉ 748 mmHg, chiều dài khoảng chân\nkhông khi đó là 80 mm. Coi nhiêt đô ̣trong hai lần đo là như nhau. Nếu áp kế chi ̉ 734 mmHg thi ̀ áp suất khi ́\nquyển thưc̣ bằng bao nhiêu mmHg?",
+        "question": "Phía trên cột thủy ngân của áp kế có lọt một khối lượng nhỏ không khí, nên áp kế đó chỉ áp suất nhỏ hơn áp suất khí quyển. Khi áp suất khí quyển là 768 mmHg thì áp kế chỉ 748 mmHg, chiều dài khoảng chân không khi đó là 80 mm. Coi nhiệt độ trong hai lần đo là như nhau. Nếu áp kế chỉ 734 mmHg thì áp suất khí quyển thực bằng bao nhiêu mmHg?",
+        "prompt": "Phía trên cột thủy ngân của áp kế có lọt một khối lượng nhỏ không khí, nên áp kế đó chỉ áp suất nhỏ hơn áp suất khí quyển. Khi áp suất khí quyển là 768 mmHg thì áp kế chỉ 748 mmHg, chiều dài khoảng chân không khi đó là 80 mm. Coi nhiệt độ trong hai lần đo là như nhau. Nếu áp kế chỉ 734 mmHg thì áp suất khí quyển thực bằng bao nhiêu mmHg?",
         "options": {
           "A": "760 mmHg",
           "B": "755 mmHg",
