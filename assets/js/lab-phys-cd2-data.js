@@ -2825,7 +2825,7 @@
           "1,89",
           "1.89"
         ],
-        "explanation": "Trạng thái 1: $V_1 = 12\\text{ lít}$, $p_1 = 2\\cdot 10^5\\text{ Pa}$.<br>Trạng thái 2: $V_2 = 3\\text{ lít}$, $p_2 = ?$<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow p_2 = \\frac{p_1 V_1}{V_2} = \\frac{2\\cdot 10^5 \\cdot 12}{3} = 8\\cdot 10^5\\text{ Pa}.$$"
+        "explanation": "Gọi thể tích bọt khí ở đáy giếng là $V_1$, ở mặt nước là $V_0$.<br>• Ở đáy giếng (độ sâu $h = 9\\text{ m}$): Áp suất $p_1 = p_0 + \\rho g h = 1,013\\cdot 10^5 + 1003 \\cdot 10 \\cdot 9 = 1,9157\\cdot 10^5\\text{ Pa}$.<br>• Ở mặt nước: Áp suất khí quyển $p_0 = 1,013\\cdot 10^5\\text{ Pa}$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_0 V_0 \\Rightarrow \\frac{V_0}{V_1} = \\frac{p_1}{p_0} = \\frac{p_0 + \\rho g h}{p_0} = \\frac{1,013\\cdot 10^5 + 1003\\cdot 10\\cdot 9}{1,013\\cdot 10^5} \\approx 1,89\\text{ lần}.$$<br><b>⇒ Đáp án: 1,89</b>"
       },
       {
         "id": 24,
@@ -2848,7 +2848,7 @@
           "4,29",
           "4.29"
         ],
-        "explanation": "Trạng thái 1: $V_1 = 0,5\\text{ m}^3$, $p_1 = 1,5\\cdot 10^5\\text{ Pa}$.<br>Trạng thái 2: $V_2 = ?$, $p_2 = 3\\cdot 10^5\\text{ Pa}$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow V_2 = \\frac{p_1 V_1}{p_2} = \\frac{1,5\\cdot 10^5 \\cdot 0,5}{3\\cdot 10^5} = 0,25\\text{ m}^3.$$"
+        "explanation": "Xét cùng một lượng khí ôxi có khối lượng $m$ ở hai trạng thái:<br>• Ở trạng thái trong bình: $V = 20\\text{ lít} = 20\\cdot 10^{-3}\\text{ m}^3$, $p = 150\\text{ atm}$.<br>• Ở điều kiện tiêu chuẩn: $p_0 = 1\\text{ atm}$, $V_0 = \\frac{m}{\\rho_0}$ với $\\rho_0 = 1,43\\text{ kg/m}^3$.<br>Áp dụng định luật Boyle:<br>$$p V = p_0 V_0 = p_0 \\cdot \\frac{m}{\\rho_0} \\iff 150 \\cdot 20\\cdot 10^{-3} = 1 \\cdot \\frac{m}{1,43} \\Rightarrow m = 150 \\cdot 0,02 \\cdot 1,43 = 4,29\\text{ kg}.$$<br><b>⇒ Đáp án: 4,29</b>"
       },
       {
         "id": 25,
@@ -2871,7 +2871,7 @@
           "0,8",
           "0.8"
         ],
-        "explanation": "Trạng thái 1: $V_1 = 20\\text{ lít}$, $p_1 = 2\\text{ atm}$.<br>Trạng thái 2: $V_2 = 5\\text{ lít}$, $p_2 = ?$<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow p_2 = \\frac{p_1 V_1}{V_2} = \\frac{2 \\cdot 20}{5} = 8\\text{ atm}.$$<br>Độ tăng áp suất: $\\Delta p = p_2 - p_1 = 8 - 2 = 6\\text{ atm}.$"
+        "explanation": "Ban đầu lượng khí ở bình 1 có thể tích $V_1 = 4\\text{ lít}$, áp suất $p_1 = 2,5\\text{ atm}$.<br>Khi mở khóa thông sang bình 2 ($V_2 = 8,5\\text{ lít}$ chân không), thể tích chung của khối khí là:<br>$$V = V_1 + V_2 = 4 + 8,5 = 12,5\\text{ lít}.$$<br>Áp dụng định luật Boyle cho quá trình đẳng nhiệt:<br>$$p_1 V_1 = p(V_1 + V_2) \\Rightarrow p = \\frac{p_1 V_1}{V_1 + V_2} = \\frac{2,5 \\cdot 4}{12,5} = 0,8\\text{ atm}.$$<br><b>⇒ Đáp án: 0,8</b>"
       },
       {
         "id": 26,
@@ -2909,7 +2909,7 @@
         "level": "vd_vdc",
         "label": "Luyện tập • Phần 3 - Câu 5",
         "topic": "Dạng 1: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p12_c5_xilanh.png",
         "question": "Một xilanh đang chứa một khối khí, khi đó pit-tông cách đáy xilanh một khoảng 10 cm. Hỏi phải đẩy\npít-tông một đoạn bằng bao nhiêu cm để áp suất khí trong xilanh tăng gấp 2 lần? Coi nhiệt độ của khí không\nđổi. (kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "prompt": "Một xilanh đang chứa một khối khí, khi đó pit-tông cách đáy xilanh một khoảng 10 cm. Hỏi phải đẩy\npít-tông một đoạn bằng bao nhiêu cm để áp suất khí trong xilanh tăng gấp 2 lần? Coi nhiệt độ của khí không\nđổi. (kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "answer": "5",
@@ -2917,7 +2917,7 @@
           "5",
           "5"
         ],
-        "explanation": "Trạng thái 1: $V_1 = 6\\text{ lít}$, $p_1 = 1,2\\cdot 10^5\\text{ Pa}$.<br>Trạng thái 2: $V_2 = 4\\text{ lít}$, $p_2 = ?$<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow p_2 = \\frac{p_1 V_1}{V_2} = \\frac{1,2\\cdot 10^5 \\cdot 6}{4} = 1,8\\cdot 10^5\\text{ Pa}.$$"
+        "explanation": "Trạng thái 1: Áp suất $p_1$, thể tích $V_1 = S\\cdot l$ (với khoảng cách từ pít-tông đến đáy là $l = 10\\text{ cm}$).<br>Trạng thái 2: Áp suất tăng gấp 2 lần: $p_2 = 2p_1$, thể tích $V_2 = S\\cdot (l - \\Delta l)$ (với $\\Delta l$ là đoạn dịch chuyển của pít-tông).<br>Áp dụng định luật Boyle cho quá trình đẳng nhiệt:<br>$$p_1 V_1 = p_2 V_2 \\iff p_1 \\cdot S\\cdot l = 2p_1 \\cdot S\\cdot (l - \\Delta l)$$<br>$$\\Rightarrow l = 2(l - \\Delta l) \\iff l = 2l - 2\\Delta l \\Rightarrow 2\\Delta l = l \\Rightarrow \\Delta l = \\frac{l}{2} = \\frac{10}{2} = 5\\text{ cm}.$$<br><b>⇒ Đáp án: 5</b>"
       },
       {
         "id": 28,
@@ -2940,7 +2940,7 @@
           "3,5",
           "3.5"
         ],
-        "explanation": "Độ tăng áp suất: $\\Delta p = 2,5\\cdot 10^5\\text{ Pa}$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 = (p_1 + \\Delta p) V_2 \\iff p_1 \\cdot 10 = (p_1 + 2,5\\cdot 10^5)\\cdot 5$$$$\\Rightarrow 10 p_1 = 5 p_1 + 12,5\\cdot 10^5 \\Rightarrow 5 p_1 = 12,5\\cdot 10^5 \\Rightarrow p_1 = 2,5\\cdot 10^5\\text{ Pa}.$$"
+        "explanation": "Trạng thái 1: Thể tích ban đầu $V_1 = 7\\text{ lít}$, áp suất $p_1$.<br>Trạng thái 2: Thể tích sau nén $V_2 = 2\\text{ lít}$, áp suất $p_2$.<br>Áp dụng định luật Boyle cho quá trình nén đẳng nhiệt:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow \\frac{p_2}{p_1} = \\frac{V_1}{V_2} = \\frac{7}{2} = 3,5\\text{ lần}.$$<br>Vậy áp suất của khối khí sau khi nén tăng $3,5$ lần so với ban đầu.<br><b>⇒ Đáp án: 3,5</b>"
       },
       {
         "id": 29,
@@ -4299,7 +4299,7 @@
           "15",
           "15"
         ],
-        "explanation": "Đổi $V_0 = 40\\text{ cm}^3 = 0,04\\text{ lít}$, $V_b = 2\\text{ lít}$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\iff p_0 \\cdot (n\\cdot V_0) = p \\cdot V_b \\Rightarrow p = \\frac{p_0 \\cdot n \\cdot V_0}{V_b} = \\frac{1 \\cdot 50 \\cdot 0,04}{2} = 1\\text{ atm}.$$"
+        "explanation": "Gọi $F$ là trọng lượng của xe tác dụng lên lốp, $V_0$ là thể tích mỗi lần bơm, $V_s$ là thể tích săm xe.<br>Áp lực lên mặt đường: $F = p\\cdot S$. Vì $F$ không đổi nên áp suất trong lốp tỉ lệ nghịch với diện tích tiếp xúc:<br>$$\\frac{p_2}{p_1} = \\frac{S_1}{S_2} = \\frac{40}{10} = 4.$$<br>Mặt khác, theo định luật Boyle, áp suất khí đưa vào săm tỉ lệ thuận với số lần bơm $n$: $\\frac{p_2}{p_1} = \\frac{n_2}{n_1}$.<br>Do đó: $\\frac{n_2}{n_1} = 4 \\Rightarrow n_2 = 4\\cdot n_1 = 4\\cdot 5 = 20\\text{ lần}$.<br>Số lần phải bơm thêm là:<br>$$\\Delta n = n_2 - n_1 = 20 - 5 = 15\\text{ lần}.$$<br><b>⇒ Đáp án: 15</b>"
       },
       {
         "id": 24,
@@ -4322,7 +4322,7 @@
           "6",
           "6"
         ],
-        "explanation": "Đổi $V_b = 2,5\\text{ lít} = 2500\\text{ cm}^3$, $V_0 = 100\\text{ cm}^3$.<br>Áp dụng định luật Boyle:<br>$$p_0 (V_b + n\\cdot V_0) = p \\cdot V_b \\Rightarrow n = \\frac{(p - p_0) V_b}{p_0 V_0} = \\frac{(5 - 1)\\cdot 2500}{1 \\cdot 100} = 100\\text{ lần}.$$"
+        "explanation": "Gọi $n$ là số ống khí hêli cần dùng để bơm đầy khí cầu.<br>• Khí trong khí cầu: $V_{kc} = 150\\text{ m}^3 = 150\\cdot 10^3\\text{ lít}$, $p_{kc} = 0,2\\text{ atm}$.<br>• Khí trong mỗi ống hêli: $V_0 = 50\\text{ lít}$, $p_0 = 100\\text{ atm}$.<br>Áp dụng định luật Boyle cho lượng khí hêli đẳng nhiệt:<br>$$p_{kc} \\cdot V_{kc} = n\\cdot (p_0 \\cdot V_0) \\Rightarrow n = \\frac{p_{kc} \\cdot V_{kc}}{p_0 \\cdot V_0} = \\frac{0,2 \\cdot 150\\cdot 10^3}{100 \\cdot 50} = \\frac{30000}{5000} = 6\\text{ ống}.$$<br><b>⇒ Đáp án: 6</b>"
       },
       {
         "id": 25,
@@ -5773,7 +5773,7 @@
           "20",
           "20"
         ],
-        "explanation": "• Ở trạng thái đầu (hình a): Áp suất $p_1 = p_0 - h_1 = 75 - 8 = 67\\text{ cmHg}$, thể tích $V_1 = 40\\text{ cm}^3$.<br>• Ở trạng thái sau (hình b, mực thủy ngân trong và ngoài bằng nhau): $p_2 = p_0 = 75\\text{ cmHg}$, thể tích $V_2 = x$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\Rightarrow x = \\frac{p_1 V_1}{p_0} = \\frac{67 \\cdot 40}{75} \\approx 35,7\\text{ cm}^3.$$"
+        "explanation": "Ống thủy tinh dài $l = 60\\text{ cm}$.<br>• Khi đầu hở ở trên: $p_1 = p_0 + 40 = 80 + 40 = 120\\text{ cmHg}$, $V_1 = 20\\cdot S$.<br>• Khi đầu hở ở dưới: Cột thủy ngân còn lại trong ống có chiều cao $h$, nên áp suất $p_2 = p_0 - h = 80 - h\\text{ cmHg}$, chiều dài cột khí $l_2 = l - h = 60 - h$, $V_2 = (60 - h)S$.<br>Áp dụng định luật Boyle:<br>$$p_1 V_1 = p_2 V_2 \\iff 120 \\cdot 20 = (80 - h)(60 - h)$$<br>$$h^2 - 140h + 2400 = 0 \\Rightarrow h = 20\\text{ cm}\\text{ (loại } h = 120\\text{ cm > } 60\\text{ cm)}.<br>Vậy độ cao cột thủy ngân còn lại trong ống là $20\\text{ cm}$.<br><b>⇒ Đáp án: 20</b>"
       },
       {
         "id": 24,
@@ -5888,7 +5888,7 @@
           "32,7",
           "32.7"
         ],
-        "explanation": "Áp dụng định luật Boyle cho cột không khí trong ống nghiệm:<br>$$p_0 l_0 = p_2 l_2 \\Rightarrow l_2 = \\frac{p_0 l_0}{p_0 - h\\cos\\alpha} = 35,9\\text{ cm}.$$"
+        "explanation": "Ống đặt nghiêng góc $30^\\circ$ so với phương ngang, miệng ở trên.<br>Độ cao hữu ích của cột thủy ngân: $h' = h\\cdot \\sin 30^\\circ = \\frac{15}{2} = 7,5\\text{ cm}$.<br>• Trạng thái 1 (thẳng đứng miệng ở trên): $p_1 = p_0 + h = 76 + 15 = 91\\text{ cmHg}$, $l_1 = 30\\text{ cm}$.<br>• Trạng thái 3 (nghiêng $30^\\circ$ miệng ở trên): $p_3 = p_0 + h' = 76 + 7,5 = 83,5\\text{ cmHg}$, $l_3$.<br>Áp dụng định luật Boyle:<br>$$p_1 l_1 = p_3 l_3 \\Rightarrow l_3 = \\frac{p_1 l_1}{p_3} = \\frac{91 \\cdot 30}{83,5} \\approx 32,7\\text{ cm}.$$<br><b>⇒ Đáp án: 32,7</b>"
       },
       {
         "id": 29,
@@ -8386,7 +8386,7 @@
           "1,95",
           "1.95"
         ],
-        "explanation": "Giải thích:\n𝒏.𝑽 .𝑷\n𝒎ỗ𝒊 𝒍ầ𝒏 𝒃ơ𝒎 𝒃ơ𝒎\n𝑝 =\n𝑽\nÁp suất tổng cộng sau khi bơm x lần có thể tính theo công thức sau:\n𝑷𝟐 = 𝑷𝟏+\n𝒏.𝑽\n𝒎ỗ𝒊 𝒍ầ𝒏 𝒃ơ𝒎\n.𝑷𝒃ơ𝒎\n= 𝟎.4𝟒+\n𝟓𝟎.𝟎.𝟏.𝟎.𝟗\n= 𝟏,𝟗𝟓\n𝑽 3"
+        "explanation": "Sau khi bơm $n = 50\\text{ lần}$, thể tích không khí ở áp suất $p_{bơm} = 0,9\\text{ atm}$ được đưa vào bình là:<br>$$V_{bơm} = n\\cdot V_0 = 50\\cdot 100\\text{ cm}^3 = 5000\\text{ cm}^3 = 5\\text{ lít}.$$<br>Theo định luật Boyle, áp suất do lượng khí bơm thêm này gây ra khi giãn vào bình $V = 3\\text{ lít}$ là:<br>$$p' = \\frac{p_{bơm} \\cdot V_{bơm}}{V} = \\frac{0,9 \\cdot 5}{3} = 1,5\\text{ atm}.$$<br>Áp suất tổng cộng trong bình sau 50 lần bơm:<br>$$p_2 = p_1 + p' = 0,45 + 1,5 = 1,95\\text{ atm}.$$<br><b>⇒ Đáp án: 1,95</b>"
       },
       {
         "id": 69,
