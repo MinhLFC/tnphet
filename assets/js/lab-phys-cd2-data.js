@@ -2524,8 +2524,8 @@
         "label": "Luyện tập • Phần 1 - Câu 13",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Biểu thức sau p V = p V biểu diễn quá trình\n1 1 2 2",
-        "prompt": "Biểu thức sau p V = p V biểu diễn quá trình\n1 1 2 2",
+        "question": "Biểu thức sau p₁·V₁ = p₂·V₂ biểu diễn quá trình:",
+        "prompt": "Biểu thức sau p₁·V₁ = p₂·V₂ biểu diễn quá trình:",
         "options": {
           "A": "đẳng nhiệt.",
           "B": "đẳng áp.",
@@ -2746,8 +2746,8 @@
         "label": "Luyện tập • Phần 2 - Câu 3",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là ρ = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
-        "prompt": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là ρ = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
+        "question": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00·10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 1,00·10<sup>5</sup> Pa, g = 10 m/s<sup>2</sup>.",
+        "prompt": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00·10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 1,00·10<sup>5</sup> Pa, g = 10 m/s<sup>2</sup>.",
         "statements": {
           "a": "Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.",
           "b": "Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p = 1,00.10<sup>5</sup> Pa",
@@ -2818,8 +2818,8 @@
         "label": "Luyện tập • Phần 3 - Câu 1",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p11_img1.png",
-        "question": "Một bọt khí nổi từ đáy giếng sâu 9 m lên mặt nước. Khi lên tới mặt nước, thể tích của bọt khí tăng lên\nbao nhiêu lần? Coi áp suất khí quyển là 1,013.10<sup>5</sup> Pa; khối lượng riêng của nước giếng là 1003 kg/m<sup>3</sup>. Nhiệt\nđộ của nước giếng không thay đổi theo độ sâu. Lấy g = 10 m/s2.\n(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một bọt khí nổi từ đáy giếng sâu 9 m lên mặt nước. Khi lên tới mặt nước, thể tích của bọt khí tăng lên\nbao nhiêu lần? Coi áp suất khí quyển là 1,013.10<sup>5</sup> Pa; khối lượng riêng của nước giếng là 1003 kg/m<sup>3</sup>. Nhiệt\nđộ của nước giếng không thay đổi theo độ sâu. Lấy g = 10 m/s2.\n(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
+        "question": "Một bọt khí nổi từ đáy giếng sâu 9 m lên mặt nước. Khi lên tới mặt nước, thể tích của bọt khí tăng lên bao nhiêu lần? Coi áp suất khí quyển là 1,013·10<sup>5</sup> Pa; khối lượng riêng của nước giếng là 10<sup>3</sup> kg/m<sup>3</sup>. Nhiệt độ của nước giếng không thay đổi theo độ sâu. Lấy g = 10 m/s<sup>2</sup>.<br>(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một bọt khí nổi từ đáy giếng sâu 9 m lên mặt nước. Khi lên tới mặt nước, thể tích của bọt khí tăng lên bao nhiêu lần? Coi áp suất khí quyển là 1,013·10<sup>5</sup> Pa; khối lượng riêng của nước giếng là 10<sup>3</sup> kg/m<sup>3</sup>. Nhiệt độ của nước giếng không thay đổi theo độ sâu. Lấy g = 10 m/s<sup>2</sup>.<br>(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
         "answer": "1,89",
         "acceptedAnswers": [
           "1,89",
@@ -2864,8 +2864,8 @@
         "label": "Luyện tập • Phần 3 - Câu 3",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Một bình có dung tích V = 4 lít chứa một khối khí lúc đầu ở áp suất p = 2,5 atm được thông với một\n1 1\nbình thứ 2 có dung tích V = 8,5 lít và được rút chân không. Áp suất của khối khí sau khi 2 bình được thông\n2\nnhau là bao nhiêu atm?\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một bình có dung tích V = 4 lít chứa một khối khí lúc đầu ở áp suất p = 2,5 atm được thông với một\n1 1\nbình thứ 2 có dung tích V = 8,5 lít và được rút chân không. Áp suất của khối khí sau khi 2 bình được thông\n2\nnhau là bao nhiêu atm?\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Một bình có dung tích V₁ = 4 lít chứa một khối khí lúc đầu ở áp suất p₁ = 2,5 atm được thông với một bình thứ hai có dung tích V₂ = 8,5 lít và được rút chân không. Áp suất của khối khí sau khi hai bình được thông nhau là bao nhiêu atm?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một bình có dung tích V₁ = 4 lít chứa một khối khí lúc đầu ở áp suất p₁ = 2,5 atm được thông với một bình thứ hai có dung tích V₂ = 8,5 lít và được rút chân không. Áp suất của khối khí sau khi hai bình được thông nhau là bao nhiêu atm?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
         "answer": "0,8",
         "acceptedAnswers": [
           "0,8",
@@ -2887,8 +2887,8 @@
         "label": "Luyện tập • Phần 3 - Câu 4",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p12_img1.png",
-        "question": "Khi thở ra, dung tích của phổi là 2,400 lít và áp suất của không khí trong phổi là 101,70.103 Pa. Cho\nbiết khi hít vào, áp suất này trở thành 101,01.103 Pa. Dung tích của phổi khi hít vào là bao nhiêu lít?\n(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Khi thở ra, dung tích của phổi là 2,400 lít và áp suất của không khí trong phổi là 101,70.103 Pa. Cho\nbiết khi hít vào, áp suất này trở thành 101,01.103 Pa. Dung tích của phổi khi hít vào là bao nhiêu lít?\n(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
+        "question": "Khi thở ra, dung tích của phổi là 2,400 lít và áp suất của không khí trong phổi là 101,70·10<sup>3</sup> Pa. Cho biết khi hít vào, áp suất này trở thành 101,01·10<sup>3</sup> Pa. Coi nhiệt độ không đổi, dung tích của phổi khi hít vào là bao nhiêu lít?<br>(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Khi thở ra, dung tích của phổi là 2,400 lít và áp suất của không khí trong phổi là 101,70·10<sup>3</sup> Pa. Cho biết khi hít vào, áp suất này trở thành 101,01·10<sup>3</sup> Pa. Coi nhiệt độ không đổi, dung tích của phổi khi hít vào là bao nhiêu lít?<br>(kết quả lấy 2 chữ số sau dấu phẩy thập phân)",
         "answer": "2,42",
         "acceptedAnswers": [
           "2,42",
@@ -3031,11 +3031,11 @@
         "label": "Tự luyện • Phần 1 - Câu 4",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Hệ thức nào sau đây là của định luật Bôi-lơ?\np V",
-        "prompt": "Hệ thức nào sau đây là của định luật Bôi-lơ?\np V",
+        "question": "Hệ thức nào sau đây diễn tả đúng định luật Boyle?",
+        "prompt": "Hệ thức nào sau đây diễn tả đúng định luật Boyle?",
         "options": {
-          "A": "pV = hằng số.",
-          "B": "p<sub>1</sub>.V<sub>2</sub> = p<sub>2</sub>.V<sub>1</sub>.",
+          "A": "p·V = hằng số.",
+          "B": "p₁·V₂ = p₂·V₁.",
           "C": "p / V = hằng số.",
           "D": "V / p = hằng số."
         },
@@ -3106,13 +3106,13 @@
         "label": "Tự luyện • Phần 1 - Câu 7",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?\np p p V",
-        "prompt": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?\np p p V",
+        "question": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?",
+        "prompt": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?",
         "options": {
-          "A": "p<sub>1</sub>.V<sub>1</sub> = p<sub>2</sub>.V<sub>2</sub>.",
-          "B": "pV = const.",
-          "C": "p<sub>1</sub> / V<sub>1</sub> = p<sub>2</sub> / V<sub>2</sub>.",
-          "D": "p<sub>1</sub> / p<sub>2</sub> = V<sub>2</sub> / V<sub>1</sub>."
+          "A": "p₁·V₁ = p₂·V₂.",
+          "B": "p·V = const.",
+          "C": "p₁ / V₁ = p₂ / V₂.",
+          "D": "p₁ / p₂ = V₂ / V₁."
         },
         "answer": "C",
         "explanation": "Theo định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ p₁/p₂ = V₂/V₁. Do đó hệ thức p₁/V₁ = p₂/V₂ không phải là phương trình định luật Boyle.<br><b>⇒ Chọn đáp án C.</b>"
@@ -3619,8 +3619,8 @@
         "label": "Tự luyện • Phần 3 - Câu 4",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Một bọt khí có thể tích 2,5cm3 được tạo ra từ khoang tàu ngầm đang lặn ở độ sâu 200m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi, biết khối lượng riêng của nước biển là 103kg/m<sup>3</sup>, áp suất khí\nquyển là p = 10<sup>5</sup> Pa và g = 10 m/s2. Khi bọt khí này nổi lên mặt nước thì sẽ có thể tích bằng bao nhiêm cm<sup>3</sup>\n0\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một bọt khí có thể tích 2,5cm3 được tạo ra từ khoang tàu ngầm đang lặn ở độ sâu 200m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi, biết khối lượng riêng của nước biển là 103kg/m<sup>3</sup>, áp suất khí\nquyển là p = 10<sup>5</sup> Pa và g = 10 m/s2. Khi bọt khí này nổi lên mặt nước thì sẽ có thể tích bằng bao nhiêm cm<sup>3</sup>\n0\n(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Một bọt khí có thể tích 2,5 cm<sup>3</sup> được tạo ra từ khoang tàu ngầm đang lặn ở độ sâu 200 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi, biết khối lượng riêng của nước biển là 10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 10<sup>5</sup> Pa và g = 10 m/s<sup>2</sup>. Khi bọt khí này nổi lên mặt nước thì sẽ có thể tích bằng bao nhiêu cm<sup>3</sup>?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một bọt khí có thể tích 2,5 cm<sup>3</sup> được tạo ra từ khoang tàu ngầm đang lặn ở độ sâu 200 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi, biết khối lượng riêng của nước biển là 10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 10<sup>5</sup> Pa và g = 10 m/s<sup>2</sup>. Khi bọt khí này nổi lên mặt nước thì sẽ có thể tích bằng bao nhiêu cm<sup>3</sup>?<br>(kết quả lấy 1 chữ số sau dấu phẩy thập phân)",
         "answer": "52,5",
         "acceptedAnswers": [
           "52,5",
@@ -3642,8 +3642,8 @@
         "label": "Tự luyện • Phần 3 - Câu 5",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p21_img1.png",
-        "question": "Một bơm xe đạp hình trụ có đường kính trong là 3 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và\nấn pit- tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p =\n0\n10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 4 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một bơm xe đạp hình trụ có đường kính trong là 3 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và\nấn pit- tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p =\n0\n10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 4 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "question": "Một bơm xe đạp hình trụ có đường kính trong là 3 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 4 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một bơm xe đạp hình trụ có đường kính trong là 3 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 4 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "answer": "212",
         "acceptedAnswers": [
           "212",
@@ -4123,8 +4123,8 @@
         "label": "Luyện tập • Phần 1 - Câu 18",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho\náp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa\nkhông khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong\n0 0\nbánh xe đạp vượt quá 1,5p thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Tính số lần đẩy bơm?\n0",
-        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho\náp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa\nkhông khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong\n0 0\nbánh xe đạp vượt quá 1,5p thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Tính số lần đẩy bơm?\n0",
+        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Tính số lần đẩy bơm?",
+        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Tính số lần đẩy bơm?",
         "options": {
           "A": "12",
           "B": "25",
@@ -4148,8 +4148,8 @@
         "label": "Luyện tập • Phần 2 - Câu 1",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p26_img1.png",
-        "question": "Người ta dùng bơm để bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350N\nthì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có\n0\nthể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p thì thể tích của\n0 0\nbánh xe đạp là 2000 cm<sup>3</sup>.",
-        "prompt": "Người ta dùng bơm để bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350N\nthì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có\n0\nthể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p thì thể tích của\n0 0\nbánh xe đạp là 2000 cm<sup>3</sup>.",
+        "question": "Người ta dùng bơm để bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>.",
+        "prompt": "Người ta dùng bơm để bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>.",
         "statements": {
           "a": "Có thể xem đây là quá trình đẳng nhiệt vì nhiệt độ không đổi",
           "b": "Áp suất của bánh xe sau khi bơm xong là 1,25.10<sup>5</sup> Pa",
@@ -4292,8 +4292,8 @@
         "label": "Luyện tập • Phần 3 - Câu 1",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p29_img1.png",
-        "question": "Một bạn nam đang đi xe đạp ở đường thì xe bị hết hơi trong săm xe, bạn nam đã mượn bơm để bơm\nxe. Sau 5 lần bơm thì diện tích tiếp xúc của lốp xe và mặt đất là S = 40cm2. Hỏi sau bao nhiêu lần bơm nữa\n1\nthì diện tích tiếp xúc là S = 10cm2. Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe,\n2\nthể tích mỗi lần bơm là như nhau và nhiệt độ trong quá trình bơm là không đổi.\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một bạn nam đang đi xe đạp ở đường thì xe bị hết hơi trong săm xe, bạn nam đã mượn bơm để bơm\nxe. Sau 5 lần bơm thì diện tích tiếp xúc của lốp xe và mặt đất là S = 40cm2. Hỏi sau bao nhiêu lần bơm nữa\n1\nthì diện tích tiếp xúc là S = 10cm2. Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe,\n2\nthể tích mỗi lần bơm là như nhau và nhiệt độ trong quá trình bơm là không đổi.\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "question": "Một bạn nam đang đi xe đạp ở đường thì xe bị hết hơi trong săm xe, bạn nam đã mượn bơm để bơm xe. Sau 5 lần bơm thì diện tích tiếp xúc của lốp xe và mặt đất là S₁ = 40 cm<sup>2</sup>. Hỏi sau bao nhiêu lần bơm nữa thì diện tích tiếp xúc là S₂ = 10 cm<sup>2</sup>? Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe, thể tích mỗi lần bơm là như nhau và nhiệt độ trong quá trình bơm là không đổi.<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một bạn nam đang đi xe đạp ở đường thì xe bị hết hơi trong săm xe, bạn nam đã mượn bơm để bơm xe. Sau 5 lần bơm thì diện tích tiếp xúc của lốp xe và mặt đất là S₁ = 40 cm<sup>2</sup>. Hỏi sau bao nhiêu lần bơm nữa thì diện tích tiếp xúc là S₂ = 10 cm<sup>2</sup>? Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe, thể tích mỗi lần bơm là như nhau và nhiệt độ trong quá trình bơm là không đổi.<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "answer": "15",
         "acceptedAnswers": [
           "15",
@@ -4555,8 +4555,8 @@
         "label": "Tự luyện • Phần 1 - Câu 6",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau\nđây?\n1",
-        "prompt": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau\nđây?\n1",
+        "question": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau đây?",
+        "prompt": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau đây?",
         "options": {
           "A": "p<sub>1</sub>.D<sub>2</sub> = p<sub>2</sub>.D<sub>1</sub>.",
           "B": "p<sub>1</sub>.D<sub>1</sub> = p<sub>2</sub>.D<sub>2</sub>.",
@@ -4655,8 +4655,8 @@
         "label": "Tự luyện • Phần 1 - Câu 10",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p33_img1.png",
-        "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle đối với lượng khí xác định ở hai nhiệt độ khác nhau\nvới T > T ?\n2 1",
-        "prompt": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle đối với lượng khí xác định ở hai nhiệt độ khác nhau\nvới T > T ?\n2 1",
+        "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle đối với lượng khí xác định ở hai nhiệt độ khác nhau với T₂ > T₁?",
+        "prompt": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle đối với lượng khí xác định ở hai nhiệt độ khác nhau với T₂ > T₁?",
         "options": {
           "A": "Hình 1",
           "B": "Hình 3",
@@ -4755,8 +4755,8 @@
         "label": "Tự luyện • Phần 1 - Câu 14",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho\náp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa\nkhông khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong\n0 0\nbánh xe đạp vượt quá 1,5p thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Số lần đẩy bơm gần bằng\n0",
-        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho\náp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa\nkhông khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong\n0 0\nbánh xe đạp vượt quá 1,5p thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Số lần đẩy bơm gần bằng\n0",
+        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Số lần đẩy bơm gần bằng:",
+        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một bánh xe đạp sao cho áp lực của bánh xe đạp lên mặt đường là 350 N thì diện tích tiếp xúc là 50 cm<sup>2</sup>. Ban đầu bánh xe đạp chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Giả thiết khi áp suất không khí trong bánh xe đạp vượt quá 1,5p₀ thì thể tích của bánh xe đạp là 2000 cm<sup>3</sup>. Số lần đẩy bơm gần bằng:",
         "options": {
           "A": "17.",
           "B": "10.",
@@ -4830,8 +4830,8 @@
         "label": "Tự luyện • Phần 1 - Câu 17",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Một học sinh đi xe đạp bị hết hơi trong săm xe, học sinh đó mượn bơm để bơm xe. Sau 15 lần bơm\nthì diện tích tiếp xúc của lốp xe và mặt đất là S = 30cm2. Hỏi sau bao nhiêu lần bơm nữa thì diện tích tiếp xúc\n1\nlà S = 10cm2. Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe, thể tích mỗi lần bơm\n2\nlà như nhau và nhiệt độ trong quá trình bơm là không đổi.",
-        "prompt": "Một học sinh đi xe đạp bị hết hơi trong săm xe, học sinh đó mượn bơm để bơm xe. Sau 15 lần bơm\nthì diện tích tiếp xúc của lốp xe và mặt đất là S = 30cm2. Hỏi sau bao nhiêu lần bơm nữa thì diện tích tiếp xúc\n1\nlà S = 10cm2. Biết rằng trọng lực của xe cân bằng với áp lực của không khí trong vỏ xe, thể tích mỗi lần bơm\n2\nlà như nhau và nhiệt độ trong quá trình bơm là không đổi.",
+        "question": "Một học sinh dùng bơm tay có diện tích pit-tông 10 cm<sup>2</sup>, khoảng chạy 30 cm để bơm một quả bóng có thể tích không đổi 3 lít. Ban đầu bóng chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa. Sau bao nhiêu lần bơm thì áp suất trong bóng đạt 2,5·10<sup>5</sup> Pa? Coi nhiệt độ không đổi.",
+        "prompt": "Một học sinh dùng bơm tay có diện tích pit-tông 10 cm<sup>2</sup>, khoảng chạy 30 cm để bơm một quả bóng có thể tích không đổi 3 lít. Ban đầu bóng chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa. Sau bao nhiêu lần bơm thì áp suất trong bóng đạt 2,5·10<sup>5</sup> Pa? Coi nhiệt độ không đổi.",
         "options": {
           "A": "8 lần.",
           "B": "10 lần.",
@@ -5116,8 +5116,8 @@
         "label": "Tự luyện • Phần 3 - Câu 5",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "",
-        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một quả bóng. Ban đầu\nquả bóng chứa không khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Sau 10 lần bơm\n0 0\nthì thể tích của quả bóng là 2000 cm<sup>3</sup>. Coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau\nkhi bơm là bao nhiêu 103 Pa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một quả bóng. Ban đầu\nquả bóng chứa không khí ở áp suất khí quyển p = 10<sup>5</sup> Pa và có thể tích là V = 1500 cm<sup>3</sup>. Sau 10 lần bơm\n0 0\nthì thể tích của quả bóng là 2000 cm<sup>3</sup>. Coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau\nkhi bơm là bao nhiêu 103 Pa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "question": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một quả bóng. Ban đầu quả bóng chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Sau 10 lần bơm thì thể tích của quả bóng là 2000 cm<sup>3</sup>. Coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau khi bơm là bao nhiêu 10<sup>3</sup> Pa?<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Người ta dùng bơm có pit-tông diện tích 8 cm<sup>2</sup> và khoảng chạy 25 cm bơm một quả bóng. Ban đầu quả bóng chứa không khí ở áp suất khí quyển p₀ = 10<sup>5</sup> Pa và có thể tích là V₀ = 1500 cm<sup>3</sup>. Sau 10 lần bơm thì thể tích của quả bóng là 2000 cm<sup>3</sup>. Coi quá trình bơm nhiệt độ không đổi, áp suất khí trong quả bóng sau khi bơm là bao nhiêu 10<sup>3</sup> Pa?<br>(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "answer": "175",
         "acceptedAnswers": [
           "175",
@@ -5272,8 +5272,8 @@
         "label": "Luyện tập • Phần 1 - Câu 5",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện đêu, hên\ntrong có cột không khí cao l = 20cm ngăn cách với bên ngoài bằng giọt thủy\nngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg. Chiều dài cột khí\n0\ntrong ống là bao nhiêu khi ống được dựng thẳng ống nghiệm ở trên?\nd",
-        "prompt": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện đêu, hên\ntrong có cột không khí cao l = 20cm ngăn cách với bên ngoài bằng giọt thủy\nngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg. Chiều dài cột khí\n0\ntrong ống là bao nhiêu khi ống được dựng thẳng ống nghiệm ở trên?\nd",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí trong ống là bao nhiêu khi ống được dựng thẳng đứng, miệng ống ở trên?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí trong ống là bao nhiêu khi ống được dựng thẳng đứng, miệng ống ở trên?",
         "options": {
           "A": "21cm",
           "B": "20cm",
@@ -5597,8 +5597,8 @@
         "label": "Luyện tập • Phần 1 - Câu 18",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p51_img2.png",
-        "question": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong\ncó cột không khí cao l = 20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d =\n4cm. Cho áp suất khí quyến là p = 76cmHg. Chiều dài cột khí là bao nhiêu khi ống\n0\nđứng thẳng miệng ở dưới?",
-        "prompt": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong\ncó cột không khí cao l = 20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d =\n4cm. Cho áp suất khí quyến là p = 76cmHg. Chiều dài cột khí là bao nhiêu khi ống\n0\nđứng thẳng miệng ở dưới?",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí là bao nhiêu khi ống dựng thẳng đứng, miệng ống ở dưới?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí là bao nhiêu khi ống dựng thẳng đứng, miệng ống ở dưới?",
         "options": {
           "A": "15,5 cm",
           "B": "22cm",
@@ -5694,8 +5694,8 @@
         "label": "Luyện tập • Phần 2 - Câu 3",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Ở chính giữa một ống thuỷ tinh nằm ngang, kín cả hai đầu có một cột thuỷ ngân dài h = 19,6 mm.\nNếu đặt ống nghiêng một góc 30° so với phương nằm ngang thì cột thuỷ ngân dịch chuyển một đoạn Δl = 20\n1\nmm. Nếu đặt ống thẳng đứng thì cột thuỷ ngân dịch chuyển một đoạn Δl = 30 mm.\n2",
-        "prompt": "Ở chính giữa một ống thuỷ tinh nằm ngang, kín cả hai đầu có một cột thuỷ ngân dài h = 19,6 mm.\nNếu đặt ống nghiêng một góc 30° so với phương nằm ngang thì cột thuỷ ngân dịch chuyển một đoạn Δl = 20\n1\nmm. Nếu đặt ống thẳng đứng thì cột thuỷ ngân dịch chuyển một đoạn Δl = 30 mm.\n2",
+        "question": "Ở chính giữa một ống thuỷ tinh nằm ngang, kín cả hai đầu có một cột thuỷ ngân dài h = 19,6 mm. Nếu đặt ống nghiêng một góc 30° so với phương nằm ngang thì cột thuỷ ngân dịch chuyển một đoạn Δl₁ = 20 mm. Nếu đặt ống thẳng đứng thì cột thuỷ ngân dịch chuyển một đoạn Δl₂ = 30 mm.",
+        "prompt": "Ở chính giữa một ống thuỷ tinh nằm ngang, kín cả hai đầu có một cột thuỷ ngân dài h = 19,6 mm. Nếu đặt ống nghiêng một góc 30° so với phương nằm ngang thì cột thuỷ ngân dịch chuyển một đoạn Δl₁ = 20 mm. Nếu đặt ống thẳng đứng thì cột thuỷ ngân dịch chuyển một đoạn Δl₂ = 30 mm.",
         "statements": {
           "a": "Khi ống nằm ngang, áp suất và thể tích của hai lượng khí ở hai bên ống là bằng nhau",
           "b": "Có thể áp dụng định luật Boyle cho quá trình biến đổi chất khí nói trên.",
@@ -5730,8 +5730,8 @@
         "label": "Luyện tập • Phần 2 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg.\n0",
-        "prompt": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg.\n0",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg.",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí dài l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg.",
         "statements": {
           "a": "Áp suất của cột không khí khi ống nghiệm nằm ngang là 86 cmHg",
           "b": "Áp suất của cột không khí khi ống nghiệm được dựng thẳng đứng miệng ống ở trên là 80 cmHg",
@@ -5812,8 +5812,8 @@
         "label": "Luyện tập • Phần 3 - Câu 3",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 14cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 10cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh thẳng đứng đầu hở ở dưới thì cột không khí trong ống có chiều dài l bằng bao\n2\nnhiêu cm?\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 14cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 10cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh thẳng đứng đầu hở ở dưới thì cột không khí trong ống có chiều dài l bằng bao\n2\nnhiêu cm?\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 14 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 10 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh thẳng đứng đầu hở ở dưới thì cột không khí trong ống có chiều dài l₂ bằng bao nhiêu cm?<br>(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 14 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 10 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh thẳng đứng đầu hở ở dưới thì cột không khí trong ống có chiều dài l₂ bằng bao nhiêu cm?<br>(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "14,5",
         "acceptedAnswers": [
           "14,5",
@@ -5835,8 +5835,8 @@
         "label": "Luyện tập • Phần 3 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy\nngân là 760mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp\nsuất khí quyển chiều cao cột nước là bao nhiêu mét ? Biết khối lươṇ g riêng của nước là 103 (kg/m<sup>3</sup>).\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân là 760 mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp suất khí quyển chiều cao cột nước là bao nhiêu mét? Biết khối lượng riêng của nước là 10<sup>3</sup> kg/m<sup>3</sup> và của thủy ngân là 13,6·10<sup>3</sup> kg/m<sup>3</sup>.<br>(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân là 760 mm. Nếu thay thủy ngân bằng một lượng nước đúng bằng lượng thủy ngân ban đầu thì khi đo áp suất khí quyển chiều cao cột nước là bao nhiêu mét? Biết khối lượng riêng của nước là 10<sup>3</sup> kg/m<sup>3</sup> và của thủy ngân là 13,6·10<sup>3</sup> kg/m<sup>3</sup>.<br>(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "10,3",
         "acceptedAnswers": [
           "10,3",
@@ -6004,8 +6004,8 @@
         "label": "Tự luyện • Phần 1 - Câu 5",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao\nl = 20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí là bao nhiêu\nd",
-        "prompt": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao\nl = 20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí là bao nhiêu\nd",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí khi ống dựng thẳng đứng, miệng ở trên là bao nhiêu?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 20 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Chiều dài cột không khí khi ống dựng thẳng đứng, miệng ở trên là bao nhiêu?",
         "options": {
           "A": "25,75 cm",
           "B": "15,85cm",
@@ -6054,8 +6054,8 @@
         "label": "Tự luyện • Phần 1 - Câu 7",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15 cm, áp suất khí quyển bằng p =\n1 0\n76 cmHg. Khi đặt ống thủy tinh theo phương thẳng đứng, đầu hở ở dưới thì chiều cao của cột không khí trong\nống bằng bao nhiêu?\n\n\n60 ===",
-        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15 cm, áp suất khí quyển bằng p =\n1 0\n76 cmHg. Khi đặt ống thủy tinh theo phương thẳng đứng, đầu hở ở dưới thì chiều cao của cột không khí trong\nống bằng bao nhiêu?\n\n\n60 ===",
+        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 15 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh theo phương thẳng đứng, đầu hở ở dưới thì chiều cao của cột không khí trong ống bằng bao nhiêu?",
+        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 15 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh theo phương thẳng đứng, đầu hở ở dưới thì chiều cao của cột không khí trong ống bằng bao nhiêu?",
         "options": {
           "A": "42 cm",
           "B": "23 cm",
@@ -6079,8 +6079,8 @@
         "label": "Tự luyện • Phần 1 - Câu 8",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p60_img1.png",
-        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
-        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
+        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 15 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của cột không khí trong ống bằng bao nhiêu?",
+        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l₁ = 15 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của cột không khí trong ống bằng bao nhiêu?",
         "options": {
           "A": "7,45 mm",
           "B": "30,5 mm",
@@ -6154,8 +6154,8 @@
         "label": "Tự luyện • Phần 1 - Câu 11",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p61_img1.png",
-        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 12 cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc α = 300 đối với phương thẳng đứng, đầu hở ở trên thì chiều cao\ncủa cột không khí trong ống bằng:",
-        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 12 cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc α = 300 đối với phương thẳng đứng, đầu hở ở trên thì chiều cao\ncủa cột không khí trong ống bằng:",
+        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở dưới thì chiều dài của cột không khí là l₂ = 20 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống nằm ngang thì chiều dài của cột không khí trong ống bằng bao nhiêu?",
+        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16 cm. Khi đặt ống thẳng đứng, đầu hở ở dưới thì chiều dài của cột không khí là l₂ = 20 cm, áp suất khí quyển bằng p₀ = 76 cmHg. Khi đặt ống nằm ngang thì chiều dài của cột không khí trong ống bằng bao nhiêu?",
         "options": {
           "A": "13,5cm",
           "B": "20,2cm",
@@ -6204,8 +6204,8 @@
         "label": "Tự luyện • Phần 1 - Câu 13",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p62_img1.png",
-        "question": "Một không khí trong ống thủy tinh hình trụ nhỏ dài tiết diện đều. Cột không khí được ngăn cách với\nkhông khí bên ngoài bởi một cột thủy ngân có chiều dài l = 15 mm. Chiều dài của cột không khí khi ống nằm\nngang là l = 150 mm. Cho áp suất khí quyển bằng 760 mm Hg. Khi ống được đặt thẳng đứng và miệng ống\n0\nhướng lên trên. Giả sử rằng nhiệt độ của khối khí là không thay đổi. Chiều dài của cột không khí trong ống là:",
-        "prompt": "Một không khí trong ống thủy tinh hình trụ nhỏ dài tiết diện đều. Cột không khí được ngăn cách với\nkhông khí bên ngoài bởi một cột thủy ngân có chiều dài l = 15 mm. Chiều dài của cột không khí khi ống nằm\nngang là l = 150 mm. Cho áp suất khí quyển bằng 760 mm Hg. Khi ống được đặt thẳng đứng và miệng ống\n0\nhướng lên trên. Giả sử rằng nhiệt độ của khối khí là không thay đổi. Chiều dài của cột không khí trong ống là:",
+        "question": "Một cột không khí trong ống thủy tinh hình trụ nhỏ dài, tiết diện đều, một đầu kín. Cột không khí được ngăn cách với không khí bên ngoài bởi một cột thủy ngân dài h = 15 cm. Khi ống đặt thẳng đứng miệng ở trên thì cột không khí dài l₁ = 30 cm, khi ống đặt nằm ngang thì cột không khí dài l₀ = 36 cm. Áp suất khí quyển p₀ bằng bao nhiêu cmHg?",
+        "prompt": "Một cột không khí trong ống thủy tinh hình trụ nhỏ dài, tiết diện đều, một đầu kín. Cột không khí được ngăn cách với không khí bên ngoài bởi một cột thủy ngân dài h = 15 cm. Khi ống đặt thẳng đứng miệng ở trên thì cột không khí dài l₁ = 30 cm, khi ống đặt nằm ngang thì cột không khí dài l₀ = 36 cm. Áp suất khí quyển p₀ bằng bao nhiêu cmHg?",
         "options": {
           "A": "127 mm",
           "B": "125mm",
@@ -6329,8 +6329,8 @@
         "label": "Tự luyện • Phần 1 - Câu 18",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n15 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 6 cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí trong ống là bao nhiêu khi ống được dựng thẳng ống nghiệm ở trên?",
-        "prompt": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n15 cm ngăn cách với bên ngoài bằng giọt thủy ngân dài d = 6 cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí trong ống là bao nhiêu khi ống được dựng thẳng ống nghiệm ở trên?",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 15 cm ngăn cách với bên ngoài bằng cột thủy ngân dài h = 10 cm. Cho áp suất khí quyển là p₀ = 75 cmHg. Khi ống đặt thẳng đứng miệng ở dưới thì chiều cao của cột không khí bằng bao nhiêu?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 15 cm ngăn cách với bên ngoài bằng cột thủy ngân dài h = 10 cm. Cho áp suất khí quyển là p₀ = 75 cmHg. Khi ống đặt thẳng đứng miệng ở dưới thì chiều cao của cột không khí bằng bao nhiêu?",
         "options": {
           "A": "14cm",
           "B": "25cm",
@@ -6354,9 +6354,14 @@
         "label": "Tự luyện • Phần 2 - Câu 1",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = (p - h ).Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1(\n = \np\n(\n0\np\n + \n0\nh\n + \n2\nh\n)\n1\nS\n)\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → ( p<sub>0</sub>\n + h\n1\n) l1 = ( p<sub>0</sub>\n + h\n2\n) l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = (p + h ).Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n = ( p<sub>0</sub>\n + h\n2\n) S l\n2\n⟹ Đ",
-        "prompt": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = (p - h ).Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1(\n = \np\n(\n0\np\n + \n0\nh\n + \n2\nh\n)\n1\nS\n)\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → ( p<sub>0</sub>\n + h\n1\n) l1 = ( p<sub>0</sub>\n + h\n2\n) l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = (p + h ).Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n = ( p<sub>0</sub>\n + h\n2\n) S l\n2\n⟹ Đ",
-        "statements": {},
+        "question": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống chứa không khí có độ dài l₁ = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h₁ = 11 cm. Đổ thêm thuỷ ngân thì đoạn chứa không khí có độ dài l₂ = 29 cm. Áp suất khí quyển p₀ = 76 cmHg và nhiệt độ không đổi.",
+        "prompt": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống chứa không khí có độ dài l₁ = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h₁ = 11 cm. Đổ thêm thuỷ ngân thì đoạn chứa không khí có độ dài l₂ = 29 cm. Áp suất khí quyển p₀ = 76 cmHg và nhiệt độ không đổi.",
+        "statements": {
+          "a": "Trước khi đổ thêm thủy ngân, tích số p₁·V₁ = (p₀ - h₁)·S·l₁.",
+          "b": "Sau khi đổ thêm thủy ngân: p₂·V₂ = (p₀ + h₂)·S·l₂.",
+          "c": "Độ chênh lệch hai mực thủy ngân sau khi đổ thêm là h₂ = 12 cm.",
+          "d": "Chiều dài cột không khí sau khi đổ thêm tăng lên so với ban đầu."
+        },
         "answer": {
           "a": "S",
           "b": "Đ",
@@ -6457,8 +6462,8 @@
         "label": "Tự luyện • Phần 2 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 30° so với phương\n0\nngang, miệng ống ở dưới .",
-        "prompt": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 30° so với phương\n0\nngang, miệng ống ở dưới .",
+        "question": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí quyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p₀ = 750 mmHg. Chiều dài cột không khí khi ống nằm ngang là l₀ = 120 mm. Khi ống đặt nghiêng góc 30° so với phương ngang, miệng ống ở dưới, nhiệt độ không đổi.",
+        "prompt": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí quyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p₀ = 750 mmHg. Chiều dài cột không khí khi ống nằm ngang là l₀ = 120 mm. Khi ống đặt nghiêng góc 30° so với phương ngang, miệng ống ở dưới, nhiệt độ không đổi.",
         "statements": {
           "a": "Áp suất và thể tích của lượng khí bị giam trong ống thủy tinh mang tỉ lệ thuận với nhau.",
           "b": "Khi ống nằm ngang: p₁ = 750 mmHg và V₁ = S·l₀.",
@@ -7516,8 +7521,8 @@
         "label": "Phần 1 - Câu 36",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn\npit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 =\n0\n10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 5 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?",
-        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn\npit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 =\n0\n10<sup>5</sup> Pa. Khi thể tích của không khí trong bơm giảm đi 5 lần thì lực tác dụng lên pit-tông bằng bao nhiêu N?",
+        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi lực tác dụng lên pit-tông là 314 N thì thể tích không khí trong bơm giảm đi bao nhiêu lần?",
+        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi lực tác dụng lên pit-tông là 314 N thì thể tích không khí trong bơm giảm đi bao nhiêu lần?",
         "options": {
           "A": "628 N",
           "B": "256 N",
@@ -7691,8 +7696,8 @@
         "label": "Phần 1 - Câu 43",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện\nđêu, hên trong có cột không khí cao l = 22cm ngăn cách với bên ngoài\nbằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p =\n0\n76cmHg. Chiều dài cột khí trong ống là bao nhiêu khi ống được dựng\nthẳng ống nghiệm ở trên?\nd",
-        "prompt": "Cho 1 ống nghiệm 1 đâu kín được đặt nằm ngang; tiết diện\nđêu, hên trong có cột không khí cao l = 22cm ngăn cách với bên ngoài\nbằng giọt thủy ngân dài d = 4cm. Cho áp suất khí quyến là p =\n0\n76cmHg. Chiều dài cột khí trong ống là bao nhiêu khi ống được dựng\nthẳng ống nghiệm ở trên?\nd",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 22 cm ngăn cách với bên ngoài bằng cột thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Khi dựng thẳng đứng miệng ở trên thì chiều dài cột không khí là bao nhiêu cm?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 22 cm ngăn cách với bên ngoài bằng cột thủy ngân dài d = 4 cm. Cho áp suất khí quyển là p₀ = 76 cmHg. Khi dựng thẳng đứng miệng ở trên thì chiều dài cột không khí là bao nhiêu cm?",
         "options": {
           "A": "21cm",
           "B": "20cm",
@@ -8016,8 +8021,8 @@
         "label": "Phần 1 - Câu 56",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài h = 8cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí là bao nhiêu khi ống đứng thẳng miệng ở dưới?\n\n\n85 ===",
-        "prompt": "Cho 1 ống nghiệm 1 đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l =\n20cm ngăn cách với bên ngoài bằng giọt thủy ngân dài h = 8cm. Cho áp suất khí quyến là p = 76cmHg.\n0\nChiều dài cột khí là bao nhiêu khi ống đứng thẳng miệng ở dưới?\n\n\n85 ===",
+        "question": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 20 cm ngăn cách với bên ngoài bằng cột thủy ngân dài h = 5 cm. Cho áp suất khí quyển là p₀ = 75 cmHg. Khi dựng thẳng đứng miệng ở trên thì chiều dài cột không khí là bao nhiêu cm?",
+        "prompt": "Cho một ống nghiệm một đầu kín được đặt nằm ngang; tiết diện đều, bên trong có cột không khí cao l = 20 cm ngăn cách với bên ngoài bằng cột thủy ngân dài h = 5 cm. Cho áp suất khí quyển là p₀ = 75 cmHg. Khi dựng thẳng đứng miệng ở trên thì chiều dài cột không khí là bao nhiêu cm?",
         "options": {
           "A": "21,11 cm",
           "B": "19,69cm",
@@ -8041,9 +8046,14 @@
         "label": "Phần 2 - Câu 1",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Sự biến thiên của áp suất khi nấu nướng trong nồi áp suất.\nA. Áp suất trong nồi áp suất tăng lên so với áp suất khí quyển bên ngoài khi nấu nướng. Điều này giúp nước\n⟹\nđạt nhiệt độ sôi cao hơn và thực phẩm nấu chín nhanh hơn so với nấu truyền thống. Đ\nB. Áp suất tăng lên trong nồi áp suất là do hơi nước được giữ lại bên trong nồi, làm tăng áp suất và nhiệt độ\nnấu nước ⟹ Đ\nC. Định luật Boyle được áp dụng để giải thích sự tăng áp suất trong nồi áp suất. ⟹ S\n(Thực tế là trong nồi áp suất, thể tích không phải là yếu tố quyết định chính để giải thích sự tăng áp suất, mà\nlà do hơi nước bị giữ lại)\nD. Khi sử dụng nồi áp suất, người nấu không cần phải quan tâm đến việc điều chỉnh nhiệt độ và thời gian nấu.\n⟹ S\n(Thực tế là việc điều chỉnh nhiệt độ và thời gian nấu rất quan trọng để đảm bảo món ăn được nấu chín đều và\nan toàn.)",
-        "prompt": "Sự biến thiên của áp suất khi nấu nướng trong nồi áp suất.\nA. Áp suất trong nồi áp suất tăng lên so với áp suất khí quyển bên ngoài khi nấu nướng. Điều này giúp nước\n⟹\nđạt nhiệt độ sôi cao hơn và thực phẩm nấu chín nhanh hơn so với nấu truyền thống. Đ\nB. Áp suất tăng lên trong nồi áp suất là do hơi nước được giữ lại bên trong nồi, làm tăng áp suất và nhiệt độ\nnấu nước ⟹ Đ\nC. Định luật Boyle được áp dụng để giải thích sự tăng áp suất trong nồi áp suất. ⟹ S\n(Thực tế là trong nồi áp suất, thể tích không phải là yếu tố quyết định chính để giải thích sự tăng áp suất, mà\nlà do hơi nước bị giữ lại)\nD. Khi sử dụng nồi áp suất, người nấu không cần phải quan tâm đến việc điều chỉnh nhiệt độ và thời gian nấu.\n⟹ S\n(Thực tế là việc điều chỉnh nhiệt độ và thời gian nấu rất quan trọng để đảm bảo món ăn được nấu chín đều và\nan toàn.)",
-        "statements": {},
+        "question": "Sự biến thiên của áp suất khi nấu nướng trong nồi áp suất:",
+        "prompt": "Sự biến thiên của áp suất khi nấu nướng trong nồi áp suất:",
+        "statements": {
+          "a": "Áp suất trong nồi áp suất tăng lên so với áp suất khí quyển bên ngoài khi nấu nướng. Điều này giúp nước đạt nhiệt độ sôi cao hơn và thực phẩm nấu chín nhanh hơn so với nấu truyền thống.",
+          "b": "Áp suất tăng lên trong nồi áp suất là do hơi nước được giữ lại bên trong nồi, làm tăng áp suất và nhiệt độ nấu nước.",
+          "c": "Định luật Boyle được áp dụng để giải thích sự tăng áp suất trong nồi áp suất.",
+          "d": "Khi sử dụng nồi áp suất, người nấu không cần phải quan tâm đến việc điều chỉnh nhiệt độ và thời gian nấu."
+        },
         "answer": {
           "a": "Đ",
           "b": "Đ",
@@ -8056,7 +8066,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Quá trình có nhiệt độ không đổi là quá trình đẳng nhiệt.<br>• b) Đúng: Biểu thức p₁V₁ = p₂V₂ biểu diễn đúng định luật Boyle.<br>• c) Sai: Đường đẳng nhiệt trong hệ (p, V) là đường hypebol chứ không phải đường thẳng.<br>• d) Sai: Khi V tăng thì p phải giảm tỉ lệ nghịch."
+        "explanation": "• a) Đúng: Áp suất tăng làm nhiệt độ sôi của nước tăng cao hơn 100°C.<br>• b) Đúng: Do hơi nước không thoát ra ngoài được làm tăng áp suất bên trong.<br>• c) Sai: Trong nồi áp suất, thể tích không đổi nhưng nhiệt độ và lượng hơi nước thay đổi, không tuân theo định luật Boyle (đẳng nhiệt).<br>• d) Sai: Cần kiểm soát thời gian và nhiệt độ để tránh quá nhiệt và đảm bảo an toàn."
       },
       {
         "id": 58,
@@ -8072,9 +8082,14 @@
         "label": "Phần 2 - Câu 2",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Khi bạn đóng gói hành lý vào một vali và nén chặt nó lại, bạn có thể quan sát thấy một số hiện tượng\nliên quan đến áp suất và thể tích không khí bên trong vali.\nA. Áp suất bên trong vali tăng lên so với áp suất bên ngoài khi bạn nén hành lý bên trong vali. Điều này giúp\n⟹\nhành lý được giữ chặt hơn và vali đóng kín hơn. Đ\n(Khi thể tích không khí bên trong vali giảm do nén hành lý, áp suất tăng lên, giúp giữ chặt hành lý và đảm bảo\nvali đóng kín.)\nB. Áp suất tăng lên trong vali là do không khí bên trong bị nén lại, làm tăng áp suất và giúp giữ hành lý chặt\n⟹\nhơn. Đ\n(Áp suất tăng là do thể tích không khí bên trong vali giảm khi bạn nén hành lý.)\n⟹\nC. Định luật Boyle được áp dụng để giải thích sự tăng áp suất bên trong vali khi nén hành lý. Đ\n(Định luật Boyle giải thích rằng khi thể tích khí giảm, áp suất tăng lên nếu nhiệt độ không đổi.\nD. Khi đóng gói hành lý trong vali, bạn không cần phải quan tâm đến việc điều chỉnh vị trí và số lượng hành\nlý. ⟹ S\n(Việc điều chỉnh vị trí và số lượng hành lý rất quan trọng để đảm bảo vali đóng kín và hành lý không bị hư\nhỏng trong quá trình di chuyển.)",
-        "prompt": "Khi bạn đóng gói hành lý vào một vali và nén chặt nó lại, bạn có thể quan sát thấy một số hiện tượng\nliên quan đến áp suất và thể tích không khí bên trong vali.\nA. Áp suất bên trong vali tăng lên so với áp suất bên ngoài khi bạn nén hành lý bên trong vali. Điều này giúp\n⟹\nhành lý được giữ chặt hơn và vali đóng kín hơn. Đ\n(Khi thể tích không khí bên trong vali giảm do nén hành lý, áp suất tăng lên, giúp giữ chặt hành lý và đảm bảo\nvali đóng kín.)\nB. Áp suất tăng lên trong vali là do không khí bên trong bị nén lại, làm tăng áp suất và giúp giữ hành lý chặt\n⟹\nhơn. Đ\n(Áp suất tăng là do thể tích không khí bên trong vali giảm khi bạn nén hành lý.)\n⟹\nC. Định luật Boyle được áp dụng để giải thích sự tăng áp suất bên trong vali khi nén hành lý. Đ\n(Định luật Boyle giải thích rằng khi thể tích khí giảm, áp suất tăng lên nếu nhiệt độ không đổi.\nD. Khi đóng gói hành lý trong vali, bạn không cần phải quan tâm đến việc điều chỉnh vị trí và số lượng hành\nlý. ⟹ S\n(Việc điều chỉnh vị trí và số lượng hành lý rất quan trọng để đảm bảo vali đóng kín và hành lý không bị hư\nhỏng trong quá trình di chuyển.)",
-        "statements": {},
+        "question": "Khi bạn đóng gói hành lý vào một vali và nén chặt nó lại, bạn có thể quan sát thấy một số hiện tượng liên quan đến áp suất và thể tích không khí bên trong vali:",
+        "prompt": "Khi bạn đóng gói hành lý vào một vali và nén chặt nó lại, bạn có thể quan sát thấy một số hiện tượng liên quan đến áp suất và thể tích không khí bên trong vali:",
+        "statements": {
+          "a": "Áp suất bên trong vali tăng lên so với áp suất bên ngoài khi bạn nén hành lý bên trong vali.",
+          "b": "Áp suất tăng lên trong vali là do không khí bên trong bị nén lại, làm tăng áp suất và giúp giữ hành lý chặt hơn.",
+          "c": "Định luật Boyle có thể được áp dụng để giải thích sự tăng áp suất bên trong vali khi nén hành lý nếu nhiệt độ coi như không đổi.",
+          "d": "Khi đóng gói hành lý trong vali, bạn không cần phải quan tâm đến việc điều chỉnh vị trí và số lượng hành lý."
+        },
         "answer": {
           "a": "Đ",
           "b": "Đ",
@@ -8087,7 +8102,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khí lí tưởng là mô hình khí mà các phân tử được coi là chất điểm và chỉ tương tác khi va chạm.<br>• b) Đúng: Định luật Boyle nghiệm đúng cho khí lí tưởng.<br>• c) Đúng: Đồ thị trong hệ (p, 1/V) là đường thẳng đi qua gốc tọa độ.<br>• d) Sai: Trong hệ (p, T) đường đẳng nhiệt vuông góc trục T chứ không song song."
+        "explanation": "• a, b, c) Đúng: Khi nén hành lý, thể tích không khí bên trong giảm dẫn đến áp suất tăng theo định luật Boyle (nếu nhiệt độ không đổi).<br>• d) Sai: Cần điều chỉnh vị trí và số lượng hành lý hợp lý để bảo vệ đồ đạc và dễ đóng khóa."
       },
       {
         "id": 59,
@@ -8103,9 +8118,14 @@
         "label": "Phần 2 - Câu 3",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một lượng khí được giữ ở nhiệt độ không đổi. Ban đầu khí có áp suất p<sub>1</sub> và thể tích 𝑉 . Sau đó, thể\n1\ntích của khí thay đổi thành 𝑉 , dẫn đến áp suất thay đổi thành p<sub>2</sub> .\n2\nHãy xác định nhận định nào đúng và nhận định nào sai trong các nhận định sau:\nA. Khi thể tích khí tăng lên, áp suất của khí cũng tăng lên nếu nhiệt độ không đổi. ⟹ S\n(Theo định luật Boyle, khi nhiệt độ không đổi, áp suất và thể tích tỉ lệ nghịch với nhau. Khi thể tích tăng lên,\náp suất giảm đi.)\n⟹\nB. Khi thể tích khí giảm, áp suất của khí tăng nếu nhiệt độ không đổi Đ\nC. Đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ không đổi là một đường thẳng trong hệ\ntọa độ (p, V). ⟹ S\n(Đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ không đổi là một nhánh của đường\nhyperbol trong hệ tọa độ (p, V).)\n\n\n87 ===\n⟹\nD. Định luật Boyle chỉ áp dụng khi nhiệt độ và lượng khí không đổi. Đ\nB. Mức độ VẬN DỤNG – VẬN DỤNG CAO",
-        "prompt": "Một lượng khí được giữ ở nhiệt độ không đổi. Ban đầu khí có áp suất p<sub>1</sub> và thể tích 𝑉 . Sau đó, thể\n1\ntích của khí thay đổi thành 𝑉 , dẫn đến áp suất thay đổi thành p<sub>2</sub> .\n2\nHãy xác định nhận định nào đúng và nhận định nào sai trong các nhận định sau:\nA. Khi thể tích khí tăng lên, áp suất của khí cũng tăng lên nếu nhiệt độ không đổi. ⟹ S\n(Theo định luật Boyle, khi nhiệt độ không đổi, áp suất và thể tích tỉ lệ nghịch với nhau. Khi thể tích tăng lên,\náp suất giảm đi.)\n⟹\nB. Khi thể tích khí giảm, áp suất của khí tăng nếu nhiệt độ không đổi Đ\nC. Đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ không đổi là một đường thẳng trong hệ\ntọa độ (p, V). ⟹ S\n(Đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ không đổi là một nhánh của đường\nhyperbol trong hệ tọa độ (p, V).)\n\n\n87 ===\n⟹\nD. Định luật Boyle chỉ áp dụng khi nhiệt độ và lượng khí không đổi. Đ\nB. Mức độ VẬN DỤNG – VẬN DỤNG CAO",
-        "statements": {},
+        "question": "Một lượng khí được giữ ở nhiệt độ không đổi. Ban đầu khí có áp suất p₁ và thể tích V₁. Sau đó, thể tích của khí thay đổi thành V₂, dẫn đến áp suất thay đổi thành p₂. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "prompt": "Một lượng khí được giữ ở nhiệt độ không đổi. Ban đầu khí có áp suất p₁ và thể tích V₁. Sau đó, thể tích của khí thay đổi thành V₂, dẫn đến áp suất thay đổi thành p₂. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "statements": {
+          "a": "Khi thể tích khí tăng lên, áp suất của khí cũng tăng lên nếu nhiệt độ không đổi.",
+          "b": "Khi thể tích khí giảm, áp suất của khí tăng nếu nhiệt độ không đổi.",
+          "c": "Đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ không đổi là một đường thẳng trong hệ tọa độ (p, V).",
+          "d": "Tích số giữa áp suất và thể tích luôn là một hằng số đối với một lượng khí xác định ở nhiệt độ không đổi (p₁·V₁ = p₂·V₂)."
+        },
         "answer": {
           "a": "S",
           "b": "Đ",
@@ -8118,7 +8138,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Sai: Áp suất và thể tích tỉ lệ nghịch với nhau.<br>• b) Đúng: Tích p·V là một hằng số khi T không đổi.<br>• c) Sai: Khi nén đẳng nhiệt thì mật độ phân tử tăng lên.<br>• d) Đúng: Khi thể tích giảm 2 lần thì áp suất tăng lên 2 lần."
+        "explanation": "• a) Sai: Theo định luật Boyle, áp suất và thể tích tỉ lệ nghịch với nhau ở nhiệt độ không đổi.<br>• b) Đúng: Khi thể tích giảm thì áp suất tăng tỉ lệ nghịch.<br>• c) Sai: Đường đẳng nhiệt trong hệ tọa độ (p, V) là một nhánh của đường hyperbol.<br>• d) Đúng: Biểu thức định luật Boyle là p·V = const hay p₁·V₁ = p₂·V₂."
       },
       {
         "id": 60,
@@ -8134,9 +8154,14 @@
         "label": "Phần 2 - Câu 4",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bóng bay chứa khí heli được thả vào không khí ở nhiệt độ không đổi. Ban đầu, bóng bay có áp\nsuất 𝑝 =1 atm và thể tích 𝑉 =2 lít. Khi bóng bay lên cao, áp suất bên ngoài giảm xuống còn 𝑝 =0.5 atm.\n1 1 2\nGiả sử nhiệt độ không thay đổi và lượng khí trong bóng bay không đổi và bóng chỉ chịu được dãn nỡ tôi đa\nđến thể tích 7,7 lít\nHãy xác định nhận định nào đúng và nhận định nào sai trong các nhận định sau:\n⟹\nA. Khi bóng bay lên cao, thể tích của bóng bay sẽ tăng. Đ\n(Theo định luật Boyle, khi áp suất giảm, thể tích tăng nếu nhiệt độ không đổi.)\n⟹\nB. Khi áp suất giảm xuống còn 0.5 atm, thể tích của bóng bay sẽ tăng gấp đôi so với ban đầu. Đ\n(Với áp suất giảm từ 1 atm xuống 0.5 atm, theo định luật Boyle, thể tích tăng gấp đôi từ 2 lít lên 4 lít.)\nC. Đường biểu diễn sự thay đổi áp suất và thể tích của bóng bay trên hệ tọa độ (p, V) là một đường thẳng.\n⟹ S\n(Đường biểu diễn sự thay đổi áp suất và thể tích trong hệ tọa độ (p, V) là một nhánh của đường hyperbol,\nkhông phải là một đường thẳng.)\nD. Nếu áp suất bên ngoài giảm tiếp xuống còn 0.25 atm, thì bóng có tiếp tục bay lên ⟹ S\n(Thể tích của bóng bay tăng lên 8 lít>7,7 lít=> bóng sẽ vỡ)",
-        "prompt": "Một bóng bay chứa khí heli được thả vào không khí ở nhiệt độ không đổi. Ban đầu, bóng bay có áp\nsuất 𝑝 =1 atm và thể tích 𝑉 =2 lít. Khi bóng bay lên cao, áp suất bên ngoài giảm xuống còn 𝑝 =0.5 atm.\n1 1 2\nGiả sử nhiệt độ không thay đổi và lượng khí trong bóng bay không đổi và bóng chỉ chịu được dãn nỡ tôi đa\nđến thể tích 7,7 lít\nHãy xác định nhận định nào đúng và nhận định nào sai trong các nhận định sau:\n⟹\nA. Khi bóng bay lên cao, thể tích của bóng bay sẽ tăng. Đ\n(Theo định luật Boyle, khi áp suất giảm, thể tích tăng nếu nhiệt độ không đổi.)\n⟹\nB. Khi áp suất giảm xuống còn 0.5 atm, thể tích của bóng bay sẽ tăng gấp đôi so với ban đầu. Đ\n(Với áp suất giảm từ 1 atm xuống 0.5 atm, theo định luật Boyle, thể tích tăng gấp đôi từ 2 lít lên 4 lít.)\nC. Đường biểu diễn sự thay đổi áp suất và thể tích của bóng bay trên hệ tọa độ (p, V) là một đường thẳng.\n⟹ S\n(Đường biểu diễn sự thay đổi áp suất và thể tích trong hệ tọa độ (p, V) là một nhánh của đường hyperbol,\nkhông phải là một đường thẳng.)\nD. Nếu áp suất bên ngoài giảm tiếp xuống còn 0.25 atm, thì bóng có tiếp tục bay lên ⟹ S\n(Thể tích của bóng bay tăng lên 8 lít>7,7 lít=> bóng sẽ vỡ)",
-        "statements": {},
+        "question": "Một bóng bay chứa khí heli được thả vào không khí ở nhiệt độ không đổi. Ban đầu, bóng bay có áp suất p₁ = 1 atm và thể tích V₁ = 2 lít. Khi bóng bay lên cao, áp suất bên ngoài giảm xuống còn p₂ = 0,5 atm. Giả sử nhiệt độ không thay đổi, lượng khí trong bóng bay không đổi và bóng chỉ chịu được dãn nở tối đa đến thể tích 7,7 lít. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "prompt": "Một bóng bay chứa khí heli được thả vào không khí ở nhiệt độ không đổi. Ban đầu, bóng bay có áp suất p₁ = 1 atm và thể tích V₁ = 2 lít. Khi bóng bay lên cao, áp suất bên ngoài giảm xuống còn p₂ = 0,5 atm. Giả sử nhiệt độ không thay đổi, lượng khí trong bóng bay không đổi và bóng chỉ chịu được dãn nở tối đa đến thể tích 7,7 lít. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "statements": {
+          "a": "Khi bóng bay lên cao, thể tích của bóng bay sẽ tăng.",
+          "b": "Khi áp suất giảm xuống còn 0,5 atm, thể tích của bóng bay sẽ tăng gấp đôi so với ban đầu (đạt 4 lít).",
+          "c": "Đường biểu diễn sự thay đổi áp suất và thể tích của bóng bay trên hệ tọa độ (p, V) là một đường thẳng.",
+          "d": "Nếu áp suất bên ngoài giảm tiếp xuống còn 0,25 atm thì bóng sẽ tiếp tục bay lên mà không bị vỡ."
+        },
         "answer": {
           "a": "Đ",
           "b": "Đ",
@@ -8149,7 +8174,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khối khí tuân theo định luật Boyle vì nhiệt độ không đổi.<br>• b) Đúng: Áp suất ở đáy hồ bằng áp suất khí quyển cộng áp suất thủy tĩnh: p = p₀ + ρgh.<br>• c) Sai: Thể tích bọt khí tăng lên khi nổi lên mặt nước do áp suất giảm.<br>• d) Sai: Tỉ số thể tích tính theo (p₀ + ρgh) / p₀."
+        "explanation": "• a) Đúng: Lên cao áp suất khí quyển giảm nên bóng nở ra.<br>• b) Đúng: Áp suất giảm một nửa (1 → 0,5 atm) thì thể tích tăng gấp đôi (2 → 4 lít).<br>• c) Sai: Đường đẳng nhiệt trong hệ (p, V) là hypebol.<br>• d) Sai: Nếu p = 0,25 atm thì V = (1·2)/0,25 = 8 lít > 7,7 lít nên bóng sẽ bị nổ."
       },
       {
         "id": 61,
@@ -8165,9 +8190,14 @@
         "label": "Phần 2 - Câu 5",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một phong vũ biểu (barometer) được sử dụng để đo áp suất khí quyển ở hai độ cao khác nhau. Ban\nđầu, phong vũ biểu đo được áp suất khí quyển là 𝑝 =760 mmHg ở mặt đất. Khi phong vũ biểu được đưa lên\n1\nđỉnh núi cao, áp suất đo được là 𝑝_2=600 mmHg. Giả sử nhiệt độ không thay đổi và không có sự thay đổi về\nthể tích của chất lỏng trong phong vũ biểu. Hãy xác định nhận định nào đúng và nhận định nào sai trong các\nnhận định sau:\n⟹\nA. Khi áp suất khí quyển giảm, cột thủy ngân trong phong vũ biểu sẽ giảm xuống. Đ\n(Khi áp suất khí quyển giảm, cột thủy ngân trong phong vũ biểu sẽ giảm vì áp suất bên ngoài ít hơn, làm cho\ncột thủy ngân không bị đẩy lên cao.)\nB. Khi áp suất khí quyển ở đỉnh núi là 600 mmHg, thì áp suất ở đỉnh núi thấp hơn áp suất ở mặt đất là 150mmHg\n⟹ S\n(Áp suất khí quyển ở đỉnh núi là 600 mmHg thấp hơn áp suất ở mặt đất là 760 mmHg=> Độ giảm là\n160mmHg), điều này phản ánh đúng thực tế khi áp suất giảm theo độ cao.)\nC. Giả thiết rằng cứ lên cao 10m thì áp suất giảm 1mmHg nên độ cao của đỉnh núi là 1,5km ⟹ S\n(Độ giảm là 160mmHg nên độ cao tương ứng là 1600m)\nD. Nếu áp suất khí quyển tiếp tục giảm xuống còn 500 mmHg, cột thủy ngân trong phong vũ biểu sẽ giảm\n⟹\nxuống dưới 600 mmHg. Đ\n(Nếu áp suất khí quyển giảm xuống còn 500 mmHg, cột thủy ngân trong phong vũ biểu sẽ giảm xuống dưới\nmức 600 mmHg vì áp suất thấp hơn tiếp tục làm giảm độ cao của cột thủy ngân.)",
-        "prompt": "Một phong vũ biểu (barometer) được sử dụng để đo áp suất khí quyển ở hai độ cao khác nhau. Ban\nđầu, phong vũ biểu đo được áp suất khí quyển là 𝑝 =760 mmHg ở mặt đất. Khi phong vũ biểu được đưa lên\n1\nđỉnh núi cao, áp suất đo được là 𝑝_2=600 mmHg. Giả sử nhiệt độ không thay đổi và không có sự thay đổi về\nthể tích của chất lỏng trong phong vũ biểu. Hãy xác định nhận định nào đúng và nhận định nào sai trong các\nnhận định sau:\n⟹\nA. Khi áp suất khí quyển giảm, cột thủy ngân trong phong vũ biểu sẽ giảm xuống. Đ\n(Khi áp suất khí quyển giảm, cột thủy ngân trong phong vũ biểu sẽ giảm vì áp suất bên ngoài ít hơn, làm cho\ncột thủy ngân không bị đẩy lên cao.)\nB. Khi áp suất khí quyển ở đỉnh núi là 600 mmHg, thì áp suất ở đỉnh núi thấp hơn áp suất ở mặt đất là 150mmHg\n⟹ S\n(Áp suất khí quyển ở đỉnh núi là 600 mmHg thấp hơn áp suất ở mặt đất là 760 mmHg=> Độ giảm là\n160mmHg), điều này phản ánh đúng thực tế khi áp suất giảm theo độ cao.)\nC. Giả thiết rằng cứ lên cao 10m thì áp suất giảm 1mmHg nên độ cao của đỉnh núi là 1,5km ⟹ S\n(Độ giảm là 160mmHg nên độ cao tương ứng là 1600m)\nD. Nếu áp suất khí quyển tiếp tục giảm xuống còn 500 mmHg, cột thủy ngân trong phong vũ biểu sẽ giảm\n⟹\nxuống dưới 600 mmHg. Đ\n(Nếu áp suất khí quyển giảm xuống còn 500 mmHg, cột thủy ngân trong phong vũ biểu sẽ giảm xuống dưới\nmức 600 mmHg vì áp suất thấp hơn tiếp tục làm giảm độ cao của cột thủy ngân.)",
-        "statements": {},
+        "question": "Một phong vũ biểu (barometer) thủy ngân được sử dụng để đo áp suất khí quyển ở hai độ cao khác nhau. Ban đầu, phong vũ biểu đo được áp suất khí quyển là p₁ = 760 mmHg ở mặt đất. Khi phong vũ biểu được đưa lên đỉnh núi cao, áp suất đo được là p₂ = 600 mmHg. Giả sử nhiệt độ không thay đổi. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "prompt": "Một phong vũ biểu (barometer) thủy ngân được sử dụng để đo áp suất khí quyển ở hai độ cao khác nhau. Ban đầu, phong vũ biểu đo được áp suất khí quyển là p₁ = 760 mmHg ở mặt đất. Khi phong vũ biểu được đưa lên đỉnh núi cao, áp suất đo được là p₂ = 600 mmHg. Giả sử nhiệt độ không thay đổi. Hãy xác định tính đúng / sai của các nhận định sau:",
+        "statements": {
+          "a": "Khi áp suất khí quyển giảm, cột thủy ngân trong phong vũ biểu sẽ giảm xuống.",
+          "b": "Khi áp suất khí quyển ở đỉnh núi là 600 mmHg thì áp suất ở đỉnh núi thấp hơn áp suất ở mặt đất là 150 mmHg.",
+          "c": "Giả thiết rằng cứ lên cao 10 m thì áp suất giảm 1 mmHg nên độ cao của đỉnh núi là 1,5 km.",
+          "d": "Nếu áp suất khí quyển tiếp tục giảm xuống còn 500 mmHg, cột thủy ngân trong phong vũ biểu sẽ giảm xuống dưới 600 mmHg."
+        },
         "answer": {
           "a": "Đ",
           "b": "S",
@@ -8180,7 +8210,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khi kéo pit-tông từ từ thì nhiệt độ khí không đổi.<br>• b) Sai: Áp suất tính theo công thức cân bằng lực p = p₀ - F/S.<br>• c) Sai: Thể tích khí tỉ lệ nghịch với áp suất.<br>• d) Đúng: Lực cần tác dụng tính được từ độ chênh lệch áp suất F = (p₀ - p)·S."
+        "explanation": "• a) Đúng: Áp suất ngoài giảm thì cột thủy ngân hạ xuống.<br>• b) Sai: Độ giảm áp suất là 760 - 600 = 160 mmHg.<br>• c) Sai: Độ cao của đỉnh núi là h = 160 · 10 = 1600 m = 1,6 km.<br>• d) Đúng: Khi áp suất giảm tiếp xuống 500 mmHg thì cột thủy ngân tiếp tục hạ xuống dưới 600 mmHg."
       },
       {
         "id": 62,
@@ -8196,9 +8226,14 @@
         "label": "Phần 2 - Câu 6",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.10<sup>5</sup>)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
-        "prompt": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.10<sup>5</sup>)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
-        "statements": {},
+        "question": "Một bọt khí có thể tích 2 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1,03·10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 1,02·10<sup>5</sup> Pa, lấy g = 9,8 m/s<sup>2</sup>:",
+        "prompt": "Một bọt khí có thể tích 2 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1,03·10<sup>3</sup> kg/m<sup>3</sup>, áp suất khí quyển là p₀ = 1,02·10<sup>5</sup> Pa, lấy g = 9,8 m/s<sup>2</sup>:",
+        "statements": {
+          "a": "Áp suất của bọt khí ở độ sâu 150 m dưới mực nước biển là 16,16·10<sup>5</sup> Pa.",
+          "b": "Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p₀ = 1,02·10<sup>5</sup> Pa.",
+          "c": "Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 150 m.",
+          "d": "Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm<sup>3</sup>."
+        },
         "answer": {
           "a": "Đ",
           "b": "S",
@@ -8211,7 +8246,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khi ống nằm ngang áp suất khí trong ống bằng áp suất khí quyển p₀.<br>• b) Sai: Khi dựng đứng miệng ở trên áp suất tăng thêm một lượng bằng áp suất cột thủy ngân p = p₀ + h.<br>• c) Đúng: Chiều dài cột không khí tính theo l₂ = (p₀·l₁) / (p₀ + h).<br>• d) Sai: Khi lật ngược miệng ở dưới chiều dài cột không khí sẽ dãn ra dài hơn l₁."
+        "explanation": "• a) Đúng: p₁ = p₀ + ρgh = 1,02·10⁵ + 1,03·10³·9,8·150 = 16,161·10⁵ Pa.<br>• b) Sai: Khi lên tới mặt nước, áp suất bọt khí bằng đúng áp suất khí quyển p₀ = 1,02·10⁵ Pa.<br>• c) Đúng: Quá trình đẳng nhiệt nên định luật Boyle p₁·V₁ = p₀·V₀ hoàn toàn nghiệm đúng.<br>• d) Sai: Thể tích khi lên mặt nước là V₂ = (p₁·V₁)/p₀ = (16,161·10⁵ · 2) / (1,02·10⁵) ≈ 31,69 cm³."
       },
       {
         "id": 63,
@@ -8298,8 +8333,8 @@
         "label": "Phần 3 - Câu 4",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
-        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
+        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi tác dụng lực 628 N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
+        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là p₀ = 10<sup>5</sup> Pa. Khi tác dụng lực 628 N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
         "answer": "4",
         "acceptedAnswers": [
           "4",
