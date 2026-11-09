@@ -1,36 +1,37 @@
 /**
  * ============================================================================
- * MODULE TRÌNH CHIẾU & SỬA BÀI BỘ 7 ĐỀ ÔN TẬP & CHUYÊN ĐỀ VẬT LÍ 12
- * Gồm:
- *   1. Đề 1 Giữa kì (25 câu: 16 ABCD + 3 Đ/S + 6 TLN)
- *   2. Đề 2 Giữa kì (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
- *   3. Đề cương GK1 (78 câu: 57 ABCD + 8 Đ/S + 13 TLN - 6 Bài học)
- *   4. Chuyên đề Nhiệt hóa hơi riêng (41 câu: 37 ABCD + 4 Đ/S)
- *   5. CĐ2: Bài tập luyện tập (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
- *   6. CĐ2: Bài tập tự luyện (28 câu: 18 ABCD + 4 Đ/S + 6 TLN)
- *   7. CĐ2: Phân hóa theo mức độ (45 câu: 30 ABCD + 7 Đ/S + 8 TLN)
+ * MODULE TRÌNH CHIẾU & SỬA BÀI VẬT LÍ 12 — CHUYÊN ĐỀ & BỘ ĐỀ ÔN TẬP
+ * Cập nhật trọn bộ:
+ *   🔬 CHỦ ĐỀ 2: ĐỊNH LUẬT BOYLE (239 câu hỏi chia theo dạng & bài tập mức độ)
+ *      - Dạng 1: Xác định áp suất và thể tích (56 câu: 28 LT + 28 TL)
+ *      - Dạng 2: Xác định số lần bơm (56 câu: 28 LT + 28 TL)
+ *      - Dạng 3: Quá trình đẳng nhiệt trong ống thủy tinh (56 câu: 28 LT + 28 TL)
+ *      - Bài tập theo mức độ: 71 câu (56 ABCD + 6 Đúng/Sai + 9 TLN)
+ *   🎈 CĐ2 - BÀI 1: MÔ HÌNH ĐỘNG HỌC PHÂN TỬ CHẤT KHÍ (101 câu: 3 bộ đề)
+ *   ⚡ ÔN TẬP GIỮA KÌ 1 & VẬT LÍ NHIỆT (4 đề ôn tập tổng hợp)
  *
- * Tính năng:
- * - Chế độ Trình chiếu (Slide) & Danh sách (List)
- * - Tăng giảm cỡ chữ trình chiếu máy chiếu (Font zoom 80% - 150%)
- * - Bảng đáp án nhanh toàn bộ các phần (ABCD, Đúng/Sai, Trả lời ngắn)
- * - Hỗ trợ phóng to hình ảnh thí nghiệm / đồ thị HD toàn màn hình
- * - Phím tắt máy tính: ⬅️ ➡️ chuyển câu, S đánh dấu, Space hiện lời giải, 1-4/A-D chọn đáp án
+ * Tính năng nâng cấp:
+ * - Lưới câu hỏi phân chia mục (Mục / Dạng) khớp 100% tài liệu PDF
+ * - Bảng đáp án toàn bộ chia theo mục chuẩn xác, nhấp vào chuyển ngay đến câu
+ * - Phóng to hình vẽ thí nghiệm / đồ thị thực tế cắt trực tiếp từ tài liệu
+ * - Trình chiếu Slide & Danh sách, phóng to chữ máy chiếu (A- / A+)
+ * - Sửa lỗi tương phản (chữ trắng sắc nét trên badge xanh), không lỗi undefined
  * ============================================================================
  */
 
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'tnphet_phys_quiz_state_v2';
+  const STORAGE_KEY = 'tnphet_phys_quiz_state_v4';
 
   const state = {
-    category: 'nhiet', // 'nhiet' | 'khilituong'
-    currentExamId: 'ly_de1',
+    category: 'boyle', // 'boyle' | 'dhpt' | 'nhiet'
+    currentExamId: 'ly_boyle_d1',
     mode: 'slide', // 'slide' | 'list'
     currentIndex: 0,
     filterPart: 'ALL', // 'ALL' | 1 | 2 | 3
     filterStarred: false,
+    selectedSection: 'ALL',
     sidebarOpen: true,
     fontScale: 1.0,
     isFullscreen: false,
@@ -49,59 +50,97 @@
     revealedQuestions: {}
   };
 
-  function normalizeNumberStr(str) {
-    if (str === undefined || str === null) return '';
-    return String(str)
+  function normalizeNumberStr(s) {
+    if (s === undefined || s === null) return '';
+    return String(s)
       .trim()
       .replace(/\s+/g, '')
-      .replace(',', '.')
+      .replace(/,/g, '.')
       .replace(/^0+(?=\d)/, '');
   }
 
+  function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
   function escapeAttr(str) {
-    if (!str) return '';
-    return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function getQuestionSection(q, exam) {
+    if (q.section && q.sectionTitle) {
+      return {
+        key: q.section,
+        title: q.sectionTitle,
+        short: q.sectionShort || q.section,
+        code: q.d_label ? q.d_label.split('•')[0].trim() : (q.sectionShort || '')
+      };
+    }
+    const pName = q.part === 1 ? 'Phần 1: Nhiều lựa chọn' : (q.part === 2 ? 'Phần 2: Đúng / Sai' : 'Phần 3: Trả lời ngắn');
+    return {
+      key: `part_${q.part}`,
+      title: pName,
+      short: `P${q.part}`,
+      code: `Phần ${q.part}`
+    };
   }
 
   function getCurrentExam() {
     const data = window.PHYS_EXAMS_DATA || {};
-    return data[state.currentExamId] || Object.values(data)[0] || null;
-  }
-
-  function getQKey(qid) {
-    return `${state.currentExamId}_q${qid}`;
-  }
-
-  function hasExamProgress(code) {
-    return (
-      Object.keys(state.mcqAnswers).some(k => k.startsWith(code + '_')) ||
-      Object.keys(state.tfAnswers).some(k => k.startsWith(code + '_')) ||
-      Object.keys(state.shortAnswers).some(k => k.startsWith(code + '_'))
-    );
-  }
-
-  function isMcqOptionCorrect(q, letter) {
-    if (!letter) return false;
-    if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.includes(letter)) {
-      return true;
+    if (!data[state.currentExamId]) {
+      const keys = Object.keys(data);
+      if (keys.length > 0) {
+        state.currentExamId = keys[0];
+      }
     }
-    return letter === q.answer;
+    return data[state.currentExamId] || null;
+  }
+
+  function getQKey(qId) {
+    return `${state.currentExamId}_q${qId}`;
+  }
+
+  function hasExamProgress(examCode) {
+    const prefix = `${examCode}_`;
+    for (const k in state.mcqAnswers) if (k.startsWith(prefix)) return true;
+    for (const k in state.tfAnswers) if (k.startsWith(prefix)) return true;
+    for (const k in state.shortAnswers) if (k.startsWith(prefix)) return true;
+    return false;
+  }
+
+  function isMcqOptionCorrect(q, optKey) {
+    if (!q || !q.answer) return false;
+    return String(q.answer).trim().toUpperCase() === String(optKey).trim().toUpperCase();
   }
 
   function getFilteredQuestions() {
     const exam = getCurrentExam();
     if (!exam || !exam.questions) return [];
-
     return exam.questions.filter((q) => {
-      if (state.filterPart !== 'ALL' && q.part !== Number(state.filterPart)) return false;
-      if (state.filterStarred && !state.starredQuestions[getQKey(q.id)]) return false;
+      if (state.filterPart !== 'ALL' && q.part !== state.filterPart) {
+        return false;
+      }
+      if (state.filterStarred) {
+        const key = getQKey(q.id);
+        if (!state.starredQuestions[key]) return false;
+      }
       return true;
     });
   }
 
   function evaluateQuestionStatus(q) {
     const key = getQKey(q.id);
-
     if (q.type === 'mcq') {
       const user = state.mcqAnswers[key];
       if (!user) return 'UNANSWERED';
@@ -110,14 +149,13 @@
 
     if (q.type === 'tf') {
       const user = state.tfAnswers[key];
-      if (!user || Object.keys(user).length === 0) return 'UNANSWERED';
-      const subKeys = ['a', 'b', 'c', 'd'];
-      const correctAns = q.answer || q.answers || {};
-      const answeredKeys = subKeys.filter(k => typeof user[k] === 'boolean');
+      if (!user) return 'UNANSWERED';
+      const answeredKeys = Object.keys(user).filter(k => typeof user[k] === 'boolean');
       if (answeredKeys.length === 0) return 'UNANSWERED';
 
+      const correctAns = q.answer || q.answers || {};
       let correctCount = 0;
-      for (const k of subKeys) {
+      for (const k of ['a', 'b', 'c', 'd']) {
         if (typeof user[k] === 'boolean') {
           const isTrue = correctAns[k] === true || correctAns[k] === 'Đ' || correctAns[k] === 'D';
           if (user[k] === isTrue) correctCount++;
@@ -146,7 +184,6 @@
     return 'UNANSWERED';
   }
 
-  
   // ==========================================
   // HELPER: FORMAT LATEX / MATH TO CLEAN HTML
   // ==========================================
@@ -286,7 +323,6 @@
       }
     });
 
-    // Chuẩn hóa về thang điểm 10
     const normalizedScore = maxUnits > 0
       ? (Math.abs(maxUnits - 10) < 0.01 ? earnedUnits : (earnedUnits / maxUnits) * 10)
       : 0;
@@ -306,8 +342,10 @@
         if (p.category) state.category = p.category;
         if (p.currentExamId && window.PHYS_EXAMS_DATA && window.PHYS_EXAMS_DATA[p.currentExamId]) {
           state.currentExamId = p.currentExamId;
-          if (p.currentExamId.startsWith('ly_cd2_')) {
-            state.category = 'khilituong';
+          if (p.currentExamId.startsWith('ly_boyle_')) {
+            state.category = 'boyle';
+          } else if (p.currentExamId.startsWith('ly_cd2_')) {
+            state.category = 'dhpt';
           }
         }
         if (p.starredQuestions) state.starredQuestions = p.starredQuestions;
@@ -375,11 +413,22 @@
     const stats = getExamStats();
     const exams = window.PHYS_EXAMS_DATA || {};
     const allExams = Object.values(exams);
-    const curCat = state.category || (state.currentExamId.startsWith('ly_cd2_') ? 'khilituong' : 'nhiet');
+
+    let curCat = state.category;
+    if (!curCat) {
+      if (state.currentExamId.startsWith('ly_boyle_')) curCat = 'boyle';
+      else if (state.currentExamId.startsWith('ly_cd2_')) curCat = 'dhpt';
+      else curCat = 'nhiet';
+    }
     state.category = curCat;
-    const nhietExams = allExams.filter(e => e.group !== 'khilituong' && !e.code.startsWith('ly_cd2_'));
-    const khiLiTuongExams = allExams.filter(e => e.group === 'khilituong' || e.code.startsWith('ly_cd2_'));
-    const activeExamList = curCat === 'khilituong' ? (khiLiTuongExams.length ? khiLiTuongExams : allExams) : nhietExams;
+
+    const boyleExams = allExams.filter(e => e.group === 'boyle' || e.code.startsWith('ly_boyle_'));
+    const dhptExams = allExams.filter(e => e.group === 'dhpt' || (e.code.startsWith('ly_cd2_') && !e.code.startsWith('ly_boyle_')));
+    const nhietExams = allExams.filter(e => e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
+
+    let activeExamList = boyleExams;
+    if (curCat === 'dhpt') activeExamList = dhptExams.length ? dhptExams : allExams;
+    else if (curCat === 'nhiet') activeExamList = nhietExams.length ? nhietExams : allExams;
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="physWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -388,7 +437,7 @@
           <div class="quiz-title-group">
             <div class="quiz-title-badge">⚡</div>
             <div class="quiz-title-text">
-              <h3>${exam.title} (${exam.shortTitle || exam.title})</h3>
+              <h3>${exam.title}</h3>
               <p>${exam.subtitle || `Trọn bộ ${allQ.length} câu: Phần 1 ABCD (${p1Count}c) • Phần 2 Đúng/Sai (${p2Count}c)${p3Count > 0 ? ` • Phần 3 Trả lời ngắn (${p3Count}c)` : ''}`}</p>
             </div>
           </div>
@@ -436,23 +485,30 @@
           </div>
         </div>
 
-        <!-- THANH CHỌN ĐỀ & BỘ LỌC PHẦN -->
+        <!-- THANH CHỌN CHUYÊN ĐỀ & BỘ LỌC PHẦN -->
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
               <button
                 type="button"
-                class="math-category-tab-btn ${curCat === 'nhiet' ? 'active' : ''}"
-                onclick="window.PhysQuizApp.selectCategory('nhiet')"
+                class="math-category-tab-btn ${curCat === 'boyle' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('boyle')"
               >
-                ⚡ Ôn Tập Giữa Kì 1 &amp; CĐ1 (Vật Lí Nhiệt)
+                🔬 CĐ2: Định Luật Boyle (239 câu)
               </button>
               <button
                 type="button"
-                class="math-category-tab-btn ${curCat === 'khilituong' ? 'active' : ''}"
-                onclick="window.PhysQuizApp.selectCategory('khilituong')"
+                class="math-category-tab-btn ${curCat === 'dhpt' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('dhpt')"
               >
-                🎈 Chuyên Đề 2: Khí Lí Tưởng (3 Đề - 101 câu)
+                🎈 CĐ2: Mô Hình ĐHPT (101 câu)
+              </button>
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'nhiet' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('nhiet')"
+              >
+                ⚡ Ôn Tập Giữa Kì 1 (Vật Lí Nhiệt)
               </button>
             </div>
 
@@ -478,7 +534,7 @@
           </div>
 
           <div class="phys-exam-pill-row" style="display: flex; flex-wrap: wrap; gap: 10px; padding-top: 0.65rem; border-top: 1px dashed var(--border-color);">
-            ${activeExamList.map((ex, i) => {
+            ${activeExamList.map((ex) => {
               const isAct = state.currentExamId === ex.code;
               const hasProg = hasExamProgress(ex.code);
               return `
@@ -524,8 +580,8 @@
                 <h4>🔍 ${state.zoomModal.caption || 'Hình ảnh thí nghiệm / Đồ thị phóng to'}</h4>
                 <button class="modal-close-btn quiz-modal-close" onclick="window.PhysQuizApp.closeZoomModal()">&times;</button>
               </div>
-              <div class="quiz-modal-body zoom-body">
-                <img src="${state.zoomModal.src}" alt="Zoom" class="zoomed-figure-img" />
+              <div class="quiz-modal-body zoom-body" style="padding: 16px; text-align: center; background: #fff;">
+                <img src="${state.zoomModal.src}" alt="Zoom" class="zoomed-figure-img" style="max-width: 100%; max-height: 75vh; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);" />
               </div>
             </div>
           </div>
@@ -551,6 +607,31 @@
     const hasPrev = state.currentIndex > 0;
     const hasNext = state.currentIndex < filtered.length - 1;
     const status = evaluateQuestionStatus(currentQ);
+    const exam = getCurrentExam();
+
+    // Group filtered questions by section for navigator
+    const sectionMap = new Map();
+    filtered.forEach((q, idx) => {
+      const sec = getQuestionSection(q, exam);
+      if (!sectionMap.has(sec.key)) {
+        sectionMap.set(sec.key, {
+          key: sec.key,
+          title: sec.title,
+          short: sec.short,
+          code: sec.code,
+          items: []
+        });
+      }
+      sectionMap.get(sec.key).items.push({ q, idx });
+    });
+    const sections = Array.from(sectionMap.values());
+    const hasMultipleSections = sections.length > 1;
+
+    let displayedSections = sections;
+    if (state.selectedSection && state.selectedSection !== 'ALL') {
+      displayedSections = sections.filter(s => s.key === state.selectedSection);
+      if (displayedSections.length === 0) displayedSections = sections;
+    }
 
     return `
       <div class="quiz-presentation-layout ${state.sidebarOpen ? '' : 'sidebar-collapsed'}">
@@ -593,43 +674,74 @@
         ${state.sidebarOpen ? `
           <aside class="quiz-navigator-card">
             <div class="navigator-header">
-              <h4>🧭 Chuyển nhanh (${filtered.length} câu)</h4>
+              <h4>🧭 Bố cục câu hỏi (${filtered.length} câu)</h4>
               <span style="font-size: 0.76rem; color: var(--text-muted); font-weight: 600;">
                 ${state.currentIndex + 1}/${filtered.length}
               </span>
             </div>
 
-            <div class="navigator-grid" style="grid-template-columns: repeat(4, 1fr);">
-              ${filtered.map((q, idx) => {
-                const qKey = getQKey(q.id);
-                const qStatus = evaluateQuestionStatus(q);
-                const rev = !!state.revealedQuestions[qKey];
-                const isAct = idx === state.currentIndex;
-                const isStar = !!state.starredQuestions[qKey];
-                let cellClass = '';
-                if (isAct) cellClass += ' current';
-                if (qStatus === 'CORRECT') cellClass += ' answered-correct';
-                else if (qStatus === 'WRONG') cellClass += ' answered-wrong';
-                else if (qStatus === 'PARTIAL') cellClass += ' answered-partial';
-                else if (rev) cellClass += ' revealed-only';
-                if (isStar) cellClass += ' is-starred';
-
-                const shortTag = state.currentExamId === 'ly_decuong'
-                  ? `C${q.qnum}`
-                  : (q.part === 1 ? `P1.${q.qnum}` : (q.part === 2 ? `P2.${q.qnum}` : `P3.${q.qnum}`));
-
-                return `
+            ${hasMultipleSections ? `
+              <div class="navigator-section-tabs" style="display: flex; gap: 4px; overflow-x: auto; padding: 6px 4px 8px; border-bottom: 1px solid var(--border-color, #e2e8f0); margin-bottom: 8px;">
+                <button
+                  type="button"
+                  class="nav-sec-pill ${state.selectedSection === 'ALL' ? 'active' : ''}"
+                  style="padding: 4px 8px; font-size: 0.72rem; font-weight: 600; border-radius: 8px; border: 1px solid ${state.selectedSection === 'ALL' ? '#0284c7' : '#cbd5e1'}; background: ${state.selectedSection === 'ALL' ? '#0284c7' : '#f8fafc'}; color: ${state.selectedSection === 'ALL' ? '#ffffff' : '#334155'}; cursor: pointer; white-space: nowrap;"
+                  onclick="window.PhysQuizApp.selectSection('ALL')"
+                >
+                  Tất cả (${filtered.length})
+                </button>
+                ${sections.map(sec => `
                   <button
                     type="button"
-                    class="nav-q-cell ${cellClass}"
-                    style="aspect-ratio: auto; padding: 0.45rem 0.25rem; font-size: 0.75rem;"
-                    onclick="window.PhysQuizApp.goToSlide(${idx})"
-                    title="${q.label} (${q.topic || ''})"
+                    class="nav-sec-pill ${state.selectedSection === sec.key ? 'active' : ''}"
+                    style="padding: 4px 8px; font-size: 0.72rem; font-weight: 600; border-radius: 8px; border: 1px solid ${state.selectedSection === sec.key ? '#0284c7' : '#cbd5e1'}; background: ${state.selectedSection === sec.key ? '#0284c7' : '#f8fafc'}; color: ${state.selectedSection === sec.key ? '#ffffff' : '#334155'}; cursor: pointer; white-space: nowrap;"
+                    onclick="window.PhysQuizApp.selectSection('${sec.key}')"
                   >
-                    ${shortTag}
+                    ${sec.short}
                   </button>
-                `;
-              }).join('')}
+                `).join('')}
+              </div>
+            ` : ''}
+
+            <div class="navigator-sections-scroll" style="max-height: 58vh; overflow-y: auto; padding-right: 4px;">
+              ${displayedSections.map(sec => `
+                <div class="nav-section-group" style="margin-bottom: 10px;">
+                  <div class="nav-section-header" style="font-size: 0.76rem; font-weight: 700; color: #0284c7; padding: 4px 8px; background: rgba(2, 132, 199, 0.08); border-radius: 6px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
+                    <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80%;">${sec.title}</span>
+                    <span style="font-size: 0.7rem; background: #e0f2fe; padding: 2px 6px; border-radius: 8px;">${sec.items.length}c</span>
+                  </div>
+                  <div class="navigator-grid" style="grid-template-columns: repeat(4, 1fr); gap: 4px;">
+                    ${sec.items.map(({ q, idx }) => {
+                      const qKey = getQKey(q.id);
+                      const qStatus = evaluateQuestionStatus(q);
+                      const rev = !!state.revealedQuestions[qKey];
+                      const isAct = idx === state.currentIndex;
+                      const isStar = !!state.starredQuestions[qKey];
+                      let cellClass = '';
+                      if (isAct) cellClass += ' current';
+                      if (qStatus === 'CORRECT') cellClass += ' answered-correct';
+                      else if (qStatus === 'WRONG') cellClass += ' answered-wrong';
+                      else if (qStatus === 'PARTIAL') cellClass += ' answered-partial';
+                      else if (rev) cellClass += ' revealed-only';
+                      if (isStar) cellClass += ' is-starred';
+
+                      const shortTag = `C.${q.origQNum || q.qnum}`;
+
+                      return `
+                        <button
+                          type="button"
+                          class="nav-q-cell ${cellClass}"
+                          style="aspect-ratio: auto; padding: 0.42rem 0.2rem; font-size: 0.72rem; font-weight: 600;"
+                          onclick="window.PhysQuizApp.goToSlide(${idx})"
+                          title="${escapeAttr((q.d_label || q.label) + ' • ' + (q.topic || ''))}"
+                        >
+                          ${shortTag}
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+                </div>
+              `).join('')}
             </div>
 
             <div class="navigator-legend">
@@ -678,100 +790,114 @@
 
     return `
       <div class="slide-card-header">
-        <div class="slide-q-meta">
-          <span class="slide-q-number">${exam.shortTitle || exam.title} • ${q.label || `Câu ${q.qnum}`}</span>
-          ${q.topic ? `<span class="slide-q-topic">📌 ${q.topic}</span>` : ''}
-          <span class="slide-q-topic" style="background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25);">
+        <div class="slide-q-badges" style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap;">
+          ${q.d_label ? `
+            <span class="slide-q-badge pdf-match" style="background: #e0f2fe; color: #0369a1; font-weight: 700; border: 1px solid #bae6fd; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem;">
+              📁 ${q.d_label}
+            </span>
+          ` : ''}
+          <span class="slide-q-badge slide-q-number" style="background: #1e3a8a; color: #ffffff !important; font-weight: 700; padding: 4px 12px; border-radius: 12px; font-size: 0.82rem;">
+            ${exam.shortTitle || exam.title} • Câu ${q.origQNum || q.qnum}
+          </span>
+          <span class="slide-q-badge" style="background: #f1f5f9; color: #475569; font-weight: 600; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem;">
             ${typeLabel}
           </span>
-        </div>
-
-        <div class="slide-q-actions">
-          <button class="btn-star-q ${isStarred ? 'starred' : ''}" onclick="window.PhysQuizApp.toggleStar(${q.id})" title="Đánh dấu câu hỏi cần lưu ý (Phím S)">
-            ${isStarred ? '★ Đã lưu ý' : '☆ Đánh dấu lưu ý'}
-          </button>
-          ${!isSlideMode ? `
-            <button class="quiz-tool-btn" onclick="window.PhysQuizApp.toggleReveal(${q.id})">
-              ${isRevealed ? '🙈 Ẩn lời giải' : '👁️ Xem lời giải'}
-            </button>
+          ${q.topic ? `
+            <span class="slide-q-badge" style="background: #fdf2f8; color: #be185d; font-weight: 600; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem;">
+              📌 ${q.topic}
+            </span>
           ` : ''}
         </div>
+
+        <button
+          type="button"
+          class="slide-star-btn ${isStarred ? 'starred' : ''}"
+          onclick="window.PhysQuizApp.toggleStar(${q.id})"
+          title="${isStarred ? 'Bỏ lưu ý' : 'Đánh dấu lưu ý câu này'}"
+        >
+          ${isStarred ? '★ Đã lưu ý' : '☆ Đánh dấu lưu ý'}
+        </button>
       </div>
 
-      <div class="slide-q-body ${q.figure ? 'has-figure' : ''}">
-        <div class="slide-q-text">${formatMathHtml(q.prompt || q.question || '')}</div>
+      <div class="slide-question-body">
+        <div class="slide-prompt-text">
+          ${formatMathHtml(q.question || q.prompt)}
+        </div>
 
         ${q.figure ? `
-          <div class="slide-q-figure" onclick="window.PhysQuizApp.zoomImage('${q.figure}', '${escapeAttr((exam.shortTitle || exam.title) + ' • ' + (q.label || 'Câu ' + q.qnum))}')" title="Nhấn vào hình để phóng to toàn màn hình">
-            <img src="${q.figure}?v=20261026" alt="${q.label || ''}" class="slide-q-figure-img" onerror="this.onerror=null;this.src='${q.figure}'" />
-            <div class="slide-q-figure-caption">🔍 Nhấn để phóng to hình ảnh chi tiết</div>
+          <div class="slide-figure-container" style="text-align: center; margin: 12px 0;">
+            <img
+              src="${q.figure}"
+              alt="Hình vẽ minh họa Câu ${q.origQNum || q.qnum}"
+              class="slide-figure-img"
+              style="max-width: 100%; max-height: 280px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 4px; background: #ffffff; cursor: pointer;"
+              onclick="window.PhysQuizApp.zoomImage('${q.figure}', 'Hình vẽ Câu ${q.origQNum || q.qnum}')"
+              title="Nhấp để phóng to toàn màn hình"
+            />
+            <div style="font-size: 0.78rem; color: #64748b; margin-top: 4px;">
+              Hình vẽ minh họa (Câu ${q.origQNum || q.qnum}) <a href="javascript:void(0)" onclick="window.PhysQuizApp.zoomImage('${q.figure}', 'Hình vẽ Câu ${q.origQNum || q.qnum}')">🔍 Phóng to</a>
+            </div>
+          </div>
+        ` : ''}
+
+        <!-- PHẦN TƯƠNG TÁC LÀM BÀI -->
+        <div class="slide-interaction-area">
+          ${renderPartInteraction(q, isSlideMode)}
+        </div>
+
+        <!-- PHẦN LỜI GIẢI CHI TIẾT KHI MỞ -->
+        ${isRevealed ? `
+          <div class="slide-explanation-card">
+            <div class="explanation-badge">
+              <span>💡 ĐÁP ÁN &amp; LỜI GIẢI CHI TIẾT</span>
+            </div>
+            <div class="explanation-content">
+              <div class="correct-answer-banner">
+                ${getAnswerBadgeText(q)}
+              </div>
+              <div class="explanation-text-body">
+                ${formatMathHtml(q.explanation || 'Đang cập nhật lời giải chi tiết...')}
+              </div>
+            </div>
           </div>
         ` : ''}
       </div>
-
-      ${renderPartInteraction(q, key, isRevealed)}
-
-      ${(isRevealed || status !== 'UNANSWERED') ? `
-        <div class="slide-explanation-box">
-          <div class="explanation-header">
-            <span>💡 ĐÁP ÁN & HƯỚNG DẪN GIẢI CHI TIẾT:</span>
-            <span class="explanation-ans-badge">${getAnswerBadgeText(q)}</span>
-          </div>
-          <div class="explanation-content">
-            ${formatMathHtml(q.explanation || 'Đang cập nhật hướng dẫn giải chi tiết.')}
-          </div>
-        </div>
-      ` : ''}
     `;
   }
 
-  function renderPartInteraction(q, key, isRevealed) {
-    // 1. PHẦN 1: Nhiều lựa chọn
+  // ==================== TƯƠNG TÁC LÀM BÀI ====================
+  function renderPartInteraction(q, isSlideMode) {
+    const key = getQKey(q.id);
+    const isRevealed = !!state.revealedQuestions[key];
+
+    // PHẦN 1: MCQ (4 phương án A, B, C, D)
     if (q.type === 'mcq') {
-      const userAns = state.mcqAnswers[key];
-      const options = q.options || {};
-      const maxOptLen = Math.max(...Object.values(options).map(s => (s || '').length));
-      const gridClass = maxOptLen > 56 ? 'single-col' : '';
+      const userChoice = state.mcqAnswers[key];
+      const opts = q.options || {};
+      const letters = ['A', 'B', 'C', 'D'];
 
       return `
-        <div class="slide-options-grid ${gridClass}">
-          ${['A', 'B', 'C', 'D'].map(letter => {
-            let stateClass = '';
-            let statusIcon = '';
-            const isCorrectLetter = isMcqOptionCorrect(q, letter);
+        <div class="mcq-options-grid">
+          ${letters.map((L) => {
+            if (!opts[L]) return '';
+            const isUserSelected = userChoice === L;
+            const isCorrect = isMcqOptionCorrect(q, L);
+            let btnClass = 'mcq-opt-btn';
 
+            if (isUserSelected) btnClass += ' user-selected';
             if (isRevealed) {
-              if (isCorrectLetter) {
-                stateClass = 'is-correct';
-                statusIcon = '✔';
-              } else if (userAns === letter && !isCorrectLetter) {
-                stateClass = 'is-wrong';
-                statusIcon = '✖';
-              }
-            } else if (userAns) {
-              if (letter === userAns) {
-                if (isCorrectLetter) {
-                  stateClass = 'is-correct';
-                  statusIcon = '✔';
-                } else {
-                  stateClass = 'is-wrong';
-                  statusIcon = '✖';
-                }
-              } else if (isCorrectLetter && !isMcqOptionCorrect(q, userAns)) {
-                stateClass = 'is-correct';
-                statusIcon = '✔';
-              }
+              if (isCorrect) btnClass += ' correct-reveal';
+              else if (isUserSelected && !isCorrect) btnClass += ' wrong-reveal';
             }
 
             return `
               <button
                 type="button"
-                class="quiz-option-btn ${stateClass}"
-                onclick="window.PhysQuizApp.selectMcq(${q.id}, '${letter}')"
+                class="${btnClass}"
+                onclick="window.PhysQuizApp.selectMcq(${q.id}, '${L}')"
               >
-                <span class="option-letter">${letter}</span>
-                <span class="option-content">${formatMathHtml(options[letter] || '')}</span>
-                ${statusIcon ? `<span class="option-status-icon">${statusIcon}</span>` : ''}
+                <span class="opt-letter">${L}</span>
+                <span class="opt-text">${formatMathHtml(opts[L])}</span>
               </button>
             `;
           }).join('')}
@@ -779,62 +905,42 @@
       `;
     }
 
-    // 2. PHẦN 2: Đúng / Sai (4 ý a, b, c, d)
+    // PHẦN 2: ĐÚNG / SAI (4 ý a, b, c, d)
     if (q.type === 'tf') {
-      const tfUser = state.tfAnswers[key] || {};
-      const items = q.items || q.statements || {};
-      const correctAns = q.answer || q.answers || {};
+      const userObj = state.tfAnswers[key] || {};
+      const correctObj = q.answer || q.answers || {};
+      const stmts = q.statements || {};
+      const subKeys = ['a', 'b', 'c', 'd'];
 
       return `
-        <div class="math-tf-container">
-          ${['a', 'b', 'c', 'd'].map(subKey => {
-            const rawCorrect = correctAns[subKey];
-            const correctBool = rawCorrect === 'Đ' || rawCorrect === 'D' || rawCorrect === true;
-            const userBool = tfUser[subKey];
-            const hasAnswered = typeof userBool === 'boolean';
-            let rowClass = '';
-            if (hasAnswered) {
-              rowClass = userBool === correctBool ? 'row-correct' : 'row-wrong';
-            } else if (isRevealed) {
-              rowClass = 'row-correct';
-            }
-
-            let btnTrueClass = '';
-            let btnFalseClass = '';
-
-            if (hasAnswered) {
-              if (userBool === true) {
-                btnTrueClass = correctBool === true ? 'selected-correct' : 'selected-wrong';
-                if (!correctBool) btnFalseClass = 'ans-hint';
-              } else {
-                btnFalseClass = correctBool === false ? 'selected-correct' : 'selected-wrong';
-                if (correctBool) btnTrueClass = 'ans-hint';
-              }
-            } else if (isRevealed) {
-              if (correctBool) btnTrueClass = 'ans-hint';
-              else btnFalseClass = 'ans-hint';
-            }
+        <div class="tf-statements-list">
+          ${subKeys.map((sub) => {
+            const text = stmts[sub];
+            if (!text) return '';
+            const userVal = userObj[sub];
+            const hasUserAnswer = typeof userVal === 'boolean';
+            const cVal = correctObj[sub] === true || correctObj[sub] === 'Đ' || correctObj[sub] === 'D';
 
             return `
-              <div class="math-tf-row ${rowClass}">
-                <div class="math-tf-statement">
-                  <span class="math-tf-key">${subKey.toUpperCase()}</span>
-                  <span>${formatMathHtml(items[subKey] || '')}</span>
+              <div class="tf-item-row">
+                <div class="tf-item-text">
+                  <span class="tf-item-tag">${sub})</span>
+                  <span>${formatMathHtml(text)}</span>
                 </div>
-                <div class="math-tf-actions">
+                <div class="tf-btn-group">
                   <button
                     type="button"
-                    class="tf-choice-btn ${btnTrueClass}"
-                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${subKey}', true)"
+                    class="tf-choice-btn btn-true ${userVal === true ? 'active-true' : ''} ${isRevealed && cVal === true ? 'revealed-correct' : ''}"
+                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${sub}', true)"
                   >
-                    Đúng (Đ)
+                    Đúng
                   </button>
                   <button
                     type="button"
-                    class="tf-choice-btn ${btnFalseClass}"
-                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${subKey}', false)"
+                    class="tf-choice-btn btn-false ${userVal === false ? 'active-false' : ''} ${isRevealed && cVal === false ? 'revealed-correct' : ''}"
+                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${sub}', false)"
                   >
-                    Sai (S)
+                    Sai
                   </button>
                 </div>
               </div>
@@ -844,51 +950,36 @@
       `;
     }
 
-    // 3. PHẦN 3: Trả lời ngắn (KQ tối đa 4-6 kí tự)
+    // PHẦN 3: TRẢ LỜI NGẮN (Điền số)
     if (q.type === 'sa' || q.type === 'short') {
-      const userVal = state.shortAnswers[key] || '';
-      const hasVal = userVal.trim() !== '';
-      const normU = normalizeNumberStr(userVal);
-      const normC = normalizeNumberStr(q.answer);
-      const isCorrect = hasVal && (normU === normC || (q.acceptedAnswers && q.acceptedAnswers.map(normalizeNumberStr).includes(normU)));
-      const inputClass = hasVal ? (isCorrect ? 'is-correct' : 'is-wrong') : '';
-      const showKq = isRevealed || isCorrect;
-
-      const ansStr = String(q.answer);
-      const cellLen = Math.max(4, Math.min(7, ansStr.length));
-      const kqCells = (q.kqCells && q.kqCells.length >= 4)
-        ? q.kqCells
-        : ansStr.padEnd(cellLen, ' ').slice(0, cellLen).split('');
+      const val = state.shortAnswers[key] || '';
+      const st = evaluateQuestionStatus(q);
 
       return `
-        <div class="math-sa-wrapper">
-          <div class="math-sa-input-group">
-            <span class="math-sa-label">✍️ Nhập đáp số học sinh:</span>
+        <div class="short-answer-box">
+          <label class="short-input-label">✍️ Nhập đáp số học sinh:</label>
+          <div class="short-input-row">
             <input
               type="text"
-              class="math-sa-input ${inputClass}"
+              class="short-text-input ${st === 'CORRECT' ? 'input-correct' : (st === 'WRONG' ? 'input-wrong' : '')}"
               placeholder="Nhập số..."
-              value="${escapeAttr(userVal)}"
+              value="${escapeAttr(val)}"
               onchange="window.PhysQuizApp.setShortAnswer(${q.id}, this.value)"
+              onkeydown="if(event.key === 'Enter') window.PhysQuizApp.setShortAnswer(${q.id}, this.value)"
             />
-            <button type="button" class="quiz-tool-btn" onclick="const inp=this.previousElementSibling; window.PhysQuizApp.setShortAnswer(${q.id}, inp.value)">
-              ✔ Kiểm tra
+            <button
+              type="button"
+              class="quiz-tool-btn"
+              onclick="window.PhysQuizApp.setShortAnswer(${q.id}, this.previousElementSibling.value)"
+            >
+              ✓ Kiểm tra
             </button>
-            ${hasVal ? `
-              <span style="font-weight: 800; font-size: 0.92rem; color: ${isCorrect ? '#16a34a' : '#dc2626'};">
-                ${isCorrect ? '🎉 Chính xác!' : `✖ Chưa đúng (Đáp số chuẩn: ${q.answer})`}
-              </span>
-            ` : ''}
           </div>
-
-          <div class="math-kq-box-group" title="Ô điền kết quả chuẩn trên phiếu trả lời trắc nghiệm">
-            <span class="math-kq-title">KQ:</span>
-            <div class="math-kq-cells ${showKq ? 'revealed' : ''}">
-              ${kqCells.map(ch => `
-                <div class="math-kq-cell">${showKq ? ch.trim() : ''}</div>
-              `).join('')}
+          ${(isRevealed || st !== 'UNANSWERED') ? `
+            <div class="short-feedback-badge ${st === 'CORRECT' ? 'correct' : 'wrong'}">
+              ${st === 'CORRECT' ? '🎉 Bạn đã trả lời CHÍNH XÁC!' : (st === 'WRONG' ? `❌ Chưa đúng. Đáp án chuẩn: <b>${escapeHtml(q.answer)}</b>` : '')}
             </div>
-          </div>
+          ` : ''}
         </div>
       `;
     }
@@ -898,21 +989,18 @@
 
   function getAnswerBadgeText(q) {
     if (q.type === 'mcq') {
-      if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 1) {
-        return `Chọn <b>${q.acceptedAnswers.join(', ')}</b>`;
-      }
-      return `Chọn&nbsp;<b>${q.answer}</b>`;
+      return `Đáp án đúng: <b class="badge-letter">${q.answer}</b>`;
     }
     if (q.type === 'tf') {
       const a = q.answer || q.answers || {};
-      const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
-      const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đ' : 'S';
-      const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
-      const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
-      return `a) <b>${fa}</b> • b) <b>${fb}</b> • c) <b>${fc}</b> • d) <b>${fd}</b>`;
+      const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đúng' : 'Sai';
+      const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đúng' : 'Sai';
+      const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đúng' : 'Sai';
+      const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đúng' : 'Sai';
+      return `Đáp án chuẩn: a) <b>${fa}</b> • b) <b>${fb}</b> • c) <b>${fc}</b> • d) <b>${fd}</b>`;
     }
     if (q.type === 'sa' || q.type === 'short') {
-      return `Đáp số: <b>${q.answer}</b>`;
+      return `Đáp án số chuẩn: <b class="badge-val">${q.answer}</b>`;
     }
     return '';
   }
@@ -920,77 +1008,117 @@
   // ==================== BẢNG ĐÁP ÁN NHANH ====================
   function renderAnswerKeyModal(exam) {
     const questions = exam.questions || [];
-    const p1 = questions.filter(q => q.part === 1);
-    const p2 = questions.filter(q => q.part === 2);
-    const p3 = questions.filter(q => q.part === 3);
+
+    // Group questions by section
+    const sectionMap = new Map();
+    questions.forEach((q) => {
+      const sec = getQuestionSection(q, exam);
+      if (!sectionMap.has(sec.key)) {
+        sectionMap.set(sec.key, {
+          key: sec.key,
+          title: sec.title,
+          short: sec.short,
+          items: []
+        });
+      }
+      sectionMap.get(sec.key).items.push(q);
+    });
+    const sections = Array.from(sectionMap.values());
 
     return `
       <div class="quiz-modal-backdrop open" onclick="window.PhysQuizApp.closeAnswerKeyModal()">
-        <div class="quiz-modal-card quiz-modal-box modal-box-wide" onclick="event.stopPropagation()">
-          <div class="quiz-modal-header">
-            <h4>🔑 BẢNG ĐÁP ÁN — ${exam.title} (${questions.length} CÂU)</h4>
-            <button class="modal-close-btn quiz-modal-close" onclick="window.PhysQuizApp.closeAnswerKeyModal()">&times;</button>
-          </div>
-          <div class="quiz-modal-body">
-            <!-- PHẦN 1 -->
-            <div class="key-section-title">PHẦN 1: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (${p1.length} CÂU)</div>
-            <div class="key-table-grid">
-              ${p1.map(q => {
-                const ansTxt = Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 1
-                  ? q.acceptedAnswers.join(',')
-                  : q.answer;
-                return `
-                  <div class="key-item">
-                    <span class="key-qnum">C${q.qnum}</span>
-                    <span class="key-ans-letter">${ansTxt}</span>
-                  </div>
-                `;
-              }).join('')}
-            </div>
-
-            <!-- PHẦN 2 -->
-            <div class="key-section-title" style="margin-top: 18px;">PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (${p2.length} CÂU)</div>
-            <div class="key-tf-grid">
-              ${p2.map(q => {
-                const a = q.answer || q.answers || {};
-                const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
-                const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đ' : 'S';
-                const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
-                const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
-                return `
-                  <div class="key-tf-card">
-                    <div class="key-tf-num">Câu ${q.qnum}</div>
-                    <div class="key-tf-sub">a) <b class="${fa === 'Đ' ? 'd' : 's'}">${fa}</b></div>
-                    <div class="key-tf-sub">b) <b class="${fb === 'Đ' ? 'd' : 's'}">${fb}</b></div>
-                    <div class="key-tf-sub">c) <b class="${fc === 'Đ' ? 'd' : 's'}">${fc}</b></div>
-                    <div class="key-tf-sub">d) <b class="${fd === 'Đ' ? 'd' : 's'}">${fd}</b></div>
-                  </div>
-                `;
-              }).join('')}
-            </div>
-
-            ${p3.length > 0 ? `
-              <!-- PHẦN 3 -->
-              <div class="key-section-title" style="margin-top: 18px;">PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (${p3.length} CÂU)</div>
-              <div class="key-table-grid short-grid">
-                ${p3.map(q => `
-                  <div class="key-item short">
-                    <span class="key-qnum">C${q.qnum}</span>
-                    <span class="key-ans-val">${q.answer}</span>
-                  </div>
-                `).join('')}
+        <div class="quiz-modal-card quiz-modal-box modal-box-wide" onclick="event.stopPropagation()" style="max-width: 900px; width: 95%;">
+          <div class="quiz-modal-header" style="background: linear-gradient(135deg, #1e3a8a 0%, #0369a1 100%); color: #ffffff; padding: 14px 20px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-size: 1.3rem;">🔑</span>
+              <div>
+                <h4 style="margin: 0; color: #ffffff; font-size: 1.05rem;">BẢNG ĐÁP ÁN TOÀN BỘ ${questions.length} CÂU — ${escapeHtml(exam.title)}</h4>
+                <p style="margin: 2px 0 0; font-size: 0.8rem; color: #e0f2fe;">Nhấp vào ô câu hỏi bất kỳ để chuyển thẳng đến câu đó</p>
               </div>
-            ` : ''}
+            </div>
+            <button class="modal-close-btn quiz-modal-close" style="color: #ffffff;" onclick="window.PhysQuizApp.closeAnswerKeyModal()">&times;</button>
+          </div>
+
+          <div class="quiz-modal-body" style="padding: 16px; max-height: 72vh; overflow-y: auto;">
+            ${sections.map((sec) => {
+              const mcqs = sec.items.filter(q => q.type === 'mcq');
+              const tfs = sec.items.filter(q => q.type === 'tf');
+              const sas = sec.items.filter(q => q.type === 'sa' || q.type === 'short');
+
+              return `
+                <div class="key-section-block" style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; background: #ffffff;">
+                  <div class="key-section-header" style="background: #f8fafc; padding: 10px 16px; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center;">
+                    <span style="font-weight: 700; color: #1e3a8a; font-size: 0.92rem;">${sec.title}</span>
+                    <span style="font-size: 0.8rem; font-weight: 600; color: #475569; background: #e2e8f0; padding: 2px 8px; border-radius: 10px;">${sec.items.length} câu</span>
+                  </div>
+                  <div style="padding: 14px 16px;">
+                    ${mcqs.length > 0 ? `
+                      <div class="key-table-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(68px, 1fr)); gap: 8px; margin-bottom: ${tfs.length > 0 || sas.length > 0 ? '14px' : '0'};">
+                        ${mcqs.map(q => {
+                          const num = q.origQNum || q.qnum || q.id;
+                          return `
+                            <div class="key-item" style="cursor: pointer; padding: 6px 4px; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc;" onclick="window.PhysQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <div class="key-qnum" style="font-size: 0.72rem; color: #64748b;">C${num}</div>
+                              <div class="key-ans-letter" style="font-size: 1.05rem; font-weight: 800; color: #16a34a;">${q.answer || '—'}</div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
+
+                    ${tfs.length > 0 ? `
+                      <div class="key-tf-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: ${sas.length > 0 ? '14px' : '0'};">
+                        ${tfs.map(q => {
+                          const num = q.origQNum || q.qnum || q.id;
+                          const a = q.answer || q.answers || {};
+                          const fa = a.a === true || a.a === 'Đ' || a.a === 'D' ? 'Đ' : 'S';
+                          const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đ' : 'S';
+                          const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đ' : 'S';
+                          const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đ' : 'S';
+                          return `
+                            <div class="key-tf-card" style="cursor: pointer; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; background: #f8fafc;" onclick="window.PhysQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <div class="key-tf-num" style="font-weight: 700; font-size: 0.8rem; color: #0284c7; margin-bottom: 4px;">Câu ${num}</div>
+                              <div style="font-size: 0.76rem; display: flex; justify-content: space-between;">
+                                <span>a) <b style="color: ${fa === 'Đ' ? '#16a34a' : '#dc2626'}">${fa}</b></span>
+                                <span>b) <b style="color: ${fb === 'Đ' ? '#16a34a' : '#dc2626'}">${fb}</b></span>
+                              </div>
+                              <div style="font-size: 0.76rem; display: flex; justify-content: space-between; margin-top: 2px;">
+                                <span>c) <b style="color: ${fc === 'Đ' ? '#16a34a' : '#dc2626'}">${fc}</b></span>
+                                <span>d) <b style="color: ${fd === 'Đ' ? '#16a34a' : '#dc2626'}">${fd}</b></span>
+                              </div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
+
+                    ${sas.length > 0 ? `
+                      <div class="key-table-grid short-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); gap: 8px;">
+                        ${sas.map(q => {
+                          const num = q.origQNum || q.qnum || q.id;
+                          return `
+                            <div class="key-item short" style="cursor: pointer; padding: 6px 4px; text-align: center; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc;" onclick="window.PhysQuizApp.goToQuestionById(${q.id})" title="Chuyển đến câu ${num}">
+                              <div class="key-qnum" style="font-size: 0.72rem; color: #64748b;">C${num}</div>
+                              <div class="key-ans-val" style="font-size: 0.88rem; font-weight: 700; color: #0284c7;">${q.answer || '—'}</div>
+                            </div>
+                          `;
+                        }).join('')}
+                      </div>
+                    ` : ''}
+                  </div>
+                </div>
+              `;
+            }).join('')}
           </div>
         </div>
       </div>
     `;
   }
 
-  // ==================== BÀN PHÍM PHÍM TẮT ====================
+  // ==================== KEYBOARD NAVIGATION ====================
   function setupKeyboard() {
     window.addEventListener('keydown', (e) => {
-      const panel = document.getElementById('panel-ly12');
+      const panel = document.getElementById('panel-li12');
       if (!panel || !panel.classList.contains('active')) return;
 
       if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) {
@@ -1006,76 +1134,118 @@
         return;
       }
 
-      if (e.key === 'Escape' && state.isFullscreen) {
-        state.isFullscreen = false;
-        renderPhysApp();
-        return;
-      }
-
       if (state.mode !== 'slide') return;
+
       const filtered = getFilteredQuestions();
       if (filtered.length === 0) return;
       const currentQ = filtered[state.currentIndex];
 
-      if (e.key === 'ArrowRight') {
-        e.preventDefault();
-        window.PhysQuizApp.nextSlide();
-      } else if (e.key === 'ArrowLeft') {
+      if (e.key === 'ArrowLeft') {
         e.preventDefault();
         window.PhysQuizApp.prevSlide();
-      } else if (e.key === ' ' || e.code === 'Space') {
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        window.PhysQuizApp.nextSlide();
+      } else if (e.key === ' ') {
         e.preventDefault();
         window.PhysQuizApp.toggleReveal(currentQ.id);
-      } else if (e.key.toLowerCase() === 's') {
+      } else if (e.key === 's' || e.key === 'S') {
         e.preventDefault();
         window.PhysQuizApp.toggleStar(currentQ.id);
       } else if (currentQ.type === 'mcq') {
-        if (['a', '1'].includes(e.key.toLowerCase())) window.PhysQuizApp.selectMcq(currentQ.id, 'A');
-        else if (['b', '2'].includes(e.key.toLowerCase())) window.PhysQuizApp.selectMcq(currentQ.id, 'B');
-        else if (['c', '3'].includes(e.key.toLowerCase())) window.PhysQuizApp.selectMcq(currentQ.id, 'C');
-        else if (['d', '4'].includes(e.key.toLowerCase())) window.PhysQuizApp.selectMcq(currentQ.id, 'D');
+        const keyMap = {
+          '1': 'A', 'a': 'A', 'A': 'A',
+          '2': 'B', 'b': 'B', 'B': 'B',
+          '3': 'C', 'c': 'C', 'C': 'C',
+          '4': 'D', 'd': 'D', 'D': 'D'
+        };
+        if (keyMap[e.key]) {
+          e.preventDefault();
+          window.PhysQuizApp.selectMcq(currentQ.id, keyMap[e.key]);
+        }
       }
     });
   }
 
   // ==================== PUBLIC API ====================
   window.PhysQuizApp = {
-    init: function () {
-      loadSavedState();
+    setMode: function (m) {
+      state.mode = m;
       renderPhysApp();
     },
 
     selectCategory: function (cat) {
       state.category = cat;
-      if (cat === 'khilituong') {
-        state.currentExamId = 'ly_cd2_luyentap';
+      state.selectedSection = 'ALL';
+      state.filterPart = 'ALL';
+      state.currentIndex = 0;
+      const exams = window.PHYS_EXAMS_DATA || {};
+      const allExams = Object.values(exams);
+      if (cat === 'boyle') {
+        const b = allExams.filter(e => e.group === 'boyle' || e.code.startsWith('ly_boyle_'));
+        if (b.length) state.currentExamId = b[0].code;
+      } else if (cat === 'dhpt') {
+        const d = allExams.filter(e => e.group === 'dhpt' || (e.code.startsWith('ly_cd2_') && !e.code.startsWith('ly_boyle_')));
+        if (d.length) state.currentExamId = d[0].code;
       } else {
-        state.currentExamId = 'ly_de1';
+        const n = allExams.filter(e => e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
+        if (n.length) state.currentExamId = n[0].code;
       }
+      saveState();
+      renderPhysApp();
+    },
+
+    selectExam: function (code) {
+      state.currentExamId = code;
+      state.selectedSection = 'ALL';
+      state.filterPart = 'ALL';
       state.currentIndex = 0;
       saveState();
       renderPhysApp();
     },
 
-    selectExam: function (examCode) {
-      state.currentExamId = examCode;
-      if (examCode.startsWith('ly_cd2_')) {
-        state.category = 'khilituong';
-      } else {
-        state.category = 'nhiet';
+    selectSection: function (secKey) {
+      state.selectedSection = secKey;
+      renderPhysApp();
+    },
+
+    goToSlide: function (idx) {
+      state.currentIndex = idx;
+      renderPhysApp();
+    },
+
+    goToQuestionById: function (qId) {
+      state.answerKeyModalOpen = false;
+      state.mode = 'slide';
+      state.filterPart = 'ALL';
+      state.selectedSection = 'ALL';
+      const exam = getCurrentExam();
+      if (exam && exam.questions) {
+        const idx = exam.questions.findIndex(q => q.id === qId);
+        if (idx !== -1) {
+          state.currentIndex = idx;
+        }
       }
-      state.currentIndex = 0;
-      saveState();
       renderPhysApp();
     },
 
-    setMode: function (mode) {
-      state.mode = mode;
-      renderPhysApp();
+    prevSlide: function () {
+      if (state.currentIndex > 0) {
+        state.currentIndex--;
+        renderPhysApp();
+      }
     },
 
-    setPartFilter: function (part) {
-      state.filterPart = part;
+    nextSlide: function () {
+      const filtered = getFilteredQuestions();
+      if (state.currentIndex < filtered.length - 1) {
+        state.currentIndex++;
+        renderPhysApp();
+      }
+    },
+
+    setPartFilter: function (p) {
+      state.filterPart = p;
       state.currentIndex = 0;
       renderPhysApp();
     },
@@ -1089,28 +1259,8 @@
     resetFilters: function () {
       state.filterPart = 'ALL';
       state.filterStarred = false;
+      state.selectedSection = 'ALL';
       state.currentIndex = 0;
-      renderPhysApp();
-    },
-
-    nextSlide: function () {
-      const filtered = getFilteredQuestions();
-      if (state.currentIndex < filtered.length - 1) {
-        state.currentIndex++;
-        renderPhysApp();
-      }
-    },
-
-    prevSlide: function () {
-      if (state.currentIndex > 0) {
-        state.currentIndex--;
-        renderPhysApp();
-      }
-    },
-
-    goToSlide: function (idx) {
-      state.currentIndex = idx;
-      if (state.mode !== 'slide') state.mode = 'slide';
       renderPhysApp();
     },
 
@@ -1120,7 +1270,7 @@
     },
 
     changeZoom: function (delta) {
-      state.fontScale = Math.min(1.5, Math.max(0.8, Math.round((state.fontScale + delta) * 10) / 10));
+      state.fontScale = Math.max(0.8, Math.min(1.5, state.fontScale + delta));
       saveState();
       renderPhysApp();
     },
@@ -1130,53 +1280,51 @@
       renderPhysApp();
     },
 
-    toggleReveal: function (qid) {
-      const k = getQKey(qid);
+    toggleStar: function (qId) {
+      const k = getQKey(qId);
+      state.starredQuestions[k] = !state.starredQuestions[k];
+      saveState();
+      renderPhysApp();
+    },
+
+    toggleReveal: function (qId) {
+      const k = getQKey(qId);
       state.revealedQuestions[k] = !state.revealedQuestions[k];
       renderPhysApp();
     },
 
     revealAllInFilter: function () {
       const filtered = getFilteredQuestions();
-      const allRev = filtered.every(q => !!state.revealedQuestions[getQKey(q.id)]);
-      filtered.forEach(q => {
-        state.revealedQuestions[getQKey(q.id)] = !allRev;
+      filtered.forEach((q) => {
+        state.revealedQuestions[getQKey(q.id)] = true;
       });
       renderPhysApp();
     },
 
-    toggleStar: function (qid) {
-      const k = getQKey(qid);
-      state.starredQuestions[k] = !state.starredQuestions[k];
+    selectMcq: function (qId, optKey) {
+      const k = getQKey(qId);
+      state.mcqAnswers[k] = optKey;
       saveState();
       renderPhysApp();
     },
 
-    selectMcq: function (qid, letter) {
-      const k = getQKey(qid);
-      state.mcqAnswers[k] = letter;
-      state.revealedQuestions[k] = true;
-      saveState();
-      renderPhysApp();
-    },
-
-    selectTf: function (qid, subKey, boolVal) {
-      const k = getQKey(qid);
+    selectTf: function (qId, subKey, val) {
+      const k = getQKey(qId);
       if (!state.tfAnswers[k]) state.tfAnswers[k] = {};
-      state.tfAnswers[k][subKey] = boolVal;
+      state.tfAnswers[k][subKey] = val;
       saveState();
       renderPhysApp();
     },
 
-    setShortAnswer: function (qid, val) {
-      const k = getQKey(qid);
+    setShortAnswer: function (qId, val) {
+      const k = getQKey(qId);
       state.shortAnswers[k] = val;
       saveState();
       renderPhysApp();
     },
 
-    clearQuestion: function (qid) {
-      const k = getQKey(qid);
+    clearQuestion: function (qId) {
+      const k = getQKey(qId);
       delete state.mcqAnswers[k];
       delete state.tfAnswers[k];
       delete state.shortAnswers[k];
