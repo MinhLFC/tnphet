@@ -811,7 +811,7 @@
 
         <button
           type="button"
-          class="slide-star-btn ${isStarred ? 'starred' : ''}"
+          class="btn-star-q ${isStarred ? 'starred' : ''}"
           onclick="window.PhysQuizApp.toggleStar(${q.id})"
           title="${isStarred ? 'Bỏ lưu ý' : 'Đánh dấu lưu ý câu này'}"
         >

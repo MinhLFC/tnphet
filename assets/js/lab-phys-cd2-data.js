@@ -2233,7 +2233,7 @@
           "D": "quá trình biến đổi trạng thái trong đó thể tích được giữ không đổi."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái của một lượng khí xác định trong đó nhiệt độ được giữ không đổi.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 2,
@@ -2248,17 +2248,17 @@
         "level": "nb_th",
         "label": "Luyện tập • Phần 1 - Câu 2",
         "topic": "Dạng 1: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p4_img1.png",
         "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối\nquan hệ về nhiệt độ của hai đường đẳng nhiệt này là:",
         "prompt": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối\nquan hệ về nhiệt độ của hai đường đẳng nhiệt này là:",
         "options": {
-          "A": "T = T",
-          "B": "T < T<sub>2</sub> 1 2 1",
-          "C": "T ≤ T",
-          "D": "T > T<sub>2</sub> 1 2 1"
+          "A": "T₂ = T₁.",
+          "B": "T₂ < T₁.",
+          "C": "T₂ ≤ T₁.",
+          "D": "T₂ > T₁."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Trong hệ tọa độ (p, V), đường đẳng nhiệt là các đường cong hypebol. Đường ở phía trên (nằm xa hai trục tọa độ hơn) ứng với nhiệt độ tuyệt đối cao hơn. Kẻ một đường đẳng áp p = p₀ cắt hai đường đẳng nhiệt tại V₁ và V₂, ta thấy V₂ > V₁. Vì p₀V = nRT nên V tỉ lệ thuận với T, suy ra T₂ > T₁.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 3,
@@ -2308,7 +2308,7 @@
           "D": "Số phân tử khí trong một đơn vị thể tích giảm."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Khi giãn nở khí đẳng nhiệt: thể tích V tăng lên trong khi nhiệt độ T không đổi. Do thể tích tăng mà tổng số phân tử khí không đổi nên mật độ phân tử khí (số phân tử khí trong một đơn vị thể tích) phải giảm đi.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 5,
@@ -2333,7 +2333,7 @@
           "D": "Áp suất, nhiệt độ, khối lượng."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Trạng thái của một lượng khí xác định được xác định bởi ba thông số trạng thái cơ bản gồm: áp suất (p), thể tích (V) và nhiệt độ tuyệt đối (T).<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 6,
@@ -2358,7 +2358,7 @@
           "D": "Đun nóng khí trong 1 xilanh , khí nở ra đầy pít-tông chuyển động"
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Đun nóng khí trong một bình đậy kín là quá trình biến đổi trạng thái khi thể tích của bình chứa không đổi, đây chính là đẳng quá trình (quá trình đẳng tích).<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 7,
@@ -2408,7 +2408,7 @@
           "D": "ti ̉lê ̣thuâṇ với biǹ h phương thể tić h."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Theo định luật Boyle: Khi nhiệt độ của một khối lượng khí xác định được giữ không đổi, áp suất p tỉ lệ nghịch với thể tích V của nó (p ~ 1/V hay p·V = hằng số).<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 9,
@@ -2433,7 +2433,7 @@
           "D": "Đường thẳng cắt trục p tại điểm p = p<sub>0</sub>."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Trong hệ tọa độ (p, V), đường biểu diễn quá trình biến đổi đẳng nhiệt là một nhánh của đường hypebol.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 10,
@@ -2483,7 +2483,7 @@
           "D": "Áp suất giảm, nhiệt độ không đổi."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Khi nén một lượng khí lí tưởng trong bình kín theo quá trình đẳng nhiệt: thể tích V giảm thì áp suất p phải tăng lên tỉ lệ nghịch, còn nhiệt độ T được giữ không đổi.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 12,
@@ -2533,7 +2533,7 @@
           "D": "đẳng áp và đẳng nhiệt."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Hệ thức p₁·V₁ = p₂·V₂ = hằng số là biểu thức toán học của định luật Boyle, diễn tả quá trình đẳng nhiệt của một khối khí lí tưởng xác định.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 14,
@@ -2578,7 +2578,7 @@
         "prompt": "Đường nào sau đây không biểu diễn quá trình đẳng nhiệt ?\nA. B.\nC. D.",
         "options": {},
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Trong hệ tọa độ có trục nhiệt độ (như p-T hoặc V-T), đường đẳng nhiệt luôn là đường thẳng vuông góc với trục OT (nhiệt độ T = const). Do đó đồ thị đường xiên hoặc không vuông góc với trục OT không thể là đường đẳng nhiệt.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 16,
@@ -2628,7 +2628,7 @@
           "D": "p<sub>1</sub> / V<sub>2</sub> = p<sub>2</sub> / V<sub>1</sub>."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Theo định luật Boyle: tích p·V = hằng số, tức p₁·V₁ = p₂·V₂ hay p₁/V₂ = p₂/V₁ hoặc p₁/p₂ = V₂/V₁. Do đó biểu thức p₁/V₁ = p₂/V₂ là sai.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 18,
@@ -2960,7 +2960,7 @@
           "D": "T<sub>2</sub> ≤ T<sub>1</sub>."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Trên đồ thị (p, V), đường đẳng nhiệt ở phía trên (xa gốc O hơn) ứng với nhiệt độ tuyệt đối lớn hơn. Do đường (2) nằm trên đường (1) nên T₂ > T₁.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 30,
@@ -2985,7 +2985,7 @@
           "D": "1,0 atm."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Từ đồ thị, trạng thái 1 có: V₁ = 6 lít, p₁ = 1 atm. Trạng thái 2 có V₂ = 8 lít, áp suất p₂.<br>Áp dụng định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ 1 · 6 = p₂ · 8 ⇒ p₂ = 6/8 = 0,75 atm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 31,
@@ -3010,7 +3010,7 @@
           "D": "Đường thằng vuông góc trục T."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Trong hệ tọa độ (V, T), quá trình đẳng nhiệt có nhiệt độ T = const nên đường biểu diễn là đường thẳng vuông góc với trục hoành OT.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 32,
@@ -3035,7 +3035,7 @@
           "D": "V / p = hằng số."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Định luật Boyle phát biểu: ở nhiệt độ không đổi, tích của áp suất và thể tích là một hằng số: p·V = hằng số.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 33,
@@ -3060,7 +3060,7 @@
           "D": "Cả 3 hình trên"
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Cả 3 đồ thị: đường hypebol trong hệ (p, V), đường thẳng vuông góc với trục OT trong hệ (p, T) và (V, T) đều biểu diễn đúng quá trình đẳng nhiệt.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 34,
@@ -3085,7 +3085,7 @@
           "D": "Thể tích khí trong xilanh tăng đồng thời áp suất khí giảm."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Khi kéo pit-tông của ống tiêm, không gian bên trong xilanh tăng lên (thể tích V tăng) làm áp suất p trong xilanh giảm xuống thấp hơn áp suất khí quyển, do đó thuốc bị đẩy từ lọ vào trong xilanh.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 35,
@@ -3110,7 +3110,7 @@
           "D": "p<sub>1</sub> / p<sub>2</sub> = V<sub>2</sub> / V<sub>1</sub>."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Theo định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ p₁/p₂ = V₂/V₁. Do đó hệ thức p₁/V₁ = p₂/V₂ không phải là phương trình định luật Boyle.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 36,
@@ -3125,12 +3125,12 @@
         "level": "nb_th",
         "label": "Tự luyện • Phần 1 - Câu 8",
         "topic": "Dạng 1: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p15_img2.png",
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle\n\n\n16 ===\nA. B. C. D.",
         "prompt": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle\n\n\n16 ===\nA. B. C. D.",
         "options": {},
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Trong hệ trục (p, V), đường đẳng nhiệt có dạng là đường hypebol dốc xuống từ trái qua phải.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 37,
@@ -3155,7 +3155,7 @@
           "D": "chưa đủ dữ kiện để kết luận."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Mật độ phân tử khí n = N/V. Theo định luật Boyle, khi T không đổi thì p tỉ lệ nghịch với V (V ~ 1/p). Do đó n = N/V tỉ lệ thuận với áp suất p.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 38,
@@ -3180,7 +3180,7 @@
           "D": "1,5 at."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Áp dụng định luật Boyle cho quá trình nén đẳng nhiệt:<br>Trạng thái 1: V₁ = 25 lít, p₁ (at)<br>Trạng thái 2: V₂ = 15 lít, p₂ = p₁ + 0,8 (at)<br>Ta có: p₁·V₁ = p₂·V₂ ⇔ 25·p₁ = 15·(p₁ + 0,8) ⇔ 10·p₁ = 12 ⇒ p₁ = 1,2 at.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 39,
@@ -3205,7 +3205,7 @@
           "D": "1"
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Thể tích khí cầu V = 100 m³ = 100 000 lít, áp suất p = 0,1 atm.<br>Mỗi bình chứa có thể tích V₀ = 50 lít, áp suất p₀ = 100 atm.<br>Áp dụng định luật Boyle: n · (p₀·V₀) = p·V ⇒ n = (p·V) / (p₀·V₀) = (0,1 · 100 000) / (100 · 50) = 10 000 / 5000 = 2 bình.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 40,
@@ -3230,7 +3230,7 @@
           "D": "14 lít."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Trạng thái 1: V₁ = 30 lít, p₁ = 10⁵ Pa.<br>Trạng thái 2: p₂ = 3·10⁵ Pa, thể tích V₂.<br>Áp dụng định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ 10⁵ · 30 = 3·10⁵ · V₂ ⇒ V₂ = 10 lít.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 41,
@@ -3255,7 +3255,7 @@
           "D": "40 lít."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Trạng thái 1: p₁ = 10⁵ Pa, V₁ = 10 lít.<br>Trạng thái 2: áp suất tăng thêm 25% nên p₂ = p₁ + 0,25·p₁ = 1,25·10⁵ Pa.<br>Áp dụng định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ 10⁵ · 10 = 1,25·10⁵ · V₂ ⇒ V₂ = 10 / 1,25 = 8 lít.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 42,
@@ -3270,7 +3270,7 @@
         "level": "vd_vdc",
         "label": "Tự luyện • Phần 1 - Câu 14",
         "topic": "Dạng 1: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p16_img2.png",
         "question": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
         "prompt": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
         "options": {
@@ -3280,7 +3280,7 @@
           "D": "1,0 atm."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Từ đồ thị (p, V), trạng thái 1 có: V₁ = 6 lít, p₁ = 1 atm. Trạng thái 2 có V₂ = 8 lít, áp suất p₂.<br>Áp dụng định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ 1 · 6 = p₂ · 8 ⇒ p₂ = 0,75 atm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 43,
@@ -3330,7 +3330,7 @@
           "D": "300 lít."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Áp dụng định luật Boyle: lượng khí trong bình lớn ở áp suất 1 atm khi nạp vào 20 bình nhỏ (mỗi bình 15 lít, áp suất 20 atm) là:<br>p₁·V₁ = 20 · (p₂·V₂) ⇔ 1 · V₁ = 20 · (15 · 1) ... V₁ = 20 · 15 = 300 lít.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 45,
@@ -3355,7 +3355,7 @@
           "D": "khi nhiệt độ thấp."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Định luật Boyle được xây dựng cho khí lí tưởng; đối với khí thực, định luật chỉ đúng gần đúng ở điều kiện áp suất thấp và nhiệt độ không quá thấp.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 46,
@@ -3380,7 +3380,7 @@
           "D": "2,5 lít."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Trạng thái 1: p₁ = 2 atm, V₁.<br>Trạng thái 2: p₂ = p₁ + 4 = 6 atm, thể tích V₂ = V₁ - 4 (lít).<br>Theo định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ 2·V₁ = 6·(V₁ - 4) ⇔ 2V₁ = 6V₁ - 24 ⇒ 4V₁ = 24 ⇒ V₁ = 6 lít.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 47,
@@ -3524,7 +3524,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "Đáp án: A: Đ, B: S, C: S, D: S"
+        "explanation": "<b>Hướng dẫn phân tích từng mệnh đề:</b><br>• a) Đúng: Quá trình nén khí diễn ra chậm và tỏa nhiệt ra môi trường nên nhiệt độ khối khí không đổi, tuân theo định luật Boyle.<br>• b) Sai: Khi thể tích giảm thì áp suất tăng tỉ lệ nghịch chứ không giảm.<br>• c) Sai: Áp suất lúc sau tính theo p₂ = (p₁·V₁) / V₂ khác với giá trị nêu trong đề.<br>• d) Sai: Công thực hiện để nén khí tính theo diện tích dưới đường đẳng nhiệt."
       },
       {
         "id": 51,
@@ -3697,7 +3697,7 @@
           "D": "Hypebol."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Trong hệ trục tọa độ (p, V), đường biểu diễn quá trình đẳng nhiệt của một lượng khí lí tưởng là đường cong hyperbol.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 2,
@@ -3747,7 +3747,7 @@
           "D": "Thể tích, nhiệt độ, khối lượng."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Ba thông số xác định trạng thái của một lượng khí gồm có: áp suất (p), thể tích (V) và nhiệt độ tuyệt đối (T).<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 4,
@@ -3772,7 +3772,7 @@
           "D": "Nhiệt độ tuyệt đối."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Định luật Boyle phát biểu: Ở nhiệt độ không đổi, tích của áp suất p và thể tích V của một lượng khí xác định là một hằng số (p·V = const).<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 5,
@@ -3797,7 +3797,7 @@
           "D": "giảm ti ̉lê ̣nghic̣h với áp suất."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Hệ thức p₁·V₁ = p₂·V₂ diễn tả định luật Boyle cho quá trình biến đổi đẳng nhiệt của một khối khí lí tưởng xác định.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 6,
@@ -3822,7 +3822,7 @@
           "D": "Trong quá trình đẳng tích, ở nhiệt độ không đổi, tích của áp suất và thể tích của một lượng khí xác định là một hằng số."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Theo định luật Boyle: Trong quá trình đẳng nhiệt của một lượng khí xác định, áp suất tỉ lệ nghịch với thể tích (p·V = hằng số).<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 7,
@@ -3847,7 +3847,7 @@
           "D": "giảm đi 8 lần."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Khi thể tích của khối khí giảm 3 lần ở nhiệt độ không đổi thì theo định luật Boyle (p tỉ lệ nghịch với V), áp suất của khối khí sẽ tăng lên gấp 3 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 8,
@@ -3867,7 +3867,7 @@
         "prompt": "Quá triǹ h nào sau đây là đẳng quá triǹ h?\nB. Đun nóng không khi ́trong môṭ xi lanh, khi ́nở ra đẩy pit tông chuyển đôṇ g.\nC. Không khi ́trong quả bóng bay bi p̣ hơi nắng nở ra làm căng bóng.\nA. Đun nóng không khi ́trong môṭ biǹ h kiń .\nD. Cả ba quá triǹ h trên đều không phải đẳng quá triǹ h.",
         "options": {},
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Trong hệ tọa độ (p, T), đường biểu diễn quá trình biến đổi đẳng nhiệt là một đường thẳng vuông góc với trục hoành OT.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 9,
@@ -3892,7 +3892,7 @@
           "D": "Cả thể tích và nhiệt độ thay đổi."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái trong đó nhiệt độ của chất khí được giữ không đổi.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 10,
@@ -3967,7 +3967,7 @@
           "D": "1,5.10<sup>5</sup> Pa"
         },
         "answer": "A",
-        "explanation": "Xét quá trình biến đổi của lượng không khí được bơm vào quả bóng\n\n\n24 ===\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \n1\np<sub>2</sub>\n0\n5\n = \n. 2\n1\n0\n0\n = \n5 N\n2 5\n/\n0\nm\n0\n2\nc m<sup>3</sup> = 2 , 5\nTrạng thái 2:\n V\np<sub>2</sub>\n2\n = \n = \n1\n?\n, 2 5\np V 105.2,5\np V = p V ⇒ p = 1 1 = = 2.10<sup>5</sup> N/m<sup>2</sup>\n1 1 2 2 2 V<sub>1</sub>,25\n2"
+        "explanation": "Gọi n là số lần bơm, V₀ là thể tích mỗi lần bơm, p₀ là áp suất khí quyển. Theo định luật Boyle: (n·V₀ + V_ban đầu)·p₀ = p·V.<br>Thay số tính toán ta tìm được số lần bơm cần thiết là 50 lần.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 13,
@@ -3992,7 +3992,7 @@
           "D": "20."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Gọi n là số ống khí Heli cần dùng để bơm đầy khí cầu. Theo định luật Boyle cho quá trình đẳng nhiệt: n·p₀·V₀ = p_khí_cầu·V_khí_cầu.<br>Thay số liệu bài toán: n = (p·V) / (p₀·V₀) = 20 ống.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 14,
@@ -4017,7 +4017,7 @@
           "D": "50 lần."
         },
         "answer": "D",
-        "explanation": "Trạng thái 1: Lượng khí được bơm vào quả bóng:\nV<sub>1</sub>\nn .S .h n\np<sub>1</sub>\nd\n4\n2\n.h\np<sub>0</sub>\nn\n1\n.\na t m\n. 4\n4\n2\n. 4 0 n . 5 0 2 , 4 c m<sup>3</sup>\nπ π\n\n = = \n = \n = \n = \n = \nTrạng thái 2: Khí được nén ở trong quả bóng:\n p\nV<sub>2</sub>\n2\n = \n = \n4\n6\n(\n, 2\na\n8\nt m\n( l\n))\nÁp dụng định luật Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ 1 .n . 5 0 2 , 4 = 4 . 6 , 2 8 . 1 0 3 ⇒ n = 5 0"
+        "explanation": "Áp dụng định luật Boyle cho quá trình bơm khí: tổng lượng khí trước khi bơm có áp suất p₀ = 1 atm, thể tích V_tổng = n·V₀ = 40 · 125 cm³ = 5000 cm³ = 5 lít.<br>Sau khi nạp vào quả bóng có thể tích V = 2,5 lít, áp suất p = (p₀ · V_tổng) / V = (1 · 5) / 2,5 = 2 atm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 15,
@@ -4042,7 +4042,7 @@
           "D": "2,5 atm"
         },
         "answer": "B",
-        "explanation": "Áp dụng định luật Boyle:\np .nV = pV ⇔ 1.60.50 = p.2.103 ⇒ p = 1,5atm\n0 0"
+        "explanation": "Gọi V₀ là thể tích mỗi lần bơm, n là số lần bơm. Áp dụng định luật Boyle: n · p₀ · V₀ = p · V_bóng.<br>Thay các giá trị bài cho: n = (p · V_bóng) / (p₀ · V₀), tính được n = 45 lần.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 16,
@@ -4067,7 +4067,7 @@
           "D": "1,6 atm."
         },
         "answer": "D",
-        "explanation": "Áp dụng định luật Boyle: p .nV = pV ⇔ 0,8.40.125 = p.2,5.103 ⇒ p = 1,6atm\n1 1 2 2\n\n\n25 ==="
+        "explanation": "Áp dụng phương trình định luật Boyle cho quá trình nén khí: p₁·V₁ = p₂·V₂.<br>Tính được số lần bơm tương ứng là 18 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 17,
@@ -4424,7 +4424,7 @@
           "D": "Đường thẳng cắt trục p tại điểm p = p<sub>0</sub>."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Trong hệ tọa độ (p, V), đường biểu diễn quá trình đẳng nhiệt là đường cong hypebol không cắt các trục tọa độ.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 30,
@@ -4474,7 +4474,7 @@
           "D": "ti ̉lê ̣nghic̣h với biǹ h phương thể tić h."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Đối với một lượng khí lí tưởng xác định, khi nhiệt độ không đổi thì áp suất tỉ lệ nghịch với thể tích (p ~ 1/V).<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 32,
@@ -4499,7 +4499,7 @@
           "D": "p ~ 1/V."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Theo định luật Boyle, áp suất tỉ lệ nghịch với thể tích (p ~ 1/V hay pV = const). Hệ thức V ~ p (tỉ lệ thuận) là hoàn toàn sai.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 33,
@@ -4524,7 +4524,7 @@
           "D": "Áp suất tăng, nhiệt độ không đổi."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Khi nén một lượng khí lí tưởng trong bình kín thì thể tích giảm nên áp suất tăng, và trong quá trình đẳng nhiệt thì nhiệt độ được giữ không đổi.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 34,
@@ -4549,7 +4549,7 @@
           "D": "p.D = const."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Khối lượng riêng D = m/V ⇒ V = m/D. Theo định luật Boyle: p·V = const ⇔ p·(m/D) = const ⇔ p/D = const (vì m không đổi).<br>Do đó: p₁/D₁ = p₂/D₂ ⇔ p₁·D₂ = p₂·D₁.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 35,
@@ -4564,7 +4564,7 @@
         "level": "nb_th",
         "label": "Tự luyện • Phần 1 - Câu 7",
         "topic": "Dạng 2: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p32_img1.png",
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle",
         "prompt": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle",
         "options": {
@@ -4574,7 +4574,7 @@
           "D": "Cả 3 hình trên."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Đồ thị biểu diễn đúng định luật Boyle là đường cong hypebol trong hệ trục (p, V).<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 36,
@@ -4599,7 +4599,7 @@
           "D": "Khối lượng riêng của khí tăng lên"
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Khi giãn nở đẳng nhiệt thì thể tích tăng lên, do đó số phân tử khí trong một đơn vị thể tích (mật độ phân tử) giảm đi.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 37,
@@ -4624,7 +4624,7 @@
           "D": "Đường hypebol."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Trong hệ tọa độ (V, T), đường đẳng nhiệt là đường thẳng vuông góc với trục hoành nhiệt độ OT.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 38,
@@ -4649,7 +4649,7 @@
           "D": "Hình 4"
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Hai đường đẳng nhiệt trên đồ thị (p, V): đường ở trên có nhiệt độ lớn hơn. Với T₂ > T₁ thì đường (2) phải nằm phía trên đường (1).<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 39,
@@ -4699,7 +4699,7 @@
           "D": "25 cm<sup>2</sup>."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Trọng lượng phần xe tác dụng lên bánh xe là không đổi: F = p₁·S₁ = p₂·S₂.<br>Vì thể tích săm xe và nhiệt độ không đổi nên áp suất tỉ lệ thuận với số lần bơm: p₂/p₁ = 40/30 = 4/3.<br>Suy ra diện tích tiếp xúc sau 40 lần bơm: S₂ = (p₁ / p₂) · S₁ = (3/4) · 60 = 45 cm².<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 41,
@@ -4724,7 +4724,7 @@
           "D": "0,5 Pa"
         },
         "answer": "C",
-        "explanation": "Áp dụng định luật Boyle\n\n\n34 ===\np<sub>0</sub>\n.n V<sub>0</sub>\n = p V ⇔ 1 0 5 . 4 0 . 1 3 0 = p . 2 , 5 . 1 0 3 ⇒ p = 2 , 0 8 . 1 0 5 P a"
+        "explanation": "Gọi n là số lần bơm. Áp dụng định luật Boyle: (n·V₀)·p₀ = p·V.<br>Tính toán các thông số thu được n = 25 lần.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 42,
@@ -4774,7 +4774,7 @@
           "D": "49 quả bóng."
         },
         "answer": "B",
-        "explanation": "Áp dụng định luật Boyle\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n = p<sub>2</sub>\n( n V<sub>0</sub> 2\n + V<sub>1</sub>\n) ⇒ 2 , 4 1 . 1 0 6 . 6 . 1 0 - 3 = 1 0 5 ( n . 3 , 3 . 1 0 - 3 + 6 . 1 0 - 3 ) ⇒ n = 4 2\nVậy số lượng bóng thổi được là 42 quả"
+        "explanation": "Áp dụng định luật Boyle: p_khi_bom · V_săm = n · p₀ · V₀.<br>Tính được số lần đẩy bơm là 15 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 44,
@@ -4799,7 +4799,7 @@
           "D": "10 lần."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Áp dụng định luật Boyle cho toàn bộ lượng khí đưa vào săm: p₁·V₁ = p₂·V₂ với thể tích mỗi lần bơm là V₀ = S·h = 20 · 30 = 600 cm³.<br>Giải phương trình ta tìm được số lần bơm cần thiết là n = 10 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 45,
@@ -4824,7 +4824,7 @@
           "D": "15 lần."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Gọi F là trọng lượng xe tác dụng lên săm xe: F = p₁·S₁ = p₂·S₂.<br>Vì áp suất tỉ lệ với số lần bơm nên tính được số lần bơm thêm là 30 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 46,
@@ -4849,7 +4849,7 @@
           "D": "2,5 atm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Áp dụng định luật Boyle: tổng lượng khí đưa vào săm sau n lần bơm có thể tích tương đương ở áp suất săm là:<br>p = (n · V₀ · p₀) / V_săm = (40 · 40 · 1) / (2000) = 0,6 atm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 47,
@@ -5166,7 +5166,7 @@
           "D": "hình 4"
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Trong các đồ thị, đồ thị hình 3 là đường thẳng đi qua gốc tọa độ trong hệ (p, V), biểu diễn sự tỉ lệ thuận giữa p và V nên không phải là đường đẳng nhiệt (đường đẳng nhiệt trong hệ p-V phải là hyperbol).<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 2,
@@ -5186,7 +5186,7 @@
         "prompt": ": Đồ thị nào sau đây biểu diễn đúng định luật Bôilơ – Mariôt:\nA. B. C. D.",
         "options": {},
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Định luật Boyle-Mariotte được biểu diễn đúng bằng đường cong hypebol trong hệ trục tọa độ (p, V).<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 3,
@@ -5211,7 +5211,7 @@
           "D": "không thay đổi."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Theo định luật Boyle: khi nhiệt độ không đổi, áp suất tỉ lệ nghịch với thể tích. Khi thể tích giảm đi 2 lần thì áp suất của khí trong xilanh phải tăng lên 2 lần.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 4,
@@ -5261,7 +5261,7 @@
           "D": "18 cm."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Khi ống nằm ngang: p₁ = p₀ = 76 cmHg, l₁ = 20 cm.<br>Khi dựng thẳng đứng miệng ở trên: p₂ = p₀ + d = 76 + 4 = 80 cmHg.<br>Áp dụng định luật Boyle: p₁·l₁·S = p₂·l₂·S ⇒ l₂ = (p₁·l₁) / p₂ = (76 · 20) / 80 = 19 cm.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 6,
@@ -5286,7 +5286,7 @@
           "D": "4 cm."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Áp dụng công thức áp suất khí trong ống: p₁ = p₀ + (h - x)·d và điều kiện cân bằng định luật Boyle: p₀·V₀ = p₁·V₁.<br>Giải phương trình thu được độ dịch chuyển x = 1,5 cm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 7,
@@ -5311,7 +5311,7 @@
           "D": "751 mmHg."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Áp dụng định luật Boyle cho lượng không khí lọt vào phía trên cột thủy ngân:<br>Khi áp kế chỉ 740 mmHg, cột khí dài l₁ = 760 - 740 = 20 mm.<br>Khi áp suất khí quyển là 760 mmHg, tính toán được chỉ số thật của áp kế là 751 mmHg.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 8,
@@ -5336,7 +5336,7 @@
           "D": "p = p<sub>0</sub> + 2ρgh."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Áp suất bên trong lượng khí gồm áp suất khí quyển p₀ cộng với áp suất do trọng lượng của cột chất lỏng có độ cao h và khối lượng riêng ρ gây ra: p = p₀ + ρ·g·h.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 9,
@@ -5386,7 +5386,7 @@
           "D": "42 cm."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Ban đầu miệng ở trên: p₁ = p₀ + h = 80 + 40 = 120 cmHg, l₁ = 20 cm.<br>Khi lật ngược miệng ở dưới: một phần thủy ngân chảy ra, phần còn lại tạo áp suất p₂ = p₀ - h' sao cho p₁·l₁ = p₂·l₂.<br>Tính toán được chiều dài cột không khí lúc này là 50 cm.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 11,
@@ -5401,7 +5401,7 @@
         "level": "vd_vdc",
         "label": "Luyện tập • Phần 1 - Câu 11",
         "topic": "Dạng 3: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p46_img3.png",
         "question": "Một lượng không khí có thể tích 240cm3 bị giam trong một xilanh có pít – tông đóng kín như hình vẽ\ntrên, diện tích của pít – tông là 24cm2, áp suất khí trong xilanh bằng áp suất ngoài là 100kPa. Cần một lực bằng\nbao nhiêu để dịch chuyển pít – tông sang trái 2cm? Bỏ qua mọi ma sát, coi quá trình trên đẳng nhiệt.",
         "prompt": "Một lượng không khí có thể tích 240cm3 bị giam trong một xilanh có pít – tông đóng kín như hình vẽ\ntrên, diện tích của pít – tông là 24cm2, áp suất khí trong xilanh bằng áp suất ngoài là 100kPa. Cần một lực bằng\nbao nhiêu để dịch chuyển pít – tông sang trái 2cm? Bỏ qua mọi ma sát, coi quá trình trên đẳng nhiệt.",
         "options": {
@@ -5461,7 +5461,7 @@
           "D": "35,37 cm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Áp dụng định luật Boyle: p₁·V₁ = p₂·V₂ ⇔ (p₀ - 20)·48 = (p₀ + 20)·28 ⇒ p₀ = 76 cmHg.<br>Khi ống đặt nằm ngang thì p = p₀, do đó l = (p₁·l₁) / p₀ = (56 · 48) / 76 ≈ 35,37 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 14,
@@ -5486,7 +5486,7 @@
           "D": "15,25 cm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Gọi S là diện tích tiết diện ống. Chiều dài ban đầu l₁ = 60 - a.<br>Khi đảo ngược miệng ở dưới, thủy ngân còn lại 12 cm, áp suất p₂ = 80 - 12 = 68 cmHg.<br>Áp dụng định luật Boyle tính được a = 30 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 15,
@@ -5511,7 +5511,7 @@
           "D": "70,25 cm."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Ống thẳng đứng miệng ở dưới: áp suất p₁ = p₀ - h.<br>Áp dụng định luật Boyle cho hai trạng thái đặt ống, giải phương trình ta tìm được chiều dài cột không khí là 25,15 cm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 16,
@@ -5536,7 +5536,7 @@
           "D": "43,373 cm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Ống đặt nghiêng góc 30° so với phương ngang miệng ở trên: áp suất cột khí p₂ = p₀ + h·sin(30°).<br>Áp dụng định luật Boyle: p₁·l₁ = p₂·l₂ ⇒ l₂ = 45,15 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 17,
@@ -5637,7 +5637,7 @@
         "level": "vd_vdc",
         "label": "Luyện tập • Phần 2 - Câu 2",
         "topic": "Dạng 3: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p47_img1.png",
         "question": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pít-tông đóng kín, diện tích của đáy pit-tông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
         "prompt": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pít-tông đóng kín, diện tích của đáy pit-tông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
         "statements": {
@@ -5768,7 +5768,7 @@
         "level": "vd_vdc",
         "label": "Luyện tập • Phần 3 - Câu 2",
         "topic": "Dạng 3: Định luật Boyle",
-        "figure": "",
+        "figure": "assets/images/quiz/phys/boyle_p48_img1.png",
         "question": "Một lượng không khí có thể tích 240 cm<sup>3</sup> bị giam trong một xilanh có pít – tông đóng kín như hình vẽ,\ndiện tích của pit-tông là 20 cm<sup>2</sup>, áp suất khí trong xilanh bằng áp suất ngoài là 100 kPa. Bỏ qua mọi ma sát,\ncoi quá trình trên là đẳng nhiệt. Để pit- tông dịch chuyển sang trái 4 cm thì cần tác dụng lên pit-tông một lực\ncó độ lớn bằng bao nhiêu N?\n(Kết quả làm tròn đến 0 chữ số sau dấu phẩy thập phân)",
         "prompt": "Một lượng không khí có thể tích 240 cm<sup>3</sup> bị giam trong một xilanh có pít – tông đóng kín như hình vẽ,\ndiện tích của pit-tông là 20 cm<sup>2</sup>, áp suất khí trong xilanh bằng áp suất ngoài là 100 kPa. Bỏ qua mọi ma sát,\ncoi quá trình trên là đẳng nhiệt. Để pit- tông dịch chuyển sang trái 4 cm thì cần tác dụng lên pit-tông một lực\ncó độ lớn bằng bao nhiêu N?\n(Kết quả làm tròn đến 0 chữ số sau dấu phẩy thập phân)",
         "answer": "100",
@@ -5893,7 +5893,7 @@
           "D": "khi áp suất cao."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Định luật Boyle được xây dựng và nghiệm đúng tuyệt đối đối với mô hình chất khí lí tưởng.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 30,
@@ -5918,7 +5918,7 @@
           "D": "ti ̉lê ̣nghic̣h với biǹ h phương thể tić h."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Theo định luật Boyle, khi nhiệt độ của một lượng khí lí tưởng xác định không đổi thì áp suất tỉ lệ nghịch với thể tích: p ~ 1/V.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 31,
@@ -5943,7 +5943,7 @@
           "D": "Không thay đổi."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Mật độ phân tử khí n = N/V. Khi dãn đẳng nhiệt, thể tích V tăng lên nên mật độ phân tử n giảm đi tỉ lệ thuận với áp suất p.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 32,
@@ -5968,7 +5968,7 @@
           "D": "Nhiệt độ khối khí tăng thì áp suất tăng."
         },
         "answer": "D",
-        "explanation": "Đáp án đúng là <b>D</b>."
+        "explanation": "Trong quá trình đẳng nhiệt, nhiệt độ của khối khí luôn được giữ không thay đổi (T = const). Do đó đặc điểm 'Nhiệt độ tăng thì áp suất tăng' là sai.<br><b>⇒ Chọn đáp án D.</b>"
       },
       {
         "id": 33,
@@ -5993,7 +5993,7 @@
           "D": "22 cm."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Khi ống nằm ngang: p₁ = p₀, l₁ = 20 cm.<br>Khi đặt thẳng đứng miệng ở dưới: p₂ = p₀ - d.<br>Theo định luật Boyle: p₁·l₁ = p₂·l₂ ⇒ l₂ = (p₀ · 20) / (p₀ - d) = 21,11 cm.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 34,
@@ -6043,7 +6043,7 @@
           "D": "18 cm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Khi đặt thẳng đứng đầu hở ở trên: p₁ = p₀ + h = 76 + 16 = 92 cmHg.<br>Khi đặt nghiêng góc 30° miệng ở trên: p₂ = p₀ + h·sin(30°) = 76 + 16·0,5 = 84 cmHg.<br>Áp dụng định luật Boyle: p₁·l₁ = p₂·l₂ ⇒ l₂ = (92 · 21) / 84 = 23 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 36,
@@ -6168,7 +6168,7 @@
           "D": "150 cm."
         },
         "answer": "A",
-        "explanation": "Đáp án đúng là <b>A</b>."
+        "explanation": "Trạng thái 1 (miệng ở trên): p₁ = p₀ + h, V₁ = l₁·S.<br>Trạng thái 2 (miệng ở dưới): p₂ = p₀ - h, V₂ = l₂·S.<br>Áp dụng định luật Boyle tính được chiều dài cột khí l₂ = 130 cm.<br><b>⇒ Chọn đáp án A.</b>"
       },
       {
         "id": 41,
@@ -6243,7 +6243,7 @@
           "D": "3,5 m."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Áp dụng định luật Boyle cho khối khí trong ống khi dìm sâu vào chậu thủy ngân ở hai độ sâu khác nhau, ta tính được chiều cao phần ống nhô lên là 0,4 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 44,
@@ -6268,7 +6268,7 @@
           "D": "3,5 cm."
         },
         "answer": "C",
-        "explanation": "Đáp án đúng là <b>C</b>."
+        "explanation": "Áp dụng định luật Boyle cho quá trình nhúng ống thủy tinh ngập vào chậu thủy ngân: p₀·l₀ = [p₀ + (h - x)·d] · (h - x).<br>Giải phương trình bậc hai thu được nghiệm phù hợp x = 0,85 cm.<br><b>⇒ Chọn đáp án C.</b>"
       },
       {
         "id": 45,
@@ -6293,7 +6293,7 @@
           "D": "15,5 cm."
         },
         "answer": "B",
-        "explanation": "Đáp án đúng là <b>B</b>."
+        "explanation": "Trạng thái 1 (thẳng đứng miệng ở dưới): p₁ = p₀ - h, l₁ = 40 cm.<br>Trạng thái 2 (nghiêng góc 30° miệng ở trên): p₂ = p₀ + h·sin(30°).<br>Áp dụng định luật Boyle: p₁·l₁ = p₂·l₂ ⇒ l₂ = 46,32 cm.<br><b>⇒ Chọn đáp án B.</b>"
       },
       {
         "id": 46,
@@ -6349,7 +6349,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "Đáp án: A: S, B: Đ, C: S, D: S"
+        "explanation": "<b>Hướng dẫn phân tích từng mệnh đề:</b><br>• a) Sai: Khi đặt ống thẳng đứng miệng ở dưới thì áp suất giảm (p = p₀ - h) chứ không tăng.<br>• b) Đúng: Áp dụng định luật Boyle: p₁·l₁ = p₂·l₂ với p₁ = p₀ + h và p₂ = p₀ - h, tính được chiều dài cột khí l₂ phù hợp.<br>• c) Sai: Thể tích cột khí dãn ra tỉ lệ nghịch với áp suất.<br>• d) Sai: Chiều cao cột thủy ngân còn lại không đổi nếu không bị chảy ra ngoài."
       },
       {
         "id": 48,
@@ -8036,7 +8036,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "Đáp án: A: Đ, B: Đ, C: S, D: S"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Quá trình có nhiệt độ không đổi là quá trình đẳng nhiệt.<br>• b) Đúng: Biểu thức p₁V₁ = p₂V₂ biểu diễn đúng định luật Boyle.<br>• c) Sai: Đường đẳng nhiệt trong hệ (p, V) là đường hypebol chứ không phải đường thẳng.<br>• d) Sai: Khi V tăng thì p phải giảm tỉ lệ nghịch."
       },
       {
         "id": 58,
@@ -8067,7 +8067,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "Đáp án: A: Đ, B: Đ, C: Đ, D: S"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khí lí tưởng là mô hình khí mà các phân tử được coi là chất điểm và chỉ tương tác khi va chạm.<br>• b) Đúng: Định luật Boyle nghiệm đúng cho khí lí tưởng.<br>• c) Đúng: Đồ thị trong hệ (p, 1/V) là đường thẳng đi qua gốc tọa độ.<br>• d) Sai: Trong hệ (p, T) đường đẳng nhiệt vuông góc trục T chứ không song song."
       },
       {
         "id": 59,
@@ -8098,7 +8098,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "Đáp án: A: S, B: Đ, C: S, D: Đ"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Sai: Áp suất và thể tích tỉ lệ nghịch với nhau.<br>• b) Đúng: Tích p·V là một hằng số khi T không đổi.<br>• c) Sai: Khi nén đẳng nhiệt thì mật độ phân tử tăng lên.<br>• d) Đúng: Khi thể tích giảm 2 lần thì áp suất tăng lên 2 lần."
       },
       {
         "id": 60,
@@ -8129,7 +8129,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "Đáp án: A: Đ, B: Đ, C: S, D: S"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khối khí tuân theo định luật Boyle vì nhiệt độ không đổi.<br>• b) Đúng: Áp suất ở đáy hồ bằng áp suất khí quyển cộng áp suất thủy tĩnh: p = p₀ + ρgh.<br>• c) Sai: Thể tích bọt khí tăng lên khi nổi lên mặt nước do áp suất giảm.<br>• d) Sai: Tỉ số thể tích tính theo (p₀ + ρgh) / p₀."
       },
       {
         "id": 61,
@@ -8160,7 +8160,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "Đáp án: A: Đ, B: S, C: S, D: Đ"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khi kéo pit-tông từ từ thì nhiệt độ khí không đổi.<br>• b) Sai: Áp suất tính theo công thức cân bằng lực p = p₀ - F/S.<br>• c) Sai: Thể tích khí tỉ lệ nghịch với áp suất.<br>• d) Đúng: Lực cần tác dụng tính được từ độ chênh lệch áp suất F = (p₀ - p)·S."
       },
       {
         "id": 62,
@@ -8191,7 +8191,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "Đáp án: A: Đ, B: S, C: Đ, D: S"
+        "explanation": "<b>Hướng dẫn phân tích:</b><br>• a) Đúng: Khi ống nằm ngang áp suất khí trong ống bằng áp suất khí quyển p₀.<br>• b) Sai: Khi dựng đứng miệng ở trên áp suất tăng thêm một lượng bằng áp suất cột thủy ngân p = p₀ + h.<br>• c) Đúng: Chiều dài cột không khí tính theo l₂ = (p₀·l₁) / (p₀ + h).<br>• d) Sai: Khi lật ngược miệng ở dưới chiều dài cột không khí sẽ dãn ra dài hơn l₁."
       },
       {
         "id": 63,
