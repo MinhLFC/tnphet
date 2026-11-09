@@ -845,19 +845,15 @@
           ${renderPartInteraction(q, isSlideMode)}
         </div>
 
-        <!-- PHẦN LỜI GIẢI CHI TIẾT KHI MỞ -->
-        ${isRevealed ? `
-          <div class="slide-explanation-card">
-            <div class="explanation-badge">
-              <span>💡 ĐÁP ÁN &amp; LỜI GIẢI CHI TIẾT</span>
+        <!-- PHẦN LỜI GIẢI CHI TIẾT KHI MỞ HOẶC KHI ĐÃ LÀM XONG -->
+        ${(isRevealed || status !== 'UNANSWERED') ? `
+          <div class="slide-explanation-box">
+            <div class="explanation-header">
+              <span>💡 ĐÁP ÁN &amp; LỜI GIẢI CHI TIẾT:</span>
+              <span class="explanation-ans-badge">${getAnswerBadgeText(q)}</span>
             </div>
             <div class="explanation-content">
-              <div class="correct-answer-banner">
-                ${getAnswerBadgeText(q)}
-              </div>
-              <div class="explanation-text-body">
-                ${formatMathHtml(q.explanation || 'Đang cập nhật lời giải chi tiết...')}
-              </div>
+              ${formatMathHtml(q.explanation || 'Đang cập nhật hướng dẫn giải chi tiết.')}
             </div>
           </div>
         ` : ''}
@@ -872,32 +868,54 @@
 
     // PHẦN 1: MCQ (4 phương án A, B, C, D)
     if (q.type === 'mcq') {
-      const userChoice = state.mcqAnswers[key];
+      const userAns = state.mcqAnswers[key];
       const opts = q.options || {};
-      const letters = ['A', 'B', 'C', 'D'];
+      const maxOptLen = Math.max(...Object.values(opts).map(s => (s || '').length), 0);
+      const gridClass = maxOptLen > 56 ? 'single-col' : '';
 
       return `
-        <div class="mcq-options-grid">
-          ${letters.map((L) => {
-            if (!opts[L]) return '';
-            const isUserSelected = userChoice === L;
-            const isCorrect = isMcqOptionCorrect(q, L);
-            let btnClass = 'mcq-opt-btn';
+        <div class="slide-options-grid ${gridClass}">
+          ${['A', 'B', 'C', 'D'].map((letter) => {
+            if (!opts[letter]) return '';
+            const isCorrectLetter = isMcqOptionCorrect(q, letter);
+            const isUserChosen = userAns && String(userAns).trim().toUpperCase() === letter;
+            const isUserCorrect = isMcqOptionCorrect(q, userAns);
 
-            if (isUserSelected) btnClass += ' user-selected';
+            let stateClass = '';
+            let statusIcon = '';
+
             if (isRevealed) {
-              if (isCorrect) btnClass += ' correct-reveal';
-              else if (isUserSelected && !isCorrect) btnClass += ' wrong-reveal';
+              if (isCorrectLetter) {
+                stateClass = 'is-correct';
+                statusIcon = '✔';
+              } else if (isUserChosen && !isCorrectLetter) {
+                stateClass = 'is-wrong';
+                statusIcon = '✖';
+              }
+            } else if (userAns) {
+              if (isUserChosen) {
+                if (isCorrectLetter) {
+                  stateClass = 'is-correct';
+                  statusIcon = '✔';
+                } else {
+                  stateClass = 'is-wrong';
+                  statusIcon = '✖';
+                }
+              } else if (isCorrectLetter && !isUserCorrect) {
+                stateClass = 'is-correct';
+                statusIcon = '✔';
+              }
             }
 
             return `
               <button
                 type="button"
-                class="${btnClass}"
-                onclick="window.PhysQuizApp.selectMcq(${q.id}, '${L}')"
+                class="quiz-option-btn ${stateClass}"
+                onclick="window.PhysQuizApp.selectMcq(${q.id}, '${letter}')"
               >
-                <span class="opt-letter">${L}</span>
-                <span class="opt-text">${formatMathHtml(opts[L])}</span>
+                <span class="option-letter">${letter}</span>
+                <span class="option-content">${formatMathHtml(opts[letter])}</span>
+                ${statusIcon ? `<span class="option-status-icon">${statusIcon}</span>` : ''}
               </button>
             `;
           }).join('')}
@@ -907,40 +925,62 @@
 
     // PHẦN 2: ĐÚNG / SAI (4 ý a, b, c, d)
     if (q.type === 'tf') {
-      const userObj = state.tfAnswers[key] || {};
-      const correctObj = q.answer || q.answers || {};
-      const stmts = q.statements || {};
-      const subKeys = ['a', 'b', 'c', 'd'];
+      const tfUser = state.tfAnswers[key] || {};
+      const items = q.statements || q.items || {};
+      const correctAns = q.answer || q.answers || {};
 
       return `
-        <div class="tf-statements-list">
-          ${subKeys.map((sub) => {
-            const text = stmts[sub];
-            if (!text) return '';
-            const userVal = userObj[sub];
-            const hasUserAnswer = typeof userVal === 'boolean';
-            const cVal = correctObj[sub] === true || correctObj[sub] === 'Đ' || correctObj[sub] === 'D';
+        <div class="math-tf-container">
+          ${['a', 'b', 'c', 'd'].map((subKey) => {
+            const itemText = items[subKey];
+            if (!itemText) return '';
+            const rawCorrect = correctAns[subKey];
+            const correctBool = rawCorrect === 'Đ' || rawCorrect === 'D' || rawCorrect === true;
+            const userBool = tfUser[subKey];
+            const hasAnswered = typeof userBool === 'boolean';
+            let rowClass = '';
+            if (hasAnswered) {
+              rowClass = userBool === correctBool ? 'row-correct' : 'row-wrong';
+            } else if (isRevealed) {
+              rowClass = 'row-correct';
+            }
+
+            let btnTrueClass = '';
+            let btnFalseClass = '';
+
+            if (hasAnswered) {
+              if (userBool === true) {
+                btnTrueClass = correctBool === true ? 'selected-correct' : 'selected-wrong';
+                if (!correctBool) btnFalseClass = 'ans-hint';
+              } else {
+                btnFalseClass = correctBool === false ? 'selected-correct' : 'selected-wrong';
+                if (correctBool) btnTrueClass = 'ans-hint';
+              }
+            } else if (isRevealed) {
+              if (correctBool) btnTrueClass = 'ans-hint';
+              else btnFalseClass = 'ans-hint';
+            }
 
             return `
-              <div class="tf-item-row">
-                <div class="tf-item-text">
-                  <span class="tf-item-tag">${sub})</span>
-                  <span>${formatMathHtml(text)}</span>
+              <div class="math-tf-row ${rowClass}">
+                <div class="math-tf-statement">
+                  <span class="math-tf-key">${subKey.toUpperCase()}</span>
+                  <span>${formatMathHtml(itemText)}</span>
                 </div>
-                <div class="tf-btn-group">
+                <div class="math-tf-actions">
                   <button
                     type="button"
-                    class="tf-choice-btn btn-true ${userVal === true ? 'active-true' : ''} ${isRevealed && cVal === true ? 'revealed-correct' : ''}"
-                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${sub}', true)"
+                    class="tf-choice-btn btn-true ${btnTrueClass}"
+                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${subKey}', true)"
                   >
-                    Đúng
+                    Đúng (Đ)
                   </button>
                   <button
                     type="button"
-                    class="tf-choice-btn btn-false ${userVal === false ? 'active-false' : ''} ${isRevealed && cVal === false ? 'revealed-correct' : ''}"
-                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${sub}', false)"
+                    class="tf-choice-btn btn-false ${btnFalseClass}"
+                    onclick="window.PhysQuizApp.selectTf(${q.id}, '${subKey}', false)"
                   >
-                    Sai
+                    Sai (S)
                   </button>
                 </div>
               </div>
@@ -952,34 +992,52 @@
 
     // PHẦN 3: TRẢ LỜI NGẮN (Điền số)
     if (q.type === 'sa' || q.type === 'short') {
-      const val = state.shortAnswers[key] || '';
-      const st = evaluateQuestionStatus(q);
+      const userVal = state.shortAnswers[key] || '';
+      const hasVal = userVal.trim() !== '';
+      const normU = normalizeNumberStr(userVal);
+      const normC = normalizeNumberStr(q.answer);
+      const isCorrect = hasVal && (normU === normC || (q.acceptedAnswers && q.acceptedAnswers.map(normalizeNumberStr).includes(normU)));
+      const inputClass = hasVal ? (isCorrect ? 'is-correct' : 'is-wrong') : '';
+      const showKq = isRevealed || isCorrect;
+
+      const kqCells = (q.kqCells && q.kqCells.length === 4) 
+        ? q.kqCells 
+        : String(q.answer).padEnd(4, ' ').slice(0, 4).split('');
 
       return `
-        <div class="short-answer-box">
-          <label class="short-input-label">✍️ Nhập đáp số học sinh:</label>
-          <div class="short-input-row">
+        <div class="math-sa-wrapper">
+          <div class="math-sa-input-group">
+            <span class="math-sa-label">✍️ Nhập đáp số học sinh:</span>
             <input
               type="text"
-              class="short-text-input ${st === 'CORRECT' ? 'input-correct' : (st === 'WRONG' ? 'input-wrong' : '')}"
+              class="math-sa-input ${inputClass}"
               placeholder="Nhập số..."
-              value="${escapeAttr(val)}"
+              value="${escapeAttr(userVal)}"
               onchange="window.PhysQuizApp.setShortAnswer(${q.id}, this.value)"
               onkeydown="if(event.key === 'Enter') window.PhysQuizApp.setShortAnswer(${q.id}, this.value)"
             />
             <button
               type="button"
               class="quiz-tool-btn"
-              onclick="window.PhysQuizApp.setShortAnswer(${q.id}, this.previousElementSibling.value)"
+              onclick="const inp=this.previousElementSibling; window.PhysQuizApp.setShortAnswer(${q.id}, inp.value)"
             >
-              ✓ Kiểm tra
+              ✔ Kiểm tra
             </button>
+            ${hasVal ? `
+              <span style="font-weight: 800; font-size: 0.92rem; color: ${isCorrect ? '#16a34a' : '#dc2626'};">
+                ${isCorrect ? '🎉 Bạn đã trả lời CHÍNH XÁC!' : `✖ Chưa đúng (Đáp số chuẩn: ${escapeHtml(String(q.answer))})`}
+              </span>
+            ` : ''}
           </div>
-          ${(isRevealed || st !== 'UNANSWERED') ? `
-            <div class="short-feedback-badge ${st === 'CORRECT' ? 'correct' : 'wrong'}">
-              ${st === 'CORRECT' ? '🎉 Bạn đã trả lời CHÍNH XÁC!' : (st === 'WRONG' ? `❌ Chưa đúng. Đáp án chuẩn: <b>${escapeHtml(q.answer)}</b>` : '')}
+
+          <div class="math-kq-box-group" title="Ô điền kết quả chuẩn trên phiếu trả lời trắc nghiệm (Tối đa 4 ký tự)">
+            <span class="math-kq-title">KQ:</span>
+            <div class="math-kq-cells ${showKq ? 'revealed' : ''}">
+              ${kqCells.map(ch => `
+                <div class="math-kq-cell">${showKq ? escapeHtml(ch.trim()) : ''}</div>
+              `).join('')}
             </div>
-          ` : ''}
+          </div>
         </div>
       `;
     }
@@ -989,7 +1047,7 @@
 
   function getAnswerBadgeText(q) {
     if (q.type === 'mcq') {
-      return `Đáp án đúng: <b class="badge-letter">${q.answer}</b>`;
+      return `Đáp án đúng: <b>${escapeHtml(String(q.answer))}</b>`;
     }
     if (q.type === 'tf') {
       const a = q.answer || q.answers || {};
@@ -997,10 +1055,10 @@
       const fb = a.b === true || a.b === 'Đ' || a.b === 'D' ? 'Đúng' : 'Sai';
       const fc = a.c === true || a.c === 'Đ' || a.c === 'D' ? 'Đúng' : 'Sai';
       const fd = a.d === true || a.d === 'Đ' || a.d === 'D' ? 'Đúng' : 'Sai';
-      return `Đáp án chuẩn: a) <b>${fa}</b> • b) <b>${fb}</b> • c) <b>${fc}</b> • d) <b>${fd}</b>`;
+      return `a) <b>${fa}</b> • b) <b>${fb}</b> • c) <b>${fc}</b> • d) <b>${fd}</b>`;
     }
     if (q.type === 'sa' || q.type === 'short') {
-      return `Đáp án số chuẩn: <b class="badge-val">${q.answer}</b>`;
+      return `Đáp án: <b>${escapeHtml(String(q.answer))}</b>`;
     }
     return '';
   }
