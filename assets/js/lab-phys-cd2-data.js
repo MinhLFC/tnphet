@@ -2355,7 +2355,7 @@
           "A": "Đun nóng khí trong 1 bình đậy kín",
           "B": "Không khí trong quả bóng bay bị phơi nắng, nắng lên, nở ra làm căng bóng",
           "C": "Cả 3 quá trình trên đều không phải là đẳng quá trình",
-          "D": "Đun nóng khí trong 1 xilanh , khí nở ra đầy pittong chuyển động"
+          "D": "Đun nóng khí trong 1 xilanh , khí nở ra đầy pít-tông chuyển động"
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -2430,7 +2430,7 @@
           "A": "Đường thẳng không đi qua gốc tọa độ.",
           "B": "Đường thẳng kéo dài qua gốc tọa độ.",
           "C": "Đường hypebol",
-          "D": "Đường thẳng cắt trục p tại điểm p = p .\n0"
+          "D": "Đường thẳng cắt trục p tại điểm p = p<sub>0</sub>."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -2603,7 +2603,7 @@
           "D": "Giảm 10<sup>6</sup> Pa"
         },
         "answer": "A",
-        "explanation": "Giải thích :\nTrạng thái 1 : V = 3 lít , p = 8.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 4 lít , p = ? Pa\n2 2\n\n\n7 ===\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\np.V 8.105.3\n ⇒ p = 1 1 = = 6.10<sup>5</sup> Pa.\n2 V 4\n2"
+        "explanation": "Giải thích :\nTrạng thái 1 : V = 3 lít , p = 8.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 4 lít , p = ? Pa\n2 2\n\n\n7 ===\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\np.V 8.10<sup>5</sup>.3\n ⇒ p = 1 1 = = 6.10<sup>5</sup> Pa.\n2 V 4\n2"
       },
       {
         "id": 17,
@@ -2622,10 +2622,10 @@
         "question": "Cho ba thông số trạng thái của khối khí lí tưởng xác định: thể tích V, áp suất p và nhiệt độ tuyệt đối\nT. Hệ thức nào sau đây diễn tả sai định luật Boyle?",
         "prompt": "Cho ba thông số trạng thái của khối khí lí tưởng xác định: thể tích V, áp suất p và nhiệt độ tuyệt đối\nT. Hệ thức nào sau đây diễn tả sai định luật Boyle?",
         "options": {
-          "A": "p V = hằng số.",
-          "B": "p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n.",
-          "C": "p\nV<sub>1</sub>\n1\n = \np\nV<sub>2</sub>\n2\n.",
-          "D": "p\nV<sub>1</sub>\n2\n = \np\nV<sub>2</sub>\n1\n."
+          "A": "p.V = hằng số.",
+          "B": "p<sub>1</sub>.V<sub>1</sub> = p<sub>2</sub>.V<sub>2</sub>.",
+          "C": "p<sub>1</sub> / V<sub>1</sub> = p<sub>2</sub> / V<sub>2</sub>.",
+          "D": "p<sub>1</sub> / V<sub>2</sub> = p<sub>2</sub> / V<sub>1</sub>."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -2674,7 +2674,7 @@
         "statements": {
           "a": "Khối khí chuyển đổi trạng thái bằng quá trình đẳng nhiệt.",
           "b": "Nhiệt độ khối khí ở trạng thái (1) nhỏ hơn nhiệt độ của khối khí ở trạng thái (2).",
-          "c": "Ở cùng một thể tích V , áp suất của khối khí khi ở nhiệt độ T nhỏ hơn áp suất của khối khí khi ở nhiệt độ\n0 1\nT<sub>2</sub>\n.",
+          "c": "Ở cùng một thể tích V₀, áp suất của khối khí khi ở nhiệt độ T₁ nhỏ hơn áp suất của khối khí khi ở nhiệt độ T₂.",
           "d": "Áp suất của khối khí dù ở nhiệt độ nào, luôn tỉ lệ nghịch với thể tích của nó."
         },
         "answer": {
@@ -2725,7 +2725,7 @@
           "c": "Đ",
           "d": "Đ"
         },
-        "explanation": "<b>Ý B:</b> Quá trình biến đổi trạng thái của khối khí này là nén đẳng nhiệt.<br><b>Ý C:</b> 1,0.2,4\nV = 4,8 - = 3,2 m<sup>3</sup>\n1,5<br><b>Ý D:</b> V<sub>2</sub>\n = \np\n1p\n.V<sub>2</sub>\n1 = \n1 , 0\n0\n. 2\n, 5\n, 4\n = 4,8 m<sup>3</sup>"
+        "explanation": "<b>Ý B:</b> Quá trình biến đổi trạng thái của khối khí này là nén đẳng nhiệt.<br><b>Ý C:</b> 1,0.2,4\nΔV = 4,8 - = 3,2 m<sup>3</sup>\n1,5<br><b>Ý D:</b> V<sub>2</sub>\n = \np\n1p\n.V<sub>2</sub>\n1 = \n1 , 0\n0\n. 2\n, 5\n, 4\n = 4,8 m<sup>3</sup>"
       },
       {
         "id": 21,
@@ -2741,10 +2741,10 @@
         "label": "Luyện tập • Phần 2 - Câu 3",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là  = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là  = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
-        "prompt": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là  = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là  = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
+        "question": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là ρ = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
+        "prompt": "Một bọt khí có thể tích 1,5 cm<sup>3</sup> được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực\nnước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103\nkg/m<sup>3</sup>. Áp suất khí quyển là ρ = 1,00.10<sup>5</sup> Pa, g = 10 m/s2.\n0",
         "statements": {
-          "a": "Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 100 m.",
+          "a": "Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.",
           "b": "Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p = 1,00.10<sup>5</sup> Pa",
           "c": "Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.10<sup>5</sup> Pa.",
           "d": "Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm<sup>3</sup>."
@@ -2761,7 +2761,7 @@
           "c": "Đ",
           "d": "Đ"
         },
-        "explanation": "<b>Ý B:</b> 0\nKhi bọt khí nổi lên mặt nước, áp suất của bọt khí bằng áp suất khí quyển p = 1,00.10<sup>5</sup> Pa.\n0<br><b>Ý C:</b> p = p + gh = 1,00.105 + 1,00.103.10.100 = 11,0.10<sup>5</sup> Pa\n1 0<br><b>Ý D:</b> Đối với trạng thái ở độ sâu 100 m và trên mặt nước thì ta áp dụng định luật Boyle\np .V = p .V ⇒ \n1 1 0 0\nV<sub>0</sub>\n = \np<sub>1</sub>\np\n.V<sub>0</sub>\n1 = \n1 1\n1\n, 0\n, 0\n.1\n0\n0\n.1\n5 .1\n5 0\n,5\n = 1 6 ,5 cm<sup>3</sup>"
+        "explanation": "<b>Ý B:</b> 0\nKhi bọt khí nổi lên mặt nước, áp suất của bọt khí bằng áp suất khí quyển p = 1,00.10<sup>5</sup> Pa.\n0<br><b>Ý C:</b> p = p + ρgh = 1,00.10<sup>5</sup> + 1,00.103.10.100 = 11,0.10<sup>5</sup> Pa\n1 0<br><b>Ý D:</b> Đối với trạng thái ở độ sâu 100 m và trên mặt nước thì ta áp dụng định luật Boyle\np .V = p .V ⇒ \n1 1 0 0\nV<sub>0</sub>\n = \np<sub>1</sub>\np\n.V<sub>0</sub>\n1 = \n1 1\n1\n, 0\n, 0\n.1\n0\n0\n.1\n5 .1\n5 0\n,5\n = 1 6 ,5 cm<sup>3</sup>"
       },
       {
         "id": 22,
@@ -2820,7 +2820,7 @@
           "1,89",
           "1.89"
         ],
-        "explanation": "p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>0</sub>\n.V<sub>0</sub>\n ⇔ ( p<sub>0</sub>\n + g h ) .V<sub>1</sub>\n = p<sub>0</sub>\n.V<sub>0</sub>\n\n ⇒ V<sub>0</sub>\n = \n( p<sub>0</sub>\n + \np\ng\n0\nh ) . V<sub>1</sub> = \n( 1 , 0 1 3 . 1 0\n1\n5\n, 0\n + \n1\n1\n3\n0\n.\n0\n1\n3\n0\n.\n5\n1 0 . 9 ) . V<sub>1</sub> = 1 , 8 9 V<sub>1</sub>"
+        "explanation": "p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>0</sub>\n.V<sub>0</sub>\n ⇔ ( p<sub>0</sub>\n + g h ) .V<sub>1</sub>\n = p<sub>0</sub>\n.V<sub>0</sub>\nρ\n ⇒ V<sub>0</sub>\n = \n( p<sub>0</sub>\n + ρ\np\ng\n0\nh ) . V<sub>1</sub> = \n( 1 , 0 1 3 . 1 0\n1\n5\n, 0\n + \n1\n1\n3\n0\n.\n0\n1\n3\n0\n.\n5\n1 0 . 9 ) . V<sub>1</sub> = 1 , 8 9 V<sub>1</sub>"
       },
       {
         "id": 24,
@@ -2843,7 +2843,7 @@
           "4,29",
           "4.29"
         ],
-        "explanation": "Xét cùng một lượng khí có khối lượng m ở hai trạng thái.\nÁp dụng ĐL Bôi lơ:\np V = p<sub>0</sub>\nV<sub>0</sub>\n ⇔ p V = p<sub>0</sub>\nm\n ⇔ 1 5 0  a t m  . 2 0 . 1 0 - 3  m<sup>3</sup>  = 1 .\n1\nm\n, 4 3\n ⇒ m = 4 , 2 9 k g\n"
+        "explanation": "Xét cùng một lượng khí có khối lượng m ở hai trạng thái.\nÁp dụng ĐL Bôi lơ:\np V = p<sub>0</sub>\nV<sub>0</sub>\n ⇔ p V = p<sub>0</sub>\nm\n ⇔ 1 5 0 ( a t m ) . 2 0 . 1 0 - 3 ( m<sup>3</sup> ) = 1 .\n1\nm\n, 4 3\n ⇒ m = 4 , 2 9 k g\nρ"
       },
       {
         "id": 25,
@@ -2954,10 +2954,10 @@
         "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối\nquan hệ về nhiệt độ của hai đường thẳng nhiệt này là",
         "prompt": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối\nquan hệ về nhiệt độ của hai đường thẳng nhiệt này là",
         "options": {
-          "A": "T<sub>2</sub>\n T<sub>1</sub>\n.",
-          "B": "T<sub>2</sub>\n = T<sub>1</sub>\n.",
-          "C": "T T.",
-          "D": "T T.\n2 1 2 1"
+          "A": "T<sub>2</sub> > T<sub>1</sub>.",
+          "B": "T<sub>2</sub> = T<sub>1</sub>.",
+          "C": "T<sub>2</sub> < T<sub>1</sub>.",
+          "D": "T<sub>2</sub> ≤ T<sub>1</sub>."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -2976,13 +2976,13 @@
         "label": "Tự luyện • Phần 1 - Câu 2",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p14_img2.png",
-        "question": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n \npOV như hình vẽ.\n\n\n15 ===\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
-        "prompt": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n \npOV như hình vẽ.\n\n\n15 ===\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
+        "question": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\n\n\n15 ===\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
+        "prompt": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\n\n\n15 ===\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
         "options": {
           "A": "0,75 atm",
           "B": "0,5 atm",
           "C": "1,5 atm",
-          "D": "1,0 atm\nTa có:\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n2\n ⇔ 1 .6 = p<sub>2</sub>\n.8 ⇔ p<sub>2</sub>\n = 0 , 7 5 a t m ."
+          "D": "1,0 atm."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -3029,10 +3029,10 @@
         "question": "Hệ thức nào sau đây là của định luật Bôi-lơ?\np V",
         "prompt": "Hệ thức nào sau đây là của định luật Bôi-lơ?\np V",
         "options": {
-          "A": "pV = hằng số",
-          "B": "p V = p V .",
-          "C": "= hằng số.",
-          "D": "= hằng số.\n1 2 2 1\nV p"
+          "A": "pV = hằng số.",
+          "B": "p<sub>1</sub>.V<sub>2</sub> = p<sub>2</sub>.V<sub>1</sub>.",
+          "C": "p / V = hằng số.",
+          "D": "V / p = hằng số."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -3104,10 +3104,10 @@
         "question": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?\np p p V",
         "prompt": "Phương trình nào sau đây không phải là phương trình của định luật Boyle?\np p p V",
         "options": {
-          "A": "p V = p V .",
+          "A": "p<sub>1</sub>.V<sub>1</sub> = p<sub>2</sub>.V<sub>2</sub>.",
           "B": "pV = const.",
-          "C": "1 = 2 .",
-          "D": "1 = 2 .\n1 1 2 2\nV V p V<sub>1</sub> 2 2 1"
+          "C": "p<sub>1</sub> / V<sub>1</sub> = p<sub>2</sub> / V<sub>2</sub>.",
+          "D": "p<sub>1</sub> / p<sub>2</sub> = V<sub>2</sub> / V<sub>1</sub>."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -3177,7 +3177,7 @@
           "A": "2 at",
           "B": "3,8 at",
           "C": "1,2 at",
-          "D": "1,5 at\np.V = p .V ⇔ 25.p = (p + 0,8).15 ⇒ p = 1,2 at.\n1 1 2 2 1 1 1"
+          "D": "1,5 at."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -3202,7 +3202,7 @@
           "A": "2",
           "B": "5",
           "C": "6",
-          "D": "1\n p\np\nV<sub>1</sub>\nV<sub>2</sub>\n1\n2\n = \n = \n0\n1\n,1\n0\n\n0\na\n\nt\na\nm\nt m\n . 1\n .\n0\n5\n0\n0\n\n. 1\nm\n0\n3\n - \n\n3  m  3 .n\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → n = 2"
+          "D": "1"
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -3227,7 +3227,7 @@
           "A": "15 lít",
           "B": "12 lít",
           "C": "10 lít",
-          "D": "14 lít\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇔ 1 0 5 . 3 0 = 3 . 1 0 5 .V<sub>2</sub>\n ⇒ V = 10 lít .\n2"
+          "D": "14 lít."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -3252,7 +3252,7 @@
           "A": "V = 12,5 lít.",
           "B": "V = 8 lít.",
           "C": "V = 2,5 lít.",
-          "D": "V = 40 lít.\n2 2 2 2\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ 1 0 5  P a  . 1 0  l  =  1 0 5 + 2 5 % . 1 0 5   P a  V<sub>2</sub>\n ⇒ V<sub>2</sub>\n = 8  l "
+          "D": "40 lít."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -3271,13 +3271,13 @@
         "label": "Tự luyện • Phần 1 - Câu 14",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n \npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
-        "prompt": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n \npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
+        "question": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
+        "prompt": "Cho đồ thị biểu diễn sự biến đổi trạng thái của cùng một lượng khí lí tưởng xác định trong hệ trục\n( )\npOV như hình vẽ.\nTính áp suất của khối khí khi khối khí có thể tích là 8 . (Đơn vị áp suất là atm)",
         "options": {
           "A": "0,75 atm",
           "B": "0,5 atm",
           "C": "1,5 atm",
-          "D": "1,0 atm\n\n\nTa có:\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n2\n ⇔ 1 .6 = p<sub>2</sub>\n.8 ⇔ p<sub>2</sub>\n = 0 , 7 5 a t m ."
+          "D": "1,0 atm."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -3327,7 +3327,7 @@
           "A": "100 lít",
           "B": "150 lít",
           "C": "170 lít",
-          "D": "300 lít\np.V = p .V ⇔ 1.V = 20.15 ⇒ V = 300 lít.\n1 1 2 2 1 1"
+          "D": "300 lít."
         },
         "answer": "D",
         "explanation": "Đáp án đúng là <b>D</b>."
@@ -3377,7 +3377,7 @@
           "A": "3 lít",
           "B": "7 lít",
           "C": "1 lít",
-          "D": "2,5 lít\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇔ 2 .V<sub>1</sub>\n = 6 ( V<sub>1</sub>\n - 4 ) ⇒ V = 1 lít.\n1"
+          "D": "2,5 lít."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -3416,7 +3416,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Một lượng khí lí tưởng xác định với nhiệt độ không đổi thì thể tích tỉ lệ nghịch với áp suất<br><b>Ý C:</b> Giải thích :\n2V - 3p = 6  V = 9 l\nÁp dụng ĐL Bôi-lơ: pV = p + 2V - 3 = p + 5V - 5 ⇒  ⇒ \n 5V - 5p = 25  p = 4.105(Pa)\nÁp suất ban đầu của khối khí là 4.10<sup>5</sup> Pa<br><b>Ý D:</b> Thể tích ban đầu của khối khí là 9 lít"
+        "explanation": "<b>Ý A:</b> Một lượng khí lí tưởng xác định với nhiệt độ không đổi thì thể tích tỉ lệ nghịch với áp suất<br><b>Ý C:</b> Giải thích :\n2V - 3p = 6  V = 9 (l)\nÁp dụng ĐL Bôi-lơ: pV = (p + 2)(V - 3) = (p + 5)(V - 5) ⇒  ⇒ \n 5V - 5p = 25  p = 4.10<sup>5</sup>(Pa)\nÁp suất ban đầu của khối khí là 4.10<sup>5</sup> Pa<br><b>Ý D:</b> Thể tích ban đầu của khối khí là 9 lít"
       },
       {
         "id": 48,
@@ -3488,7 +3488,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Giải thích :\np = p + 0,25p = 1,25p = 1,25.10<sup>5</sup> Pa\n2 1 1 1<br><b>Ý C:</b> 1 1 2 2<br><b>Ý D:</b> Giải thích :\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ 1 0 5 . 1 0 = 1 , 2 5 . 1 0 5 .V<sub>2</sub>\n ⇒ V<sub>2</sub>\n = 8  l "
+        "explanation": "<b>Ý A:</b> Giải thích :\np = p + 0,25p = 1,25p = 1,25.10<sup>5</sup> Pa\n2 1 1 1<br><b>Ý C:</b> 1 1 2 2<br><b>Ý D:</b> Giải thích :\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ 1 0 5 . 1 0 = 1 , 2 5 . 1 0 5 .V<sub>2</sub>\n ⇒ V<sub>2</sub>\n = 8 ( l )"
       },
       {
         "id": 50,
@@ -3570,7 +3570,7 @@
           "4",
           "4"
         ],
-        "explanation": "Trạng thái 1 : V , p<sub>1</sub> 1\nTrạng thái 2 : V = (V -3 ) lít ,\n2 1\np<sub>2</sub>\n = p<sub>1</sub>\n + 2 a t m\nTrạng thái 3 : V = (V – 5) lít,\n3 1\np\n3\n = p<sub>1</sub>\n + 5 a t m\nGiải hệ phương trình :\n p\n(\n1\np\n.V<sub>1</sub>\n1\n + \n = \n2 )\n(\n.\np\n( V<sub>1</sub>\n1\n + \n - \n2\n3\n) .\n)\n( V\n = \n1\n(\n - \np<sub>1</sub>\n3 )\n + 5 ) . ( V<sub>1</sub>\n - 5 )\nSuy ra : V = 9 lít và p = 4 atm\n1 1"
+        "explanation": "Trạng thái 1 : V , p<sub>1</sub> 1\nTrạng thái 2 : V = (V -3 ) lít ,\n2 1\np<sub>2</sub>\n = p<sub>1</sub>\n + 2 a t m\nTrạng thái 3 : V = (V – 5) lít,\n3 1\np\n3\n = p<sub>1</sub>\n + 5 a t m\nGiải hệ phương trình :\n p\n(\n1\np\n.V<sub>1</sub>\n1\n + \n = \n2 )\n(\n.\np\n( V<sub>1</sub>\n1\n + \n - \n2\n3\n) .\n)\n( V\n = \n1\n(\n - \np<sub>1</sub>\n3 )\n + 5 ) . ( V<sub>1</sub>\n - 5 )\nSuy ra : V = 9 lít và p = 4 atm\n1 1"
       },
       {
         "id": 53,
@@ -3586,8 +3586,8 @@
         "label": "Tự luyện • Phần 3 - Câu 3",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "",
-        "question": "Nén khí đẳng nhiệt từ thể tích 10 lít đến thể tích 7 lít thì thấy áp suất tăng lên một lượng p = 30 kPa.\nÁp suất ban đầu của khí là bao nhiêu kPa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Nén khí đẳng nhiệt từ thể tích 10 lít đến thể tích 7 lít thì thấy áp suất tăng lên một lượng p = 30 kPa.\nÁp suất ban đầu của khí là bao nhiêu kPa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "question": "Nén khí đẳng nhiệt từ thể tích 10 lít đến thể tích 7 lít thì thấy áp suất tăng lên một lượng Δp = 30 kPa.\nÁp suất ban đầu của khí là bao nhiêu kPa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Nén khí đẳng nhiệt từ thể tích 10 lít đến thể tích 7 lít thì thấy áp suất tăng lên một lượng Δp = 30 kPa.\nÁp suất ban đầu của khí là bao nhiêu kPa?\n(kết quả lấy 0 chữ số sau dấu phẩy thập phân)",
         "answer": "70",
         "acceptedAnswers": [
           "70",
@@ -3639,7 +3639,7 @@
           "212",
           "212"
         ],
-        "explanation": "Áp dụng p = p<sub>0</sub>\n + \nF\nS\n(Do nén khí).\np<sub>0</sub>\nV<sub>0</sub>\n = p V ⇒ \nV\nV<sub>0</sub> = \np\np<sub>0</sub>\n = \np<sub>0</sub>\n + \np<sub>0</sub>\nF\nS\n = 4 ⇒ \nS\nF\np<sub>0</sub>\n = 3 ⇒ F = 3 S p<sub>0</sub>\n = 3 .\nd\n4\n2\np<sub>0</sub>\n = 3 .\n. 0 ,\n4\n0 3 2\n. 1 0 5 = 2 1 2\n "
+        "explanation": "Áp dụng p = p<sub>0</sub>\n + \nF\nS\n(Do nén khí).\np<sub>0</sub>\nV<sub>0</sub>\n = p V ⇒ \nV\nV<sub>0</sub> = \np\np<sub>0</sub>\n = \np<sub>0</sub>\n + \np<sub>0</sub>\nF\nS\n = 4 ⇒ \nS\nF\np<sub>0</sub>\n = 3 ⇒ F = 3 S p<sub>0</sub>\n = 3 .\nd\n4\n2\np<sub>0</sub>\n = 3 .\n. 0 ,\n4\n0 3 2\n. 1 0 5 = 2 1 2\nπ π"
       },
       {
         "id": 56,
@@ -3655,14 +3655,14 @@
         "label": "Tự luyện • Phần 3 - Câu 6",
         "topic": "Dạng 1: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p21_img2.png",
-        "question": "Một bọt khí có thể tích tăng gấp 3 khi nổi từ đáy hồ lên mặt nước. Giả sử nhiệt độ ở đáy hồ và mặt hồ\nlà như nhau, biết trọng lượng riêng của nước là d = 104N/m<sup>3</sup> và áp suất của khí quyển là p = 760mmHg =\no\n1,013.10<sup>5</sup> Pa. Độ sâu của hồ là bao nhiêu m? (Kết quả lấy đến 2 chữ số sau dấu phẩy thập phân).",
-        "prompt": "Một bọt khí có thể tích tăng gấp 3 khi nổi từ đáy hồ lên mặt nước. Giả sử nhiệt độ ở đáy hồ và mặt hồ\nlà như nhau, biết trọng lượng riêng của nước là d = 104N/m<sup>3</sup> và áp suất của khí quyển là p = 760mmHg =\no\n1,013.10<sup>5</sup> Pa. Độ sâu của hồ là bao nhiêu m? (Kết quả lấy đến 2 chữ số sau dấu phẩy thập phân).",
+        "question": "Một bọt khí có thể tích tăng gấp 3 khi nổi từ đáy hồ lên mặt nước. Giả sử nhiệt độ ở đáy hồ và mặt hồ\nlà như nhau, biết trọng lượng riêng của nước là d = 10<sup>4</sup> N/m<sup>3</sup> và áp suất của khí quyển là p = 760mmHg =\no\n1,013.10<sup>5</sup> Pa. Độ sâu của hồ là bao nhiêu m? (Kết quả lấy đến 2 chữ số sau dấu phẩy thập phân).",
+        "prompt": "Một bọt khí có thể tích tăng gấp 3 khi nổi từ đáy hồ lên mặt nước. Giả sử nhiệt độ ở đáy hồ và mặt hồ\nlà như nhau, biết trọng lượng riêng của nước là d = 10<sup>4</sup> N/m<sup>3</sup> và áp suất của khí quyển là p = 760mmHg =\no\n1,013.10<sup>5</sup> Pa. Độ sâu của hồ là bao nhiêu m? (Kết quả lấy đến 2 chữ số sau dấu phẩy thập phân).",
         "answer": "2,03",
         "acceptedAnswers": [
           "2,03",
           "2.03"
         ],
-        "explanation": "Áp suất và thể tích của bọt khí khi ở đáy hồ (ở độ cao h so với mặt nước) :V<sub>1</sub>\np = p +d.g.h = 1,013.105 + 104.10.h = 1,013.105 + 105.h\n1 0\nÁp suất và thể tích của bọt khí khi ở trên mặt nước :\nV = 3V , p = 1,013.10<sup>5</sup> Pa\n0 1 0\nTa có : p .V = p .V ⇔ V.(1,013.105 + 105.h) = 1,013.105.3V ⇒ h = 2,03 m\n1 1 2 2 1 1"
+        "explanation": "Áp suất và thể tích của bọt khí khi ở đáy hồ (ở độ cao h so với mặt nước) :V<sub>1</sub>\np = p +d.g.h = 1,013.10<sup>5</sup> + 104.10.h = 1,013.10<sup>5</sup> + 105.h\n1 0\nÁp suất và thể tích của bọt khí khi ở trên mặt nước :\nV = 3V , p = 1,013.10<sup>5</sup> Pa\n0 1 0\nTa có : p .V = p .V ⇔ V.(1,013.10<sup>5</sup> + 105.h) = 1,013.10<sup>5</sup>.3V ⇒ h = 2,03 m\n1 1 2 2 1 1"
       }
     ]
   },
@@ -3722,7 +3722,7 @@
           "D": "2,25 atm."
         },
         "answer": "D",
-        "explanation": "* Thể tích không khí ở áp suất 1 atm: V<sub>1</sub>\n = N V + V<sub>2</sub>\n = 5 0 . 2 5 0 . 1 0 - 3 + 1 0 = 2 2 , 5  l í t \nV 22,5\nTheo định luật Boyle: p = p<sub>1</sub> = 1. = 2,25atm\n2 1V 10\n2"
+        "explanation": "* Thể tích không khí ở áp suất 1 atm: V<sub>1</sub>\n = N V + V<sub>2</sub>\n = 5 0 . 2 5 0 . 1 0 - 3 + 1 0 = 2 2 , 5 ( l í t )\nV 22,5\nTheo định luật Boyle: p = p<sub>1</sub> = 1. = 2,25(atm)\n2 1V 10\n2"
       },
       {
         "id": 3,
@@ -3817,9 +3817,9 @@
         "prompt": "Phát biểu nào sao đây là đúng với nội dung định luật Boyle?",
         "options": {
           "A": "Trong quá trình đẳng nhiệt của một lượng khí nhất định áp suất tỉ lệ nghịch với thể tích.",
-          "B": "Trong quá trình đẳng áp, nhiệt độ không đổi, tích của áp suất và thể tích của một khối lượng khí xác định\nlà một hằng số.",
+          "B": "Trong quá trình đẳng áp, nhiệt độ không đổi, tích của áp suất và thể tích của một khối lượng khí xác định là một hằng số.",
           "C": "Trong quá trình đẳng nhiệt của một lượng khí nhất định áp suất tỉ lệ thuận với thể tích.",
-          "D": "Trong quá trình đẳng tích, ở nhiệt độ không đổi, tích của áp suất và thể tích của một lượng khí xác định là\nmột hằng số."
+          "D": "Trong quá trình đẳng tích, ở nhiệt độ không đổi, tích của áp suất và thể tích của một lượng khí xác định là một hằng số."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -3914,7 +3914,7 @@
           "A": "5 atm",
           "B": "1,6 atm",
           "C": "0,5 atm",
-          "D": "3,5 atm\nXét khối khí trong bóng sau 12 lần bơm.\nTrước khi bơm vào bóng, khối khí đó có thể tích là: V = 12.0,125+2,5=4 l và áp suất của khối khí đó ban đầu\n0\nlà p = 1atm.\n0\nSau khi bơm vào bóng thể tích của khối khí đó là V = 2,5l và áp suất của quá trình đó là p"
+          "D": "3,5 atm."
         },
         "answer": "B",
         "explanation": "Áp dụng định luật Boyle: p<sub>0</sub>\n.V<sub>0</sub>\n = p V ⇔ 1 . 4 = p . 2 , 5 ⇒ p = 1 , 6 a t m"
@@ -3939,10 +3939,10 @@
           "A": "232 N",
           "B": "252 N",
           "C": "212 N",
-          "D": "220 N\nF\nCó ngoại lực F xuất hiện, áp dụng p = p + (Do nén khí).\n0 S"
+          "D": "220 N."
         },
         "answer": "C",
-        "explanation": "Áp dụng định luật Boyle:\nF\np + \nV p<sub>0</sub> S F d2 .0,032\npV = pV ⇒ 0 = = = 4 ⇒ = 3 ⇒ F = 3Sp = 3. p = 3. .105 = 212\n0 0 V p p Sp 0 4 0 4\n0 0 0"
+        "explanation": "Áp dụng định luật Boyle:\nF\np + \nV p<sub>0</sub> S F πd2 π.0,032\npV = pV ⇒ 0 = = = 4 ⇒ = 3 ⇒ F = 3Sp = 3. p = 3. .105 = 212\n0 0 V p p Sp 0 4 0 4\n0 0 0"
       },
       {
         "id": 12,
@@ -3967,7 +3967,7 @@
           "D": "1,5.10<sup>5</sup> Pa"
         },
         "answer": "A",
-        "explanation": "Xét quá trình biến đổi của lượng không khí được bơm vào quả bóng\n\n\n24 ===\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \n1\np<sub>2</sub>\n0\n5\n = \n. 2\n1\n0\n0\n = \n5 N\n2 5\n/\n0\nm\n0\n2\nc m<sup>3</sup> = 2 , 5\nTrạng thái 2:\n V\np<sub>2</sub>\n2\n = \n = \n1\n?\n, 2 5\np V 105.2,5\np V = p V ⇒ p = 1 1 = = 2.10<sup>5</sup> N/m<sup>2</sup>\n1 1 2 2 2 V<sub>1</sub>,25\n2"
+        "explanation": "Xét quá trình biến đổi của lượng không khí được bơm vào quả bóng\n\n\n24 ===\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \n1\np<sub>2</sub>\n0\n5\n = \n. 2\n1\n0\n0\n = \n5 N\n2 5\n/\n0\nm\n0\n2\nc m<sup>3</sup> = 2 , 5\nTrạng thái 2:\n V\np<sub>2</sub>\n2\n = \n = \n1\n?\n, 2 5\np V 105.2,5\np V = p V ⇒ p = 1 1 = = 2.10<sup>5</sup> N/m<sup>2</sup>\n1 1 2 2 2 V<sub>1</sub>,25\n2"
       },
       {
         "id": 13,
@@ -3989,7 +3989,7 @@
           "A": "9",
           "B": "12",
           "C": "1",
-          "D": "20\nGọi n là Số ống khí hêli cần để bơm khí cầu\nTa có:\n\np\np<sub>2</sub>\nV<sub>1</sub>\nV<sub>2</sub>\n1\n = \n = \n1\n1\n\n0\na\n0\nt\n\nm\na\n\nt m\n. 1\n\n0\n.\n0\n5\n\n0\nm\n. 1\n3\n0\n\n - 3  m<sup>3</sup>  .n\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → n = 2 0"
+          "D": "20."
         },
         "answer": "D",
         "explanation": "Đáp án đúng là <b>D</b>."
@@ -4017,7 +4017,7 @@
           "D": "50 lần."
         },
         "answer": "D",
-        "explanation": "Trạng thái 1: Lượng khí được bơm vào quả bóng:\nV<sub>1</sub>\nn .S .h n\np<sub>1</sub>\nd\n4\n2\n.h\np<sub>0</sub>\nn\n1\n.\na t m\n. 4\n4\n2\n. 4 0 n . 5 0 2 , 4 c m<sup>3</sup>\n \n\n = = \n = \n = \n = \n = \nTrạng thái 2: Khí được nén ở trong quả bóng:\n p\nV<sub>2</sub>\n2\n = \n = \n4\n6\n\n, 2\na\n8\nt m\n l\n\nÁp dụng định luật Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ 1 .n . 5 0 2 , 4 = 4 . 6 , 2 8 . 1 0 3 ⇒ n = 5 0"
+        "explanation": "Trạng thái 1: Lượng khí được bơm vào quả bóng:\nV<sub>1</sub>\nn .S .h n\np<sub>1</sub>\nd\n4\n2\n.h\np<sub>0</sub>\nn\n1\n.\na t m\n. 4\n4\n2\n. 4 0 n . 5 0 2 , 4 c m<sup>3</sup>\nπ π\n\n = = \n = \n = \n = \n = \nTrạng thái 2: Khí được nén ở trong quả bóng:\n p\nV<sub>2</sub>\n2\n = \n = \n4\n6\n(\n, 2\na\n8\nt m\n( l\n))\nÁp dụng định luật Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ 1 .n . 5 0 2 , 4 = 4 . 6 , 2 8 . 1 0 3 ⇒ n = 5 0"
       },
       {
         "id": 15,
@@ -4089,7 +4089,7 @@
           "A": "0,2 atm",
           "B": "4,5atm",
           "C": "0,15 atm",
-          "D": "5 atm\nĐổi 4 lít = 4 dm<sup>3</sup> =4000 cm<sup>3</sup>\nnV 20.40"
+          "D": "5 atm."
         },
         "answer": "A",
         "explanation": "Áp dụng định luật Boyle: p.V = p .nV ⇒ p = 0 p = = 0,2atm\n0 0 V<sub>0</sub> 4000"
@@ -4114,10 +4114,10 @@
           "A": "12",
           "B": "25",
           "C": "18",
-          "D": "10\nCó ngoại lực F xuất hiện (lực nén), áp dụng p = p<sub>0</sub>\n + \nF\nS\n(Do nén khí)."
+          "D": "10."
         },
         "answer": "D",
-        "explanation": "*Áp suất trong bánh xe sau khi bơm xong:\nF 350\np = p + = 105 + = 1,7.105 1,5p ⇒ V = 2000cm3\n0 S 50.10 - 4 0\nTrạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n = p<sub>0</sub>\np<sub>2</sub>\n = p\nThể tích V<sub>1</sub>\n= V<sub>0</sub>\n+ n . l . S V<sub>2</sub>\n = 2 0 0 0 c m<sup>3</sup>\n*Áp dụng ĐL Boyle:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>0</sub>\n V<sub>0</sub>\n + n l S  = p V<sub>2</sub>\n ⇔ 1 0 5  1 5 0 0 + n . 2 5 . 8  = 1 , 7 . 1 0 5 . 2 0 0 0 ⇒ n = 9 , 5  1 0\n\n\n26 ==="
+        "explanation": "*Áp suất trong bánh xe sau khi bơm xong:\nF 350\np = p + = 105 + = 1,7.10<sup>5</sup>  > 1,5p ⇒ V = 2000cm3\n0 S 50.10 - 4 0\nTrạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n = p<sub>0</sub>\np<sub>2</sub>\n = p\nThể tích V<sub>1</sub>\n= V<sub>0</sub>\n+ n . l . S V<sub>2</sub>\n = 2 0 0 0 c m<sup>3</sup>\n*Áp dụng ĐL Boyle:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>0</sub>\n( V<sub>0</sub>\n + n l S ) = p V<sub>2</sub>\n ⇔ 1 0 5 ( 1 5 0 0 + n . 2 5 . 8 ) = 1 , 7 . 1 0 5 . 2 0 0 0 ⇒ n = 9 , 5  1 0\n\n\n26 ==="
       },
       {
         "id": 19,
@@ -4153,7 +4153,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Ý B:</b> Áp suất trong bánh xe sau khi bơm xong:\n𝑝 = 𝐹 +𝑝 = 350 +105 = 1,7.10<sup>5</sup> Pa\n𝑆 0 50.10−4<br><b>Ý C:</b> 1,7.105 > 1,5𝑝 ⇒𝑉 = 2000𝑐𝑚3\n0<br><b>Ý D:</b> p = p<sub>1</sub> 0\nTT ⟨\n1 V = V + 100n(cm<sup>3</sup>)\n{ 1 0\np = p<sub>2</sub>\nTT ⟨\n2 V =2000(cm<sup>3</sup>)\n2\n⇒ p V = p V ⇒ p (V +nlS) = pV ⇔ 105(1500+n.100) = 1,7.105.2000\n1 1 2 2 0 0 2\n ⇒ n = 1 9"
+        "explanation": "<b>Ý B:</b> Áp suất trong bánh xe sau khi bơm xong:\n𝑝 = 𝐹 +𝑝 = 350 +105 = 1,7.10<sup>5</sup> Pa\n𝑆 0 50.10−4<br><b>Ý C:</b> 1,7.10<sup>5</sup> > 1,5𝑝 ⇒𝑉 = 2000𝑐𝑚3\n0<br><b>Ý D:</b> p = p<sub>1</sub> 0\nTT ⟨\n1 V = V + 100n(cm<sup>3</sup>)\n{ 1 0\np = p<sub>2</sub>\nTT ⟨\n2 V =2000(cm<sup>3</sup>)\n2\n⇒ p V = p V ⇒ p (V +nlS) = pV ⇔ 105(1500+n.100) = 1,7.10<sup>5</sup>.2000\n1 1 2 2 0 0 2\n ⇒ n = 1 9"
       },
       {
         "id": 20,
@@ -4189,7 +4189,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Thể tích của không khí trong quả bóng sau 40 lần bơm là V = 160.40 = 6400cm3 =6,4 lít.\n2<br><b>Ý C:</b> Áp suất của không khí trong quả bóng sau 40 lần bơm là\np<sub>2</sub>\n = \np<sub>1</sub>\nV\n.V<sub>2</sub>\n1 = \n8 .1\n6\n0\n,\n5\n4\n.2\n = 2 , 5 .1 0 5 P a<br><b>Ý D:</b> p .V 8.105.2\nV' = 1 1 = = 4lít = 4000 cm<sup>3</sup>\n2 p' 4.105\n2\n4000\nSố lần bơm : = 32lần\n125"
+        "explanation": "<b>Ý A:</b> Thể tích của không khí trong quả bóng sau 40 lần bơm là V = 160.40 = 6400cm3 =6,4 lít.\n2<br><b>Ý C:</b> Áp suất của không khí trong quả bóng sau 40 lần bơm là\np<sub>2</sub>\n = \np<sub>1</sub>\nV\n.V<sub>2</sub>\n1 = \n8 .1\n6\n0\n,\n5\n4\n.2\n = 2 , 5 .1 0 5 P a<br><b>Ý D:</b> p .V 8.10<sup>5</sup>.2\nV' = 1 1 = = 4lít = 4000 cm<sup>3</sup>\n2 p' 4.10<sup>5</sup>\n2\n4000\nSố lần bơm : = 32lần\n125"
       },
       {
         "id": 21,
@@ -4225,7 +4225,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Ý B:</b> 1 1 2 2<br><b>Ý C:</b> Trong quá trình biến đổi đẳng nhiệt của một lượng khí xác định, áp suất tỉ lệ nghịch với thể tích.<br><b>Ý D:</b> Áp dụng định luật Boyle:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n = p<sub>2</sub>\n n V<sub>0</sub> 2\n + V<sub>1</sub>\n ⇒ 2 , 7 5 . 1 0 6 . 6 . 1 0 - 3 = 1 0 5  n . 3 , 3 . 1 0 - 3 + 6 . 1 0 - 3  ⇒ n = 4 8\nVậy số lượng bóng thổi được là 48 quả"
+        "explanation": "<b>Ý B:</b> 1 1 2 2<br><b>Ý C:</b> Trong quá trình biến đổi đẳng nhiệt của một lượng khí xác định, áp suất tỉ lệ nghịch với thể tích.<br><b>Ý D:</b> Áp dụng định luật Boyle:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n = p<sub>2</sub>\n( n V<sub>0</sub> 2\n + V<sub>1</sub>\n) ⇒ 2 , 7 5 . 1 0 6 . 6 . 1 0 - 3 = 1 0 5 ( n . 3 , 3 . 1 0 - 3 + 6 . 1 0 - 3 ) ⇒ n = 4 8\nVậy số lượng bóng thổi được là 48 quả"
       },
       {
         "id": 22,
@@ -4247,7 +4247,7 @@
           "a": "Thể tích mỗi lần bơm là 824,25 cm<sup>3</sup>.",
           "b": "Có thể áp dụng định luật Boyle cho quá trình biến đổi này.",
           "c": "Trước khi bơm trong quả bóng không có không khí, để áp suất quả bóng là 5.10<sup>5</sup> N/m<sup>2</sup> ta cần bơm 12 lần.",
-          "d": "Trước khi bơm trong quả bóng có áp suất là 10<sup>5</sup> N/m<sup>2</sup> . Để áp suất trong quả bóng là 5.10<sup>5</sup> N/m<sup>2</sup> thì cần\nbơm 8 lần"
+          "d": "Trước khi bơm trong quả bóng có áp suất là 10<sup>5</sup> N/m<sup>2</sup> . Để áp suất trong quả bóng là 5.10<sup>5</sup> N/m<sup>2</sup> thì cần bơm 8 lần"
         },
         "answer": {
           "a": "Đ",
@@ -4261,7 +4261,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm là V<sub>0</sub>\nS .h\n.d\n4\n2\n.h\n. 5\n4\n2\n. 4 2 8 2 4 , 2 5 c m<sup>3</sup>\n \n = = = =<br><b>Ý B:</b> Vì nhiệt độ của không khí không đổi nên có thể áp dụng định luật BôiLơ cho quá trình biến đổi này<br><b>Ý C:</b> Gọi p V là áp suất và thể tích không khí mỗi lần bơm\n0, 0\nTrước khi bơm trong quả bóng không có không khí\nÁp dụng định luật Boyle : ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5 .8\n5\n2\n.1\n4\n0\n,\n5\n2\n.3\n5 .1 0 - 3\n 1 8 lần<br><b>Ý D:</b> Trước khi bơm trong quả bóng có áp suất là 10<sup>5</sup> N/m<sup>2</sup>\nTa có p = p<sub>1</sub>\n + p<sub>0</sub>\n ⇒ p<sub>1</sub>\n = p - p<sub>0</sub>\n = 5 . 1 0 5 - 1 0 5 = 4 . 1 0 5 P a\nÁp dụng định luật Boyle : ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5 .8\n4\n2\n.1\n4\n0\n,\n5\n2\n.3\n5 .1 0 - 3\n 1 5 lần"
+        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm là V<sub>0</sub>\nS .h\n.d\n4\n2\n.h\n. 5\n4\n2\n. 4 2 8 2 4 , 2 5 c m<sup>3</sup>\nπ π\n = = = =<br><b>Ý B:</b> Vì nhiệt độ của không khí không đổi nên có thể áp dụng định luật BôiLơ cho quá trình biến đổi này<br><b>Ý C:</b> Gọi p V là áp suất và thể tích không khí mỗi lần bơm\n0, 0\nTrước khi bơm trong quả bóng không có không khí\nÁp dụng định luật Boyle : ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5 .8\n5\n2\n.1\n4\n0\n,\n5\n2\n.3\n5 .1 0 - 3\n 1 8 lần<br><b>Ý D:</b> Trước khi bơm trong quả bóng có áp suất là 10<sup>5</sup> N/m<sup>2</sup>\nTa có p = p<sub>1</sub>\n + p<sub>0</sub>\n ⇒ p<sub>1</sub>\n = p - p<sub>0</sub>\n = 5 . 1 0 5 - 1 0 5 = 4 . 1 0 5 P a\nÁp dụng định luật Boyle : ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5 .8\n4\n2\n.1\n4\n0\n,\n5\n2\n.3\n5 .1 0 - 3\n 1 5 lần"
       },
       {
         "id": 23,
@@ -4284,7 +4284,7 @@
           "15",
           "15"
         ],
-        "explanation": "Gọi F là trọng lượng của xe, V là thế tích mỗi lần bơm, V thể tích săm xe\n0\nTa có trong lần bơm đầu tiên: n = 5 lần : F = p S\n1 1 1\nTrong lần bơm sau n lần:\n2\nF = p<sub>2</sub>\n.S\n2\n ⇒ \np\np<sub>1</sub>\n2\n = \nS\nS\n2\n1\n 1 \n  n V .p = p V n p\n+ Ta có:  1 0 0 1 ⇒ 1 = 1 2\n n\n2\nV<sub>0</sub>\n.p<sub>0</sub>\n = p<sub>2</sub>\nV n\n2\np<sub>2</sub>\n 1    ; 2 → \nn\nn\n1\n2\n = \nS\nS\n2\n1\n ⇒ n\n2\n = \nS\nS\n1\n2\n.n\n1\n = \n4\n1\n0\n0\n.5 = 2 0 lần.\nVậy số lần phải bơm thêm là Δn = 20−5 = 15 (lần)"
+        "explanation": "Gọi F là trọng lượng của xe, V là thế tích mỗi lần bơm, V thể tích săm xe\n0\nTa có trong lần bơm đầu tiên: n = 5 lần : F = p S\n1 1 1\nTrong lần bơm sau n lần:\n2\nF = p<sub>2</sub>\n.S\n2\n ⇒ \np\np<sub>1</sub>\n2\n = \nS\nS\n2\n1\n( 1 )\n  (n V ).p = p V n p\n+ Ta có:  1 0 0 1 ⇒ 1 = 1 (2)\n (n\n2\nV<sub>0</sub>\n).p<sub>0</sub>\n = p<sub>2</sub>\nV n\n2\np<sub>2</sub>\n (1 ) ( ) ; 2 → \nn\nn\n1\n2\n = \nS\nS\n2\n1\n ⇒ n\n2\n = \nS\nS\n1\n2\n.n\n1\n = \n4\n1\n0\n0\n.5 = 2 0 lần.\nVậy số lần phải bơm thêm là Δn = 20−5 = 15 (lần)"
       },
       {
         "id": 24,
@@ -4307,7 +4307,7 @@
           "6",
           "6"
         ],
-        "explanation": "Gọi n là Số ống khí hêli cần để bơm khí cầu\npV = 0,2atm.150  m<sup>3</sup>\n 1 1 pV = pV\nTa có:  1 1 2 2 → n = 6\np V\n = 100atm.50.10 - 3 m<sup>3</sup>\n.n\n 2 2"
+        "explanation": "Gọi n là Số ống khí hêli cần để bơm khí cầu\npV = 0,2(atm).150 ( m<sup>3</sup>)\n 1 1 pV = pV\nTa có:  1 1 2 2 → n = 6\np V\n = 100(atm).50.10 - 3( m<sup>3</sup>)\n.n\n 2 2"
       },
       {
         "id": 25,
@@ -4330,7 +4330,7 @@
           "75",
           "75"
         ],
-        "explanation": "Gọi V là thể tích mỗi lần bơm:\n0\nV<sub>0</sub>\n = S .h = 1 0 . 2 0 = 2 0 0 c m<sup>3</sup> = 0 , 2\n+ Mà p = 3 p<sub>0</sub>\n+ Ta có định luật Boyle cho quá trình biến đổi là:\np.V 3.5\nnV .p = p.V ⇒ n = = = 75 (lần)\n0 0 p .V<sub>0</sub>,2\n0 0"
+        "explanation": "Gọi V là thể tích mỗi lần bơm:\n0\nV<sub>0</sub>\n = S .h = 1 0 . 2 0 = 2 0 0 c m<sup>3</sup> = 0 , 2\n+ Mà p = 3 p<sub>0</sub>\n+ Ta có định luật Boyle cho quá trình biến đổi là:\np.V 3.5\n(nV ).p = p.V ⇒ n = = = 75 (lần)\n0 0 p .V<sub>0</sub>,2\n0 0"
       },
       {
         "id": 26,
@@ -4353,7 +4353,7 @@
           "2,6",
           "2.6"
         ],
-        "explanation": "Xét quá trình biến đổi của lượng không khí được bơm vào quả bóng\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \n1\np<sub>2</sub>\n0\n5\n = \n. 5\n1\n2\n0\n = \n5 N\n6 5\n/\n0\nm\n0 c\n2\nm<sup>3</sup> = 6 , 5\nTrạng thái 2:\n V\np<sub>2</sub>\n2\n = \n = \n2\n?\n, 5\np<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>2</sub>\n = \np<sub>1</sub>\nV\nV<sub>2</sub>\n1 = \n1 0 5\n2\n.6\n, 5\n, 5\n = 2 , 6 .1 0 5 N / m<sup>2</sup>"
+        "explanation": "Xét quá trình biến đổi của lượng không khí được bơm vào quả bóng\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \n1\np<sub>2</sub>\n0\n5\n = \n. 5\n1\n2\n0\n = \n5 N\n6 5\n/\n0\nm\n0 c\n2\nm<sup>3</sup> = 6 , 5\nTrạng thái 2:\n V\np<sub>2</sub>\n2\n = \n = \n2\n?\n, 5\np<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>2</sub>\n = \np<sub>1</sub>\nV\nV<sub>2</sub>\n1 = \n1 0 5\n2\n.6\n, 5\n, 5\n = 2 , 6 .1 0 5 N / m<sup>2</sup>"
       },
       {
         "id": 27,
@@ -4399,7 +4399,7 @@
           "50",
           "50"
         ],
-        "explanation": "===\nGọi n là số lần bơm để đưa không khí vào ruột xe :\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \nn\n1 a\n.8\nt m\n0 ( c m<sup>3</sup> )\nV = 2000cm3\n 2\nTrạng thái 2:  F 600\np = = = 2.10<sup>5</sup> Pa = 2atm\n\n 2 S 30.10 - 4\nÁp dụng định luật Bôi Lơ : p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ n .8 0 .1 = 2 .2 0 0 0 ⇒ n = 5 0"
+        "explanation": "===\nGọi n là số lần bơm để đưa không khí vào ruột xe :\nTrạng thái 1:\n V\np<sub>1</sub>\n1\n = \n = \nn\n1 a\n.8\nt m\n0 ( c m<sup>3</sup> )\nV = 2000cm3\n 2\nTrạng thái 2:  F 600\np = = = 2.10<sup>5</sup> Pa = 2atm\n\n 2 S 30.10 - 4\nÁp dụng định luật Bôi Lơ : p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ n .8 0 .1 = 2 .2 0 0 0 ⇒ n = 5 0"
       },
       {
         "id": 29,
@@ -4421,7 +4421,7 @@
           "A": "Đường hypebol .",
           "B": "Đường thẳng kéo dài qua gốc tọa độ",
           "C": "Đường thẳng không đi qua gốc tọa độ.",
-          "D": "Đường thẳng cắt trục p tại điểm p = p .\n0"
+          "D": "Đường thẳng cắt trục p tại điểm p = p<sub>0</sub>."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -4449,7 +4449,7 @@
           "D": "Giảm 4 dm<sup>3</sup>"
         },
         "answer": "A",
-        "explanation": "Giải thích :\n+ p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ 1 , 5 . 2 = 0 , 7 5 .V<sub>2</sub>\n ⇒ V<sub>2</sub>\n = 4 d m<sup>3</sup>\n ⇒  V = V<sub>2</sub>\n - V<sub>1</sub>\n = 4 - 2 = 2 d m<sup>3</sup>"
+        "explanation": "Giải thích :\n+ p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ 1 , 5 . 2 = 0 , 7 5 .V<sub>2</sub>\n ⇒ V<sub>2</sub>\n = 4 d m<sup>3</sup>\n ⇒ Δ V = V<sub>2</sub>\n - V<sub>1</sub>\n = 4 - 2 = 2 d m<sup>3</sup>"
       },
       {
         "id": 31,
@@ -4493,10 +4493,10 @@
         "question": "Hệ thức nào sau đây không phải là của định luật Boyle",
         "prompt": "Hệ thức nào sau đây không phải là của định luật Boyle",
         "options": {
-          "A": "p V = p V .",
+          "A": "p<sub>1</sub>.V<sub>1</sub> = p<sub>3</sub>.V<sub>3</sub>.",
           "B": "pV = const.",
-          "C": "V~ p.",
-          "D": "p~ 1/V.\n1 1 3 3"
+          "C": "V ~ p.",
+          "D": "p ~ 1/V."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -4543,10 +4543,10 @@
         "question": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau\nđây?\n1",
         "prompt": "Khi nhiệt độ không đổi, khối lượng riêng của chất khí phụ thuộc vào áp suất khí theo hệ thức nào sau\nđây?\n1",
         "options": {
-          "A": "𝑝 𝐷 = 𝑝 𝐷",
-          "B": "𝑝 𝐷 = 𝑝 𝐷",
-          "C": "𝐷~",
-          "D": "𝑝𝐷 = 𝑐𝑜𝑛𝑠𝑡\n1 2 2 1 1 1 2 2\n𝑃"
+          "A": "p<sub>1</sub>.D<sub>2</sub> = p<sub>2</sub>.D<sub>1</sub>.",
+          "B": "p<sub>1</sub>.D<sub>1</sub> = p<sub>2</sub>.D<sub>2</sub>.",
+          "C": "D ~ 1/p.",
+          "D": "p.D = const."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -4671,10 +4671,10 @@
           "A": "27 lần.",
           "B": "30 lần.",
           "C": "14 lần.",
-          "D": "7 lần.\nGọi p V là áp suất và thể tích không khí mỗi lần bơm\n0, 0\n.d2 .42\nThể tích mỗi lần bơm là V = S.h = .h = .45 = 565,2cm3\n0 4 4\nTrước khi bơm trong quả bóng không có không khí"
+          "D": "7 lần."
         },
         "answer": "A",
-        "explanation": "Áp dụng định luật Boyle: ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5\n5\n.5\n.1\n6 5\n0\n,\n5 .3\n2 .1 0 - 3\n 2 7"
+        "explanation": "Áp dụng định luật Boyle: ( n V<sub>0</sub>\n) . p<sub>0</sub>\n = p V<sub>1</sub> ⇒ n = \np\np\nV<sub>1</sub>\nV<sub>0</sub>\n0\n = \n1 0 5\n5\n.5\n.1\n6 5\n0\n,\n5 .3\n2 .1 0 - 3\n 2 7"
       },
       {
         "id": 40,
@@ -4696,7 +4696,7 @@
           "A": "30 cm<sup>2</sup>",
           "B": "45 cm<sup>2</sup>",
           "C": "15 cm<sup>2</sup>",
-          "D": "25 cm<sup>2</sup>\nV thể tích mỗi lần bơm, p là áp suất khí quyển,\n0 0\nV là thể tích săm xe ,trọng lượng phần xe đạp tác dụng lên bánh xe đang bơm là F,\nTa có: F = p .60 = p .S\n1 2\nVới p và p là áp suất đầu và sau khi bơm\n1 2\nS là diện tích tiếp xúc sau khi bơm thêm 10 lần.\np\nVậy S = 60. 1 A (1)\np<sub>2</sub>\n30Vp = Vp 30 p 3\nTheo đinh luât Boyle:  0 0 1 ⇒ = 1 = 2\n40Vp = Vp 40 p 4\n0 0 2 2\nThay (2) vào (1) ta có: S = \n3\n4\n.6 0 = 4 5 c m<sup>2</sup>"
+          "D": "25 cm<sup>2</sup>."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -4746,7 +4746,7 @@
           "A": "17.",
           "B": "10.",
           "C": "5.",
-          "D": "15\nÁp suất trong bánh xe khi bơm xong: p = p + p’\n0\nVới p’ = F/S = 350/0,005 = 0,7.10<sup>5</sup> Pa;\n→ p = 1,7.10<sup>5</sup> Pa lớn hơn 1,5p nên thể tích sau khi bơm là 2000 cm<sup>3</sup>.\n0\nMỗi lần bơm có 8.25 = 200 cm<sup>3</sup> không khí ở áp suất p được đưa vào bánh xe.\n0\nSau n lần bơm có 200.n cm<sup>3</sup> không khí được đưa vào bánh.\nBan đầu có 1500 cm<sup>3</sup> không khí ở áp suất p trong bánh xe.\n0\nNhư vậy có thể coi:"
+          "D": "15."
         },
         "answer": "B",
         "explanation": "Trạng thái 1: p = p ; V = (1500 + 200n)\n1 0 1\nTrạng thái 2: p = 1,7.10<sup>5</sup> Pa; V = 2000 cm<sup>3</sup>\n2 2\nÁp dụng định luật Boyle, dễ dàng tìm được n = 19/2 ≈ 10 lần"
@@ -4774,7 +4774,7 @@
           "D": "49 quả bóng."
         },
         "answer": "B",
-        "explanation": "Áp dụng định luật Boyle\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n = p<sub>2</sub>\n n V<sub>0</sub> 2\n + V<sub>1</sub>\n ⇒ 2 , 4 1 . 1 0 6 . 6 . 1 0 - 3 = 1 0 5  n . 3 , 3 . 1 0 - 3 + 6 . 1 0 - 3  ⇒ n = 4 2\nVậy số lượng bóng thổi được là 42 quả"
+        "explanation": "Áp dụng định luật Boyle\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n = p<sub>2</sub>\n( n V<sub>0</sub> 2\n + V<sub>1</sub>\n) ⇒ 2 , 4 1 . 1 0 6 . 6 . 1 0 - 3 = 1 0 5 ( n . 3 , 3 . 1 0 - 3 + 6 . 1 0 - 3 ) ⇒ n = 4 2\nVậy số lượng bóng thổi được là 42 quả"
       },
       {
         "id": 44,
@@ -4796,7 +4796,7 @@
           "A": "6 lần.",
           "B": "18 lần.",
           "C": "15 lần.",
-          "D": "10 lần.\nGọi V là thể tích mỗi lần bơm:\n0\nV<sub>0</sub>\n = S .h = 2 0 . 3 0 = 6 0 0 c m<sup>3</sup> = 0 , 6\n+ Mà\np = 3 p<sub>0</sub>\n+ Ta có định luật Boyle cho quá trình biến đổi là:\n n V<sub>0</sub>\n .p<sub>0</sub>\n = p .V ⇒ n = \np\np<sub>0</sub>\n.V\n.V<sub>0</sub>\n = \n3\n0\n.\n,\n3\n6\n = 1 5 (lần)"
+          "D": "10 lần."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -4821,7 +4821,7 @@
           "A": "8 lần.",
           "B": "10 lần.",
           "C": "30 lần.",
-          "D": "15 lần.\nGọi F là trọng lượng của xe, V là thế tích mỗi lần bơm, V thể tích săm xe\n0\nTa có trong lần bơm đầu tiên: n = 10 lần : F = p S\n1 1 1\np S\nTrong lần bơm sau n lần: F = p .S ⇒ 1 = 2 1\n2 2 2 p S\n2 1\n\n\n  n V .p = p V n p\n+ Ta có:  1 0 0 1 ⇒ 1 = 1 2\n n\n2\nV<sub>0</sub>\n.p<sub>0</sub>\n = p<sub>2</sub>\nV n\n2\np<sub>2</sub>\n 1    ; 2 → \nn\nn\n1\n2\n = \nS\nS\n2\n1\n ⇒ n\n2\n = \nS\nS\n1\n2\n.n\n1\n = \n3\n1\n0\n0\n.1 5 = 4 5 lần.\nVậy số lần phải bơm thêm là Δn = 45 −15 = 30 (lần)"
+          "D": "15 lần."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -4846,7 +4846,7 @@
           "A": "1,25 atm",
           "B": "0,6 atm",
           "C": "2 atm",
-          "D": "2,5 atm\nTa có định luật Boyle cho quá trình biến đổi là:\n n V<sub>0</sub>\n .p<sub>0</sub>\n = p .V ⇒ p = \np<sub>0</sub>\n.n\nV\n.V<sub>0</sub> = \n1 .3 0\n2 .1\n.4\n3 0\n0\n = 0 , 6 a t m"
+          "D": "2,5 atm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -4869,7 +4869,7 @@
         "prompt": "Người ta dùng một bơm tay có ống bơm dạng hình trụ dài 50 cm và bán kính trong 4 cm để bơm\nkhông khí vào một túi cao su sao cho túi phồng lên, có thể tích là 6,28 lít và áp suất không khí trong túi là 4\natm. Biết áp suất khí quyển là 1 atm và coi nhiệt độ của không khí được bơm vào túi không đổi.",
         "statements": {
           "a": "Áp suất không khí mỗi lần bơm là 2,5 atm",
-          "b": "Gọi n là số lần đẩy bơm, V là thể tích lượng khí mỗi lần bơm. Thể tích lượng khí được đưa vào trong túi\n0\ncao su là V = n.V",
+          "b": "Gọi n là số lần đẩy bơm, V₀ là thể tích lượng khí mỗi lần bơm. Thể tích lượng khí được đưa vào trong túi cao su là V = n·V₀.",
           "c": "Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này",
           "d": "Số lần đẩy bơm là 15 lần."
         },
@@ -4885,7 +4885,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Trạng thái 1:\nV<sub>1</sub>\np\nn\n1\n.V<sub>0</sub>\np<sub>0</sub>\nn .S\n1\n.h\na t m\nn . r 2 .h \n\n = \n = \n = \n = \n = \nTrạng thái 2:\n\nV\np<sub>2</sub>\n2\n = \n = \n4\n6\na\n, 2\nt m\n8 . 1 0 3  c m<sup>3</sup> <br><b>Ý B:</b> 1 0"
+        "explanation": "<b>Ý A:</b> Trạng thái 1:\nV<sub>1</sub>\np\nn\n1\n.V<sub>0</sub>\np<sub>0</sub>\nn .S\n1\n.h\na t m\nn . r 2 .h π\n\n = \n = \n = \n = \n = \nTrạng thái 2:\n\nV\np<sub>2</sub>\n2\n = \n = \n4\n6\na\n, 2\nt m\n8 . 1 0 3 ( c m<sup>3</sup> )<br><b>Ý B:</b> 1 0"
       },
       {
         "id": 48,
@@ -4941,7 +4941,7 @@
         "prompt": "Một bơm tay có chiều cao h = 50cm, đường kính d = 5cm. Người ta dùng bơm này để đưa không khí\nvào trong săm xe đạp (chưa có không khí). Biết thời gian mỗi lần bơm là 1,5 s và áp suất khí quyển bằng\n10<sup>5</sup> Pa, trong khi bơm xem nhiệt độ của khí không đổi. Khi đưa vào săm 7 lít khí thì áp suất trong săm là\n5.10<sup>5</sup> Pa",
         "statements": {
           "a": "Thể tích không khí mỗi lần bơm vào săm xe đạp là 0,25 lít",
-          "b": "Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này vì nhiệt độ không khí không thay đổi\ntrong quá trình bơm.",
+          "b": "Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này vì nhiệt độ không khí không thay đổi trong quá trình bơm.",
           "c": "Thể tích không khí bơm vào săm xe là 30 lít",
           "d": "Thời gian để bơm xe là 60s"
         },
@@ -4957,7 +4957,7 @@
           "c": "S",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm: V<sub>0</sub>\nS .h\nd\n4\n2\n.h\n3 ,1 4 . 0\n4\n, 0 5 2\n. 0 , 5 9 8 2 c m<sup>3</sup> 0 , 9 8 2\n\n = = = = = lít<br><b>Ý C:</b> xét lượng khí cần bơm vào săm\nTrạng thái 1:\n p<sub>1</sub>\nV\n = \n1\n1\n = \n0 5\nn\nP\n.V\na\n0\nTrạng thái 2 :\n p<sub>2</sub>\n = \nV\n5\n1\n. 1\n = \n0\n7\n5 P\nl\na\npV 5.105.7\nThể tích khí cần bơm vào xe là pV = pV ⇒ V = 2 2 = = 35l\n1 1 2 2 1 p 105\n1<br><b>Ý D:</b> Thời gian bơm sẽ là t = n . t = \nV\nV<sub>1</sub>\n0\n. t = \n0\n3\n, 9\n5\n8 2\n. 1 , 5 = 5 3 s"
+        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm: V<sub>0</sub>\nS .h\nd\n4\n2\n.h\n3 ,1 4 . 0\n4\n, 0 5 2\n. 0 , 5 9 8 2 c m<sup>3</sup> 0 , 9 8 2\nπ\n = = = = = lít<br><b>Ý C:</b> xét lượng khí cần bơm vào săm\nTrạng thái 1:\n p<sub>1</sub>\nV\n = \n1\n1\n = \n0 5\nn\nP\n.V\na\n0\nTrạng thái 2 :\n p<sub>2</sub>\n = \nV\n5\n1\n. 1\n = \n0\n7\n5 P\nl\na\npV 5.10<sup>5</sup>.7\nThể tích khí cần bơm vào xe là pV = pV ⇒ V = 2 2 = = 35(l)\n1 1 2 2 1 p 105\n1<br><b>Ý D:</b> Thời gian bơm sẽ là t = n . t = \nV\nV<sub>1</sub>\n0\n. t = \n0\n3\n, 9\n5\n8 2\n. 1 , 5 = 5 3 s"
       },
       {
         "id": 50,
@@ -4973,8 +4973,8 @@
         "label": "Tự luyện • Phần 2 - Câu 4",
         "topic": "Dạng 2: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p38_img1.png",
-        "question": "Người ta dùng một bơm tay có ống bơm dài 50 cm và đường kính trong 4 cm để bơm không khí vào\nmột túi cao su sao cho túi phồng lên. Sau 40 lần bơm thì không khí trong túi có thể tích là 6,28 lít. Biết áp\nsuất khí quyển là 1 atm và coi nhiệt độ của không khí được bơm vào túi không đổi. Lấy  = 3,14",
-        "prompt": "Người ta dùng một bơm tay có ống bơm dài 50 cm và đường kính trong 4 cm để bơm không khí vào\nmột túi cao su sao cho túi phồng lên. Sau 40 lần bơm thì không khí trong túi có thể tích là 6,28 lít. Biết áp\nsuất khí quyển là 1 atm và coi nhiệt độ của không khí được bơm vào túi không đổi. Lấy  = 3,14",
+        "question": "Người ta dùng một bơm tay có ống bơm dài 50 cm và đường kính trong 4 cm để bơm không khí vào\nmột túi cao su sao cho túi phồng lên. Sau 40 lần bơm thì không khí trong túi có thể tích là 6,28 lít. Biết áp\nsuất khí quyển là 1 atm và coi nhiệt độ của không khí được bơm vào túi không đổi. Lấy π = 3,14",
+        "prompt": "Người ta dùng một bơm tay có ống bơm dài 50 cm và đường kính trong 4 cm để bơm không khí vào\nmột túi cao su sao cho túi phồng lên. Sau 40 lần bơm thì không khí trong túi có thể tích là 6,28 lít. Biết áp\nsuất khí quyển là 1 atm và coi nhiệt độ của không khí được bơm vào túi không đổi. Lấy π = 3,14",
         "statements": {
           "a": "Mỗi lần bơm ta đưa vào quả bóng 0,5 lít khí",
           "b": "Sau 40 lần bơm ta đưa vào quả bóng 15 lít khí.",
@@ -4993,7 +4993,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm: V<sub>0</sub>\nS .h\nd\n4\n2\n.h\n3 ,1 4 . 0\n4\n, 0 4 2\n. 0 , 5 6 , 2 8 . 1 0 4 m<sup>3</sup> 0 , 6 2 8\n\n = = = = - = lít<br><b>Ý B:</b> Thể tích sau 40 lần bơm:\nV<sub>1</sub>\n = n V<sub>0</sub>\n = 4 0 . 0 , 6 2 8 = 2 5 ,1 2\nlít<br><b>Ý C:</b> Trạng thái 2: Khí được nén ở trong quả bóng:\n p\nV<sub>2</sub>\n2\n = \n = \n?\n6\n\n, 2\na\n8\nt m\n l\n\nvậy sau 40 lần bơm lượng khí đưa vào quả bóng được nén còn 6,28 lít.<br><b>Ý D:</b> Áp dụng định luật Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1 . 2\n6\n5\n, 2\n,1\n8\n2\n = 4  a t m \nDo nhiệt độ không đổi nên ta áp dụng định luật Boyle:\np<sub>0</sub>\n.n . r 2 l p<sub>2</sub>\nV<sub>2</sub>\nn\np<sub>0</sub>\np V<sub>2</sub>.\nr\n22\nh\n4\n1\n\n\na\na\nt m\nt m\n\n\n. 6\n.\n, 2\n. 4\n8\n2\n. 1\n. 5\n0\n0\n3\n\n\nc\nc\nm\nm<sup>3</sup>\n3\n\n\n1 0 \n \n = ⇒ = = "
+        "explanation": "<b>Ý A:</b> Thể tích mỗi lần bơm: V<sub>0</sub>\nS .h\nd\n4\n2\n.h\n3 ,1 4 . 0\n4\n, 0 4 2\n. 0 , 5 6 , 2 8 . 1 0 4 m<sup>3</sup> 0 , 6 2 8\nπ\n = = = = - = lít<br><b>Ý B:</b> Thể tích sau 40 lần bơm:\nV<sub>1</sub>\n = n V<sub>0</sub>\n = 4 0 . 0 , 6 2 8 = 2 5 ,1 2\nlít<br><b>Ý C:</b> Trạng thái 2: Khí được nén ở trong quả bóng:\n p\nV<sub>2</sub>\n2\n = \n = \n?\n6\n(\n, 2\na\n8\nt m\n( l\n))\nvậy sau 40 lần bơm lượng khí đưa vào quả bóng được nén còn 6,28 lít.<br><b>Ý D:</b> Áp dụng định luật Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇒ p<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1 . 2\n6\n5\n, 2\n,1\n8\n2\n = 4 ( a t m )\nDo nhiệt độ không đổi nên ta áp dụng định luật Boyle:\np<sub>0</sub>\n.n . r 2 l p<sub>2</sub>\nV<sub>2</sub>\nn\np<sub>0</sub>\np V<sub>2</sub>.\nr\n22\nh\n4\n1\n(\n(\na\na\nt m\nt m\n)\n)\n. 6\n.\n, 2\n. 4\n8\n2\n. 1\n. 5\n0\n0\n3\n(\n(\nc\nc\nm\nm<sup>3</sup>\n3\n)\n)\n1 0 π\nπ π\n = ⇒ = = "
       },
       {
         "id": 51,
@@ -5016,7 +5016,7 @@
           "2,4",
           "2.4"
         ],
-        "explanation": "Đổi V = 2 lít = 2000 cm<sup>3</sup>\nTa có định luật Boyle cho quá trình biến đổi là:\n n V<sub>0</sub>\n .p<sub>0</sub>\n = p .V ⇒ p = \np<sub>0</sub>\n.n\nV\n.V<sub>0</sub> = \n1 0 5 .4\n2 0\n0\n0\n.1\n0\n2 0\n = 2 , 4 .1 0 5 P a"
+        "explanation": "Đổi V = 2 lít = 2000 cm<sup>3</sup>\nTa có định luật Boyle cho quá trình biến đổi là:\n( n V<sub>0</sub>\n) .p<sub>0</sub>\n = p .V ⇒ p = \np<sub>0</sub>\n.n\nV\n.V<sub>0</sub> = \n1 0 5 .4\n2 0\n0\n0\n.1\n0\n2 0\n = 2 , 4 .1 0 5 P a"
       },
       {
         "id": 52,
@@ -5039,7 +5039,7 @@
           "1,5",
           "1.5"
         ],
-        "explanation": "Đổi đơn vị: 2l = 2.10 - 3m3 = 2.10 - 3 106cm3 = 2.103cm3\nTrạng thái 1:\nSau 60 lần bơm đã đưa vào quả bóng một lượng khí ở bên ngoài có:\np<sub>1</sub>\n = 1  a t m  ; V<sub>1</sub>\n = 6 0 . 5 0  c m<sup>3</sup>  = 3 . 1 0 3 m<sup>3</sup>\nTrạng thái 2:\nKhi khí đã vào trong quả bóng lượng khí này có áp suất và thể tích lần lượt là:\np = ? ; V = 2.103cm3\n2 2\nDo nhiệt độ không đổi, áp dụng định luật Boyle p<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1  a t m<sup>2</sup> .\n\n1\n5\n0\n0\n3\n.\n\n6\nc\n0\nm\n\n3\nc\n\nm<sup>3</sup> \n = 1 , 5  a t m "
+        "explanation": "Đổi đơn vị: 2l = 2.10 - 3m3 = 2.10 - 3( 106cm3) = 2.103cm3\nTrạng thái 1:\nSau 60 lần bơm đã đưa vào quả bóng một lượng khí ở bên ngoài có:\np<sub>1</sub>\n = 1 ( a t m ) ; V<sub>1</sub>\n = 6 0 . 5 0 ( c m<sup>3</sup> ) = 3 . 1 0 3 m<sup>3</sup>\nTrạng thái 2:\nKhi khí đã vào trong quả bóng lượng khí này có áp suất và thể tích lần lượt là:\np = ? ; V = 2.103cm3\n2 2\nDo nhiệt độ không đổi, áp dụng định luật Boyle p<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1 ( a t m<sup>2</sup> .\n)\n1\n5\n0\n0\n3\n.\n(\n6\nc\n0\nm\n(\n3\nc\n)\nm<sup>3</sup> )\n = 1 , 5 ( a t m )"
       },
       {
         "id": 53,
@@ -5062,7 +5062,7 @@
           "36",
           "36"
         ],
-        "explanation": "V thể tích mỗi lần bơm, p là áp suất khí quyển,\n0 0\nV là thể tích săm xe ,trọng lượng phần xe đạp tác dụng lên bánh xe đang bơm là F,\nTa có: F = p .60 = p .S\n1 2\nVới p và p là áp suất đầu và sau khi bơm\n1 2\nS là diện tích tiếp xúc sau khi bơm thêm 20 lần.\np\nVậy S = 60. 1 A (1)\np<sub>2</sub>\n\n\nTheo đinh luât Boyle:\n 3\n5\n0\n0\nV\nV<sub>0</sub>\n0\np\np<sub>0</sub>\n0\n = \n = \nV\nV\np\np<sub>1</sub>\n2\n ⇒ \n3\n5\n0\n0\n = \np\np<sub>1</sub>\n2\n = \n3\n5\n 2 \nThay (2) vào (1) ta có:\nS = \n3\n5\n.6 0 = 3 6 c m<sup>2</sup>"
+        "explanation": "V thể tích mỗi lần bơm, p là áp suất khí quyển,\n0 0\nV là thể tích săm xe ,trọng lượng phần xe đạp tác dụng lên bánh xe đang bơm là F,\nTa có: F = p .60 = p .S\n1 2\nVới p và p là áp suất đầu và sau khi bơm\n1 2\nS là diện tích tiếp xúc sau khi bơm thêm 20 lần.\np\nVậy S = 60. 1 A (1)\np<sub>2</sub>\n\n\nTheo đinh luât Boyle:\n 3\n5\n0\n0\nV\nV<sub>0</sub>\n0\np\np<sub>0</sub>\n0\n = \n = \nV\nV\np\np<sub>1</sub>\n2\n ⇒ \n3\n5\n0\n0\n = \np\np<sub>1</sub>\n2\n = \n3\n5\n( 2 )\nThay (2) vào (1) ta có:\nS = \n3\n5\n.6 0 = 3 6 c m<sup>2</sup>"
       },
       {
         "id": 54,
@@ -5085,7 +5085,7 @@
           "10",
           "10"
         ],
-        "explanation": "*Trạng thái 1:\nV\np<sub>1</sub>\n1\nn\np<sub>0</sub>\n.S .l\n1 a\nn\nt\n.\nm\nr 2 .l \n\n = \n = = \n = \n*Trạng thái 2:\n\nV\np<sub>2</sub>\n2\n = \n = \n4\n6\na\n, 2\nt m\n8 . 1 0 3  c m<sup>3</sup> \n*Do nhiệt độ không đổi nên ta áp dụng định luật Boyle\n𝑝 𝑉 4(𝑎𝑡𝑚).6,28.103(𝑐𝑚3)\n𝑝 .𝑛.𝜋𝑟2𝑙 = 𝑝 𝑉 ⇒ 𝑛 = 2 2 = ≈ 10\n0 2 2 𝑝 𝜋.𝑟2𝑙 1(𝑎𝑡𝑚).𝜋.42.50(𝑐𝑚3)\n0"
+        "explanation": "*Trạng thái 1:\nV\np<sub>1</sub>\n1\nn\np<sub>0</sub>\n.S .l\n1 a\nn\nt\n.\nm\nr 2 .l π\n\n = \n = = \n = \n*Trạng thái 2:\n\nV\np<sub>2</sub>\n2\n = \n = \n4\n6\na\n, 2\nt m\n8 . 1 0 3 ( c m<sup>3</sup> )\n*Do nhiệt độ không đổi nên ta áp dụng định luật Boyle\n𝑝 𝑉 4(𝑎𝑡𝑚).6,28.103(𝑐𝑚3)\n𝑝 .𝑛.𝜋𝑟2𝑙 = 𝑝 𝑉 ⇒ 𝑛 = 2 2 = ≈ 10\n0 2 2 𝑝 𝜋.𝑟2𝑙 1(𝑎𝑡𝑚).𝜋.42.50(𝑐𝑚3)\n0"
       },
       {
         "id": 55,
@@ -5108,7 +5108,7 @@
           "175",
           "175"
         ],
-        "explanation": "Trạng thái 1:\nSau n = 10 lần bơm đã đưa vào quả bóng một lượng khí ở bên ngoài có:\np<sub>1</sub>\n = p<sub>0</sub>\n = 1 0 5 P a ; V = V + n.Sh = 1500 + 10.8.25 = 3500  cm<sup>3</sup>\n1 0\nTrạng thái 2:\nKhi khí đã vào trong quả bóng lượng khí này có áp suất và thể tích lần lượt là:\np = ? V = 2.103cm3\n2 ; 2\nDo nhiệt độ không đổi, áp dụng định luật Boyle:\np<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1 0 5  P<sub>2</sub>\na\n. 1\n\n0\n. 3\n3\n5\n c\n0\nm\n0  c\n 3\nm<sup>3</sup> \n = 1 7 5 . 1 0 3  P a "
+        "explanation": "Trạng thái 1:\nSau n = 10 lần bơm đã đưa vào quả bóng một lượng khí ở bên ngoài có:\np<sub>1</sub>\n = p<sub>0</sub>\n = 1 0 5 P a ; V = V + n.Sh = 1500 + 10.8.25 = 3500 ( cm<sup>3</sup>)\n1 0\nTrạng thái 2:\nKhi khí đã vào trong quả bóng lượng khí này có áp suất và thể tích lần lượt là:\np = ? V = 2.103cm3\n2 ; 2\nDo nhiệt độ không đổi, áp dụng định luật Boyle:\np<sub>2</sub>\n = \np\nV\nV<sub>1</sub>\n2\n1 = \n1 0 5 ( P<sub>2</sub>\na\n. 1\n)\n0\n. 3\n3\n5\n( c\n0\nm\n0 ( c\n) 3\nm<sup>3</sup> )\n = 1 7 5 . 1 0 3 ( P a )"
       },
       {
         "id": 56,
@@ -5131,7 +5131,7 @@
           "40",
           "40"
         ],
-        "explanation": "===\nGọi V là thể tích mỗi lần bơm:\n0\nV<sub>0</sub>\n = S .h = 1 0 . 3 0 = 3 0 0 c m<sup>3</sup> = 0 , 3\n+ Mà\np = 3 p<sub>0</sub>\n+ Ta có định luật Boyle cho quá trình biến đổi là:\n n V<sub>0</sub>\n .p<sub>0</sub>\n = p .V ⇒ n = \np\np<sub>0</sub>\n.V\n.V<sub>0</sub>\n = \n4\n0\n.\n,\n3\n3\n = 4 0 (lần)"
+        "explanation": "===\nGọi V là thể tích mỗi lần bơm:\n0\nV<sub>0</sub>\n = S .h = 1 0 . 3 0 = 3 0 0 c m<sup>3</sup> = 0 , 3\n+ Mà\np = 3 p<sub>0</sub>\n+ Ta có định luật Boyle cho quá trình biến đổi là:\n( n V<sub>0</sub>\n) .p<sub>0</sub>\n = p .V ⇒ n = \np\np<sub>0</sub>\n.V\n.V<sub>0</sub>\n = \n4\n0\n.\n,\n3\n3\n = 4 0 (lần)"
       }
     ]
   },
@@ -5227,16 +5227,16 @@
         "label": "Luyện tập • Phần 1 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p45_img1.png",
-        "question": "Một lượng không khí có thể tích 240 c m<sup>3</sup> chứa trong một xilanh có pit-\ntông đóng kín, diện tích của pit-tông là 24 cm<sup>2</sup> (xem hình vẽ bên). Áp suất của\nkhông khí trong xilanh bằng áp suất ngoài là 100 kPa. Cần một lực bằng bao\nnhiêu để dịch chuyển pit-tông 2 cm theo chiều làm thể tích khí giảm? Bỏ qua\nma sát giữa pit-tông và thành xilanh. Coi trong quá trình chuyển động nhiệt độ\nkhông thay đổi.",
-        "prompt": "Một lượng không khí có thể tích 240 c m<sup>3</sup> chứa trong một xilanh có pit-\ntông đóng kín, diện tích của pit-tông là 24 cm<sup>2</sup> (xem hình vẽ bên). Áp suất của\nkhông khí trong xilanh bằng áp suất ngoài là 100 kPa. Cần một lực bằng bao\nnhiêu để dịch chuyển pit-tông 2 cm theo chiều làm thể tích khí giảm? Bỏ qua\nma sát giữa pit-tông và thành xilanh. Coi trong quá trình chuyển động nhiệt độ\nkhông thay đổi.",
+        "question": "Một lượng không khí có thể tích 240 c m<sup>3</sup> chứa trong một xilanh có pit-tông đóng kín, diện tích của pit-tông là 24 cm<sup>2</sup> (xem hình vẽ bên). Áp suất của\nkhông khí trong xilanh bằng áp suất ngoài là 100 kPa. Cần một lực bằng bao\nnhiêu để dịch chuyển pit-tông 2 cm theo chiều làm thể tích khí giảm? Bỏ qua\nma sát giữa pit-tông và thành xilanh. Coi trong quá trình chuyển động nhiệt độ\nkhông thay đổi.",
+        "prompt": "Một lượng không khí có thể tích 240 c m<sup>3</sup> chứa trong một xilanh có pit-tông đóng kín, diện tích của pit-tông là 24 cm<sup>2</sup> (xem hình vẽ bên). Áp suất của\nkhông khí trong xilanh bằng áp suất ngoài là 100 kPa. Cần một lực bằng bao\nnhiêu để dịch chuyển pit-tông 2 cm theo chiều làm thể tích khí giảm? Bỏ qua\nma sát giữa pit-tông và thành xilanh. Coi trong quá trình chuyển động nhiệt độ\nkhông thay đổi.",
         "options": {
           "A": "20 N.",
           "B": "80 N.",
           "C": "60 N.",
-          "D": "40N\nHướng dẫn"
+          "D": "40 N."
         },
         "answer": "C",
-        "explanation": "* Lượng thể tích khí giảm:  V = S h = 2 4 . 2 = 4 8  c m<sup>3</sup> \n* Từ: p V<sub>1</sub>\n1\n = p V<sub>2</sub>\n2\n V2 = V1 -  V → p<sub>2</sub>\n = p<sub>1</sub> V<sub>1</sub>\nV\n - \n1\nV\n = 1 0 5 .\n2 4\n2\n0\n4\n - \n0\n4 8\n = 1 , 2 5 . 1 0 5  P a \n+ Điều kiện pitông cân bằng: pS = p S + F\nt n\n ⇒ F =  p\nt\n - p\nn\n S =  1 , 2 5 . 1 0 5 - 1 0 5  2 4 . 1 0 - 4 = 6 0  N \n ⇒ Chọn C."
+        "explanation": "* Lượng thể tích khí giảm: Δ V = S h = 2 4 . 2 = 4 8 ( c m<sup>3</sup> )\n* Từ: p V<sub>1</sub>\n1\n = p V<sub>2</sub>\n2\n V2 = V1 - Δ V → p<sub>2</sub>\n = p<sub>1</sub> V<sub>1</sub>\nV\n - \n1Δ\nV\n = 1 0 5 .\n2 4\n2\n0\n4\n - \n0\n4 8\n = 1 , 2 5 . 1 0 5 ( P a )\n+ Điều kiện pitông cân bằng: pS = p S + F\nt n\n ⇒ F = ( p\nt\n - p\nn\n) S = ( 1 , 2 5 . 1 0 5 - 1 0 5 ) 2 4 . 1 0 - 4 = 6 0 ( N )\n ⇒ Chọn C."
       },
       {
         "id": 5,
@@ -5258,7 +5258,7 @@
           "A": "21cm",
           "B": "20cm",
           "C": "19cm",
-          "D": "18cm\n+ Khi ống nằm ngang:\np = p<sub>0</sub>\n; V = .S\np = p + d;V = .S\n+ Khi ống thẳng đứng miệng ở trên:\n1 0 1 1\n+ Áp dụng định luật Boyle\np<sub>0</sub>\nS =  p<sub>0</sub>\n + d \n1\n.S ⇒ \n1\n = \np\np<sub>0</sub>\n0\n + d\n. = \n7\n8\n6\n0\n. 2 0 = 1 9 c m"
+          "D": "18 cm."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -5277,13 +5277,13 @@
         "label": "Luyện tập • Phần 1 - Câu 6",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p46_img1.png",
-        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>\n\n\n46 ===",
-        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>\n\n\n46 ===",
+        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>\n\n\n46 ===",
+        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>\n\n\n46 ===",
         "options": {
           "A": "1,5 cm.",
           "B": "2 cm.",
           "C": "1,8 cm.",
-          "D": "4 cm.\np = p + h - xd\n\n0 + Ta có:  ; Mà\n\nV = h - xS\np<sub>0</sub>\nV<sub>0</sub>\n = p .V\n ⇒ 1 0 5 .0 , 4 S =  1 0 5 +  0 , 4 - x  .1 0 4  .  0 , 4 - x  .S\n ⇒ x 2 - 1 0 , 8 x + 0 , 1 6 = 0 ⇒ x  1 , 5  c m "
+          "D": "4 cm."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -5308,7 +5308,7 @@
           "A": "760 mmHg",
           "B": "755 mmHg",
           "C": "745 mmHg",
-          "D": "751 mmHg\nGọi l là chiều dài của ống\nx là chiều dài của ống chứa không khí.\nh là chiều cao cột thủy ngân\n\nT\nT\nT\nT<sub>1</sub>\n2\np\nV\np\nV<sub>1</sub>\n1\n2\n2\n = \n = \n = \n = \np<sub>0</sub> 1\nS . x\np<sub>0</sub> 2\nS x\n2\n - \n1\n - \n = \nh\n1\nh\nS\n2\n l - h\n2\n ⇒  p<sub>0</sub> 1\n - \np\nh\nV<sub>1</sub>\n\n1\n1\nS . x\n1\n =  p<sub>0</sub> 2\n - h\n2\np\n\nV<sub>2</sub>\nS\n2\n l - h\n2\n\n(chiều dài ống:\nl = x\n1\n + h\n1\n = 8 0 + 7 4 8 = 8 2 8 m m\n)\n ⇒ 768 - 748.80 = p - 734828 - 734 ⇒ p = 751mmHg\n02 02\nChú ý: Số chỉ của áp kế chính bằng độ cao của cột thủy ngân."
+          "D": "751 mmHg."
         },
         "answer": "D",
         "explanation": "Đáp án đúng là <b>D</b>."
@@ -5327,13 +5327,13 @@
         "label": "Luyện tập • Phần 1 - Câu 8",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p47_img1.png",
-        "question": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là , phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?",
-        "prompt": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là , phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?",
+        "question": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là ρ, phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?",
+        "prompt": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là ρ, phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?",
         "options": {
-          "A": "p p<sub>0</sub>\ng h  = -",
-          "B": "p p<sub>0</sub>\ng h  = +",
-          "C": "p p<sub>0</sub>\n2 g h  = -",
-          "D": "p p<sub>0</sub>\n2 . g h  = + \nGọi S là diện tích đáy của ống hình trụ.\nLượng khí bị nén bởi trọng lượng của chất lỏng. Do đó ta áp dụng công thức:\np p<sub>0</sub>\nF\nS\nF P\np p<sub>0</sub>\nP\nS\np<sub>0</sub>\nm\nS\ng\np<sub>0</sub>\nV\nS\ng V S h\np p<sub>0</sub>\ng h\n\n = +  \n = \n → = + = + = +  \n = \n  → = +"
+          "A": "p = p<sub>0</sub> - ρgh.",
+          "B": "p = p<sub>0</sub> + ρgh.",
+          "C": "p = p<sub>0</sub> - 2ρgh.",
+          "D": "p = p<sub>0</sub> + 2ρgh."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -5358,10 +5358,10 @@
           "A": "Pit tông dịch sang trái một đoạn là 5 cm.",
           "B": "Pit tông dịch sang trái một đoạn là 10 cm.",
           "C": "Pit tông dịch sang phải một đoạn là 10 cm.",
-          "D": "Pit tông dịch sang phải một đoạn là 6 cm.\nDo áp suất tăng nên suy ra thể tích phải giảm. Do đó pit-tông phải dịch sang trái"
+          "D": "Pit-tông dịch sang phải một đoạn là 6 cm."
         },
         "answer": "A",
-        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p p = 3p\n1 2 1\nThể tích V = Sl\n1\nV<sub>2</sub>\n = S  l -  l \n*Áp dụng ĐL Bôi-lơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ p<sub>1</sub>\nS l = 3 p<sub>1</sub>\n.S  l -  l  ⇒ l = 3  l -  l  \nl = 1 5 c m\n →  l = 1 0 c m"
+        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p p = 3p\n1 2 1\nThể tích V = Sl\n1\nV<sub>2</sub>\n = S ( l - Δ l )\n*Áp dụng ĐL Bôi-lơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ p<sub>1</sub>\nS l = 3 p<sub>1</sub>\n.S ( l - Δ l ) ⇒ l = 3 ( l - Δ l ) \nl = 1 5 c m\n → Δ l = 1 0 c m"
       },
       {
         "id": 10,
@@ -5383,7 +5383,7 @@
           "A": "75cm",
           "B": "100cm",
           "C": "50cm",
-          "D": "42cm\n\n\nTrước khi lật ngược, trạng thái khí là: p = p + h, V = l .S\n1 0 1 1\nKhi lật ngược, trạng thái khí là: p = p - h, V = l .S\n2 0 2 2\n⇒ p . V = p . V ⇔ ( p + h ).l = ( p - h ).l ⇔ l = 60 cm.\n1 1 2 2 0 1 0 2 2\n⇒ Ống phải dài tối thiểu là: 40 + 60 = 100cm."
+          "D": "42 cm."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -5408,10 +5408,10 @@
           "A": "50N",
           "B": "25N",
           "C": "60N",
-          "D": "30N\nXét trạng thái biến đổi của chất khí :"
+          "D": "30 N."
         },
         "answer": "A",
-        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n=100kPa= 10<sup>5</sup> Pa\np<sub>2</sub>\n = p<sub>1</sub>\n + \nF\nS\n = 1 0 0 . 1 0 3 + \n2 4\nF\n. 1 0 - 4\n( P a )\n( do pitong dịch chuyển sang trái)\nThể tích V<sub>1</sub>\n = S l =240 cm<sup>3</sup> ⇒ l = 1 0 c m V<sub>2</sub>\n = S  l -  l  = 2 4 . ( 1 0 - 2 ) = 1 9 2 c m<sup>3</sup>\nÁp dụng ĐL Bôi-lơ:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ 1 0 5 . 2 4 0 = ( 1 0 5 + \n2 4\nF\n. 1 0 - 4\n) . 1 9 2 ⇒ F = 6 0 ( N )"
+        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n=100kPa= 10<sup>5</sup> Pa\np<sub>2</sub>\n = p<sub>1</sub>\n + \nF\nS\n = 1 0 0 . 1 0 3 + \n2 4\nF\n. 1 0 - 4\n( P a )\n( do pitong dịch chuyển sang trái)\nThể tích V<sub>1</sub>\n = S l =240 cm<sup>3</sup> ⇒ l = 1 0 c m V<sub>2</sub>\n = S ( l - Δ l ) = 2 4 . ( 1 0 - 2 ) = 1 9 2 c m<sup>3</sup>\nÁp dụng ĐL Bôi-lơ:\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ 1 0 5 . 2 4 0 = ( 1 0 5 + \n2 4\nF\n. 1 0 - 4\n) . 1 9 2 ⇒ F = 6 0 ( N )"
       },
       {
         "id": 12,
@@ -5430,13 +5430,13 @@
         "question": "Ở chính giữa một ống thủy tinh nằm ngang, tiết diện nhỏ, chiều dài L = 100cm, hai đầu bịt kín có một\ncột thủy ngân dài h = 20cm. Trong ống có không khí. Khi đặt ống thẳng đứng cột thủy ngân dịch chuyển xuống\ndưới một đoạn l = 10cm. Tìm áp suất của không khí trong ống khi ống nằm ngang ra cmHg và Pa. Coi nhiệt\nđộ không khí trong ống không đổi và khối lượng riêng thủy ngân là ρ = 1,36.104kg/m<sup>3</sup>.",
         "prompt": "Ở chính giữa một ống thủy tinh nằm ngang, tiết diện nhỏ, chiều dài L = 100cm, hai đầu bịt kín có một\ncột thủy ngân dài h = 20cm. Trong ống có không khí. Khi đặt ống thẳng đứng cột thủy ngân dịch chuyển xuống\ndưới một đoạn l = 10cm. Tìm áp suất của không khí trong ống khi ống nằm ngang ra cmHg và Pa. Coi nhiệt\nđộ không khí trong ống không đổi và khối lượng riêng thủy ngân là ρ = 1,36.104kg/m<sup>3</sup>.",
         "options": {
-          "A": "5.104 Pa",
-          "B": "9.104 Pa",
-          "C": "2,5.104 Pa",
-          "D": "2.104 Pa"
+          "A": "5.10<sup>4</sup> Pa",
+          "B": "9.10<sup>4</sup> Pa",
+          "C": "2,5.10<sup>4</sup> Pa",
+          "D": "2.10<sup>4</sup> Pa"
         },
         "answer": "A",
-        "explanation": "Trạng thái 1 của mỗi lượng khí ở hai bên cột thủy ngân (ống nằm ngang):\n p\nV<sub>1</sub>\n1\n = \nL - \n2\nh\n.S\nTrạng thái 2 (ống thẳng đứng)\np\n 2\n+ Đối với lượng khí ở trên cột thủy ngân:  L - h\nV = ( + l).S\n\n 2 2\n\n\n49 ===\n+ Đối với lượng khí ở dưới cột thủy ngân:\n p\nV\n'2\n'2 = (\nL - \n2\nh\n + l ) .S\nÁp suất khí ở phần dưới bằng áp suất khí ở phần trên cộng với áp suất do cột thủy ngân gây ra. Do đó đối\nvới khí ở phần dưới, ta có:\n p\nV\n'2\n'2\n = \n = \np\n(\n2\nL\n + \n - \n2\nh\nh\n + l ) .S\nÁp dụng định luật Boyle cho từng lượng khí. Ta có:\n+ Đối với khí ở trên: p<sub>1</sub>\n( L - h )\nS\n2\n = p<sub>2</sub>\n( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = p<sub>2</sub>\n( L - h + 2 l ) (1 )\n+ Đối với khí ở dưới: p<sub>1</sub>\n( L - h )\nS\n2\n = ( p<sub>2</sub>\n + h ) ( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = ( p<sub>2</sub>\n + h ) ( L - h + 2 l ) ( 2 )\nTừ hai phương trình (1) và (2) rút ra: p<sub>2</sub>\n = \nh ( L - \n4\nh\nl\n - 2 l )\nThay giá trị của p vào (1) ta được:\n2\np = 37,5(cmHg)\n1\np = ρgH = 1,36.104.9,8.0,375 = 5.104 Pa.\n1"
+        "explanation": "Trạng thái 1 của mỗi lượng khí ở hai bên cột thủy ngân (ống nằm ngang):\n p\nV<sub>1</sub>\n1\n = \nL - \n2\nh\n.S\nTrạng thái 2 (ống thẳng đứng)\np\n 2\n+ Đối với lượng khí ở trên cột thủy ngân:  L - h\nV = ( + l).S\n\n 2 2\n\n\n49 ===\n+ Đối với lượng khí ở dưới cột thủy ngân:\n p\nV\n'2\n'2 = (\nL - \n2\nh\n + l ) .S\nÁp suất khí ở phần dưới bằng áp suất khí ở phần trên cộng với áp suất do cột thủy ngân gây ra. Do đó đối\nvới khí ở phần dưới, ta có:\n p\nV\n'2\n'2\n = \n = \np\n(\n2\nL\n + \n - \n2\nh\nh\n + l ) .S\nÁp dụng định luật Boyle cho từng lượng khí. Ta có:\n+ Đối với khí ở trên: p<sub>1</sub>\n( L - h )\nS\n2\n = p<sub>2</sub>\n( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = p<sub>2</sub>\n( L - h + 2 l ) (1 )\n+ Đối với khí ở dưới: p<sub>1</sub>\n( L - h )\nS\n2\n = ( p<sub>2</sub>\n + h ) ( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = ( p<sub>2</sub>\n + h ) ( L - h + 2 l ) ( 2 )\nTừ hai phương trình (1) và (2) rút ra: p<sub>2</sub>\n = \nh ( L - \n4\nh\nl\n - 2 l )\nThay giá trị của p vào (1) ta được:\n2\np = 37,5(cmHg)\n1\np = ρgH = 1,36.10<sup>4</sup>.9,8.0,375 = 5.10<sup>4</sup> Pa.\n1"
       },
       {
         "id": 13,
@@ -5458,7 +5458,7 @@
           "A": "25,5 cm.",
           "B": "19,5 cm.",
           "C": "15,75 cm.",
-          "D": "35,37 cm.\nTa có\npV = pV ⇒ ( p - 20).48 = ( p + 20).28 ⇒ p = 76cmHg\n1 1 2 2 0 0 0\nMặt khác\np<sub>0</sub>\nV<sub>0</sub>\n = p V<sub>1</sub>\n1\n ⇒ 1 6 .l = 5 6 . 4 8 ⇒ l = 3 5 , 3 7 c m"
+          "D": "35,37 cm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -5483,7 +5483,7 @@
           "A": "25 cm.",
           "B": "30 cm.",
           "C": "20 cm.",
-          "D": "15,25 cm.\n\n\nGọi S là diện tích ống thủy tinh. Chiều dài cột không khí có trong\nống là\nl1 = 6 0 - 4 0 = 2 0 c m\np = p + 40 = 120cmHg\nÁp suất không khí trong ống :\n1 0\nKhi lật ngược miệng ống phía dưới thì cột thủy ngân còn lại trong ống là x nên\np<sub>2</sub>\n = p<sub>0</sub>\n - x = 8 0 - x ( c m H g )\nChiều dài cột không khí l = 60 – x\n2\nTa có\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ p<sub>1</sub>\nl1 S = p<sub>2</sub>\nl\n2\nS ⇔ 1 2 0 . 2 0 = ( 8 0 - x ) . ( 6 0 - x )\nMà x < 40 cm nên x = 20 cm\nVậy độ cao cột thủy ngân còn lại trong ống là 20 cm"
+          "D": "15,25 cm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -5508,7 +5508,7 @@
           "A": "25,15 cm",
           "B": "15,45 cm",
           "C": "58,065",
-          "D": "70,25 cm\nỐng thẳng đứng miệng ở dưới\nTa có p .V = p .V , với\n1 1 2 2\n\n\n ⇒ \n ⇒ \np\nV\np\nV<sub>1</sub>\n1\n2\n2\n9\nl\n = \n = \n = \n = \n0\n2\np + \n0\nl .S = \n1\np - \n0\nl .S\n2\n.4 0 .S\n = 5 8 ,\nh\n4\nh\n = \n0 6\n = \n0\n = \n6\n5\n7 6\n.S\n7 6\n2 .l\n2\nc m\n + \n - \n.S\n1\n1\n4\n4\n = \n = \n9\n6\n0\n2\nc\nc\nm\nm\nH\nH\ng\ng"
+          "D": "70,25 cm."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -5527,13 +5527,13 @@
         "label": "Luyện tập • Phần 1 - Câu 16",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so với phương ngang, miệng ở trên?",
-        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so với phương ngang, miệng ở trên?",
+        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở trên?",
+        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở trên?",
         "options": {
           "A": "30,25 cm",
           "B": "45,15 cm",
           "C": "25,2 cm",
-          "D": "43,373 cm\nỐng đặt nghiêng góc 300 so với phương ngang, miệng ở trên.\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h ' h . s i n 3 0\nh\n2\n = = \nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p\n3\n.V\n3\n,\nvới\n p\nV\n3\n3\n = \n = l\np\n3\n0\n.S\n + h ' = 7 6 + 7 = 8 3 c m H g\n ⇒ 9 0 . 4 0 .S = 8 3 .l\n3\n.S ⇒ l\n3\n = 4 3 , 3 7 3 c m"
+          "D": "43,373 cm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -5552,8 +5552,8 @@
         "label": "Luyện tập • Phần 1 - Câu 17",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p51_img1.png",
-        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở dưới ?",
-        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở dưới ?",
+        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở dưới ?",
+        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 14cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở dưới ?",
         "options": {
           "A": "45,25 cm",
           "B": "42 cm",
@@ -5561,7 +5561,7 @@
           "D": "52,174 cm"
         },
         "answer": "C",
-        "explanation": "Giải thích :\nỐng đặt nghiêng góc 300 so với phương ngang, miệng ở dưới.\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h ' h . s i n 3 0\nh\n2\n = = \nTa có\np<sub>1</sub>\n.V<sub>1</sub>\n = p\n4\n.V\n4\n,\nvới\n p\nV\n3\n4\n = \n = l\np\n4\n0\n.S\n - h ' = 7 6 - 7 = 6 9 c m H g\n ⇒ 9 0 .4 0 .S = 6 9 .l\n4\n.S ⇒ l\n4\n = 5 2 , 1 7 4 c m"
+        "explanation": "Giải thích :\nỐng đặt nghiêng góc 30° so với phương ngang, miệng ở dưới.\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h ' h . s i n 3 0\nh\n2\n = = \nTa có\np<sub>1</sub>\n.V<sub>1</sub>\n = p\n4\n.V\n4\n,\nvới\n p\nV\n3\n4\n = \n = l\np\n4\n0\n.S\n - h ' = 7 6 - 7 = 6 9 c m H g\n ⇒ 9 0 .4 0 .S = 6 9 .l\n4\n.S ⇒ l\n4\n = 5 2 , 1 7 4 c m"
       },
       {
         "id": 18,
@@ -5602,13 +5602,13 @@
         "label": "Luyện tập • Phần 2 - Câu 1",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p53_img1.png",
-        "question": "Một xilanh nằm ngang, giam một lượng khí lí tưởng bởi một pittong ở cách đáy một đoạn là 20 cm.",
-        "prompt": "Một xilanh nằm ngang, giam một lượng khí lí tưởng bởi một pittong ở cách đáy một đoạn là 20 cm.",
+        "question": "Một xilanh nằm ngang, giam một lượng khí lí tưởng bởi một pít-tông ở cách đáy một đoạn là 20 cm.",
+        "prompt": "Một xilanh nằm ngang, giam một lượng khí lí tưởng bởi một pít-tông ở cách đáy một đoạn là 20 cm.",
         "statements": {
-          "a": "Thể tích của lượng khí trong xilanh khi chưa di chuyển pittong là 20S cm<sup>3</sup> ( với S là diện tích tiết diện của\nxilanh )",
+          "a": "Thể tích của lượng khí trong xilanh khi chưa di chuyển pít-tông là 20S cm<sup>3</sup> ( với S là diện tích tiết diện của xilanh )",
           "b": "Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh là 5S cm<sup>3</sup>",
           "c": "Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh tăng một lượng là 10S cm<sup>3</sup>",
-          "d": "Để áp suất khí trong xilanh tăng gấp 4 lần thì phải đẩy pittong theo chiều giảm thể tích khí trong xi lanh\nmột đoạn 25 cm"
+          "d": "Để áp suất khí trong xilanh tăng gấp 4 lần thì phải đẩy pít-tông theo chiều giảm thể tích khí trong xi lanh một đoạn 25 cm"
         },
         "answer": {
           "a": "S",
@@ -5622,7 +5622,7 @@
           "c": "Đ",
           "d": "Đ"
         },
-        "explanation": "<b>Ý C:</b> Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh tăng một lượng là 10S cm<sup>3</sup>.\nTrạng thái 1 : p , V = S.l = 20S cm<sup>3</sup>\n1 1\nTrạng thái 2 : p = 3p , V = S.l’\n2 1 2\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇒ V = 5S (cm<sup>3</sup>) ⇒ Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh 2\ngiảm một lượng là 20S – 5S = 15S cm<sup>3</sup>.<br><b>Ý D:</b> Để áp suất khí trong xilanh tăng gấp 4 lần thì phải đẩy pittong theo chiều giảm thể tích khí trong xi lanh một\nđoạn 15 cm."
+        "explanation": "<b>Ý C:</b> Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh tăng một lượng là 10S cm<sup>3</sup>.\nTrạng thái 1 : p , V = S.l = 20S cm<sup>3</sup>\n1 1\nTrạng thái 2 : p = 3p , V = S.l’\n2 1 2\np<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇒ V = 5S (cm<sup>3</sup>) ⇒ Để áp suất khí trong xilanh tăng gấp 4 lần thì thể tích khí trong xilanh 2\ngiảm một lượng là 20S – 5S = 15S cm<sup>3</sup>.<br><b>Ý D:</b> Để áp suất khí trong xilanh tăng gấp 4 lần thì phải đẩy pít-tông theo chiều giảm thể tích khí trong xi lanh một\nđoạn 15 cm."
       },
       {
         "id": 20,
@@ -5638,8 +5638,8 @@
         "label": "Luyện tập • Phần 2 - Câu 2",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-\ntông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
-        "prompt": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-\ntông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
+        "question": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pít-tông đóng kín, diện tích của đáy pit-tông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
+        "prompt": "Một lượng khí có thể tích 240 cm<sup>3</sup> chứa trong một xilanh có pít-tông đóng kín, diện tích của đáy pit-tông là 24 cm<sup>2</sup> (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa\npit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
         "statements": {
           "a": "Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 192 cm<sup>3</sup>",
           "b": "Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 288 cm<sup>3</sup>.",
@@ -5658,7 +5658,7 @@
           "c": "Đ",
           "d": "Đ"
         },
-        "explanation": "<b>Ý A:</b> Khi pit-tông dịch chuyển sang trái 2 cm: V = V - Sl = 240 - 24.2 = 192cm3\n2 1<br><b>Ý B:</b> Khi pit-tông dịch chuyển sang phải 2 cm: V<sub>2</sub>\n = V<sub>1</sub>\n + S l = 2 4 0 + 2 4 . 2 = 2 8 8 c m<sup>3</sup><br><b>Ý C:</b> Khi pit-tông dịch chuyển sang trái 2 cm (thể tích giảm, áp suất tăng):\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n\np\n2\n =  p + \n1\nF\nS → p V<sub>1</sub>\n1\n =  p<sub>1</sub>\n + F\nS\n  V<sub>1</sub>\n - S .l  ⇒ 1 0 0 . 2 4 0 =  1 0 0 + F\n2 4\n. 1\n. 1\n0\n0\n - 3\n - 4\n  2 4 0 - 2 4 . 2 \n ⇒ F = 6 0 N<br><b>Ý D:</b> Khi pit-tông dịch chuyển sang phải 2 cm (thể tích tăng, áp suất giảm):\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n\np\n2\n =  p - \n1\nF\nS → p V<sub>1</sub>\n1\n =  p<sub>1</sub>\n - F\nS\n  V<sub>1</sub>\n + S .l  ⇒ 1 0 0 . 2 4 0 =  1 0 0 - F\n2 4\n. 1\n. 1\n0\n0\n - 3\n - 4\n  2 4 0 + 2 4 . 2 \n ⇒ F = 4 0 N"
+        "explanation": "<b>Ý A:</b> Khi pit-tông dịch chuyển sang trái 2 cm: V = V - Sl = 240 - 24.2 = 192cm3\n2 1<br><b>Ý B:</b> Khi pit-tông dịch chuyển sang phải 2 cm: V<sub>2</sub>\n = V<sub>1</sub>\n + S l = 2 4 0 + 2 4 . 2 = 2 8 8 c m<sup>3</sup><br><b>Ý C:</b> Khi pit-tông dịch chuyển sang trái 2 cm (thể tích giảm, áp suất tăng):\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n\np\n2\n =  p + \n1\nF\nS → p V<sub>1</sub>\n1\n =  p<sub>1</sub>\n + F\nS\n ( V<sub>1</sub>\n - S .l ) ⇒ 1 0 0 . 2 4 0 =  1 0 0 + F\n2 4\n. 1\n. 1\n0\n0\n - 3\n - 4\n ( 2 4 0 - 2 4 . 2 )\n ⇒ F = 6 0 N<br><b>Ý D:</b> Khi pit-tông dịch chuyển sang phải 2 cm (thể tích tăng, áp suất giảm):\np V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n\np\n2\n =  p - \n1\nF\nS → p V<sub>1</sub>\n1\n =  p<sub>1</sub>\n - F\nS\n ( V<sub>1</sub>\n + S .l ) ⇒ 1 0 0 . 2 4 0 =  1 0 0 - F\n2 4\n. 1\n. 1\n0\n0\n - 3\n - 4\n ( 2 4 0 + 2 4 . 2 )\n ⇒ F = 4 0 N"
       },
       {
         "id": 21,
@@ -5679,7 +5679,7 @@
         "statements": {
           "a": "Khi ống nằm ngang, áp suất và thể tích của hai lượng khí ở hai bên ống là bằng nhau",
           "b": "Có thể áp dụng định luật Boyle cho quá trình biến đổi chất khí nói trên.",
-          "c": "Gọi L là chiều dài của ống\nKhi ống nằm ngang, tích áp suất và thể tích của lượng khí hai bên ống là\nL - h\npV = p. .S",
+          "c": "Gọi L là chiều dài của ống. Khi ống nằm ngang, tích áp suất và thể tích của lượng khí hai bên ống là: pV = p₀·[(L - h)/2]·S.",
           "d": "Áp suất của không khí trong ống khi ống nằm ngang bằng p = 7 mmHg, p = 10 mmHg"
         },
         "answer": {
@@ -5694,7 +5694,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Ý C:</b> 2<br><b>Ý D:</b> 1 2\nKhi tren: p x + l S\n*Khi ống đặt nghiêng góc 300: Tich pV 2 1\nKhi duoi:p + 0,5hx - l S\n\n2 1\nKhi tren: p x + l S\n*Khi ống đặt thẳng đứng: Tich pV 3 2\n Khi duoi:p + hx - l S\n3 2\n*Áp dụng định luật Boyle:\np x = p x + l  = p + 0,5hx - l  = p x + l  = p + hx - l \n1 2 1 2 1 3 2 3 2\n1 2 3 4\n\n\n*Từ\n\n\n\n1\n3\n\n\nv\nv\na\na\n\n\n2\n4\n\n\n ⇒ \n ⇒ \np\np<sub>2</sub>\n3\n = \n = \nh\n4\nh\n2\n\n\n\n\nx\nl1\nx\nl\n2\n - \n - \n1\n1\n\n\n ⇒ \np\np<sub>2</sub>\n3\n = \n1\n2\n.\n\n\nx\nl1\nx\nl 2\n - \n - \n1\n1\n = \nx\nx\n + \n + \n\n\nl\n2\nl1\n ⇒ x  4 9 m m\np x + l  749 + 20\n ⇒ p = 7mmHg ⇒ p = 2 1 = 10mmHg\n2 1 x 49"
+        "explanation": "<b>Ý C:</b> 2<br><b>Ý D:</b> 1 2\nKhi tren: p (x + Δl )S\n*Khi ống đặt nghiêng góc 30°: Tich pV 2 1\nKhi duoi:(p + 0,5h)(x - Δl )S\n\n2 1\nKhi tren: p (x + Δl )S\n*Khi ống đặt thẳng đứng: Tich pV 3 2\n Khi duoi:(p + h)(x - Δl )S\n3 2\n*Áp dụng định luật Boyle:\np x = p (x + Δl ) = (p + 0,5h)(x - Δl ) = p (x + Δl ) = (p + h)(x - Δl )\n1 2 1 2 1 3 2 3 2\n(1) (2) (3) (4)\n\n\n*Từ\n\n(\n(\n1\n3\n)\n)\nv\nv\na\na\n(\n(\n2\n4\n)\n)\n ⇒ \n ⇒ \np\np<sub>2</sub>\n3\n = \n = \nh\n4\nh\n2\n\n\nΔ\nΔ\nx\nl1\nx\nl\n2\n - \n - \n1\n1\n\n\n ⇒ \np\np<sub>2</sub>\n3\n = \n1\n2\n.\nΔ\nΔ\nx\nl1\nx\nl 2\n - \n - \n1\n1\n = \nx\nx\n + \n + \nΔ\nΔ\nl\n2\nl1\n ⇒ x  4 9 m m\np (x + Δl ) 7(49 + 20)\n ⇒ p = 7mmHg ⇒ p = 2 1 = 10mmHg\n2 1 x 49"
       },
       {
         "id": 22,
@@ -5715,7 +5715,7 @@
         "statements": {
           "a": "Áp suất của cột không khí khi ống nghiệm nằm ngang là 86 cmHg",
           "b": "Áp suất của cột không khí khi ống nghiệm được dựng thẳng đứng miệng ống ở trên là 80 cmHg",
-          "c": "Thể tích và áp suất của cột không khí liên hệ bằng biểu thức: p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>",
+          "c": "Thể tích và áp suất của cột không khí liên hệ bằng biểu thức: p₁·V₁ = p₂·V₂.",
           "d": "Chiều dài cột khí trong ống khi ống được dựng thẳng ống nghiệm miệng ống ở trên là 20 cm"
         },
         "answer": {
@@ -5753,7 +5753,7 @@
           "20",
           "20"
         ],
-        "explanation": "*Đầu hở ở trên, lượng khí trong ống có\n\nV\np<sub>1</sub>\n1\n = \n = 2\np<sub>0</sub>\n0\nS\n + \n\n4\nc\n0\nm\n\n3\nc\n\nm H g \n*Đầu hở ở dưới, lượng khí trong ống có\n\nV\np<sub>2</sub>\n2\n = \n = \np\nl\n0\n - \n - \nh\nh\n S\n*Áp dụng định luật Boyle: pV = pV ⇒ p + 40.20S = p - hl - hS\n1 1 2 2 0 0\nThay số:  8 0 + 4 0  . 2 0 =  8 0 - h   6 0 - h  \nh \n\nl =  6 0 c m\n → h = 2 0 c m\n40cm\n20cm h"
+        "explanation": "*Đầu hở ở trên, lượng khí trong ống có\n\nV\np<sub>1</sub>\n1\n = \n = 2\np<sub>0</sub>\n0\nS\n + \n(\n4\nc\n0\nm\n(\n3\nc\n)\nm H g )\n*Đầu hở ở dưới, lượng khí trong ống có\n\nV\np<sub>2</sub>\n2\n = \n = (\np\nl\n0\n - \n - \nh\nh\n) S\n*Áp dụng định luật Boyle: pV = pV ⇒ (p + 40).20S = (p - h)(l - h)S\n1 1 2 2 0 0\nThay số: ( 8 0 + 4 0 ) . 2 0 = ( 8 0 - h ) ( 6 0 - h ) \nh  < \n\nl =  6 0 c m\n → h = 2 0 c m\n40cm\n20cm h"
       },
       {
         "id": 24,
@@ -5776,7 +5776,7 @@
           "100",
           "100"
         ],
-        "explanation": "Khi pít-tông dịch chuyển sang trái thì khí sẽ nén.\n p = 100kPa\nTT 1\n1 V = 240cm3\n\n 1 ⇒ 100.240 = p .240 - 4.20\n2\np = ?\n TT 2 pV pV\n 2 V = V - Sl 1 1 2 2\n\n2 1\np<sub>2</sub>\n = 1 5 0 k P a \np\n2\n =  p + \n1\nF\nS → F =  p<sub>2</sub>\n - p<sub>1</sub>\n .S =  1 5 0 - \n\n1\nP<sub>0</sub>\na\n0\n\n . 1 0 3 . 2 0\n\n.\nm\n1 0\n2\n - \n\n4 = 1 0 0 N"
+        "explanation": "Khi pít-tông dịch chuyển sang trái thì khí sẽ nén.\n p = 100kPa\nTT 1\n1 V = 240cm3\n\n 1 ⇒ 100.240 = p .(240 - 4.20)\n2\np = ?\n TT 2 pV pV\n 2 V = V - Sl 1 1 2 2\n\n2 1\np<sub>2</sub>\n = 1 5 0 k P a \np\n2\n =  p + \n1\nF\nS → F = ( p<sub>2</sub>\n - p<sub>1</sub>\n) .S = ( 1 5 0 - \n\n1\nP<sub>0</sub>\na\n0\n\n) . 1 0 3 . 2 0\n\n.\nm\n1 0\n2\n - \n\n4 = 1 0 0 N"
       },
       {
         "id": 25,
@@ -5799,7 +5799,7 @@
           "14,5",
           "14.5"
         ],
-        "explanation": "Xét áp suất và thể tích của lượng khí ở phần đáy của ống (đầu kín).\n*Khi đặt ống thẳng đứng có đầu hở lên phía trên:\np<sub>1</sub>\n = p<sub>0</sub>\n + h\n;\nV<sub>1</sub>\n = S .l1\n*Khi đặt ống thẳng đứng có đầu hở xuống phía dưới:\np<sub>2</sub>\n = p<sub>0</sub>\n - h\n;\nV<sub>2</sub>\n = S .l\n2\nl\n2\nh\nh\nl\n1\np + h 76 + 14\n*Áp dụng định luật Boyle: p + hl = p - hl ⇒ l = 0 l = .10 = 14,5 cm\n0 1 0 2 2 p - h 1 76 - 14\n0"
+        "explanation": "Xét áp suất và thể tích của lượng khí ở phần đáy của ống (đầu kín).\n*Khi đặt ống thẳng đứng có đầu hở lên phía trên:\np<sub>1</sub>\n = p<sub>0</sub>\n + h\n;\nV<sub>1</sub>\n = S .l1\n*Khi đặt ống thẳng đứng có đầu hở xuống phía dưới:\np<sub>2</sub>\n = p<sub>0</sub>\n - h\n;\nV<sub>2</sub>\n = S .l\n2\nl\n2\nh\nh\nl\n1\np + h 76 + 14\n*Áp dụng định luật Boyle: (p + h)l = (p - h)l ⇒ l = 0 l = .10 = 14,5 cm\n0 1 0 2 2 p - h 1 76 - 14\n0"
       },
       {
         "id": 26,
@@ -5822,7 +5822,7 @@
           "10,3",
           "10.3"
         ],
-        "explanation": "Áp dụng mối liên hệ giữa chiều cao cột thủy ngân và chiều cao cột nước.\nhmmH O\nhmmHg = 2 ⇒ hmmH O = 13,6hmmHg\n13,6 2\n\n\nThay số: h  m m H\n2\nO  = 1 3 , 6 . 7 6 0 = 1 0 3 3 6 m m  1 0 , 3 m\nSử dụng giải thiết sau cho câu 5, câu 6\nTrong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng ống\nhướng lên, trong ống về phía đáy có cột không khí dài 30cm và được ngăn cách với bên ngoài bằng cột thủy\nngân dài h = 15cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi."
+        "explanation": "Áp dụng mối liên hệ giữa chiều cao cột thủy ngân và chiều cao cột nước.\nh(mmH O)\nh(mmHg) = 2 ⇒ h(mmH O) = 13,6h(mmHg)\n13,6 2\n\n\nThay số: h ( m m H\n2\nO ) = 1 3 , 6 . 7 6 0 = 1 0 3 3 6 m m  1 0 , 3 m\nSử dụng giải thiết sau cho câu 5, câu 6\nTrong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng ống\nhướng lên, trong ống về phía đáy có cột không khí dài 30cm và được ngăn cách với bên ngoài bằng cột thủy\nngân dài h = 15cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi."
       },
       {
         "id": 27,
@@ -5845,7 +5845,7 @@
           "44,8",
           "44.8"
         ],
-        "explanation": "Ống thẳng đứng miệng ở dưới\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n, với\np = p + h = 76 + 15 = 91cmHg\n1 0\n\nV = l.S = 30.S\n\n1 1\np = p - h = 76 - 15 = 61cmHg\n2 0\n\nV = l .S\n\n2 2\n ⇒ 91.30.S = 61.l .S\n2\n ⇒ l = 44,8cm\n2"
+        "explanation": "Ống thẳng đứng miệng ở dưới\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n, với\np = p + h = 76 + 15 = 91cmHg\n1 0\n\nV = l.S = 30.S\n\n1 1\np = p - h = 76 - 15 = 61cmHg\n2 0\n\nV = l .S\n\n2 2\n ⇒ 91.30.S = 61.l .S\n2\n ⇒ l = 44,8cm\n2"
       },
       {
         "id": 28,
@@ -5861,14 +5861,14 @@
         "label": "Luyện tập • Phần 3 - Câu 6",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 300 so với\nphương ngang, miệng ở trên.\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 300 so với\nphương ngang, miệng ở trên.\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 30° so với\nphương ngang, miệng ở trên.\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 30° so với\nphương ngang, miệng ở trên.\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "32,7",
         "acceptedAnswers": [
           "32,7",
           "32.7"
         ],
-        "explanation": "Ống đặt nghiêng góc 300 so với phương ngang, miệng ở trên.\nh\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h' = h.sin30 = \n2\np.V = p .V\nTa có ,\n1 1 3 3\np = p + h' = 76 + 7,5 = 83,5cmHg\nvới  3 0 ⇒ 91.30.S = 83,5.l .S ⇒ l = 32,7cm\n3 3\n V = l .S\n3 3"
+        "explanation": "Ống đặt nghiêng góc 30° so với phương ngang, miệng ở trên.\nh\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h' = h.sin30 = \n2\np.V = p .V\nTa có ,\n1 1 3 3\np = p + h' = 76 + 7,5 = 83,5cmHg\nvới  3 0 ⇒ 91.30.S = 83,5.l .S ⇒ l = 32,7cm\n3 3\n V = l .S\n3 3"
       },
       {
         "id": 29,
@@ -5990,7 +5990,7 @@
           "A": "25,75 cm",
           "B": "15,85cm",
           "C": "21,11cm",
-          "D": "22cm\np<sub>0</sub>\n.S =  p<sub>0</sub>\n - d \n2\n.S ⇒ \n2\n = \np\np<sub>0</sub>\n0 - \nd\n. = \n7\n7\n6\n2\n. 2 0 = 2 1 , 1 1 1  c m "
+          "D": "22 cm."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -6018,7 +6018,7 @@
           "D": "30 N"
         },
         "answer": "C",
-        "explanation": "Xét quá trình biến đổi của lượng khí\nTrạng thái 1 Trạng thái 2\nÁp suất p =100kPa= 10<sup>5</sup> Pa\n1 p<sub>2</sub>\n = p<sub>1</sub>\n + \nF\nS\n = 1 0 0 . 1 0 3 - \n2 4\nF\n. 1 0 - 4\n( P a )\n( do pittông dịch chuyển sang phải )\nThể tích V<sub>1</sub>\n = S l =240 cm<sup>3</sup>\n ⇒ l = 1 0 c m\nV<sub>2</sub>\n = S  l +  l  = 2 4 . ( 1 0 + 2 ) = 2 8 8 c m<sup>3</sup>\nÁp dụng ĐL Bôi-lơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ 1 0 5 . 2 4 0 = ( 1 0 5 - \n2 4\nF\n. 1 0 - 4\n) . 2 8 8 ⇒ F = 4 0 ( N )"
+        "explanation": "Xét quá trình biến đổi của lượng khí\nTrạng thái 1 Trạng thái 2\nÁp suất p =100kPa= 10<sup>5</sup> Pa\n1 p<sub>2</sub>\n = p<sub>1</sub>\n + \nF\nS\n = 1 0 0 . 1 0 3 - \n2 4\nF\n. 1 0 - 4\n( P a )\n( do pittông dịch chuyển sang phải )\nThể tích V<sub>1</sub>\n = S l =240 cm<sup>3</sup>\n ⇒ l = 1 0 c m\nV<sub>2</sub>\n = S ( l + Δ l ) = 2 4 . ( 1 0 + 2 ) = 2 8 8 c m<sup>3</sup>\nÁp dụng ĐL Bôi-lơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ 1 0 5 . 2 4 0 = ( 1 0 5 - \n2 4\nF\n. 1 0 - 4\n) . 2 8 8 ⇒ F = 4 0 ( N )"
       },
       {
         "id": 35,
@@ -6040,7 +6040,7 @@
           "A": "42 cm",
           "B": "23 cm",
           "C": "15 cm",
-          "D": "18 cm\nKhi đặt ống thẳng đứng, đầu hở ở trên thì áp suất và thể tích của khí ở trong ống lần lượt là: p<sub>1</sub>\n = p<sub>0</sub>\n + h và\nV<sub>1</sub>\n = S .l1 .\nKhi đặt ống thủy tinh theo phương thẳng đứng, đầu hở ở dưới thì áp suất và thể tích của khí trong ống lần\nlượt là: p = p - h và\n2 0\nV<sub>2</sub>\n = l\n0\nS . Áp dụng định luật Boyle:\np + h 76 + 16\npV = pV ⇔ p + hSl = p - hSl ⇒ l = 0 l = .15 = 23 cm\n1 1 2 2 0 1 0 0 0 p - h 1 76 - 16\n0"
+          "D": "18 cm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -6059,16 +6059,16 @@
         "label": "Tự luyện • Phần 1 - Câu 8",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p60_img1.png",
-        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 300 so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
-        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 300 so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
+        "question": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
+        "prompt": "Một ống thủy tinh tiết diện đều S, một đầu kín một đầu hở, chứa một cột thủy ngân dài h = 16cm. Khi\nđặt ống thẳng đứng, đầu hở ở trên thì chiều dài của cột không khí là l = 15cm, áp suất khí quyển bằng p = 76\n1 0\ncmHg. Khi đặt ống thủy tinh nghiêng một góc 30° so với phương thẳng đứng, đầu hở ở trên thì chiều cao của\ncột không khí trong ống bằng bao nhiêu?",
         "options": {
           "A": "7,45 mm",
           "B": "30,5 mm",
           "C": "15,4 mm",
-          "D": "20,4 mm\nKhi đặt ống thẳng đứng, đầu hở ở trên: p = p + h;\n1 0\nV<sub>1</sub>\n = S .l1\nKhi đặt ống thủy tinh nghiêng một góc 300 so với phương thẳng đứng:\nGọi  là góc hợp bởi ống thủy tinh so với phương nằm ngang.\np = p + hsin; V = l S\n2 0 2 0"
+          "D": "20,4 mm."
         },
         "answer": "C",
-        "explanation": "Áp dụng định luật Boyle:\np + h 76 + 16\npV = p V ⇔ p + hSl = p + hsinSl ⇒ l = 0 l = .15 = 15,4cm\n1 1 2 2 0 1 0 0 0 p + hsin1 76 + 16sin600\n0"
+        "explanation": "Áp dụng định luật Boyle:\np + h 76 + 16\npV = p V ⇔ (p + h)Sl = (p + hsinα)Sl ⇒ l = 0 l = .15 = 15,4cm\n1 1 2 2 0 1 0 0 0 p + hsinα1 76 + 16sin600\n0"
       },
       {
         "id": 37,
@@ -6093,7 +6093,7 @@
           "D": "11,5 mm"
         },
         "answer": "A",
-        "explanation": "Khi ống nằm ngang: p<sub>1</sub>\n = p<sub>0</sub>\nvà V<sub>1</sub>\n = S .l\n0\nKhi ống nằm nghiêng (miệng ống hướng xuống): p = p - hcosvà V = S.l\n2 0 2\nÁp dụng định luật Boyle:\nl l l 40\np l = p - hcosl ⇒ l = 0 = 0 = 0 = = 42,8 mm\n0 0 0 hcos hcos600 h 100\n1 - 1 - 1 - 1 - \np p 2p 2.760\n0 0 0"
+        "explanation": "Khi ống nằm ngang: p<sub>1</sub>\n = p<sub>0</sub>\nvà V<sub>1</sub>\n = S .l\n0\nKhi ống nằm nghiêng (miệng ống hướng xuống): p = p - hcosαvà V = S.l\n2 0 2\nÁp dụng định luật Boyle:\nl l l 40\np l = (p - hcosα)l ⇒ l = 0 = 0 = 0 = = 42,8 mm\n0 0 0 hcosα hcos600 h 100\n1 - 1 - 1 - 1 - \np p 2p 2.760\n0 0 0"
       },
       {
         "id": 38,
@@ -6115,10 +6115,10 @@
           "A": "sang phải 25cm.",
           "B": "sang trái 15cm.",
           "C": "sang phải 15cm.",
-          "D": "sang trái 25 cm.\nDo áp suất tăng nên suy ra thể tích phải giảm. Do đó pit-tông phải dịch sang trái"
+          "D": "Sang trái 25 cm."
         },
         "answer": "B",
-        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n4\nThể tích V = Sl\n1\nV<sub>2</sub>\n = S  l -  l \nÁp dụng ĐL Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ p<sub>1</sub>\nS l = 4 p<sub>1</sub>\n.S  l -  l  ⇒ l = 3  l -  l  \nl = 2\n\n0 c m\n →  l = 1 5 c m"
+        "explanation": "Trạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n4\nThể tích V = Sl\n1\nV<sub>2</sub>\n = S ( l - Δ l )\nÁp dụng ĐL Boyle: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV ⇒ p<sub>1</sub>\nS l = 4 p<sub>1</sub>\n.S ( l - Δ l ) ⇒ l = 3 ( l - Δ l ) \nl = 2\n\n0 c m\n → Δ l = 1 5 c m"
       },
       {
         "id": 39,
@@ -6140,10 +6140,10 @@
           "A": "13,5cm",
           "B": "20,2cm",
           "C": "15cm",
-          "D": "12,2cm\nKhi đặt ống thẳng đứng, đầu hở ở trên: p<sub>1</sub>\n = p<sub>0</sub>\n + h\nl’\nh l\n0\np h\n0\nα\n; V = S.l\n1 1\nKhi đặt ống thủy tinh nghiêng một góc 300 so với phương thẳng đứng:\nGọi  là góc hợp bởi ống thủy tinh so với phương nằm ngang.\np = p + hsin; V = l S\n2 0 2 0"
+          "D": "12,2 cm."
         },
         "answer": "D",
-        "explanation": "Áp dụng định luật Boyle:\np + h 76 + 12\npV = p V ⇔ p + hSl = p + hsinSl ⇒ l = 0 l = .12 = 12,2cm\n1 1 2 2 0 1 0 0 0 p + hsin1 76 + 12sin600\n0"
+        "explanation": "Áp dụng định luật Boyle:\np + h 76 + 12\npV = p V ⇔ (p + h)Sl = (p + hsinα)Sl ⇒ l = 0 l = .12 = 12,2cm\n1 1 2 2 0 1 0 0 0 p + hsinα1 76 + 12sin600\n0"
       },
       {
         "id": 40,
@@ -6165,7 +6165,7 @@
           "A": "130cm",
           "B": "80cm",
           "C": "75cm",
-          "D": "150cm\nTrước khi lật ngược, trạng thái khí là: p = p + h, V = l .S\n1 0 1 1\nKhi lật ngược, trạng thái khí là: p = p - h, V = l .S\n2 0 2 2\n⇒ p . V = p . V ⇔ ( p + h ).l = ( p - h ).l\n1 1 2 2 0 1 0 2\n⇔(80 + 40).30 = (80 – 40).l\n2\n⇔ l = 90 cm.\n2\n⇒ Ống phải dài tối thiểu là: 40 + 90 = 130cm."
+          "D": "150 cm."
         },
         "answer": "A",
         "explanation": "Đáp án đúng là <b>A</b>."
@@ -6218,7 +6218,7 @@
           "D": "748,8 mmHg"
         },
         "answer": "D",
-        "explanation": "Lúc đầu áp suất ở phần trên đáy p = p - h và thể tích V = S.l\n1 01 1 1\n\n\n63 ===\nLúc sau áp suất ở phần trên đáy p = p - h và thể tích V = Sl + h\n2 02 2 2\nÁp dụng định luật Bôilơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔  p<sub>0</sub> 1\n - h\n1\n S l =  p<sub>0</sub> 2\n - h\n2\n S  l + h\n1\n - h\n2\n\nhay  7 6 8 - 7 4 8  . 4 0 =  p<sub>0</sub> 2\n - 7 3 4   4 0 + 7 4 8 - 7 3 4  ⇒ p<sub>0</sub> 2\n = 7 4 8 , 8 m m H g"
+        "explanation": "Lúc đầu áp suất ở phần trên đáy p = p - h và thể tích V = S.l\n1 01 1 1\n\n\n63 ===\nLúc sau áp suất ở phần trên đáy p = p - h và thể tích V = S(l + Δh)\n2 02 2 2\nÁp dụng định luật Bôilơ: p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ ( p<sub>0</sub> 1\n - h\n1\n) S l = ( p<sub>0</sub> 2\n - h\n2\n) S ( l + h\n1\n - h\n2\n)\nhay ( 7 6 8 - 7 4 8 ) . 4 0 = ( p<sub>0</sub> 2\n - 7 3 4 ) ( 4 0 + 7 4 8 - 7 3 4 ) ⇒ p<sub>0</sub> 2\n = 7 4 8 , 8 m m H g"
       },
       {
         "id": 43,
@@ -6240,7 +6240,7 @@
           "A": "2,4 cm",
           "B": "0,4 cm",
           "C": "4 cm",
-          "D": "3,5 m\nGọi A là điểm nằm trên mặt thoáng của chất lỏng ở trong ống, B là điểm nằm ngoài ống nhưng có cùng độ\ncao với A.\nKhi mực nước ở trong vòng vòng ngoài ống cân bằng nhau, ta có:\np\nA\n = p\nB\n ⇒ p = p<sub>0</sub>\n + d .h = 1 , 0 1 3 . 1 0 5 + 1 0 0 0 . 0 , 4 = 1 0 1 7 0 0 ( P a )\nVì nhiệt độ là không đổi, do đó áp dụng định luật Boyle cho khối khí trong ống trước và sau khi nhúng, ta có:\np V = p V<sub>0</sub>\n0\n ⇒ \nV\nV<sub>0</sub>\n = \nl\nl\n0\n = \np\np<sub>0</sub>\nTrong đó l và l là chiều cao cột không khí trước và sau khi nhúng\n0\nl = l\n0\n.\np\np<sub>0</sub> = 1 .\n1\n1\n0\n0\n1\n1\n3\n7\n0\n0\n0\n0\n = 0 , 9 9 6 m = 9 9 , 6 c m\nChiều cao cột nước trong ống là:H = l – l = 100 - 99,6 = 0,4(cm)\n0"
+          "D": "3,5 m."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -6259,13 +6259,13 @@
         "label": "Tự luyện • Phần 1 - Câu 16",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p63_img2.png",
-        "question": "Một ống thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống, biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>",
-        "prompt": "Một ống thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống, biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>",
+        "question": "Một ống thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống, biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>",
+        "prompt": "Một ống thủy tinh hình trụ, một đầu kín một đầu hở, dài 40cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống, biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>",
         "options": {
           "A": "5 cm.",
           "B": "1,25 cm.",
           "C": "0,85 cm.",
-          "D": "3,5 cm.\np = p + h - xd\n\nTa có:  0 ; Mà p V = p.V\n\nV = h - xS 0 0\n ⇒ 105.0,3S = 105 + 0,3 - x.104.0,3 - x.S\n \n\n\n ⇒ x0,85cm"
+          "D": "3,5 cm."
         },
         "answer": "C",
         "explanation": "Đáp án đúng là <b>C</b>."
@@ -6290,7 +6290,7 @@
           "A": "30,25 cm",
           "B": "46,32 cm",
           "C": "22,45 cm",
-          "D": "15,5 cm\nỐng đặt nằm ngang: p<sub>2</sub>\n = p<sub>0</sub>\nTa có: p<sub>1</sub>\nV<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇒ 8 8 . 4 0 .S = 7 6 .\n2\n.S ⇒ \n2\n = 4 6 , 3 2  c m "
+          "D": "15,5 cm."
         },
         "answer": "B",
         "explanation": "Đáp án đúng là <b>B</b>."
@@ -6318,7 +6318,7 @@
           "D": "15cm"
         },
         "answer": "A",
-        "explanation": "Khi ống nằm ngang: p = p<sub>0</sub>\n; V = .S\nKhi ống thẳng đứng miệng ở trên: p<sub>1</sub>\n = p<sub>0</sub>\n + d ; V<sub>1</sub>\n = \n1\n.S\nÁp dụng định luật Boyle\np<sub>0</sub>\nS =  p<sub>0</sub>\n + d \n1\n.S ⇒ \n1\n = \np\np<sub>0</sub>\n0 + \nd\n. = \n7\n8\n6\n2\n. 1 5 = 1 4 c m\n\n\n65 ==="
+        "explanation": "Khi ống nằm ngang: p = p<sub>0</sub>\n; V = .S\nKhi ống thẳng đứng miệng ở trên: p<sub>1</sub>\n = p<sub>0</sub>\n + d ; V<sub>1</sub>\n = \n1\n.S\nÁp dụng định luật Boyle\np<sub>0</sub>\nS = ( p<sub>0</sub>\n + d )\n1\n.S ⇒ \n1\n = \np\np<sub>0</sub>\n0 + \nd\n. = \n7\n8\n6\n2\n. 1 5 = 1 4 c m\n\n\n65 ==="
       },
       {
         "id": 47,
@@ -6334,8 +6334,8 @@
         "label": "Tự luyện • Phần 2 - Câu 1",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = p - h .Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1\n = \np\n\n0\np\n + \n0\nh\n + \n2\nh\n\n1\nS\n\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 →  p<sub>0</sub>\n + h\n1\n l1 =  p<sub>0</sub>\n + h\n2\n l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = p + h .Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n =  p<sub>0</sub>\n + h\n2\n S l\n2\n⟹ Đ",
-        "prompt": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = p - h .Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1\n = \np\n\n0\np\n + \n0\nh\n + \n2\nh\n\n1\nS\n\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 →  p<sub>0</sub>\n + h\n1\n l1 =  p<sub>0</sub>\n + h\n2\n l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = p + h .Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n =  p<sub>0</sub>\n + h\n2\n S l\n2\n⟹ Đ",
+        "question": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = (p - h ).Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1(\n = \np\n(\n0\np\n + \n0\nh\n + \n2\nh\n)\n1\nS\n)\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → ( p<sub>0</sub>\n + h\n1\n) l1 = ( p<sub>0</sub>\n + h\n2\n) l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = (p + h ).Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n = ( p<sub>0</sub>\n + h\n2\n) S l\n2\n⟹ Đ",
+        "prompt": "Một ống hình chữ U tiết diện 1 cm<sup>2</sup> có một đầu kín. Đổ một lượng thuỷ ngân vào ống thì đoạn ống\nchứa không khí bị giảm có độ dài l = 30 cm và hai mực thuỷ ngân ở hai nhánh chênh nhau h = 11 cm. Đổ\n1 1\nthêm thuỷ ngân thì đoạn chứa không khí có độ dài 29 cm. Áp suất khí quyển p = 76 cmHg và nhiệt độ\n0\nkhông đổi.\na. Trước khi đổ thêm thủy ngân pV = (p - h ).Sl ⟹ S\n1 1 0 1 1\nXét lượng khí bên trong ống trước và sau khi đổ thêm thủy ngân:\n\nS\nT\na\nr\nu\nu o\n:\nc\np\n:\n2\nV\np<sub>2</sub>\nV<sub>1</sub>\n = \n1(\n = \np\n(\n0\np\n + \n0\nh\n + \n2\nh\n)\n1\nS\n)\nl\n.S\n2\nl1\n\np V<sub>1</sub>\n1\n = p V<sub>2</sub>\n 2 → ( p<sub>0</sub>\n + h\n1\n) l1 = ( p<sub>0</sub>\n + h\n2\n) l\n2\n( * )\nLượng khí bên trong ống trước khi đổ thêm thủy ngân pV = (p + h ).Sl\n1 1 0 1 1\nb. Sau khi đổ thêm thủy ngân : p<sub>2</sub>\nV<sub>2</sub>\n = ( p<sub>0</sub>\n + h\n2\n) S l\n2\n⟹ Đ",
         "statements": {},
         "answer": {
           "a": "S",
@@ -6368,10 +6368,10 @@
         "question": "Một xilanh có thể tích 100 cm<sup>3</sup> chứa lượng khí lí tưởng có áp suất là 2.10<sup>5</sup> Pa. Coi nhiệt độ của khí\nkhông thay đổi.",
         "prompt": "Một xilanh có thể tích 100 cm<sup>3</sup> chứa lượng khí lí tưởng có áp suất là 2.10<sup>5</sup> Pa. Coi nhiệt độ của khí\nkhông thay đổi.",
         "statements": {
-          "a": "Thể tích và áp suất của khối khí biến đổi theo phương trình: p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>",
-          "b": "Nếu đẩy từ từ pittong làm giảm thể tích của khí trong xilanh xuống còn 75 cm<sup>3</sup> thì áp suất của khí trong\nxilanh lúc này bằng 1,67.10<sup>5</sup> Pa.",
-          "c": "Nếu tiếp tục đẩy pittong để thể tích của khí trong xilanh xuống còn 50 cm<sup>3</sup> thì áp suất lúc này tăng thêm một\nlượng 3.10<sup>5</sup> Pa so với trạng thái ban đầu.",
-          "d": "Trong (p,V) đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ được giữ không đổi, có\ndạng đường hyperbol."
+          "a": "Thể tích và áp suất của khối khí biến đổi theo phương trình: p₁·V₁ = p₂·V₂.",
+          "b": "Nếu đẩy từ từ pít-tông làm giảm thể tích của khí trong xilanh xuống còn 75 cm<sup>3</sup> thì áp suất của khí trong xilanh lúc này bằng 1,67.10<sup>5</sup> Pa.",
+          "c": "Nếu tiếp tục đẩy pít-tông để thể tích của khí trong xilanh xuống còn 50 cm<sup>3</sup> thì áp suất lúc này tăng thêm một lượng 3.10<sup>5</sup> Pa so với trạng thái ban đầu.",
+          "d": "Trong (p,V) đường biểu diễn sự biến thiên của áp suất theo thể tích khi nhiệt độ được giữ không đổi, có dạng đường hyperbol."
         },
         "answer": {
           "a": "Đ",
@@ -6385,7 +6385,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Ý B:</b> Nếu đẩy từ từ pittong làm giảm thể tích của khí trong xilanh xuống còn 75 cm<sup>3</sup> thì áp suất của khí trong xilanh\nlúc này bằng:\nTrạng thái 1 : V = 100cm3 , p = 2.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 75 cm<sup>3</sup> , p = ?\n2 2\np .V = p .V ⇒ \n1 1 2 2\n1 0 0 . 2 . 1 0 5 = 7 5 p<sub>2</sub>\n ⇒ p = 2,67.10<sup>5</sup> Pa\n2<br><b>Ý C:</b> Nếu tiếp tục đẩy pittong để thể tích của khí trong xilanh xuống còn 50 cm<sup>3</sup> thì áp suất lúc này tăng thêm một\nlượng 2.10<sup>5</sup> Pa so với trạng thái ban đầu.\nTrạng thái 1 : V = 100cm3 , p = 2.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 50 cm<sup>3</sup> , p = ?\n2 2\np .V = p .V ⇒ 100.2.105 = 50p ⇒ p = 4,0.10<sup>5</sup> Pa\n1 1 2 2 2 2"
+        "explanation": "<b>Ý B:</b> Nếu đẩy từ từ pít-tông làm giảm thể tích của khí trong xilanh xuống còn 75 cm<sup>3</sup> thì áp suất của khí trong xilanh\nlúc này bằng:\nTrạng thái 1 : V = 100cm3 , p = 2.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 75 cm<sup>3</sup> , p = ?\n2 2\np .V = p .V ⇒ \n1 1 2 2\n1 0 0 . 2 . 1 0 5 = 7 5 p<sub>2</sub>\n ⇒ p = 2,67.10<sup>5</sup> Pa\n2<br><b>Ý C:</b> Nếu tiếp tục đẩy pít-tông để thể tích của khí trong xilanh xuống còn 50 cm<sup>3</sup> thì áp suất lúc này tăng thêm một\nlượng 2.10<sup>5</sup> Pa so với trạng thái ban đầu.\nTrạng thái 1 : V = 100cm3 , p = 2.10<sup>5</sup> Pa\n1 1\nTrạng thái 2 : V = 50 cm<sup>3</sup> , p = ?\n2 2\np .V = p .V ⇒ 100.2.10<sup>5</sup> = 50p ⇒ p = 4,0.10<sup>5</sup> Pa\n1 1 2 2 2 2"
       },
       {
         "id": 49,
@@ -6401,13 +6401,13 @@
         "label": "Tự luyện • Phần 2 - Câu 3",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Một xilanh đang chứa một khối khí, khi đó pít - tông cách đáy xilanh một khoảng 15cm. Gọi S là\ndiện tích mặt đáy pittong.Coi nhiệt độ của khí không đổi trong quá trình biến đổi trên:",
-        "prompt": "Một xilanh đang chứa một khối khí, khi đó pít - tông cách đáy xilanh một khoảng 15cm. Gọi S là\ndiện tích mặt đáy pittong.Coi nhiệt độ của khí không đổi trong quá trình biến đổi trên:",
+        "question": "Một xilanh đang chứa một khối khí, khi đó pít - tông cách đáy xilanh một khoảng 15cm. Gọi S là\ndiện tích mặt đáy pít-tông.Coi nhiệt độ của khí không đổi trong quá trình biến đổi trên:",
+        "prompt": "Một xilanh đang chứa một khối khí, khi đó pít - tông cách đáy xilanh một khoảng 15cm. Gọi S là\ndiện tích mặt đáy pít-tông.Coi nhiệt độ của khí không đổi trong quá trình biến đổi trên:",
         "statements": {
-          "a": "Thể tích của khối khí trong xilanh khi pittong cách đáy xilanh 15 cm là 5S cm<sup>3</sup>.",
+          "a": "Thể tích của khối khí trong xilanh khi pít-tông cách đáy xilanh 15 cm là 5S cm<sup>3</sup>.",
           "b": "Quá trình biến đổi của khối khí trong xilanh tuân theo định luật Boyle.",
-          "c": "Để áp suất khối khí trong xilanh giảm gấp 3 lần thì phải đẩy pittong ra xa đáy xilanh, một đoạn 3 cm.",
-          "d": "Để áp suất khối khí trong xilanh tăng gấp 3 lần thì phải đẩy pittong về phía đáy xilanh, một đoạn 10 cm."
+          "c": "Để áp suất khối khí trong xilanh giảm gấp 3 lần thì phải đẩy pít-tông ra xa đáy xilanh, một đoạn 3 cm.",
+          "d": "Để áp suất khối khí trong xilanh tăng gấp 3 lần thì phải đẩy pít-tông về phía đáy xilanh, một đoạn 10 cm."
         },
         "answer": {
           "a": "S",
@@ -6421,7 +6421,7 @@
           "c": "S",
           "d": "Đ"
         },
-        "explanation": "<b>Ý A:</b> Thể tích của khối khí trong xilanh khi pittong cách đáy xilanh\n15 cm là 15S cm<sup>3</sup>.<br><b>Ý C:</b> Để áp suất khối khí trong xilanh giảm gấp 3 lần thì phải đẩy pittong ra xa đáy xilanh: p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇒ \n15.𝑆.𝑝 = 𝑝 /3.𝑙′.𝑆 ⇒ 𝑙′ = 45 cm\n1 1\nl = 45 -15 =30 cm<br><b>Ý D:</b> p .V = p .V ⇒ \n1 1 2 2\n1 5 .S . p<sub>1</sub>\n = 3 p<sub>1</sub>\n.l '.S ⇒ l = 5 cm<sup>2</sup>\nl = 15 -5 =10 cm"
+        "explanation": "<b>Ý A:</b> Thể tích của khối khí trong xilanh khi pít-tông cách đáy xilanh\n15 cm là 15S cm<sup>3</sup>.<br><b>Ý C:</b> Để áp suất khối khí trong xilanh giảm gấp 3 lần thì phải đẩy pít-tông ra xa đáy xilanh: p<sub>1</sub>\n.V<sub>1</sub>\n = p<sub>2</sub>\n.V<sub>2</sub>\n ⇒ \n15.𝑆.𝑝 = 𝑝 /3.𝑙′.𝑆 ⇒ 𝑙′ = 45 cm\n1 1\nΔl = 45 -15 =30 cm<br><b>Ý D:</b> p .V = p .V ⇒ \n1 1 2 2\n1 5 .S . p<sub>1</sub>\n = 3 p<sub>1</sub>\n.l '.S ⇒ l = 5 cm<sup>2</sup>\nΔl = 15 -5 =10 cm"
       },
       {
         "id": 50,
@@ -6437,13 +6437,13 @@
         "label": "Tự luyện • Phần 2 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 300 so với phương\n0\nngang, miệng ống ở dưới .",
-        "prompt": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 300 so với phương\n0\nngang, miệng ống ở dưới .",
+        "question": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 30° so với phương\n0\nngang, miệng ống ở dưới .",
+        "prompt": "Cột không khí chứa trong một ống nhỏ, dài, tiết diện đều. Cột không khí được ngăn cách với khí\nquyển bởi một cột thủy ngân có chiều dài h = 150 mm. Áp suất khí quyển là p = 750 mmHg. Chiều dài cột\n0\nkhông khí khi ống nằm ngang là l = 120 mm. Cột không khí khi ống đặt nghiêng góc 30° so với phương\n0\nngang, miệng ống ở dưới .",
         "statements": {
           "a": "Áp suất và thể tích của lượng khí bị giam trong ống thủy tinh mang tỉ lệ thuận với nhau.",
-          "b": "Khi ống nằm ngang: 𝑝 = 750𝑚𝑚𝐻𝑔 và\n1\nV<sub>1</sub>\n = S .l\n0",
-          "c": "Khi ống nằm nghiêng (miệng ống hướng xuống): p<sub>2</sub>\np<sub>0</sub>\nh c o s  = - \nV = S.l\nvà",
-          "d": "Chiều dài cột không khí khi ống đặt nghiêng góc 300 so với phương ngang, miệng ống ở dưới có giá trị\nbằng 0,3 cm."
+          "b": "Khi ống nằm ngang: p₁ = 750 mmHg và V₁ = S·l₀.",
+          "c": "Khi ống nằm nghiêng (miệng ống hướng xuống): p₂ = p₀ - h·cosα và V₂ = S·l₂.",
+          "d": "Chiều dài cột không khí khi ống đặt nghiêng góc 30° so với phương ngang, miệng ống ở dưới có giá trị bằng 0,3 cm."
         },
         "answer": {
           "a": "S",
@@ -6457,7 +6457,7 @@
           "c": "Đ",
           "d": "S"
         },
-        "explanation": "<b>Ý A:</b> Xét 2 thông số áp suất và thể tích của lượng khí bị giam trong ống thủy tinh mang tính chất tỉ lệ nghịch với\nnhau<br><b>Ý B:</b> Khi ống nằm ngang: p = p và V = S.l\n1 0 1 0<br><b>Ý C:</b> 2<br><b>Ý D:</b> Áp dụng ĐL Boyle\nl l 120\np l = p - hcosl ⇒ l = 0 = 0 = = 133,3 mm\n0 0 0 hcos hcos600 150\n1 - 1 - 1 - \np p<sub>2</sub>.750\n0 0\n\n\nLượng khí bên trong ống sau khi đổ thêm thủy ngân p<sub>2</sub>\nV<sub>2</sub>\n =  p<sub>0</sub>\n + h\n2\n S l\n2\nc. Đổ thêm thuỷ ngân thì độ chênh lệch mực thủy ngân ở hai nhánh h = 24 cm ⟹ S\n2\nThay số vào pt(*) ⇒  7 6 + 1 1  . 3 0 =  7 6 + h\n2\n . 2 9 ⇒ h\n2\n = 1 4 c m\nĐổ thêm thuỷ ngân thì độ chênh lệch mực thủy ngân ở hai nhánh h = 14 cm<sup>2</sup>\nd. Thể tích thủy ngân đã đổ thêm bằng 3 cm<sup>3</sup> ⟹ S\nThể tích thủy ngân đã đổ thêm:  V = S  2  l1 - l\n2\n + h\n2\n - h\n1\n = 1  2 . 1 + 1 4 - 1 1  = 5 c m<sup>3</sup>"
+        "explanation": "<b>Ý A:</b> Xét 2 thông số áp suất và thể tích của lượng khí bị giam trong ống thủy tinh mang tính chất tỉ lệ nghịch với\nnhau<br><b>Ý B:</b> Khi ống nằm ngang: p = p và V = S.l\n1 0 1 0<br><b>Ý C:</b> 2<br><b>Ý D:</b> Áp dụng ĐL Boyle\nl l 120\np l = (p - hcosα)l ⇒ l = 0 = 0 = = 133,3 mm\n0 0 0 hcosα hcos600 150\n1 - 1 - 1 - \np p<sub>2</sub>.750\n0 0\n\n\nLượng khí bên trong ống sau khi đổ thêm thủy ngân p<sub>2</sub>\nV<sub>2</sub>\n = ( p<sub>0</sub>\n + h\n2\n) S l\n2\nc. Đổ thêm thuỷ ngân thì độ chênh lệch mực thủy ngân ở hai nhánh h = 24 cm ⟹ S\n2\nThay số vào pt(*) ⇒ ( 7 6 + 1 1 ) . 3 0 = ( 7 6 + h\n2\n) . 2 9 ⇒ h\n2\n = 1 4 c m\nĐổ thêm thuỷ ngân thì độ chênh lệch mực thủy ngân ở hai nhánh h = 14 cm<sup>2</sup>\nd. Thể tích thủy ngân đã đổ thêm bằng 3 cm<sup>3</sup> ⟹ S\nThể tích thủy ngân đã đổ thêm: Δ V = S  2 ( l1 - l\n2\n) + h\n2\n - h\n1\n = 1 ( 2 . 1 + 1 4 - 1 1 ) = 5 c m<sup>3</sup>"
       },
       {
         "id": 51,
@@ -6480,7 +6480,7 @@
           "35,7",
           "35.7"
         ],
-        "explanation": "Ở hình a ta có áp suất và thể tích của lượng khí lần lượt là: p<sub>1</sub>\n = p<sub>0</sub>\n - h\n1\n; V<sub>1</sub>\n = 4 0 c m<sup>3</sup>\nx\n40\n(cm<sup>3</sup>)\n(cm<sup>3</sup>)\na) b)\nỞ hình b ta có áp suất và thể tích của lượng khí lần lượt là:\nh = 0\np = p - h 2  → p = p ; V = x\n cm<sup>3</sup>\n2 0 2 2 0 2\nDo nhiệt độ không thay đổi nên ta áp dụng ĐL Boyle\np - h 75 - 8\npV = p V ⇒ p - h V = p x ⇒ x = 0 V = .40 = 35,7cm3\n1 1 2 2 0 1 1 0 p<sub>1</sub> 75\n0"
+        "explanation": "Ở hình a ta có áp suất và thể tích của lượng khí lần lượt là: p<sub>1</sub>\n = p<sub>0</sub>\n - h\n1\n; V<sub>1</sub>\n = 4 0 c m<sup>3</sup>\nx\n40\n(cm<sup>3</sup>)\n(cm<sup>3</sup>)\na) b)\nỞ hình b ta có áp suất và thể tích của lượng khí lần lượt là:\nh = 0\np = p - h 2  → p = p ; V = x\n( cm<sup>3</sup>)\n2 0 2 2 0 2\nDo nhiệt độ không thay đổi nên ta áp dụng ĐL Boyle\np - h 75 - 8\npV = p V ⇒ (p - h )V = p x ⇒ x = 0 V = .40 = 35,7cm3\n1 1 2 2 0 1 1 0 p<sub>1</sub> 75\n0"
       },
       {
         "id": 52,
@@ -6503,7 +6503,7 @@
           "100",
           "100"
         ],
-        "explanation": "Đầu hở ở trên, lượng khí trong ống có\n\nV\np<sub>1</sub>\n1\n = \n = 2\np<sub>0</sub>\n0\nS\n + \n\n4\nc\n0\nm\n\n3\nc\n\nm H g \nĐầu hở ở dưới, lượng khí trong ống có\n\nV\np<sub>2</sub>\n2\n = \n = \np\nl\n0\n - \n - \n4\n4\n0\n0\n S\np = 80cmHg\nÁp dụng định luật Boyle pV = pV ⇒ p + 40.20S = p - 40l - 40S 0 ⟶ l = 100cm\n1 1 2 2 0 0\nMuốn lượng thủy ngân không bị chảy ra ngoài khi: l  1 0 0 c m ⇒ l\nm in\n = 1 0 0 c m"
+        "explanation": "Đầu hở ở trên, lượng khí trong ống có\n\nV\np<sub>1</sub>\n1\n = \n = 2\np<sub>0</sub>\n0\nS\n + \n(\n4\nc\n0\nm\n(\n3\nc\n)\nm H g )\nĐầu hở ở dưới, lượng khí trong ống có\n\nV\np<sub>2</sub>\n2\n = \n = (\np\nl\n0\n - \n - \n4\n4\n0\n0\n) S\np = 80cmHg\nÁp dụng định luật Boyle pV = pV ⇒ (p + 40).20S = (p - 40)(l - 40)S 0 ⟶ l = 100cm\n1 1 2 2 0 0\nMuốn lượng thủy ngân không bị chảy ra ngoài khi: l  1 0 0 c m ⇒ l\nm in\n = 1 0 0 c m"
       },
       {
         "id": 53,
@@ -6526,7 +6526,7 @@
           "750",
           "750"
         ],
-        "explanation": "Lúc đầu áp suất ở phần trên đáy p<sub>1</sub>\n = p<sub>0</sub> 1\n - h\n1\nvà thể tích V<sub>1</sub>\n = S .l\nLúc sau áp suất ở phần trên đáy p = p - h và thể tích\n2 02 2\nV<sub>2</sub>\n = S  l +  h \nÁp dụng định luật Boyle p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔  p<sub>0</sub> 1\n - h\n1\n S l =  p<sub>0</sub> 2\n - h\n2\n S  l + h\n1\n - h\n2\n\nhay  7 6 8 - 7 4 8  . 5 6 =  p<sub>0</sub> 2\n - 7 3 4   5 6 + 7 4 8 - 7 3 4  ⇒ p<sub>0</sub> 2\n = 7 5 0 m m H g"
+        "explanation": "Lúc đầu áp suất ở phần trên đáy p<sub>1</sub>\n = p<sub>0</sub> 1\n - h\n1\nvà thể tích V<sub>1</sub>\n = S .l\nLúc sau áp suất ở phần trên đáy p = p - h và thể tích\n2 02 2\nV<sub>2</sub>\n = S ( l + Δ h )\nÁp dụng định luật Boyle p V<sub>1</sub>\n1\n = p<sub>2</sub>\nV<sub>2</sub>\n ⇔ ( p<sub>0</sub> 1\n - h\n1\n) S l = ( p<sub>0</sub> 2\n - h\n2\n) S ( l + h\n1\n - h\n2\n)\nhay ( 7 6 8 - 7 4 8 ) . 5 6 = ( p<sub>0</sub> 2\n - 7 3 4 ) ( 5 6 + 7 4 8 - 7 3 4 ) ⇒ p<sub>0</sub> 2\n = 7 5 0 m m H g"
       },
       {
         "id": 54,
@@ -6542,14 +6542,14 @@
         "label": "Tự luyện • Phần 3 - Câu 4",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "",
-        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3  k g / m<sup>3</sup>  và 1 3 , 6 . 1 0 3  k g / m<sup>3</sup> \nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3  k g / m<sup>3</sup>  và 1 3 , 6 . 1 0 3  k g / m<sup>3</sup> \nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Nếu dùng chất lỏng là thủy ngân để làm khí áp kế thì khi đo áp suất khí quyển chiều cao cột thủy ngân\nlà 760mm. Nếu thay thủy ngân bằng rượu vang có khối lượng đúng bằng khối lượng thủy ngân ban đầu thì khi\nđo áp suất khí quyển chiều cao cột rượu vang là bao nhiêu mét? Biết khối lươṇ g riêng của rượu vang và thủy\nngân lần lượt là 0 , 9 8 4 . 1 0 3 ( k g / m<sup>3</sup> ) và 1 3 , 6 . 1 0 3 ( k g / m<sup>3</sup> )\nl\nh\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "10,5",
         "acceptedAnswers": [
           "10,5",
           "10.5"
         ],
-        "explanation": "Xét một lượng rượu vang và một lượng thủy ngân có cùng khối lượng.\nm = m ⇒ V =  V ⇔ S.h =  .S.h\nR Hg R R Hg Hg R R Hg Hg\n h mmR h mmR\n ⇒ h = R .h = R ⇒ h = R mmHg\nHg  R 13,6 Hg 13,8\nHg\nhmmH O = 13,8h mmHg = 13,8.76010,5m\n2 Hg\n\n\nSử dụng giải thiết sau cho câu 5, câu 6\nTrong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng ống\nhướng lên, trong ống về phía đáy có cột không khí dài 30cm và được ngăn cách với bên ngoài bằng cột thủy\nngân dài h = 15cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi."
+        "explanation": "Xét một lượng rượu vang và một lượng thủy ngân có cùng khối lượng.\nm = m ⇒ ρV = ρ V ⇔ ρS.h = ρ .S.h\nR Hg R R Hg Hg R R Hg Hg\nρ h (mmR) h (mmR)\n ⇒ h = R .h = R ⇒ h = R (mmHg)\nHg ρ R 13,6 Hg 13,8\nHg\nh(mmH O) = 13,8h (mmHg) = 13,8.76010,5m\n2 Hg\n\n\nSử dụng giải thiết sau cho câu 5, câu 6\nTrong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng ống\nhướng lên, trong ống về phía đáy có cột không khí dài 30cm và được ngăn cách với bên ngoài bằng cột thủy\nngân dài h = 15cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi."
       },
       {
         "id": 55,
@@ -6565,14 +6565,14 @@
         "label": "Tự luyện • Phần 3 - Câu 5",
         "topic": "Dạng 3: Định luật Boyle",
         "figure": "assets/images/quiz/phys/boyle_p70_img1.png",
-        "question": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 300 so với\nphương ngang, miệng ở dưới\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
-        "prompt": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 300 so với\nphương ngang, miệng ở dưới\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "question": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 30° so với\nphương ngang, miệng ở dưới\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
+        "prompt": "Tính chiều cao của cột không khí trong ống theo đơn vị cm? Biết ống đặt nghiêng góc 30° so với\nphương ngang, miệng ở dưới\n(Kết quả làm tròn đến 1 chữ số sau dấu phẩy thập phân)",
         "answer": "39,9",
         "acceptedAnswers": [
           "39,9",
           "39.9"
         ],
-        "explanation": "Ống đặt nghiêng góc 300 so với phương ngang, miệng ở dưới\nh\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h' = h.sin30 = \n2\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p\n4\n.V\n4\n, với\n\n ⇒ \n ⇒ \np\nV\n4\n4\n9\nl\n = \n = \n1\n4\np - \n0\nl .S\n4\n.3 0 .S\n = 3 9 , 9\nh\n = \nc\n' = \n6\nm\n8\n7\n,\n6\n5\n - \n.l\n4\n7\n.S\n, 5 = 6 8 , 5 c m H g"
+        "explanation": "Ống đặt nghiêng góc 30° so với phương ngang, miệng ở dưới\nh\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là h' = h.sin30 = \n2\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p\n4\n.V\n4\n, với\n\n ⇒ \n ⇒ \np\nV\n4\n4\n9\nl\n = \n = \n1\n4\np - \n0\nl .S\n4\n.3 0 .S\n = 3 9 , 9\nh\n = \nc\n' = \n6\nm\n8\n7\n,\n6\n5\n - \n.l\n4\n7\n.S\n, 5 = 6 8 , 5 c m H g"
       },
       {
         "id": 56,
@@ -6595,7 +6595,7 @@
           "35,9",
           "35.9"
         ],
-        "explanation": "Ống đặt nằm ngang\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p\n5\n.V\n5\n, với\np = p = 76cmHg\n5 0\n\nV = l .S\n\n4 4\n ⇒ 91.30.S = 76.l .S\n5\n ⇒ l = 35,9cm\n5"
+        "explanation": "Ống đặt nằm ngang\nTa có p<sub>1</sub>\n.V<sub>1</sub>\n = p\n5\n.V\n5\n, với\np = p = 76cmHg\n5 0\n\nV = l .S\n\n4 4\n ⇒ 91.30.S = 76.l .S\n5\n ⇒ l = 35,9cm\n5"
       }
     ]
   },
@@ -7505,7 +7505,7 @@
           "D": "500 N"
         },
         "answer": "A",
-        "explanation": "⟹ Đáp án đúng: A\nGiải thích:\n𝜋𝑑2\nGiảm thể tích 5 lần, áp suất tăng lên 5 lần 𝑝 = 5𝑝 . Diện tích pit-tông 𝑆 = . Lực 𝐹 = 𝑝⋅𝑆 =\n0\n4\n5.105.\n3,14.0,042\n= 628𝑁\n4"
+        "explanation": "⟹ Đáp án đúng: A\nGiải thích:\n𝜋𝑑2\nGiảm thể tích 5 lần, áp suất tăng lên 5 lần 𝑝 = 5𝑝 . Diện tích pit-tông 𝑆 = . Lực 𝐹 = 𝑝⋅𝑆 =\n0\n4\n5.10<sup>5</sup>.\n3,14.0,042\n= 628𝑁\n4"
       },
       {
         "id": 37,
@@ -7696,8 +7696,8 @@
         "label": "Phần 1 - Câu 44",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 42cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>",
-        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 42cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup>",
+        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 42cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>",
+        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài 42cm chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Tính chiều cao cột nước trong ống? biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup>",
         "options": {
           "A": "1,5 cm.",
           "B": "2,3 cm.",
@@ -7746,16 +7746,16 @@
         "label": "Phần 1 - Câu 46",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là , phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?\np = p - gh",
-        "prompt": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là , phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?\np = p - gh",
+        "question": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là ρ, phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?\np = p - ρgh",
+        "prompt": "Một ống nghiệm hình trụ có chứa chất lỏng có độ cao h và khối lượng riêng là ρ, phần miệng ống ở\ntrên, bên dưới chất lỏng có chứa một lượng khí. Biết áp suất khí quyển là\np<sub>0</sub>\n. Xác lập biểu thức tính áp suất\ncủa lượng khí bên trong ống ?\np = p - ρgh",
         "options": {
-          "A": "0\np = p + gh",
-          "B": "0\np = p - 2gh",
-          "C": "0\np = p + 2.gh",
-          "D": "0"
+          "A": "p = p<sub>0</sub> + ρgh.",
+          "B": "p = p<sub>0</sub> - 2ρgh.",
+          "C": "p = p<sub>0</sub> + 2ρgh.",
+          "D": "p = p<sub>0</sub> - ρgh."
         },
         "answer": "D",
-        "explanation": "⟹ Đáp án đúng: D\n\n\n81 ===\nGiải thích:\nGọi S là diện tích đáy của ống hình trụ.\nLượng khí bị nén bởi trọng lượng của chất lỏng. Do đó ta áp dụng công thức:\np p<sub>0</sub>\nF\nS\nF P\np p<sub>0</sub>\nP\nS\np<sub>0</sub>\nm\nS\ng\np<sub>0</sub>\nV\nS\ng V S h\np p<sub>0</sub>\ng h\n\n = +  \n = \n → = + = + = +  \n = \n  → = +"
+        "explanation": "⟹ Đáp án đúng: D\n\n\n81 ===\nGiải thích:\nGọi S là diện tích đáy của ống hình trụ.\nLượng khí bị nén bởi trọng lượng của chất lỏng. Do đó ta áp dụng công thức:\np p<sub>0</sub>\nF\nS\nF P\np p<sub>0</sub>\nP\nS\np<sub>0</sub>\nm\nS\ng\np<sub>0</sub>\nV\nS\ng V S h\np p<sub>0</sub>\ng h\nρ\nρ = +  \n = \n → = + = + = +  \n = \n  → = +"
       },
       {
         "id": 47,
@@ -7780,7 +7780,7 @@
           "D": "Pit tông dịch sang phải một đoạn là 15 cm."
         },
         "answer": "B",
-        "explanation": "⟹ Đáp án đúng: B\nGiải thích:\nDo áp suất tăng nên suy ra thể tích phải giảm. Do đó pit-tông phải dịch sang trái\nTrạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n𝑝 = 4𝑝\n2 1\nThể tích V<sub>1</sub>\n = S l V<sub>2</sub>\n = S  l -  l \n*Áp dụng ĐL Bôi-lơ: 𝑝 𝑉 = 𝑝 𝑉 ⇒ 𝑝 𝑆𝑙 = 4𝑝 .𝑆(𝑙−𝛥𝑙)\n1 1 2 1 1\n𝑙=20𝑐𝑚\n⇒ 𝑙 = 4(𝑙−𝛥𝑙)→ 𝛥𝑙 = 15𝑐𝑚"
+        "explanation": "⟹ Đáp án đúng: B\nGiải thích:\nDo áp suất tăng nên suy ra thể tích phải giảm. Do đó pit-tông phải dịch sang trái\nTrạng thái 1 Trạng thái 2\nÁp suất p<sub>1</sub>\n𝑝 = 4𝑝\n2 1\nThể tích V<sub>1</sub>\n = S l V<sub>2</sub>\n = S ( l - Δ l )\n*Áp dụng ĐL Bôi-lơ: 𝑝 𝑉 = 𝑝 𝑉 ⇒ 𝑝 𝑆𝑙 = 4𝑝 .𝑆(𝑙−𝛥𝑙)\n1 1 2 1 1\n𝑙=20𝑐𝑚\n⇒ 𝑙 = 4(𝑙−𝛥𝑙)→ 𝛥𝑙 = 15𝑐𝑚"
       },
       {
         "id": 48,
@@ -7849,13 +7849,13 @@
         "question": "Ở chính giữa một ống thủy tinh nằm ngang, tiết diện nhỏ, chiều dài L = 100cm, hai đầu bịt kín có một\ncột thủy ngân dài h = 20cm. Trong ống có không khí. Khi đặt ống thẳng đứng cột thủy ngân dịch chuyển xuống\ndưới một đoạn l = 12cm. Tìm áp suất của không khí trong ống khi ống nằm ngang ra cmHg và Pa. Coi nhiệt\nđộ không khí trong ống không đổi và khối lượng riêng thủy ngân là ρ = 1,36.104kg/m<sup>3</sup>.",
         "prompt": "Ở chính giữa một ống thủy tinh nằm ngang, tiết diện nhỏ, chiều dài L = 100cm, hai đầu bịt kín có một\ncột thủy ngân dài h = 20cm. Trong ống có không khí. Khi đặt ống thẳng đứng cột thủy ngân dịch chuyển xuống\ndưới một đoạn l = 12cm. Tìm áp suất của không khí trong ống khi ống nằm ngang ra cmHg và Pa. Coi nhiệt\nđộ không khí trong ống không đổi và khối lượng riêng thủy ngân là ρ = 1,36.104kg/m<sup>3</sup>.",
         "options": {
-          "A": "5,1.104 Pa",
-          "B": "4,4.104 Pa",
-          "C": "2,2.104 Pa",
-          "D": "104 Pa"
+          "A": "5,1.10<sup>4</sup> Pa",
+          "B": "4,4.10<sup>4</sup> Pa",
+          "C": "2,2.10<sup>4</sup> Pa",
+          "D": "10<sup>4</sup> Pa"
         },
         "answer": "A",
-        "explanation": "⟹ Đáp án đúng: A\nGiải thích:\nTrạng thái 1 của mỗi lượng khí ở hai bên cột thủy ngân (ống nằm ngang):\n p\nV<sub>1</sub>\n1\n = \nL - \n2\nh\n.S\nTrạng thái 2 (ống thẳng đứng)\n𝑝\n2\n+ Đối với lượng khí ở trên cột thủy ngân: {\n𝐿−ℎ\n𝑉 = ( +𝑙).𝑆\n2\n2\n𝑝′\n2\n+ Đối với lượng khí ở dưới cột thủy ngân: {\n𝑉′ = ( 𝐿−ℎ −𝑙).𝑆\n2\n2\nÁp suất khí ở phần dưới bằng áp suất khí ở phần trên cộng với áp suất do cột thủy ngân gây ra. Do đó đối với\n𝑝′ = 𝑝 + ℎ\n2 2\nkhí ở phần dưới, ta có: {\n𝑉′ = ( 𝐿−ℎ −𝑙).𝑆\n2\n2\nÁp dụng định luật Boyle cho từng lượng khí. Ta có:\n+ Đối với khí ở trên: p<sub>1</sub>\n( L - h )\nS\n2\n = p<sub>2</sub>\n( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = p<sub>2</sub>\n( L - h + 2 l ) (1 )\n+ Đối với khí ở dưới:\n𝑆 𝑆\n𝑝 (𝐿−ℎ) = (𝑝 +ℎ)(𝐿−ℎ−2𝑙) ⇒ 𝑝 (𝐿−ℎ) = (𝑝 +ℎ)(𝐿−ℎ−2𝑙)(2)\n1 2 2 2 1 2\n\n\n83 ===\nℎ(𝐿−ℎ−2𝑙) ℎ[(𝐿−ℎ)2−4𝑙2]\nTừ hai phương trình (1) và (2) rút ra: 𝑝 = Thay giá trị của p vào (1) ta được: 𝑝 = =\n2 2 1\n4𝑙 4𝑙(𝐿−𝑙)\n20[(100−20)2−4.152]\n= = 33,08 ≈ 33 𝑐𝑚𝐻𝑔\n4.15(100−20)\np = 33cmHg)\n1\np = ρgH = 1,36.104.9,8.0,33 = 4,4.104 Pa.\n1"
+        "explanation": "⟹ Đáp án đúng: A\nGiải thích:\nTrạng thái 1 của mỗi lượng khí ở hai bên cột thủy ngân (ống nằm ngang):\n p\nV<sub>1</sub>\n1\n = \nL - \n2\nh\n.S\nTrạng thái 2 (ống thẳng đứng)\n𝑝\n2\n+ Đối với lượng khí ở trên cột thủy ngân: {\n𝐿−ℎ\n𝑉 = ( +𝑙).𝑆\n2\n2\n𝑝′\n2\n+ Đối với lượng khí ở dưới cột thủy ngân: {\n𝑉′ = ( 𝐿−ℎ −𝑙).𝑆\n2\n2\nÁp suất khí ở phần dưới bằng áp suất khí ở phần trên cộng với áp suất do cột thủy ngân gây ra. Do đó đối với\n𝑝′ = 𝑝 + ℎ\n2 2\nkhí ở phần dưới, ta có: {\n𝑉′ = ( 𝐿−ℎ −𝑙).𝑆\n2\n2\nÁp dụng định luật Boyle cho từng lượng khí. Ta có:\n+ Đối với khí ở trên: p<sub>1</sub>\n( L - h )\nS\n2\n = p<sub>2</sub>\n( L - h + 2 l )\nS\n2\n ⇒ p<sub>1</sub>\n( L - h ) = p<sub>2</sub>\n( L - h + 2 l ) (1 )\n+ Đối với khí ở dưới:\n𝑆 𝑆\n𝑝 (𝐿−ℎ) = (𝑝 +ℎ)(𝐿−ℎ−2𝑙) ⇒ 𝑝 (𝐿−ℎ) = (𝑝 +ℎ)(𝐿−ℎ−2𝑙)(2)\n1 2 2 2 1 2\n\n\n83 ===\nℎ(𝐿−ℎ−2𝑙) ℎ[(𝐿−ℎ)2−4𝑙2]\nTừ hai phương trình (1) và (2) rút ra: 𝑝 = Thay giá trị của p vào (1) ta được: 𝑝 = =\n2 2 1\n4𝑙 4𝑙(𝐿−𝑙)\n20[(100−20)2−4.152]\n= = 33,08 ≈ 33 𝑐𝑚𝐻𝑔\n4.15(100−20)\np = 33cmHg)\n1\np = ρgH = 1,36.10<sup>4</sup>.9,8.0,33 = 4,4.10<sup>4</sup> Pa.\n1"
       },
       {
         "id": 51,
@@ -7946,8 +7946,8 @@
         "label": "Phần 1 - Câu 54",
         "topic": "Bài tập theo mức độ",
         "figure": "assets/images/quiz/phys/boyle_p84_img1.png",
-        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở trên?",
-        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở trên?",
+        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở trên?",
+        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h = 20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở trên?",
         "options": {
           "A": "56,128 cm",
           "B": "44,651 cm",
@@ -7955,7 +7955,7 @@
           "D": "52,121 cm"
         },
         "answer": "B",
-        "explanation": "⟹ Đáp án đúng: B\nGiải thích:\nỐng đặt nghiêng góc 𝛼 = 300 so với phương ngang, miệng ở trên.\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là ℎ′ = ℎ.\n𝑠𝑖𝑛30𝜊 = ℎ\n2\nTa có 𝑝 .𝑉 = 𝑝 .𝑉 ,\n1 1 2 2\n𝑝 = 𝑝 +ℎ\n{ 1 0\n𝑉 = 𝑙 .𝑆 = 40.𝑆\n1 1\n𝑝 = 𝑝 +ℎ𝑠𝑖𝑛𝛼\n{ 2 0\n𝑉 = 𝑙 .𝑆\n2 2\n=> 𝑝 𝑉 = 𝑝 𝑉 ⇔ (𝑝 +ℎ)𝑙 𝑆 = (𝑝 +ℎ𝑠𝑖𝑛𝛼)𝑙 𝑆 => 𝑙 = 44,65𝑐𝑚\n1 1 2 2 0 1 0 2 2"
+        "explanation": "⟹ Đáp án đúng: B\nGiải thích:\nỐng đặt nghiêng góc 𝛼 = 30° so với phương ngang, miệng ở trên.\nCột thủy ngân có độ dài là h nhưng khi đặt nghiêng ra thì độ cao của cột thủy ngân là ℎ′ = ℎ.\n𝑠𝑖𝑛30𝜊 = ℎ\n2\nTa có 𝑝 .𝑉 = 𝑝 .𝑉 ,\n1 1 2 2\n𝑝 = 𝑝 +ℎ\n{ 1 0\n𝑉 = 𝑙 .𝑆 = 40.𝑆\n1 1\n𝑝 = 𝑝 +ℎ𝑠𝑖𝑛𝛼\n{ 2 0\n𝑉 = 𝑙 .𝑆\n2 2\n=> 𝑝 𝑉 = 𝑝 𝑉 ⇔ (𝑝 +ℎ)𝑙 𝑆 = (𝑝 +ℎ𝑠𝑖𝑛𝛼)𝑙 𝑆 => 𝑙 = 44,65𝑐𝑚\n1 1 2 2 0 1 0 2 2"
       },
       {
         "id": 55,
@@ -7971,8 +7971,8 @@
         "label": "Phần 1 - Câu 55",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h =20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở dưới ?",
-        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h =20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 300 so vói phương ngang, miệng ở dưới ?",
+        "question": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h =20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở dưới ?",
+        "prompt": "Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diện đều, ban đầu đặt ống thẳng đứng miệng\nống hướng lên, trong ống về phía đáy có cột không khí dài 40cm và được ngăn cách với bên ngoài bằng cột\nthủy ngân dài h =20cm. Áp suất khí quyển 76cmHg và nhiệt độ không đổi. Tính chiều cao của cột không khí\ntrong ống của trường hợp ống đặt nghiêng góc 30° so với phương ngang, miệng ở dưới ?",
         "options": {
           "A": "58,182 cm",
           "B": "43,373 cm",
@@ -8176,8 +8176,8 @@
         "label": "Phần 2 - Câu 6",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.105)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
-        "prompt": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.105)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
+        "question": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.10<sup>5</sup>)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
+        "prompt": "Một bọt khí có thể tích 2 cm³ được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 150 m dưới mực nước\nbiển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là 1.03 × 10³ kg/m³. Áp\nsuất khí quyển là 1.02 × 10⁵ Pa, g = 9.8 m/s².\nA. Áp suất của bọt khí ở độ sâu 150m dưới mực nước biển là 16.16 × 10⁵ Pa. ⟹ Đ\n(𝑃 = 𝑃 +𝜌𝑔ℎ = 16,161.10<sup>5</sup>)\n0\nB. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển 𝑃 = 1.02×105𝑃𝑎 ⟹ S\n0\n(Khi bọt khí nổi lên mặt nước, áp suất của nó sẽ là áp suất khí quyển, không thể nhỏ hơn)\n\n\n88 ===\nC. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước\nvà dưới mặt nước 150 m. ⟹ Đ\nD. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 23 cm³. ⟹ S\n(Theo định luật Boyle: 𝑃 𝑉 = 𝑃 𝑉 => 𝑉 = 31,686 𝑐𝑚3\n1 1 2 2 2",
         "statements": {},
         "answer": {
           "a": "Đ",
@@ -8278,8 +8278,8 @@
         "label": "Phần 3 - Câu 4",
         "topic": "Bài tập theo mức độ",
         "figure": "",
-        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-\ntông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
-        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-\ntông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
+        "question": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
+        "prompt": "Một bơm xe đạp có đường kính trong là 4 cm. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn pit-tông từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là 𝑝 = 105\n0\nPa. Khi tác dụng lực 628N thì thể tích của không khí trong bơm giảm đi bao nhiêu lần?",
         "answer": "4",
         "acceptedAnswers": [
           "4",
@@ -8347,8 +8347,8 @@
         "label": "Phần 3 - Câu 7",
         "topic": "Bài tập theo mức độ",
         "figure": "assets/images/quiz/phys/boyle_p89_img1.png",
-        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài h (cm) chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup> và nước dần lên trong ống là 2,3cm. Chiều cao cột\nchứa không khí lúc đầu bao nhiêu cm?",
-        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài h (cm) chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Biết trọng lượng riêng của nước là: d = 104 N/m<sup>3</sup> và nước dần lên trong ống là 2,3cm. Chiều cao cột\nchứa không khí lúc đầu bao nhiêu cm?",
+        "question": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài h (cm) chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup> và nước dần lên trong ống là 2,3cm. Chiều cao cột\nchứa không khí lúc đầu bao nhiêu cm?",
+        "prompt": "Một ông thủy tinh hình trụ, một đầu kín một đầu hở, dài h (cm) chứa không khí với áp suất khí quyến\n10<sup>5</sup> N/m<sup>2</sup>. Ẩn ống xuống chậu nước theo phương thẳng đứng, miệng ống ở dưới sao cho đầu kín ngang với mặt\nnước. Biết trọng lượng riêng của nước là: d = 10<sup>4</sup> N/m<sup>3</sup> và nước dần lên trong ống là 2,3cm. Chiều cao cột\nchứa không khí lúc đầu bao nhiêu cm?",
         "answer": "50,3",
         "acceptedAnswers": [
           "50,3",
