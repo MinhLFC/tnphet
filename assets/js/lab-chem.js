@@ -449,9 +449,9 @@
     
     // Bài 16 (Chương 5)
     if (exam.id === 'chem_ch5_cd2') {
-      if (q.id <= 50) return { key: 'cd2_s1', code: 'Mục 2.1', title: '2.1. Trắc nghiệm: Quá trình & Hiện tượng điện phân (Câu 1 - 50)' };
-      if (q.id <= 70) return { key: 'cd2_s2', code: 'Mục 2.2', title: '2.2. Đúng/Sai: Điện phân nóng chảy & dung dịch (Câu 1 - 20)' };
-      return { key: 'cd2_s3', code: 'Mục 2.3', title: '2.3. Trả lời ngắn: Định luật Faraday & Tính toán (Câu 1 - 12)' };
+      if (q.id <= 100) return { key: 'cd2_s1', code: 'Phần I', title: 'Phần I: Trắc nghiệm nhiều lựa chọn (Câu 1 - 100)' };
+      if (q.id <= 127) return { key: 'cd2_s2', code: 'Phần II', title: 'Phần II: Trắc nghiệm Đúng/Sai (Câu 1 - 27)' };
+      return { key: 'cd2_s3', code: 'Phần III', title: 'Phần III: Trắc nghiệm Trả lời ngắn (Câu 1 - 30)' };
     }
     
     // Bài tập phân dạng (chem_ch5_dang)
