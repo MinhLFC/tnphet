@@ -269,16 +269,16 @@
             <div class="quiz-title-badge">⚗️</div>
             <div class="quiz-title-text">
               <h3>${exam.title}: ${exam.subtitle || exam.title} (${exam.shortTitle || exam.title})</h3>
-              <p>${exam.group === 'chuyende' ? `Chuyên đề tự luyện ${totalCount} câu: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)` : `Trọn bộ 28 câu chuẩn cấu trúc mới Bộ GD&ĐT: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)`}</p>
+              <p>${(exam.group === 'chuyende' || totalCount !== 28) ? `Chuyên đề tự luyện ${totalCount} câu: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)` : `Trọn bộ 28 câu chuẩn cấu trúc mới Bộ GD&ĐT: Trắc nghiệm ABCD (${p1Count}c) • Đúng/Sai (${p2Count}c) • Trả lời ngắn (${p3Count}c)`}</p>
             </div>
           </div>
 
           <div class="quiz-controls-group">
             <!-- Chuyển chế độ Trình chiếu / Danh sách / Lý thuyết -->
             <div class="quiz-mode-switch">
-              ${(exam.essayQuestions || []).length > 0 ? `
+              ${((exam.essayQuestions || []).length > 0 || exam.theoryHtml) ? `
                 <button class="quiz-mode-btn ${state.mode === 'theory' ? 'active' : ''}" onclick="window.ChemQuizApp.setMode('theory')">
-                  📖 Lý thuyết &amp; Ví dụ (${(exam.essayQuestions || []).length})
+                  📖 Lý thuyết &amp; Ví dụ${(exam.essayQuestions || []).length > 0 ? ` (${(exam.essayQuestions || []).length})` : ''}
                 </button>
               ` : ''}
               <button class="quiz-mode-btn ${state.mode === 'slide' ? 'active' : ''}" onclick="window.ChemQuizApp.setMode('slide')">
@@ -1086,7 +1086,7 @@ function renderSlideView(filtered) {
       <div class="oxyz-theory-view-wrapper">
         ${exam.theoryHtml || ''}
 
-        <div class="oxyz-essay-section">
+        ${essays.length > 0 ? `<div class="oxyz-essay-section">
           <div class="oxyz-essay-section-header">
             <div>
               <h4>📖 VÍ DỤ MẪU & BÀI TẬP ÁP DỤNG (${essays.length} BÀI)</h4>
@@ -1135,7 +1135,13 @@ function renderSlideView(filtered) {
               `;
             }).join('')}
           </div>
-        </div>
+        </div>` : `
+          <div style="margin-top:16px;text-align:center;">
+            <button type="button" class="slide-reveal-btn" onclick="window.ChemQuizApp.setMode('slide')">
+              🖥️ Chuyển sang Luyện tập trắc nghiệm (${exam.questions.length} câu) ➔
+            </button>
+          </div>
+        `}
       </div>
     `;
   }

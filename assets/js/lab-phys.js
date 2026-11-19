@@ -416,19 +416,26 @@
 
     let curCat = state.category;
     if (!curCat) {
-      if (state.currentExamId.startsWith('ly_boyle_')) curCat = 'boyle';
+      if (state.currentExamId.startsWith('ly_charles_')) curCat = 'charles';
+      else if (state.currentExamId.startsWith('ly_boyle_')) curCat = 'boyle';
       else if (state.currentExamId.startsWith('ly_cd2_')) curCat = 'dhpt';
       else curCat = 'nhiet';
     }
     state.category = curCat;
 
+    const charlesExams = allExams.filter(e => e.group === 'charles' || e.code.startsWith('ly_charles_'));
     const boyleExams = allExams.filter(e => e.group === 'boyle' || e.code.startsWith('ly_boyle_'));
     const dhptExams = allExams.filter(e => e.group === 'dhpt' || (e.code.startsWith('ly_cd2_') && !e.code.startsWith('ly_boyle_')));
-    const nhietExams = allExams.filter(e => e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
+    const nhietExams = allExams.filter(e => e.group !== 'charles' && e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_charles_') && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
 
     let activeExamList = boyleExams;
-    if (curCat === 'dhpt') activeExamList = dhptExams.length ? dhptExams : allExams;
+    if (curCat === 'charles') activeExamList = charlesExams.length ? charlesExams : allExams;
+    else if (curCat === 'dhpt') activeExamList = dhptExams.length ? dhptExams : allExams;
     else if (curCat === 'nhiet') activeExamList = nhietExams.length ? nhietExams : allExams;
+
+    if (state.mode === 'theory' && !exam.theoryHtml) {
+      state.mode = 'slide';
+    }
 
     root.innerHTML = `
       <div class="quiz-workspace ${state.isFullscreen ? 'fullscreen-active' : ''}" id="physWorkspace" style="--quiz-scale: ${state.fontScale}">
@@ -443,8 +450,13 @@
           </div>
 
           <div class="quiz-controls-group">
-            <!-- Chuyển chế độ Trình chiếu / Danh sách -->
+            <!-- Chuyển chế độ Lý thuyết / Trình chiếu / Danh sách -->
             <div class="quiz-mode-switch">
+              ${exam.theoryHtml ? `
+                <button class="quiz-mode-btn ${state.mode === 'theory' ? 'active' : ''}" onclick="window.PhysQuizApp.setMode('theory')">
+                  📖 Lý thuyết
+                </button>
+              ` : ''}
               <button class="quiz-mode-btn ${state.mode === 'slide' ? 'active' : ''}" onclick="window.PhysQuizApp.setMode('slide')">
                 🖥️ Trình chiếu (Slide)
               </button>
@@ -489,6 +501,13 @@
         <div class="math-exam-selector-bar selector-40-exams">
           <div class="math-exam-top-row">
             <div class="math-category-tabs">
+              <button
+                type="button"
+                class="math-category-tab-btn ${curCat === 'charles' ? 'active' : ''}"
+                onclick="window.PhysQuizApp.selectCategory('charles')"
+              >
+                📈 CĐ3: Định Luật Charles (104 câu)
+              </button>
               <button
                 type="button"
                 class="math-category-tab-btn ${curCat === 'boyle' ? 'active' : ''}"
@@ -567,7 +586,7 @@
         </div>
 
         <!-- THÂN NỘI DUNG: SLIDE HOẶC LIST -->
-        ${state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered)}
+        ${state.mode === 'theory' ? renderTheoryView(exam) : (state.mode === 'slide' ? renderSlideView(filtered) : renderListView(filtered))}
 
         <!-- MODAL BẢNG ĐÁP ÁN -->
         ${state.answerKeyModalOpen ? renderAnswerKeyModal(exam) : ''}
@@ -586,6 +605,19 @@
             </div>
           </div>
         ` : ''}
+      </div>
+    `;
+  }
+
+  function renderTheoryView(exam) {
+    return `
+      <div class="oxyz-theory-view-wrapper">
+        ${exam.theoryHtml || ''}
+        <div style="margin-top:16px;text-align:center;">
+          <button type="button" class="slide-reveal-btn" onclick="window.PhysQuizApp.setMode('slide')">
+            🖥️ Chuyển sang Luyện tập trắc nghiệm (${exam.questions.length} câu) ➔
+          </button>
+        </div>
       </div>
     `;
   }
@@ -1176,7 +1208,7 @@
   // ==================== KEYBOARD NAVIGATION ====================
   function setupKeyboard() {
     window.addEventListener('keydown', (e) => {
-      const panel = document.getElementById('panel-li12');
+      const panel = document.getElementById('panel-ly12') || document.getElementById('panel-li12');
       if (!panel || !panel.classList.contains('active')) return;
 
       if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) {
@@ -1204,8 +1236,11 @@
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         window.PhysQuizApp.nextSlide();
-      } else if (e.key === ' ') {
+      } else if (e.key === ' ' || e.code === 'Space') {
         e.preventDefault();
+        if (document.activeElement && document.activeElement.tagName === 'BUTTON') {
+          document.activeElement.blur();
+        }
         window.PhysQuizApp.toggleReveal(currentQ.id);
       } else if (e.key === 's' || e.key === 'S') {
         e.preventDefault();
@@ -1239,14 +1274,17 @@
       state.currentIndex = 0;
       const exams = window.PHYS_EXAMS_DATA || {};
       const allExams = Object.values(exams);
-      if (cat === 'boyle') {
+      if (cat === 'charles') {
+        const c = allExams.filter(e => e.group === 'charles' || e.code.startsWith('ly_charles_'));
+        if (c.length) state.currentExamId = c[0].code;
+      } else if (cat === 'boyle') {
         const b = allExams.filter(e => e.group === 'boyle' || e.code.startsWith('ly_boyle_'));
         if (b.length) state.currentExamId = b[0].code;
       } else if (cat === 'dhpt') {
         const d = allExams.filter(e => e.group === 'dhpt' || (e.code.startsWith('ly_cd2_') && !e.code.startsWith('ly_boyle_')));
         if (d.length) state.currentExamId = d[0].code;
       } else {
-        const n = allExams.filter(e => e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
+        const n = allExams.filter(e => e.group !== 'charles' && e.group !== 'boyle' && e.group !== 'dhpt' && !e.code.startsWith('ly_charles_') && !e.code.startsWith('ly_boyle_') && !e.code.startsWith('ly_cd2_'));
         if (n.length) state.currentExamId = n[0].code;
       }
       saveState();

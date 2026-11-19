@@ -2166,9 +2166,37 @@
     }
   }
 
+  // Tích hợp 14 Đề Ôn Tập Học Kì 1 Toán 12
+  if (window.MATH_HK1_EXAMS_DATA) {
+    for (const [code, examData] of Object.entries(window.MATH_HK1_EXAMS_DATA)) {
+      if (Array.isArray(examData.essayQuestions) && examData.essayQuestions.length > 0) {
+        const hasPart4 = examData.questions.some(q => q.part === 4 || q.type === 'essay');
+        if (!hasPart4) {
+          examData.essayQuestions.forEach((eq, idx) => {
+            const qNum = eq.id || (idx + 1);
+            examData.questions.push({
+              id: 18 + qNum,
+              part: 4,
+              qnum: qNum,
+              type: 'essay',
+              shortTag: `P4.${qNum}`,
+              label: eq.label || `Phần 4 - Câu ${qNum}`,
+              topic: eq.topic || 'Tự luận tổng hợp',
+              figure: eq.figure || null,
+              question: eq.question,
+              explanation: eq.explanation
+            });
+          });
+        }
+        delete examData.essayQuestions;
+      }
+      MATH_EXAMS[code] = examData;
+    }
+  }
+
   // Trạng thái ứng dụng Đề Toán 12
   const state = {
-    category: 'dinhki', // 'dinhki' | 'kha' | 'thpt' | 'oxyz'
+    category: 'dinhki', // 'dinhki' | 'kha' | 'hk1_14' | 'thpt' | 'oxyz'
     examGroup: 'gk1',
     examCode: window.MATH_ALL_EXAMS_DATA ? 'gk1_de1' : 'de2',
     mode: 'slide', // 'slide' | 'list' | 'theory'
@@ -2271,17 +2299,21 @@
 
   function getExamStats() {
     const exam = getCurrentExam();
+    let total = 0;
     let correct = 0;
     let wrong = 0;
     let starred = 0;
     exam.questions.forEach((q) => {
-      const st = evaluateQuestionStatus(q);
-      if (st === 'CORRECT') correct++;
-      else if (st === 'WRONG') wrong++;
+      if (q.part !== 4 && q.type !== 'essay') {
+        total++;
+        const st = evaluateQuestionStatus(q);
+        if (st === 'CORRECT') correct++;
+        else if (st === 'WRONG') wrong++;
+      }
       if (state.starredQuestions[getQKey(q.id)]) starred++;
     });
     return {
-      total: exam.questions.length,
+      total,
       answered: correct + wrong,
       correct,
       wrong,
@@ -2302,6 +2334,7 @@
     const p1Count = exam.questions.filter(q => q.part === 1).length;
     const p2Count = exam.questions.filter(q => q.part === 2).length;
     const p3Count = exam.questions.filter(q => q.part === 3).length;
+    const p4Count = exam.questions.filter(q => q.part === 4).length;
     const hasTheory = !!(exam.theoryHtml || (exam.essayQuestions && exam.essayQuestions.length > 0));
     if (state.mode === 'theory' && !hasTheory) {
       state.mode = 'slide';
@@ -2310,6 +2343,7 @@
     const catTitleMap = {
       dinhki: 'Bộ 20 Đề Ôn Định Kì Toán 12',
       kha: 'Bộ 25 Đề Ôn Tập Giữa Kì 1 — Thầy Minh',
+      hk1_14: 'Bộ 14 Đề Ôn Tập Học Kì 1 Toán 12',
       thpt: 'Đề Thi Khảo Sát / Giữa Kì 1 Trường THPT',
       oxyz: 'Chương 5: Phương Pháp Tọa Độ Trong Không Gian Oxyz'
     };
@@ -2398,6 +2432,13 @@
               </button>
               <button
                 type="button"
+                class="math-category-tab-btn ${state.category === 'hk1_14' ? 'active' : ''}"
+                onclick="window.MathQuizApp.selectCategory('hk1_14')"
+              >
+                📙 14 Đề Ôn Tập HK1
+              </button>
+              <button
+                type="button"
                 class="math-category-tab-btn ${state.category === 'thpt' ? 'active' : ''}"
                 onclick="window.MathQuizApp.selectCategory('thpt')"
               >
@@ -2430,6 +2471,11 @@
               <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 3 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(3)">
                 Phần 3: Trả lời ngắn (${p3Count})
               </button>
+              ${p4Count > 0 ? `
+                <button class="math-part-pill ${state.mode !== 'theory' && state.partFilter === 4 ? 'active' : ''}" onclick="window.MathQuizApp.setPartFilter(4)">
+                  ✍️ Phần 4: Tự luận (${p4Count})
+                </button>
+              ` : ''}
             </div>
           </div>
 
@@ -2457,6 +2503,25 @@
               ${Array.from({ length: 25 }, (_, i) => {
                 const num = i + 1;
                 const code = `kha_de${num}`;
+                const isAct = state.examCode === code;
+                const hasProg = hasExamProgress(code);
+                return `
+                  <button
+                    type="button"
+                    class="math-exam-num-btn ${isAct ? 'active' : ''} ${hasProg ? 'has-progress' : ''}"
+                    onclick="window.MathQuizApp.selectExam('${code}')"
+                    title="Chuyển sang Đề số ${num}"
+                  >
+                    Đề ${num}
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          ` : (state.category === 'hk1_14' ? `
+            <div class="math-exam-grid-20">
+              ${Array.from({ length: 14 }, (_, i) => {
+                const num = i + 1;
+                const code = `hk1_de${num}`;
                 const isAct = state.examCode === code;
                 const hasProg = hasExamProgress(code);
                 return `
@@ -2523,7 +2588,7 @@
                 `;
               }).join('')}
             </div>
-          `))}
+          `)))}
         </div>
 
         <!-- Thanh lọc trạng thái & Thống kê kết quả -->
@@ -2615,6 +2680,18 @@
                 </div>
               `).join('')}
             </div>
+
+            ${p4Count > 0 ? `
+              <h4 style="margin: 0.85rem 0 0.45rem; color: var(--primary-color);">PHẦN IV. Câu hỏi tự luận (${p4Count} câu)</h4>
+              <div class="answer-key-table-grid" style="grid-template-columns: repeat(4, 1fr);">
+                ${exam.questions.filter(q => q.part === 4).map(q => `
+                  <div class="ak-cell" onclick="window.MathQuizApp.jumpToQuestionId(${q.id}); window.MathQuizApp.closeAnswerKeyModal();">
+                    <span>${q.label.replace('Phần 4 - ', '')}:</span>
+                    <strong>Xem giải</strong>
+                  </div>
+                `).join('')}
+              </div>
+            ` : ''}
           </div>
         </div>
       </div>
@@ -2786,6 +2863,13 @@
         </div>
       `;
     }
+    if (q.type === 'essay') {
+      return `
+        <div class="math-essay-note" style="margin-top:0.5rem; padding:0.6rem 0.85rem; border-radius:8px; background:rgba(59,130,246,0.08); border-left:3px solid #3b82f6; font-size:0.88rem; color:var(--text-muted);">
+          ✍️ <strong>Câu hỏi tự luận (Phần IV):</strong> Trình bày lời giải ra giấy, sau đó bấm <strong>"Hiện đáp án &amp; Lời giải chi tiết"</strong> (hoặc phím <kbd>Space</kbd>) để đối chiếu.
+        </div>
+      `;
+    }
     return '';
   }
 
@@ -2795,6 +2879,7 @@
       return ['a', 'b', 'c', 'd'].map(k => `${k}) ${q.answers[k] ? 'Đ' : 'S'}`).join('  |  ');
     }
     if (q.type === 'short') return `KQ: ${q.answer}`;
+    if (q.type === 'essay') return 'Tự luận (xem hướng dẫn giải)';
     return '';
   }
 
@@ -2956,8 +3041,12 @@
                 if (star) cellClass += ' is-starred';
 
                 const shortTag = q.shortTag || (q.part === 1
-                  ? `P1.${q.id}`
-                  : (q.part === 2 ? `P2.${q.id - 12}` : `P3.${q.id - 16}`));
+                  ? `P1.${q.qnum || q.id}`
+                  : (q.part === 2
+                    ? `P2.${q.qnum || (q.id - 12)}`
+                    : (q.part === 3
+                      ? `P3.${q.qnum || (q.id - 16)}`
+                      : `P4.${q.qnum || (q.id - 18)}`)));
 
                 return `
                   <button
@@ -3059,7 +3148,7 @@
 
   window.MathQuizApp = {
     selectCategory(cat) {
-      if (cat !== 'dinhki' && cat !== 'thpt' && cat !== 'kha' && cat !== 'oxyz') return;
+      if (cat !== 'dinhki' && cat !== 'thpt' && cat !== 'kha' && cat !== 'hk1_14' && cat !== 'oxyz') return;
       state.category = cat;
       if (cat === 'dinhki') {
         if (!state.examCode.startsWith('gk1_')) {
@@ -3069,6 +3158,11 @@
       } else if (cat === 'kha') {
         if (!state.examCode.startsWith('kha_')) {
           state.examCode = 'kha_de1';
+        }
+        if (state.mode === 'theory') state.mode = 'slide';
+      } else if (cat === 'hk1_14') {
+        if (!state.examCode.startsWith('hk1_de')) {
+          state.examCode = 'hk1_de1';
         }
         if (state.mode === 'theory') state.mode = 'slide';
       } else if (cat === 'thpt') {
@@ -3091,6 +3185,8 @@
         state.category = 'thpt';
       } else if (examCode.startsWith('kha_')) {
         state.category = 'kha';
+      } else if (examCode.startsWith('hk1_de')) {
+        state.category = 'hk1_14';
       } else if (examCode.startsWith('oxyz_')) {
         state.category = 'oxyz';
       } else {
